@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Soulrend Wiki: site config (site/site.json)",
+  "type": "object",
+  "required": [
+    "title",
+    "defaultStyle",
+    "nav"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "description": "Site name shown in the header and browser tab."
+    },
+    "description": {
+      "type": "string",
+      "description": "Fallback meta description for pages without a summary."
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https?://.+/$",
+      "description": "Public address of the deployed wiki, ending in /, e.g. \"https://wiki.example.com/\". Enables sitemap.xml, canonical links and preview images."
+    },
+    "logo": {
+      "type": "string",
+      "description": "Logo path under assets/, e.g. \"logo.png\"."
+    },
+    "defaultStyle": {
+      "type": "string",
+      "description": "Theme file name (without .json) used for first-time visitors."
+    },
+    "defaultMode": {
+      "enum": [
+        "system",
+        "light",
+        "dark"
+      ],
+      "description": "Initial light/dark mode. \"system\" follows the OS setting."
+    },
+    "iconSize": {
+      "type": "integer",
+      "enum": [
+        16,
+        32,
+        64
+      ],
+      "description": "Pixel size of exported item icons in game-data/icons."
+    },
+    "layout": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sidebarWidth": {
+          "type": "string",
+          "description": "CSS length, e.g. \"240px\"."
+        },
+        "contentMaxWidth": {
+          "type": "string",
+          "description": "Maximum width of the article column."
+        },
+        "infoboxWidth": {
+          "type": "string",
+          "description": "Width of the right-hand infobox on desktop."
+        },
+        "gutter": {
+          "type": "string",
+          "description": "Spacing between columns and around content."
+        },
+        "mobileBreakpoint": {
+          "type": "string",
+          "pattern": "^\\d+px$",
+          "description": "Below this width the mobile layout is used, e.g. \"900px\"."
+        }
+      }
+    },
+    "nav": {
+      "type": "array",
+      "description": "Sidebar sections, top to bottom.",
+      "items": {
+        "$ref": "#/definitions/navSection"
+      }
+    },
+    "footer": {
+      "type": "string",
+      "description": "Markdown shown at the bottom of every page."
+    }
+  },
+  "definitions": {
+    "navSection": {
+      "type": "object",
+      "required": [
+        "label"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "collapsed": {
+          "type": "boolean",
+          "description": "Start collapsed unless the current page is inside."
+        },
+        "items": {
+          "type": "array",
+          "description": "Page paths (\"guides/getting-started\") or external links.",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/definitions/navLink"
+              }
+            ]
+          }
+        },
+        "category": {
+          "type": "string",
+          "description": "Also list every page whose header has this category."
+        }
+      }
+    },
+    "navLink": {
+      "type": "object",
+      "required": [
+        "label",
+        "href"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "href": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

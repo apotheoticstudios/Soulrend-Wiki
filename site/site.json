@@ -1,0 +1,32 @@
+{
+  "$schema": "./schemas/site.schema.json",
+  "title": "Soulrend Wiki",
+  "description": "The wiki for Soulrend, a Forge 1.20.1 adventure modpack.",
+  "defaultStyle": "soulrend",
+  "defaultMode": "system",
+  "iconSize": 32,
+  "layout": {
+    "sidebarWidth": "260px",
+    "contentMaxWidth": "920px",
+    "infoboxWidth": "300px",
+    "gutter": "24px",
+    "mobileBreakpoint": "900px"
+  },
+  "nav": [
+    { "label": "Start here", "items": ["index", "guides/getting-started"] },
+    { "label": "Guides", "category": "Guides" },
+    { "label": "Progression", "category": "Progression" },
+    { "label": "Origins", "category": "Origins" },
+    { "label": "Skill Trees", "category": "Skill Trees" },
+    { "label": "Bosses", "category": "Bosses" },
+    { "label": "Enemies", "category": "Enemies", "collapsed": true },
+    { "label": "Items", "category": "Items", "collapsed": true },
+    { "label": "Blocks", "category": "Blocks" },
+    { "label": "Magic", "category": "Magic" },
+    { "label": "Features", "category": "Features", "collapsed": true },
+    { "label": "Build Guides", "category": "Build Guides" },
+    { "label": "Mods", "category": "Mods", "collapsed": true },
+    { "label": "FAQ", "category": "FAQ", "collapsed": true }
+  ],
+  "footer": "Soulrend Wiki · Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft."
+}

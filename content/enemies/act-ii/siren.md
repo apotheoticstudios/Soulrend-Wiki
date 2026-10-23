@@ -1,0 +1,12 @@
+---
+{
+  "title": "Siren (Enemy)",
+  "summary": "Ice and Fire; kill 3 at Sirens Cove.",
+  "hidden": true
+}
+---
+<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
+> [!NOTE]
+> Placeholder page from the wiki outline.
+
+Ice and Fire; kill 3 at Sirens Cove.

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/station.schema.json",
+  "label": "Stonecutter",
+  "icon": "minecraft:stonecutter",
+  "size": [86, 26],
+  "inputs": [{ "at": [0, 4] }],
+  "outputs": [{ "at": [60, 0], "large": true }],
+  "decorations": [{ "type": "arrow", "at": [28, 5] }],
+  "recipes": {
+    "minecraft:stonecutting": "single"
+  }
+}

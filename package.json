@@ -1,0 +1,21 @@
+{
+  "name": "soulrend-wiki",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "build": "node tools/build.mjs",
+    "sync-game": "node tools/sync-game.mjs",
+    "font": "node tools/make-font.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "fflate": "^0.8.3",
+    "markdown-it": "^15.0.3",
+    "minisearch": "^7.2.0",
+    "opentype.js": "^2.0.0",
+    "pngjs": "^7.0.0",
+    "three": "^0.186.1",
+    "wawoff2": "^2.0.1"
+  }
+}

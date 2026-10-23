@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Soulrend Wiki: style (site/themes/<style>.json)",
+  "type": "object",
+  "required": [
+    "name",
+    "light",
+    "dark"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "description": "Label shown in the style picker."
+    },
+    "order": {
+      "type": "number",
+      "description": "Position in the style picker (lowest first)."
+    },
+    "fonts": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "\"sans\", \"serif\", \"mono\", \"minecraft\", or any CSS font-family list.",
+      "properties": {
+        "body": {
+          "type": "string"
+        },
+        "heading": {
+          "type": "string"
+        },
+        "ui": {
+          "type": "string"
+        }
+      }
+    },
+    "vars": {
+      "type": "object",
+      "description": "Extra CSS variables shared by light and dark, e.g. { \"radius\": \"6px\" } becomes --radius.",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "light": {
+      "$ref": "#/definitions/tokens"
+    },
+    "dark": {
+      "$ref": "#/definitions/tokens"
+    }
+  },
+  "definitions": {
+    "tokens": {
+      "type": "object",
+      "description": "Colour tokens. camelCase keys become CSS variables (accentFg becomes --accent-fg).",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "required": [
+        "bg",
+        "surface",
+        "panel",
+        "fg",
+        "muted",
+        "border",
+        "accent",
+        "accentFg",
+        "link",
+        "linkBroken",
+        "codeBg",
+        "mark",
+        "slotBg",
+        "slotLight",
+        "slotDark",
+        "guiBg",
+        "guiLight",
+        "guiDark",
+        "guiFg",
+        "tooltipBg",
+        "tooltipBorder",
+        "tooltipBorder2",
+        "note",
+        "tip",
+        "warning",
+        "danger"
+      ]
+    }
+  }
+}

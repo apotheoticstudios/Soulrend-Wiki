@@ -1,0 +1,15 @@
+{
+  "$schema": "../schemas/station.schema.json",
+  "label": "Crafting Table",
+  "icon": "minecraft:crafting_table",
+  "size": [120, 54],
+  "inputs": [{ "at": [0, 0], "grid": [3, 3] }],
+  "outputs": [{ "at": [94, 14], "large": true }],
+  "decorations": [{ "type": "arrow", "at": [62, 19] }],
+  "recipes": {
+    "minecraft:crafting_shaped": "shaped",
+    "minecraft:crafting_shapeless": "shapeless",
+    "travelersbackpack:backpack_shaped": "shaped",
+    "sophisticatedstorage:shulker_box_from_vanilla_shapeless": "shapeless"
+  }
+}

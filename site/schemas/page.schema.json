@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Soulrend Wiki: page JSON header (content/**/*.md)",
+  "type": "object",
+  "required": ["title"],
+  "additionalProperties": false,
+  "properties": {
+    "title": { "type": "string", "minLength": 1 },
+    "navTitle": { "type": "string", "description": "Shorter title for the sidebar." },
+    "category": { "type": "string", "description": "Groups the page in sidebar sections that list this category." },
+    "order": { "type": "number", "description": "Sort position inside its category (lowest first, then by title)." },
+    "aliases": { "type": "array", "items": { "type": "string" }, "description": "Other names that [[links]] and search accept." },
+    "items": { "type": "array", "items": { "$ref": "#/definitions/itemId" }, "description": "Items this page covers; [[item:...]] links to them point here." },
+    "icon": { "$ref": "#/definitions/itemId", "description": "Item whose icon represents the page. Defaults to the first of items." },
+    "summary": { "type": "string", "description": "One or two sentences for search results, meta description and link previews." },
+    "hidden": { "type": "boolean", "description": "Build the page but leave it out of the sidebar and search." },
+    "infobox": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "description": "Defaults to the page title." },
+        "item": { "$ref": "#/definitions/itemId", "description": "Shows this item's icon large at the top." },
+        "image": { "type": "string", "description": "Image path, e.g. \"/assets/mobs/wraith.png\"." },
+        "model": { "type": "string", "description": "glTF model path under assets/, e.g. \"models/wraith.glb\"." },
+        "caption": { "type": "string" },
+        "rows": {
+          "type": "array",
+          "description": "[label, markdown value] pairs, or { \"heading\": \"...\" } to start a section.",
+          "items": {
+            "anyOf": [
+              { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
+              { "type": "object", "required": ["heading"], "additionalProperties": false, "properties": { "heading": { "type": "string" } } }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "itemId": { "type": "string", "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$" }
+  }
+}

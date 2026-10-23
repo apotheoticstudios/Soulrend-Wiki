@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/station.schema.json",
+  "label": "Furnace",
+  "icon": "minecraft:furnace",
+  "size": [86, 36],
+  "inputs": [{ "at": [0, 0] }],
+  "outputs": [{ "at": [60, 5], "large": true }],
+  "decorations": [
+    { "type": "flame", "at": [2, 21] },
+    { "type": "arrow", "at": [28, 10] }
+  ],
+  "recipes": {
+    "minecraft:smelting": "cooking",
+    "minecraft:blasting": { "adapter": "cooking", "label": "Blast Furnace", "icon": "minecraft:blast_furnace" },
+    "minecraft:smoking": { "adapter": "cooking", "label": "Smoker", "icon": "minecraft:smoker" },
+    "minecraft:campfire_cooking": { "adapter": "cooking", "label": "Campfire", "icon": "minecraft:campfire" }
+  }
+}

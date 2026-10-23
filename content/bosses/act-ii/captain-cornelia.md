@@ -1,0 +1,16 @@
+---
+{
+  "title": "Captain Cornelia",
+  "summary": "Aquamirae ghost captain, summoned with the Shell Horn.",
+  "hidden": true
+}
+---
+<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
+> [!NOTE]
+> Placeholder page from the wiki outline.
+
+Aquamirae ghost captain, summoned with the Shell Horn.
+
+## Notes
+
+- `aquamirae:captain_cornelia`

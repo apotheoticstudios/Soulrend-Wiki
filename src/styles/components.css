@@ -1,0 +1,239 @@
+/* Item icons, item references, infobox, tooltip, 3D model viewer. */
+
+/* Atlas sprite. --x/--y are the grid cell (set inline by the build); --size is the drawn size. */
+.mc-icon {
+  --size: 16px;
+  display: inline-block;
+  flex: none;
+  width: var(--size);
+  height: var(--size);
+  vertical-align: -0.15em;
+  background-repeat: no-repeat;
+  background-size: calc(var(--atlas-columns) * var(--size)) auto;
+  background-position: calc(var(--x) * var(--size) * -1) calc(var(--y) * var(--size) * -1);
+  image-rendering: pixelated;
+}
+.mc-icon.slot { --size: 32px; }
+.mc-icon.xl { --size: 96px; }
+/* Minecraft's own "missing texture" checkerboard */
+.mc-icon.missing {
+  background: repeating-conic-gradient(#f800f8 0 25%, #000 0 50%) 0 0 / 50% 50%;
+  opacity: 0.8;
+}
+
+.item-ref {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  vertical-align: bottom;
+}
+span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
+.item-ref .mc-icon { vertical-align: middle; }
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 6px;
+  margin: 0 0 1.2em !important;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-ui);
+  font-size: 15px;
+}
+.item-grid li { margin: 0 !important; padding: 6px 10px; background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius-small); }
+
+/* Infobox */
+.infobox {
+  float: right;
+  clear: right;
+  width: var(--infobox-width);
+  margin: 0 0 20px 28px;
+  overflow: hidden;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-ui);
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+.infobox-title {
+  padding: 10px 14px;
+  background: var(--accent);
+  color: var(--accent-fg);
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.infobox-media {
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.infobox-media img { max-height: 260px; }
+.infobox-caption { padding: 8px 14px; border-bottom: 1px solid var(--border); color: var(--muted); font-size: 13px; text-align: center; }
+.infobox-rows { width: 100%; border-collapse: collapse; }
+.infobox-rows th, .infobox-rows td { padding: 7px 14px; border-top: 1px solid var(--border); text-align: left; vertical-align: top; }
+.infobox-rows tr:first-child > * { border-top: 0; }
+.infobox-rows th { width: 40%; color: var(--muted); font-weight: 600; }
+.infobox-rows code { font-size: 12px; word-break: break-all; }
+.infobox-heading th {
+  width: auto;
+  background: color-mix(in srgb, var(--accent) 14%, var(--panel));
+  color: var(--fg);
+  text-align: center;
+}
+
+@media (--mobile) {
+  .infobox { float: none; width: auto; margin: 0 0 20px; }
+}
+
+/* Minecraft-style tooltip (always dark, like in game) */
+.mc-tooltip {
+  position: fixed;
+  z-index: 100;
+  max-width: min(360px, calc(100vw - 16px));
+  padding: 4px 8px 6px;
+  background: var(--tooltip-bg);
+  border: 2px solid transparent;
+  border-image: linear-gradient(var(--tooltip-border), var(--tooltip-border2)) 1;
+  outline: 2px solid rgb(16 0 16 / 0.94);
+  color: #fff;
+  font-family: "Soulrend MC", var(--font-ui);
+  font-size: 16px;
+  line-height: 20px;
+  text-shadow: 2px 2px 0 rgb(0 0 0 / 0.35);
+  text-underline-position: from-font;
+  pointer-events: none;
+  -webkit-font-smoothing: none;
+}
+.mc-tooltip .tt-name { margin-bottom: 2px; }
+.mc-tooltip .tt-line { color: #aaaaaa; }
+.mc-tooltip .tt-mod { color: #5555ff; font-style: italic; }
+.mc-tooltip .tt-tag { color: #ffaa00; }
+.mc-tooltip .tt-hint { margin-top: 4px; color: #888; font-family: var(--font-ui); font-size: 12px; text-shadow: none; }
+.mc-obfuscated { filter: blur(2px); }
+
+/* 3D model viewer */
+.embed-model { margin: 1.5em 0; }
+.model-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: var(--model-height, 320px);
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--accent) 12%, var(--panel)), var(--panel) 70%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.model-stage canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; cursor: grab; }
+.model-stage canvas:active { cursor: grabbing; }
+.model-stage.touch-locked canvas { touch-action: pan-y; }
+.model-poster { max-height: 90%; object-fit: contain; }
+.model-placeholder {
+  width: 64px;
+  height: 64px;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+}
+.model-status { position: absolute; right: 10px; bottom: 8px; color: var(--muted); font-family: var(--font-ui); font-size: 12px; }
+.model-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  padding: 4px 10px;
+  background: rgb(0 0 0 / 0.55);
+  color: #fff;
+  border-radius: 999px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  pointer-events: none;
+}
+.embed-model.compact { margin: 0; width: 100%; }
+.embed-model.compact .model-stage { background: none; border: 0; border-radius: 0; }
+
+/* Recipe diagrams. --u is one Minecraft GUI pixel; slots are 18u, item icons 16u (= the 32px export). */
+.recipe-group { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; margin: 0 0 1.2em; }
+.recipe {
+  --u: 2px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 10px 12px 12px;
+  background: var(--gui-bg);
+  color: var(--gui-fg);
+  border-radius: var(--radius-small);
+  box-shadow: inset 2px 2px 0 var(--gui-light), inset -2px -2px 0 var(--gui-dark), 0 0 0 1px var(--border);
+  font-family: var(--font-ui);
+}
+.recipe-head { display: flex; align-items: center; gap: 6px; margin: 0; color: inherit; font-size: 13px; font-weight: 600; line-height: 1.2; }
+.recipe-flag {
+  margin-left: auto;
+  padding: 1px 6px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 400;
+  opacity: 0.75;
+}
+.recipe-gui { position: relative; width: calc(var(--gw) * var(--u)); height: calc(var(--gh) * var(--u)); }
+.recipe-info { margin: 0 !important; font-size: 13px; opacity: 0.85; }
+.recipe-none, .recipe-more { color: var(--muted); font-family: var(--font-ui); font-size: 14px; }
+
+.recipe-slot {
+  position: absolute;
+  left: calc(var(--sx) * var(--u));
+  top: calc(var(--sy) * var(--u));
+  display: grid;
+  place-items: center;
+  width: calc(18 * var(--u));
+  height: calc(18 * var(--u));
+  background: var(--slot-bg);
+  box-shadow: inset var(--u) var(--u) 0 var(--slot-dark), inset calc(-1 * var(--u)) calc(-1 * var(--u)) 0 var(--slot-light);
+  color: inherit;
+  text-decoration: none;
+}
+.recipe-slot.large { width: calc(26 * var(--u)); height: calc(26 * var(--u)); }
+.recipe-slot .mc-icon { --size: calc(16 * var(--u)); }
+.recipe-slot .cycle-option { display: contents; }
+.recipe-slot .cycle-option[hidden] { display: none !important; }
+a.recipe-slot:hover::after, span.recipe-slot:not(.empty):hover::after {
+  content: "";
+  position: absolute;
+  inset: var(--u);
+  background: rgb(255 255 255 / 0.45);
+}
+.slot-count, .slot-chance {
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  color: #fff;
+  font-family: "Soulrend MC", var(--font-ui);
+  font-size: 16px;
+  line-height: 1;
+  text-shadow: 2px 2px 0 #3f3f3f;
+  pointer-events: none;
+  -webkit-font-smoothing: none;
+}
+.slot-chance { top: 0; bottom: auto; left: 2px; right: auto; color: #ffff55; font-size: 8px; }
+.recipe-arrow, .recipe-flame, .recipe-plus {
+  position: absolute;
+  left: calc(var(--sx) * var(--u));
+  top: calc(var(--sy) * var(--u));
+  width: calc(var(--dw) * var(--u));
+  height: calc(var(--dh) * var(--u));
+  fill: var(--slot-bg);
+}
+.recipe-flame { fill: #e8792c; }
+
+/* Mod font icons inside tooltips (sizes and sheet positions are generated from game-data/glyphs.json). */
+.mc-glyph {
+  display: inline-block;
+  margin-right: 0.125em;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}

@@ -1,0 +1,28 @@
+/* Soulrend style: pixel-font headings over a book-like serif body.
+   Nested under :root[data-style="soulrend"] by the build. Heading sizes are multiples of 8 for the pixel font. */
+
+body { font-size: 18px; }
+
+.brand { font-size: 16px; letter-spacing: 0.04em; }
+.article-header h1 { font-size: 32px; font-weight: 400; line-height: 40px; letter-spacing: 0.02em; }
+.prose h2 { font-size: 24px; font-weight: 400; line-height: 32px; }
+.prose h3 { font-size: 16px; font-weight: 400; letter-spacing: 0.04em; }
+.prose h4 { font-size: 16px; font-weight: 400; color: var(--muted); }
+.infobox-title { font-size: 16px; font-weight: 400; letter-spacing: 0.04em; }
+
+.article { position: relative; }
+.article::before {
+  content: "";
+  position: absolute;
+  inset: -1px -1px auto;
+  height: 3px;
+  border-radius: var(--radius) var(--radius) 0 0;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+}
+
+.prose hr {
+  height: 12px;
+  border: 0;
+  background: radial-gradient(circle, var(--accent) 2px, transparent 3px) center / 12px 12px no-repeat,
+    linear-gradient(90deg, transparent, var(--border) 20%, var(--border) 80%, transparent) center / 100% 1px no-repeat;
+}

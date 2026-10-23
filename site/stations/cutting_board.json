@@ -1,0 +1,9 @@
+{
+  "$schema": "../schemas/station.schema.json",
+  "label": "Cutting Board",
+  "icon": "farmersdelight:cutting_board",
+  "flow": true,
+  "recipes": {
+    "farmersdelight:cutting": "generic"
+  }
+}

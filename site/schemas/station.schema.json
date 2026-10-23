@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Soulrend Wiki: recipe station (site/stations/<id>.json)",
+  "description": "Layout of a recipe diagram in Minecraft GUI pixels (drawn at 2x). Slots are 18x18; large output slots are 26x26.",
+  "type": "object",
+  "required": ["label", "recipes"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "label": { "type": "string", "description": "Shown above the diagram, e.g. \"Crafting Table\"." },
+    "icon": { "$ref": "#/definitions/itemId", "description": "Item shown next to the label." },
+    "flow": {
+      "type": "boolean",
+      "description": "Lay inputs and outputs out automatically in a row (ignores size/inputs/outputs). Good for simple machines."
+    },
+    "size": { "$ref": "#/definitions/point", "description": "[width, height] of the diagram." },
+    "inputs": {
+      "type": "array",
+      "description": "Input slots in the order the adapter fills them. A grid expands row by row.",
+      "items": {
+        "type": "object",
+        "required": ["at"],
+        "additionalProperties": false,
+        "properties": {
+          "at": { "$ref": "#/definitions/point" },
+          "grid": { "$ref": "#/definitions/point", "description": "[columns, rows] of 18px slots starting at \"at\"." },
+          "large": { "type": "boolean" }
+        }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["at"],
+        "additionalProperties": false,
+        "properties": {
+          "at": { "$ref": "#/definitions/point" },
+          "large": { "type": "boolean" }
+        }
+      }
+    },
+    "decorations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "at"],
+        "additionalProperties": false,
+        "properties": {
+          "type": { "enum": ["arrow", "flame", "plus"] },
+          "at": { "$ref": "#/definitions/point" }
+        }
+      }
+    },
+    "recipes": {
+      "type": "object",
+      "description": "Recipe types this station shows, mapped to the adapter that reads them (src/render/recipes/adapters/).",
+      "additionalProperties": {
+        "anyOf": [
+          { "$ref": "#/definitions/adapter" },
+          {
+            "type": "object",
+            "required": ["adapter"],
+            "additionalProperties": false,
+            "properties": {
+              "adapter": { "$ref": "#/definitions/adapter" },
+              "label": { "type": "string", "description": "Overrides the station label for this recipe type." },
+              "icon": { "$ref": "#/definitions/itemId" }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "point": { "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 2, "maxItems": 2 },
+    "itemId": { "type": "string", "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$" },
+    "adapter": { "enum": ["shaped", "shapeless", "cooking", "single", "smithing", "generic"] }
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist.tmp/
+dist-dev/
+dist-dev.tmp/
+.DS_Store

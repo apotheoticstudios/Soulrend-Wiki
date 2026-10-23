@@ -1,0 +1,30 @@
+/* Minecraft style: bevelled GUI panels and the pack's pixel font everywhere.
+   Nested under :root[data-style="minecraft"] by the build, so plain selectors are safe here.
+   The font is drawn on an 8px grid, so sizes stay on multiples of 8 to keep it crisp. */
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-font-smoothing: none;
+}
+
+.site-header, .sidebar, .article, .infobox, .prefs-panel, .search-trigger, .search-dialog,
+.item-grid li, .prose pre, .callout, .model-stage, .recipe {
+  border: 2px solid var(--border);
+  border-radius: 0;
+  box-shadow: inset 2px 2px 0 var(--gui-light), inset -2px -2px 0 var(--gui-dark);
+}
+.site-header { border-width: 0 0 2px; }
+.sidebar { border-width: 0 2px 0 0; }
+
+.brand { font-size: 16px; }
+.article-header h1 { font-size: 32px; font-weight: 400; line-height: 40px; }
+.prose h2 { font-size: 24px; font-weight: 400; line-height: 32px; }
+.prose h3, .prose h4 { font-size: 16px; font-weight: 400; }
+.prose h3 { text-decoration: underline; text-underline-offset: 4px; }
+.infobox, .sidebar, .item-grid, .prose table, .callout-title { font-size: 16px; }
+.infobox-title { font-size: 16px; font-weight: 400; }
+.nav-section summary { font-size: 16px; font-weight: 400; letter-spacing: 0; text-transform: none; }
+.article-category { font-size: 16px; font-weight: 400; letter-spacing: 0; text-transform: none; }
+.prose code, .prose pre { font-family: var(--font-body); font-size: 16px; }
+.nav-section a[aria-current="page"] { box-shadow: none; outline: 2px solid var(--fg); outline-offset: -2px; }

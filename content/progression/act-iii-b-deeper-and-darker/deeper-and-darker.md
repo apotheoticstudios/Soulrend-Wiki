@@ -1,0 +1,12 @@
+---
+{
+  "title": "Deeper and Darker",
+  "summary": "Optional act from Act II's The Otherside.",
+  "hidden": true
+}
+---
+<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
+> [!NOTE]
+> Placeholder page from the wiki outline.
+
+Optional act from Act II's The Otherside.

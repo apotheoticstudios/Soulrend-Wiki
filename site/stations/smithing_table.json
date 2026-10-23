@@ -1,0 +1,16 @@
+{
+  "$schema": "../schemas/station.schema.json",
+  "label": "Smithing Table",
+  "icon": "minecraft:smithing_table",
+  "size": [124, 26],
+  "inputs": [
+    { "at": [0, 4] },
+    { "at": [18, 4] },
+    { "at": [36, 4] }
+  ],
+  "outputs": [{ "at": [98, 0], "large": true }],
+  "decorations": [{ "type": "arrow", "at": [64, 5] }],
+  "recipes": {
+    "minecraft:smithing_transform": "smithing"
+  }
+}
