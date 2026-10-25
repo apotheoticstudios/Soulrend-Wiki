@@ -1,0 +1,1174 @@
+---
+{
+  "title": "Items Outline",
+  "summary": "Editable outline of the Items section, restructured around the quests."
+}
+---
+> [!NOTE]
+> Draft page (dev builds only). The planned Items section, restructured around the quests: weapons by Pursuit of Mastery chapter, armor by the three Rise of the Champion paths, skill books by quest tier. Each entry is **Title** `path` — notes. Plain sub-bullets are a page's planned contents, and `[[item:…]]` links name the items it covers. Titles that collide get the mod name in brackets. Pages marked _visible_ show in the sidebar.
+
+- **Items** `items` — Every gameplay-relevant item group in Soulrend. _(visible)_
+  - **Weapons** `items/weapons` — Weapons grouped by their Pursuit of Mastery quest chapter, each in quest order. Epic Knights weapons are on one page; weapons no quest mentions are on Misc Weapons. _(visible)_
+    - **Bladesworn Battallion** `items/weapons/bladesworn-battallion` — Swords and longswords (quest chapter `path_of_the_blade`, 49 weapons).
+      - **Wooden Sword** `items/weapons/bladesworn-battallion/wooden-sword` [[item:minecraft:wooden_sword]]
+      - **Broken Sword** `items/weapons/bladesworn-battallion/broken-sword` [[item:dungeons_and_combat:broken_sword]]
+      - **Stone Sword** `items/weapons/bladesworn-battallion/stone-sword` [[item:minecraft:stone_sword]]
+      - **Dread Thrall's Sword** `items/weapons/bladesworn-battallion/dread-thralls-sword` [[item:iceandfire:dread_sword]]
+      - **Iron Sword** `items/weapons/bladesworn-battallion/iron-sword` [[item:minecraft:iron_sword]]
+      - **Iron Messer** `items/weapons/bladesworn-battallion/iron-messer` [[item:epicfight_dd:iron_messer]]
+      - **Iron Light Greatsword** `items/weapons/bladesworn-battallion/iron-light-greatsword` [[item:epicfight_dd:iron_light_greatsword]]
+      - **Sting** `items/weapons/bladesworn-battallion/sting` [[item:soulsweapons:sting]]
+      - **Diamond Sword** `items/weapons/bladesworn-battallion/diamond-sword` [[item:minecraft:diamond_sword]]
+      - **Diamond Messer** `items/weapons/bladesworn-battallion/diamond-messer` [[item:epicfight_dd:diamond_messer]]
+      - **Diamond Light Greatsword** `items/weapons/bladesworn-battallion/diamond-light-greatsword` [[item:epicfight_dd:diamond_light_greatsword]]
+      - **Moonlight Greatsword** `items/weapons/bladesworn-battallion/moonlight-greatsword` [[item:soulsweapons:moonlight_greatsword]]
+      - **Ludwig's Holy Blade** `items/weapons/bladesworn-battallion/ludwigs-holy-blade` [[item:soulsweapons:holy_greatsword]]
+      - **Molten Bone Greatsword** `items/weapons/bladesworn-battallion/molten-bone-greatsword` [[item:dungeons_and_combat:molten_bone_greatsword]]
+      - **Netherite Sword** `items/weapons/bladesworn-battallion/netherite-sword` [[item:minecraft:netherite_sword]]
+      - **Dragon Bone Sword** `items/weapons/bladesworn-battallion/dragon-bone-sword` [[item:iceandfire:dragonbone_sword]]
+      - **Featherlight** `items/weapons/bladesworn-battallion/featherlight` [[item:soulsweapons:featherlight]]
+      - **Netherite Messer** `items/weapons/bladesworn-battallion/netherite-messer` [[item:epicfight_dd:netherite_messer]]
+      - **Netherite Light Greatsword** `items/weapons/bladesworn-battallion/netherite-light-greatsword` [[item:epicfight_dd:netherite_light_greatsword]]
+      - **Holy Moonlight Greatsword** `items/weapons/bladesworn-battallion/holy-moonlight-greatsword` [[item:soulsweapons:holy_moonlight_greatsword]]
+      - **Skofnung** `items/weapons/bladesworn-battallion/skofnung` [[item:soulsweapons:skofnung]]
+      - **Oath** `items/weapons/bladesworn-battallion/oath` [[item:dungeons_and_combat:oath_sword]]
+      - **Neptunium Sword** `items/weapons/bladesworn-battallion/neptunium-sword` [[item:aquaculture:neptunium_sword]]
+      - **Warden Sword** `items/weapons/bladesworn-battallion/warden-sword` [[item:deeperdarker:warden_sword]]
+      - **Flamed Dragon Bone Sword** `items/weapons/bladesworn-battallion/flamed-dragon-bone-sword` [[item:iceandfire:dragonbone_sword_fire]]
+      - **Iced Dragon Bone Sword** `items/weapons/bladesworn-battallion/iced-dragon-bone-sword` [[item:iceandfire:dragonbone_sword_ice]]
+      - **Lightning Dragon Bone Sword** `items/weapons/bladesworn-battallion/lightning-dragon-bone-sword` [[item:iceandfire:dragonbone_sword_lightning]]
+      - **Phantasmal Blade** `items/weapons/bladesworn-battallion/phantasmal-blade` [[item:iceandfire:ghost_sword]]
+      - **Milady** `items/weapons/bladesworn-battallion/milady` [[item:epicfight_dd:milady]]
+      - **Pure Moonlight Greatsword** `items/weapons/bladesworn-battallion/pure-moonlight-greatsword` [[item:soulsweapons:pure_moonlight_greatsword]]
+      - **Bloodthirster** `items/weapons/bladesworn-battallion/bloodthirster` [[item:soulsweapons:bloodthirster]]
+      - **Sword of the Nightlord** `items/weapons/bladesworn-battallion/sword-of-the-nightlord` [[item:soulsweapons:nightlords_sword]]
+      - **Herrscher** `items/weapons/bladesworn-battallion/herrscher` [[item:wom:herrscher]]
+      - **Spellbreaker** `items/weapons/bladesworn-battallion/spellbreaker` [[item:irons_spellbooks:spellbreaker]]
+      - **Fire Dragonsteel Sword** `items/weapons/bladesworn-battallion/fire-dragonsteel-sword` [[item:iceandfire:dragonsteel_fire_sword]]
+      - **Ice Dragonsteel Sword** `items/weapons/bladesworn-battallion/ice-dragonsteel-sword` [[item:iceandfire:dragonsteel_ice_sword]]
+      - **Lightning Dragonsteel Sword** `items/weapons/bladesworn-battallion/lightning-dragonsteel-sword` [[item:iceandfire:dragonsteel_lightning_sword]]
+      - **Frostmourne** `items/weapons/bladesworn-battallion/frostmourne` [[item:soulsweapons:frostmourne]]
+      - **Vitreus** `items/weapons/bladesworn-battallion/vitreus` [[item:epicfight_dd:vitreus]]
+      - **Bluemoon Greatsword** `items/weapons/bladesworn-battallion/bluemoon-greatsword` [[item:soulsweapons:bluemoon_greatsword]]
+      - **Crucible Sword** `items/weapons/bladesworn-battallion/crucible-sword` [[item:soulsweapons:crucible_sword]]
+      - **Longsword of the Plague** `items/weapons/bladesworn-battallion/longsword-of-the-plague` [[item:simplyswords:toxic_longsword]]
+      - **Caelestis** `items/weapons/bladesworn-battallion/caelestis` [[item:simplyswords:caelestis]]
+      - **Dread Knight's Sword** `items/weapons/bladesworn-battallion/dread-knights-sword` [[item:iceandfire:dread_knight_sword]]
+      - **Dark Moon Greatsword (Marium's Soulslike Weaponry)** `items/weapons/bladesworn-battallion/dark-moon-greatsword-mariums-soulslike-weaponry` [[item:soulsweapons:dark_moon_greatsword]]
+      - **The Darkin Blade** `items/weapons/bladesworn-battallion/the-darkin-blade` [[item:soulsweapons:darkin_blade]]
+      - **Blade of the Dreaded Queen** `items/weapons/bladesworn-battallion/blade-of-the-dreaded-queen` [[item:iceandfire:dread_queen_sword]]
+      - **Crimson Sovereign** `items/weapons/bladesworn-battallion/crimson-sovereign` [[item:dungeons_and_combat:crimson_sovereign_sword]]
+      - **Crimson Bloodweave** `items/weapons/bladesworn-battallion/crimson-bloodweave` [[item:dungeons_and_combat:crimson_bloodweave_sword]]
+    - **Blood Bath** `items/weapons/blood-bath` — Greatswords and claymores (quest chapter `greatsword`, 62 weapons).
+      - **Wooden Greatsword** `items/weapons/blood-bath/wooden-greatsword` [[item:epicfight:wooden_greatsword]]
+      - **Stone Greatsword** `items/weapons/blood-bath/stone-greatsword` [[item:epicfight:stone_greatsword]]
+      - **Enhanced Wooden Greatsword** `items/weapons/blood-bath/enhanced-wooden-greatsword` [[item:cdmoveset:s_wooden_greatsword]]
+      - **Hollow Longsword** `items/weapons/blood-bath/hollow-longsword` [[item:wom:hollow_longsword]]
+      - **Cryolite Greatsword** `items/weapons/blood-bath/cryolite-greatsword` [[item:dungeons_and_combat:cryolite_greatsword]] · [[item:dungeons_and_combat:molten_cryolite_greatsword]]
+      - **Iron Greatsword** `items/weapons/blood-bath/iron-greatsword` [[item:epicfight:iron_greatsword]]
+      - **Iron Claymore** `items/weapons/blood-bath/iron-claymore` [[item:simplyswords:iron_claymore]]
+      - **Enhanced Stone Greatsword** `items/weapons/blood-bath/enhanced-stone-greatsword` [[item:cdmoveset:s_stone_greatsword]]
+      - **Dark Moon Greatsword (Souls Like Bosses)** `items/weapons/blood-bath/dark-moon-greatsword-souls-like-bosses` [[item:souls_like_bosses:dark_moon_greatsword]]
+      - **Diamond Greatsword** `items/weapons/blood-bath/diamond-greatsword` [[item:epicfight:diamond_greatsword]]
+      - **Dragon Bone Greatsword** `items/weapons/blood-bath/dragon-bone-greatsword` [[item:dungeons_and_combat:dragon_greatsword_bone]]
+      - **Diamond Claymore** `items/weapons/blood-bath/diamond-claymore` [[item:simplyswords:diamond_claymore]]
+      - **Enhanced Iron Greatsword** `items/weapons/blood-bath/enhanced-iron-greatsword` [[item:cdmoveset:s_iron_greatsword]]
+      - **Ruine** `items/weapons/blood-bath/ruine` [[item:wom:ruine]]
+      - **Decrepit Flamberge** `items/weapons/blood-bath/decrepit-flamberge` [[item:irons_spellbooks:keeper_flamberge]]
+      - **Netherite Greatsword** `items/weapons/blood-bath/netherite-greatsword` [[item:epicfight:netherite_greatsword]]
+      - **Saber** `items/weapons/blood-bath/saber` [[item:epicfight_dd:saber]]
+      - **Backhand Blade** `items/weapons/blood-bath/backhand-blade` [[item:epicfight_dd:backhand_blade]]
+      - **Flamed Dragon Bone Greatsword** `items/weapons/blood-bath/flamed-dragon-bone-greatsword` [[item:dungeons_and_combat:dragon_greatsword_fire]]
+      - **Iced Dragon Bone Greatsword** `items/weapons/blood-bath/iced-dragon-bone-greatsword` [[item:dungeons_and_combat:dragon_greatsword_ice]]
+      - **Lightning Dragon Bone Greatsword** `items/weapons/blood-bath/lightning-dragon-bone-greatsword` [[item:dungeons_and_combat:dragon_greatsword_lightning]]
+      - **Netherite Claymore** `items/weapons/blood-bath/netherite-claymore` [[item:simplyswords:netherite_claymore]]
+      - **Enhanced Diamond Greatsword** `items/weapons/blood-bath/enhanced-diamond-greatsword` [[item:cdmoveset:s_diamond_greatsword]]
+      - **Heap of Raw Iron** `items/weapons/blood-bath/heap-of-raw-iron` [[item:soulsweapons:guts_sword]]
+      - **Steel Wolf Greatsword** `items/weapons/blood-bath/steel-wolf-greatsword` [[item:dungeons_and_combat:steel_wolf_greatsword]]
+      - **Sword of Freyr** `items/weapons/blood-bath/sword-of-freyr` [[item:soulsweapons:freyr_sword]]
+      - **Legionnaire Flamberge** `items/weapons/blood-bath/legionnaire-flamberge` [[item:irons_spellbooks:legionnaire_flamberge]]
+      - **Bonecutting Saw** `items/weapons/blood-bath/bonecutting-saw` [[item:epicfight_dd:bonecutting_saw]]
+      - **Fire Dragonsteel Greatsword** `items/weapons/blood-bath/fire-dragonsteel-greatsword` [[item:dungeons_and_combat:dragonsteel_fire_greatsword]]
+      - **Ice Dragonsteel Greatsword** `items/weapons/blood-bath/ice-dragonsteel-greatsword` [[item:dungeons_and_combat:dragonsteel_ice_greatsword]]
+      - **Lightning Dragonsteel Greatsword** `items/weapons/blood-bath/lightning-dragonsteel-greatsword` [[item:dungeons_and_combat:dragonsteel_lightning_greatsword]]
+      - **Runic Claymore** `items/weapons/blood-bath/runic-claymore` [[item:simplyswords:runic_claymore]]
+      - **Warden Claymore** `items/weapons/blood-bath/warden-claymore` [[item:knavesneeds:deeperdarker/warden/claymore]]
+      - **Enhanced Netherite Greatsword** `items/weapons/blood-bath/enhanced-netherite-greatsword` [[item:cdmoveset:s_netherite_greatsword]]
+      - **Large Sword** `items/weapons/blood-bath/large-sword` [[item:block_factorys_bosses:large_sword]]
+      - **Enigma** `items/weapons/blood-bath/enigma` [[item:simplyswords:enigma]]
+      - **Boreal Blade** `items/weapons/blood-bath/boreal-blade` [[item:irons_spellbooks:boreal_blade]]
+      - **Ribboncleaver** `items/weapons/blood-bath/ribboncleaver` [[item:simplyswords:ribboncleaver]]
+      - **Eclipse** `items/weapons/blood-bath/eclipse` [[item:epicfight_dd:eclipse]]
+      - **Dormant Relic** `items/weapons/blood-bath/dormant-relic` [[item:simplyswords:dormant_relic]]
+      - **[Ruins Greatsword]** `items/weapons/blood-bath/ruins-greatsword` [[item:efn:ruinsgreatsword]]
+      - **Twisted Blade** `items/weapons/blood-bath/twisted-blade` [[item:simplyswords:twisted_blade]]
+      - **Brimstone Claymore** `items/weapons/blood-bath/brimstone-claymore` [[item:simplyswords:brimstone_claymore]]
+      - **Night's Edge** `items/weapons/blood-bath/nights-edge` [[item:soulsweapons:nights_edge_item]]
+      - **Dawnbreaker** `items/weapons/blood-bath/dawnbreaker` [[item:soulsweapons:dawnbreaker]]
+      - **Tainted Relic** `items/weapons/blood-bath/tainted-relic` [[item:simplyswords:tainted_relic]]
+      - **Righteous Relic** `items/weapons/blood-bath/righteous-relic` [[item:simplyswords:righteous_relic]]
+      - **Crimson Long Sword** `items/weapons/blood-bath/crimson-long-sword` [[item:dungeons_and_combat:crimson_long_sword]]
+      - **Solar** `items/weapons/blood-bath/solar` [[item:wom:solar]]
+      - **Molten Edge** `items/weapons/blood-bath/molten-edge` [[item:simplyswords:molten_edge]]
+      - **Slumbering Lichblade** `items/weapons/blood-bath/slumbering-lichblade` [[item:simplyswords:slumbering_lichblade]]
+      - **Excalibur** `items/weapons/blood-bath/excalibur` [[item:soulsweapons:excalibur]]
+      - **Genesis Fracture** `items/weapons/blood-bath/genesis-fracture` [[item:soulsweapons:empowered_dawnbreaker]]
+      - **Harbinger** `items/weapons/blood-bath/harbinger` [[item:simplyswords:harbinger]]
+      - **Sunfire** `items/weapons/blood-bath/sunfire` [[item:simplyswords:sunfire]]
+      - **Waking Lichblade** `items/weapons/blood-bath/waking-lichblade` [[item:simplyswords:waking_lichblade]]
+      - **The Watcher** `items/weapons/blood-bath/the-watcher` [[item:simplyswords:watcher_claymore]]
+      - **The Incinerator** `items/weapons/blood-bath/the-incinerator` [[item:cataclysm:the_incinerator]]
+      - **Awakened Lichblade** `items/weapons/blood-bath/awakened-lichblade` [[item:simplyswords:awakened_lichblade]]
+      - **Waxweaver** `items/weapons/blood-bath/waxweaver` [[item:simplyswords:waxweaver]]
+      - **Warriors-BroadBlade** `items/weapons/blood-bath/warriors-broadblade` [[item:efn:broadblade]]
+    - **Path of the Samurai** `items/weapons/path-of-the-samurai` — Katanas and tachi (quest chapter `path_of_the_samurai`, 38 weapons).
+      - **Bokken** `items/weapons/path-of-the-samurai/bokken` [[item:epicfight:bokken]]
+      - **Wooden Tachi** `items/weapons/path-of-the-samurai/wooden-tachi` [[item:epicfight:wooden_tachi]]
+      - **Stone Tachi** `items/weapons/path-of-the-samurai/stone-tachi` [[item:epicfight:stone_tachi]]
+      - **Enhanced Wooden Tachi** `items/weapons/path-of-the-samurai/enhanced-wooden-tachi` [[item:cdmoveset:s_wooden_tachi]]
+      - **Iron Tachi** `items/weapons/path-of-the-samurai/iron-tachi` [[item:epicfight:iron_tachi]]
+      - **Enhanced Stone Tachi** `items/weapons/path-of-the-samurai/enhanced-stone-tachi` [[item:cdmoveset:s_stone_tachi]]
+      - **Diamond Tachi** `items/weapons/path-of-the-samurai/diamond-tachi` [[item:epicfight:diamond_tachi]]
+      - **Enhanced Iron Tachi** `items/weapons/path-of-the-samurai/enhanced-iron-tachi` [[item:cdmoveset:s_iron_tachi]]
+      - **Iron Katana** `items/weapons/path-of-the-samurai/iron-katana` [[item:simplyswords:iron_katana]]
+      - **Moonveil** `items/weapons/path-of-the-samurai/moonveil` [[item:soulsweapons:moonveil]]
+      - **Netherite Tachi** `items/weapons/path-of-the-samurai/netherite-tachi` [[item:epicfight:netherite_tachi]]
+      - **Enhanced Diamond Tachi** `items/weapons/path-of-the-samurai/enhanced-diamond-tachi` [[item:cdmoveset:s_diamond_tachi]]
+      - **Diamond Katana** `items/weapons/path-of-the-samurai/diamond-katana` [[item:simplyswords:diamond_katana]]
+      - **Katana (Samurai Dynasty)** `items/weapons/path-of-the-samurai/katana-samurai-dynasty` [[item:samurai_dynasty:katana]]
+      - **Uchigatana** `items/weapons/path-of-the-samurai/uchigatana` [[item:epicfight:uchigatana]]
+      - **Warden Katana** `items/weapons/path-of-the-samurai/warden-katana` [[item:knavesneeds:deeperdarker/warden/katana]]
+      - **Oni Slayer Katana** `items/weapons/path-of-the-samurai/oni-slayer-katana` [[item:dungeons_and_combat:long_katana]]
+      - **Enhanced Netherite Tachi** `items/weapons/path-of-the-samurai/enhanced-netherite-tachi` [[item:cdmoveset:s_netherite_tachi]]
+      - **Netherite Katana (Simply Swords)** `items/weapons/path-of-the-samurai/netherite-katana-simply-swords` [[item:simplyswords:netherite_katana]]
+      - **Katana (EpicFight-Resurrection)** `items/weapons/path-of-the-samurai/katana-epicfight-resurrection` [[item:cdmoveset:katana]]
+      - **Dragonbane** `items/weapons/path-of-the-samurai/dragonbane` [[item:soulsweapons:dragonbane]]
+      - **Netherite Katana (Samurai Dynasty)** `items/weapons/path-of-the-samurai/netherite-katana-samurai-dynasty` [[item:samurai_dynasty:katana_netherite]]
+      - **Fire Dragonsteel Katana** `items/weapons/path-of-the-samurai/fire-dragonsteel-katana` [[item:dungeons_and_combat:dragonsteel_fire_katana]]
+      - **Lightning Dragonsteel Katana** `items/weapons/path-of-the-samurai/lightning-dragonsteel-katana` [[item:dungeons_and_combat:dragonsteel_lightning_katana]]
+      - **Akaname Katana** `items/weapons/path-of-the-samurai/akaname-katana` [[item:samurai_dynasty:katana_akaname]]
+      - **Jorogumo Katana** `items/weapons/path-of-the-samurai/jorogumo-katana` [[item:samurai_dynasty:katana_jorogumo]]
+      - **Onibi Katana** `items/weapons/path-of-the-samurai/onibi-katana` [[item:samurai_dynasty:katana_kitsune_blue]]
+      - **Evil Ôdachi** `items/weapons/path-of-the-samurai/evil-dachi` [[item:wom:evil_tachi]]
+      - **Runic Katana** `items/weapons/path-of-the-samurai/runic-katana` [[item:simplyswords:runic_katana]]
+      - **Ice Dragonsteel Katana** `items/weapons/path-of-the-samurai/ice-dragonsteel-katana` [[item:dungeons_and_combat:dragonsteel_ice_katana]]
+      - **Oni Katana** `items/weapons/path-of-the-samurai/oni-katana` [[item:samurai_dynasty:katana_oni]]
+      - **Kitsune Katana** `items/weapons/path-of-the-samurai/kitsune-katana` [[item:samurai_dynasty:katana_kitsune]]
+      - **Satsujin** `items/weapons/path-of-the-samurai/satsujin` [[item:wom:satsujin]]
+      - **Whisperwind** `items/weapons/path-of-the-samurai/whisperwind` [[item:simplyswords:whisperwind]]
+      - **YAMATO** `items/weapons/path-of-the-samurai/yamato` [[item:efn:yamato_dmc_in_sheath]] · [[item:efn:yamato_dmc4_in_sheath]]
+      - **Zweiender** `items/weapons/path-of-the-samurai/zweiender` [[item:cataclysm:zweiender]]
+      - **Final Fractal** `items/weapons/path-of-the-samurai/final-fractal` [[item:cataclysm:final_fractal]]
+    - **Assassin's Armoury** `items/weapons/assassins-armoury` — Daggers, knives, sais and cutlasses (quest chapter `assasins_armory`, 50 weapons).
+      - **Flint Knife** `items/weapons/assassins-armoury/flint-knife` [[item:farmersdelight:flint_knife]]
+      - **Stone Knife** `items/weapons/assassins-armoury/stone-knife` [[item:dungeons_and_combat:stone_knife]]
+      - **Iron Cutlass** `items/weapons/assassins-armoury/iron-cutlass` [[item:simplyswords:iron_cutlass]]
+      - **Iron Sai** `items/weapons/assassins-armoury/iron-sai` [[item:simplyswords:iron_sai]]
+      - **Iron Knife** `items/weapons/assassins-armoury/iron-knife` [[item:epicfight_dd:iron_knife]]
+      - **Steel Dagger** `items/weapons/assassins-armoury/steel-dagger` [[item:dungeons_and_combat:steel_dagger]]
+      - **Iron Dagger** `items/weapons/assassins-armoury/iron-dagger` [[item:epicfight:iron_dagger]]
+      - **Diamond Cutlass** `items/weapons/assassins-armoury/diamond-cutlass` [[item:simplyswords:diamond_cutlass]]
+      - **Diamond Sai** `items/weapons/assassins-armoury/diamond-sai` [[item:simplyswords:diamond_sai]]
+      - **Sai** `items/weapons/assassins-armoury/sai` [[item:samurai_dynasty:sai]]
+      - **Diamond Knife** `items/weapons/assassins-armoury/diamond-knife` [[item:epicfight_dd:diamond_knife]]
+      - **Diamond Short Sword** `items/weapons/assassins-armoury/diamond-short-sword` [[item:magistuarmory:diamond_shortsword]]
+      - **Diamond Dagger** `items/weapons/assassins-armoury/diamond-dagger` [[item:epicfight:diamond_dagger]]
+      - **Titanium Dagger** `items/weapons/assassins-armoury/titanium-dagger` [[item:dungeons_and_combat:titanium_sickle]]
+      - **Netherite Cutlass** `items/weapons/assassins-armoury/netherite-cutlass` [[item:simplyswords:netherite_cutlass]]
+      - **Netherite Sai (Simply Swords)** `items/weapons/assassins-armoury/netherite-sai-simply-swords` [[item:simplyswords:netherite_sai]]
+      - **Netherite Sai (Samurai Dynasty)** `items/weapons/assassins-armoury/netherite-sai-samurai-dynasty` [[item:samurai_dynasty:sai_netherite]]
+      - **Netherite Knife** `items/weapons/assassins-armoury/netherite-knife` [[item:epicfight_dd:netherite_knife]]
+      - **Netherite Short Sword** `items/weapons/assassins-armoury/netherite-short-sword` [[item:magistuarmory:netherite_shortsword]]
+      - **Netherite Dagger** `items/weapons/assassins-armoury/netherite-dagger` [[item:epicfight:netherite_dagger]]
+      - **Cursed Steel Dagger** `items/weapons/assassins-armoury/cursed-steel-dagger` [[item:dungeons_and_combat:cursed_steel_dagger]]
+      - **Warden Cutlass** `items/weapons/assassins-armoury/warden-cutlass` [[item:knavesneeds:deeperdarker/warden/cutlass]]
+      - **Runic Cutlass** `items/weapons/assassins-armoury/runic-cutlass` [[item:simplyswords:runic_cutlass]]
+      - **Warden Sai** `items/weapons/assassins-armoury/warden-sai` [[item:knavesneeds:deeperdarker/warden/sai]]
+      - **Runic Sai** `items/weapons/assassins-armoury/runic-sai` [[item:simplyswords:runic_sai]]
+      - **Bluemoon Shortsword** `items/weapons/assassins-armoury/bluemoon-shortsword` [[item:soulsweapons:bluemoon_shortsword]]
+      - **Dragon Bone Dagger** `items/weapons/assassins-armoury/dragon-bone-dagger` [[item:dungeons_and_combat:dragon_dagger_bone]]
+      - **Neptunium Dagger** `items/weapons/assassins-armoury/neptunium-dagger` [[item:dungeons_and_combat:neptunium_dagger]]
+      - **Molten Dark Steel Dagger** `items/weapons/assassins-armoury/molten-dark-steel-dagger` [[item:dungeons_and_combat:molten_dark_steel_dagger]]
+      - **Blood Ritual Dagger** `items/weapons/assassins-armoury/blood-ritual-dagger` [[item:epicfight_dd:blood_ritus_dagger]]
+      - **Ceremonial Dagger** `items/weapons/assassins-armoury/ceremonial-dagger` [[item:dungeons_and_combat:ceremonial_dagger]]
+      - **Night Ritual Dagger** `items/weapons/assassins-armoury/night-ritual-dagger` [[item:epicfight_dd:night_ritus_dagger]]
+      - **Empress Shortblade** `items/weapons/assassins-armoury/empress-shortblade` [[item:efn:nf_shortsword]]
+      - **Runic Shortsword** `items/weapons/assassins-armoury/runic-shortsword` [[item:efn:nf_shortsword_2]]
+      - **Guinsoo's Rageblade** `items/weapons/assassins-armoury/guinsoos-rageblade` [[item:soulsweapons:rageblade]]
+      - **Lich Bane** `items/weapons/assassins-armoury/lich-bane` [[item:soulsweapons:lich_bane]]
+      - **[Ancient Sculk Twinblades]** `items/weapons/assassins-armoury/ancient-sculk-twinblades` [[item:efn:nf_dual_sword]]
+      - **Stormbringer** `items/weapons/assassins-armoury/stormbringer` [[item:simplyswords:stormbringer]]
+      - **Moonlight Shortsword** `items/weapons/assassins-armoury/moonlight-shortsword` [[item:soulsweapons:moonlight_shortsword]]
+      - **Flamed Dragon Bone Dagger** `items/weapons/assassins-armoury/flamed-dragon-bone-dagger` [[item:dungeons_and_combat:dragon_dagger_fire]]
+      - **Iced Dragon Bone Dagger** `items/weapons/assassins-armoury/iced-dragon-bone-dagger` [[item:dungeons_and_combat:dragon_dagger_ice]]
+      - **Lightning Dragon Bone Dagger** `items/weapons/assassins-armoury/lightning-dragon-bone-dagger` [[item:dungeons_and_combat:dragon_dagger_lightning]]
+      - **Soulstealer** `items/weapons/assassins-armoury/soulstealer` [[item:simplyswords:soulstealer]]
+      - **Ebony Dagger** `items/weapons/assassins-armoury/ebony-dagger` [[item:dungeons_and_combat:ebony_dagger]]
+      - **Slimy Knife** `items/weapons/assassins-armoury/slimy-knife` [[item:dungeons_and_combat:slimy_knife]]
+      - **Emberlash** `items/weapons/assassins-armoury/emberlash` [[item:simplyswords:emberlash]]
+      - **Crimson Blades** `items/weapons/assassins-armoury/crimson-blades` [[item:dungeons_and_combat:crimson_sickle]]
+      - **EXSILIUMGLADIUS-R** `items/weapons/assassins-armoury/exsiliumgladius-r` [[item:efn:exsiliumgladius]]
+      - **EXSILIUMGLADIUS-L** `items/weapons/assassins-armoury/exsiliumgladius-l` [[item:efn:fire_exsiliumgladius]]
+      - **Darknight Pursuiters** `items/weapons/assassins-armoury/darknight-pursuiters` [[item:epicfight_awaken:darknight_pursuiters]]
+    - **Hopping the Fence** `items/weapons/hopping-the-fence` — Rapiers (quest chapter `hopping_the_fence`, 19 weapons).
+      - **Sword on a Stick** `items/weapons/hopping-the-fence/sword-on-a-stick` [[item:simplyswords:sword_on_a_stick]]
+      - **Iron Rapier (Simply Swords)** `items/weapons/hopping-the-fence/iron-rapier-simply-swords` [[item:simplyswords:iron_rapier]]
+      - **Iron Rapier (Dungeons and Combat)** `items/weapons/hopping-the-fence/iron-rapier-dungeons-and-combat` [[item:dungeons_and_combat:iron_rapier]]
+      - **Iron Rapier (Rapier For EpicFightMod)** `items/weapons/hopping-the-fence/iron-rapier-rapier-for-epicfightmod` [[item:refm:iron_rapier]]
+      - **Iron Florett** `items/weapons/hopping-the-fence/iron-florett` [[item:epicfight_dd:iron_florett]]
+      - **Diamond Rapier (Simply Swords)** `items/weapons/hopping-the-fence/diamond-rapier-simply-swords` [[item:simplyswords:diamond_rapier]]
+      - **Diamond Rapier (Rapier For EpicFightMod)** `items/weapons/hopping-the-fence/diamond-rapier-rapier-for-epicfightmod` [[item:refm:diamond_rapier]]
+      - **Diamond Florett** `items/weapons/hopping-the-fence/diamond-florett` [[item:epicfight_dd:diamond_florett]]
+      - **Netherite Rapier (Simply Swords)** `items/weapons/hopping-the-fence/netherite-rapier-simply-swords` [[item:simplyswords:netherite_rapier]]
+      - **Netherite Rapier (Rapier For EpicFightMod)** `items/weapons/hopping-the-fence/netherite-rapier-rapier-for-epicfightmod` [[item:refm:netherite_rapier]]
+      - **Netherite Florett** `items/weapons/hopping-the-fence/netherite-florett` [[item:epicfight_dd:netherite_florett]]
+      - **Runic Rapier** `items/weapons/hopping-the-fence/runic-rapier` [[item:simplyswords:runic_rapier]]
+      - **Oceanite Rapier** `items/weapons/hopping-the-fence/oceanite-rapier` [[item:refm:oceanite_rapier]]
+      - **Warden Rapier** `items/weapons/hopping-the-fence/warden-rapier` [[item:knavesneeds:deeperdarker/warden/rapier]]
+      - **Bramblethorn** `items/weapons/hopping-the-fence/bramblethorn` [[item:simplyswords:bramblethorn]]
+      - **Witherite Rapier** `items/weapons/hopping-the-fence/witherite-rapier` [[item:refm:witherite_rapier]]
+      - **Shadowsting** `items/weapons/hopping-the-fence/shadowsting` [[item:simplyswords:shadowsting]]
+      - **Amethyst Rapier** `items/weapons/hopping-the-fence/amethyst-rapier` [[item:irons_spellbooks:amethyst_rapier]]
+      - **Enderite Rapier** `items/weapons/hopping-the-fence/enderite-rapier` [[item:refm:enderite_rapier]]
+    - **Kings of the Battlefield** `items/weapons/kings-of-the-battlefield` — Spears, glaives, halberds and lances (quest chapter `path_of_the_polearm`, 52 weapons).
+      - **Wooden Spear** `items/weapons/kings-of-the-battlefield/wooden-spear` [[item:epicfight:wooden_spear]]
+      - **Primordial Limestone Spear** `items/weapons/kings-of-the-battlefield/primordial-limestone-spear` [[item:alexscaves:limestone_spear]]
+      - **Enhanced Wooden Spear** `items/weapons/kings-of-the-battlefield/enhanced-wooden-spear` [[item:cdmoveset:s_wooden_spear]]
+      - **Stone Spear (Dungeons and Combat)** `items/weapons/kings-of-the-battlefield/stone-spear-dungeons-and-combat` [[item:dungeons_and_combat:stone_spear]]
+      - **Stone Spear (Epic Fight)** `items/weapons/kings-of-the-battlefield/stone-spear-epic-fight` [[item:epicfight:stone_spear]]
+      - **Coral Spear** `items/weapons/kings-of-the-battlefield/coral-spear` [[item:cataclysm:coral_spear]]
+      - **Enhanced Stone Spear** `items/weapons/kings-of-the-battlefield/enhanced-stone-spear` [[item:cdmoveset:s_stone_spear]]
+      - **Iron Spear (Simply Swords)** `items/weapons/kings-of-the-battlefield/iron-spear-simply-swords` [[item:simplyswords:iron_spear]]
+      - **Iron Glaive** `items/weapons/kings-of-the-battlefield/iron-glaive` [[item:simplyswords:iron_glaive]]
+      - **Iron Halberd (EpicFight - Dawnday)** `items/weapons/kings-of-the-battlefield/iron-halberd-epicfight-dawnday` [[item:epicfight_dd:iron_halberd]]
+      - **Iron Spear (Epic Fight)** `items/weapons/kings-of-the-battlefield/iron-spear-epic-fight` [[item:epicfight:iron_spear]]
+      - **Iron Halberd (Simply Swords)** `items/weapons/kings-of-the-battlefield/iron-halberd-simply-swords` [[item:simplyswords:iron_halberd]]
+      - **Extinction Spear** `items/weapons/kings-of-the-battlefield/extinction-spear` [[item:alexscaves:extinction_spear]]
+      - **Enhanced Iron Spear** `items/weapons/kings-of-the-battlefield/enhanced-iron-spear` [[item:cdmoveset:s_iron_spear]]
+      - **Diamond Spear (Simply Swords)** `items/weapons/kings-of-the-battlefield/diamond-spear-simply-swords` [[item:simplyswords:diamond_spear]]
+      - **Diamond Glaive** `items/weapons/kings-of-the-battlefield/diamond-glaive` [[item:simplyswords:diamond_glaive]]
+      - **Diamond Halberd (EpicFight - Dawnday)** `items/weapons/kings-of-the-battlefield/diamond-halberd-epicfight-dawnday` [[item:epicfight_dd:diamond_halberd]]
+      - **Diamond Spear (Epic Fight)** `items/weapons/kings-of-the-battlefield/diamond-spear-epic-fight` [[item:epicfight:diamond_spear]]
+      - **Diamond Halberd (Simply Swords)** `items/weapons/kings-of-the-battlefield/diamond-halberd-simply-swords` [[item:simplyswords:diamond_halberd]]
+      - **Enhanced Diamond Spear** `items/weapons/kings-of-the-battlefield/enhanced-diamond-spear` [[item:cdmoveset:s_diamond_spear]]
+      - **Netherite Spear (Simply Swords)** `items/weapons/kings-of-the-battlefield/netherite-spear-simply-swords` [[item:simplyswords:netherite_spear]]
+      - **Netherite Glaive** `items/weapons/kings-of-the-battlefield/netherite-glaive` [[item:simplyswords:netherite_glaive]]
+      - **Netherite Halberd (EpicFight - Dawnday)** `items/weapons/kings-of-the-battlefield/netherite-halberd-epicfight-dawnday` [[item:epicfight_dd:netherite_halberd]]
+      - **Netherite Spear (Epic Fight)** `items/weapons/kings-of-the-battlefield/netherite-spear-epic-fight` [[item:epicfight:netherite_spear]]
+      - **Netherite Halberd (Simply Swords)** `items/weapons/kings-of-the-battlefield/netherite-halberd-simply-swords` [[item:simplyswords:netherite_halberd]]
+      - **Enhanced Netherite Spear** `items/weapons/kings-of-the-battlefield/enhanced-netherite-spear` [[item:cdmoveset:s_netherite_spear]]
+      - **Runic Spear** `items/weapons/kings-of-the-battlefield/runic-spear` [[item:simplyswords:runic_spear]]
+      - **Warden Spear** `items/weapons/kings-of-the-battlefield/warden-spear` [[item:knavesneeds:deeperdarker/warden/spear]]
+      - **Runic Glaive** `items/weapons/kings-of-the-battlefield/runic-glaive` [[item:simplyswords:runic_glaive]]
+      - **Warden Glaive** `items/weapons/kings-of-the-battlefield/warden-glaive` [[item:knavesneeds:deeperdarker/warden/glaive]]
+      - **Iudex Gundyr's Halberd** `items/weapons/kings-of-the-battlefield/iudex-gundyrs-halberd` [[item:epicfight_dd:iudex_gundyr_halberd]]
+      - **Ancient Spear** `items/weapons/kings-of-the-battlefield/ancient-spear` [[item:cataclysm:ancient_spear]]
+      - **Nightingale** `items/weapons/kings-of-the-battlefield/nightingale` [[item:epicfight_dd:nightingale]]
+      - **Runic Halberd** `items/weapons/kings-of-the-battlefield/runic-halberd` [[item:simplyswords:runic_halberd]]
+      - **Warden Halberd** `items/weapons/kings-of-the-battlefield/warden-halberd` [[item:knavesneeds:deeperdarker/warden/halberd]]
+      - **Comet Spear** `items/weapons/kings-of-the-battlefield/comet-spear` [[item:soulsweapons:comet_spear]]
+      - **Agony** `items/weapons/kings-of-the-battlefield/agony` [[item:wom:agony]]
+      - **Magispear** `items/weapons/kings-of-the-battlefield/magispear` [[item:simplyswords:magispear]]
+      - **Coral Lance** `items/weapons/kings-of-the-battlefield/coral-lance` [[item:aquamirae:coral_lance]]
+      - **CrescentMoon** `items/weapons/kings-of-the-battlefield/crescentmoon` [[item:efn:crescent_moon]]
+      - **Glaive of Hodir** `items/weapons/kings-of-the-battlefield/glaive-of-hodir` [[item:soulsweapons:glaive_of_hodir]]
+      - **Astrape** `items/weapons/kings-of-the-battlefield/astrape` [[item:cataclysm:astrape]]
+      - **Arcanethyst** `items/weapons/kings-of-the-battlefield/arcanethyst` [[item:simplyswords:arcanethyst]]
+      - **Icewhisper** `items/weapons/kings-of-the-battlefield/icewhisper` [[item:simplyswords:icewhisper]]
+      - **Soul Render** `items/weapons/kings-of-the-battlefield/soul-render` [[item:cataclysm:soul_render]]
+      - **Dragonslayer Swordspear** `items/weapons/kings-of-the-battlefield/dragonslayer-swordspear` [[item:soulsweapons:dragonslayer_swordspear]]
+      - **Draupnir Spear** `items/weapons/kings-of-the-battlefield/draupnir-spear` [[item:soulsweapons:draupnir_spear]]
+      - **Wickpiercer** `items/weapons/kings-of-the-battlefield/wickpiercer` [[item:simplyswords:wickpiercer]]
+      - **Whisper of the Abyss** `items/weapons/kings-of-the-battlefield/whisper-of-the-abyss` [[item:aquamirae:whisper_of_the_abyss]]
+      - **Flamewind** `items/weapons/kings-of-the-battlefield/flamewind` [[item:simplyswords:flamewind]]
+      - **Thunderbrand** `items/weapons/kings-of-the-battlefield/thunderbrand` [[item:simplyswords:thunderbrand]]
+      - **[Duskfire]** `items/weapons/kings-of-the-battlefield/duskfire` [[item:efn:meen_spear]]
+    - **Demonic Implements** `items/weapons/demonic-implements` — Scythes and sickles (quest chapter `demonic_implements`, 28 weapons).
+      - **Ice Sickle** `items/weapons/demonic-implements/ice-sickle` [[item:immersive_weathering:ice_sickle]]
+      - **Cryolite Sickle** `items/weapons/demonic-implements/cryolite-sickle` [[item:dungeons_and_combat:cryolite_sickle]]
+      - **Molten Cryolite Sickle** `items/weapons/demonic-implements/molten-cryolite-sickle` [[item:dungeons_and_combat:molten_cryolite_sickle]]
+      - **Iron Sickle** `items/weapons/demonic-implements/iron-sickle` [[item:epicfight_dd:iron_sickle]]
+      - **Iron Scythe** `items/weapons/demonic-implements/iron-scythe` [[item:simplyswords:iron_scythe]]
+      - **Diamond Sickle (Dungeons and Combat)** `items/weapons/demonic-implements/diamond-sickle-dungeons-and-combat` [[item:dungeons_and_combat:diamond_sickle]]
+      - **Diamond Sickle (EpicFight - Dawnday)** `items/weapons/demonic-implements/diamond-sickle-epicfight-dawnday` [[item:epicfight_dd:diamond_sickle]]
+      - **Scythe** `items/weapons/demonic-implements/scythe` [[item:epicfight_dd:scythe]]
+      - **Diamond Scythe** `items/weapons/demonic-implements/diamond-scythe` [[item:simplyswords:diamond_scythe]]
+      - **Netherite Scythe** `items/weapons/demonic-implements/netherite-scythe` [[item:simplyswords:netherite_scythe]]
+      - **Netherite Sickle** `items/weapons/demonic-implements/netherite-sickle` [[item:epicfight_dd:netherite_sickle]]
+      - **War Sickle** `items/weapons/demonic-implements/war-sickle` [[item:epicfight_dd:war_sickle]]
+      - **Decrepit Scythe** `items/weapons/demonic-implements/decrepit-scythe` [[item:irons_spellbooks:decrepit_scythe]]
+      - **Ebony Scythe** `items/weapons/demonic-implements/ebony-scythe` [[item:dungeons_and_combat:ebony_scythe]]
+      - **Warden Scythe** `items/weapons/demonic-implements/warden-scythe` [[item:knavesneeds:deeperdarker/warden/scythe]]
+      - **Runic Scythe** `items/weapons/demonic-implements/runic-scythe` [[item:simplyswords:runic_scythe]]
+      - **Eternal Night Scythe** `items/weapons/demonic-implements/eternal-night-scythe` [[item:epicfightx:eternal_night_scythe]]
+      - **Hellrazor** `items/weapons/demonic-implements/hellrazor` [[item:irons_spellbooks:hellrazor]]
+      - **Crimson Scythe** `items/weapons/demonic-implements/crimson-scythe` [[item:dungeons_and_combat:crimson_scythe]]
+      - **Scythe of the Forlorn** `items/weapons/demonic-implements/scythe-of-the-forlorn` [[item:soulsweapons:forlorn_scythe]]
+      - **Magiscythe** `items/weapons/demonic-implements/magiscythe` [[item:simplyswords:magiscythe]]
+      - **Soulrender** `items/weapons/demonic-implements/soulrender` [[item:simplyswords:soulrender]]
+      - **The Darkin Scythe** `items/weapons/demonic-implements/the-darkin-scythe` [[item:soulsweapons:darkin_scythe_pre]] · [[item:soulsweapons:darkin_scythe]]
+      - **Soul Reaper** `items/weapons/demonic-implements/soul-reaper` [[item:soulsweapons:soul_reaper]]
+      - **Shadow Assassin Scythe** `items/weapons/demonic-implements/shadow-assassin-scythe` [[item:soulsweapons:shadow_assassin_scythe]]
+      - **Antitheus** `items/weapons/demonic-implements/antitheus` [[item:wom:antitheus]]
+      - **CRIMSON_MOON** `items/weapons/demonic-implements/crimson-moon` [[item:efn:crimson_moon]]
+    - **Heavy Load** `items/weapons/heavy-load` — Axes, greataxes, hammers and maces (quest chapter `path_of_the_colossus`, 56 weapons).
+      - **Rotten Hammer** `items/weapons/heavy-load/rotten-hammer` [[item:dungeons_and_combat:rotten_hammer]]
+      - **Iron Axe** `items/weapons/heavy-load/iron-axe` [[item:minecraft:iron_axe]]
+      - **Wooden Club** `items/weapons/heavy-load/wooden-club` [[item:dungeons_and_combat:wooden_mace]]
+      - **Wooden Bat** `items/weapons/heavy-load/wooden-bat` [[item:epicfight_dd:bat]]
+      - **Heavy Hammer** `items/weapons/heavy-load/heavy-hammer` [[item:dungeons_and_combat:heavy_hammer]]
+      - **Iron Greataxe** `items/weapons/heavy-load/iron-greataxe` [[item:wom:iron_greataxe]]
+      - **Diamond Axe** `items/weapons/heavy-load/diamond-axe` [[item:minecraft:diamond_axe]]
+      - **Dragon Bone Axe** `items/weapons/heavy-load/dragon-bone-axe` [[item:iceandfire:dragonbone_axe]]
+      - **Blacksmith Hammer** `items/weapons/heavy-load/blacksmith-hammer` [[item:dungeons_and_combat:blacksmith_hammer]]
+      - **Iron Greathammer** `items/weapons/heavy-load/iron-greathammer` [[item:simplyswords:iron_greathammer]]
+      - **Diamond Greataxe (Simply Swords)** `items/weapons/heavy-load/diamond-greataxe-simply-swords` [[item:simplyswords:diamond_greataxe]]
+      - **Diamond Greataxe (Weapons of miracle)** `items/weapons/heavy-load/diamond-greataxe-weapons-of-miracle` [[item:wom:diamond_greataxe]]
+      - **Netherite Axe** `items/weapons/heavy-load/netherite-axe` [[item:minecraft:netherite_axe]]
+      - **Ebony Axe** `items/weapons/heavy-load/ebony-axe` [[item:dungeons_and_combat:ebony_axe]]
+      - **Iron Mace** `items/weapons/heavy-load/iron-mace` [[item:dungeons_and_combat:iron_mace]]
+      - **Spiked Bat** `items/weapons/heavy-load/spiked-bat` [[item:epicfight_dd:nailbat]]
+      - **Diamond Greathammer** `items/weapons/heavy-load/diamond-greathammer` [[item:simplyswords:diamond_greathammer]]
+      - **The Gravedigger** `items/weapons/heavy-load/the-gravedigger` [[item:dungeons_and_combat:the_gravedigger_greataxe]]
+      - **Netherite Greataxe (Simply Swords)** `items/weapons/heavy-load/netherite-greataxe-simply-swords` [[item:simplyswords:netherite_greataxe]]
+      - **Troll's Axe** `items/weapons/heavy-load/trolls-axe` [[item:iceandfire:troll_weapon_axe]]
+      - **Netherite Greataxe (Weapons of miracle)** `items/weapons/heavy-load/netherite-greataxe-weapons-of-miracle` [[item:wom:netherite_greataxe]]
+      - **Whirligig Sawblade** `items/weapons/heavy-load/whirligig-sawblade` [[item:soulsweapons:whirligig_sawblade]]
+      - **Steel Axe** `items/weapons/heavy-load/steel-axe` [[item:epicfight_dd:steelaxe]]
+      - **Warden Axe** `items/weapons/heavy-load/warden-axe` [[item:deeperdarker:warden_axe]]
+      - **Crimson Axe** `items/weapons/heavy-load/crimson-axe` [[item:dungeons_and_combat:crimson_axe]]
+      - **Copper Greathammer** `items/weapons/heavy-load/copper-greathammer` [[item:dungeons_and_combat:copper_greathammer]]
+      - **Netherite Greathammer** `items/weapons/heavy-load/netherite-greathammer` [[item:simplyswords:netherite_greathammer]]
+      - **Troll's Tree Trunk** `items/weapons/heavy-load/trolls-tree-trunk` [[item:iceandfire:troll_weapon_trunk]]
+      - **Troll's Stone Column** `items/weapons/heavy-load/trolls-stone-column` [[item:iceandfire:troll_weapon_column]]
+      - **Troll's Hammer** `items/weapons/heavy-load/trolls-hammer` [[item:iceandfire:troll_weapon_hammer]]
+      - **Runic Greataxe** `items/weapons/heavy-load/runic-greataxe` [[item:simplyswords:runic_greataxe]]
+      - **Warden Greataxe** `items/weapons/heavy-load/warden-greataxe` [[item:knavesneeds:deeperdarker/warden/greataxe]]
+      - **Torment** `items/weapons/heavy-load/torment` [[item:wom:tormented_mind]]
+      - **Leviathan Axe** `items/weapons/heavy-load/leviathan-axe` [[item:soulsweapons:leviathan_axe]]
+      - **Ice Dragonsteel Axe** `items/weapons/heavy-load/ice-dragonsteel-axe` [[item:iceandfire:dragonsteel_ice_axe]]
+      - **Fire Dragonsteel Axe** `items/weapons/heavy-load/fire-dragonsteel-axe` [[item:iceandfire:dragonsteel_fire_axe]]
+      - **Lightning Dragonsteel Axe** `items/weapons/heavy-load/lightning-dragonsteel-axe` [[item:iceandfire:dragonsteel_lightning_axe]]
+      - **Kirkhammer** `items/weapons/heavy-load/kirkhammer` [[item:soulsweapons:kirkhammer]]
+      - **Acid Molten Blazing Hammer** `items/weapons/heavy-load/acid-molten-blazing-hammer` [[item:dungeons_and_combat:acid_molten_blazing_greathammer]]
+      - **Molten Blazing Hammer** `items/weapons/heavy-load/molten-blazing-hammer` [[item:dungeons_and_combat:molten_blazing_greathammer]]
+      - **Cursed Molten Blazing Hammer** `items/weapons/heavy-load/cursed-molten-blazing-hammer` [[item:dungeons_and_combat:cursed_molten_blazing_greathammer]]
+      - **Grimm** `items/weapons/heavy-load/grimm` [[item:epicfight_dd:grimm]]
+      - **Runic Greathammer** `items/weapons/heavy-load/runic-greathammer` [[item:simplyswords:runic_greathammer]]
+      - **Warden Greathammer** `items/weapons/heavy-load/warden-greathammer` [[item:knavesneeds:deeperdarker/warden/greathammer]]
+      - **Mjolnir** `items/weapons/heavy-load/mjolnir` [[item:simplyswords:mjolnir]]
+      - **Livyatan** `items/weapons/heavy-load/livyatan` [[item:simplyswords:livyatan]]
+      - **Soul Pyre** `items/weapons/heavy-load/soul-pyre` [[item:simplyswords:soulpyre]]
+      - **Hearthflame** `items/weapons/heavy-load/hearthflame` [[item:simplyswords:hearthflame]]
+      - **Meat Shredder** `items/weapons/heavy-load/meat-shredder` [[item:cataclysm:meat_shredder]]
+      - **Tonitrus** `items/weapons/heavy-load/tonitrus` [[item:soulsweapons:tonitrus]]
+      - **Hiveheart** `items/weapons/heavy-load/hiveheart` [[item:simplyswords:hiveheart]]
+      - **Soulkeeper** `items/weapons/heavy-load/soulkeeper` [[item:simplyswords:soulkeeper]]
+      - **Frostfall** `items/weapons/heavy-load/frostfall` [[item:simplyswords:frostfall]]
+      - **Infernal Forge** `items/weapons/heavy-load/infernal-forge` [[item:cataclysm:infernal_forge]]
+      - **Mjölnir** `items/weapons/heavy-load/mj-lnir` [[item:soulsweapons:mjolnir]]
+      - **Void Forge** `items/weapons/heavy-load/void-forge` [[item:cataclysm:void_forge]]
+    - **Way of the Dancing Blades** `items/weapons/way-of-the-dancing-blades` — Staves, battlestaffs, warglaives, chakrams and twinblades (quest chapter `dancing_blades`, 37 weapons).
+      - **Wooden staff** `items/weapons/way-of-the-dancing-blades/wooden-staff` [[item:wom:wooden_staff]]
+      - **Big Stick** `items/weapons/way-of-the-dancing-blades/big-stick` [[item:epicfight_dd:wooden_battlestaff]]
+      - **Stone staff** `items/weapons/way-of-the-dancing-blades/stone-staff` [[item:wom:stone_staff]]
+      - **Iron Battlestaff** `items/weapons/way-of-the-dancing-blades/iron-battlestaff` [[item:epicfight_dd:iron_battlestaff]]
+      - **Iron staff** `items/weapons/way-of-the-dancing-blades/iron-staff` [[item:wom:iron_staff]]
+      - **Diamond Battlestaff** `items/weapons/way-of-the-dancing-blades/diamond-battlestaff` [[item:epicfight_dd:diamond_battlestaff]]
+      - **Diamond staff** `items/weapons/way-of-the-dancing-blades/diamond-staff` [[item:wom:diamond_staff]]
+      - **Iron Warglaive** `items/weapons/way-of-the-dancing-blades/iron-warglaive` [[item:simplyswords:iron_warglaive]]
+      - **Iron Chakram** `items/weapons/way-of-the-dancing-blades/iron-chakram` [[item:simplyswords:iron_chakram]]
+      - **Iron Twinblade** `items/weapons/way-of-the-dancing-blades/iron-twinblade` [[item:simplyswords:iron_twinblade]]
+      - **Netherite Battlestaff** `items/weapons/way-of-the-dancing-blades/netherite-battlestaff` [[item:epicfight_dd:netherite_battlestaff]]
+      - **Amethyst Battlestaff** `items/weapons/way-of-the-dancing-blades/amethyst-battlestaff` [[item:epicfight_dd:amethyst_battlestaff]]
+      - **Netherite staff** `items/weapons/way-of-the-dancing-blades/netherite-staff` [[item:wom:netherite_staff]]
+      - **Diamond Warglaive** `items/weapons/way-of-the-dancing-blades/diamond-warglaive` [[item:simplyswords:diamond_warglaive]]
+      - **Diamond Chakram** `items/weapons/way-of-the-dancing-blades/diamond-chakram` [[item:simplyswords:diamond_chakram]]
+      - **Diamond Twinblade** `items/weapons/way-of-the-dancing-blades/diamond-twinblade` [[item:simplyswords:diamond_twinblade]]
+      - **Poleblade** `items/weapons/way-of-the-dancing-blades/poleblade` [[item:epicfight_dd:poleblade]]
+      - **Sandstone Twin Blade** `items/weapons/way-of-the-dancing-blades/sandstone-twin-blade` [[item:dungeons_and_combat:blessed_gold_sickle]]
+      - **Napoleon** `items/weapons/way-of-the-dancing-blades/napoleon` [[item:wom:napoleon]]
+      - **Netherite Warglaive** `items/weapons/way-of-the-dancing-blades/netherite-warglaive` [[item:simplyswords:netherite_warglaive]]
+      - **Netherite Chakram** `items/weapons/way-of-the-dancing-blades/netherite-chakram` [[item:simplyswords:netherite_chakram]]
+      - **Netherite Twinblade** `items/weapons/way-of-the-dancing-blades/netherite-twinblade` [[item:simplyswords:netherite_twinblade]]
+      - **Withered Wabbajack** `items/weapons/way-of-the-dancing-blades/withered-wabbajack` [[item:soulsweapons:withered_wabbajack]]
+      - **Warden Warglaive** `items/weapons/way-of-the-dancing-blades/warden-warglaive` [[item:knavesneeds:deeperdarker/warden/warglaive]]
+      - **Runic Warglaive** `items/weapons/way-of-the-dancing-blades/runic-warglaive` [[item:simplyswords:runic_warglaive]]
+      - **Warden Chakram** `items/weapons/way-of-the-dancing-blades/warden-chakram` [[item:knavesneeds:deeperdarker/warden/chakram]]
+      - **Runic Chakram** `items/weapons/way-of-the-dancing-blades/runic-chakram` [[item:simplyswords:runic_chakram]]
+      - **Warden Twinblade** `items/weapons/way-of-the-dancing-blades/warden-twinblade` [[item:knavesneeds:deeperdarker/warden/twinblade]]
+      - **Runic Twinblade** `items/weapons/way-of-the-dancing-blades/runic-twinblade` [[item:simplyswords:runic_twinblade]]
+      - **Watching Warglaive** `items/weapons/way-of-the-dancing-blades/watching-warglaive` [[item:simplyswords:watching_warglaive]]
+      - **Laser Gatling** `items/weapons/way-of-the-dancing-blades/laser-gatling` [[item:cataclysm:laser_gatling]]
+      - **Tempest** `items/weapons/way-of-the-dancing-blades/tempest` [[item:simplyswords:tempest]]
+      - **Star's Edge** `items/weapons/way-of-the-dancing-blades/stars-edge` [[item:simplyswords:stars_edge]]
+      - **Magiblade** `items/weapons/way-of-the-dancing-blades/magiblade` [[item:simplyswords:magiblade]]
+      - **Storm's Edge** `items/weapons/way-of-the-dancing-blades/storms-edge` [[item:simplyswords:storms_edge]]
+      - **Moonless** `items/weapons/way-of-the-dancing-blades/moonless` [[item:wom:moonless]]
+      - **Ender blaster** `items/weapons/way-of-the-dancing-blades/ender-blaster` [[item:wom:ender_blaster]]
+    - **Bulwark and Brawl** `items/weapons/bulwark-and-brawl` — Shields, fists, claws and knuckles (quest chapter `bulwark_and_brawl`, 27 weapons).
+      - **Wooden Shield** `items/weapons/bulwark-and-brawl/wooden-shield` [[item:dungeons_and_combat:wooden_shield]]
+      - **Frozen Fist** `items/weapons/bulwark-and-brawl/frozen-fist` [[item:block_factorys_bosses:frozen_fist]]
+      - **Steel Shield** `items/weapons/bulwark-and-brawl/steel-shield` [[item:dungeons_and_combat:steel_shield]]
+      - **Glove** `items/weapons/bulwark-and-brawl/glove` [[item:epicfight:glove]]
+      - **Gesetz** `items/weapons/bulwark-and-brawl/gesetz` [[item:wom:gesetz]]
+      - **Dragonsteel Lightning Shield** `items/weapons/bulwark-and-brawl/dragonsteel-lightning-shield` [[item:dungeons_and_combat:dragonsteel_lightning_shield]]
+      - **Dragonsteel Fire Shield** `items/weapons/bulwark-and-brawl/dragonsteel-fire-shield` [[item:dungeons_and_combat:dragonsteel_fire_shield]]
+      - **Dragonsteel Ice Shield** `items/weapons/bulwark-and-brawl/dragonsteel-ice-shield` [[item:dungeons_and_combat:dragonsteel_ice_shield]]
+      - **Iron Fist** `items/weapons/bulwark-and-brawl/iron-fist` [[item:epicfight_dd:iron_fist]]
+      - **Hookclaws** `items/weapons/bulwark-and-brawl/hookclaws` [[item:epicfight_dd:hookclaws]]
+      - **Iron Knuckles** `items/weapons/bulwark-and-brawl/iron-knuckles` [[item:ef_weapon_extended:iron_knuckles]]
+      - **Igenous Molten Shield** `items/weapons/bulwark-and-brawl/igenous-molten-shield` [[item:dungeons_and_combat:igenous_molten_shield]]
+      - **Diamond Knuckles** `items/weapons/bulwark-and-brawl/diamond-knuckles` [[item:ef_weapon_extended:diamond_knuckles]]
+      - **Tekko-Kagi** `items/weapons/bulwark-and-brawl/tekko-kagi` [[item:samurai_dynasty:shuko]]
+      - **Ebony Shield** `items/weapons/bulwark-and-brawl/ebony-shield` [[item:dungeons_and_combat:ebony_shield]]
+      - **Netherite Knuckles** `items/weapons/bulwark-and-brawl/netherite-knuckles` [[item:ef_weapon_extended:netherite_knuckles]]
+      - **Netherite Tekko-Kagi** `items/weapons/bulwark-and-brawl/netherite-tekko-kagi` [[item:samurai_dynasty:shuko_netherite]]
+      - **Crimson Shield** `items/weapons/bulwark-and-brawl/crimson-shield` [[item:dungeons_and_combat:crimson_shield]]
+      - **Sandstone Fist** `items/weapons/bulwark-and-brawl/sandstone-fist` [[item:dungeons_and_combat:sandstone_fist]]
+      - **Clawed Gauntle** `items/weapons/bulwark-and-brawl/clawed-gauntle` [[item:wom:jabberwocky]]
+      - **Bulwark of the Flame** `items/weapons/bulwark-and-brawl/bulwark-of-the-flame` [[item:cataclysm:bulwark_of_the_flame]]
+      - **Blessed Gold Fist** `items/weapons/bulwark-and-brawl/blessed-gold-fist` [[item:dungeons_and_combat:blessed_gold_fist]]
+      - **Acid Molten Blazing Fist** `items/weapons/bulwark-and-brawl/acid-molten-blazing-fist` [[item:dungeons_and_combat:acid_molten_blazing_fists]]
+      - **Molten Blazing Fist** `items/weapons/bulwark-and-brawl/molten-blazing-fist` [[item:dungeons_and_combat:molten_blazing_fists]]
+      - **Cursed Molten Blazing Fist** `items/weapons/bulwark-and-brawl/cursed-molten-blazing-fist` [[item:dungeons_and_combat:cursed_molten_blazing_fist]]
+      - **Tidal Claws** `items/weapons/bulwark-and-brawl/tidal-claws` [[item:cataclysm:tidal_claws]]
+      - **Feral Claw** `items/weapons/bulwark-and-brawl/feral-claw` [[item:efn:nf_claw]]
+    - **Archery Armory** `items/weapons/archery-armory` — Bows and crossbows (quest chapter `too_many_bows`, 33 weapons).
+      - **Webstring** `items/weapons/archery-armory/webstring` [[item:too_many_bows:webstring]]
+      - **Kraken Slayer Spear Bow** `items/weapons/archery-armory/kraken-slayer-spear-bow` [[item:soulsweapons:kraken_slayer]]
+      - **Dragons Breath** `items/weapons/archery-armory/dragons-breath` [[item:too_many_bows:dragons_breath]]
+      - **Twin Shadows** `items/weapons/archery-armory/twin-shadows` [[item:too_many_bows:twin_shadows]]
+      - **Ancient Sage Bow** `items/weapons/archery-armory/ancient-sage-bow` [[item:too_many_bows:ancient_sage_bow]]
+      - **Shulker's Blast** `items/weapons/archery-armory/shulkers-blast` [[item:too_many_bows:shulker_blast]]
+      - **Burnt Relic** `items/weapons/archery-armory/burnt-relic` [[item:too_many_bows:burnt_relic]]
+      - **Aether's Call** `items/weapons/archery-armory/aethers-call` [[item:too_many_bows:aethers_call]]
+      - **Kraken Slayer Crossbow** `items/weapons/archery-armory/kraken-slayer-crossbow` [[item:soulsweapons:kraken_slayer_crossbow]]
+      - **Sentinel's Wrath** `items/weapons/archery-armory/sentinels-wrath` [[item:too_many_bows:sentinels_wrath]]
+      - **Demons Grasp** `items/weapons/archery-armory/demons-grasp` [[item:too_many_bows:demons_grasp]]
+      - **Emerald Sage Bow** `items/weapons/archery-armory/emerald-sage-bow` [[item:too_many_bows:emerald_sage_bow]]
+      - **Hunter's Bow** `items/weapons/archery-armory/hunters-bow` [[item:too_many_bows:hunter_bow]]
+      - **Wooden Bow** `items/weapons/archery-armory/wooden-bow` [[item:minecraft:bow]]
+      - **Dreadbow** `items/weapons/archery-armory/dreadbow` [[item:alexscaves:dreadbow]]
+      - **Astral Bound** `items/weapons/archery-armory/astral-bound` [[item:too_many_bows:astral_bound]]
+      - **Ethereal Hunter** `items/weapons/archery-armory/ethereal-hunter` [[item:too_many_bows:ethereal_hunter]]
+      - **Darkmoon Longbow** `items/weapons/archery-armory/darkmoon-longbow` [[item:soulsweapons:darkmoon_longbow]]
+      - **Spectral Whisper** `items/weapons/archery-armory/spectral-whisper` [[item:too_many_bows:spectral_whisper]]
+      - **Dark Bow** `items/weapons/archery-armory/dark-bow` [[item:too_many_bows:dark_bow]]
+      - **Dusk Reaper** `items/weapons/archery-armory/dusk-reaper` [[item:too_many_bows:dusk_reaper]]
+      - **Arcane Bow** `items/weapons/archery-armory/arcane-bow` [[item:too_many_bows:arcane_bow]]
+      - **Verdant Vigor** `items/weapons/archery-armory/verdant-vigor` [[item:too_many_bows:verdant_vigor]]
+      - **Necro Flame Bow** `items/weapons/archery-armory/necro-flame-bow` [[item:too_many_bows:necro_flame_bow]]
+      - **Wind Bow** `items/weapons/archery-armory/wind-bow` [[item:too_many_bows:wind_bow]]
+      - **Frostbite** `items/weapons/archery-armory/frostbite` [[item:too_many_bows:frostbite]]
+      - **Verdant Viper** `items/weapons/archery-armory/verdant-viper` [[item:too_many_bows:verdant_viper]]
+      - **Pyre's Embrace** `items/weapons/archery-armory/pyres-embrace` [[item:too_many_bows:flame_bow]]
+      - **Arc Of The Heavens** `items/weapons/archery-armory/arc-of-the-heavens` [[item:too_many_bows:arc_heavens]]
+      - **Solar Flare** `items/weapons/archery-armory/solar-flare` [[item:too_many_bows:solar_bow]]
+      - **Galeforce** `items/weapons/archery-armory/galeforce` [[item:soulsweapons:galeforce]]
+      - **Cyroheart Bow** `items/weapons/archery-armory/cyroheart-bow` [[item:too_many_bows:cyroheart_bow]]
+      - **Aurora's Grace** `items/weapons/archery-armory/auroras-grace` [[item:too_many_bows:auroras_grace]]
+    - **Magic Weapons** `items/weapons/magic-weapons` — Staffs, wands and spell weapons (82 items from the `soulrend:magic_weapons` tag that no weapon chapter already covers), grouped by mod. Replaces Staffs & Wands.
+      - _Alex's Caves_
+        - **Sea Staff** `items/weapons/magic-weapons/sea-staff` [[item:alexscaves:sea_staff]]
+      - _Dacxirons_
+        - **Fairy Wand** `items/weapons/magic-weapons/fairy-wand` [[item:dacxirons:fairy_wand_staff]]
+        - **Pyroclastic Staff** `items/weapons/magic-weapons/pyroclastic-staff` [[item:dacxirons:pyromancer_staff]]
+        - **Sanguine Scepter** `items/weapons/magic-weapons/sanguine-scepter` [[item:dacxirons:sanguine_scepter_staff]]
+      - _GTBC's Geomancy Plus_
+        - **The Stonecaller** `items/weapons/magic-weapons/the-stonecaller` [[item:gtbcs_geomancy_plus:the_stonecaller]]
+      - _Ice and Fire_
+        - **Dread Lich Staff** `items/weapons/magic-weapons/dread-lich-staff` [[item:iceandfire:lich_staff]]
+      - _Ice and Fire: Spellbooks_
+        - **Glacial Dragon Priest Staff** `items/weapons/magic-weapons/glacial-dragon-priest-staff` [[item:ice_and_fire_spellbooks:silver_dragon_priest_staff]]
+        - **Infernal Dragon Priest Staff** `items/weapons/magic-weapons/infernal-dragon-priest-staff` [[item:ice_and_fire_spellbooks:crimson_dragon_priest_staff]]
+        - **Thunderous Dragon Priest Staff** `items/weapons/magic-weapons/thunderous-dragon-priest-staff` [[item:ice_and_fire_spellbooks:thunderous_dragon_priest_staff]]
+      - _Iron's Spells 'n Spellbooks_
+        - **Artificer's Cane** `items/weapons/magic-weapons/artificers-cane` [[item:irons_spellbooks:artificer_cane]]
+        - **Graybeard Staff** `items/weapons/magic-weapons/graybeard-staff` [[item:irons_spellbooks:graybeard_staff]]
+        - **Hither-Thither Wand** `items/weapons/magic-weapons/hither-thither-wand` [[item:irons_spellbooks:hither_thither_wand]]
+        - **Ice Staff** `items/weapons/magic-weapons/ice-staff` [[item:irons_spellbooks:ice_staff]]
+        - **Pyrium Staff** `items/weapons/magic-weapons/pyrium-staff` [[item:irons_spellbooks:pyrium_staff]]
+        - **Rod o' Lightning** `items/weapons/magic-weapons/rod-o-lightning` [[item:irons_spellbooks:lightning_rod]]
+        - **The Blood Staff** `items/weapons/magic-weapons/the-blood-staff` [[item:irons_spellbooks:blood_staff]]
+      - _Mowzie's Mobs_
+        - **Geomancer Staff** `items/weapons/magic-weapons/geomancer-staff` [[item:mowziesmobs:sculptor_staff]]
+      - _T.O Magic 'n Extras_
+        - **Abyssal Tidecaller** `items/weapons/magic-weapons/abyssal-tidecaller` [[item:traveloptics:abyssal_tidecaller]] · [[item:traveloptics:abyssal_tidecaller_level_one]] · [[item:traveloptics:abyssal_tidecaller_level_three]] · [[item:traveloptics:abyssal_tidecaller_level_two]]
+        - **Charged Sands** `items/weapons/magic-weapons/charged-sands` [[item:traveloptics:charged_sands]] · [[item:traveloptics:charged_sands_level_one]] · [[item:traveloptics:charged_sands_level_three]] · [[item:traveloptics:charged_sands_level_two]]
+        - **Cursed Wraithblade** `items/weapons/magic-weapons/cursed-wraithblade` [[item:traveloptics:cursed_wraithblade]] · [[item:traveloptics:cursed_wraithblade_level_one]] · [[item:traveloptics:cursed_wraithblade_level_three]] · [[item:traveloptics:cursed_wraithblade_level_two]]
+        - **Flames Of Eldritch** `items/weapons/magic-weapons/flames-of-eldritch` [[item:traveloptics:flames_of_eldritch]] · [[item:traveloptics:flames_of_eldritch_level_one]] · [[item:traveloptics:flames_of_eldritch_level_three]] · [[item:traveloptics:flames_of_eldritch_level_two]]
+        - **Galenic Polarizer** `items/weapons/magic-weapons/galenic-polarizer` [[item:traveloptics:galenic_polarizer]] · [[item:traveloptics:galenic_polarizer_level_one]] · [[item:traveloptics:galenic_polarizer_level_three]] · [[item:traveloptics:galenic_polarizer_level_two]]
+        - **Gauntlet Of Extinction** `items/weapons/magic-weapons/gauntlet-of-extinction` [[item:traveloptics:gauntlet_of_extinction]] · [[item:traveloptics:gauntlet_of_extinction_level_one]] · [[item:traveloptics:gauntlet_of_extinction_level_three]] · [[item:traveloptics:gauntlet_of_extinction_level_two]]
+        - **Harbinger's Wrath** `items/weapons/magic-weapons/harbingers-wrath` [[item:traveloptics:harbingers_wrath]] · [[item:traveloptics:harbingers_wrath_level_one]] · [[item:traveloptics:harbingers_wrath_level_three]] · [[item:traveloptics:harbingers_wrath_level_two]]
+        - **Infernal Devastator** `items/weapons/magic-weapons/infernal-devastator` [[item:traveloptics:infernal_devastator]] · [[item:traveloptics:infernal_devastator_level_one]] · [[item:traveloptics:infernal_devastator_level_three]] · [[item:traveloptics:infernal_devastator_level_two]]
+        - **Mechanized Wraithblade** `items/weapons/magic-weapons/mechanized-wraithblade` [[item:traveloptics:mechanized_wraithblade]] · [[item:traveloptics:mechanized_wraithblade_level_one]] · [[item:traveloptics:mechanized_wraithblade_level_three]] · [[item:traveloptics:mechanized_wraithblade_level_two]]
+        - **Scourge Of The Sands** `items/weapons/magic-weapons/scourge-of-the-sands` [[item:traveloptics:scourge_of_the_sands]] · [[item:traveloptics:scourge_of_the_sands_level_one]] · [[item:traveloptics:scourge_of_the_sands_level_three]] · [[item:traveloptics:scourge_of_the_sands_level_two]]
+        - **Staff Of The Storm Empress** `items/weapons/magic-weapons/staff-of-the-storm-empress` [[item:traveloptics:staff_of_the_storm_empress]]
+        - **Stellothorn** `items/weapons/magic-weapons/stellothorn` [[item:traveloptics:stellothorn]] · [[item:traveloptics:stellothorn_level_one]] · [[item:traveloptics:stellothorn_level_three]] · [[item:traveloptics:stellothorn_level_two]]
+        - **The Obliterator** `items/weapons/magic-weapons/the-obliterator` [[item:traveloptics:the_obliterator]] · [[item:traveloptics:the_obliterator_level_one]] · [[item:traveloptics:the_obliterator_level_three]] · [[item:traveloptics:the_obliterator_level_two]]
+        - **Thorns Of Oblivion** `items/weapons/magic-weapons/thorns-of-oblivion` [[item:traveloptics:thorns_of_oblivion]] · [[item:traveloptics:thorns_of_oblivion_level_one]] · [[item:traveloptics:thorns_of_oblivion_level_three]] · [[item:traveloptics:thorns_of_oblivion_level_two]]
+        - **Titanlord's Scepter** `items/weapons/magic-weapons/titanlords-scepter` [[item:traveloptics:titanlord_scepter]] · [[item:traveloptics:titanlord_scepter_retro]] · [[item:traveloptics:titanlord_scepter_tectonic]]
+        - **Trident Of The Eternal Maelstrom** `items/weapons/magic-weapons/trident-of-the-eternal-maelstrom` [[item:traveloptics:trident_of_the_eternal_maelstrom]] · [[item:traveloptics:trident_of_the_eternal_maelstrom_level_one]] · [[item:traveloptics:trident_of_the_eternal_maelstrom_level_three]] · [[item:traveloptics:trident_of_the_eternal_maelstrom_level_two]]
+        - **Voidstrike Reaper** `items/weapons/magic-weapons/voidstrike-reaper` [[item:traveloptics:voidstrike_reaper]] · [[item:traveloptics:voidstrike_reaper_level_one]] · [[item:traveloptics:voidstrike_reaper_level_three]] · [[item:traveloptics:voidstrike_reaper_level_two]]
+        - **Wand Of The Final Light** `items/weapons/magic-weapons/wand-of-the-final-light` [[item:traveloptics:wand_of_final_light]]
+    - **Epic Knights Weapons** `items/weapons/epic-knights-weapons` — Every Epic Knights weapon and shield on one page (45 items in `soulrend:all_weapons`), plus the Epic Knights: Ice and Fire add-on 15 weapon types in 7 dragon materials.
+    - **Misc Weapons** `items/weapons/misc-weapons` — Weapons no quest mentions (177 items), grouped by mod.
+      - Cataclysm: [[item:cataclysm:athame]] · [[item:cataclysm:azure_sea_shield]] · [[item:cataclysm:black_steel_axe]] · [[item:cataclysm:black_steel_sword]] · [[item:cataclysm:ceraunus]] · [[item:cataclysm:cursed_bow]] · [[item:cataclysm:wrath_of_the_desert]]
+      - Cataclysm Weaponery: [[item:cataclysm_weaponery:ignitium_sword]]
+      - Create: [[item:create:cardboard_sword]]
+      - Deeper and Darker: [[item:deeperdarker:resonarium_sword]]
+      - Dungeons and Combat: [[item:dungeons_and_combat:acid_blazing_shield]] · [[item:dungeons_and_combat:acid_molten_blazing_sword]] · [[item:dungeons_and_combat:amethyst_dragon_shield]] · [[item:dungeons_and_combat:blazing_shield]] · [[item:dungeons_and_combat:blessed_gold_axe]] · [[item:dungeons_and_combat:blessed_gold_shield]] · [[item:dungeons_and_combat:blue_dragon_shield]] · [[item:dungeons_and_combat:broken_shield]] · [[item:dungeons_and_combat:bronze_dagger]] · [[item:dungeons_and_combat:bronze_shield]] · [[item:dungeons_and_combat:bronze_sword]] · [[item:dungeons_and_combat:copper_axe]] · [[item:dungeons_and_combat:copper_axe_war]] · [[item:dungeons_and_combat:copper_dagger]] · [[item:dungeons_and_combat:copper_dragon_shield]] · [[item:dungeons_and_combat:copper_shield]] · [[item:dungeons_and_combat:cursed_blazing_shield]] · [[item:dungeons_and_combat:cursed_molten_blazing_sword]] · [[item:dungeons_and_combat:dagger]] · [[item:dungeons_and_combat:deserter_steel_sword]] · [[item:dungeons_and_combat:diamond_shield]] · [[item:dungeons_and_combat:dragonsteel_fire_long_sword]] · [[item:dungeons_and_combat:dragonsteel_ice_long_sword]] · [[item:dungeons_and_combat:dragonsteel_lightning_long_sword]] · [[item:dungeons_and_combat:ebony_long_sword]] · [[item:dungeons_and_combat:electric_dragon_shield]] · [[item:dungeons_and_combat:executioner_axe]] · [[item:dungeons_and_combat:golden_glaive]] · [[item:dungeons_and_combat:golden_shield]] · [[item:dungeons_and_combat:gray_dragon_shield]] · [[item:dungeons_and_combat:green_dragon_shield]] · [[item:dungeons_and_combat:heavy_shield]] · [[item:dungeons_and_combat:iron_dagger]] · [[item:dungeons_and_combat:iron_greataxe]] · [[item:dungeons_and_combat:iron_shield]] · [[item:dungeons_and_combat:molten_blazing_sword]] · [[item:dungeons_and_combat:molten_dark_steel_axe]] · [[item:dungeons_and_combat:molten_dark_steel_greataxe]] · [[item:dungeons_and_combat:molten_dark_steel_shield]] · [[item:dungeons_and_combat:molten_dark_steel_sword]] · [[item:dungeons_and_combat:neptunium_shield]] · [[item:dungeons_and_combat:netherite_dagger]] · [[item:dungeons_and_combat:netherite_shield]] · [[item:dungeons_and_combat:old_axe]] · [[item:dungeons_and_combat:old_shield]] · [[item:dungeons_and_combat:red_dragon_shield]] · [[item:dungeons_and_combat:sandstone_axe]] · [[item:dungeons_and_combat:sandstone_axe_war]] · [[item:dungeons_and_combat:sandstone_shield]] · [[item:dungeons_and_combat:sandstorm_greatsword]] · [[item:dungeons_and_combat:silver_axe]] · [[item:dungeons_and_combat:silver_dagger]] · [[item:dungeons_and_combat:silver_dragon_shield]] · [[item:dungeons_and_combat:silver_shield]] · [[item:dungeons_and_combat:silver_spear]] · [[item:dungeons_and_combat:silver_sword]] · [[item:dungeons_and_combat:steel_axe]] · [[item:dungeons_and_combat:steel_greataxe]] · [[item:dungeons_and_combat:steel_sword]] · [[item:dungeons_and_combat:stone_shield]] · [[item:dungeons_and_combat:titanium_axe]] · [[item:dungeons_and_combat:titanium_greatsword]] · [[item:dungeons_and_combat:titanium_shield]] · [[item:dungeons_and_combat:titanium_sword]] · [[item:dungeons_and_combat:white_dragon_shield]] · [[item:dungeons_and_combat:wooden_battle_staff]]
+      - Epic Fight: [[item:epicfight:diamond_longsword]] · [[item:epicfight:golden_dagger]] · [[item:epicfight:golden_greatsword]] · [[item:epicfight:golden_longsword]] · [[item:epicfight:golden_spear]] · [[item:epicfight:golden_tachi]] · [[item:epicfight:iron_longsword]] · [[item:epicfight:netherite_longsword]]
+      - EpicFight - Dawnday: [[item:epicfight_dd:golden_battlestaff]]
+      - EpicFight Nightfall: [[item:efn:air_tachi]] · [[item:efn:co_tachi]] · [[item:efn:hf_blade]] · [[item:efn:hf_murasama]] · [[item:efn:kusabimaru]] · [[item:efn:sword_of_pioneer]]
+      - EpicFight-Resurrection: [[item:cdmoveset:s_diamond_longsword]] · [[item:cdmoveset:s_diamond_sword]] · [[item:cdmoveset:s_iron_longsword]] · [[item:cdmoveset:s_iron_sword]] · [[item:cdmoveset:s_netherite_longsword]] · [[item:cdmoveset:s_netherite_sword]]
+      - Ice and Fire: [[item:iceandfire:copper_sword]] · [[item:iceandfire:hippogryph_sword]] · [[item:iceandfire:silver_sword]] · [[item:iceandfire:stymphalian_bird_dagger]]
+      - Knaves' Needs: [[item:knavesneeds:deeperdarker/warden/longsword]] · [[item:knavesneeds:soulsweapons/translucent/chakram]] · [[item:knavesneeds:soulsweapons/translucent/claymore]] · [[item:knavesneeds:soulsweapons/translucent/glaive]] · [[item:knavesneeds:soulsweapons/translucent/greathammer]] · [[item:knavesneeds:soulsweapons/translucent/halberd]] · [[item:knavesneeds:soulsweapons/translucent/katana]] · [[item:knavesneeds:soulsweapons/translucent/longsword]] · [[item:knavesneeds:soulsweapons/translucent/rapier]] · [[item:knavesneeds:soulsweapons/translucent/sai]] · [[item:knavesneeds:soulsweapons/translucent/scythe]] · [[item:knavesneeds:soulsweapons/translucent/spear]] · [[item:knavesneeds:soulsweapons/translucent/twinblade]] · [[item:knavesneeds:soulsweapons/translucent/warglaive]]
+      - Marium's Soulslike Weaponry: [[item:soulsweapons:holy_moonlight_sword]] · [[item:soulsweapons:master_sword]] · [[item:soulsweapons:silver_sword]] · [[item:soulsweapons:translucent_double_greatsword]] · [[item:soulsweapons:translucent_glaive]] · [[item:soulsweapons:translucent_sword]]
+      - Minecraft: [[item:minecraft:golden_axe]] · [[item:minecraft:golden_sword]] · [[item:minecraft:shield]] · [[item:minecraft:stone_axe]] · [[item:minecraft:wooden_axe]]
+      - Mowzie's Mobs: [[item:mowziesmobs:naga_fang_dagger]] · [[item:mowziesmobs:spear]] · [[item:mowziesmobs:wrought_axe]]
+      - Rapier For EpicFightMod: [[item:refm:gold_rapier]]
+      - Samurai Dynasty: [[item:samurai_dynasty:wakizashi]] · [[item:samurai_dynasty:wakizashi_netherite]]
+      - Simply Swords: [[item:simplyswords:diamond_longsword]] · [[item:simplyswords:emberblade]] · [[item:simplyswords:gold_chakram]] · [[item:simplyswords:gold_claymore]] · [[item:simplyswords:gold_cutlass]] · [[item:simplyswords:gold_glaive]] · [[item:simplyswords:gold_greataxe]] · [[item:simplyswords:gold_greathammer]] · [[item:simplyswords:gold_halberd]] · [[item:simplyswords:gold_katana]] · [[item:simplyswords:gold_longsword]] · [[item:simplyswords:gold_rapier]] · [[item:simplyswords:gold_sai]] · [[item:simplyswords:gold_scythe]] · [[item:simplyswords:gold_spear]] · [[item:simplyswords:gold_twinblade]] · [[item:simplyswords:gold_warglaive]] · [[item:simplyswords:iron_greataxe]] · [[item:simplyswords:iron_longsword]] · [[item:simplyswords:netherite_longsword]] · [[item:simplyswords:runic_longsword]]
+      - The Graveyard: [[item:graveyard:bone_dagger]]
+      - Valarian Conquest: [[item:valarian_conquest:bohemian_shield]] · [[item:valarian_conquest:bohemian_sword]] · [[item:valarian_conquest:caladrian_shield]] · [[item:valarian_conquest:caladrian_sword]] · [[item:valarian_conquest:dwarven_axe]] · [[item:valarian_conquest:dwarven_shield]] · [[item:valarian_conquest:galician_shield]] · [[item:valarian_conquest:galician_sword]] · [[item:valarian_conquest:heavy_axe]] · [[item:valarian_conquest:lancastian_shield]] · [[item:valarian_conquest:lancastian_sword]] · [[item:valarian_conquest:light_axe]] · [[item:valarian_conquest:mercenary_shield]] · [[item:valarian_conquest:mercenary_sword]] · [[item:valarian_conquest:numerian_shield]] · [[item:valarian_conquest:numerian_sword]] · [[item:valarian_conquest:soldiers_spear]] · [[item:valarian_conquest:valarian_shield]] · [[item:valarian_conquest:valarian_sword]] · [[item:valarian_conquest:visgothian_shield]] · [[item:valarian_conquest:visgothian_sword]] · [[item:valarian_conquest:wooden_shield]]
+      - Weapons of miracle: [[item:wom:golden_staff]]
+    - **Sword Souls** `items/weapons/sword-souls` — The 48 Sword Soul tokens, one per Simply Swords / EFN relic weapon (`kubejs:*_soul`).
+  - **Armor** `items/armor` — The three armor paths from Rise of the Champion, each with its dragon line merged in, then Mage Armor, Epic Knights Armor and Misc Armor. One page per set for every set a quest mentions. _(visible)_
+    - **Strength Path** `items/armor/strength-path` — Max Health and Knockback Resistance. Includes the fire dragon line.
+      - **Fire Dragon Scale Armor** `items/armor/strength-path/fire-dragon-scale-armor` — any color of that element (quest filter tag): `iceandfire:armor_bronze_*`, `iceandfire:armor_gray_*`, `iceandfire:armor_green_*`, `iceandfire:armor_red_*`
+      - **Polished Fire Dragon Scale Armor** `items/armor/strength-path/polished-fire-dragon-scale-armor` — any color of that element (quest filter tag): `dungeons_and_combat:black_dragon_*`, `dungeons_and_combat:bronze_dragon_*`, `dungeons_and_combat:green_dragon_*`, `dungeons_and_combat:red_dragon_*`
+      - **Fire Dragonsteel Armor** `items/armor/strength-path/fire-dragonsteel-armor` — [[item:iceandfire:dragonsteel_fire_helmet]] · [[item:iceandfire:dragonsteel_fire_chestplate]] · [[item:iceandfire:dragonsteel_fire_leggings]] · [[item:iceandfire:dragonsteel_fire_boots]]
+      - **Polished Fire Dragonsteel Armor** `items/armor/strength-path/polished-fire-dragonsteel-armor` — [[item:dungeons_and_combat:fire_dragonsteel_helmet]] · [[item:dungeons_and_combat:fire_dragonsteel_chestplate]] · [[item:dungeons_and_combat:fire_dragonsteel_leggings]] · [[item:dungeons_and_combat:fire_dragonsteel_boots]]
+      - **Cryolite Armor** `items/armor/strength-path/cryolite-armor` — [[item:dungeons_and_combat:cryolite_helmet]] · [[item:dungeons_and_combat:cryolite_chestplate]] · [[item:dungeons_and_combat:cryolite_leggings]] · [[item:dungeons_and_combat:cryolite_boots]]
+      - **Molten Cryolite Armor** `items/armor/strength-path/molten-cryolite-armor` — [[item:dungeons_and_combat:molten_cryolite_helmet]] · [[item:dungeons_and_combat:molten_cryolite_chestplate]] · [[item:dungeons_and_combat:molten_cryolite_leggings]] · [[item:dungeons_and_combat:molten_cryolite_boots]]
+      - **Deserter Armor** `items/armor/strength-path/deserter-armor` — [[item:dungeons_and_combat:deserter_armor_helmet]] · [[item:dungeons_and_combat:deserter_armor_chestplate]] · [[item:dungeons_and_combat:deserter_armor_leggings]] · [[item:dungeons_and_combat:deserter_armor_boots]]
+      - **Wrought Steel Armor** `items/armor/strength-path/wrought-steel-armor` — [[item:dungeons_and_combat:steel_helmet]] · [[item:dungeons_and_combat:steel_chestplate]] · [[item:dungeons_and_combat:steel_leggings]] · [[item:dungeons_and_combat:steel_boots]]
+      - **Kamath's Remains Armor** `items/armor/strength-path/kamaths-remains-armor` — [[item:dungeons_and_combat:wolf_steel_helmet]] · [[item:dungeons_and_combat:wolf_steel_chestplate]] · [[item:dungeons_and_combat:wolf_steel_leggings]] · [[item:dungeons_and_combat:wolf_steel_boots]]
+      - **Titanium Armor** `items/armor/strength-path/titanium-armor` — [[item:dungeons_and_combat:titanium_helmet]] · [[item:dungeons_and_combat:titanium_chestplate]] · [[item:dungeons_and_combat:titanium_leggings]] · [[item:dungeons_and_combat:titanium_boots]]
+      - **Netherite Armor (Vanilla)** `items/armor/strength-path/netherite-armor-vanilla` — [[item:minecraft:netherite_helmet]] · [[item:minecraft:netherite_chestplate]] · [[item:minecraft:netherite_leggings]] · [[item:minecraft:netherite_boots]]
+      - **Molten Dark Steel Armor** `items/armor/strength-path/molten-dark-steel-armor` — [[item:dungeons_and_combat:molten_dark_steel_helmet]] · [[item:dungeons_and_combat:molten_dark_steel_chestplate]] · [[item:dungeons_and_combat:molten_dark_steel_leggings]] · [[item:dungeons_and_combat:molten_dark_steel_boots]]
+      - **Kamath Armor** `items/armor/strength-path/kamath-armor` — [[item:dungeons_and_combat:kamath_armor_helmet]] · [[item:dungeons_and_combat:kamath_armor_chestplate]] · [[item:dungeons_and_combat:kamath_armor_leggings]] · [[item:dungeons_and_combat:kamath_armor_boots]]
+      - **Duskfire Armor** `items/armor/strength-path/duskfire-armor` — [[item:efn:duskfire_helmet]] · [[item:efn:duskfire_chestplate]] · [[item:efn:duskfire_leggings]] · [[item:efn:duskfire_boots]]
+      - **Dark Metal Armor** `items/armor/strength-path/dark-metal-armor` — [[item:dungeons_and_combat:dark_metal_helmet]] · [[item:dungeons_and_combat:dark_metal_chestplate]] · [[item:dungeons_and_combat:dark_metal_leggings]] · [[item:dungeons_and_combat:dark_metal_boots]]
+    - **Agility Path** `items/armor/agility-path` — Crit Damage or Crit Chance and Movement Speed. Includes the lightning dragon line.
+      - **Thief Armor** `items/armor/agility-path/thief-armor` — [[item:fantasy_armor:thief_helmet]] · [[item:fantasy_armor:thief_chestplate]] · [[item:fantasy_armor:thief_leggings]] · [[item:fantasy_armor:thief_boots]]
+      - **Sandstone Armor** `items/armor/agility-path/sandstone-armor` — [[item:dungeons_and_combat:sandstone_helmet]] · [[item:dungeons_and_combat:sandstone_chestplate]] · [[item:dungeons_and_combat:sandstone_leggings]] · [[item:dungeons_and_combat:sandstone_boots]]
+      - **Centinel Armor** `items/armor/agility-path/centinel-armor` — [[item:dungeons_and_combat:centinel_armor_helmet]] · [[item:dungeons_and_combat:centinel_armor_chestplate]] · [[item:dungeons_and_combat:centinel_armor_leggings]] · [[item:dungeons_and_combat:centinel_armor_boots]]
+      - **Sunleia Armor** `items/armor/agility-path/sunleia-armor` — [[item:dungeons_and_combat:sunleia_armor_helmet]] · [[item:dungeons_and_combat:sunleia_armor_chestplate]] · [[item:dungeons_and_combat:sunleia_armor_leggings]] · [[item:dungeons_and_combat:sunleia_armor_boots]]
+      - **Black Soul Armor** `items/armor/agility-path/black-soul-armor` — [[item:soulsweapons:soul_ingot_helmet]] · [[item:soulsweapons:soul_ingot_chestplate]] · [[item:soulsweapons:soul_ingot_leggings]] · [[item:soulsweapons:soul_ingot_boots]]
+      - **Forlorn Armor** `items/armor/agility-path/forlorn-armor` — [[item:soulsweapons:forlorn_helmet]] · [[item:soulsweapons:forlorn_chestplate]] · [[item:soulsweapons:forlorn_leggings]] · [[item:soulsweapons:forlorn_boots]]
+      - **Ruinfighter Armor** `items/armor/agility-path/ruinfighter-armor` — [[item:efn:ruinfighter_helmet]] · [[item:efn:ruinfighter_chestplate]] · [[item:efn:ruinfighter_leggings]] · [[item:efn:ruinfighter_boots]]
+      - **Soul Eater Armor** `items/armor/agility-path/soul-eater-armor` — [[item:soulsweapons:soul_robes_helmet]] · [[item:soulsweapons:soul_robes_chestplate]] · [[item:soulsweapons:soul_robes_leggings]] · [[item:soulsweapons:soul_robes_boots]]
+      - **Cursium Armor** `items/armor/agility-path/cursium-armor` — [[item:cataclysm:cursium_helmet]] · [[item:cataclysm:cursium_chestplate]] · [[item:cataclysm:cursium_leggings]] · [[item:cataclysm:cursium_boots]]
+      - **Blessed Gold Armor** `items/armor/agility-path/blessed-gold-armor` — [[item:dungeons_and_combat:blessed_gold_helmet]] · [[item:dungeons_and_combat:blessed_gold_chestplate]] · [[item:dungeons_and_combat:blessed_gold_leggings]] · [[item:dungeons_and_combat:blessed_gold_boots]]
+      - **Netherite Samurai Armor** `items/armor/agility-path/netherite-samurai-armor` — [[item:samurai_dynasty:netherite_samurai_helmet]] · [[item:samurai_dynasty:netherite_samurai_chestplate]] · [[item:samurai_dynasty:netherite_samurai_leggings]] · [[item:samurai_dynasty:netherite_samurai_boots]]
+      - **Ebony Armor** `items/armor/agility-path/ebony-armor` — [[item:dungeons_and_combat:ebony_helmet]] · [[item:dungeons_and_combat:ebony_chestplate]] · [[item:dungeons_and_combat:ebony_leggings]] · [[item:dungeons_and_combat:ebony_boots]]
+      - **Crimson Armor** `items/armor/agility-path/crimson-armor` — [[item:dungeons_and_combat:crimson_helmet]] · [[item:dungeons_and_combat:crimson_chestplate]] · [[item:dungeons_and_combat:crimson_leggings]] · [[item:dungeons_and_combat:crimson_boots]]
+      - **Lightning Dragon Scale Armor** `items/armor/agility-path/lightning-dragon-scale-armor` — any color of that element (quest filter tag): `iceandfire:armor_amythest_*`, `iceandfire:armor_black_*`, `iceandfire:armor_copper_*`, `iceandfire:armor_electric_*`
+      - **Polished Lightning Dragon Scale Armor** `items/armor/agility-path/polished-lightning-dragon-scale-armor` — any color of that element (quest filter tag): `dungeons_and_combat:amethyst_dragon_*`, `dungeons_and_combat:black_dragon_electric_*`, `dungeons_and_combat:copper_dragon_*`, `dungeons_and_combat:electric_dragon_*`
+      - **Lightning Dragonsteel Armor** `items/armor/agility-path/lightning-dragonsteel-armor` — [[item:iceandfire:dragonsteel_lightning_helmet]] · [[item:iceandfire:dragonsteel_lightning_chestplate]] · [[item:iceandfire:dragonsteel_lightning_leggings]] · [[item:iceandfire:dragonsteel_lightning_boots]]
+      - **Polished Lightning Dragon Steel Armor** `items/armor/agility-path/polished-lightning-dragon-steel-armor` — [[item:dungeons_and_combat:lightning_dragonsteel_helmet]] · [[item:dungeons_and_combat:lightning_dragonsteel_chestplate]] · [[item:dungeons_and_combat:lightning_dragonsteel_leggings]] · [[item:dungeons_and_combat:lightning_dragonsteel_boots]]
+    - **Wisdom Path** `items/armor/wisdom-path` — Attack Damage and Spell Power. Includes the ice dragon line.
+      - **Ice Dragon Scale Armor** `items/armor/wisdom-path/ice-dragon-scale-armor` — any color of that element (quest filter tag): `iceandfire:armor_blue_*`, `iceandfire:armor_sapphire_*`, `iceandfire:armor_silver_*`, `iceandfire:armor_white_*`
+      - **Polished Ice Dragon Scale Armor** `items/armor/wisdom-path/polished-ice-dragon-scale-armor` — any color of that element (quest filter tag): `dungeons_and_combat:blue_dragon_*`, `dungeons_and_combat:sapphire_dragon_*`, `dungeons_and_combat:silver_dragon_*`, `dungeons_and_combat:white_dragon_*`
+      - **Ice Dragonsteel Armor** `items/armor/wisdom-path/ice-dragonsteel-armor` — [[item:iceandfire:dragonsteel_ice_helmet]] · [[item:iceandfire:dragonsteel_ice_chestplate]] · [[item:iceandfire:dragonsteel_ice_leggings]] · [[item:iceandfire:dragonsteel_ice_boots]]
+      - **Polished Ice Dragonsteel Armor** `items/armor/wisdom-path/polished-ice-dragonsteel-armor` — [[item:dungeons_and_combat:ice_dragonsteel_helmet]] · [[item:dungeons_and_combat:ice_dragonsteel_chestplate]] · [[item:dungeons_and_combat:ice_dragonsteel_leggings]] · [[item:dungeons_and_combat:ice_dragonsteel_boots]]
+      - **Ebony Wizard Armor** `items/armor/wisdom-path/ebony-wizard-armor` — [[item:dacxirons:ebony_wizard_hood]] · [[item:dacxirons:ebony_wizard_robe]] · [[item:dacxirons:ebony_wizard_leggings]] · [[item:dacxirons:ebony_wizard_boots]]
+      - **Ignitium Armor** `items/armor/wisdom-path/ignitium-armor` — [[item:cataclysm:ignitium_helmet]] · [[item:cataclysm:ignitium_chestplate]] · [[item:cataclysm:ignitium_leggings]] · [[item:cataclysm:ignitium_boots]]
+      - **Silver Armor** `items/armor/wisdom-path/silver-armor` — [[item:dungeons_and_combat:silver_helmet]] · [[item:dungeons_and_combat:silver_chestplate]] · [[item:dungeons_and_combat:silver_leggings]] · [[item:dungeons_and_combat:silver_boots]]
+      - **Titan Armor** `items/armor/wisdom-path/titan-armor` — [[item:dungeons_and_combat:titan_helmet]] · [[item:dungeons_and_combat:titan_chestplate]] · [[item:dungeons_and_combat:titan_leggings]] · [[item:dungeons_and_combat:titan_boots]]
+      - **Bounty Hunter Armor** `items/armor/wisdom-path/bounty-hunter-armor` — [[item:dungeons_and_combat:bounty_hunter_helmet]] · [[item:dungeons_and_combat:bounty_hunter_chestplate]] · [[item:dungeons_and_combat:bounty_hunter_leggings]] · [[item:dungeons_and_combat:bounty_hunter_boots]]
+      - **Warden Armor** `items/armor/wisdom-path/warden-armor` — [[item:deeperdarker:warden_helmet]] · [[item:deeperdarker:warden_chestplate]] · [[item:deeperdarker:warden_leggings]] · [[item:deeperdarker:warden_boots]]
+      - **Netherite Armor (Dungeons and Combat)** `items/armor/wisdom-path/netherite-armor-dungeons-and-combat` — [[item:dungeons_and_combat:netherite_helmet]] · [[item:dungeons_and_combat:netherite_chestplate]] · [[item:dungeons_and_combat:netherite_leggings]] · [[item:dungeons_and_combat:netherite_boots]]
+      - **Dark Lord Armor** `items/armor/wisdom-path/dark-lord-armor` — [[item:fantasy_armor:dark_lord_helmet]] · [[item:fantasy_armor:dark_lord_chestplate]] · [[item:fantasy_armor:dark_lord_leggings]] · [[item:fantasy_armor:dark_lord_boots]]
+      - **Blazing Armor** `items/armor/wisdom-path/blazing-armor` — [[item:dungeons_and_combat:molten_blazing_helmet]] · [[item:dungeons_and_combat:molten_blazing_chestplate]] · [[item:dungeons_and_combat:molten_blazing_leggings]] · [[item:dungeons_and_combat:molten_blazing_boots]]
+    - **Mage Armor** `items/armor/mage-armor` — Robe sets in the order of the "A Wizard's First Equipment" chapter (`magic_schools`). Robes no quest mentions are on Misc Mage Robes.
+      - **Fire Dragon Priest Armor** `items/armor/mage-armor/fire-dragon-priest-armor` — [[item:ice_and_fire_spellbooks:fire_dragon_priest_helmet]] · [[item:ice_and_fire_spellbooks:fire_dragon_priest_chestplate]] · [[item:ice_and_fire_spellbooks:fire_dragon_priest_leggings]] · [[item:ice_and_fire_spellbooks:fire_dragon_priest_boots]] (quest "Fire Dragon Priest Armour")
+      - **Pyromancer Armor** `items/armor/mage-armor/pyromancer-armor` — [[item:irons_spellbooks:pyromancer_helmet]] · [[item:irons_spellbooks:pyromancer_chestplate]] · [[item:irons_spellbooks:pyromancer_leggings]] · [[item:irons_spellbooks:pyromancer_boots]]
+      - **Tectonic Crest Armor** `items/armor/mage-armor/tectonic-crest-armor` — [[item:traveloptics:tectonic_crest_armor_helmet]] · [[item:traveloptics:tectonic_crest_armor_chestplate]] · [[item:traveloptics:tectonic_crest_armor_leggings]] · [[item:traveloptics:tectonic_crest_armor_boots]]
+      - **Plagued Mask Armor** `items/armor/mage-armor/plagued-mask-armor` — [[item:irons_spellbooks:plagued_helmet]] · [[item:irons_spellbooks:plagued_chestplate]] · [[item:irons_spellbooks:plagued_leggings]] · [[item:irons_spellbooks:plagued_boots]]
+      - **Primordial Crest Armor** `items/armor/mage-armor/primordial-crest-armor` — [[item:traveloptics:primordial_crest_armor_helmet]] · [[item:traveloptics:primordial_crest_armor_chestplate]] · [[item:traveloptics:primordial_crest_armor_leggings]] · [[item:traveloptics:primordial_crest_armor_boots]]
+      - **Geomancer Armor** `items/armor/mage-armor/geomancer-armor` — [[item:mowziesmobs:geomancer_beads]] · [[item:mowziesmobs:geomancer_robe]] · [[item:mowziesmobs:geomancer_belt]] · [[item:mowziesmobs:geomancer_sandals]]
+      - **Crimson Wizard Armor** `items/armor/mage-armor/crimson-wizard-armor` — [[item:dacxirons:crimson_wizard_hood]] · [[item:dacxirons:crimson_wizard_robe]] · [[item:dacxirons:crimson_wizard_leggings]] · [[item:dacxirons:crimson_wizard_boots]]
+      - **Cultist Armor** `items/armor/mage-armor/cultist-armor` — [[item:irons_spellbooks:cultist_helmet]] · [[item:irons_spellbooks:cultist_chestplate]] · [[item:irons_spellbooks:cultist_leggings]] · [[item:irons_spellbooks:cultist_boots]]
+      - **Infernal Sorcerer Chestplate** `items/armor/mage-armor/infernal-sorcerer-chestplate` — [[item:irons_spellbooks:infernal_sorcerer_chestplate]]
+      - **Forlorn Harbinger Armor** `items/armor/mage-armor/forlorn-harbinger-armor` — [[item:traveloptics:forlorn_harbinger_hood]] · [[item:traveloptics:forlorn_harbinger_robe]] · [[item:traveloptics:forlorn_harbinger_leggings]] · [[item:traveloptics:forlorn_harbinger_boots]]
+      - **Archevoker Armor** `items/armor/mage-armor/archevoker-armor` — [[item:irons_spellbooks:archevoker_helmet]] · [[item:irons_spellbooks:archevoker_chestplate]] · [[item:irons_spellbooks:archevoker_leggings]] · [[item:irons_spellbooks:archevoker_boots]]
+      - **Boots of Speed** `items/armor/mage-armor/boots-of-speed` — [[item:irons_spellbooks:speed_boots]]
+      - **Blessed Priest Armor** `items/armor/mage-armor/blessed-priest-armor` — [[item:dacxirons:blessed_priest_hood]] · [[item:dacxirons:blessed_priest_robe]] · [[item:dacxirons:blessed_priest_leggings]] · [[item:dacxirons:blessed_priest_boots]]
+      - **Priest Mask Armor** `items/armor/mage-armor/priest-mask-armor` — [[item:irons_spellbooks:priest_helmet]] · [[item:irons_spellbooks:priest_chestplate]] · [[item:irons_spellbooks:priest_leggings]] · [[item:irons_spellbooks:priest_boots]]
+      - **Lightbringer Chestplate** `items/armor/mage-armor/lightbringer-chestplate` — [[item:irons_spellbooks:paladin_chestplate]]
+      - **Riptide Sovereign Armor** `items/armor/mage-armor/riptide-sovereign-armor` — [[item:traveloptics:riptide_sovereign_hat]] · [[item:traveloptics:riptide_sovereign_fincloak]] · [[item:traveloptics:riptide_sovereign_leggings]] · [[item:traveloptics:riptide_sovereign_boots]]
+      - **Deepling Mage Armor** `items/armor/mage-armor/deepling-mage-armor` — [[item:traveloptics:deepling_mage_armor_helmet]] · [[item:traveloptics:deepling_mage_armor_robe]] · [[item:traveloptics:deepling_mage_armor_leggings]] · [[item:traveloptics:deepling_mage_armor_boots]]
+      - **Wizard Armor** `items/armor/mage-armor/wizard-armor` — [[item:irons_spellbooks:wizard_helmet]] · [[item:irons_spellbooks:wizard_chestplate]] · [[item:irons_spellbooks:wizard_leggings]] · [[item:irons_spellbooks:wizard_boots]]
+      - **Scarecrow Armor** `items/armor/mage-armor/scarecrow-armor` — [[item:irons_spellbooks:pumpkin_helmet]] · [[item:irons_spellbooks:pumpkin_chestplate]] · [[item:irons_spellbooks:pumpkin_leggings]] · [[item:irons_spellbooks:pumpkin_boots]]
+      - **Wandering Magician Armor** `items/armor/mage-armor/wandering-magician-armor` — [[item:irons_spellbooks:wandering_magician_helmet]] · [[item:irons_spellbooks:wandering_magician_chestplate]] · [[item:irons_spellbooks:wandering_magician_leggings]] · [[item:irons_spellbooks:wandering_magician_boots]]
+      - **Ice Dragon Priest Armor** `items/armor/mage-armor/ice-dragon-priest-armor` — [[item:ice_and_fire_spellbooks:ice_dragon_priest_helmet]] · [[item:ice_and_fire_spellbooks:ice_dragon_priest_chestplate]] · [[item:ice_and_fire_spellbooks:ice_dragon_priest_leggings]] · [[item:ice_and_fire_spellbooks:ice_dragon_priest_boots]] (quest "Ice Dragon Priest Armour")
+      - **Cryomancer Armor** `items/armor/mage-armor/cryomancer-armor` — [[item:irons_spellbooks:cryomancer_helmet]] · [[item:irons_spellbooks:cryomancer_chestplate]] · [[item:irons_spellbooks:cryomancer_leggings]] · [[item:irons_spellbooks:cryomancer_boots]]
+      - **Cursed Wraithguard Armor** `items/armor/mage-armor/cursed-wraithguard-armor` — [[item:traveloptics:cursed_wraithguard_crown]] · [[item:traveloptics:cursed_wraithguard_chestplate]] · [[item:traveloptics:cursed_wraithguard_spectral_wrapping]] · [[item:traveloptics:cursed_wraithguard_boots]]
+      - **Bard Armor** `items/armor/mage-armor/bard-armor` — [[item:alshanex_familiars:bard_helmet]] · [[item:alshanex_familiars:bard_chestplate]] · [[item:alshanex_familiars:bard_leggings]] · [[item:alshanex_familiars:bard_boots]]
+      - **Mechanized Exoskeleton Armor** `items/armor/mage-armor/mechanized-exoskeleton-armor` — [[item:traveloptics:mechanized_exoskeleton_helmet]] · [[item:traveloptics:mechanized_exoskeleton_chestplate]] · [[item:traveloptics:mechanized_exoskeleton_leggings]] · [[item:traveloptics:mechanized_exoskeleton_boots]]
+      - **Electromancer Armor** `items/armor/mage-armor/electromancer-armor` — [[item:irons_spellbooks:electromancer_helmet]] · [[item:irons_spellbooks:electromancer_chestplate]] · [[item:irons_spellbooks:electromancer_leggings]] · [[item:irons_spellbooks:electromancer_boots]]
+      - **Lightning Dragon Priest Armor** `items/armor/mage-armor/lightning-dragon-priest-armor` — [[item:ice_and_fire_spellbooks:lightning_dragon_priest_helmet]] · [[item:ice_and_fire_spellbooks:lightning_dragon_priest_chestplate]] · [[item:ice_and_fire_spellbooks:lightning_dragon_priest_leggings]] · [[item:ice_and_fire_spellbooks:lightning_dragon_priest_boots]] (quest "Lightning Dragon Priest Armour")
+      - **Shadow-Walker Mask Armor** `items/armor/mage-armor/shadow-walker-mask-armor` — [[item:irons_spellbooks:shadowwalker_helmet]] · [[item:irons_spellbooks:shadowwalker_chestplate]] · [[item:irons_spellbooks:shadowwalker_leggings]] · [[item:irons_spellbooks:shadowwalker_boots]]
+      - **Abyssal Hide Armor** `items/armor/mage-armor/abyssal-hide-armor` — [[item:traveloptics:abyssal_hide_armor_hat]] · [[item:traveloptics:abyssal_hide_armor_robe]] · [[item:traveloptics:abyssal_hide_armor_leggings]] · [[item:traveloptics:abyssal_hide_armor_boots]]
+      - **Forgotten Armor** `items/armor/mage-armor/forgotten-armor` — [[item:fantasy_armor:wandering_wizard_helmet]] · [[item:fantasy_armor:wandering_wizard_chestplate]] · [[item:fantasy_armor:wandering_wizard_leggings]] · [[item:fantasy_armor:wandering_wizard_boots]]
+      - **Misc Mage Robes** `items/armor/mage-armor/misc-mage-robes` — Robes in `soulrend:mage_armor` that no quest mentions (4 pieces).
+        - Iron's Spells 'n Spellbooks: [[item:irons_spellbooks:netherite_mage_boots]] · [[item:irons_spellbooks:netherite_mage_chestplate]] · [[item:irons_spellbooks:netherite_mage_helmet]] · [[item:irons_spellbooks:netherite_mage_leggings]]
+    - **Epic Knights Armor** `items/armor/epic-knights-armor` — Every Epic Knights armor set on one page.
+      - Brigandine
+      - Ceremonial
+      - Chainmail
+      - Crusader
+      - Cuirassier
+      - Gambeson
+      - Gothic
+      - Half Armor
+      - Jousting
+      - Kastenbrust
+      - Knight
+      - Lamellar
+      - Maximilian
+      - Norman
+      - Platemail
+      - Winged Hussar
+      - XIV Century Knight
+      - Rusted variants
+    - **Misc Armor** `items/armor/misc-armor` — Armor no quest mentions (549 pieces), one page per mod.
+      - **Fantasy Armor** `items/armor/misc-armor/fantasy-armor` — 104 pieces
+      - **Dungeons and Combat Armor** `items/armor/misc-armor/dungeons-and-combat-armor` — 96 pieces
+      - **Valarian Conquest Armor** `items/armor/misc-armor/valarian-conquest-armor` — 85 pieces
+      - **Samurai Dynasty Armor** `items/armor/misc-armor/samurai-dynasty-armor` — 71 pieces
+      - **Ice and Fire Armor** `items/armor/misc-armor/ice-and-fire-armor` — 66 pieces
+      - **Minecraft Armor** `items/armor/misc-armor/minecraft-armor` — 21 pieces
+      - **Alex's Mobs Armor** `items/armor/misc-armor/alexs-mobs-armor` — 15 pieces
+      - **Alex's Caves Armor** `items/armor/misc-armor/alexs-caves-armor` — 13 pieces
+      - **The Outer End Armor** `items/armor/misc-armor/the-outer-end-armor` — 12 pieces
+      - **Create Armor** `items/armor/misc-armor/create-armor` — 10 pieces
+      - **Aquamirae Armor** `items/armor/misc-armor/aquamirae-armor` — 9 pieces
+      - **Bosses'Rises Armor** `items/armor/misc-armor/bossesrises-armor` — 8 pieces
+      - **Mowzie's Mobs Armor** `items/armor/misc-armor/mowzies-mobs-armor` — 8 pieces
+      - **Marium's Soulslike Weaponry Armor** `items/armor/misc-armor/mariums-soulslike-weaponry-armor` — 7 pieces
+      - **EndlessBiomes Armor** `items/armor/misc-armor/endlessbiomes-armor` — 6 pieces
+      - **Aquaculture 2 Armor** `items/armor/misc-armor/aquaculture-2-armor` — 4 pieces
+      - **Deeper and Darker Armor** `items/armor/misc-armor/deeper-and-darker-armor` — 4 pieces
+      - **Cataclysm Armor** `items/armor/misc-armor/cataclysm-armor` — 3 pieces
+      - **Other Armor** `items/armor/misc-armor/other-armor` — mods with one or two pieces: [[item:alshanex_familiars:rusty_helmet]] · [[item:dacxirons:blazymancer_hood]] · [[item:epicfight:stray_robe]] · [[item:friendsandfoes:wildfire_crown]] · [[item:irons_spellbooks:tarnished_helmet]] · [[item:irons_spellbooks:wizard_hat]] · [[item:quark:forgotten_hat]]
+    - **Mount & Pet Armor** `items/armor/mount-and-pet-armor`
+      - Dragon armor (head, neck, body, tail; 7 tiers)
+      - Hippogryph armor
+      - Horse barding (Epic Knights)
+  - **Magic Items** `items/magic` — Spellbooks, spells and spellcasting gear. Staffs are on Weapons → Magic Weapons; magic curios are on Curios & Accessories. _(visible)_
+    - **Spellbooks** `items/magic/spellbooks`
+      - [[item:irons_spellbooks:copper_spell_book]]
+      - [[item:irons_spellbooks:iron_spell_book]]
+      - [[item:irons_spellbooks:gold_spell_book]]
+      - [[item:irons_spellbooks:diamond_spell_book]]
+      - [[item:irons_spellbooks:netherite_spell_book]]
+      - [[item:irons_spellbooks:blaze_spell_book]]
+      - [[item:irons_spellbooks:necronomicon_spell_book]]
+      - [[item:irons_spellbooks:druidic_spell_book]]
+      - [[item:irons_spellbooks:evoker_spell_book]]
+      - [[item:irons_spellbooks:ice_spell_book]]
+      - [[item:irons_spellbooks:dragonskin_spell_book]]
+      - [[item:irons_spellbooks:cursed_doll_spell_book]]
+      - [[item:irons_spellbooks:rotten_spell_book]]
+      - [[item:irons_spellbooks:villager_spell_book]]
+      - [[item:traveloptics:codex_of_the_crushing_depths]]
+      - [[item:traveloptics:the_accused_codex]]
+      - [[item:gtbcs_geomancy_plus:codex_of_shattered_horizons]]
+      - [[item:ice_and_fire_spellbooks:dragonmancers_oathbook]]
+      - [[item:alshanex_familiars:sound_spell_book]]
+      - [[item:dacxirons:divine_manuscript_spell_book]]
+      - [[item:alexscaves:cave_codex]]
+    - **Spells** `items/magic/spells` — About 217 spells across 12 schools, one page per school. Spell pages come from the spell registry, not from items.
+      - **Fire Spells** `items/magic/spells/fire-spells`
+      - **Ice Spells** `items/magic/spells/ice-spells`
+      - **Lightning Spells** `items/magic/spells/lightning-spells`
+      - **Holy Spells** `items/magic/spells/holy-spells`
+      - **Ender Spells** `items/magic/spells/ender-spells`
+      - **Blood Spells** `items/magic/spells/blood-spells`
+      - **Evocation Spells** `items/magic/spells/evocation-spells`
+      - **Nature Spells** `items/magic/spells/nature-spells`
+      - **Eldritch Spells** `items/magic/spells/eldritch-spells`
+        - Cannibalism (Soulrend spell)
+      - **Aqua Spells** `items/magic/spells/aqua-spells`
+      - **Geo Spells** `items/magic/spells/geo-spells`
+      - **Sound Spells** `items/magic/spells/sound-spells`
+    - **Runes, Orbs & Inks** `items/magic/runes-orbs-and-inks`
+      - [[item:irons_spellbooks:arcane_essence]]
+      - School runes
+      - Upgrade orbs
+      - Inks (common to legendary)
+      - Spell slot upgrades
+      - Traveloptics school echoes and spellweave ingots
+    - **Familiars (Items)** `items/magic/familiars`
+      - Alshanex's Familiars shards
+      - Familiar trinkets
+    - **Magic Stations** `items/magic/magic-stations`
+      - [[item:irons_spellbooks:inscription_table]]
+      - [[item:irons_spellbooks:scroll_forge]]
+      - [[item:irons_spellbooks:arcane_anvil]]
+      - [[item:irons_spellbooks:alchemist_cauldron]]
+  - **Dragon Items** `items/dragons` — Ice and Fire dragon materials, eggs, crystals and forges. _(visible)_
+    - **Dragon Eggs & Scales** `items/dragons/dragon-eggs-and-scales`
+      - Dragon eggs (12 colors)
+      - Dragon scales and scale blocks (12 colors)
+    - **Dragon Parts** `items/dragons/dragon-parts`
+      - Dragon blood (fire, ice, lightning)
+      - Dragon flesh and hearts
+      - Dragon skulls
+      - Dragonbone
+      - Witherbone
+    - **Dragonsteel** `items/dragons/dragonsteel`
+      - Dragonsteel ingots and blocks (fire, ice, lightning)
+    - **Summoning Crystals** `items/dragons/summoning-crystals`
+      - [[item:iceandfire:summoning_crystal_fire]]
+      - [[item:iceandfire:summoning_crystal_ice]]
+      - [[item:iceandfire:summoning_crystal_lightning]]
+    - **Dragonforges** `items/dragons/dragonforges`
+      - Dragonforge bricks, cores and inputs (fire, ice, lightning)
+    - **Dragon Utility** `items/dragons/dragon-utility`
+      - [[item:iceandfire:dragon_meal]]
+      - [[item:iceandfire:dragon_flute]]
+      - [[item:iceandfire:dragon_horn]]
+      - [[item:iceandfire:dragon_stick]]
+      - Dragon radars (dormant, fire, ice, lightning, master)
+  - **Boss Drops** `items/boss-drops` — Materials and trophies that come from bosses. _(visible)_
+    - **Cataclysm Drops** `items/boss-drops/cataclysm-drops`
+      - Ignitium, cursium, witherite, enderite and ancient metal ingots
+      - [[item:cataclysm:burning_ashes]]
+      - Boss music discs
+      - Boss respawner and altars
+    - **Soulslike Drops** `items/boss-drops/soulslike-drops`
+      - [[item:soulsweapons:lord_soul_dark]]
+      - [[item:soulsweapons:lord_soul_day_stalker]]
+      - [[item:soulsweapons:lord_soul_night_prowler]]
+      - [[item:soulsweapons:lord_soul_purple]]
+      - [[item:soulsweapons:lord_soul_red]]
+      - [[item:soulsweapons:lord_soul_rose]]
+      - [[item:soulsweapons:lord_soul_void]]
+      - [[item:soulsweapons:lord_soul_white]]
+      - [[item:soulsweapons:lost_soul]]
+      - [[item:soulsweapons:essence_of_eventide]]
+      - [[item:soulsweapons:essence_of_luminescence]]
+      - [[item:soulsweapons:chaos_orb]]
+      - [[item:soulsweapons:shard_of_uncertainty]]
+      - [[item:soulsweapons:arkenstone]]
+    - **Dungeons and Combat Drops** `items/boss-drops/dungeons-and-combat-drops`
+      - [[item:dungeons_and_combat:essence_of_kamath]]
+      - [[item:dungeons_and_combat:essence_of_sunleia]]
+      - [[item:dungeons_and_combat:sunleia_hand]]
+      - [[item:dungeons_and_combat:champion_belt]]
+      - [[item:dungeons_and_combat:armor_plate]]
+      - [[item:dungeons_and_combat:steel_shoulder]]
+      - [[item:dungeons_and_combat:cursed_silk]]
+      - [[item:dungeons_and_combat:cursed_lamp]]
+      - [[item:dungeons_and_combat:ernos_fang]]
+      - [[item:dungeons_and_combat:ernos_fang_necklace]]
+      - [[item:dungeons_and_combat:ammit_fang]]
+      - [[item:dungeons_and_combat:fang_necklace]]
+      - [[item:dungeons_and_combat:horuso_feather]]
+      - [[item:dungeons_and_combat:klauen_necklace]]
+      - [[item:dungeons_and_combat:blessed_beetle]]
+    - **Bosses'Rise Drops** `items/boss-drops/bossesrise-drops`
+      - [[item:block_factorys_bosses:dragon_bone]]
+      - [[item:block_factorys_bosses:sandworm_dart]]
+      - [[item:block_factorys_bosses:ancient_iron_ingot]]
+      - [[item:block_factorys_bosses:dragon_shank]]
+      - [[item:block_factorys_bosses:dragon_guard_shield]]
+      - [[item:astral_calamity_extras:sandworm_scale]]
+    - **Other Boss Drops** `items/boss-drops/other-boss-drops`
+      - Aquamirae (Rune of the Storm, Divider, Frozen Key, abyssal materials)
+      - Mowzie's (Sol Visage, Earthrend Gauntlet, Ice Crystal, Umvuthana masks)
+      - Ice and Fire (Hydra heart, Gorgon head, Cyclops eye, Siren tear)
+      - [[item:deeperdarker:heart_of_the_deep]]
+      - [[item:nightfall_invade:disaster_fragment_red]]
+      - [[item:apotheotic_additions:esoteric_material]]
+  - **Progression Keys** `items/progression-keys` — Eyes, keys, seals and summoning items that gate progression. _(visible)_
+    - **Legendary Eyes** `items/progression-keys/legendary-eyes` — The 16 End Remastered eyes. Five eye quests open Act IV, and the End portal needs twelve different eyes.
+      - [[item:endrem:black_eye]]
+      - [[item:endrem:cold_eye]]
+      - [[item:endrem:corrupted_eye]]
+      - [[item:endrem:cryptic_eye]]
+      - [[item:endrem:cursed_eye]]
+      - [[item:endrem:evil_eye]]
+      - [[item:endrem:exotic_eye]]
+      - [[item:endrem:guardian_eye]]
+      - [[item:endrem:lost_eye]]
+      - [[item:endrem:magical_eye]]
+      - [[item:endrem:nether_eye]]
+      - [[item:endrem:old_eye]]
+      - [[item:endrem:rogue_eye]]
+      - [[item:endrem:undead_eye]]
+      - [[item:endrem:witch_eye]]
+      - [[item:endrem:wither_eye]]
+    - **Cataclysm Eyes** `items/progression-keys/cataclysm-eyes` — The eight eyes that open the Eight Sins dimensions.
+      - [[item:cataclysm:desert_eye]]
+      - [[item:cataclysm:storm_eye]]
+      - [[item:cataclysm:mech_eye]]
+      - [[item:cataclysm:flame_eye]]
+      - [[item:cataclysm:void_eye]]
+      - [[item:cataclysm:cursed_eye]]
+      - [[item:cataclysm:monstrous_eye]]
+      - [[item:cataclysm:abyss_eye]]
+    - **Nether Seal** `items/progression-keys/nether-seal` — The four seal pieces, the crystal and the Seal of the Underworld that open the Nether.
+      - [[item:nether_remastered:seal_piece_1]]
+      - [[item:nether_remastered:seal_crystal]]
+      - [[item:nether_remastered:obsidian_infused_bottle]]
+      - [[item:nether_remastered:bottled_nether_essence]]
+      - [[item:nether_remastered:seal_of_the_underworld_item]]
+    - **Emblem of the Past** `items/progression-keys/emblem-of-the-past`
+      - [[item:kubejs:emblem_of_the_past]]
+    - **Sky Arena Keys** `items/progression-keys/sky-arena-keys` — Only the Ice Key and the trophies; the other arena keys are disabled.
+      - [[item:skyarena:ice_key]]
+      - [[item:skyarena:oak_trophy]]
+      - [[item:skyarena:stone_trophy]]
+      - [[item:skyarena:iron_trophy]]
+      - [[item:skyarena:gold_trophy]]
+      - [[item:skyarena:diamond_trophy]]
+      - [[item:skyarena:netherite_trophy]]
+    - **Cave Dimension Keys** `items/progression-keys/cave-dimension-keys`
+      - [[item:alex_caves_dimensions:abyssal_chasm_key]]
+      - [[item:alex_caves_dimensions:candy_cavity_key]]
+      - [[item:alex_caves_dimensions:forlorn_hollows_key]]
+      - [[item:alex_caves_dimensions:magnetic_caves_key]]
+      - [[item:alex_caves_dimensions:primordial_caves_key]]
+      - [[item:alex_caves_dimensions:toxic_caves_key]]
+    - **Boss Summons** `items/progression-keys/boss-summons`
+      - [[item:deeperdarker:sculk_transmitter]]
+      - [[item:aquamirae:shell_horn]]
+      - [[item:irons_spellbooks:cinderous_soulcaller]]
+      - [[item:dungeons_and_combat:blessed_beetle]]
+  - **Gear Progression** `items/gear-progression` — Apotheosis reforging, gems, sigils, augments and rarity materials. _(visible)_
+    - **Sigils** `items/gear-progression/sigils`
+      - [[item:apotheosis:sigil_of_socketing]]
+      - [[item:apotheosis:sigil_of_withdrawal]]
+      - [[item:apotheosis:sigil_of_enhancement]]
+      - [[item:apotheosis:sigil_of_rebirth]]
+      - [[item:apotheosis:sigil_of_unnaming]]
+      - [[item:apotheotic_additions:gemboundsigil]]
+      - [[item:fallen_gems_affixes:sigil_of_ascension]]
+      - [[item:fallen_gems_affixes:sigil_of_confluence]]
+      - [[item:fallen_gems_affixes:sigil_of_elevation]]
+      - [[item:fallen_gems_affixes:sigil_of_erasure]]
+      - [[item:fallen_gems_affixes:sigil_of_prismatic_conversion]]
+      - [[item:fallen_gems_affixes:sigil_of_severance]]
+      - [[item:fallen_gems_affixes:sigil_of_transmutation]]
+    - **Rarity Materials** `items/gear-progression/rarity-materials`
+      - [[item:apotheosis:common_material]]
+      - [[item:apotheosis:uncommon_material]]
+      - [[item:apotheosis:rare_material]]
+      - [[item:apotheosis:epic_material]]
+      - [[item:apotheotic_additions:heirloom_material]]
+      - [[item:apotheosis:mythic_material]]
+      - [[item:apotheotic_additions:artifact_material]]
+      - [[item:apotheosis:ancient_material]]
+      - [[item:apotheotic_additions:esoteric_material]]
+    - **Reforging Tables** `items/gear-progression/reforging-tables`
+      - [[item:apotheosis:simple_reforging_table]]
+      - [[item:apotheosis:reforging_table]]
+      - [[item:ancientreforging:ancient_reforging_table]]
+      - [[item:esotericreforging:esoteric_reforging_table]]
+      - [[item:fallen_gems_affixes:fabled_reforging_table]]
+    - **Gems** `items/gear-progression/gems` — One page per gem, with a table of its values by rarity. 91 gems from `soulrend_apotheosis_rebalance`, grouped by source. Gem dust and gem cases go on this index.
+      - **Core Gems** `items/gear-progression/gems/core-gems`
+        - **Ballast Gem** `items/gear-progression/gems/core-gems/ballast-gem` — `apotheosis:core/ballast`
+        - **Brawler's Gem** `items/gear-progression/gems/core-gems/brawlers-gem` — `apotheosis:core/brawlers`
+        - **Breach Gem** `items/gear-progression/gems/core-gems/breach-gem` — `apotheosis:core/breach`
+        - **Gem of the Combatant** `items/gear-progression/gems/core-gems/gem-of-the-combatant` — `apotheosis:core/combatant`
+        - **Gem of the Samurai** `items/gear-progression/gems/core-gems/gem-of-the-samurai` — `apotheosis:core/samurai`
+        - **Gem of the Warlord** `items/gear-progression/gems/core-gems/gem-of-the-warlord` — `apotheosis:core/warlord`
+        - **Guardian Gem** `items/gear-progression/gems/core-gems/guardian-gem` — `apotheosis:core/guardian`
+        - **Lightning Gem** `items/gear-progression/gems/core-gems/lightning-gem` — `apotheosis:core/lightning`
+        - **Lunar Gem** `items/gear-progression/gems/core-gems/lunar-gem` — `apotheosis:core/lunar`
+        - **Slipstream Gem** `items/gear-progression/gems/core-gems/slipstream-gem` — `apotheosis:core/slipstream`
+        - **Solar Gem** `items/gear-progression/gems/core-gems/solar-gem` — `apotheosis:core/solar`
+        - **Splendor Gem** `items/gear-progression/gems/core-gems/splendor-gem` — `apotheosis:core/splendor`
+        - **Tyrannical Gem** `items/gear-progression/gems/core-gems/tyrannical-gem` — `apotheosis:core/tyrannical`
+      - **Dimension Gems** `items/gear-progression/gems/dimension-gems`
+        - **Endersurge Gem** `items/gear-progression/gems/dimension-gems/endersurge-gem` — `apotheosis:the_end/endersurge`
+        - **Gem of the Earth** `items/gear-progression/gems/dimension-gems/gem-of-the-earth` — `apotheosis:overworld/earth`
+        - **Gem of the Incandescent Inferno** `items/gear-progression/gems/dimension-gems/gem-of-the-incandescent-inferno` — `apotheosis:the_nether/inferno`
+        - **Gem of the Mageslayer** `items/gear-progression/gems/dimension-gems/gem-of-the-mageslayer` — `apotheosis:the_end/mageslayer`
+        - **Gem of the Ravenous Blood Lord** `items/gear-progression/gems/dimension-gems/gem-of-the-ravenous-blood-lord` — `apotheosis:the_nether/blood_lord`
+        - **Gem of the Royal Family** `items/gear-progression/gems/dimension-gems/gem-of-the-royal-family` — `apotheosis:overworld/royalty`
+      - **Boss Gems** `items/gear-progression/gems/boss-gems`
+        - **Gem of the Blood Tyrant** `items/gear-progression/gems/boss-gems/gem-of-the-blood-tyrant` — `fallen_gems_affixes:boss_gems/blood_tyrant`
+        - **Gem of the Fallen Warrior** `items/gear-progression/gems/boss-gems/gem-of-the-fallen-warrior` — `fallen_gems_affixes:boss_gems/fallen_warrior`
+        - **Gem of the Guardian of Hell** `items/gear-progression/gems/boss-gems/gem-of-the-guardian-of-hell` — `fallen_gems_affixes:boss_gems/guardian_of_hell`
+        - **Gem of the Howling Storm** `items/gear-progression/gems/boss-gems/gem-of-the-howling-storm` — `fallen_gems_affixes:boss_gems/howling_storm`
+        - **Gem of the Infernal Overlord** `items/gear-progression/gems/boss-gems/gem-of-the-infernal-overlord` — `fallen_gems_affixes:boss_gems/infernal_overlord`
+        - **Gem of the Ruler of Abyss** `items/gear-progression/gems/boss-gems/gem-of-the-ruler-of-abyss` — `fallen_gems_affixes:boss_gems/ruler_of_abyss`
+        - **Gem of the Void Guardian** `items/gear-progression/gems/boss-gems/gem-of-the-void-guardian` — `fallen_gems_affixes:boss_gems/void_guardian`
+        - **Gem of the Withered Sentinel** `items/gear-progression/gems/boss-gems/gem-of-the-withered-sentinel` — `fallen_gems_affixes:boss_gems/withered_sentinel`
+      - **Crafted Boss Gems** `items/gear-progression/gems/crafted-boss-gems`
+        - **Eye of Molten Protector** `items/gear-progression/gems/crafted-boss-gems/eye-of-molten-protector` — `apotheotic_additions:crafted/ignis`
+        - **Eye of the Captain** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-captain` — `apotheotic_additions:crafted/cornelia`
+        - **Eye of the Ender Dragon** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-ender-dragon` — `apotheotic_additions:crafted/ender_dragon`
+        - **Eye of the Frostmaw** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-frostmaw` — `apotheotic_additions:crafted/frostmaw`
+        - **Eye of the Harbringer** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-harbringer` — `apotheotic_additions:crafted/harbringer`
+        - **Eye of the Leviathan** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-leviathan` — `apotheotic_additions:crafted/leviathan`
+        - **Eye of the Malignant** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-malignant` — `apotheotic_additions:crafted/maledictus`
+        - **Eye of the Monstrosity** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-monstrosity` — `apotheotic_additions:crafted/monstrosity`
+        - **Eye of the Remnant** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-remnant` — `apotheotic_additions:crafted/remnant`
+        - **Eye of the Sunbird** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-sunbird` — `apotheotic_additions:crafted/sunbird`
+        - **Eye of the Warden** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-warden` — `apotheotic_additions:crafted/warden`
+        - **Eye of the Wither** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-wither` — `apotheotic_additions:crafted/wither`
+        - **Eye of the Wroughtnaut** `items/gear-progression/gems/crafted-boss-gems/eye-of-the-wroughtnaut` — `apotheotic_additions:crafted/wroughtnaut`
+      - **Spell Gems** `items/gear-progression/gems/spell-gems`
+        - **Arcane Catalyst** `items/gear-progression/gems/spell-gems/arcane-catalyst` — `fallen_gems_affixes:compat/arcane_catalyst`
+        - **Ash of Yggdrasil** `items/gear-progression/gems/spell-gems/ash-of-yggdrasil` — `fallen_gems_affixes:compat/iceandfire/yggdrasil`
+        - **Blood Gem** `items/gear-progression/gems/spell-gems/blood-gem` — `irons_spellbooks:blood`
+        - **Blood Level Gem** `items/gear-progression/gems/spell-gems/blood-level-gem` — `fallen_gems_affixes:compat/spell_blood`
+        - **Divine Stone** `items/gear-progression/gems/spell-gems/divine-stone` — `fallen_gems_affixes:compat/divine_stone`
+        - **Eldritch Gem** `items/gear-progression/gems/spell-gems/eldritch-gem` — `fallen_gems_affixes:compat/power_eldritch`
+        - **Eldritch Level Gem** `items/gear-progression/gems/spell-gems/eldritch-level-gem` — `fallen_gems_affixes:compat/spell_eldritch`
+        - **Emberheart Shard** `items/gear-progression/gems/spell-gems/emberheart-shard` — `fallen_gems_affixes:compat/emberheart_shard`
+        - **Ender Gem** `items/gear-progression/gems/spell-gems/ender-gem` — `irons_spellbooks:ender`
+        - **Ender Level Gem** `items/gear-progression/gems/spell-gems/ender-level-gem` — `fallen_gems_affixes:compat/spell_ender`
+        - **Evocation Level Gem** `items/gear-progression/gems/spell-gems/evocation-level-gem` — `fallen_gems_affixes:compat/spell_evocation`
+        - **Fire Level Gem** `items/gear-progression/gems/spell-gems/fire-level-gem` — `fallen_gems_affixes:compat/spell_fire`
+        - **Frostvein Crystal** `items/gear-progression/gems/spell-gems/frostvein-crystal` — `fallen_gems_affixes:compat/frostvein_crystal`
+        - **Frozen Gem** `items/gear-progression/gems/spell-gems/frozen-gem` — `irons_spellbooks:ice`
+        - **Gem of Arcane Efficiency** `items/gear-progression/gems/spell-gems/gem-of-arcane-efficiency` — `irons_spellbooks:cast_time`
+        - **Gem of Arcane Protection** `items/gear-progression/gems/spell-gems/gem-of-arcane-protection` — `irons_spellbooks:spell_resist`
+        - **Gem of Arcane Recovery** `items/gear-progression/gems/spell-gems/gem-of-arcane-recovery` — `irons_spellbooks:cooldown`
+        - **Hemolith Shard** `items/gear-progression/gems/spell-gems/hemolith-shard` — `fallen_gems_affixes:compat/hemolith_shard`
+        - **Holy Gem** `items/gear-progression/gems/spell-gems/holy-gem` — `irons_spellbooks:holy`
+        - **Holy Level Gem** `items/gear-progression/gems/spell-gems/holy-level-gem` — `fallen_gems_affixes:compat/spell_holy`
+        - **Ice Level Gem** `items/gear-progression/gems/spell-gems/ice-level-gem` — `fallen_gems_affixes:compat/spell_ice`
+        - **Illager's Gem** `items/gear-progression/gems/spell-gems/illagers-gem` — `irons_spellbooks:evocation`
+        - **Inferno Gem** `items/gear-progression/gems/spell-gems/inferno-gem` — `irons_spellbooks:fire`
+        - **Intelligence Gem** `items/gear-progression/gems/spell-gems/intelligence-gem` — `irons_spellbooks:intelligent`
+        - **Lightning Level Gem** `items/gear-progression/gems/spell-gems/lightning-level-gem` — `fallen_gems_affixes:compat/spell_lightning`
+        - **Natural Gem** `items/gear-progression/gems/spell-gems/natural-gem` — `irons_spellbooks:nature`
+        - **Nature Level Gem** `items/gear-progression/gems/spell-gems/nature-level-gem` — `fallen_gems_affixes:compat/spell_nature`
+        - **Necromancy Gem** `items/gear-progression/gems/spell-gems/necromancy-gem` — `irons_spellbooks:summoning`
+        - **Nyxite Crystal** `items/gear-progression/gems/spell-gems/nyxite-crystal` — `fallen_gems_affixes:compat/nyxite_crystal`
+        - **Omnispell Level Gem** `items/gear-progression/gems/spell-gems/omnispell-level-gem` — `fallen_gems_affixes:compat/spell_general`
+        - **Storm Gem** `items/gear-progression/gems/spell-gems/storm-gem` — `irons_spellbooks:lightning`
+        - **Thunderheart Fragment** `items/gear-progression/gems/spell-gems/thunderheart-fragment` — `fallen_gems_affixes:compat/thunderheart_fragment`
+        - **Verdanite Shard** `items/gear-progression/gems/spell-gems/verdanite-shard` — `fallen_gems_affixes:compat/verdanite_shard`
+        - **Voidmancer's Eye** `items/gear-progression/gems/spell-gems/voidmancers-eye` — `fallen_gems_affixes:compat/voidmancers_eye`
+      - **Curio Gems** `items/gear-progression/gems/curio-gems`
+        - **Reinforced Jewel** `items/gear-progression/gems/curio-gems/reinforced-jewel` — `apotheotic_additions:curios/reinforced`
+        - **Twisted Jewel** `items/gear-progression/gems/curio-gems/twisted-jewel` — `apotheotic_additions:curios/twisted`
+        - **Vitalic Jewel** `items/gear-progression/gems/curio-gems/vitalic-jewel` — `apotheotic_additions:curios/vitalic`
+      - **Modded Gems** `items/gear-progression/gems/modded-gems`
+        - **Armored Jewel** `items/gear-progression/gems/modded-gems/armored-jewel` — `apotheotic_additions:modded/armor`
+        - **Hearty Jewel** `items/gear-progression/gems/modded-gems/hearty-jewel` — `apotheotic_additions:modded/hearty`
+        - **Jewel of the Safari** `items/gear-progression/gems/modded-gems/jewel-of-the-safari` — `apotheotic_additions:modded/safari`
+        - **Jewel of Uranium Fever** `items/gear-progression/gems/modded-gems/jewel-of-uranium-fever` — `apotheotic_additions:modded/uranium`
+      - **Fallen Gems** `items/gear-progression/gems/fallen-gems`
+        - **Ragnarok Gem** `items/gear-progression/gems/fallen-gems/ragnarok-gem` — `fallen_gems_affixes:ragnarok`
+      - **Other Gems** `items/gear-progression/gems/other-gems`
+        - **Aqua Gem** `items/gear-progression/gems/other-gems/aqua-gem` — `apotheosis:aqua`
+        - **Depth Shard** `items/gear-progression/gems/other-gems/depth-shard` — `apotheosis:depth_shard`
+        - **Gem of Aqua Magic** `items/gear-progression/gems/other-gems/gem-of-aqua-magic` — `apotheosis:spell_aqua`
+        - **Gem of Geo Magic** `items/gear-progression/gems/other-gems/gem-of-geo-magic` — `apotheosis:spell_geo`
+        - **Gem of Sound Magic** `items/gear-progression/gems/other-gems/gem-of-sound-magic` — `apotheosis:spell_sound`
+        - **Geo Gem** `items/gear-progression/gems/other-gems/geo-gem` — `apotheosis:geo`
+        - **Geolith Shard** `items/gear-progression/gems/other-gems/geolith-shard` — `apotheosis:geolith_shard`
+        - **Sound Gem** `items/gear-progression/gems/other-gems/sound-gem` — `apotheosis:sound`
+        - **Vibranium Shard** `items/gear-progression/gems/other-gems/vibranium-shard` — `apotheosis:vibranium_shard`
+    - **Enchanting (Items)** `items/gear-progression/enchanting`
+      - Enchanting shelves
+      - Enchanting tomes
+    - **Coins & Apples** `items/gear-progression/coins-and-apples`
+      - Apotheotic coins
+      - Rarity apples (common to mythic)
+    - **Augments** `items/gear-progression/augments` — Fallen Gems augments: Cascade, Convergence, Duality, Gem Power, Malice and Supremacy on one page.
+      - **Augment of Genesis** `items/gear-progression/augments/augment-of-genesis`
+  - **Combat Skill Books** `items/skill-books` — Books that teach Epic Fight skills, one page per book, sorted by their tier in the Epic Fight quest chapter (the chapter reads right to left: Tier 1, 2, 3, End Game). _(visible)_
+    - **Tier 1 Skill Books** `items/skill-books/tier-1`
+      - **Dodge master** `items/skill-books/tier-1/dodge-master` — `wom:dodge_master`
+      - **Aqua maneuver** `items/skill-books/tier-1/aqua-maneuver` — `wom:aqua_maneuvre`
+      - **Back and ... FORTH !** `items/skill-books/tier-1/back-and-forth` — `wom:back_and_forth`
+      - **Catharsis** `items/skill-books/tier-1/catharsis` — `epicfight:catharsis`
+      - **Forbidden Strength** `items/skill-books/tier-1/forbidden-strength` — `epicfight:forbidden_strength`
+      - **Natural Sprinter** `items/skill-books/tier-1/natural-sprinter` — `wom:natural_sprinter`
+      - **Spider techniques** `items/skill-books/tier-1/spider-techniques` — `wom:spider_techniques`
+      - **Shooting Style** `items/skill-books/tier-1/shooting-style` — `wom:shooting_style`
+      - **Demolition Leap** `items/skill-books/tier-1/demolition-leap` — `epicfight:demolition_leap`
+      - **Dopamine** `items/skill-books/tier-1/dopamine` — `wom:dopamine`
+      - **Punishment kick** `items/skill-books/tier-1/punishment-kick` — `wom:punishment_kick`
+      - **Avatar of Might** `items/skill-books/tier-1/avatar-of-might` — `wom:avatar_of_might`
+      - **Technician** `items/skill-books/tier-1/technician` — `epicfight:technician`
+      - **Meteor Slam** `items/skill-books/tier-1/meteor-slam` — `epicfight:meteor_slam`
+    - **Tier 2 Skill Books** `items/skill-books/tier-2`
+      - **Phantom** `items/skill-books/tier-2/phantom` — `cdmoveset:yamato_step`
+      - **Fatal Flash** `items/skill-books/tier-2/fatal-flash` — `cdmoveset:fatalfalsh`
+      - **Endurance** `items/skill-books/tier-2/endurance` — `epicfight:endurance`
+      - **Emergency Escape** `items/skill-books/tier-2/emergency-escape` — `epicfight:emergency_escape`
+      - **『Gravity Stomp』** `items/skill-books/tier-2/gravity-stomp` — `efn:stomp`
+      - **『Soul Hunt』** `items/skill-books/tier-2/soul-hunt` — `efn:execution`
+      - **Dread full buster** `items/skill-books/tier-2/dread-full-buster` — `wom:buster_parade`
+      - **Revelation** `items/skill-books/tier-2/revelation` — `epicfight:revelation`
+      - **Combat Mastery I** `items/skill-books/tier-2/combat-mastery-i` — `epicfightx:combat_mastery_i`
+      - **Parrying** `items/skill-books/tier-2/parrying` — `epicfight:parrying`
+      - **Hyper Vitality** `items/skill-books/tier-2/hyper-vitality` — `epicfight:hypervitality`
+      - **Ravanger force** `items/skill-books/tier-2/ravanger-force` — `wom:bull_charge`
+    - **Tier 3 Skill Books** `items/skill-books/tier-3`
+      - **Soul protection** `items/skill-books/tier-3/soul-protection` — `wom:soul_protection`
+      - **Precise roll** `items/skill-books/tier-3/precise-roll` — `wom:precise_roll`
+      - **Arrow tenacity** `items/skill-books/tier-3/arrow-tenacity` — `wom:arrow_tenacity`
+      - **『PARRY_MASTER』** `items/skill-books/tier-3/parry-master` — `efn:parry_master`
+      - **Adrenaline Fiend** `items/skill-books/tier-3/adrenaline-fiend` — `epicfight:adrenaline_fiend`
+      - **Shulker cloak** `items/skill-books/tier-3/shulker-cloak` — `wom:shulker_cloak`
+      - **Counter attack** `items/skill-books/tier-3/counter-attack` — `wom:counter_attack`
+      - **Ender step** `items/skill-books/tier-3/ender-step` — `wom:ender_step`
+      - **『Parry』** `items/skill-books/tier-3/parry` — `efn:efn_parry`
+      - **Manipulator** `items/skill-books/tier-3/manipulator` — `wom:manipulator`
+      - **Berserker (Skill Book)** `items/skill-books/tier-3/berserker-skill-book` — `epicfight:berserker`
+      - **Lunatic Vivacity** `items/skill-books/tier-3/lunatic-vivacity` — `wom:lunatic_vivacity`
+      - **Perfect bulwark** `items/skill-books/tier-3/perfect-bulwark` — `wom:perfect_bulwark`
+    - **End Game Skill Books** `items/skill-books/end-game`
+      - **Critical knowledge** `items/skill-books/end-game/critical-knowledge` — `wom:critical_knowledge`
+      - **Heart shield** `items/skill-books/end-game/heart-shield` — `wom:heart_shield`
+      - **Time travel** `items/skill-books/end-game/time-travel` — `wom:time_travel`
+      - **Mindset** `items/skill-books/end-game/mindset` — `wom:mindset`
+      - **Voodoo magic** `items/skill-books/end-game/voodoo-magic` — `wom:voodoo_magic`
+      - **Ender obscuris** `items/skill-books/end-game/ender-obscuris` — `wom:ender_obscuris`
+      - **Dancing blade** `items/skill-books/end-game/dancing-blade` — `wom:dancing_blade`
+      - **Essence Extortion** `items/skill-books/end-game/essence-extortion` — `wom:vampirize`
+      - **『PRECISE PARRY』** `items/skill-books/end-game/precise-parry` — `efn:precise_parry`
+      - **Lethal Focus** `items/skill-books/end-game/lethal-focus` — `wom:lethal_focus`
+      - **All Eyes on Me** `items/skill-books/end-game/all-eyes-on-me` — `wom:all_eyes_on_me`
+      - **All Eyes on You** `items/skill-books/end-game/all-eyes-on-you` — `wom:all_eyes_on_you`
+      - **Latent retribution** `items/skill-books/end-game/latent-retribution` — `wom:latent_retribution`
+      - **Vengeance** `items/skill-books/end-game/vengeance` — `epicfight:vengeance`
+    - Yamato and Crimson Moon skills (enchanted books) go on their weapons' pages, not here:
+      - Yamato-Summoned Sword — `efn:yamato_summoned_sword`
+      - Crimson Moon - Demonized — `efn:scythe_enhance`
+      - Yamato-Judgment Cut End — `efn:yamato_judgement_cut_end`
+      - Summoned Sword End — `efn:yamato_summoned_sword_end`
+      - Yamato-Guard — `efn:yamato_guard`
+      - Yamato-Heavy Rain — `efn:broad_blade_enhance`
+      - Yamato-Doppelganger — `efn:yamato_doppelganger`
+      - Yamato-Heavy Rain — `efn:yamato_heavy_rain`
+  - **Tools** `items/tools` — Tool tiers from vanilla and mods, one page per tool type. Each page lists every material tier. _(visible)_
+    - **Pickaxes** `items/tools/pickaxes`
+    - **Axes** `items/tools/axes` — tool axes; battle axes are on Heavy Load
+    - **Shovels** `items/tools/shovels`
+    - **Hoes** `items/tools/hoes`
+    - **Fishing Rods** `items/tools/fishing-rods` — rods, hooks and lines
+    - **Misc Tools** `items/tools/misc-tools` — shears, flint and steel, paxels and multitools
+    - Materials each page covers: vanilla; silver, steel and titanium (Dungeons and Combat); moonstone (Soulslike); resonarium and warden (Deeper and Darker); black steel (Cataclysm); neptunium (Aquaculture)
+  - **Consumables** `items/consumables` — Healing items, totems and food, one page per category. _(visible)_
+    - **Healing** `items/consumables/healing`
+      - [[item:dungeons_and_combat:estus_flask]]
+      - [[item:dungeons_and_combat:crimson_flask]]
+      - [[item:dungeons_and_combat:blessed_bandages]]
+      - Iron's Spellbooks elixirs
+      - Familiar life fruits
+    - **Totems** `items/consumables/totems`
+      - Friends&Foes totems
+      - Totem of Sacrifice
+    - **Food** `items/consumables/food` — All food on one page.
+      - Farmer's Delight
+      - Delightful
+      - Chef's Delight
+      - Alex's Caves candy
+      - Aquaculture fish
+      - [[item:kubejs:raw_human_flesh]] · [[item:kubejs:cooked_human_flesh]] (Soulrend)
+      - Other food
+  - **Materials** `items/materials` — Ingots, gems and mob drops used in crafting, many per page, one page per act in progression order. _(visible)_
+    - **Act I Materials** `items/materials/act-i-materials`
+      - Vanilla mob drops: [[item:minecraft:string]] · [[item:minecraft:leather]] · [[item:minecraft:rabbit_hide]] · [[item:minecraft:rabbit_foot]] · [[item:minecraft:feather]] · [[item:minecraft:bone]] · [[item:minecraft:bone_meal]] · [[item:minecraft:gunpowder]] · [[item:minecraft:spider_eye]] · [[item:minecraft:fermented_spider_eye]] · [[item:minecraft:slime_ball]] · [[item:minecraft:ender_pearl]] · [[item:minecraft:ender_eye]] · [[item:minecraft:blaze_rod]] · [[item:minecraft:blaze_powder]] · [[item:minecraft:magma_cream]] · [[item:minecraft:ghast_tear]] · [[item:minecraft:phantom_membrane]] · [[item:minecraft:prismarine_shard]] · [[item:minecraft:prismarine_crystals]] · [[item:minecraft:ink_sac]] · [[item:minecraft:glow_ink_sac]] · [[item:minecraft:scute]] ·  [[item:minecraft:honeycomb]]
+      - Vanilla gems and minerals: [[item:minecraft:coal]] · [[item:minecraft:charcoal]] · [[item:minecraft:diamond]] · [[item:minecraft:emerald]] · [[item:minecraft:lapis_lazuli]] · [[item:minecraft:redstone]] · [[item:minecraft:quartz]] · [[item:minecraft:amethyst_shard]] · [[item:minecraft:glowstone_dust]] · [[item:minecraft:echo_shard]] · [[item:minecraft:flint]] · [[item:minecraft:clay_ball]] · [[item:minecraft:brick]] · [[item:minecraft:nether_brick]]
+      - Samurai Dynasty gems: [[item:samurai_dynasty:aquamarine]] · [[item:samurai_dynasty:jade]] · [[item:samurai_dynasty:onyx]] · [[item:samurai_dynasty:ruby]]
+      - Silver: [[item:dungeons_and_combat:silver_ingot]]
+      - Steel: [[item:dungeons_and_combat:steel_ingot]]
+      - Vanilla ingots and ores: [[item:minecraft:iron_ingot]] · [[item:minecraft:iron_nugget]] · [[item:minecraft:raw_iron]] · [[item:minecraft:gold_ingot]] · [[item:minecraft:gold_nugget]] · [[item:minecraft:raw_gold]] · [[item:minecraft:copper_ingot]] · [[item:minecraft:raw_copper]]
+      - Wrought Ingot: [[item:astral_calamity_extras:wrought_ingot]]
+    - **Act II Materials** `items/materials/act-ii-materials`
+      - Titanium: [[item:dungeons_and_combat:titanium_ingot]]
+      - Ice and Fire (sapphire, troll leather, death worm chitin, sea serpent scales): [[item:iceandfire:sapphire_gem]] · [[item:iceandfire:troll_leather_forest]] · [[item:iceandfire:troll_leather_frost]] · [[item:iceandfire:troll_leather_mountain]] · [[item:iceandfire:deathworm_chitin_yellow]] · [[item:iceandfire:deathworm_chitin_white]] · [[item:iceandfire:deathworm_chitin_red]] · [[item:iceandfire:sea_serpent_scales_blue]] · [[item:iceandfire:sea_serpent_scales_bronze]] · [[item:iceandfire:sea_serpent_scales_deepblue]] · [[item:iceandfire:sea_serpent_scales_green]] · [[item:iceandfire:sea_serpent_scales_purple]] · [[item:iceandfire:sea_serpent_scales_red]] · [[item:iceandfire:sea_serpent_scales_teal]]
+      - Mithril (Iron's Spellbooks): [[item:irons_spellbooks:mithril_ingot]] · [[item:irons_spellbooks:mithril_ore]] · [[item:irons_spellbooks:mithril_scrap]] · [[item:irons_spellbooks:mithril_weave]]
+      - Cryonic Ingot: [[item:astral_calamity_extras:cryonic_ingot]]
+      - Subliminal Ingot: [[item:astral_calamity_extras:subliminal_ingot]]
+      - Tidal Ingot: [[item:astral_calamity_extras:tidal_ingot]]
+      - Grotesque Ingot: [[item:astral_calamity_extras:grotesque_ingot]]
+      - Enchanted Ingot: [[item:astral_calamity_extras:enchanted_ingot]]
+    - **Act III Materials** `items/materials/act-iii-materials`
+      - Netherite materials: [[item:minecraft:netherite_ingot]] · [[item:minecraft:netherite_scrap]] · [[item:minecraft:ancient_debris]]
+      - High Level Vanilla Materials: [[item:minecraft:nautilus_shell]] · [[item:minecraft:heart_of_the_sea]] · [[item:minecraft:nether_star]] · [[item:minecraft:ghast_tear]]
+      - Ebony Ingots [[item:dungeons_and_combat:ebony_ingot]]
+      - Crimson Ingots [[item:dungeons_and_combat:crimson_ingot]] · 
+      - Crimson Ingot (Soulslike): [[item:soulsweapons:crimson_ingot]]
+      - Alex's Caves minerals: [[item:alexscaves:amber_curiosity]] · [[item:alexscaves:azure_neodymium_ingot]] · [[item:alexscaves:ferrouslime_ball]] · [[item:alexscaves:heavy_bone]] · [[item:alexscaves:pearl]] · [[item:alexscaves:pure_darkness]] · [[item:alexscaves:radon_bottle]] · [[item:alexscaves:scarlet_neodymium_ingot]] · [[item:alexscaves:sulfur_dust]] · [[item:alexscaves:sweet_tooth]] · [[item:alexscaves:tough_hide]] · [[item:alexscaves:uranium]]
+      - Gilded Ingot: [[item:astral_calamity_extras:gilded_ingot]]
+      - Bloodcrest Ingot: [[item:astral_calamity_extras:bloodcrest_ingot]]
+      - Corrupted Ingot: [[item:astral_calamity_extras:corrupted_ingot]]
+      - Molten Ingot: [[item:astral_calamity_extras:molten_ingot]]
+      - Brimspec Ingot: [[item:astral_calamity_extras:brimspec_ingot]]
+    - **Act III-b Materials** `items/materials/act-iii-b-materials`
+      - Soul ingot (Soulslike): [[item:soulsweapons:soul_ingot]]
+      - Moon Crystals: [[item:astral_calamity_extras:moon_crystals]]
+    - **Act IV Materials** `items/materials/act-iv-materials`
+      - End Materials: [[item:minecraft:shulker_shell]] · [[item:minecraft:dragon_breath]]
+      - Duskfire and HF ingots (EpicFight-Nightfall): [[item:efn:duskfire_ingot]] · [[item:efn:hf_ingot]] · [[item:efn:hf_ingot_b]]
+    - **Act V Materials** `items/materials/act-v-materials`
+      - Universium Ingot: [[item:astral_calamity_extras:universium_ingot]]
+      - Nightmare Ingot: [[item:astral_calamity_extras:nightmare_ingot]]
+      - Astral Ingot: [[item:astral_calamity_extras:astral_ingot]]
+  - **Curios & Accessories** `items/curios-and-accessories` — One page per curio slot. The index adds a second sort by class or purpose (melee, mage, ranged, summoner, utility). Magic curios live here now. _(visible)_
+    - **Rings** `items/curios-and-accessories/rings` — 30 items
+      - Alshanex Familiars Mod: [[item:alshanex_familiars:evasion_curio]] · [[item:alshanex_familiars:healing_curio]] · [[item:alshanex_familiars:invisibility_curio]] · [[item:alshanex_familiars:statue_curio]]
+      - Apotheotic Additions: [[item:apotheotic_additions:mythicalband]]
+      - Dacxirons: [[item:dacxirons:wither_ring]]
+      - Dungeons and Combat: [[item:dungeons_and_combat:hell_ring]] · [[item:dungeons_and_combat:molten_ring]] · [[item:dungeons_and_combat:ring_of_life]] · [[item:dungeons_and_combat:ring_of_the_eternal_resting]]
+      - GTBC's Geomancy Plus: [[item:gtbcs_geomancy_plus:ring_of_the_resounding_earth]]
+      - Iron's Spells 'n Spellbooks: [[item:irons_spellbooks:affinity_ring]] · [[item:irons_spellbooks:betrayer_signet]] · [[item:irons_spellbooks:cast_time_ring]] · [[item:irons_spellbooks:cooldown_ring]] · [[item:irons_spellbooks:emerald_stoneplate_ring]] · [[item:irons_spellbooks:fireward_ring]] · [[item:irons_spellbooks:frostward_ring]] · [[item:irons_spellbooks:invisibility_ring]] · [[item:irons_spellbooks:lurker_ring]] · [[item:irons_spellbooks:mana_ring]] · [[item:irons_spellbooks:poisonward_ring]] · [[item:irons_spellbooks:silver_ring]] · [[item:irons_spellbooks:visibility_ring]]
+      - T.O Magic 'n Extras: [[item:traveloptics:aetherial_despair_ring]] · [[item:traveloptics:firestorm_ring]] · [[item:traveloptics:guided_currents_ring]] · [[item:traveloptics:salted_depths_ring]]
+      - Too Many Bows: [[item:too_many_bows:sharpshot_ring]] · [[item:too_many_bows:stormbound_signet]]
+    - **Necklaces** `items/curios-and-accessories/necklaces` — 17 items
+      - Dungeons and Combat: [[item:dungeons_and_combat:ernos_fang_necklace]] · [[item:dungeons_and_combat:fang_necklace]] · [[item:dungeons_and_combat:klauen_necklace]] · [[item:dungeons_and_combat:nullfire_amulet]] · [[item:dungeons_and_combat:thirsty_necklace]]
+      - Iron's Spells 'n Spellbooks: [[item:irons_spellbooks:amethyst_resonance_charm]] · [[item:irons_spellbooks:concentration_amulet]] · [[item:irons_spellbooks:conjurers_talisman]] · [[item:irons_spellbooks:greater_conjurers_talisman]] · [[item:irons_spellbooks:heavy_chain_necklace]] · [[item:irons_spellbooks:teleportation_amulet]]
+      - T.O Magic 'n Extras: [[item:traveloptics:amulet_of_spectral_shift]] · [[item:traveloptics:collar_of_the_turning_tide]] · [[item:traveloptics:energy_unbound_necklace]] · [[item:traveloptics:sigil_of_the_spider_sorcerer]]
+      - Too Many Bows: [[item:too_many_bows:dead_eyes_pendant]] · [[item:too_many_bows:fletchers_talisman]]
+    - **Belts** `items/curios-and-accessories/belts` — 10 items
+      - Dungeons and Combat: [[item:dungeons_and_combat:bottled_fairy_dust]] · [[item:dungeons_and_combat:champion_belt]]
+      - Minecraft: [[item:minecraft:lantern]] · [[item:minecraft:soul_lantern]]
+      - Quark: [[item:quark:paper_lantern]] · [[item:quark:paper_lantern_sakura]]
+      - Supplementaries: [[item:supplementaries:key]]
+      - T.O Magic 'n Extras: [[item:traveloptics:elytra_jetpack_component]] · [[item:traveloptics:pocket_black_hole]]
+      - Tom's Simple Storage Mod: [[item:toms_storage:ts.adv_wireless_terminal]]
+    - **Wings** `items/curios-and-accessories/wings` — 84 items (Icarus wings: 5 styles in 16 colors, plus 3 uniques)
+      - Dungeons and Combat: [[item:dungeons_and_combat:fairy_wings]]
+      - Icarus: [[item:icarus:black_dragon_wings]] · [[item:icarus:black_feathered_wings]] · [[item:icarus:black_light_wings]] · [[item:icarus:black_mechanical_feathered_wings]] · [[item:icarus:black_mechanical_leather_wings]] · [[item:icarus:blue_dragon_wings]] · [[item:icarus:blue_feathered_wings]] · [[item:icarus:blue_light_wings]] · [[item:icarus:blue_mechanical_feathered_wings]] · [[item:icarus:blue_mechanical_leather_wings]] · [[item:icarus:brown_dragon_wings]] · [[item:icarus:brown_feathered_wings]] · [[item:icarus:brown_light_wings]] · [[item:icarus:brown_mechanical_feathered_wings]] · [[item:icarus:brown_mechanical_leather_wings]] · [[item:icarus:cyan_dragon_wings]] · [[item:icarus:cyan_feathered_wings]] · [[item:icarus:cyan_light_wings]] · [[item:icarus:cyan_mechanical_feathered_wings]] · [[item:icarus:cyan_mechanical_leather_wings]] · [[item:icarus:discords_wings]] · [[item:icarus:flandres_wings]] · [[item:icarus:gray_dragon_wings]] · [[item:icarus:gray_feathered_wings]] · [[item:icarus:gray_light_wings]] · [[item:icarus:gray_mechanical_feathered_wings]] · [[item:icarus:gray_mechanical_leather_wings]] · [[item:icarus:green_dragon_wings]] · [[item:icarus:green_feathered_wings]] · [[item:icarus:green_light_wings]] · [[item:icarus:green_mechanical_feathered_wings]] · [[item:icarus:green_mechanical_leather_wings]] · [[item:icarus:light_blue_dragon_wings]] · [[item:icarus:light_blue_feathered_wings]] · [[item:icarus:light_blue_light_wings]] · [[item:icarus:light_blue_mechanical_feathered_wings]] · [[item:icarus:light_blue_mechanical_leather_wings]] · [[item:icarus:light_gray_dragon_wings]] · [[item:icarus:light_gray_feathered_wings]] · [[item:icarus:light_gray_light_wings]] · [[item:icarus:light_gray_mechanical_feathered_wings]] · [[item:icarus:light_gray_mechanical_leather_wings]] · [[item:icarus:lime_dragon_wings]] · [[item:icarus:lime_feathered_wings]] · [[item:icarus:lime_light_wings]] · [[item:icarus:lime_mechanical_feathered_wings]] · [[item:icarus:lime_mechanical_leather_wings]] · [[item:icarus:magenta_dragon_wings]] · [[item:icarus:magenta_feathered_wings]] · [[item:icarus:magenta_light_wings]] · [[item:icarus:magenta_mechanical_feathered_wings]] · [[item:icarus:magenta_mechanical_leather_wings]] · [[item:icarus:orange_dragon_wings]] · [[item:icarus:orange_feathered_wings]] · [[item:icarus:orange_light_wings]] · [[item:icarus:orange_mechanical_feathered_wings]] · [[item:icarus:orange_mechanical_leather_wings]] · [[item:icarus:pink_dragon_wings]] · [[item:icarus:pink_feathered_wings]] · [[item:icarus:pink_light_wings]] · [[item:icarus:pink_mechanical_feathered_wings]] · [[item:icarus:pink_mechanical_leather_wings]] · [[item:icarus:purple_dragon_wings]] · [[item:icarus:purple_feathered_wings]] · [[item:icarus:purple_light_wings]] · [[item:icarus:purple_mechanical_feathered_wings]] · [[item:icarus:purple_mechanical_leather_wings]] · [[item:icarus:red_dragon_wings]] · [[item:icarus:red_feathered_wings]] · [[item:icarus:red_light_wings]] · [[item:icarus:red_mechanical_feathered_wings]] · [[item:icarus:red_mechanical_leather_wings]] · [[item:icarus:white_dragon_wings]] · [[item:icarus:white_feathered_wings]] · [[item:icarus:white_light_wings]] · [[item:icarus:white_mechanical_feathered_wings]] · [[item:icarus:white_mechanical_leather_wings]] · [[item:icarus:yellow_dragon_wings]] · [[item:icarus:yellow_feathered_wings]] · [[item:icarus:yellow_light_wings]] · [[item:icarus:yellow_mechanical_feathered_wings]] · [[item:icarus:yellow_mechanical_leather_wings]] · [[item:icarus:zanzas_wings]]
+    - **Backpacks & Quivers** `items/curios-and-accessories/backpacks-and-quivers` — 47 items: Traveler's Backpacks, other back-slot curios and quivers
+      - Dungeons and Combat: [[item:dungeons_and_combat:hunter_cape]]
+      - Supplementaries: [[item:supplementaries:quiver]]
+      - Valarian Conquest: [[item:valarian_conquest:quiver_chestplate]]
+      - Traveler's Backpack: [[item:travelersbackpack:bat]] · [[item:travelersbackpack:bee]] · [[item:travelersbackpack:blaze]] · [[item:travelersbackpack:bookshelf]] · [[item:travelersbackpack:cactus]] · [[item:travelersbackpack:cake]] · [[item:travelersbackpack:chicken]] · [[item:travelersbackpack:coal]] · [[item:travelersbackpack:cow]] · [[item:travelersbackpack:creeper]] · [[item:travelersbackpack:diamond]] · [[item:travelersbackpack:dragon]] · [[item:travelersbackpack:emerald]] · [[item:travelersbackpack:end]] · [[item:travelersbackpack:enderman]] · [[item:travelersbackpack:fox]] · [[item:travelersbackpack:ghast]] · [[item:travelersbackpack:gold]] · [[item:travelersbackpack:hay]] · [[item:travelersbackpack:horse]] · [[item:travelersbackpack:iron]] · [[item:travelersbackpack:iron_golem]] · [[item:travelersbackpack:lapis]] · [[item:travelersbackpack:magma_cube]] · [[item:travelersbackpack:melon]] · [[item:travelersbackpack:nether]] · [[item:travelersbackpack:netherite]] · [[item:travelersbackpack:ocelot]] · [[item:travelersbackpack:pig]] · [[item:travelersbackpack:pumpkin]] · [[item:travelersbackpack:quartz]] · [[item:travelersbackpack:redstone]] · [[item:travelersbackpack:sandstone]] · [[item:travelersbackpack:sheep]] · [[item:travelersbackpack:skeleton]] · [[item:travelersbackpack:snow]] · [[item:travelersbackpack:spider]] · [[item:travelersbackpack:sponge]] · [[item:travelersbackpack:squid]] · [[item:travelersbackpack:standard]] · [[item:travelersbackpack:villager]] · [[item:travelersbackpack:warden]] · [[item:travelersbackpack:wither]] · [[item:travelersbackpack:wolf]]
+    - **Other Curios** `items/curios-and-accessories/other-curios` — 48 items
+      - Alshanex Familiars Mod: [[item:alshanex_familiars:archmage_trinket]] · [[item:alshanex_familiars:bard_trinket]] · [[item:alshanex_familiars:cleric_trinket]] · [[item:alshanex_familiars:dragon_warrior_trinket]] · [[item:alshanex_familiars:forest_trinket]] · [[item:alshanex_familiars:frostling_trinket]] · [[item:alshanex_familiars:hunter_trinket]] · [[item:alshanex_familiars:illusionist_trinket]] · [[item:alshanex_familiars:mage_trinket]] · [[item:alshanex_familiars:necromancer_trinket]] · [[item:alshanex_familiars:pandora_box]] · [[item:alshanex_familiars:plague_trinket]] · [[item:alshanex_familiars:scorcher_trinket]] · [[item:alshanex_familiars:summoner_trinket]]
+      - Cataclysm: [[item:cataclysm:aptrgangr_head]] · [[item:cataclysm:blazing_grips]] · [[item:cataclysm:chitin_claw]] · [[item:cataclysm:draugr_head]] · [[item:cataclysm:kobolediator_skull]] · [[item:cataclysm:sticky_gloves]]
+      - Create: [[item:create:goggles]]
+      - Dungeons and Combat: [[item:dungeons_and_combat:blessed_bandages]] · [[item:dungeons_and_combat:flaming_gloves]] · [[item:dungeons_and_combat:hunter_boots]] · [[item:dungeons_and_combat:scorpion_claw]] · [[item:dungeons_and_combat:steel_shoulder]] · [[item:dungeons_and_combat:sunleia_hand]]
+      - GTBC's Geomancy Plus: [[item:gtbcs_geomancy_plus:bracelet_of_inversion]] · [[item:gtbcs_geomancy_plus:geo_echo]]
+      - Immersive Weathering: [[item:immersive_weathering:flower_crown]]
+      - Samurai Dynasty: [[item:samurai_dynasty:kitsune_mask]] · [[item:samurai_dynasty:oni_mask]]
+      - T.O Magic 'n Extras: [[item:traveloptics:aqua_echo]] · [[item:traveloptics:azure_ignition_bracelet]] · [[item:traveloptics:blood_echo]] · [[item:traveloptics:bottled_raincloud]] · [[item:traveloptics:cryostorm_bracelet]] · [[item:traveloptics:eldritch_echo]] · [[item:traveloptics:ender_echo]] · [[item:traveloptics:evocation_echo]] · [[item:traveloptics:fire_echo]] · [[item:traveloptics:holy_echo]] · [[item:traveloptics:hydrocharge_bracelet]] · [[item:traveloptics:ice_echo]] · [[item:traveloptics:lightning_echo]] · [[item:traveloptics:nature_echo]] · [[item:traveloptics:nightstalkers_band]]
+      - Too Many Bows: [[item:too_many_bows:wind_glove]]
+  - **Travel Items** `items/travel` — Teleporting, gliding and finding your way. _(visible)_
+    - Waystones and Sharestones
+    - Warp stones and scrolls
+    - Explorer's and Nature's compasses
+  - **Storage Items** `items/storage` — Chests, drawers and storage networks. _(visible)_
+    - Sophisticated chests, barrels and upgrades
+    - Storage Drawers
+    - Tom's Simple Storage
+    - Iron Chests
+    - Create item vaults
+  - **Decoration & Building Items** `items/decoration-and-building` — Collapsed groups for the thousands of building and decoration blocks, one page per group. Minimal info, mostly an index. _(visible)_
+    - **Furniture** `items/decoration-and-building/furniture` — Furnish, Handcrafted, Every Compat in every wood
+    - **Wood families** `items/decoration-and-building/wood-families` — planks, logs, doors, signs, boats in every wood
+    - **Color families** `items/decoration-and-building/color-families` — wool, concrete, glass and modded sets in 16 colors
+    - **Shape variants** `items/decoration-and-building/shape-variants` — stairs, slabs, walls, vertical slabs
+    - **Lighting** `items/decoration-and-building/lighting`
+    - **Displays and paintings** `items/decoration-and-building/displays-and-paintings`

@@ -20,7 +20,7 @@ A hand-built static wiki for **Soulrend**, the user's Forge 1.20.1 modpack (abou
 - **The wiki's pixel font is original**: a Times-style pixel serif hand-drawn in `tools/font/glyphs.txt`, on Excalibur's metrics (8px em, 7px caps, 5px x-height) but sharing no glyphs with it or with Times. Don't regenerate it from the Excalibur pack or trace any other font.
 - **Editors are trusted**: raw HTML is allowed in Markdown, and there's no sanitizer.
 - **Pages follow `docs/style-guide.md`**: neutral encyclopedic voice for new players, American spelling (in-game names verbatim), sourced numbers only, stats scaled to the mob's level, no spoiler gating.
-- **Hosting is undecided.** Keep output host-agnostic (relative links, no server rewrites).
+- **Hosting: GitHub Pages** via `.github/workflows/pages.yml` (builds on every push to `main`) at `https://soldierdonkey.github.io/Soulrend-Wiki/`, which is `site.url`. Still keep output host-agnostic (relative links, no server rewrites). Change `site.url` if the address ever changes.
 
 ### Open items (as of 2026-10-22)
 
