@@ -6,6 +6,10 @@ Notes for AI assistants working on the Soulrend Wiki. For how to *use* the wiki 
 
 A hand-built static wiki for **Soulrend**, the user's Forge 1.20.1 modpack (about 420 mod jars, KubeJS, Iron's Spellbooks, GeckoLib). The modpack's dev instance is at `~/Documents/curseforge/minecraft/Instances/Soulrend-Development/`. The vanilla client jar is at `~/Documents/curseforge/minecraft/Install/versions/1.20.1/1.20.1.jar`.
 
+**Before researching the instance, read [`docs/instance-guide.md`](docs/instance-guide.md).** It says where quests, KubeJS mechanics, the Paxi datapacks (origins, skill trees, recipes), the Soulrend jars and boss data live. It also lists which files are stale, empty or misleading. When you learn something new about the instance, add it there.
+
+**Before writing or rewriting a page, read [`docs/style-guide.md`](docs/style-guide.md).** It sets the voice, naming, sourcing rules (no unsourced numbers, a `<!-- sources: … -->` comment on every page), how mob stats scale with level, and a section template for each page type. `content/bosses/act-ii/frostmaw.md` is the worked example.
+
 ### Decisions the user made (don't re-ask)
 
 - No premade doc systems (MkDocs, Astro Starlight, …). Everything is custom.
@@ -15,6 +19,7 @@ A hand-built static wiki for **Soulrend**, the user's Forge 1.20.1 modpack (abou
 - **Game data is extracted from the game**, not hand-written.
 - **The wiki's pixel font is original**: a Times-style pixel serif hand-drawn in `tools/font/glyphs.txt`, on Excalibur's metrics (8px em, 7px caps, 5px x-height) but sharing no glyphs with it or with Times. Don't regenerate it from the Excalibur pack or trace any other font.
 - **Editors are trusted**: raw HTML is allowed in Markdown, and there's no sanitizer.
+- **Pages follow `docs/style-guide.md`**: neutral encyclopedic voice for new players, American spelling (in-game names verbatim), sourced numbers only, stats scaled to the mob's level, no spoiler gating.
 - **Hosting is undecided.** Keep output host-agnostic (relative links, no server rewrites).
 
 ### Open items (as of 2026-10-22)
@@ -22,7 +27,11 @@ A hand-built static wiki for **Soulrend**, the user's Forge 1.20.1 modpack (abou
 - The KubeJS export scripts (`tools/kubejs/`) have been run in game: `game-data/` now comes from the export (about 14k items and 16k recipes).
 - IconExporter has been run (`icon-exports-x32/`, about 17,000 files): 13,283 items have rendered icons and 136 have none (mostly tab icons, air and hidden items). Its file naming: `ns__path[__meta][__{nbt}|__md5].png`, with `/` written as `___`.
 - The user mentioned a "spellbinding table", but no mod jar contains anything by that name. Ask for its slot layout before adding a station.
-- The folder isn't a git repository; nothing has been committed.
+- **The recipe export misses every recipe that a KubeJS script adds** (see `docs/instance-guide.md`, KubeJS section). Fixing `tools/kubejs/server_scripts/wiki_export.js` needs a re-run in game; until then pages hand-write those recipes from the script.
+
+### Record observed bugs
+
+**When you observe a bug in the modpack** while researching the instance or writing pages (a broken or unobtainable recipe, a misconfigured mob, an item with a wrong tooltip, a crash in the logs), add an entry to `content/bugs.md` (the **Known Bugs** page, linked in the sidebar via `site.json`). Follow the template comment in that file and say where it was seen. Bugs in the wiki's own code don't go there; fix them or mention them to the user.
 
 ## Commands
 
@@ -100,7 +109,9 @@ Node 26 was installed with Homebrew for this project.
 - **Item model quirks (jar scan icons).** Forge's `separate_transforms` loader keeps the inventory icon under `perspectives.gui`, often as a reference to `models/displaysettings/…`, so every `models/**` folder must be loaded. Models whose parent chain reaches `builtin/entity` (GeckoLib or Java 3D items) have only UV-map textures; give them no flat icon rather than a scrambled one. Every Compat (`everycomp:*`, about 1,700 items) generates its assets at runtime, so only an icon export can cover it.
 - **Screen overlays get baked into IconExporter icons.** The mod renders icons in the top-left of the actual frame, so the user's Chloride FPS display (`config/chloride-client.toml`, `[fpsDisplay] mode`) put a black box and an FPS number into about 9,000 icons. To check an export, look for icons where more than 50% of pixels are opaque near-black. A clean export has about 3, and those are genuinely dark blocks.
 - **Tooltip icons are font glyphs.** Mods such as Obscure API draw hunger, saturation and damage icons as private-use characters (U+E000 to U+F8FF) in a bitmap font. `sync-game` copies those font sheets to `game-data/glyphs/` with a `glyphs.json` map, the build emits a `.mc-glyph.g-<codepoint>` sprite class for each, and `src/shared/mctext.js` swaps the characters for those spans. Internal tooltip lines (such as Apotheosis's `APOTH_REMOVE_MARKER`) are filtered by `TOOLTIP_BLACKLIST` in `sync-game.mjs`.
-- **Hex colour codes in item names.** Some exported names start with `§#rrggbb` (e.g. Simply Swords uniques). Tooltips handle this through `mctext.js`, but the `[[item:…]]` link text shows the code raw. Pass a label (`[[item:simplyswords:enigma|Enigma]]`) until the link renderer strips it.
+- **§-codes in item names.** About 300 exported names contain formatting codes: `§#rrggbb` hex colours (e.g. Simply Swords uniques), normal codes, and Apotheosis's own `§rainbow`. Plain-text uses (link labels, search) go through `itemName()` → `stripMcCodes()`. The tooltip keeps the raw name and renders it with `mcTextToHtml()`.
+- **Recipe types without a namespace** (`"crafting_shaped"`, e.g. Explorer's Compass) are read as `minecraft:` by the game; `normalizeRecipe` does the same.
+- **Quest pages borrow item icons.** `"itemRows": false` in an infobox drops the automatic Mod and ID rows.
 - **Angle brackets in Markdown.** In Markdown the user views rendered (plans, READMEs), wrap `<placeholders>` in backticks. A bare `<style>` was parsed as HTML and broke the rendering of a plan.
 
 ## Verifying changes

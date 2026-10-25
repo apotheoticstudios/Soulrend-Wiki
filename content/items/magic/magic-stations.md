@@ -1,6 +1,7 @@
 ---
 {
   "title": "Magic Stations",
+  "aliases": ["Inscription Table"],
   "hidden": true
 }
 ---
@@ -10,7 +11,7 @@
 
 ## In this section
 
-- [[item:irons_spellbooks:inscription_table|Inscription Table]]
-- [[item:irons_spellbooks:scroll_forge|Scroll Forge]]
-- [[item:irons_spellbooks:arcane_anvil|Arcane Anvil]]
-- [[item:irons_spellbooks:alchemist_cauldron|Alchemist Cauldron]]
+- [[item:irons_spellbooks:inscription_table]]
+- [[item:irons_spellbooks:scroll_forge]]
+- [[item:irons_spellbooks:arcane_anvil]]
+- [[item:irons_spellbooks:alchemist_cauldron]]

@@ -12,6 +12,14 @@ const escape = s => s.replace(/[&<>"]/g, c => ESCAPES[c]);
 // Private-use characters are mod font icons; the build turns each known one into a .g-<codepoint> sprite.
 const withGlyphs = s => escape(s).replace(/[\uE000-\uF8FF]/g, c => `<span class="mc-glyph g-${c.codePointAt(0).toString(16)}" aria-hidden="true"></span>`);
 
+// §rainbow is a mod's own marker (Apotheosis ancient materials), not a vanilla code; drop it whole.
+const CODE = /§(#[0-9a-f]{6}|rainbow|.)/gi;
+
+// Plain text without §-codes, for link labels, search and other places that can't show colour.
+export function stripMcCodes(text) {
+  return String(text).replace(CODE, '');
+}
+
 export function mcTextToHtml(text) {
   let html = '';
   let style = {};
@@ -24,6 +32,9 @@ export function mcTextToHtml(text) {
       if (hex) {
         // §#rrggbb: hex colour, written by the KubeJS export for colours outside the 16 named ones.
         style = { color: hex[0] };
+        chunk = part.slice(7);
+      } else if (/^rainbow/i.test(part)) {
+        style = {};
         chunk = part.slice(7);
       } else if (code in COLORS) style = { color: COLORS[code] };
       else if (code === 'r') style = {};

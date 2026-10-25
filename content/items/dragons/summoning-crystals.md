@@ -10,6 +10,6 @@
 
 ## In this section
 
-- [[item:iceandfire:summoning_crystal_fire|Fire Dragon Summoning Crystal]]
-- [[item:iceandfire:summoning_crystal_ice|Ice Dragon Summoning Crystal]]
-- [[item:iceandfire:summoning_crystal_lightning|Lightning Dragon Summoning Crystal]]
+- [[item:iceandfire:summoning_crystal_fire]]
+- [[item:iceandfire:summoning_crystal_ice]]
+- [[item:iceandfire:summoning_crystal_lightning]]

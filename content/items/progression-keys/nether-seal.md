@@ -13,8 +13,8 @@ The four seal pieces, the crystal and the Seal of the Underworld that open the N
 
 ## In this section
 
-- [[item:nether_remastered:seal_piece_1|Mysterious Shard]]
-- [[item:nether_remastered:seal_crystal|Nether Crystal]]
-- [[item:nether_remastered:obsidian_infused_bottle|Obsidian Infused Bottle]]
-- [[item:nether_remastered:bottled_nether_essence|Bottled Nether Essence]]
-- [[item:nether_remastered:seal_of_the_underworld_item|Seal Of The Underworld]]
+- [[item:nether_remastered:seal_piece_1]]
+- [[item:nether_remastered:seal_crystal]]
+- [[item:nether_remastered:obsidian_infused_bottle]]
+- [[item:nether_remastered:bottled_nether_essence]]
+- [[item:nether_remastered:seal_of_the_underworld_item]]

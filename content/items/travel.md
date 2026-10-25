@@ -16,7 +16,7 @@ Teleporting, gliding and finding your way.
 ## In this section
 
 - Waystones and Sharestones
-- [[item:medieval:town_portal_scroll|Town Portal Scroll]]
+- [[item:medieval:town_portal_scroll]]
 - Warp stones and scrolls
-- [[item:paraglider:paraglider|Paraglider]]
+- [[item:paraglider:paraglider]]
 - Explorer's and Nature's compasses

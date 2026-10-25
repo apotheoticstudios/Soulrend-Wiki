@@ -11,6 +11,7 @@
   "outputs": [{ "at": [98, 0], "large": true }],
   "decorations": [{ "type": "arrow", "at": [64, 5] }],
   "recipes": {
-    "minecraft:smithing_transform": "smithing"
+    "minecraft:smithing_transform": "smithing",
+    "soulrend_core:upgrade_smithing": "smithing"
   }
 }

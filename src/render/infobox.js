@@ -19,6 +19,7 @@ export function infoboxHtml(page, env, ctx) {
 
   // Rows filled in from the exported game data unless the page already set them.
   const labels = new Set((box.rows ?? []).filter(Array.isArray).map(r => r[0].toLowerCase()));
+  if (box.itemRows === false) labels.add('mod').add('id');
   if (info?.mod && !labels.has('mod')) rows.push(`<tr><th scope="row">Mod</th><td>${esc(info.mod)}</td></tr>`);
   if (box.item && !labels.has('id')) rows.push(`<tr><th scope="row">ID</th><td><code>${esc(box.item)}</code></td></tr>`);
 

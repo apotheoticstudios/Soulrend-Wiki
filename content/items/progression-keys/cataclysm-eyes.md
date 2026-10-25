@@ -13,11 +13,11 @@ The eight eyes that open the Eight Sins dimensions.
 
 ## In this section
 
-- [[item:cataclysm:desert_eye|Eye of Desert]]
-- [[item:cataclysm:storm_eye|Eye of Storm]]
-- [[item:cataclysm:mech_eye|Eye of Mech]]
-- [[item:cataclysm:flame_eye|Eye of Flame]]
-- [[item:cataclysm:void_eye|Eye of Void]]
-- [[item:cataclysm:cursed_eye|Eye of Curse]]
-- [[item:cataclysm:monstrous_eye|Eye of Monstrous]]
-- [[item:cataclysm:abyss_eye|Eye of Abyss]]
+- [[item:cataclysm:desert_eye]]
+- [[item:cataclysm:storm_eye]]
+- [[item:cataclysm:mech_eye]]
+- [[item:cataclysm:flame_eye]]
+- [[item:cataclysm:void_eye]]
+- [[item:cataclysm:cursed_eye]]
+- [[item:cataclysm:monstrous_eye]]
+- [[item:cataclysm:abyss_eye]]

@@ -10,6 +10,7 @@
     "minecraft:crafting_shaped": "shaped",
     "minecraft:crafting_shapeless": "shapeless",
     "travelersbackpack:backpack_shaped": "shaped",
+    "soulrend_core:upgrade_shaped": "shaped",
     "sophisticatedstorage:shulker_box_from_vanilla_shapeless": "shapeless"
   }
 }

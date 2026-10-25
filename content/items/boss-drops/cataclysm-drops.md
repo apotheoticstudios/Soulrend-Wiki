@@ -11,6 +11,6 @@
 ## In this section
 
 - Ignitium, cursium, witherite, enderite and ancient metal ingots
-- [[item:cataclysm:burning_ashes|Burning Ashes]]
+- [[item:cataclysm:burning_ashes]]
 - Boss music discs
 - Boss respawner and altars

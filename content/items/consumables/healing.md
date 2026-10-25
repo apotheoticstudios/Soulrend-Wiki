@@ -10,8 +10,8 @@
 
 ## In this section
 
-- [[item:dungeons_and_combat:estus_flask|Estus Flask]]
-- [[item:dungeons_and_combat:crimson_flask|Huge Estus Flask]]
-- [[item:dungeons_and_combat:blessed_bandages|Blessed Bandages]]
+- [[item:dungeons_and_combat:estus_flask]]
+- [[item:dungeons_and_combat:crimson_flask]]
+- [[item:dungeons_and_combat:blessed_bandages]]
 - Iron's Spellbooks elixirs
 - Familiar life fruits

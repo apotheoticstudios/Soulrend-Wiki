@@ -26,7 +26,8 @@
     { "label": "Features", "category": "Features", "collapsed": true },
     { "label": "Build Guides", "category": "Build Guides" },
     { "label": "Mods", "category": "Mods", "collapsed": true },
-    { "label": "FAQ", "category": "FAQ", "collapsed": true }
+    { "label": "FAQ", "category": "FAQ", "collapsed": true },
+    { "label": "Known Bugs", "items": ["bugs"] }
   ],
   "footer": "Soulrend Wiki · Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft."
 }

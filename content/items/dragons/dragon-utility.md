@@ -10,8 +10,8 @@
 
 ## In this section
 
-- [[item:iceandfire:dragon_meal|Dragon Meal]]
-- [[item:iceandfire:dragon_flute|Dragon Bone Flute]]
-- [[item:iceandfire:dragon_horn|Dragon Horn]]
-- [[item:iceandfire:dragon_stick|Dragon Command Staff]]
+- [[item:iceandfire:dragon_meal]]
+- [[item:iceandfire:dragon_flute]]
+- [[item:iceandfire:dragon_horn]]
+- [[item:iceandfire:dragon_stick]]
 - Dragon radars (dormant, fire, ice, lightning, master)

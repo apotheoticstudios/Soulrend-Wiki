@@ -1,9 +1,12 @@
 import { esc, attrs, humanize } from './html.js';
+import { stripMcCodes } from '../shared/mctext.js';
 
 export const ITEM_ID = /^[a-z0-9_.-]+:[a-z0-9_./-]+$/;
 
+// Plain display name. Tooltips keep the raw §-coded name (pageItemData) so they can show its colours.
 export function itemName(id, ctx) {
-  return ctx.game.items.get(id)?.name ?? humanize(id);
+  const name = ctx.game.items.get(id)?.name;
+  return name ? stripMcCodes(name) : humanize(id);
 }
 
 // A sprite from the atlas. `size` is '' (inline, text height), 'slot' (recipe slot) or 'xl' (infobox).

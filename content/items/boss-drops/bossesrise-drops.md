@@ -10,9 +10,9 @@
 
 ## In this section
 
-- [[item:block_factorys_bosses:dragon_bone|Dragon Bone]]
-- [[item:block_factorys_bosses:sandworm_dart|Sandworm Dart]]
-- [[item:block_factorys_bosses:ancient_iron_ingot|Ancient Iron Ingot]]
-- [[item:block_factorys_bosses:dragon_shank|Dragon Shank]]
-- [[item:block_factorys_bosses:dragon_guard_shield|Dragon Guard Shield]]
-- [[item:astral_calamity_extras:sandworm_scale|Sandworm Scale]]
+- [[item:block_factorys_bosses:dragon_bone]]
+- [[item:block_factorys_bosses:sandworm_dart]]
+- [[item:block_factorys_bosses:ancient_iron_ingot]]
+- [[item:block_factorys_bosses:dragon_shank]]
+- [[item:block_factorys_bosses:dragon_guard_shield]]
+- [[item:astral_calamity_extras:sandworm_scale]]

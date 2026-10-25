@@ -50,7 +50,9 @@ function parsers(game) {
 
 // Normalises one raw recipe. Returns { recipe } or { error }.
 export function normalizeRecipe(id, json, ctx) {
-  const target = stationFor(json.type ?? '', ctx.stations);
+  // Minecraft reads a type without a namespace as minecraft:, e.g. Explorer's Compass's "crafting_shaped".
+  const type = json.type && !json.type.includes(':') ? `minecraft:${json.type}` : json.type ?? '';
+  const target = stationFor(type, ctx.stations);
   const adapter = adapters[target.adapter];
   try {
     const result = adapter(json, parsers(ctx.game));
@@ -59,9 +61,9 @@ export function normalizeRecipe(id, json, ctx) {
       const slots = inputSlots(target.station).length;
       if (result.inputs.length > slots) throw new Error(`has ${result.inputs.length} inputs but station "${target.name}" has ${slots} input slots`);
     }
-    return { recipe: { id, type: json.type, ...target, ...result } };
+    return { recipe: { id, type, ...target, ...result } };
   } catch (error) {
-    return { error: `${id} (${json.type}): ${error.message}` };
+    return { error: `${id} (${type}): ${error.message}` };
   }
 }
 

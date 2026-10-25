@@ -7,7 +7,7 @@
 > [!NOTE]
 > Draft page (dev builds only). Every linked page is a stub generated from this outline. Leaf pages are hidden from the sidebar and search until written: remove `"hidden": true` and the stub comment when you fill one in.
 
-Progression: 84 pages · Origins: 51 pages · Skill Trees: 133 pages · Bosses: 74 pages · Enemies: 35 pages · Items: 82 pages · Features: 61 pages · Mods: 23 pages · Build Guides: 1 pages · FAQ: 33 pages
+Progression: 89 pages · Origins: 51 pages · Skill Trees: 133 pages · Bosses: 74 pages · Enemies: 35 pages · Items: 82 pages · Features: 61 pages · Mods: 23 pages · Build Guides: 1 pages · FAQ: 33 pages
 
 ## Progression
 
@@ -15,71 +15,75 @@ The main quest line, act by act.
 
 - [[progression|Progression]]
   - [[progression/prologue|Prologue]] — Tutorial chapter.
-    - [[progression/prologue/welcome-to-soulrend|Welcome to Soulrend]] — Tutorial start.
-    - [[progression/prologue/epic-combat|Epic Combat]] — Introduces Epic Fight and gives four skill books.
-    - [[progression/prologue/leveling-up|Leveling Up]] — Introduces the levelling stats.
-    - [[progression/prologue/the-skill-tree|The Skill Tree]] — Introduces the passive skill tree and the Amnesia Scroll.
-    - [[progression/prologue/origin-and-class|Origin and Class]] — Pick a race and class with the Orb of Origin.
-    - [[progression/prologue/new-quest-ui|New Quest UI]] — The quest book and the J key.
-    - [[progression/prologue/waystones-and-warp-items|Waystones & Warp Items (Quest)]] — Waystones, warp stones and warp scrolls.
-    - [[progression/prologue/toms-storage|Tom's Storage]] — Storage terminal and inventory connector.
+    - [[progression/prologue/welcome-to-soulrend|Welcome to Soulrend]] — Tutorial start; opens Act I.
+    - [[progression/prologue/epic-combat|Epic Combat]] — Epic Fight keys; four skill books.
+    - [[progression/prologue/leveling-up|Leveling Up]] — The leveling screen.
+    - [[progression/prologue/the-skill-tree|The Skill Tree]] — The passive skill tree and the Amnesia Scroll.
+    - [[progression/prologue/origin-and-class|Origin and Class]] — One Orb of Origin to re-pick race and class.
+    - [[progression/prologue/looting-and-pickup|Looting and Pickup Mechanics]] — Right-click or crouch to pick up items.
+    - [[progression/prologue/jei-menu|JEI Menu]] — The recipe viewer; also Upgrading Gear.
+    - [[progression/prologue/questing|Questing]] — The quest book's five chapter groups.
+    - [[progression/prologue/new-quest-ui|New Quest UI]] — The J-key quest screen.
+    - [[progression/prologue/waystones-and-warp-items|Waystones & Warp Items (Quest)]] — Waystone, Warp Stone, Warp Scroll.
+    - [[progression/prologue/toms-storage|Tom's Storage]] — Inventory Connector, Storage Terminal, Item Vaults.
   - [[progression/act-i-awakening|Act I – Awakening]]
-    - [[progression/act-i-awakening/find-a-place-to-call-home|Find a Place to Call Home]] — First quest; rewards iron tools.
-    - [[progression/act-i-awakening/your-first-backpack|Your First Backpack]] — Craft a Traveler's Backpack.
-    - [[progression/act-i-awakening/explorers-compass|Explorer's Compass]] — Find structures.
+    - [[progression/act-i-awakening/find-a-place-to-call-home|Find a Place to Call Home]] — First quest; iron tools.
+    - [[progression/act-i-awakening/your-first-backpack|Your First Backpack]] — Backpack materials; also Sleeping Bag.
+    - [[progression/act-i-awakening/explorers-compass|Explorer's Compass]] — Diamond Pickaxe, then the compass.
     - [[progression/act-i-awakening/new-faces-new-stories|New Faces, New Stories]] — Links to Factions and the Overworld chapter.
-    - [[progression/act-i-awakening/kill-3-zombies|Kill 3 Zombies]] — "What in the world is that thing?"
+    - [[progression/act-i-awakening/kill-3-zombies|Kill 3 Zombies]] — The act's only fight.
     - [[progression/act-i-awakening/a-stone-imbued-with-magic|A Stone Imbued with Magic]] — Links to Reforging.
     - [[progression/act-i-awakening/a-hunters-beginning|A Hunter's Beginning]] — Links to the Hunter's Journal.
-    - [[progression/act-i-awakening/forging-your-path|Forging Your Path]] — Choose a path: magic, ranger, Epic Fight skill books, Epic Knights.
+    - [[progression/act-i-awakening/forging-your-path|Forging Your Path]] — Armor and enchanting links; the four playstyle paths.
     - [[progression/act-i-awakening/act-i-complete|Act I Complete]] — Opens Act II.
   - [[progression/act-ii-first-steps|Act II – First Steps]]
-    - [[progression/act-ii-first-steps/the-real-journey-begins|The Real Journey Begins]] — Act II hub: gather the four seal pieces to open the Nether.
-    - [[progression/act-ii-first-steps/estus-flask|Estus Flask]] — Craft the Estus Flask; opens the Bosses' Rise branch.
-    - [[progression/act-ii-first-steps/bosses-rise|Bosses' Rise]] — Defeat the Infernal Dragon, Sandworm and Yeti for the Bottom-Right Shard.
-    - [[progression/act-ii-first-steps/dungeons-and-combat-bosses|Dungeons and Combat Bosses]] — Defeat Sunleia and Kamath for the Bottom-Left Shard; The GraveWatcher.
-    - [[progression/act-ii-first-steps/defeat-the-dead-king|Defeat The Dead King]] — Catacombs, then the Enraged Dead King.
-    - [[progression/act-ii-first-steps/dread-citadel|Dread Citadel]] — Ice and Fire branch for the Top-Left Shard and the Summoning Crystals.
-    - [[progression/act-ii-first-steps/frostmaw-shard|Frostmaw Shard]] — Seal piece 2 from Frostmaw (Fallen Myths).
-    - [[progression/act-ii-first-steps/bottled-nether-essence|Bottled Nether Essence]] — Crying Obsidian → Obsidian Infused Bottle → Bottled Nether Essence.
-    - [[progression/act-ii-first-steps/the-warden|The Warden]] — Kill the Warden for the Seal Crystal (30%).
+    - [[progression/act-ii-first-steps/the-real-journey-begins|The Real Journey Begins]] — Act II hub.
+    - [[progression/act-ii-first-steps/estus-flask|Estus Flask]] — Estus and Huge Estus Flasks; opens Bosses' Rise and the Catacombs.
+    - [[progression/act-ii-first-steps/bosses-rise|Bosses' Rise]] — Any two of Infernal Dragon, Sandworm, Yeti for the Bottom-Right Shard.
+    - [[progression/act-ii-first-steps/dungeons-and-combat-bosses|Dungeons and Combat Bosses]] — Sunleia and Kamath for the Bottom-Left Shard; GraveWatcher, Ernos.
+    - [[progression/act-ii-first-steps/defeat-the-dead-king|Defeat The Dead King]] — Catacombs, then the level 200 Enraged Dead King.
+    - [[progression/act-ii-first-steps/dread-citadel|Dread Citadel]] — Ice and Fire branch: Ancient Sapphire for the Top-Left Shard.
+    - [[progression/act-ii-first-steps/frostmaw-shard|Frostmaw Shard]] — Top-Right Shard from Frostmaw or witches.
+    - [[progression/act-ii-first-steps/bottled-nether-essence|Bottled Nether Essence]] — Crying Obsidian, bottles, four essences.
+    - [[progression/act-ii-first-steps/the-warden|The Warden]] — The Nether Crystal (50%).
+    - [[progression/act-ii-first-steps/dungeon-crawl|Dungeon Crawl]] — Free steel weapon; Dark Iron for the Otherside.
     - [[progression/act-ii-first-steps/the-otherside|The Otherside]] — Heart of the Deep; opens Act III-b.
-    - [[progression/act-ii-first-steps/the-seal-of-the-underworld|The Seal of the Underworld]] — Combine the four pieces and the crystal to open the Nether.
+    - [[progression/act-ii-first-steps/the-seal-of-the-underworld|The Seal of the Underworld]] — Craft and use the seal to open the Nether.
     - [[progression/act-ii-first-steps/act-ii-completed|Act II Completed]] — Opens Act III.
   - [[progression/act-iii-into-the-flames|Act III – Into The Flames]]
-    - [[progression/act-iii-into-the-flames/into-the-flames|Into the Flames]] — Act III hub; gives a Runic Tablet.
-    - [[progression/act-iii-into-the-flames/the-eight-sins|The Eight Sins]] — Craft each Cataclysm eye, enter its dimension and kill its boss.
-    - [[progression/act-iii-into-the-flames/burning-ashes|Burning Ashes]] — Four Burning Ashes from Ignited Berserkers for the Eye of Flame.
+    - [[progression/act-iii-into-the-flames/into-the-flames|Into the Flames]] — Act III hub; Runic Tablet.
+    - [[progression/act-iii-into-the-flames/the-eight-sins|The Eight Sins]] — Eight Cataclysm eyes, dimensions and bosses.
+    - [[progression/act-iii-into-the-flames/burning-ashes|Burning Ashes]] — Nether Fortress; Ignited Berserkers (25%).
     - [[progression/act-iii-into-the-flames/defeat-the-high-priest|Defeat The High Priest]] — The Cathedral.
-    - [[progression/act-iii-into-the-flames/defeat-the-underworld-knight|Defeat The Underworld Knight]] — Underworld Arena.
-    - [[progression/act-iii-into-the-flames/confront-the-wither|Confront The Wither]] — Prepare the ritual and summon the Wither.
+    - [[progression/act-iii-into-the-flames/defeat-the-underworld-knight|Defeat The Underworld Knight]] — Underworld Arena; Knight Sword.
+    - [[progression/act-iii-into-the-flames/confront-the-wither|Confront The Wither]] — Prepare the Ritual and summon the Wither.
     - [[progression/act-iii-into-the-flames/defeat-echo-of-tyros|Defeat Echo of Tyros]] — Citadel; ring the Cinderous Soulcaller.
-    - [[progression/act-iii-into-the-flames/act-iv-beyond-reality-gate|Act IV – Beyond Reality Gate]] — Obtain any Legendary Eye and enter the End.
+    - [[progression/act-iii-into-the-flames/act-iv-beyond-reality-gate|Act IV – Beyond Reality Gate]] — Any five Legendary Eye quests, then enter the End.
   - [[progression/act-iii-b-deeper-and-darker|Act III-b – Deeper and Darker]]
     - [[progression/act-iii-b-deeper-and-darker/deeper-and-darker|Deeper and Darker]] — Optional act from Act II's The Otherside.
-    - [[progression/act-iii-b-deeper-and-darker/ancient-temple|Ancient Temple]] — Find the Ancient Temple.
-    - [[progression/act-iii-b-deeper-and-darker/sculk-transmitter|Sculk Transmitter]] — Craft the Sculk Transmitter.
-    - [[progression/act-iii-b-deeper-and-darker/lich-prison|Lich Prison]] — Find the Lich Prison.
+    - [[progression/act-iii-b-deeper-and-darker/ancient-temple|Ancient Temple]] — Otherside structure with the Sculk Transmitter.
+    - [[progression/act-iii-b-deeper-and-darker/sculk-transmitter|Sculk Transmitter]] — The summoning item.
+    - [[progression/act-iii-b-deeper-and-darker/lich-prison|Lich Prison]] — Under cold and deep oceans.
     - [[progression/act-iii-b-deeper-and-darker/defeat-corrupted-champion|Defeat Corrupted Champion]] — Use the transmitter on the altar.
-    - [[progression/act-iii-b-deeper-and-darker/bone-staffs|Bone Staffs]] — Five bone staffs (white, black, red, cyan, purple).
-    - [[progression/act-iii-b-deeper-and-darker/deeper-and-darker-completed|Deeper and Darker Completed]] — Perfect gem choice.
+    - [[progression/act-iii-b-deeper-and-darker/bone-staffs|Bone Staffs]] — Five staffs, one per kill.
+    - [[progression/act-iii-b-deeper-and-darker/deeper-and-darker-completed|Deeper and Darker Completed]] — A Perfect Gem.
   - [[progression/act-iv-beyond-reality|Act IV – Beyond Reality]]
     - [[progression/act-iv-beyond-reality/beyond-reality|Beyond Reality]] — Act IV hub.
-    - [[progression/act-iv-beyond-reality/dragon-egg|Dragon Egg]] — Used to craft Universium.
-    - [[progression/act-iv-beyond-reality/slay-the-ender-dragon|Slay The Ender Dragon]] — Rewards Dragonslayer helmet, Storm Eye and dragon head.
+    - [[progression/act-iv-beyond-reality/slay-the-ender-dragon|Slay The Ender Dragon]] — Dragonslayer Helmet, Eye of Storm, Dragon Head.
+    - [[progression/act-iv-beyond-reality/dragon-egg|Dragon Egg]] — For Universium; also Dragon's Breath.
     - [[progression/act-iv-beyond-reality/end-highlands|End Highlands]] — Opens Act V.
-    - [[progression/act-iv-beyond-reality/void-cathedral|Void Cathedral]] — Find the Void Cathedral.
-    - [[progression/act-iv-beyond-reality/defeat-the-nightwarden|Defeat The Nightwarden]] — Optional; 250 levels and 2 Universium ingots.
+    - [[progression/act-iv-beyond-reality/void-cathedral|Void Cathedral]] — Home of the Nightwarden; Obsidian Bookshelf.
+    - [[progression/act-iv-beyond-reality/defeat-the-nightwarden|Defeat The Nightwarden]] — Optional; 250 levels and 2 Universium Ingots.
     - [[progression/act-iv-beyond-reality/void-manuscript|Void Manuscript]] — Cradle of Will → Void Manuscript.
   - [[progression/act-v-duties|Act V – Duties]]
     - [[progression/act-v-duties/duties|Duties]] — Act V hub.
-    - [[progression/act-v-duties/nightmare-and-astral-ingots|Nightmare & Astral Ingots]] — Four of each.
+    - [[progression/act-v-duties/nightmare-and-astral-ingots|Nightmare & Astral Ingots]] — Four of each, from Universium.
     - [[progression/act-v-duties/emblem-of-the-past|Emblem of the Past]] — Craft the Emblem (KubeJS item).
-    - [[progression/act-v-duties/visit-the-past|Visit the Past]] — Teleport to the Past dimension.
-    - [[progression/act-v-duties/defeat-the-scarlet-hunter|Defeat The Scarlet Hunter]] — Ancient Church; 50 levels and Yamato.
-    - [[progression/act-v-duties/defeat-arterius|Defeat Arterius]] — Gate of Disaster; 50 levels and HF Murasama.
+    - [[progression/act-v-duties/visit-the-past|Visit the Past]] — Teleport in; leave by dying or warping out.
+    - [[progression/act-v-duties/defeat-the-scarlet-hunter|Defeat The Scarlet Hunter]] — Ancient Church; 50 levels and YAMATO.
+    - [[progression/act-v-duties/defeat-arterius|Defeat Arterius]] — Gate of Disaster; 50 levels and HF-MURASAMA.
     - [[progression/act-v-duties/blessing-of-mortusest|Blessing of Mortusest]] — Both kills; rewards Zweiender.
-    - [[progression/act-v-duties/esoteric-material|Esoteric Material]] — Find the Decaying King.
+    - [[progression/act-v-duties/esoteric-material|Esoteric Material]] — Galactic Core from the Decaying King (50%).
   - [[progression/side-chapters|Side Chapters]] — Chapters linked from the acts.
     - [[progression/side-chapters/hunters-journal|Hunter's Journal]] — Kill counts for common mobs.
     - [[progression/side-chapters/factions|Factions]] — Eight Valarian castles.
@@ -89,14 +93,15 @@ The main quest line, act by act.
     - [[progression/side-chapters/soulslike-champions|Soulslike Champions]] — Soulslike Weaponry bosses.
     - [[progression/side-chapters/aquamirae|Aquamirae]] — Ice Maze and Captain Cornelia.
     - [[progression/side-chapters/journey-to-the-end|Journey to the End]] — The 16 Legendary Eyes.
-    - [[progression/side-chapters/rise-of-the-champion|Rise of the Champion]] — Armor tiers.
-    - [[progression/side-chapters/enchanting|Enchanting (Chapter)]] — Legendary Armoury chapter.
-    - [[progression/side-chapters/backpacks|Backpacks (Chapter)]] — Legendary Armoury chapter.
-    - [[progression/side-chapters/reforging|Reforging]] — Legendary Armoury chapter.
-    - [[progression/side-chapters/magic-equipment|Magic Equipment]] — Legendary Armoury chapter.
-    - [[progression/side-chapters/epic-fight|Epic Fight]] — Legendary Armoury chapter.
-    - [[progression/side-chapters/pursuit-of-mastery|Pursuit of Mastery]] — About 12 weapon-path chapters.
+    - [[progression/side-chapters/rise-of-the-champion|Rise of the Champion]] — Armor paths.
+    - [[progression/side-chapters/enchanting|Enchanting (Chapter)]] — Apotheosis shelves and tomes.
+    - [[progression/side-chapters/backpacks|Backpacks (Chapter)]] — Backpack upgrades and types.
+    - [[progression/side-chapters/reforging|Reforging]] — Affixes, tables, sigils.
+    - [[progression/side-chapters/magic-equipment|Magic Equipment]] — Mage gear.
+    - [[progression/side-chapters/epic-fight|Epic Fight]] — Skill books.
+    - [[progression/side-chapters/pursuit-of-mastery|Pursuit of Mastery]] — Twelve weapon-path chapters.
     - [[progression/side-chapters/fabled-realms|Fabled Realms]] — Structure chapters: Overworld, Nether, Otherside, End, Caverns.
+  - [[progression/reward-tables|Quest Reward Tables]] — The loot tables behind quest rewards.
 
 ## Origins
 
@@ -417,7 +422,7 @@ Every gameplay-relevant item group in Soulrend.
 
 - [[items|Items]]
   - [[items/soulrend-items|Soulrend Items]] — Items added by the pack itself through KubeJS.
-    - [[item:kubejs:emblem_of_the_past|Emblem of the Past]] · [[item:kubejs:raw_human_flesh|Raw Human Flesh]] · [[item:kubejs:cooked_human_flesh|"Steak"]] · Sword Souls
+    - [[item:kubejs:emblem_of_the_past]] · [[item:kubejs:raw_human_flesh]] · [[item:kubejs:cooked_human_flesh]] · Sword Souls
   - [[items/weapons|Weapons]] — Melee and ranged weapons, by weapon type, plus named uniques.
     - [[items/weapons/swords-and-longswords|Swords & Longswords]]
       - Vanilla and Epic Fight longswords (by tier) · Simply Swords longswords (iron to runic) · Epic Knights swords (11 materials) · Dungeons and Combat swords · Samurai Dynasty swords
@@ -428,7 +433,7 @@ Every gameplay-relevant item group in Soulrend.
     - [[items/weapons/daggers-and-knives|Daggers & Knives]]
       - Epic Fight daggers (by tier) · Simply Swords sais · Farmer's Delight and Delightful knives · Dungeons and Combat daggers
     - [[items/weapons/rapiers|Rapiers]]
-      - Rapier Moveset rapiers (incl. Enderite, Oceanite, Witherite) · Simply Swords rapiers · [[item:irons_spellbooks:amethyst_rapier|Amethyst Rapier]]
+      - Rapier Moveset rapiers (incl. Enderite, Oceanite, Witherite) · Simply Swords rapiers · [[item:irons_spellbooks:amethyst_rapier]]
     - [[items/weapons/polearms|Polearms]]
       - Spears (Epic Fight, Simply Swords) · Halberds and glaives · Lances and pikes (Epic Knights, Dungeons and Combat)
     - [[items/weapons/scythes-and-sickles|Scythes & Sickles]]
@@ -448,15 +453,15 @@ Every gameplay-relevant item group in Soulrend.
     - [[items/weapons/dragonsteel-weapons|Dragonsteel Weapons]]
       - Ice and Fire dragonsteel tools and swords · Epic Knights: Ice and Fire dragonsteel weapons · Dungeons and Combat dragonsteel set (greatsword, katana, long sword, shield, sickle, sword)
     - [[items/weapons/simply-swords-uniques|Simply Swords Uniques]]
-      - [[item:simplyswords:arcanethyst|Arcanethyst]] · [[item:simplyswords:awakened_lichblade|Awakened Lichblade]] · [[item:simplyswords:bramblethorn|Bramblethorn]] · [[item:simplyswords:brimstone_claymore|Brimstone Claymore]] · [[item:simplyswords:caelestis|Caelestis]] · [[item:simplyswords:decaying_relic|Decaying relic]] · [[item:simplyswords:dormant_relic|Dormant Relic]] · [[item:simplyswords:emberblade|Emberblade]] · [[item:simplyswords:emberlash|Emberlash]] · [[item:simplyswords:enigma|Enigma]] · [[item:simplyswords:flamewind|Flamewind]] · [[item:simplyswords:frostfall|Frostfall]] · [[item:simplyswords:harbinger|Harbinger]] · [[item:simplyswords:hearthflame|Hearthflame]] · [[item:simplyswords:hiveheart|Hiveheart]] · [[item:simplyswords:icewhisper|Icewhisper]] · [[item:simplyswords:livyatan|Livyatan]] · [[item:simplyswords:magiblade|Magiblade]] · [[item:simplyswords:magiscythe|Magiscythe]] · [[item:simplyswords:magispear|Magispear]] · [[item:simplyswords:mjolnir|Mjolnir]] · [[item:simplyswords:molten_edge|Molten Edge]] · [[item:simplyswords:ribboncleaver|Ribboncleaver]] · [[item:simplyswords:righteous_relic|Righteous Relic]] · [[item:simplyswords:shadowsting|Shadowsting]] · [[item:simplyswords:slumbering_lichblade|Slumbering Lichblade]] · [[item:simplyswords:soulkeeper|Soulkeeper]] · [[item:simplyswords:soulpyre|Soul Pyre]] · [[item:simplyswords:soulrender|Soulrender]] · [[item:simplyswords:soulstealer|Soulstealer]] · [[item:simplyswords:stars_edge|Star's Edge]] · [[item:simplyswords:stormbringer|Stormbringer]] · [[item:simplyswords:storms_edge|Storm's Edge]] · [[item:simplyswords:sunfire|Sunfire]] · [[item:simplyswords:tainted_relic|Tainted Relic]] · [[item:simplyswords:tempest|Tempest]] · [[item:simplyswords:thunderbrand|Thunderbrand]] · [[item:simplyswords:toxic_longsword|Longsword of the Plague]] · [[item:simplyswords:twisted_blade|Twisted Blade]] · [[item:simplyswords:waking_lichblade|Waking Lichblade]] · [[item:simplyswords:watcher_claymore|The Watcher]] · [[item:simplyswords:watching_warglaive|Watching Warglaive]] · [[item:simplyswords:waxweaver|Waxweaver]] · [[item:simplyswords:whisperwind|Whisperwind]] · [[item:simplyswords:wickpiercer|Wickpiercer]]
+      - [[item:simplyswords:arcanethyst]] · [[item:simplyswords:awakened_lichblade]] · [[item:simplyswords:bramblethorn]] · [[item:simplyswords:brimstone_claymore]] · [[item:simplyswords:caelestis]] · [[item:simplyswords:decaying_relic]] · [[item:simplyswords:dormant_relic]] · [[item:simplyswords:emberblade]] · [[item:simplyswords:emberlash]] · [[item:simplyswords:enigma]] · [[item:simplyswords:flamewind]] · [[item:simplyswords:frostfall]] · [[item:simplyswords:harbinger]] · [[item:simplyswords:hearthflame]] · [[item:simplyswords:hiveheart]] · [[item:simplyswords:icewhisper]] · [[item:simplyswords:livyatan]] · [[item:simplyswords:magiblade]] · [[item:simplyswords:magiscythe]] · [[item:simplyswords:magispear]] · [[item:simplyswords:mjolnir]] · [[item:simplyswords:molten_edge]] · [[item:simplyswords:ribboncleaver]] · [[item:simplyswords:righteous_relic]] · [[item:simplyswords:shadowsting]] · [[item:simplyswords:slumbering_lichblade]] · [[item:simplyswords:soulkeeper]] · [[item:simplyswords:soulpyre]] · [[item:simplyswords:soulrender]] · [[item:simplyswords:soulstealer]] · [[item:simplyswords:stars_edge]] · [[item:simplyswords:stormbringer]] · [[item:simplyswords:storms_edge]] · [[item:simplyswords:sunfire]] · [[item:simplyswords:tainted_relic]] · [[item:simplyswords:tempest]] · [[item:simplyswords:thunderbrand]] · [[item:simplyswords:toxic_longsword]] · [[item:simplyswords:twisted_blade]] · [[item:simplyswords:waking_lichblade]] · [[item:simplyswords:watcher_claymore]] · [[item:simplyswords:watching_warglaive]] · [[item:simplyswords:waxweaver]] · [[item:simplyswords:whisperwind]] · [[item:simplyswords:wickpiercer]]
     - [[items/weapons/soulslike-legendaries|Soulslike Legendaries]] — Marium's Soulslike Weaponry named weapons.
-      - [[item:soulsweapons:bloodthirster|Bloodthirster]] · [[item:soulsweapons:bluemoon_greatsword|Bluemoon Greatsword]] · [[item:soulsweapons:bluemoon_shortsword|Bluemoon Shortsword]] · [[item:soulsweapons:comet_spear|Comet Spear]] · [[item:soulsweapons:crucible_sword|Crucible Sword]] · [[item:soulsweapons:dark_moon_greatsword|Dark Moon Greatsword]] · [[item:soulsweapons:darkin_blade|The Darkin Blade]] · [[item:soulsweapons:darkin_scythe|The Darkin Scythe]] · [[item:soulsweapons:darkmoon_longbow|Darkmoon Longbow]] · [[item:soulsweapons:dawnbreaker|Dawnbreaker]] · [[item:soulsweapons:empowered_dawnbreaker|Genesis Fracture]] · [[item:soulsweapons:dragonbane|Dragonbane]] · [[item:soulsweapons:dragonslayer_swordspear|Dragonslayer Swordspear]] · [[item:soulsweapons:draupnir_spear|Draupnir Spear]] · [[item:soulsweapons:excalibur|Excalibur]] · [[item:soulsweapons:featherlight|Featherlight]] · [[item:soulsweapons:forlorn_scythe|Scythe of the Forlorn]] · [[item:soulsweapons:freyr_sword|Sword of Freyr]] · [[item:soulsweapons:frostmourne|Frostmourne]] · [[item:soulsweapons:galeforce|Galeforce]] · [[item:soulsweapons:glaive_of_hodir|Glaive of Hodir]] · [[item:soulsweapons:guts_sword|Heap of Raw Iron]] · [[item:soulsweapons:holy_greatsword|Ludwig's Holy Blade]] · [[item:soulsweapons:holy_moonlight_greatsword|Holy Moonlight Greatsword]] · [[item:soulsweapons:holy_moonlight_sword|Holy Moonlight Sword]] · [[item:soulsweapons:kirkhammer|Kirkhammer]] · [[item:soulsweapons:kraken_slayer|Kraken Slayer Spear Bow]] · [[item:soulsweapons:kraken_slayer_crossbow|Kraken Slayer Crossbow]] · [[item:soulsweapons:leviathan_axe|Leviathan Axe]] · [[item:soulsweapons:lich_bane|Lich Bane]] · [[item:soulsweapons:master_sword|Master Sword]] · [[item:soulsweapons:mjolnir|Mjölnir]] · [[item:soulsweapons:moonlight_greatsword|Moonlight Greatsword]] · [[item:soulsweapons:moonlight_shortsword|Moonlight Shortsword]] · [[item:soulsweapons:moonveil|Moonveil]] · [[item:soulsweapons:nightlords_sword|Sword of the Nightlord]] · [[item:soulsweapons:nights_edge_item|Night's Edge]] · [[item:soulsweapons:pure_moonlight_greatsword|Pure Moonlight Greatsword]] · [[item:soulsweapons:rageblade|Guinsoo's Rageblade]] · [[item:soulsweapons:shadow_assassin_scythe|Shadow Assassin Scythe]] · [[item:soulsweapons:silver_sword|Silver Sword]] · [[item:soulsweapons:skofnung|Skofnung]] · [[item:soulsweapons:soul_reaper|Soul Reaper]] · [[item:soulsweapons:sting|Sting]] · [[item:soulsweapons:tonitrus|Tonitrus]] · [[item:soulsweapons:whirligig_sawblade|Whirligig Sawblade]] · [[item:soulsweapons:withered_wabbajack|Withered Wabbajack]]
+      - [[item:soulsweapons:bloodthirster]] · [[item:soulsweapons:bluemoon_greatsword]] · [[item:soulsweapons:bluemoon_shortsword]] · [[item:soulsweapons:comet_spear]] · [[item:soulsweapons:crucible_sword]] · [[item:soulsweapons:dark_moon_greatsword]] · [[item:soulsweapons:darkin_blade]] · [[item:soulsweapons:darkin_scythe]] · [[item:soulsweapons:darkmoon_longbow]] · [[item:soulsweapons:dawnbreaker]] · [[item:soulsweapons:empowered_dawnbreaker]] · [[item:soulsweapons:dragonbane]] · [[item:soulsweapons:dragonslayer_swordspear]] · [[item:soulsweapons:draupnir_spear]] · [[item:soulsweapons:excalibur]] · [[item:soulsweapons:featherlight]] · [[item:soulsweapons:forlorn_scythe]] · [[item:soulsweapons:freyr_sword]] · [[item:soulsweapons:frostmourne]] · [[item:soulsweapons:galeforce]] · [[item:soulsweapons:glaive_of_hodir]] · [[item:soulsweapons:guts_sword]] · [[item:soulsweapons:holy_greatsword]] · [[item:soulsweapons:holy_moonlight_greatsword]] · [[item:soulsweapons:holy_moonlight_sword]] · [[item:soulsweapons:kirkhammer]] · [[item:soulsweapons:kraken_slayer]] · [[item:soulsweapons:kraken_slayer_crossbow]] · [[item:soulsweapons:leviathan_axe]] · [[item:soulsweapons:lich_bane]] · [[item:soulsweapons:master_sword]] · [[item:soulsweapons:mjolnir]] · [[item:soulsweapons:moonlight_greatsword]] · [[item:soulsweapons:moonlight_shortsword]] · [[item:soulsweapons:moonveil]] · [[item:soulsweapons:nightlords_sword]] · [[item:soulsweapons:nights_edge_item]] · [[item:soulsweapons:pure_moonlight_greatsword]] · [[item:soulsweapons:rageblade]] · [[item:soulsweapons:shadow_assassin_scythe]] · [[item:soulsweapons:silver_sword]] · [[item:soulsweapons:skofnung]] · [[item:soulsweapons:soul_reaper]] · [[item:soulsweapons:sting]] · [[item:soulsweapons:tonitrus]] · [[item:soulsweapons:whirligig_sawblade]] · [[item:soulsweapons:withered_wabbajack]]
     - [[items/weapons/cataclysm-uniques|Cataclysm Uniques]] — Weapons from L_Ender's Cataclysm bosses.
-      - [[item:cataclysm:ancient_spear|Ancient Spear]] · [[item:cataclysm:astrape|Astrape]] · [[item:cataclysm:ceraunus|Ceraunus]] · [[item:cataclysm:cursed_bow|Cursed Bow]] · [[item:cataclysm:final_fractal|Final Fractal]] · [[item:cataclysm:infernal_forge|Infernal Forge]] · [[item:cataclysm:meat_shredder|Meat Shredder]] · [[item:cataclysm:soul_render|Soul Render]] · [[item:cataclysm:the_incinerator|The Incinerator]] · [[item:cataclysm:tidal_claws|Tidal Claws]] · [[item:cataclysm:void_forge|Void Forge]] · [[item:cataclysm:wrath_of_the_desert|Wrath of the Desert]] · [[item:cataclysm:zweiender|Zweiender]]
+      - [[item:cataclysm:ancient_spear]] · [[item:cataclysm:astrape]] · [[item:cataclysm:ceraunus]] · [[item:cataclysm:cursed_bow]] · [[item:cataclysm:final_fractal]] · [[item:cataclysm:infernal_forge]] · [[item:cataclysm:meat_shredder]] · [[item:cataclysm:soul_render]] · [[item:cataclysm:the_incinerator]] · [[item:cataclysm:tidal_claws]] · [[item:cataclysm:void_forge]] · [[item:cataclysm:wrath_of_the_desert]] · [[item:cataclysm:zweiender]]
     - [[items/weapons/epic-fight-relics|Epic Fight Relics]] — Named weapons from Weapons of Miracles, EpicFight-Nightfall, Dawn Day and other Epic Fight add-ons.
-      - [[item:wom:agony|Agony]] · [[item:wom:antitheus|Antitheus]] · [[item:wom:evil_tachi|Evil Ôdachi]] · [[item:wom:herrscher|Herrscher]] · [[item:wom:hollow_longsword|Hollow Longsword]] · [[item:wom:jabberwocky|Clawed Gauntle]] · [[item:wom:ruine|Ruine]] · [[item:wom:satsujin|Satsujin]] · [[item:wom:solar|Solar]] · [[item:wom:tormented_mind|Torment]] · [[item:efn:air_tachi|Bloodlust]] · [[item:efn:broadblade|Warriors-BroadBlade]] · [[item:efn:co_tachi|Carnivorous Osteofrenzy]] · [[item:efn:crescent_moon|CrescentMoon]] · [[item:efn:crimson_moon|CRIMSON_MOON]] · [[item:efn:exsiliumgladius|EXSILIUMGLADIUS-R]] · [[item:efn:fire_exsiliumgladius|EXSILIUMGLADIUS-L]] · [[item:efn:hf_blade|HF-BLADE]] · [[item:efn:hf_murasama|HF-MURASAMA]] · [[item:efn:kusabimaru|Kusabimaru]] · [[item:efn:meen_spear|[Duskfire]]] · [[item:efn:nf_claw|Feral Claw]] · [[item:efn:nf_dual_sword|[Ancient Sculk Twinblades]]] · [[item:efn:nf_shortsword|Empress Shortblade]] · [[item:efn:nf_shortsword_2|Runic Shortsword]] · [[item:efn:ruinsgreatsword|[Ruins Greatsword]]] · [[item:efn:sword_of_pioneer|[Vanguard Sword]]] · [[item:efn:yamato_dmc_in_sheath|YAMATO]] · [[item:epicfight_dd:bonecutting_saw|Bonecutting Saw]] · [[item:epicfight_dd:milady|Milady]] · [[item:epicfight_dd:eclipse|Eclipse]] · [[item:epicfight_dd:nightingale|Nightingale]] · [[item:epicfight_dd:iudex_gundyr_halberd|Iudex Gundyr's Halberd]] · [[item:epicfight_dd:vitreus|Vitreus]] · [[item:cdmoveset:yamato|Yamato]] · [[item:epicfight_awaken:darknight_pursuiters|Darknight Pursuiters]] · [[item:epicfightx:eternal_night_scythe|Eternal Night Scythe]]
+      - [[item:wom:agony]] · [[item:wom:antitheus]] · [[item:wom:evil_tachi]] · [[item:wom:herrscher]] · [[item:wom:hollow_longsword]] · [[item:wom:jabberwocky]] · [[item:wom:ruine]] · [[item:wom:satsujin]] · [[item:wom:solar]] · [[item:wom:tormented_mind]] · [[item:efn:air_tachi]] · [[item:efn:broadblade]] · [[item:efn:co_tachi]] · [[item:efn:crescent_moon]] · [[item:efn:crimson_moon]] · [[item:efn:exsiliumgladius]] · [[item:efn:fire_exsiliumgladius]] · [[item:efn:hf_blade]] · [[item:efn:hf_murasama]] · [[item:efn:kusabimaru]] · [[item:efn:meen_spear]]] · [[item:efn:nf_claw]] · [[item:efn:nf_dual_sword]]] · [[item:efn:nf_shortsword]] · [[item:efn:nf_shortsword_2]] · [[item:efn:ruinsgreatsword]]] · [[item:efn:sword_of_pioneer]]] · [[item:efn:yamato_dmc_in_sheath]] · [[item:epicfight_dd:bonecutting_saw]] · [[item:epicfight_dd:milady]] · [[item:epicfight_dd:eclipse]] · [[item:epicfight_dd:nightingale]] · [[item:epicfight_dd:iudex_gundyr_halberd]] · [[item:epicfight_dd:vitreus]] · [[item:cdmoveset:yamato]] · [[item:epicfight_awaken:darknight_pursuiters]] · [[item:epicfightx:eternal_night_scythe]]
     - [[items/weapons/boss-and-dungeon-weapons|Boss & Dungeon Weapons]] — Weapons that drop from bosses or dungeons outside the big weapon mods.
-      - [[item:block_factorys_bosses:knight_sword|Knight Sword]] · [[item:block_factorys_bosses:frozen_fist|Frozen Fist]] · [[item:irons_spellbooks:decrepit_scythe|Decrepit Scythe]] · [[item:irons_spellbooks:keeper_flamberge|Decrepit Flamberge]] · [[item:irons_spellbooks:spellbreaker|Spellbreaker]] · [[item:irons_spellbooks:boreal_blade|Boreal Blade]] · [[item:aquamirae:whisper_of_the_abyss|Whisper of the Abyss]] · [[item:mowziesmobs:wrought_axe|Axe of a Thousand Metals]] · [[item:mowziesmobs:sculptor_staff|Geomancer Staff]] · [[item:souls_like_bosses:dark_moon_greatsword|Dark Moon Greatsword]] · [[item:deeperdarker:warden_sword|Warden Sword]] · [[item:deeperdarker:warden_axe|Warden Axe]]
+      - [[item:block_factorys_bosses:knight_sword]] · [[item:block_factorys_bosses:frozen_fist]] · [[item:irons_spellbooks:decrepit_scythe]] · [[item:irons_spellbooks:keeper_flamberge]] · [[item:irons_spellbooks:spellbreaker]] · [[item:irons_spellbooks:boreal_blade]] · [[item:aquamirae:whisper_of_the_abyss]] · [[item:mowziesmobs:wrought_axe]] · [[item:mowziesmobs:sculptor_staff]] · [[item:souls_like_bosses:dark_moon_greatsword]] · [[item:deeperdarker:warden_sword]] · [[item:deeperdarker:warden_axe]]
     - [[items/weapons/levelled-weapons|Levelled Weapons]] — Weapons that upgrade through levels.
       - Traveloptics weapons
   - [[items/armor|Armor]] — Armor sets, grouped by source.
@@ -480,7 +485,7 @@ Every gameplay-relevant item group in Soulrend.
       - Dragon armor (head, neck, body, tail; 7 tiers) · Hippogryph armor · Horse barding (Epic Knights)
   - [[items/magic|Magic Items]] — Spellbooks, spells, staffs and spellcasting gear.
     - [[items/magic/spellbooks|Spellbooks]]
-      - [[item:irons_spellbooks:copper_spell_book|Flimsy Journal]] · [[item:irons_spellbooks:iron_spell_book|Ironbound Tome]] · [[item:irons_spellbooks:gold_spell_book|Apprentice's Spell Book]] · [[item:irons_spellbooks:diamond_spell_book|Enchanted Spell Book]] · [[item:irons_spellbooks:netherite_spell_book|Ancient Codex]] · [[item:irons_spellbooks:blaze_spell_book|Blaze Instruction Manual]] · [[item:irons_spellbooks:necronomicon_spell_book|Necronomicon]] · [[item:irons_spellbooks:druidic_spell_book|Druidic Tome]] · [[item:irons_spellbooks:evoker_spell_book|Grimoire of Evokation]] · [[item:irons_spellbooks:ice_spell_book|Frostbranded Book]] · [[item:irons_spellbooks:dragonskin_spell_book|Dragonskin Spell Book]] · [[item:irons_spellbooks:cursed_doll_spell_book|Vampiric Spellbook]] · [[item:irons_spellbooks:rotten_spell_book|Rotten Spell Book]] · [[item:irons_spellbooks:villager_spell_book|Villager Bible]] · [[item:traveloptics:codex_of_the_crushing_depths|Codex Of The Crushing Depths]] · [[item:traveloptics:the_accused_codex|The Accused Codex]] · [[item:gtbcs_geomancy_plus:codex_of_shattered_horizons|Codex Of Shattered Horizons]] · [[item:ice_and_fire_spellbooks:dragonmancers_oathbook|Dragonmancer's Oathbook]] · [[item:alshanex_familiars:sound_spell_book|Symphonic Grimoire]] · [[item:dacxirons:divine_manuscript_spell_book|Divine Manuscript]] · [[item:alexscaves:cave_codex|Cave Codex]]
+      - [[item:irons_spellbooks:copper_spell_book]] · [[item:irons_spellbooks:iron_spell_book]] · [[item:irons_spellbooks:gold_spell_book]] · [[item:irons_spellbooks:diamond_spell_book]] · [[item:irons_spellbooks:netherite_spell_book]] · [[item:irons_spellbooks:blaze_spell_book]] · [[item:irons_spellbooks:necronomicon_spell_book]] · [[item:irons_spellbooks:druidic_spell_book]] · [[item:irons_spellbooks:evoker_spell_book]] · [[item:irons_spellbooks:ice_spell_book]] · [[item:irons_spellbooks:dragonskin_spell_book]] · [[item:irons_spellbooks:cursed_doll_spell_book]] · [[item:irons_spellbooks:rotten_spell_book]] · [[item:irons_spellbooks:villager_spell_book]] · [[item:traveloptics:codex_of_the_crushing_depths]] · [[item:traveloptics:the_accused_codex]] · [[item:gtbcs_geomancy_plus:codex_of_shattered_horizons]] · [[item:ice_and_fire_spellbooks:dragonmancers_oathbook]] · [[item:alshanex_familiars:sound_spell_book]] · [[item:dacxirons:divine_manuscript_spell_book]] · [[item:alexscaves:cave_codex]]
     - [[items/magic/spells|Spells]] — About 217 spells across 12 schools. Spell pages come from the spell registry, not from items.
       - Fire spells · Ice spells · Lightning spells · Holy spells · Ender spells · Blood spells · Evocation spells · Nature spells · Eldritch spells · Aqua spells · Geo spells · Sound spells · Cannibalism (Soulrend spell)
     - [[items/magic/staffs-and-wands|Staffs & Wands]]
@@ -492,7 +497,7 @@ Every gameplay-relevant item group in Soulrend.
     - [[items/magic/familiars|Familiars (Items)]]
       - Alshanex's Familiars shards · Familiar trinkets
     - [[items/magic/magic-stations|Magic Stations]]
-      - [[item:irons_spellbooks:inscription_table|Inscription Table]] · [[item:irons_spellbooks:scroll_forge|Scroll Forge]] · [[item:irons_spellbooks:arcane_anvil|Arcane Anvil]] · [[item:irons_spellbooks:alchemist_cauldron|Alchemist Cauldron]]
+      - [[item:irons_spellbooks:inscription_table]] · [[item:irons_spellbooks:scroll_forge]] · [[item:irons_spellbooks:arcane_anvil]] · [[item:irons_spellbooks:alchemist_cauldron]]
   - [[items/dragons|Dragon Items]] — Ice and Fire dragon materials, eggs, crystals and forges.
     - [[items/dragons/dragon-eggs-and-scales|Dragon Eggs & Scales]]
       - Dragon eggs (12 colours) · Dragon scales and scale blocks (12 colours)
@@ -501,42 +506,42 @@ Every gameplay-relevant item group in Soulrend.
     - [[items/dragons/dragonsteel|Dragonsteel]]
       - Dragonsteel ingots and blocks (fire, ice, lightning)
     - [[items/dragons/summoning-crystals|Summoning Crystals]]
-      - [[item:iceandfire:summoning_crystal_fire|Fire Dragon Summoning Crystal]] · [[item:iceandfire:summoning_crystal_ice|Ice Dragon Summoning Crystal]] · [[item:iceandfire:summoning_crystal_lightning|Lightning Dragon Summoning Crystal]]
+      - [[item:iceandfire:summoning_crystal_fire]] · [[item:iceandfire:summoning_crystal_ice]] · [[item:iceandfire:summoning_crystal_lightning]]
     - [[items/dragons/dragonforges|Dragonforges]]
       - Dragonforge bricks, cores and inputs (fire, ice, lightning)
     - [[items/dragons/dragon-utility|Dragon Utility]]
-      - [[item:iceandfire:dragon_meal|Dragon Meal]] · [[item:iceandfire:dragon_flute|Dragon Bone Flute]] · [[item:iceandfire:dragon_horn|Dragon Horn]] · [[item:iceandfire:dragon_stick|Dragon Command Staff]] · Dragon radars (dormant, fire, ice, lightning, master)
+      - [[item:iceandfire:dragon_meal]] · [[item:iceandfire:dragon_flute]] · [[item:iceandfire:dragon_horn]] · [[item:iceandfire:dragon_stick]] · Dragon radars (dormant, fire, ice, lightning, master)
   - [[items/boss-drops|Boss Drops]] — Materials and trophies that come from bosses.
     - [[items/boss-drops/cataclysm-drops|Cataclysm Drops]]
-      - Ignitium, cursium, witherite, enderite and ancient metal ingots · [[item:cataclysm:burning_ashes|Burning Ashes]] · Boss music discs · Boss respawner and altars
+      - Ignitium, cursium, witherite, enderite and ancient metal ingots · [[item:cataclysm:burning_ashes]] · Boss music discs · Boss respawner and altars
     - [[items/boss-drops/soulslike-drops|Soulslike Drops]]
-      - [[item:soulsweapons:lord_soul_dark|Lord Soul]] · [[item:soulsweapons:lord_soul_day_stalker|Lord Soul]] · [[item:soulsweapons:lord_soul_night_prowler|Lord Soul]] · [[item:soulsweapons:lord_soul_purple|Lord Soul]] · [[item:soulsweapons:lord_soul_red|Lord Soul]] · [[item:soulsweapons:lord_soul_rose|Lord Soul]] · [[item:soulsweapons:lord_soul_void|Lord Soul]] · [[item:soulsweapons:lord_soul_white|Lord Soul]] · [[item:soulsweapons:lost_soul|Lost Soul]] · [[item:soulsweapons:essence_of_eventide|Essence of Eventide]] · [[item:soulsweapons:essence_of_luminescence|Essence of Luminescence]] · [[item:soulsweapons:chaos_orb|Chaos Orb]] · [[item:soulsweapons:shard_of_uncertainty|Shard of Uncertainty]] · [[item:soulsweapons:arkenstone|Arkenstone]]
+      - [[item:soulsweapons:lord_soul_dark]] · [[item:soulsweapons:lord_soul_day_stalker]] · [[item:soulsweapons:lord_soul_night_prowler]] · [[item:soulsweapons:lord_soul_purple]] · [[item:soulsweapons:lord_soul_red]] · [[item:soulsweapons:lord_soul_rose]] · [[item:soulsweapons:lord_soul_void]] · [[item:soulsweapons:lord_soul_white]] · [[item:soulsweapons:lost_soul]] · [[item:soulsweapons:essence_of_eventide]] · [[item:soulsweapons:essence_of_luminescence]] · [[item:soulsweapons:chaos_orb]] · [[item:soulsweapons:shard_of_uncertainty]] · [[item:soulsweapons:arkenstone]]
     - [[items/boss-drops/dungeons-and-combat-drops|Dungeons and Combat Drops]]
-      - [[item:dungeons_and_combat:essence_of_kamath|Essence Of Kamath]] · [[item:dungeons_and_combat:essence_of_sunleia|Essence Of Sunleia]] · [[item:dungeons_and_combat:sunleia_hand|Hand of Sunleia]] · [[item:dungeons_and_combat:champion_belt|Champion Belt]] · [[item:dungeons_and_combat:armor_plate|Armor Plate]] · [[item:dungeons_and_combat:steel_shoulder|Steel Shoulder]] · [[item:dungeons_and_combat:cursed_silk|Cursed Silk]] · [[item:dungeons_and_combat:cursed_lamp|Cursed Lamp]] · [[item:dungeons_and_combat:ernos_fang|Ernos Fang]] · [[item:dungeons_and_combat:ernos_fang_necklace|Ernos Fang Necklace]] · [[item:dungeons_and_combat:ammit_fang|Ammit Fang]] · [[item:dungeons_and_combat:fang_necklace|Ammit Fang Necklace]] · [[item:dungeons_and_combat:horuso_feather|Horuso Feather]] · [[item:dungeons_and_combat:klauen_necklace|Klauen Necklace]] · [[item:dungeons_and_combat:blessed_beetle|Blessed Beetle]]
+      - [[item:dungeons_and_combat:essence_of_kamath]] · [[item:dungeons_and_combat:essence_of_sunleia]] · [[item:dungeons_and_combat:sunleia_hand]] · [[item:dungeons_and_combat:champion_belt]] · [[item:dungeons_and_combat:armor_plate]] · [[item:dungeons_and_combat:steel_shoulder]] · [[item:dungeons_and_combat:cursed_silk]] · [[item:dungeons_and_combat:cursed_lamp]] · [[item:dungeons_and_combat:ernos_fang]] · [[item:dungeons_and_combat:ernos_fang_necklace]] · [[item:dungeons_and_combat:ammit_fang]] · [[item:dungeons_and_combat:fang_necklace]] · [[item:dungeons_and_combat:horuso_feather]] · [[item:dungeons_and_combat:klauen_necklace]] · [[item:dungeons_and_combat:blessed_beetle]]
     - [[items/boss-drops/bossesrise-drops|Bosses'Rise Drops]]
-      - [[item:block_factorys_bosses:dragon_bone|Dragon Bone]] · [[item:block_factorys_bosses:sandworm_dart|Sandworm Dart]] · [[item:block_factorys_bosses:ancient_iron_ingot|Ancient Iron Ingot]] · [[item:block_factorys_bosses:dragon_shank|Dragon Shank]] · [[item:block_factorys_bosses:dragon_guard_shield|Dragon Guard Shield]] · [[item:astral_calamity_extras:sandworm_scale|Sandworm Scale]]
+      - [[item:block_factorys_bosses:dragon_bone]] · [[item:block_factorys_bosses:sandworm_dart]] · [[item:block_factorys_bosses:ancient_iron_ingot]] · [[item:block_factorys_bosses:dragon_shank]] · [[item:block_factorys_bosses:dragon_guard_shield]] · [[item:astral_calamity_extras:sandworm_scale]]
     - [[items/boss-drops/other-boss-drops|Other Boss Drops]]
-      - Aquamirae (Rune of the Storm, Divider, Frozen Key, abyssal materials) · Mowzie's (Sol Visage, Earthrend Gauntlet, Ice Crystal, Umvuthana masks) · Ice and Fire (Hydra heart, Gorgon head, Cyclops eye, Siren tear) · [[item:deeperdarker:heart_of_the_deep|Heart of the Deep]] · [[item:nightfall_invade:disaster_fragment_red|Disaster Fragment - Red]] · [[item:apotheotic_additions:esoteric_material|Galactic Core]]
+      - Aquamirae (Rune of the Storm, Divider, Frozen Key, abyssal materials) · Mowzie's (Sol Visage, Earthrend Gauntlet, Ice Crystal, Umvuthana masks) · Ice and Fire (Hydra heart, Gorgon head, Cyclops eye, Siren tear) · [[item:deeperdarker:heart_of_the_deep]] · [[item:nightfall_invade:disaster_fragment_red]] · [[item:apotheotic_additions:esoteric_material]]
   - [[items/progression-keys|Progression Keys]] — Eyes, keys, seals and summoning items that gate progression.
-    - [[items/progression-keys/legendary-eyes|Legendary Eyes]] — The 16 End Remastered eyes. Any one opens the way to Act IV.
-      - [[item:endrem:black_eye|Black Eye]] · [[item:endrem:cold_eye|Cold Eye]] · [[item:endrem:corrupted_eye|Corrupted Eye]] · [[item:endrem:cryptic_eye|Cryptic Eye]] · [[item:endrem:cursed_eye|Cursed Eye]] · [[item:endrem:evil_eye|Evil Eye]] · [[item:endrem:exotic_eye|Exotic Eye]] · [[item:endrem:guardian_eye|Guardian Eye]] · [[item:endrem:lost_eye|Lost Eye]] · [[item:endrem:magical_eye|Magical Eye]] · [[item:endrem:nether_eye|Nether Eye]] · [[item:endrem:old_eye|Old Eye]] · [[item:endrem:rogue_eye|Rogue Eye]] · [[item:endrem:undead_eye|Undead Eye]] · [[item:endrem:witch_eye|Witch Eye]] · [[item:endrem:wither_eye|Wither Eye]]
+    - [[items/progression-keys/legendary-eyes|Legendary Eyes]] — The 16 End Remastered eyes. Five eye quests open Act IV, and the End portal needs twelve different eyes.
+      - [[item:endrem:black_eye]] · [[item:endrem:cold_eye]] · [[item:endrem:corrupted_eye]] · [[item:endrem:cryptic_eye]] · [[item:endrem:cursed_eye]] · [[item:endrem:evil_eye]] · [[item:endrem:exotic_eye]] · [[item:endrem:guardian_eye]] · [[item:endrem:lost_eye]] · [[item:endrem:magical_eye]] · [[item:endrem:nether_eye]] · [[item:endrem:old_eye]] · [[item:endrem:rogue_eye]] · [[item:endrem:undead_eye]] · [[item:endrem:witch_eye]] · [[item:endrem:wither_eye]]
     - [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]] — The eight eyes that open the Eight Sins dimensions.
-      - [[item:cataclysm:desert_eye|Eye of Desert]] · [[item:cataclysm:storm_eye|Eye of Storm]] · [[item:cataclysm:mech_eye|Eye of Mech]] · [[item:cataclysm:flame_eye|Eye of Flame]] · [[item:cataclysm:void_eye|Eye of Void]] · [[item:cataclysm:cursed_eye|Eye of Curse]] · [[item:cataclysm:monstrous_eye|Eye of Monstrous]] · [[item:cataclysm:abyss_eye|Eye of Abyss]]
+      - [[item:cataclysm:desert_eye]] · [[item:cataclysm:storm_eye]] · [[item:cataclysm:mech_eye]] · [[item:cataclysm:flame_eye]] · [[item:cataclysm:void_eye]] · [[item:cataclysm:cursed_eye]] · [[item:cataclysm:monstrous_eye]] · [[item:cataclysm:abyss_eye]]
     - [[items/progression-keys/nether-seal|Nether Seal]] — The four seal pieces, the crystal and the Seal of the Underworld that open the Nether.
-      - [[item:nether_remastered:seal_piece_1|Mysterious Shard]] · [[item:nether_remastered:seal_crystal|Nether Crystal]] · [[item:nether_remastered:obsidian_infused_bottle|Obsidian Infused Bottle]] · [[item:nether_remastered:bottled_nether_essence|Bottled Nether Essence]] · [[item:nether_remastered:seal_of_the_underworld_item|Seal Of The Underworld]]
+      - [[item:nether_remastered:seal_piece_1]] · [[item:nether_remastered:seal_crystal]] · [[item:nether_remastered:obsidian_infused_bottle]] · [[item:nether_remastered:bottled_nether_essence]] · [[item:nether_remastered:seal_of_the_underworld_item]]
     - [[items/progression-keys/sky-arena-keys|Sky Arena Keys]]
-      - [[item:skyarena:ice_key|Ice Key]] · [[item:skyarena:forest_key|Forest Key]] · [[item:skyarena:desert_key|Desert Key]] · [[item:skyarena:crimson_key|Crimson Key]] · [[item:skyarena:ender_key|Ender Key]] · [[item:skyarena:oak_trophy|Oak Trophy]] · [[item:skyarena:stone_trophy|Stone Trophy]] · [[item:skyarena:iron_trophy|Iron Trophy]] · [[item:skyarena:gold_trophy|Gold Trophy]] · [[item:skyarena:diamond_trophy|Diamond Trophy]] · [[item:skyarena:netherite_trophy|Netherite Trophy]]
+      - [[item:skyarena:ice_key]] · [[item:skyarena:forest_key]] · [[item:skyarena:desert_key]] · [[item:skyarena:crimson_key]] · [[item:skyarena:ender_key]] · [[item:skyarena:oak_trophy]] · [[item:skyarena:stone_trophy]] · [[item:skyarena:iron_trophy]] · [[item:skyarena:gold_trophy]] · [[item:skyarena:diamond_trophy]] · [[item:skyarena:netherite_trophy]]
     - [[items/progression-keys/cave-dimension-keys|Cave Dimension Keys]]
-      - [[item:alex_caves_dimensions:abyssal_chasm_key|Abyssal Reef]] · [[item:alex_caves_dimensions:candy_cavity_key|Witch Candy]] · [[item:alex_caves_dimensions:forlorn_hollows_key|Pagan Round Medallion]] · [[item:alex_caves_dimensions:magnetic_caves_key|Square Lead Magnet]] · [[item:alex_caves_dimensions:primordial_caves_key|Ancestral Original Mine]] · [[item:alex_caves_dimensions:toxic_caves_key|Emerald Arsenic Copper Uranium]]
+      - [[item:alex_caves_dimensions:abyssal_chasm_key]] · [[item:alex_caves_dimensions:candy_cavity_key]] · [[item:alex_caves_dimensions:forlorn_hollows_key]] · [[item:alex_caves_dimensions:magnetic_caves_key]] · [[item:alex_caves_dimensions:primordial_caves_key]] · [[item:alex_caves_dimensions:toxic_caves_key]]
     - [[items/progression-keys/boss-summons|Boss Summons]]
-      - [[item:deeperdarker:sculk_transmitter|Sculk Transmitter]] · [[item:aquamirae:shell_horn|Shell Horn]] · [[item:irons_spellbooks:cinderous_soulcaller|Cinderous Soulcaller]] · [[item:dungeons_and_combat:blessed_beetle|Blessed Beetle]] · [[item:kubejs:emblem_of_the_past|Emblem of the Past]]
+      - [[item:deeperdarker:sculk_transmitter]] · [[item:aquamirae:shell_horn]] · [[item:irons_spellbooks:cinderous_soulcaller]] · [[item:dungeons_and_combat:blessed_beetle]] · [[item:kubejs:emblem_of_the_past]]
   - [[items/gear-progression|Gear Progression]] — Apotheosis reforging, gems, sigils and rarity materials.
     - [[items/gear-progression/sigils|Sigils]]
-      - [[item:apotheosis:sigil_of_socketing|Sigil of Socketing]] · [[item:apotheosis:sigil_of_withdrawal|Sigil of Withdrawal]] · [[item:apotheosis:sigil_of_enhancement|Sigil of Enhancement]] · [[item:apotheosis:sigil_of_rebirth|Sigil of Rebirth]] · [[item:apotheosis:sigil_of_unnaming|Sigil of Unnaming]] · [[item:apotheotic_additions:gemboundsigil|Sigil of Awakening]] · [[item:fallen_gems_affixes:sigil_of_ascension|Sigil of Ascension]] · [[item:fallen_gems_affixes:sigil_of_confluence|Sigil of Confluence]] · [[item:fallen_gems_affixes:sigil_of_elevation|Sigil of Elevation]] · [[item:fallen_gems_affixes:sigil_of_erasure|Sigil of Erasure]] · [[item:fallen_gems_affixes:sigil_of_prismatic_conversion|Sigil of Prismatic Conversion]] · [[item:fallen_gems_affixes:sigil_of_severance|Sigil of Severance]] · [[item:fallen_gems_affixes:sigil_of_transmutation|Sigil of Transmutation]]
+      - [[item:apotheosis:sigil_of_socketing]] · [[item:apotheosis:sigil_of_withdrawal]] · [[item:apotheosis:sigil_of_enhancement]] · [[item:apotheosis:sigil_of_rebirth]] · [[item:apotheosis:sigil_of_unnaming]] · [[item:apotheotic_additions:gemboundsigil]] · [[item:fallen_gems_affixes:sigil_of_ascension]] · [[item:fallen_gems_affixes:sigil_of_confluence]] · [[item:fallen_gems_affixes:sigil_of_elevation]] · [[item:fallen_gems_affixes:sigil_of_erasure]] · [[item:fallen_gems_affixes:sigil_of_prismatic_conversion]] · [[item:fallen_gems_affixes:sigil_of_severance]] · [[item:fallen_gems_affixes:sigil_of_transmutation]]
     - [[items/gear-progression/rarity-materials|Rarity Materials]]
-      - [[item:apotheosis:common_material|Mysterious Scrap Metal]] · [[item:apotheosis:uncommon_material|Timeworn Fabric]] · [[item:apotheosis:rare_material|Luminous Crystal Shard]] · [[item:apotheosis:epic_material|Arcane Sands]] · [[item:apotheosis:mythic_material|Godforged Pearl]] · [[item:apotheosis:ancient_material|ainbowManifestation of Infinity]] · [[item:apotheotic_additions:heirloom_material|Core of the Family]] · [[item:apotheotic_additions:esoteric_material|Galactic Core]] · [[item:apotheotic_additions:artifact_material|Artifact Shards]]
+      - [[item:apotheosis:common_material]] · [[item:apotheosis:uncommon_material]] · [[item:apotheosis:rare_material]] · [[item:apotheosis:epic_material]] · [[item:apotheosis:mythic_material]] · [[item:apotheosis:ancient_material]] · [[item:apotheotic_additions:heirloom_material]] · [[item:apotheotic_additions:esoteric_material]] · [[item:apotheotic_additions:artifact_material]]
     - [[items/gear-progression/reforging-tables|Reforging Tables]]
-      - [[item:apotheosis:simple_reforging_table|Simple Reforging Table]] · [[item:apotheosis:reforging_table|Reforging Table]] · [[item:ancientreforging:ancient_reforging_table|Ancient Reforging Table]] · [[item:esotericreforging:esoteric_reforging_table|Esoteric Reforging Table]] · [[item:fallen_gems_affixes:fabled_reforging_table|Fabled Reforging Table]]
+      - [[item:apotheosis:simple_reforging_table]] · [[item:apotheosis:reforging_table]] · [[item:ancientreforging:ancient_reforging_table]] · [[item:esotericreforging:esoteric_reforging_table]] · [[item:fallen_gems_affixes:fabled_reforging_table]]
     - [[items/gear-progression/gems|Gems]]
       - Apotheosis gems (by rarity) · Gem dust and gem cases
     - [[items/gear-progression/enchanting|Enchanting (Items)]]
@@ -549,14 +554,14 @@ Every gameplay-relevant item group in Soulrend.
     - Vanilla tools · Silver, steel and titanium tools (Dungeons and Combat) · Moonstone tools (Soulslike) · Resonarium and Warden tools (Deeper and Darker) · Black steel tools (Cataclysm) · Neptunium tools (Aquaculture) · Fishing rods and hooks
   - [[items/consumables|Consumables]] — Healing items, totems and food.
     - [[items/consumables/healing|Healing]]
-      - [[item:dungeons_and_combat:estus_flask|Estus Flask]] · [[item:dungeons_and_combat:crimson_flask|Huge Estus Flask]] · [[item:dungeons_and_combat:blessed_bandages|Blessed Bandages]] · Iron's Spellbooks elixirs · Familiar life fruits
+      - [[item:dungeons_and_combat:estus_flask]] · [[item:dungeons_and_combat:crimson_flask]] · [[item:dungeons_and_combat:blessed_bandages]] · Iron's Spellbooks elixirs · Familiar life fruits
     - [[items/consumables/totems|Totems]]
       - Friends&Foes totems · Totem of Sacrifice
     - [[items/consumables/food|Food]]
       - Farmer's Delight · Delightful · Chef's Delight · Alex's Caves candy · Aquaculture fish · Other food
   - [[items/materials|Materials]] — Ingots, gems and mob drops used in crafting.
     - [[items/materials/ingots|Ingots]]
-      - [[item:astral_calamity_extras:astral_ingot|Astral Ingot]] · [[item:astral_calamity_extras:bloodcrest_ingot|Bloodcrest Ingot]] · [[item:astral_calamity_extras:brimspec_ingot|Brimspec Ingot]] · [[item:astral_calamity_extras:calamital_ingot|Calamital Ingot]] · [[item:astral_calamity_extras:corrupted_ingot|Corrupted Ingot]] · [[item:astral_calamity_extras:cryonic_ingot|Cryonic Ingot]] · [[item:astral_calamity_extras:decayed_ingot|Decayed Ingot]] · [[item:astral_calamity_extras:devilblood_ingot|Devilblood Ingot]] · [[item:astral_calamity_extras:doomsday_ingot|Doomsday Ingot]] · [[item:astral_calamity_extras:draconic_ingot|Draconic Ingot]] · [[item:astral_calamity_extras:ectoplasmic_ingot|Ectoplasmic Ingot]] · [[item:astral_calamity_extras:elderscale_ingot|Elderscale Ingot]] · [[item:astral_calamity_extras:enchanted_ingot|Enchanted Ingot]] · [[item:astral_calamity_extras:eternium_ingot|Eternium Ingot]] · [[item:astral_calamity_extras:gilded_ingot|Gilded Ingot]] · [[item:astral_calamity_extras:grotesque_ingot|Grotesque Ingot]] · [[item:astral_calamity_extras:hexite_ingot|Hexite Ingot]] · [[item:astral_calamity_extras:molten_ingot|Molten Ingot]] · [[item:astral_calamity_extras:nightmare_ingot|Nightmare Ingot]] · [[item:astral_calamity_extras:stormyx_ingot|Stormyx Ingot]] · [[item:astral_calamity_extras:subliminal_ingot|Subliminal Ingot]] · [[item:astral_calamity_extras:thermonuclear_ingot|Thermonuclear Ingot]] · [[item:astral_calamity_extras:tidal_ingot|Tidal Ingot]] · [[item:astral_calamity_extras:trial_ingot|Trial Ingot]] · [[item:astral_calamity_extras:universium_ingot|Universium Ingot]] · [[item:astral_calamity_extras:verdant_ingot|Verdant Ingot]] · [[item:astral_calamity_extras:wrought_ingot|Wrought Ingot]] · Silver, steel, titanium, crimson and ebony ingots (Dungeons and Combat) · Mithril (Iron's Spellbooks) · Soul ingot (Soulslike) · Duskfire and HF ingots (EpicFight-Nightfall)
+      - [[item:astral_calamity_extras:astral_ingot]] · [[item:astral_calamity_extras:bloodcrest_ingot]] · [[item:astral_calamity_extras:brimspec_ingot]] · [[item:astral_calamity_extras:calamital_ingot]] · [[item:astral_calamity_extras:corrupted_ingot]] · [[item:astral_calamity_extras:cryonic_ingot]] · [[item:astral_calamity_extras:decayed_ingot]] · [[item:astral_calamity_extras:devilblood_ingot]] · [[item:astral_calamity_extras:doomsday_ingot]] · [[item:astral_calamity_extras:draconic_ingot]] · [[item:astral_calamity_extras:ectoplasmic_ingot]] · [[item:astral_calamity_extras:elderscale_ingot]] · [[item:astral_calamity_extras:enchanted_ingot]] · [[item:astral_calamity_extras:eternium_ingot]] · [[item:astral_calamity_extras:gilded_ingot]] · [[item:astral_calamity_extras:grotesque_ingot]] · [[item:astral_calamity_extras:hexite_ingot]] · [[item:astral_calamity_extras:molten_ingot]] · [[item:astral_calamity_extras:nightmare_ingot]] · [[item:astral_calamity_extras:stormyx_ingot]] · [[item:astral_calamity_extras:subliminal_ingot]] · [[item:astral_calamity_extras:thermonuclear_ingot]] · [[item:astral_calamity_extras:tidal_ingot]] · [[item:astral_calamity_extras:trial_ingot]] · [[item:astral_calamity_extras:universium_ingot]] · [[item:astral_calamity_extras:verdant_ingot]] · [[item:astral_calamity_extras:wrought_ingot]] · Silver, steel, titanium, crimson and ebony ingots (Dungeons and Combat) · Mithril (Iron's Spellbooks) · Soul ingot (Soulslike) · Duskfire and HF ingots (EpicFight-Nightfall)
     - [[items/materials/gems-and-minerals|Gems & Minerals]]
       - Jade, ruby, onyx, aquamarine (Samurai Dynasty) · Sapphire (Ice and Fire) · Alex's Caves minerals
     - [[items/materials/mob-drops|Mob Drops]]
@@ -564,7 +569,7 @@ Every gameplay-relevant item group in Soulrend.
   - [[items/curios-and-accessories|Curios & Accessories]] — Rings, necklaces, wings and backpacks.
     - Rings and necklaces · Icarus wings (5 styles in 16 colours, plus uniques) · Traveler's Backpacks and upgrades · Too Many Bows quivers and curios
   - [[items/travel|Travel Items]] — Teleporting, gliding and finding your way.
-    - Waystones and Sharestones · [[item:medieval:town_portal_scroll|Town Portal Scroll]] · Warp stones and scrolls · [[item:paraglider:paraglider|Paraglider]] · Explorer's and Nature's compasses
+    - Waystones and Sharestones · [[item:medieval:town_portal_scroll]] · Warp stones and scrolls · [[item:paraglider:paraglider]] · Explorer's and Nature's compasses
   - [[items/storage|Storage Items]] — Chests, drawers and storage networks.
     - Sophisticated chests, barrels and upgrades · Storage Drawers · Tom's Simple Storage · Iron Chests
   - [[items/decoration-and-building|Decoration & Building Items]] — Collapsed groups for the thousands of building and decoration blocks.
@@ -704,7 +709,7 @@ Frequently asked questions.
     - [[faq/getting-started/how-do-i-open-the-skill-tree|How do I open the skill tree?]]
   - [[faq/progression|Progression FAQ]]
     - [[faq/progression/how-do-i-get-into-the-nether|How do I get into the Nether?]] — Collect the four seal pieces and the Seal Crystal.
-    - [[faq/progression/what-unlocks-act-iv|What unlocks Act IV?]] — Any Legendary Eye plus entering the End.
+    - [[faq/progression/what-unlocks-act-iv|What unlocks Act IV?]] — Any five Legendary Eye quests, then entering the End.
     - [[faq/progression/how-do-i-reach-the-past|How do I reach the Past?]] — Craft the Emblem of the Past.
     - [[faq/progression/is-the-nightwarden-required|Is the Nightwarden required?]] — No, the quest is optional.
     - [[faq/progression/where-is-the-deeper-and-darker-act|Where is the Deeper and Darker act?]] — It branches from Act II's The Otherside quest.
@@ -734,7 +739,7 @@ Frequently asked questions.
 
 Problems found while researching the outline. They are about the modpack, not the wiki.
 
-- The Act IV gate does not match its text: "Eight Sins" says to defeat four Sins, but the real gate only needs any Legendary Eye plus entering the End.
+- The Act IV gate does not match its text: "Eight Sins" says to defeat four Sins, but the real gate needs any five Legendary Eye quests (min_required_dependencies 5) plus entering the End.
 - The Nightwarden is shown as Act IV's goal but the quest is marked optional.
 - Five "Move to chapter" link quests point at chapters that do not exist: Simply NightFall, Dungeons and Combat, Soulslike Weaponry, Epic Knight, and one Act II link in the Prologue.
 - The four zips in the instance's root `datapacks/` folder may not load: Paxi only reads `config/paxi/datapacks`.

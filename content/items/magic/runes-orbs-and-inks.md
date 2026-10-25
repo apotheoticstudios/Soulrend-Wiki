@@ -1,6 +1,7 @@
 ---
 {
   "title": "Runes, Orbs & Inks",
+  "aliases": ["Arcane Essence"],
   "hidden": true
 }
 ---
@@ -10,6 +11,7 @@
 
 ## In this section
 
+- [[item:irons_spellbooks:arcane_essence]]
 - School runes
 - Upgrade orbs
 - Inks (common to legendary)

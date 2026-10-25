@@ -25,8 +25,15 @@ npm run font         # rebuild the pixel font from tools/font/glyphs.txt
 | `game-data/` | Item names, icons, recipes and tags from the modpack (written by `npm run sync-game`). |
 | `src/` | The renderer (`render/`), browser scripts (`client/`), styles and the generated font. |
 | `tools/` | Build, dev server, game-data sync, font converter, and the in-game KubeJS export scripts. |
+| `docs/` | Notes for editors. [`docs/style-guide.md`](docs/style-guide.md) is how to write a page (voice, sources, templates). [`docs/instance-guide.md`](docs/instance-guide.md) says where to find quests, origins, skill trees, bosses and pack mechanics in the modpack instance. |
+
+## Reporting bugs
+
+When you notice a bug in the modpack (a broken recipe, a crash, a mob or item misbehaving), add it to [`content/bugs.md`](content/bugs.md), the **Known Bugs** page in the sidebar. Use the entry template in that file: what happens, where and when it was seen, and any workaround. Move entries to "Fixed" once they're resolved.
 
 ## Writing a page
+
+This section covers the syntax. For voice, naming, where numbers come from and a template for each page type, read [`docs/style-guide.md`](docs/style-guide.md).
 
 ```md
 ---
@@ -60,7 +67,7 @@ The header between the `---` lines is strict JSON (no comments, no trailing comm
 | `icon` | Item whose icon represents the page (sidebar, search, link previews). Defaults to the first of `items`. |
 | `summary` | Shown in search results and link previews. |
 | `hidden` | Build the page but leave it out of the sidebar and search. |
-| `infobox` | `title`, `item` (big icon), `image`, `model` (3D), `caption`, and `rows` of `["Label", "markdown"]` or `{ "heading": "…" }`. The mod name and item id are added automatically. |
+| `infobox` | `title`, `item` (big icon), `image`, `model` (3D), `caption`, and `rows` of `["Label", "markdown"]` or `{ "heading": "…" }`. The mod name and item id are added automatically; `"itemRows": false` leaves them out (for quest pages, which only borrow the icon). |
 
 ### Links and items
 
@@ -174,6 +181,8 @@ Use `"flow": true` instead of `size`/`inputs`/`outputs` for an automatic row lay
    Without rendered icons, the jar scan falls back to the flat texture an item model points at. Items the game draws in 3D with code (GeckoLib weapons, banners, chests, …) and Every Compat items have no usable flat texture, so they show the magenta "missing" checkerboard until you export.
 
 Re-run the export (open a world with `enabled.json` present, then `npm run sync-game`) whenever recipes, items or tags change. If a script errors, the KubeJS log says where.
+
+`game-data/` only covers items, recipes and tags. For everything else (quests, acts, origins, skill trees, boss spawns), read the instance directly: [`docs/instance-guide.md`](docs/instance-guide.md) says where each thing lives and which files to skip.
 
 ## Font
 

@@ -12,4 +12,4 @@
 
 - Rapier Moveset rapiers (incl. Enderite, Oceanite, Witherite)
 - Simply Swords rapiers
-- [[item:irons_spellbooks:amethyst_rapier|Amethyst Rapier]]
+- [[item:irons_spellbooks:amethyst_rapier]]
