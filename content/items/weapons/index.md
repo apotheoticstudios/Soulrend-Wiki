@@ -2,35 +2,31 @@
 {
   "title": "Weapons",
   "category": "Items",
-  "order": 2,
-  "summary": "Melee and ranged weapons, by weapon type, plus named uniques."
+  "order": 1,
+  "summary": "Weapons grouped by their Pursuit of Mastery quest chapter, each in quest order. Epic Knights weapons are on one page; weapons no quest mentions are on Misc Weapons."
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  first pass, generated from the game-data dumps only (no instance files or jars read)
+  content/_items-outline.md (page list, groups and quest order)
+-->
 
-Melee and ranged weapons, by weapon type, plus named uniques.
+**Weapons** — Weapons grouped by their Pursuit of Mastery quest chapter, each in quest order. Epic Knights weapons are on one page; weapons no quest mentions are on Misc Weapons.
 
 ## In this section
 
-- [[items/weapons/swords-and-longswords|Swords & Longswords]]
-- [[items/weapons/greatswords|Greatswords]]
-- [[items/weapons/katanas-and-tachi|Katanas & Tachi]]
-- [[items/weapons/daggers-and-knives|Daggers & Knives]]
-- [[items/weapons/rapiers|Rapiers]]
-- [[items/weapons/polearms|Polearms]]
-- [[items/weapons/scythes-and-sickles|Scythes & Sickles]]
-- [[items/weapons/heavy-weapons|Heavy Weapons]] — Axes, greataxes, hammers and maces.
-- [[items/weapons/dancing-blades|Dancing Blades]] — Twinblades, warglaives, chakrams and battlestaffs.
-- [[items/weapons/armaments|Armaments]] — Fist weapons, claws and bracelets.
-- [[items/weapons/bows-and-crossbows|Bows & Crossbows]]
-- [[items/weapons/shields|Shields]]
-- [[items/weapons/dragon-blood-weapons|Dragon Blood Weapons]] — The three dragon-blood weapon families: fire, ice and lightning variants of dragonbone weapons.
-- [[items/weapons/dragonsteel-weapons|Dragonsteel Weapons]]
-- [[items/weapons/simply-swords-uniques|Simply Swords Uniques]]
-- [[items/weapons/soulslike-legendaries|Soulslike Legendaries]] — Marium's Soulslike Weaponry named weapons.
-- [[items/weapons/cataclysm-uniques|Cataclysm Uniques]] — Weapons from L_Ender's Cataclysm bosses.
-- [[items/weapons/epic-fight-relics|Epic Fight Relics]] — Named weapons from Weapons of Miracles, EpicFight-Nightfall, Dawn Day and other Epic Fight add-ons.
-- [[items/weapons/boss-and-dungeon-weapons|Boss & Dungeon Weapons]] — Weapons that drop from bosses or dungeons outside the big weapon mods.
-- [[items/weapons/levelled-weapons|Levelled Weapons]] — Weapons that upgrade through levels.
+- [[items/weapons/bladesworn-battallion|Bladesworn Battallion]] — Swords and longswords (quest chapter `path_of_the_blade`, 49 weapons).
+- [[items/weapons/blood-bath|Blood Bath]] — Greatswords and claymores (quest chapter `greatsword`, 62 weapons).
+- [[items/weapons/path-of-the-samurai|Path of the Samurai]] — Katanas and tachi (quest chapter `path_of_the_samurai`, 38 weapons).
+- [[items/weapons/assassins-armoury|Assassin's Armoury]] — Daggers, knives, sais and cutlasses (quest chapter `assasins_armory`, 50 weapons).
+- [[items/weapons/hopping-the-fence|Hopping the Fence]] — Rapiers (quest chapter `hopping_the_fence`, 19 weapons).
+- [[items/weapons/kings-of-the-battlefield|Kings of the Battlefield]] — Spears, glaives, halberds and lances (quest chapter `path_of_the_polearm`, 52 weapons).
+- [[items/weapons/demonic-implements|Demonic Implements]] — Scythes and sickles (quest chapter `demonic_implements`, 28 weapons).
+- [[items/weapons/heavy-load|Heavy Load]] — Axes, greataxes, hammers and maces (quest chapter `path_of_the_colossus`, 56 weapons).
+- [[items/weapons/way-of-the-dancing-blades|Way of the Dancing Blades]] — Staves, battlestaffs, warglaives, chakrams and twinblades (quest chapter `dancing_blades`, 37 weapons).
+- [[items/weapons/bulwark-and-brawl|Bulwark and Brawl]] — Shields, fists, claws and knuckles (quest chapter `bulwark_and_brawl`, 27 weapons).
+- [[items/weapons/archery-armory|Archery Armory (Weapons)]] — Bows and crossbows (quest chapter `too_many_bows`, 33 weapons).
+- [[items/weapons/magic-weapons|Magic Weapons]] — Staffs, wands and spell weapons (82 items from the `soulrend:magic_weapons` tag that no weapon chapter already covers), grouped by mod. Replaces Staffs & Wands.
+- [[items/weapons/epic-knights-weapons|Epic Knights Weapons]] — Every Epic Knights weapon and shield on one page (45 items in `soulrend:all_weapons`), plus the Epic Knights: Ice and Fire add-on 15 weapon types in 7 dragon materials.
+- [[items/weapons/misc-weapons|Misc Weapons]] — Weapons no quest mentions (177 items), grouped by mod.
+- [[items/weapons/sword-souls|Sword Souls (Items)]] — The 48 Sword Soul tokens, one per Simply Swords / EFN relic weapon (`kubejs:*_soul`).

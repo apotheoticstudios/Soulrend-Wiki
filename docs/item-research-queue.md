@@ -1,0 +1,735 @@
+# Item research queue
+
+Items and ids the first item port (2026-10-25) could not fully describe from `game-data/` alone. Each needs a look at the instance (configs, KubeJS, quests) or the mod jar, then a fix on the page named after it. Remove an entry once its page is updated.
+
+The port read only the dumps in `game-data/` (items, item-stats, gems, spells, loot-tables, recipes, tags, effects). See [`instance-guide.md`](instance-guide.md) for where to look next.
+
+## Outline group with no matching items in the dumps
+
+3 entries.
+
+- `Chef's Delight` — items/consumables/food
+- `Materials each page covers: vanilla; silver, steel and titanium (Dungeons and Combat); moonstone (Soulslike); resonarium and warden (Deeper and Darker); black steel (Cataclysm); neptunium (Aquaculture)` — items/tools
+- `Yamato and Crimson Moon skills (enchanted books) go on their weapons' pages, not here` — items/skill-books
+
+## Page title collided with an existing page and was qualified
+
+4 entries.
+
+- `Archery Armory` — items/weapons/archery-armory vs progression/side-chapters/pursuit-of-mastery.md
+- `Emblem of the Past` — items/progression-keys/emblem-of-the-past vs progression/act-v-duties/emblem-of-the-past.md
+- `Sword Souls` — items/weapons/sword-souls vs features/gear-and-crafting/sword-souls.md
+- `The Watcher` — items/weapons/blood-bath/the-watcher vs bosses/optional-and-world/cataclysm-minibosses.md
+
+## Epic Fight skill with no text in any lang file
+
+Weapon pages now show each skill's name and tooltip through the `moveset` embed (from `game-data/movesets.json`). These skills have no lang text there, so the embed can only show their id. Look for the text in the mod's code, or describe them from an in-game test.
+
+33 entries.
+
+- `cdmoveset:blade_rush_finisher` — simplyswords:iron_rapier (innate); simplyswords:diamond_rapier (innate); simplyswords:netherite_rapier (innate); simplyswords:runic_rapier (innate); knavesneeds:deeperdarker/warden/rapier (innate); simplyswords:bramblethorn (innate); and 2 more
+- `efn:aetherialdusk_passive` — efn:nf_dual_sword (passive)
+- `efn:bloodlust_passive` — efn:air_tachi (passive); efn:co_tachi (passive)
+- `efn:hf_blade` — efn:hf_blade (innate)
+- `efn:hf_blade_passive` — efn:hf_blade (passive)
+- `efn:meenlance_passive` — efn:meen_spear (passive)
+- `efn:murasama_passive` — efn:hf_murasama (passive)
+- `efn:ruinsgreatsword_passive` — efn:ruinsgreatsword (passive)
+- `efn:shortsword_passive` — efn:nf_shortsword (passive); efn:nf_shortsword_2 (passive)
+- `efn:yamato_passive` — efn:yamato_dmc_in_sheath (passive); efn:yamato_dmc4_in_sheath (passive); knavesneeds:deeperdarker/warden/sai (passive); simplyswords:runic_sai (passive); simplyswords:shadowsting (passive)
+- `epicfight_awaken:darknight_pursuiters_passive` — epicfight_awaken:darknight_pursuiters (passive)
+- `epicfight_dd:wingstance` — epicfight_dd:milady (passive)
+- `epicfight:battojutsu_passive` — simplyswords:iron_katana (passive); soulsweapons:moonveil (passive); simplyswords:diamond_katana (passive); simplyswords:netherite_katana (passive); cdmoveset:katana (passive); knavesneeds:soulsweapons/translucent/katana (passive); and 1 more
+- `epicfightx:battojutsu_passive` — samurai_dynasty:katana (passive); epicfight:uchigatana (passive); dungeons_and_combat:long_katana (passive); soulsweapons:dragonbane (passive); samurai_dynasty:katana_netherite (passive); dungeons_and_combat:dragonsteel_fire_katana (passive); and 7 more
+- `p1nero_ec:astrape_innate` — cataclysm:astrape (innate)
+- `p1nero_ec:ceraunus_innate` — cataclysm:ceraunus (innate)
+- `p1nero_ec:infernal_innate` — cataclysm:infernal_forge (innate)
+- `p1nero_ec:soul_render_innate` — cataclysm:soul_render (innate)
+- `p1nero_ec:the_incinerator_innate` — cataclysm:the_incinerator (innate)
+- `p1nero_ec:tidal_claw_innate` — cataclysm:tidal_claws (innate)
+- `p1nero_ec:wrath_of_the_desert_innate` — cataclysm:wrath_of_the_desert (innate)
+- `refm:ender_passive` — refm:enderite_rapier (passive)
+- `refm:ocean_passive` — refm:oceanite_rapier (passive)
+- `refm:wither_passive` — refm:witherite_rapier (passive)
+- `wom:demon_mark_passive` — simplyswords:caelestis (passive); simplyswords:awakened_lichblade (passive); knavesneeds:deeperdarker/warden/scythe (passive); simplyswords:runic_scythe (passive); irons_spellbooks:hellrazor (passive); simplyswords:magiscythe (passive); and 2 more
+- `wom:evil_tachi_passive` — wom:evil_tachi (passive)
+- `wom:herrscher_passive` — wom:herrscher (passive); simplyswords:righteous_relic (passive); simplyswords:sunfire (passive); knavesneeds:deeperdarker/warden/longsword (passive); simplyswords:runic_longsword (passive)
+- `wom:lunar_echo_passive` — simplyswords:emberlash (passive); simplyswords:stars_edge (passive); wom:moonless (passive)
+- `wom:napoleon_passive` — wom:napoleon (passive)
+- `wom:ruine_passive` — wom:ruine (passive); simplyswords:harbinger (passive); simplyswords:soulpyre (passive)
+- `wom:satsujin_passive` — knavesneeds:deeperdarker/warden/katana (passive); simplyswords:runic_katana (passive); wom:satsujin (passive); simplyswords:whisperwind (passive); cataclysm:zweiender (passive); cataclysm:final_fractal (passive)
+- `wom:solar_passive` — simplyswords:brimstone_claymore (passive); wom:solar (passive); simplyswords:waking_lichblade (passive)
+- `wom:torment_passive` — wom:tormented_mind (passive); simplyswords:livyatan (passive); simplyswords:hearthflame (passive)
+## Tooltip hides text behind a key (Shift, Alt or Ctrl), which the export can't read
+
+17 entries.
+
+- `block_factorys_bosses:dragon_guard_shield` — items/boss-drops/bossesrise-drops: Hold [LEFT ALT] for Info
+- `create:item_vault` — items/storage: Hold [W] to Ponder
+- `soulsweapons:arkenstone` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:essence_of_eventide` — items/boss-drops/soulslike-drops: Hold [LEFT ALT] for Info
+- `soulsweapons:essence_of_luminescence` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lord_soul_dark` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lord_soul_day_stalker` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lord_soul_night_prowler` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lord_soul_purple` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lord_soul_red` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lord_soul_rose` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lord_soul_void` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lord_soul_white` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:lost_soul` — items/boss-drops/soulslike-drops: Hold [LEFT CONTROL] for Lore
+- `soulsweapons:shard_of_uncertainty` — items/boss-drops/soulslike-drops: Hold [LEFT ALT] for Info
+- `toms_storage:ts.crafting_terminal` — items/storage: Hold [W] to Ponder
+- `toms_storage:ts.storage_terminal` — items/storage: Hold [W] to Ponder
+
+## No recipe or loot table in the dumps (KubeJS recipe, quest reward, trade or code drop?)
+
+Apotheosis's basic shelves and the slot tomes are crafted with recipes registered in code (Placebo's RecipeHelper), which exports made before 2026-10-25 missed. `wiki_export.js` now rebuilds them from the live recipe manager; re-export, sync and remove those entries.
+
+484 entries.
+
+- `alex_caves_dimensions:abyssal_chasm_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:candy_cavity_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:forlorn_hollows_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:magnetic_caves_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:primordial_caves_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:toxic_caves_key` — items/progression-keys/cave-dimension-keys
+- `alexscaves:gingerbread_boots` — items/armor/misc-armor/alexs-caves-armor
+- `alexscaves:gingerbread_chestplate` — items/armor/misc-armor/alexs-caves-armor
+- `alexscaves:gingerbread_helmet` — items/armor/misc-armor/alexs-caves-armor
+- `alexscaves:gingerbread_leggings` — items/armor/misc-armor/alexs-caves-armor
+- `alshanex_familiars:bard_shard` — items/magic/familiars
+- `alshanex_familiars:bard_trinket` — items/magic/familiars; items/curios-and-accessories/other-curios
+- `alshanex_familiars:cleric_shard` — items/magic/familiars
+- `alshanex_familiars:dragon_warrior_shard` — items/magic/familiars
+- `alshanex_familiars:illusionist_shard` — items/magic/familiars
+- `alshanex_familiars:necromancer_shard` — items/magic/familiars
+- `alshanex_familiars:plague_shard` — items/magic/familiars
+- `alshanex_familiars:rusty_helmet` — items/armor/misc-armor/other-armor
+- `alshanex_familiars:scorcher_shard` — items/magic/familiars
+- `apotheosis:beeshelf` — items/gear-progression/enchanting
+- `apotheosis:blazing_hellshelf` — items/gear-progression/enchanting
+- `apotheosis:boots_tome` — items/gear-progression/enchanting
+- `apotheosis:bow_tome` — items/gear-progression/enchanting
+- `apotheosis:chestplate_tome` — items/gear-progression/enchanting
+- `apotheosis:crystal_seashelf` — items/gear-progression/enchanting
+- `apotheosis:dormant_deepshelf` — items/gear-progression/enchanting
+- `apotheosis:draconic_endshelf` — items/gear-progression/enchanting
+- `apotheosis:fishing_tome` — items/gear-progression/enchanting
+- `apotheosis:glowing_hellshelf` — items/gear-progression/enchanting
+- `apotheosis:heart_seashelf` — items/gear-progression/enchanting
+- `apotheosis:hellshelf` — items/gear-progression/enchanting
+- `apotheosis:helmet_tome` — items/gear-progression/enchanting
+- `apotheosis:leggings_tome` — items/gear-progression/enchanting
+- `apotheosis:melonshelf` — items/gear-progression/enchanting
+- `apotheosis:other_tome` — items/gear-progression/enchanting
+- `apotheosis:pearl_endshelf` — items/gear-progression/enchanting
+- `apotheosis:pickaxe_tome` — items/gear-progression/enchanting
+- `apotheosis:scrap_tome` — items/gear-progression/enchanting
+- `apotheosis:seashelf` — items/gear-progression/enchanting
+- `apotheosis:weapon_tome` — items/gear-progression/enchanting
+- `aquamirae:coral_lance` — items/weapons/kings-of-the-battlefield/coral-lance
+- `astral_calamity_extras:bloodcrest_ingot` — items/materials/act-iii-materials
+- `astral_calamity_extras:brimspec_ingot` — items/materials/act-iii-materials
+- `astral_calamity_extras:corrupted_ingot` — items/materials/act-iii-materials
+- `astral_calamity_extras:cryonic_ingot` — items/materials/act-ii-materials
+- `astral_calamity_extras:enchanted_ingot` — items/materials/act-ii-materials
+- `astral_calamity_extras:gilded_ingot` — items/materials/act-iii-materials
+- `astral_calamity_extras:grotesque_ingot` — items/materials/act-ii-materials
+- `astral_calamity_extras:molten_ingot` — items/materials/act-iii-materials
+- `astral_calamity_extras:moon_crystals` — items/materials/act-iii-b-materials
+- `astral_calamity_extras:subliminal_ingot` — items/materials/act-ii-materials
+- `astral_calamity_extras:tidal_ingot` — items/materials/act-ii-materials
+- `astral_calamity_extras:universium_ingot` — items/materials/act-v-materials
+- `astral_calamity_extras:wrought_ingot` — items/materials/act-i-materials
+- `block_factorys_bosses:dragon_shank` — items/boss-drops/bossesrise-drops
+- `cataclysm:altar_of_abyss` — items/boss-drops/cataclysm-drops
+- `cataclysm:altar_of_amethyst` — items/boss-drops/cataclysm-drops
+- `cataclysm:altar_of_fire` — items/boss-drops/cataclysm-drops
+- `cataclysm:altar_of_void` — items/boss-drops/cataclysm-drops
+- `cataclysm:aptrgangr_head` — items/curios-and-accessories/other-curios
+- `cataclysm:boss_respawner` — items/boss-drops/cataclysm-drops
+- `cataclysm:draugr_head` — items/curios-and-accessories/other-curios
+- `cataclysm:enderite_ingot` — items/boss-drops/cataclysm-drops
+- `cataclysm:ignitium_elytra_chestplate` — items/armor/misc-armor/cataclysm-armor
+- `cataclysm:meat_shredder` — items/weapons/heavy-load/meat-shredder
+- `cataclysm:music_disc_the_cataclysmfarer` — items/boss-drops/cataclysm-drops
+- `cataclysm:the_incinerator` — items/weapons/blood-bath/the-incinerator
+- `cataclysm:void_forge` — items/weapons/heavy-load/void-forge
+- `cataclysm:zweiender` — items/weapons/path-of-the-samurai/zweiender
+- `dacxirons:wither_ring` — items/curios-and-accessories/rings
+- `deeperdarker:heart_of_the_deep` — items/boss-drops/other-boss-drops
+- `dragonradarmod:master_radar` — items/dragons/dragon-utility
+- `dungeons_and_combat:ammit_armor_chestplate` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:ammit_armor_helmet` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:ammit_armor_leggings` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:blessed_rogue_chestplate` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:blessed_rogue_helmet` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:blessed_rogue_leggings` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:broken_shield` — items/weapons/misc-weapons
+- `dungeons_and_combat:copper_dagger` — items/weapons/misc-weapons
+- `dungeons_and_combat:counselor_chestplate` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:counselor_leggings` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:crimson_flask` — items/consumables/healing
+- `dungeons_and_combat:cryolite_boots` — items/armor/strength-path/cryolite-armor
+- `dungeons_and_combat:cryolite_chestplate` — items/armor/strength-path/cryolite-armor
+- `dungeons_and_combat:cryolite_helmet` — items/armor/strength-path/cryolite-armor
+- `dungeons_and_combat:cryolite_leggings` — items/armor/strength-path/cryolite-armor
+- `dungeons_and_combat:dagger` — items/weapons/misc-weapons
+- `dungeons_and_combat:deserter_steel_sword` — items/weapons/misc-weapons
+- `dungeons_and_combat:dragonium_boots` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:dragonium_chestplate` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:dragonium_helmet` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:dragonium_leggings` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:ernos_fang_necklace` — items/boss-drops/dungeons-and-combat-drops; items/curios-and-accessories/necklaces
+- `dungeons_and_combat:executioner_axe` — items/weapons/misc-weapons
+- `dungeons_and_combat:fairy_wings` — items/curios-and-accessories/wings
+- `dungeons_and_combat:fang_necklace` — items/boss-drops/dungeons-and-combat-drops; items/curios-and-accessories/necklaces
+- `dungeons_and_combat:heavy_shield` — items/weapons/misc-weapons
+- `dungeons_and_combat:hood_of_shame_helmet` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:kamath_armor_boots` — items/armor/strength-path/kamath-armor
+- `dungeons_and_combat:kamath_armor_chestplate` — items/armor/strength-path/kamath-armor
+- `dungeons_and_combat:kamath_armor_helmet` — items/armor/strength-path/kamath-armor
+- `dungeons_and_combat:kamath_armor_leggings` — items/armor/strength-path/kamath-armor
+- `dungeons_and_combat:klauen_necklace` — items/boss-drops/dungeons-and-combat-drops; items/curios-and-accessories/necklaces
+- `dungeons_and_combat:molten_knight_boots` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:molten_knight_chestplate` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:molten_knight_helmet` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:molten_knight_leggings` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:monarch_boots` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:monarch_chestplate` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:monarch_helmet` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:monarch_leggings` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:nullfire_amulet` — items/curios-and-accessories/necklaces
+- `dungeons_and_combat:old_shield` — items/weapons/misc-weapons
+- `dungeons_and_combat:prisoner_helmet` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:royal_steel_boots` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:royal_steel_chestplate` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:royal_steel_helmet` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:royal_steel_leggings` — items/armor/misc-armor/dungeons-and-combat-armor
+- `dungeons_and_combat:sandstorm_greatsword` — items/weapons/misc-weapons
+- `dungeons_and_combat:silver_dagger` — items/weapons/misc-weapons
+- `dungeons_and_combat:sunleia_hand` — items/boss-drops/dungeons-and-combat-drops; items/curios-and-accessories/other-curios
+- `efn:hf_ingot` — items/materials/act-iv-materials
+- `endlessbiomes:void_touched_boots_boots` — items/armor/misc-armor/endlessbiomes-armor
+- `endrem:evil_eye` — items/progression-keys/legendary-eyes
+- `epic_knights_ice_and_fire:dragon_fire_shortsword` — items/weapons/epic-knights-weapons
+- `epic_knights_ice_and_fire:dragon_ice_shortsword` — items/weapons/epic-knights-weapons
+- `epic_knights_ice_and_fire:dragon_lightning_shortsword` — items/weapons/epic-knights-weapons
+- `epic_knights_ice_and_fire:dragonsteel_fire_shortsword` — items/weapons/epic-knights-weapons
+- `epic_knights_ice_and_fire:dragonsteel_ice_shortsword` — items/weapons/epic-knights-weapons
+- `epic_knights_ice_and_fire:dragonsteel_lightning_shortsword` — items/weapons/epic-knights-weapons
+- `epicfight:golden_dagger` — items/weapons/misc-weapons
+- `epicfight:stray_hat` — items/armor/misc-armor/other-armor
+- `epicfight:stray_pants` — items/armor/misc-armor/other-armor
+- `epicfight:stray_robe` — items/armor/misc-armor/other-armor
+- `graveyard:bone_dagger` — items/weapons/misc-weapons
+- `gtbcs_geomancy_plus:bracelet_of_inversion` — items/curios-and-accessories/other-curios
+- `gtbcs_geomancy_plus:ring_of_the_resounding_earth` — items/curios-and-accessories/rings
+- `iceandfire:dragon_skull_fire` — items/dragons/dragon-parts
+- `iceandfire:dragon_skull_ice` — items/dragons/dragon-parts
+- `iceandfire:dragon_skull_lightning` — items/dragons/dragon-parts
+- `iceandfire:dragonegg_amythest` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonegg_black` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonegg_bronze` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonegg_copper` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonegg_gray` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonegg_green` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonegg_sapphire` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonegg_silver` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonegg_white` — items/dragons/dragon-eggs-and-scales
+- `iceandfire:dragonforge_fire_core` — items/dragons/dragonforges
+- `iceandfire:dragonforge_ice_core` — items/dragons/dragonforges
+- `iceandfire:dragonforge_lightning_core` — items/dragons/dragonforges
+- `iceandfire:dread_queen_sword` — items/weapons/bladesworn-battallion/blade-of-the-dreaded-queen
+- `iceandfire:fire_dragon_blood` — items/dragons/dragon-parts
+- `iceandfire:fire_dragon_heart` — items/dragons/dragon-parts
+- `iceandfire:gorgon_head` — items/boss-drops/other-boss-drops
+- `iceandfire:lightning_dragon_blood` — items/dragons/dragon-parts
+- `iceandfire:lightning_dragon_heart` — items/dragons/dragon-parts
+- `iceandfire:stymphalian_bird_dagger` — items/weapons/misc-weapons
+- `iceandfire:summoning_crystal_fire` — items/dragons/summoning-crystals
+- `iceandfire:summoning_crystal_lightning` — items/dragons/summoning-crystals
+- `ironchests:dirt_chest` — items/storage
+- `irons_spellbooks:cinderous_soul_rune` — items/magic/runes-orbs-and-inks
+- `irons_spellbooks:gold_crown` — items/armor/misc-armor/other-armor
+- `irons_spellbooks:lurker_ring` — items/curios-and-accessories/rings
+- `irons_spellbooks:mana_ring` — items/curios-and-accessories/rings
+- `irons_spellbooks:mithril_ore` — items/materials/act-ii-materials
+- `irons_spellbooks:tarnished_helmet` — items/armor/misc-armor/other-armor
+- `kubejs:air_tachi_soul` — items/weapons/sword-souls
+- `kubejs:arcanethyst_soul` — items/weapons/sword-souls
+- `kubejs:bramblethorn_soul` — items/weapons/sword-souls
+- `kubejs:brimstone_claymore_soul` — items/weapons/sword-souls
+- `kubejs:broadblade_soul` — items/weapons/sword-souls
+- `kubejs:caelestis_soul` — items/weapons/sword-souls
+- `kubejs:crescent_moon_soul` — items/weapons/sword-souls
+- `kubejs:crimson_moon_soul` — items/weapons/sword-souls
+- `kubejs:dormant_relic_soul` — items/weapons/sword-souls
+- `kubejs:emberlash_soul` — items/weapons/sword-souls
+- `kubejs:emblem_of_the_past` — items/progression-keys/emblem-of-the-past
+- `kubejs:enigma_soul` — items/weapons/sword-souls
+- `kubejs:exsiliumgladius_soul` — items/weapons/sword-souls
+- `kubejs:fire_exsiliumgladius_soul` — items/weapons/sword-souls
+- `kubejs:flamewind_soul` — items/weapons/sword-souls
+- `kubejs:frostfall_soul` — items/weapons/sword-souls
+- `kubejs:hearthflame_soul` — items/weapons/sword-souls
+- `kubejs:hiveheart_soul` — items/weapons/sword-souls
+- `kubejs:icewhisper_soul` — items/weapons/sword-souls
+- `kubejs:livyatan_soul` — items/weapons/sword-souls
+- `kubejs:magiblade_soul` — items/weapons/sword-souls
+- `kubejs:magiscythe_soul` — items/weapons/sword-souls
+- `kubejs:magispear_soul` — items/weapons/sword-souls
+- `kubejs:meen_spear_soul` — items/weapons/sword-souls
+- `kubejs:mjolnir_soul` — items/weapons/sword-souls
+- `kubejs:molten_edge_soul` — items/weapons/sword-souls
+- `kubejs:nf_shortsword_2_soul` — items/weapons/sword-souls
+- `kubejs:nf_shortsword_soul` — items/weapons/sword-souls
+- `kubejs:ribboncleaver_soul` — items/weapons/sword-souls
+- `kubejs:ruinsgreatsword_soul` — items/weapons/sword-souls
+- `kubejs:shadowsting_soul` — items/weapons/sword-souls
+- `kubejs:slumbering_lichblade_soul` — items/weapons/sword-souls
+- `kubejs:soulkeeper_soul` — items/weapons/sword-souls
+- `kubejs:soulpyre_soul` — items/weapons/sword-souls
+- `kubejs:soulrender_soul` — items/weapons/sword-souls
+- `kubejs:soulstealer_soul` — items/weapons/sword-souls
+- `kubejs:stars_edge_soul` — items/weapons/sword-souls
+- `kubejs:stormbringer_soul` — items/weapons/sword-souls
+- `kubejs:storms_edge_soul` — items/weapons/sword-souls
+- `kubejs:sword_of_pioneer_soul` — items/weapons/sword-souls
+- `kubejs:tempest_soul` — items/weapons/sword-souls
+- `kubejs:thunderbrand_soul` — items/weapons/sword-souls
+- `kubejs:toxic_longsword_soul` — items/weapons/sword-souls
+- `kubejs:twisted_blade_soul` — items/weapons/sword-souls
+- `kubejs:watcher_claymore_soul` — items/weapons/sword-souls
+- `kubejs:watching_warglaive_soul` — items/weapons/sword-souls
+- `kubejs:waxweaver_soul` — items/weapons/sword-souls
+- `kubejs:whisperwind_soul` — items/weapons/sword-souls
+- `kubejs:wickpiercer_soul` — items/weapons/sword-souls
+- `magistuarmory:bronze_shortsword` — items/weapons/epic-knights-weapons
+- `magistuarmory:copper_shortsword` — items/weapons/epic-knights-weapons
+- `magistuarmory:crown_decoration` — items/armor/epic-knights-armor
+- `magistuarmory:crusader_cross_pattern` — items/armor/epic-knights-armor
+- `magistuarmory:gold_shortsword` — items/weapons/epic-knights-weapons
+- `magistuarmory:iron_shortsword` — items/weapons/epic-knights-weapons
+- `magistuarmory:minicrown_decoration` — items/armor/epic-knights-armor
+- `magistuarmory:rusted_bastardsword` — items/weapons/epic-knights-weapons
+- `magistuarmory:rustedbarbute` — items/armor/epic-knights-armor
+- `magistuarmory:rustedchainmail_boots` — items/armor/epic-knights-armor
+- `magistuarmory:rustedchainmail_chestplate` — items/armor/epic-knights-armor
+- `magistuarmory:rustedchainmail_helmet` — items/armor/epic-knights-armor
+- `magistuarmory:rustedchainmail_leggings` — items/armor/epic-knights-armor
+- `magistuarmory:rustedcrusader_boots` — items/armor/epic-knights-armor
+- `magistuarmory:rustedcrusader_chestplate` — items/armor/epic-knights-armor
+- `magistuarmory:rustedgreathelm` — items/armor/epic-knights-armor
+- `magistuarmory:rustedhalfarmor_chestplate` — items/armor/epic-knights-armor
+- `magistuarmory:rustedkettlehat` — items/armor/epic-knights-armor
+- `magistuarmory:rustednorman_helmet` — items/armor/epic-knights-armor
+- `magistuarmory:silver_shortsword` — items/weapons/epic-knights-weapons
+- `magistuarmory:steel_claymore` — items/weapons/epic-knights-weapons
+- `magistuarmory:stone_shortsword` — items/weapons/epic-knights-weapons
+- `magistuarmory:wood_shortsword` — items/weapons/epic-knights-weapons
+- `minecraft:piglin_head` — items/armor/misc-armor/minecraft-armor
+- `mowziesmobs:naga_fang_dagger` — items/weapons/misc-weapons
+- `nether_remastered:bottled_nether_essence` — items/progression-keys/nether-seal
+- `quark:backpack` — items/armor/misc-armor/other-armor
+- `samurai_dynasty:brass_samurai_boots` — items/armor/misc-armor/samurai-dynasty-armor
+- `samurai_dynasty:brass_samurai_chestplate` — items/armor/misc-armor/samurai-dynasty-armor
+- `samurai_dynasty:brass_samurai_helmet` — items/armor/misc-armor/samurai-dynasty-armor
+- `samurai_dynasty:brass_samurai_leggings` — items/armor/misc-armor/samurai-dynasty-armor
+- `simplyswords:emberblade` — items/weapons/misc-weapons
+- `simplyswords:emberlash` — items/weapons/assassins-armoury/emberlash
+- `simplyswords:flamewind` — items/weapons/kings-of-the-battlefield/flamewind
+- `simplyswords:gold_cutlass` — items/weapons/misc-weapons
+- `simplyswords:hearthflame` — items/weapons/heavy-load/hearthflame
+- `simplyswords:molten_edge` — items/weapons/blood-bath/molten-edge
+- `simplyswords:thunderbrand` — items/weapons/kings-of-the-battlefield/thunderbrand
+- `sophisticatedcore:xp_bucket` — items/storage
+- `sophisticatedstorage:advanced_alchemy_upgrade` — items/storage
+- `sophisticatedstorage:advanced_compacting_upgrade` — items/storage
+- `sophisticatedstorage:advanced_feeding_upgrade` — items/storage
+- `sophisticatedstorage:advanced_filter_upgrade` — items/storage
+- `sophisticatedstorage:advanced_hopper_upgrade` — items/storage
+- `sophisticatedstorage:advanced_jukebox_upgrade` — items/storage
+- `sophisticatedstorage:advanced_magnet_upgrade` — items/storage
+- `sophisticatedstorage:advanced_pickup_upgrade` — items/storage
+- `sophisticatedstorage:advanced_pump_upgrade` — items/storage
+- `sophisticatedstorage:advanced_void_upgrade` — items/storage
+- `sophisticatedstorage:auto_smelting_upgrade` — items/storage
+- `sophisticatedstorage:copper_barrel` — items/storage
+- `sophisticatedstorage:copper_chest` — items/storage
+- `sophisticatedstorage:copper_shulker_box` — items/storage
+- `sophisticatedstorage:debug_tool` — items/storage
+- `sophisticatedstorage:diamond_barrel` — items/storage
+- `sophisticatedstorage:diamond_chest` — items/storage
+- `sophisticatedstorage:diamond_shulker_box` — items/storage
+- `sophisticatedstorage:gold_barrel` — items/storage
+- `sophisticatedstorage:gold_chest` — items/storage
+- `sophisticatedstorage:gold_shulker_box` — items/storage
+- `sophisticatedstorage:inaccessible_slot` — items/storage
+- `sophisticatedstorage:infinity_upgrade` — items/storage
+- `sophisticatedstorage:iron_barrel` — items/storage
+- `sophisticatedstorage:iron_chest` — items/storage
+- `sophisticatedstorage:iron_shulker_box` — items/storage
+- `sophisticatedstorage:limited_copper_barrel_1` — items/storage
+- `sophisticatedstorage:limited_copper_barrel_2` — items/storage
+- `sophisticatedstorage:limited_copper_barrel_3` — items/storage
+- `sophisticatedstorage:limited_copper_barrel_4` — items/storage
+- `sophisticatedstorage:limited_diamond_barrel_1` — items/storage
+- `sophisticatedstorage:limited_diamond_barrel_2` — items/storage
+- `sophisticatedstorage:limited_diamond_barrel_3` — items/storage
+- `sophisticatedstorage:limited_diamond_barrel_4` — items/storage
+- `sophisticatedstorage:limited_gold_barrel_1` — items/storage
+- `sophisticatedstorage:limited_gold_barrel_2` — items/storage
+- `sophisticatedstorage:limited_gold_barrel_3` — items/storage
+- `sophisticatedstorage:limited_gold_barrel_4` — items/storage
+- `sophisticatedstorage:limited_iron_barrel_1` — items/storage
+- `sophisticatedstorage:limited_iron_barrel_2` — items/storage
+- `sophisticatedstorage:limited_iron_barrel_3` — items/storage
+- `sophisticatedstorage:limited_iron_barrel_4` — items/storage
+- `sophisticatedstorage:magnet_upgrade` — items/storage
+- `sophisticatedstorage:pump_upgrade` — items/storage
+- `sophisticatedstorage:survival_infinity_upgrade` — items/storage
+- `sophisticatedstorage:xp_pump_upgrade` — items/storage
+- `soulsweapons:darkin_scythe` — items/weapons/demonic-implements/the-darkin-scythe
+- `soulsweapons:lord_soul_purple` — items/boss-drops/soulslike-drops
+- `soulsweapons:shadow_assassin_scythe` — items/weapons/demonic-implements/shadow-assassin-scythe
+- `soulsweapons:shard_of_uncertainty` — items/boss-drops/soulslike-drops
+- `soulsweapons:silver_sword` — items/weapons/misc-weapons
+- `storagedrawers:connection_key_both` — items/storage
+- `storagedrawers:connection_key_input` — items/storage
+- `storagedrawers:connection_key_none` — items/storage
+- `storagedrawers:connection_key_output` — items/storage
+- `storagedrawers:creative_storage_upgrade` — items/storage
+- `storagedrawers:creative_vending_upgrade` — items/storage
+- `storagedrawers:detached_drawer_full` — items/storage
+- `storagedrawers:framed_compacting_drawers_2` — items/storage
+- `storagedrawers:framed_compacting_drawers_3` — items/storage
+- `storagedrawers:framed_compacting_half_drawers_2` — items/storage
+- `storagedrawers:framed_compacting_half_drawers_3` — items/storage
+- `storagedrawers:framed_controller` — items/storage
+- `storagedrawers:framed_controller_io` — items/storage
+- `storagedrawers:framed_full_drawers_1` — items/storage
+- `storagedrawers:framed_full_drawers_2` — items/storage
+- `storagedrawers:framed_full_drawers_4` — items/storage
+- `storagedrawers:framed_half_drawers_1` — items/storage
+- `storagedrawers:framed_half_drawers_2` — items/storage
+- `storagedrawers:framed_half_drawers_4` — items/storage
+- `storagedrawers:framed_trim` — items/storage
+- `storagedrawers:keyring` — items/storage
+- `storagedrawers:keyring_connection` — items/storage
+- `storagedrawers:keyring_connection_both` — items/storage
+- `storagedrawers:keyring_connection_input` — items/storage
+- `storagedrawers:keyring_connection_none` — items/storage
+- `storagedrawers:keyring_connection_output` — items/storage
+- `storagedrawers:keyring_drawer` — items/storage
+- `storagedrawers:keyring_personal` — items/storage
+- `storagedrawers:keyring_personal_cofh` — items/storage
+- `storagedrawers:keyring_personal_ftb` — items/storage
+- `storagedrawers:keyring_personal_unlock` — items/storage
+- `storagedrawers:keyring_priority` — items/storage
+- `storagedrawers:keyring_priority_n1` — items/storage
+- `storagedrawers:keyring_priority_n2` — items/storage
+- `storagedrawers:keyring_priority_p1` — items/storage
+- `storagedrawers:keyring_priority_p2` — items/storage
+- `storagedrawers:keyring_puller` — items/storage
+- `storagedrawers:keyring_quantify` — items/storage
+- `storagedrawers:keyring_shroud` — items/storage
+- `storagedrawers:keyring_suspend` — items/storage
+- `storagedrawers:personal_key_ftb` — items/storage
+- `storagedrawers:personal_key_unlock` — items/storage
+- `storagedrawers:priority_key_n1` — items/storage
+- `storagedrawers:priority_key_n2` — items/storage
+- `storagedrawers:priority_key_p1` — items/storage
+- `storagedrawers:priority_key_p2` — items/storage
+- `storagedrawers:remote_group_upgrade_bound` — items/storage
+- `storagedrawers:remote_upgrade_bound` — items/storage
+- `toms_storage:ts.painted_trim` — items/storage
+- `too_many_bows:dead_eyes_pendant` — items/curios-and-accessories/necklaces
+- `too_many_bows:fletchers_talisman` — items/curios-and-accessories/necklaces
+- `too_many_bows:sharpshot_ring` — items/curios-and-accessories/rings
+- `too_many_bows:stormbound_signet` — items/curios-and-accessories/rings
+- `too_many_bows:wind_glove` — items/curios-and-accessories/other-curios
+- `travelersbackpack:bat` — items/curios-and-accessories/backpacks-and-quivers
+- `travelersbackpack:iron_golem` — items/curios-and-accessories/backpacks-and-quivers
+- `travelersbackpack:villager` — items/curios-and-accessories/backpacks-and-quivers
+- `traveloptics:bottled_raincloud` — items/curios-and-accessories/other-curios
+- `valarian_conquest:bandit_mask_gray_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bandit_mask_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barathians_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barathians_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barathians_armor_1_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barathians_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barathians_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barathians_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barathians_armor_3_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barathians_armor_3_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:barbute_helm_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bascinet_helm_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_armor_1_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_armor_3_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_armor_3_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:bohemian_shield` — items/weapons/misc-weapons
+- `valarian_conquest:bohemian_sword` — items/weapons/misc-weapons
+- `valarian_conquest:burgundian_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:burgundian_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:burgundian_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:burgundian_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:burgundian_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:burgundian_armor_3_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:burgundian_armor_3_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:caladrian_shield` — items/weapons/misc-weapons
+- `valarian_conquest:caladrian_sword` — items/weapons/misc-weapons
+- `valarian_conquest:chainmail_armor_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:chainmail_armor_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:chainmail_armor_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:chainmail_helm_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:dwarven_axe` — items/weapons/misc-weapons
+- `valarian_conquest:dwarven_shield` — items/weapons/misc-weapons
+- `valarian_conquest:galician_shield` — items/weapons/misc-weapons
+- `valarian_conquest:galician_sword` — items/weapons/misc-weapons
+- `valarian_conquest:heavy_axe` — items/weapons/misc-weapons
+- `valarian_conquest:hospitaller_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:hospitaller_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:hospitaller_armor_1_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:hospitaller_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:hospitaller_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:hospitaller_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:hospitaller_armor_3_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:hospitaller_armor_3_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:kalota_helm_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:kettle_helm_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:lancastian_shield` — items/weapons/misc-weapons
+- `valarian_conquest:lancastian_sword` — items/weapons/misc-weapons
+- `valarian_conquest:leather_armor_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:leather_armor_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:leather_armor_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:light_axe` — items/weapons/misc-weapons
+- `valarian_conquest:lord_coronet_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:mercenary_shield` — items/weapons/misc-weapons
+- `valarian_conquest:mercenary_sword` — items/weapons/misc-weapons
+- `valarian_conquest:nasal_helm_2_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:nasal_helm_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:neutral_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:neutral_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:neutral_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:neutral_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:neutral_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:numerian_shield` — items/weapons/misc-weapons
+- `valarian_conquest:numerian_sword` — items/weapons/misc-weapons
+- `valarian_conquest:orleanian_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:orleanian_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:orleanian_armor_1_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:orleanian_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:orleanian_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:orleanian_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:orleanian_armor_3_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:orleanian_armor_3_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:quiver_chestplate` — items/curios-and-accessories/backpacks-and-quivers
+- `valarian_conquest:soldiers_spear` — items/weapons/misc-weapons
+- `valarian_conquest:templar_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_1_helmet` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_3_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_3_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_4_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:templar_armor_4_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:valarian_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:valarian_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:valarian_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:valarian_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:valarian_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:valarian_armor_3_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:valarian_armor_3_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:valarian_shield` — items/weapons/misc-weapons
+- `valarian_conquest:valarian_sword` — items/weapons/misc-weapons
+- `valarian_conquest:visgothian_armor_1_boots` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:visgothian_armor_1_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:visgothian_armor_1_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:visgothian_armor_2_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:visgothian_armor_2_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:visgothian_armor_3_chestplate` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:visgothian_armor_3_leggings` — items/armor/misc-armor/valarian-conquest-armor
+- `valarian_conquest:visgothian_shield` — items/weapons/misc-weapons
+- `valarian_conquest:visgothian_sword` — items/weapons/misc-weapons
+- `valarian_conquest:wooden_shield` — items/weapons/misc-weapons
+- `waystones:attuned_shard` — items/travel
+- `waystones:blackstone_waystone` — items/travel
+- `waystones:crumbling_attuned_shard` — items/travel
+- `waystones:deepslate_waystone` — items/travel
+- `waystones:end_stone_waystone` — items/travel
+- `waystones:sandy_waystone` — items/travel
+- `waystones:waystone` — items/travel
+- `wom:cursed_mask` — items/armor/misc-armor/other-armor
+- `wom:ender_blaster` — items/weapons/way-of-the-dancing-blades/ender-blaster
+- `wom:herrscher` — items/weapons/bladesworn-battallion/herrscher
+- `wom:unholy_cursed_mask` — items/armor/misc-armor/other-armor
+
+## No description in the dumps (behavior unknown)
+
+98 entries.
+
+- `alex_caves_dimensions:abyssal_chasm_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:candy_cavity_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:forlorn_hollows_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:magnetic_caves_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:primordial_caves_key` — items/progression-keys/cave-dimension-keys
+- `alex_caves_dimensions:toxic_caves_key` — items/progression-keys/cave-dimension-keys
+- `alexscaves:candy_cane_hook` — items/tools/fishing-rods
+- `aquaculture:bobber` — items/tools/fishing-rods
+- `aquaculture:diamond_fishing_rod` — items/tools/fishing-rods
+- `aquaculture:fishing_line` — items/tools/fishing-rods
+- `aquaculture:gold_fishing_rod` — items/tools/fishing-rods
+- `aquaculture:iron_fishing_rod` — items/tools/fishing-rods
+- `aquamirae:abyssal_amethyst` — items/boss-drops/other-boss-drops
+- `astral_calamity_extras:astral_ingot` — items/materials/act-v-materials
+- `astral_calamity_extras:moon_crystals` — items/materials/act-iii-b-materials
+- `block_factorys_bosses:ancient_iron_ingot` — items/boss-drops/bossesrise-drops
+- `block_factorys_bosses:dragon_bone` — items/boss-drops/bossesrise-drops
+- `cataclysm:altar_of_abyss` — items/boss-drops/cataclysm-drops
+- `cataclysm:altar_of_amethyst` — items/boss-drops/cataclysm-drops
+- `cataclysm:altar_of_fire` — items/boss-drops/cataclysm-drops
+- `cataclysm:altar_of_void` — items/boss-drops/cataclysm-drops
+- `cataclysm:ancient_metal_ingot` — items/boss-drops/cataclysm-drops
+- `cataclysm:boss_respawner` — items/boss-drops/cataclysm-drops
+- `cataclysm:burning_ashes` — items/boss-drops/cataclysm-drops
+- `cataclysm:cursium_ingot` — items/boss-drops/cataclysm-drops
+- `cataclysm:enderite_ingot` — items/boss-drops/cataclysm-drops
+- `cataclysm:ignitium_ingot` — items/boss-drops/cataclysm-drops
+- `cataclysm:witherite_ingot` — items/boss-drops/cataclysm-drops
+- `deeperdarker:heart_of_the_deep` — items/boss-drops/other-boss-drops
+- `dungeons_and_combat:ammit_fang` — items/boss-drops/dungeons-and-combat-drops
+- `dungeons_and_combat:armor_plate` — items/boss-drops/dungeons-and-combat-drops
+- `dungeons_and_combat:cursed_silk` — items/boss-drops/dungeons-and-combat-drops
+- `dungeons_and_combat:ernos_fang` — items/boss-drops/dungeons-and-combat-drops
+- `dungeons_and_combat:horuso_feather` — items/boss-drops/dungeons-and-combat-drops
+- `dungeons_and_combat:titanium_ingot` — items/materials/act-ii-materials
+- `dungeons_and_combat:totem_of_sacrifice` — items/consumables/totems
+- `efn:duskfire_ingot` — items/materials/act-iv-materials
+- `efn:hf_ingot` — items/materials/act-iv-materials
+- `efn:hf_ingot_b` — items/materials/act-iv-materials
+- `iceandfire:deathworm_chitin_red` — items/materials/act-ii-materials
+- `iceandfire:deathworm_chitin_white` — items/materials/act-ii-materials
+- `iceandfire:deathworm_chitin_yellow` — items/materials/act-ii-materials
+- `iceandfire:dragon_flute` — items/dragons/dragon-utility
+- `iceandfire:dragon_horn` — items/dragons/dragon-utility
+- `iceandfire:dragon_meal` — items/dragons/dragon-utility
+- `iceandfire:dragon_stick` — items/dragons/dragon-utility
+- `iceandfire:dragonbone` — items/dragons/dragon-parts
+- `iceandfire:dragonforge_fire_brick` — items/dragons/dragonforges
+- `iceandfire:dragonforge_fire_core` — items/dragons/dragonforges
+- `iceandfire:dragonforge_fire_input` — items/dragons/dragonforges
+- `iceandfire:dragonforge_ice_brick` — items/dragons/dragonforges
+- `iceandfire:dragonforge_ice_core` — items/dragons/dragonforges
+- `iceandfire:dragonforge_ice_input` — items/dragons/dragonforges
+- `iceandfire:dragonforge_lightning_brick` — items/dragons/dragonforges
+- `iceandfire:dragonforge_lightning_core` — items/dragons/dragonforges
+- `iceandfire:dragonforge_lightning_input` — items/dragons/dragonforges
+- `iceandfire:dragonsteel_fire_block` — items/dragons/dragonsteel
+- `iceandfire:dragonsteel_fire_ingot` — items/dragons/dragonsteel
+- `iceandfire:dragonsteel_ice_block` — items/dragons/dragonsteel
+- `iceandfire:dragonsteel_ice_ingot` — items/dragons/dragonsteel
+- `iceandfire:dragonsteel_lightning_block` — items/dragons/dragonsteel
+- `iceandfire:dragonsteel_lightning_ingot` — items/dragons/dragonsteel
+- `iceandfire:fire_dragon_blood` — items/dragons/dragon-parts
+- `iceandfire:fire_dragon_heart` — items/dragons/dragon-parts
+- `iceandfire:ice_dragon_blood` — items/dragons/dragon-parts
+- `iceandfire:ice_dragon_heart` — items/dragons/dragon-parts
+- `iceandfire:lightning_dragon_blood` — items/dragons/dragon-parts
+- `iceandfire:lightning_dragon_heart` — items/dragons/dragon-parts
+- `iceandfire:sapphire_gem` — items/materials/act-ii-materials
+- `iceandfire:troll_leather_forest` — items/materials/act-ii-materials
+- `iceandfire:troll_leather_frost` — items/materials/act-ii-materials
+- `iceandfire:troll_leather_mountain` — items/materials/act-ii-materials
+- `iceandfire:witherbone` — items/dragons/dragon-parts
+- `irons_spellbooks:cinderous_soulcaller` — items/progression-keys/boss-summons
+- `irons_spellbooks:mithril_ingot` — items/materials/act-ii-materials
+- `irons_spellbooks:mithril_ore` — items/materials/act-ii-materials
+- `irons_spellbooks:mithril_scrap` — items/materials/act-ii-materials
+- `irons_spellbooks:mithril_weave` — items/materials/act-ii-materials
+- `minecraft:dragon_breath` — items/materials/act-iv-materials
+- `minecraft:fishing_rod` — items/tools/fishing-rods
+- `minecraft:flint_and_steel` — items/tools/misc-tools
+- `minecraft:shears` — items/tools/misc-tools
+- `nether_remastered:obsidian_infused_bottle` — items/progression-keys/nether-seal
+- `nightfall_invade:disaster_fragment_red` — items/boss-drops/other-boss-drops
+- `soulsweapons:arkenstone` — items/boss-drops/soulslike-drops
+- `soulsweapons:essence_of_eventide` — items/boss-drops/soulslike-drops
+- `soulsweapons:essence_of_luminescence` — items/boss-drops/soulslike-drops
+- `soulsweapons:lord_soul_dark` — items/boss-drops/soulslike-drops
+- `soulsweapons:lord_soul_day_stalker` — items/boss-drops/soulslike-drops
+- `soulsweapons:lord_soul_night_prowler` — items/boss-drops/soulslike-drops
+- `soulsweapons:lord_soul_purple` — items/boss-drops/soulslike-drops
+- `soulsweapons:lord_soul_red` — items/boss-drops/soulslike-drops
+- `soulsweapons:lord_soul_rose` — items/boss-drops/soulslike-drops
+- `soulsweapons:lord_soul_void` — items/boss-drops/soulslike-drops
+- `soulsweapons:lord_soul_white` — items/boss-drops/soulslike-drops
+- `soulsweapons:lost_soul` — items/boss-drops/soulslike-drops
+- `soulsweapons:shard_of_uncertainty` — items/boss-drops/soulslike-drops
+- `soulsweapons:soul_ingot` — items/materials/act-iii-b-materials
+
+## Epic Fight skill book (game-data has no skills.json)
+
+53 entries.
+
+- `cdmoveset:fatalfalsh` — items/skill-books/tier-2/fatal-flash
+- `cdmoveset:yamato_step` — items/skill-books/tier-2/phantom
+- `efn:efn_parry` — items/skill-books/tier-3/parry
+- `efn:execution` — items/skill-books/tier-2/soul-hunt
+- `efn:parry_master` — items/skill-books/tier-3/parry-master
+- `efn:precise_parry` — items/skill-books/end-game/precise-parry
+- `efn:stomp` — items/skill-books/tier-2/gravity-stomp
+- `epicfight:adrenaline_fiend` — items/skill-books/tier-3/adrenaline-fiend
+- `epicfight:berserker` — items/skill-books/tier-3/berserker-skill-book
+- `epicfight:catharsis` — items/skill-books/tier-1/catharsis
+- `epicfight:demolition_leap` — items/skill-books/tier-1/demolition-leap
+- `epicfight:emergency_escape` — items/skill-books/tier-2/emergency-escape
+- `epicfight:endurance` — items/skill-books/tier-2/endurance
+- `epicfight:forbidden_strength` — items/skill-books/tier-1/forbidden-strength
+- `epicfight:hypervitality` — items/skill-books/tier-2/hyper-vitality
+- `epicfight:meteor_slam` — items/skill-books/tier-1/meteor-slam
+- `epicfight:parrying` — items/skill-books/tier-2/parrying
+- `epicfight:revelation` — items/skill-books/tier-2/revelation
+- `epicfight:technician` — items/skill-books/tier-1/technician
+- `epicfight:vengeance` — items/skill-books/end-game/vengeance
+- `epicfightx:combat_mastery_i` — items/skill-books/tier-2/combat-mastery-i
+- `wom:all_eyes_on_me` — items/skill-books/end-game/all-eyes-on-me
+- `wom:all_eyes_on_you` — items/skill-books/end-game/all-eyes-on-you
+- `wom:aqua_maneuvre` — items/skill-books/tier-1/aqua-maneuver
+- `wom:arrow_tenacity` — items/skill-books/tier-3/arrow-tenacity
+- `wom:avatar_of_might` — items/skill-books/tier-1/avatar-of-might
+- `wom:back_and_forth` — items/skill-books/tier-1/back-and-forth
+- `wom:bull_charge` — items/skill-books/tier-2/ravanger-force
+- `wom:buster_parade` — items/skill-books/tier-2/dread-full-buster
+- `wom:counter_attack` — items/skill-books/tier-3/counter-attack
+- `wom:critical_knowledge` — items/skill-books/end-game/critical-knowledge
+- `wom:dancing_blade` — items/skill-books/end-game/dancing-blade
+- `wom:dodge_master` — items/skill-books/tier-1/dodge-master
+- `wom:dopamine` — items/skill-books/tier-1/dopamine
+- `wom:ender_obscuris` — items/skill-books/end-game/ender-obscuris
+- `wom:ender_step` — items/skill-books/tier-3/ender-step
+- `wom:heart_shield` — items/skill-books/end-game/heart-shield
+- `wom:latent_retribution` — items/skill-books/end-game/latent-retribution
+- `wom:lethal_focus` — items/skill-books/end-game/lethal-focus
+- `wom:lunatic_vivacity` — items/skill-books/tier-3/lunatic-vivacity
+- `wom:manipulator` — items/skill-books/tier-3/manipulator
+- `wom:mindset` — items/skill-books/end-game/mindset
+- `wom:natural_sprinter` — items/skill-books/tier-1/natural-sprinter
+- `wom:perfect_bulwark` — items/skill-books/tier-3/perfect-bulwark
+- `wom:precise_roll` — items/skill-books/tier-3/precise-roll
+- `wom:punishment_kick` — items/skill-books/tier-1/punishment-kick
+- `wom:shooting_style` — items/skill-books/tier-1/shooting-style
+- `wom:shulker_cloak` — items/skill-books/tier-3/shulker-cloak
+- `wom:soul_protection` — items/skill-books/tier-3/soul-protection
+- `wom:spider_techniques` — items/skill-books/tier-1/spider-techniques
+- `wom:time_travel` — items/skill-books/end-game/time-travel
+- `wom:vampirize` — items/skill-books/end-game/essence-extortion
+- `wom:voodoo_magic` — items/skill-books/end-game/voodoo-magic

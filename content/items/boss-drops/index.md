@@ -2,15 +2,16 @@
 {
   "title": "Boss Drops",
   "category": "Items",
-  "order": 6,
+  "order": 5,
   "summary": "Materials and trophies that come from bosses."
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  first pass, generated from the game-data dumps only (no instance files or jars read)
+  content/_items-outline.md (page list, groups and quest order)
+-->
 
-Materials and trophies that come from bosses.
+**Boss Drops** — Materials and trophies that come from bosses.
 
 ## In this section
 

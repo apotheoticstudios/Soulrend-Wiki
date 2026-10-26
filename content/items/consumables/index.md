@@ -2,18 +2,19 @@
 {
   "title": "Consumables",
   "category": "Items",
-  "order": 11,
-  "summary": "Healing items, totems and food."
+  "order": 10,
+  "summary": "Healing items, totems and food, one page per category."
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  first pass, generated from the game-data dumps only (no instance files or jars read)
+  content/_items-outline.md (page list, groups and quest order)
+-->
 
-Healing items, totems and food.
+**Consumables** — Healing items, totems and food, one page per category.
 
 ## In this section
 
 - [[items/consumables/healing|Healing]]
 - [[items/consumables/totems|Totems]]
-- [[items/consumables/food|Food]]
+- [[items/consumables/food|Food]] — All food on one page.

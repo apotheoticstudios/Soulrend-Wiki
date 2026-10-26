@@ -76,7 +76,14 @@ Things to watch for:
 - **`client_scripts/`** has tooltips (`tooltips.js`) and JEI hiding (`jei*.js`).
 - **`wiki_export.js`** (server and client) is the wiki's own exporter, which writes to `kubejs/exported/wiki/`. It only runs when `enabled.json` exists.
 
-Recipes that KubeJS scripts **add** (`event.shaped`, `shapeless`, `smithing`, `custom`, and `replaceShaped` in `global.js`) are **not** in `game-data/recipes.json`: the exporter's `forEachRecipe` runs inside the recipes event, before those additions are registered. That covers the Estus and Huge Estus Flasks, Waystone and Warp Stone, Universium, Nightmare and Astral Ingots, the cave keys, the Emblem of the Past, Heart of the Deep, several Legendary Eyes and the skill books. Read the script and hand-write a `recipe` block until the exporter is fixed.
+Recipes that KubeJS scripts **add** (`event.shaped`, `shapeless`, `smithing`, `custom`, and `replaceShaped` in `global.js`) sit in `event.addedRecipes`, not in `forEachRecipe` (which only visits datapack recipes). The exporter reads both, and the 2026-10-25 export has them under ids like `minecraft:kjs/<output>`.
+
+**Recipes are also removed after the KubeJS event**, so the recipe event alone doesn't show the final list:
+
+- **`soulrend_core`'s `config/soulrend_core/recipes/removals.toml`** runs on `TagsUpdatedEvent` and edits the live recipe manager. It drops every recipe whose result is in `#soulrend:deleted_items` or `#soulrend:custom_recipes_only` (plus a few Too Many Bows bows and Create's Andesite Alloy), and every recipe with an ingredient in `#soulrend:deleted_items`. Ids in the `soulrend_core`, `soulrend` and `kubejs` namespaces, and `*:kjs/*`, are never removed. That is how the pack swaps about 680 mod recipes for its own `soulrend:` versions (most of them Mechanical Fusion Anvil or `soulrend_core:upgrade_*` recipes). The class is `net.apotheoticstudios.soulrend_core.recipe.RecipeRules`.
+- **Recipes that fail to parse** in game are skipped (the log says "Failed to parse recipe").
+
+`wiki_export.js` therefore collects the JSON in the recipe event and writes `recipes.json` on server start, keeping only ids the started server still has. Until an export made with that version is synced, `sync-game` applies `removals.toml` itself from the JSON.
 
 ## Paxi datapacks: `config/paxi/datapacks/`
 
@@ -182,8 +189,76 @@ Use `game-data/items.json` and `tags.json`, not registry dumps.
   - weapon tiers (e.g. Epic Knights: 11 materials × 20 weapons)
   - The wiki lists each of these as one group.
 - **Removed or hidden items:**
-  - Item Obliterator removes every `_estoc`, `_stylet`, `_bastardsword`, `_ranseur`, `_ahlspiess` and `myrmex` item.
-  - The `soulrend:deleted_items` tag and `global.deleted_items` (in KubeJS) hide more.
+  - Item Obliterator is meant to remove every `_estoc`, `_stylet`, `_bastardsword`, `_ranseur`, `_ahlspiess`, `_shortswords` and `myrmex` item, but those entries lack the `!` that marks a regular expression, so they match nothing (Known Bugs). Only its exact ids work.
+  - The `soulrend:deleted_items` tag (whose recipes `removals.toml` drops) and `global.deleted_items` (in KubeJS) hide more.
+
+## Epic Fight movesets and weapon abilities
+
+`npm run sync-game` builds `game-data/movesets.json` from these sources (see `tools/lib/movesets.mjs`), and weapon pages show it with the `moveset` embed. When you research a weapon by hand:
+
+- **Weapon types** are registered in each Epic Fight add-on's preset class (Epic Fight, Epic Fight Extra, Weapons of Miracles, WoM Plus, Nightfall, Dawnday, Resurrection, Rapier For EpicFightMod, P1nero's Epic Cataclysm, Epic Fight Awaken, EFR Fix Patch), or as JSON under `data/<ns>/capabilities/weapons/types/`. Soulrend's own types are in `config/paxi/datapacks/soulrend_ef_capabilities/data/soulrend_weapon_types/`.
+- **Which type an item uses:** `data/<ns>/capabilities/weapons/<item>.json`. Soulrend's Paxi pack `soulrend_ef_capabilities` overrides about 830 items. Items with no file get a preset from their class (sword, axe, …).
+- **Overrides to know:** Epic Fight Extra replaces every built-in type (`overwrite = true` in `config/epicfightx.toml`); EFR Fix Patch replaces `cdmoveset:s_tachi` (adds dual-wielding); WoM Plus repoints several WoM items through a pack inside its jar; `efn_enhance` (Nightfall Enhance) swaps Kusabimaru's preset.
+- **Skill text** is in lang under `skill.<ns>.<id>` and `.tooltip`. Nightfall uses `.tooltip` as the title and `.tooltip1…N` for the text. Epic Fight Extra's `epicfightx:*` skills reuse Epic Fight's text.
+- **Weapon abilities outside Epic Fight:**
+  - Simply Swords uniques: numbers in `config/simplyswords_main/unique_effects.json5` (ticks). `config/simply_swords_overhaul-common.toml` enables Simply Swords Overhaul's rework of Emberlash, Molten Edge, Shadowsting, Soul Pyre, Soulrender, Star's Edge, Storm's Edge, Watcher and Whisperwind; the exported tooltip already shows its text. Runic weapons roll their power when crafted or clicked in the inventory.
+  - Soulslike Weaponry: Alt tooltips come from shared ability keys (`tooltip.soulsweapons.<ability>.N`), numbers from `config/soulsweapons/soulsweapons.json`. Its parry (`enable_shield_parry`) applies to every shield.
+  - Dungeons and Combat (MCreator): the item class calls procedures in `hurtEnemy` (hit), `use` (right-click, usually behind a sneak check) and `inventoryTick`; the procedure shows the effect, duration and who gets it. Some tooltip effects (cryolite Freezing, Rotten Hammer's Slowness) have no procedure on the item.
+  - Too Many Bows: Shift text under `item.many_bows.*` and `item.too_many_bows.*`.
+  - Traveloptics: each evolution (Evo 1–3) is a separate `<weapon>_level_one/two/three` item made at a Smithing Table.
+  - P1nero's Epic Cataclysm turns several Cataclysm weapons into skill-point weapons; their exported tooltip shows its text instead of Cataclysm's.
+
+## Armor abilities
+
+- **Dungeons and Combat** set bonuses don't live on the armor items: each set has a `<Set>ArmorBonusSetProcedure` (or similar) under `procedures/` that checks all four slots and applies effects every tick, usually for 2–3 s at a time. "Man of Steel" (+3 armor) is shared by the steel, wolf steel, deserter, royal steel and prisoner pieces.
+- **Soulslike Weaponry** armor uses the same ability keys as its weapons (`tooltip.soulsweapons.<ability>.N`); set abilities need the full set, and only the helmet's item level counts.
+- **Aquamirae** keeps half-set and full-set abilities in `ability.aquamirae.<set>_armor_*` lang keys, with `{#1}` placeholders filled from its config.
+- **Traveloptics** armor abilities are full-set; several toggle on a key that the tooltip shows as `[B]`.
+- **Epic Fight Weight and Stun Armor** on armor come from Soulrend's attribute config, `config/the_config_of_alexandria/`; Epic Fight's lang explains them (`epicfight.tip.weight`, `epicfight.tip.stun_armor`).
+- **Quark's Backpack** is switched off (`[oddities] Backpack = false`), so its tooltip says it is disabled.
+
+## Curios
+
+- **Which items are wearable where** comes from `data/curios/tags/items/<slot>.json` in many jars, not just the item's own mod: Immersive Lanterns makes vanilla lanterns belt curios, Epic Fight x Curios Compat adds Quark paper lanterns and the whole `#supplementaries:keys` tag, and so on.
+- **Traveler's Backpack** keeps ability text in `ability.travelersbackpack.<name>`, but the numbers that matter are elsewhere: tier sizes, upgrades, the permanent-effect list (`backpackEffects`), cooldowns and the allowed abilities are in `defaultconfigs/travelersbackpack-server.toml` (a world's `serverconfig/` copy wins in game); the armor, luck, reach, health and speed bonuses of the Netherite, Diamond, Gold, Iron, Emerald, Enderman, Warden and Fox backpacks are constants in `BackpackAbilities` and have no lang text at all.
+- **Icarus** wings have no tooltips; their behavior is `config/icarus.jsonc` plus the `message.icarus.status.*` lang lines.
+- **Echoes** (Traveloptics, Geomancy Plus) keep their text under `item.<mod>.random_imbue_curio.<school>_unassigned/_assigned.tooltip`.
+- **Samurai Dynasty** masks show their effects under Shift from shared `curios.samurai_dynasty.*` keys.
+- **Iron's Spellbooks curio tooltips can't be taken at face value.** The Ring of Invisibility reveals invisible entities (`EntityMixin.isInvisibleTo`) and the Ring of Visibility does nothing when worn (its only use is the Mirror of Truth ritual); the Amulet of Teleportation needs 125% Ender Spell Power, shows only flavor text below that and drops itself if worn (`TeleportationAmuletItem`); the Greater Conjurer's Talisman's real effect is checked in `SummonManager` and never shown. Search the jar's classes for the item's `ItemRegistry` field before describing one.
+
+## Magic (Iron's Spells 'n Spellbooks and addons)
+
+- **Per-spell settings** live in `config/irons_spellbooks_spell_config/<namespace>/<spell>.json` (enabled, mana and power multipliers, min rarity, cooldown, max level, `allow_crafting`). `abyssal_shroud` and `cloud_of_regeneration` are disabled. The old `[Spells]` section of `irons_spellbooks-server.toml` is gone; the server toml holds only the general settings (`manaRegenMultiplier` 0.1, `scrollRecycleChance` 0.9, `maxUpgrades` 3, …).
+- **Whether a spell can be looted or crafted** isn't in any config. It comes from the spell class:
+  - Traveloptics boss spells extend `AbstractUniqueSpell`, which returns false for both `allowLooting` and `allowCrafting`, so their only sources are the named boss drops.
+  - Weapon spells extend `AbstractWeaponSpell`: never loot, but craftable.
+  - The Eldritch school needs learning (an Eldritch Manuscript opens `EldritchResearchScreen`) and is never random loot.
+  - Alshanex's familiar spells override the methods one by one.
+  - `game-data/spells.json` has `lootable` but not craftability; read the class hierarchy (`tools/lib/classfile.mjs` now returns `superName`).
+- **Named spell drops** are `irons_spellbooks:randomize_spell` functions with `spells` or `spell_filter.spells` in the loot tables; school-limited scroll loot uses `spell_filter.school`. Spells carried by items show in exported tooltips as `[Name level]`. Strip codes with `stripMcCodes`, because the names carry `§#rrggbb` colors.
+- **Spell info lines** come in two formats: Iron's `<value> <label>` and the addons' `<label>: <value>`, plus `◆ Header:` lines followed by `→` sub-lines. The addons also append their mod name as a line.
+- **Upgrade orb types** are read from `data/<ns>/irons_spellbooks/upgrade_orb_type/*.json` (`amount`, `attribute`, `operation`). Soulrend's `soulrend_irons_spellbooks_rebalance` pack writes to `data/<ns>/upgrade_orbs/` with `valuePerLevel`, so it does nothing (logged on the Known Bugs page).
+- **Spell Resistance is a multiplier where 1.0 is neutral.** Damage is multiplied by `2 - softCap(school resist × spell resist)` (`DamageSources.getResist`). `magic_fixes.js` sets mobs' base to 0, which doubles spell damage (logged on the Known Bugs page).
+- **Soulrend's magic recipes** are in `kubejs/server_scripts/magic/` (`ironspells_recipes.js`, `dacxoptics_recipes.js`, `magic_fixes.js` for the Shriving Stone unlock recipes). The spellbook, mage armor and Traveloptics weapon recipes the mods ship are replaced through `#soulrend:custom_recipes_only` in `soulrend_recipes`. `spell_fixes` makes Heartstop's damage bypass everything.
+- **Alshanex's Familiars** shards come only from ritual recipes (`alshanex_familiars:ritual_recipe`, six of thirteen shards). The spell tags under `data/alshanex_familiars/tags/irons_spellbooks/spells/<class>/` say which spells each familiar class casts.
+
+## Apotheosis gear (affixes, gems, reforging)
+
+- **Settings:**
+  - `config/apotheosis/adventure.cfg` has the drop rates: Random Affix Chance 0.1, Gem Drop Chance 0.08 plus Gem Boss Bonus 0.5, and the chest rules.
+  - `config/fallen_gems_affixes-common.toml` has the socket settings: one extra socket on every item, 20% pre-filled sockets, tiered sockets ON, one augment slot, and a 5% augment chance from Fabled bosses.
+  - Soulrend's data overrides live in `config/paxi/datapacks/soulrend_apotheosis_rebalance/` (717 files: gems, affixes, augments, set affixes, universal bosses, enchanting stats, reforging and salvaging recipes, wanderer trades) and `soulrend_apotheosis_additions/` (Soulrend's own Aqua, Geo and Sound gems and three shards, extra affix loot).
+- **Apotheosis reads the dimensional rarity settings as `dimension|min|max`** and ignores extra fields. Soulrend's three-rarity entries therefore cap one tier low, and the one-rarity Past entries fail to parse (`logs/latest.log`: "Invalid Gem Dimensional Rarity"). This is logged on the Known Bugs page.
+- **Gem sources:**
+  - Random gems use `gems.json`'s weight (0 means never random) and dimensions (`minecraft:null` means none).
+  - Fallen Gems' boss gems and the Hydra Scale come from `data/fallen_gems_affixes/loot_modifiers/*_modifier.json` in its jar. `GemLootModifier` drops exactly one gem per player kill, using the listed chances as weights.
+  - Apotheotic Additions' Eyes are shaped crafting recipes whose result carries the gem in NBT.
+  - Soulrend disables `fallen_gems_affixes:compat/spell_general` with a `forge:false` condition.
+- **Gem cutting:** `GemCuttingMenu.getDustCost` is 1 + 2 × the rarity ordinal. `GemCuttingMenu$RarityUpgrade` needs two matching gems plus 3 / 1 / 9 materials of the same / next / previous rarity. Rarity ordinals are in `data/*/rarities/*.json` (Apotheotic Additions: Artifact 6, Heirloom 7, Esoteric 8).
+- **Reforging costs** are `apotheosis:reforging` recipes. Ancient and Artifact each have two, and the Ancient and Esoteric tables take the first match (`getRecipeFor`).
+- **Universal bosses** (Fallen Gems) come from `universal_boss/universal_boss.json` in the rebalance pack (tier chances, dimension tiers, boss affixes). Their drops are in the jar's `universal_boss_loot.json`.
+- **Apotheotic Additions' wandering trader trades** are in its jar under `data/apotheotic_additions/wanderer_trades/`. Most are gated on mods Soulrend doesn't have, so evaluate the `forge:mod_loaded` conditions.
+- **Apotheosis crafts its basic shelves and slot tomes in code** (`EnchModule`, through Placebo's `RecipeHelper`). These recipes reach the recipe manager after the KubeJS recipe event; `wiki_export.js` now rebuilds them from the live recipes.
 
 ## Places with nothing useful
 

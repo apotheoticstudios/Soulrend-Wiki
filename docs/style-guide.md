@@ -201,10 +201,12 @@ Sections:
 
 1. Lead
 2. `## Obtaining`: drops, loot, quests, trades.
-3. `## Usage`: what it does. Abilities, set bonuses and the tooltip explained in words.
-4. `## Crafting`: `{{recipes <id>}}`
-5. `## Used in`: `{{uses <id>}}`
-6. `## Quests`
+3. `## Usage`: what it does. Abilities, set bonuses and the tooltip explained in words, including text hidden behind Shift or Alt.
+4. `## Epic Fight` (armor sets): the set's total Weight and Stun Armor, with Epic Fight's own tip text. Group pages that already list both per piece get a one-line note instead.
+5. `## Moveset` (weapons): one sentence on the Epic Fight category, default style, combo length and innate skill, then `{{moveset <id>}}`. Ranged weapons get the sentence only. Don't retype the combo or skill text; the embed shows it.
+6. `## Crafting`: `{{recipes <id>}}`
+7. `## Used in`: `{{uses <id>}}`
+8. `## Quests`
 
 **One page or a group?** Group by default:
 
@@ -223,6 +225,7 @@ Sections:
 2. `## Comparison`: a table with one row per item (icon link and key stats).
 3. One `## <item name>` section per item, or a one-liner that links to the item's own page.
 4. `## Crafting`: `{{recipes}}` / `{{items tag=…}}` for shared recipes.
+5. Weapon groups: `## Movesets` with one `{{moveset <id>}}` per Epic Fight weapon type the group uses, each saying which weapons use it.
 
 ### Quest or progression step
 

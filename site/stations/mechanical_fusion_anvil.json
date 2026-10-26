@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/station.schema.json",
+  "label": "Mechanical Fusion Anvil",
+  "icon": "cataclysm:mechanical_fusion_anvil",
+  "size": [124, 26],
+  "inputs": [
+    { "at": [0, 4] },
+    { "at": [36, 4] }
+  ],
+  "outputs": [{ "at": [98, 0], "large": true }],
+  "decorations": [
+    { "type": "plus", "at": [21, 7] },
+    { "type": "arrow", "at": [64, 5] }
+  ],
+  "recipes": {
+    "cataclysm:weapon_fusion": "pair"
+  }
+}

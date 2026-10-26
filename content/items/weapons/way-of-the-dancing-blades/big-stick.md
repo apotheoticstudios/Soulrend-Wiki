@@ -1,0 +1,64 @@
+---
+{
+  "title": "Big Stick",
+  "summary": "A battlestaff from EpicFight - Dawnday, part of the Way of the Dancing Blades quest chapter.",
+  "infobox": {
+    "item": "epicfight_dd:wooden_battlestaff",
+    "rows": [
+      ["Type", "Battlestaff"],
+      ["Handling", "Two Handed"],
+      ["Rarity", "Common"],
+      ["Attack damage", "4"],
+      ["Attack speed", "1.60"],
+      ["Durability", "131"]
+    ]
+  },
+  "items": ["epicfight_dd:wooden_battlestaff"]
+}
+---
+<!-- sources:
+  first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
+  content/_items-outline.md (page list, groups and quest order)
+  game-data/items.json (name, rarity, tooltip)
+  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/loot-tables.json (drops)
+  game-data/recipes.json (crafting)
+  game-data/movesets.json (Epic Fight type epicfight_dd:battlestaff_wood, from jar:EpicfightDd-20.14.1.19.2.jar)
+  game-data/items.json (tooltip)
+-->
+
+**Big Stick** is a battlestaff from EpicFight - Dawnday. It is weapon 2 of 37 in [[items/weapons/way-of-the-dancing-blades|Way of the Dancing Blades]], a Pursuit of Mastery quest chapter.
+
+## Obtaining
+
+It is crafted (see [[#Crafting]]).
+
+## Stats
+
+| Stat | Value |
+| --- | --- |
+| Attack Damage | 4 |
+| Attack Speed | 1.60 |
+| Impact | 1.3 |
+| Targets per swing | 5 |
+| Entity Reach | 3 |
+| Durability | 131 |
+| Enchantability | 15 |
+
+## Usage
+
+Its tooltip asks: "This is just a normal stick, right?" It has no abilities of its own: its tooltip lists only stats (see [[#Stats]]), and it fights with the Epic Fight moveset below.
+
+## Moveset
+
+In Epic Fight it is a spear. Its default Two Handed style has a five-hit basic combo and the innate skill Groundslam.
+
+{{moveset epicfight_dd:wooden_battlestaff}}
+
+## Crafting
+
+{{recipes epicfight_dd:wooden_battlestaff}}
+
+## Used in
+
+{{uses epicfight_dd:wooden_battlestaff}}

@@ -3,7 +3,8 @@
 import image from './image.js';
 import items from './items.js';
 import model from './model.js';
+import moveset from './moveset.js';
 import recipe from './recipe.js';
 import { recipes, uses } from './recipes.js';
 
-export const embedTypes = { image, items, model, recipe, recipes, uses };
+export const embedTypes = { image, items, model, moveset, recipe, recipes, uses };

@@ -1,0 +1,1332 @@
+{
+ "alexscaves:arrow_inducting": {
+  "name": "Arrow Inducting",
+  "description": "Resistor Shield transforms any deflected arrows into seeking arrows",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "resistor_shield",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:astral_transferring": {
+  "name": "Astral Transferring",
+  "description": "Mobs possessed by the Totem of Possession can swap possessed status with other, healthier mobs they fight",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "totem_of_possession",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:bonking": {
+  "name": "Bonking",
+  "description": "Primitive Club has a chance to drop heads from slain mobs, as if a charged Creeper killed them",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "primitive_club",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:bouncing_bolt": {
+  "name": "Bouncing Bolt",
+  "description": "Sea Staff water bolt can bounce to a second target after a direct hit",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "sea_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:charting_call": {
+  "name": "Charting Call",
+  "description": "Magic Conch summons additional Deep Ones to aide in combat",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "common",
+  "category": "magic_conch",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:chomping_spirit": {
+  "name": "Chomping Spirit",
+  "description": "Extinction Spear Tremorsaurus attack deals increased damage",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "rare",
+  "category": "extinction_spear",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:crystallization": {
+  "name": "Crystallization",
+  "description": "Galena Gauntlet can move items made of crystal, such as diamond tools",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "galena_gauntlet",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:dark_nock": {
+  "name": "Dark Nock",
+  "description": "Dreadbow can fire arrows at a faster rate",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "dreadbow",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:dazing_sweep": {
+  "name": "Dazing Sweep",
+  "description": "Primitive Club can inflict the Stunned effect in a larger area",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "rare",
+  "category": "primitive_club",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:detonating_death": {
+  "name": "Detonating Death",
+  "description": "Mobs possessed by the Totem of Possession will explode before dying in battle",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "totem_of_possession",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:double_stab": {
+  "name": "Double Stab",
+  "description": "Desolate Dagger attack summons two ghostly blades",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "desolate_dagger",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:enveloping_bubble": {
+  "name": "Enveloping Bubble",
+  "description": "Sea Staff water bolt can envelop the target in a drowning bubble of water",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "sea_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:ferrous_haste": {
+  "name": "Ferrous Haste",
+  "description": "Galena Gauntlet items attack and mine much faster",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "galena_gauntlet",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:field_extension": {
+  "name": "Field Extension",
+  "description": "Galena Gauntlet can move items further away",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "common",
+  "category": "galena_gauntlet",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:flinging": {
+  "name": "Flinging",
+  "description": "Ortholance launch moves the player much further",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "ortholance",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:heavy_slam": {
+  "name": "Heavy Slam",
+  "description": "Resistor Shield first slam attack deals additional damage",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "resistor_shield",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:herd_phalanx": {
+  "name": "Herd Phalanx",
+  "description": "Extinction Spear Grottoceratops defense summons more armored heads",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "extinction_spear",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:humungous_hex": {
+  "name": "Humungous Hex",
+  "description": "Hexes have an additional full block in width for each level",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "uncommon",
+  "category": "sugar_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:impending_stab": {
+  "name": "Impending Stab",
+  "description": "Ghostly dagger attack is delayed and deals increased damage",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "desolate_dagger",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:lasting_morale": {
+  "name": "Lasting Morale",
+  "description": "Deep Ones summoned by Magic Conch will stay around longer",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "magic_conch",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:multiple_mint": {
+  "name": "Multiple Mint",
+  "description": "An additional peppermint is summoned for each level",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "uncommon",
+  "category": "sugar_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:plummeting_flight": {
+  "name": "Plummeting Flight",
+  "description": "Extinction Spear Subterranodon attack carries foes higher and for longer",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "extinction_spear",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:precise_volley": {
+  "name": "Precise Volley",
+  "description": "Dreadbow arrows rain down from the sky to a more central position",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "dreadbow",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:rapid_possession": {
+  "name": "Rapid Possession",
+  "description": "Mobs possessed by the Totem of Possession will move faster",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "totem_of_possession",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:relentless_darkness": {
+  "name": "Relentless Darkness",
+  "description": "Dreadbow fires arrows directly ahead in a continuous stream",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "dreadbow",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:sated_blade": {
+  "name": "Sated Blade",
+  "description": "Ghostly dagger attack increases the food saturation level of the attacker",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "common",
+  "category": "desolate_dagger",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:sea_swing": {
+  "name": "Sea Swing",
+  "description": "Ortholance swing attack summons a single, forwards-facing wave",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "ortholance",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:seapairing": {
+  "name": "Seapairing",
+  "description": "Sea Staff can occasionally regain durability when in the inventory of a submerged entity",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "sea_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:second_wave": {
+  "name": "Second Wave",
+  "description": "Ortholance summons a second, delayed wave after launching the player",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "ortholance",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:seekcandy": {
+  "name": "Seekcandy",
+  "description": "Peppermints created by the staff seek out any entity the attacker looks at",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "sugar_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:shaded_respite": {
+  "name": "Shaded Respite",
+  "description": "Dreadbow will not consume normal arrows or durability if fired in darkness",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "dreadbow",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:sightless": {
+  "name": "Sightless",
+  "description": "Mobs possessed by the Totem of Possession can be controlled without a direct line of sight",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "totem_of_possession",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:soak_seeking": {
+  "name": "Soak Seeking",
+  "description": "Sea Staff water bolts now home-in on targets more accurately",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "sea_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:spell_lasting": {
+  "name": "Spell Lasting",
+  "description": "Hexes last an additional three seconds for each level",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "sugar_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:swiftwood": {
+  "name": "Swiftwood",
+  "description": "Primitive Club can be swung much faster",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "primitive_club",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:taxing_bellow": {
+  "name": "Taxing Bellow",
+  "description": "Using the Magic Conch lowers the opinion held by Deep Ones, but does not decrease durability",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "magic_conch",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:triple_splash": {
+  "name": "Triple Splash",
+  "description": "Sea Staff fires two additional water bolts",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "sea_staff",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:tsunami": {
+  "name": "Tsunami",
+  "description": "Ortholance launch summons a single, gigantic wave",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "ortholance",
+  "treasure": false,
+  "curse": false
+ },
+ "alexscaves:twilight_perfection": {
+  "name": "Twilight Perfection",
+  "description": "Dreadbow arrows glow red and deal double damage if fired at the precise bow charge time",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "dreadbow",
+  "treasure": false,
+  "curse": false
+ },
+ "alexsmobs:board_return": {
+  "name": "Returning Board",
+  "description": "Straddleboard returns instantly to the rider's inventory when broken.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "uncommon",
+  "category": "straddleboard",
+  "treasure": false,
+  "curse": false
+ },
+ "alexsmobs:lavawax": {
+  "name": "Lavawaxed",
+  "description": "Gives the rider of the Straddleboard Fire Resistance.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "uncommon",
+  "category": "straddleboard",
+  "treasure": false,
+  "curse": false
+ },
+ "alexsmobs:serpentfriend": {
+  "name": "Serpent Charmer",
+  "description": "Makes Bone Serpents neutral towards the rider of the Straddleboard.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "straddleboard",
+  "treasure": false,
+  "curse": false
+ },
+ "alexsmobs:straddle_jump": {
+  "name": "Straddle Jump",
+  "description": "Increases the height of Straddleboard jumps.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "straddleboard",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:bane_of_illagers": {
+  "name": "Bane of Illagers",
+  "description": "Illagers take increased damage.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "uncommon",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:berserkers_fury": {
+  "name": "Berserker's Fury",
+  "description": "Become enraged when taking damage. [⌛ 0:45]",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "very_rare",
+  "category": "armor_chest",
+  "treasure": false,
+  "curse": true
+ },
+ "apotheosis:chainsaw": {
+  "name": "Chainsaw",
+  "description": "Trees will be annihilated.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "axe",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:chromatic": {
+  "name": "Chromatic Aberration",
+  "description": "Sheared wool will be changed to a random color.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "uncommon",
+  "category": "shears",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:crescendo": {
+  "name": "Crescendo of Bolts",
+  "description": "Your crossbow may be fired additional times per reload.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "very_rare",
+  "category": "crossbow",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:earths_boon": {
+  "name": "Boon of the Earth",
+  "description": "Ores may be found when mining stone.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "very_rare",
+  "category": "pickaxe",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:endless_quiver": {
+  "name": "Endless Quiver",
+  "description": "Makes all arrows infinite.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "bow",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:exploitation": {
+  "name": "Worker Exploitation",
+  "description": "Wool received is doubled, but the sheep takes damage.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "shears",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:growth_serum": {
+  "name": "Growth Serum",
+  "description": "Sheep have a 50% chance to instantly regrow their wool.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "shears",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:icy_thorns": {
+  "name": "Icy Thorns",
+  "description": "Slows attackers.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "armor_chest",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:infusion": {
+  "name": "Infusion",
+  "description": "Placeholder for Enchantment Crafting",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "apotheosis.null",
+  "treasure": true,
+  "curse": false
+ },
+ "apotheosis:knowledge": {
+  "name": "Knowledge of the Ages",
+  "description": "Enemy drops are directly converted to experience.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:miners_fervor": {
+  "name": "Miner's Fervor",
+  "description": "You will mine very fast, but never instantly.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "rare",
+  "category": "digger",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:natures_blessing": {
+  "name": "Nature's Blessing",
+  "description": "Hoes may be used to bonemeal crops.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "hoe",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:obliteration": {
+  "name": "Obliteration",
+  "description": "Allows anvils to split single enchantments from books they fall upon.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "anvil",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:rebounding": {
+  "name": "Rebounding",
+  "description": "Melee attackers may find themselves much further away.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "core_armor",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:reflective": {
+  "name": "Reflective Defenses",
+  "description": "Blocked attacks may harm the attacker.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "rare",
+  "category": "shield",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:scavenger": {
+  "name": "Scavenger",
+  "description": "Mobs killed may roll their loot tables twice.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "very_rare",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:shield_bash": {
+  "name": "Shield Bash",
+  "description": "Empowers damage done by shields.",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "rare",
+  "category": "shield",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:spearfishing": {
+  "name": "Spearfishing",
+  "description": "Kills with a thrown trident may catch a fish.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "uncommon",
+  "category": "trident",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:splitting": {
+  "name": "Splitting",
+  "description": "Allows anvils to split multiple enchantments from books they fall upon.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "anvil",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:stable_footing": {
+  "name": "Stable Footing",
+  "description": "Negates the mining speed penalty for flying.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "armor_feet",
+  "treasure": false,
+  "curse": false
+ },
+ "apotheosis:tempting": {
+  "name": "Temptation",
+  "description": "Entices nearby farm animals.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "uncommon",
+  "category": "hoe",
+  "treasure": false,
+  "curse": false
+ },
+ "ba_bt:core_temperature": {
+  "name": "Core Temperature",
+  "description": null,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "breakable",
+  "treasure": true,
+  "curse": false
+ },
+ "ba_bt:depth_dropper": {
+  "name": "Depth Dropper",
+  "description": null,
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "breakable",
+  "treasure": true,
+  "curse": false
+ },
+ "combat_evolution:intimidate": {
+  "name": "Intimidate",
+  "description": "After killed an enemy by execution, knock back and stun surrounding non-player targets",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "combat_evolution:massacre": {
+  "name": "Massacre",
+  "description": "Increases the damage dealt by executions",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "uncommon",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "create:capacity": {
+  "name": "Capacity",
+  "description": "Increases Backtank air capacity.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "armor_chest",
+  "treasure": false,
+  "curse": false
+ },
+ "create:potato_recovery": {
+  "name": "Potato Recovery",
+  "description": "Potato Cannon projectiles have a chance to be reused.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "uncommon",
+  "category": "bow",
+  "treasure": false,
+  "curse": false
+ },
+ "deeperdarker:catalysis": {
+  "name": "Catalysis",
+  "description": "Killing mobs will spread sculk nearby.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "very_rare",
+  "category": "weapon",
+  "treasure": true,
+  "curse": false
+ },
+ "deeperdarker:sculk_smite": {
+  "name": "Sculk Smite",
+  "description": "Increases damage to sculk based mobs.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "uncommon",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "efn:broad_blade_enhance": {
+  "name": "BroadBlade - Revolution",
+  "description": "Enabled BroadBlade Passive - Revolution",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "broadblade",
+  "treasure": true,
+  "curse": false
+ },
+ "efn:scythe_enhance": {
+  "name": "Crimson Moon - Demonized",
+  "description": "Every strike echoes with a blood cut while at max energy.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "scythe",
+  "treasure": true,
+  "curse": false
+ },
+ "efn:yamato_doppelganger": {
+  "name": "Yamato-Doppelganger",
+  "description": "Summon Doppelganger to assist in battle",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "yamato",
+  "treasure": true,
+  "curse": false
+ },
+ "efn:yamato_guard": {
+  "name": "Yamato-Guard",
+  "description": "Allow automatic guard when yamato attacking",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "yamato",
+  "treasure": true,
+  "curse": false
+ },
+ "efn:yamato_heavy_rain": {
+  "name": "Yamato-Heavy Rain",
+  "description": "Access to Heavy Rain[Replace Spiral sword]",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "yamato",
+  "treasure": true,
+  "curse": false
+ },
+ "efn:yamato_judgement_cut_end": {
+  "name": "Yamato-Judgement Cut End",
+  "description": "SLAY ALL",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "yamato",
+  "treasure": true,
+  "curse": false
+ },
+ "efn:yamato_summoned_sword": {
+  "name": "Yamato-Summoned Sword",
+  "description": "Summon phantom swords to assist in battle",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "yamato",
+  "treasure": true,
+  "curse": false
+ },
+ "efn:yamato_summoned_sword_end": {
+  "name": "Summoned Sword End",
+  "description": "Summoned Swords will automatically perform in actions",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "yamato",
+  "treasure": true,
+  "curse": false
+ },
+ "farmersdelight:backstabbing": {
+  "name": "Backstabbing",
+  "description": "Amplifies damage when striking a target from behind.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "uncommon",
+  "category": "knife",
+  "treasure": false,
+  "curse": false
+ },
+ "medievalorigins:featherweight": {
+  "name": "Featherweight",
+  "description": "This enchantment can be applied to heavy armor to prevent slowing down Ungoliant, Elves, Alfiq, or those with wings.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "armor",
+  "treasure": false,
+  "curse": false
+ },
+ "medievalorigins:mirroring": {
+  "name": "Mirroring",
+  "description": "With this enchantment applied to helmets, players are immune to a Gorgon's petrifying gaze and Dwarves can see normally in the daylight.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "armor_head",
+  "treasure": true,
+  "curse": false
+ },
+ "minecraft:aqua_affinity": {
+  "name": "Aqua Affinity",
+  "description": "Increases mining speed while underwater.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "armor_head",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:bane_of_arthropods": {
+  "name": "Bane of Arthropods",
+  "description": "Increases damage against arthropods such as Spiders and Silverfish.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "uncommon",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:binding_curse": {
+  "name": "Curse of Binding",
+  "description": "Prevents the cursed item from being removed from an armor slot.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "wearable",
+  "treasure": true,
+  "curse": true
+ },
+ "minecraft:blast_protection": {
+  "name": "Blast Protection",
+  "description": "Reduces damage from explosions and explosion knockback.",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "rare",
+  "category": "armor",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:channeling": {
+  "name": "Channeling",
+  "description": "Allows the trident to summon lightning bolts during thunderstorms.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "trident",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:depth_strider": {
+  "name": "Depth Strider",
+  "description": "Increases movement speed while underwater.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "armor_feet",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:efficiency": {
+  "name": "Efficiency",
+  "description": "Increases mining speed of the tool.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "common",
+  "category": "digger",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:feather_falling": {
+  "name": "Feather Falling",
+  "description": "Reduces fall damage and ender pearl teleportation damage.",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "uncommon",
+  "category": "armor_feet",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:fire_aspect": {
+  "name": "Fire Aspect",
+  "description": "Causes additional fire damage when used to attack a mob.",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "rare",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:fire_protection": {
+  "name": "Fire Protection",
+  "description": "Reduces the effects of fire damage. Also reduces the burn time when set on fire.",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "uncommon",
+  "category": "armor",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:flame": {
+  "name": "Flame",
+  "description": "Arrows fired from the bow will deal additional fire damage.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "bow",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:fortune": {
+  "name": "Fortune",
+  "description": "Some blocks like coal and diamond ore may drop additional items.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "digger",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:frost_walker": {
+  "name": "Frost Walker",
+  "description": "Water under the user will freeze into frosted ice.",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "rare",
+  "category": "armor_feet",
+  "treasure": true,
+  "curse": false
+ },
+ "minecraft:impaling": {
+  "name": "Impaling",
+  "description": "Increases damage to aquatic mobs.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "rare",
+  "category": "trident",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:infinity": {
+  "name": "Infinity",
+  "description": "Allows the bow to fire normal arrows for free. You must have at least one arrow for this to work.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "bow",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:knockback": {
+  "name": "Knockback",
+  "description": "Increases the knockback strength of the weapon.",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "uncommon",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:looting": {
+  "name": "Looting",
+  "description": "Mobs will drop more loot when killed.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:loyalty": {
+  "name": "Loyalty",
+  "description": "Allows the trident to automatically return after being thrown.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "uncommon",
+  "category": "trident",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:luck_of_the_sea": {
+  "name": "Luck of the Sea",
+  "description": "Increases the chance of getting good loot while fishing.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "fishing_rod",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:lure": {
+  "name": "Lure",
+  "description": "Decreases the amount of time it takes for a fish to bite the hook.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "fishing_rod",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:multishot": {
+  "name": "Multishot",
+  "description": "Fires additional arrows in similar directions.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "crossbow",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:piercing": {
+  "name": "Piercing",
+  "description": "Allows projectiles to pierce through mobs.",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "common",
+  "category": "crossbow",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:power": {
+  "name": "Power",
+  "description": "Increases the damage of arrows fired from the bow.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "common",
+  "category": "bow",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:projectile_protection": {
+  "name": "Projectile Protection",
+  "description": "Reduces damage from projectiles such as arrows and fire balls.",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "uncommon",
+  "category": "armor",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:protection": {
+  "name": "Protection",
+  "description": "Reduces damage from most sources.",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "common",
+  "category": "armor",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:punch": {
+  "name": "Punch",
+  "description": "Increases the knockback strength of arrows fired by the bow.",
+  "minLevel": 1,
+  "maxLevel": 2,
+  "rarity": "rare",
+  "category": "bow",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:quick_charge": {
+  "name": "Quick Charge",
+  "description": "Increases the reload speed of crossbows.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "uncommon",
+  "category": "crossbow",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:respiration": {
+  "name": "Respiration",
+  "description": "Allows the user to breathe longer underwater.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "armor_head",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:riptide": {
+  "name": "Riptide",
+  "description": "Using the trident while in rain or water will launch the user forward.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "trident",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:sharpness": {
+  "name": "Sharpness",
+  "description": "Increases the damage of the item.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "common",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:silk_touch": {
+  "name": "Silk Touch",
+  "description": "Allows fragile blocks such as glass to be collected.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "digger",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:smite": {
+  "name": "Smite",
+  "description": "Increases damage against undead mobs such as Zombies and Skeletons.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "uncommon",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:soul_speed": {
+  "name": "Soul Speed",
+  "description": "Increases movement speed on soul blocks.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "very_rare",
+  "category": "armor_feet",
+  "treasure": true,
+  "curse": false
+ },
+ "minecraft:sweeping": {
+  "name": "Sweeping Edge",
+  "description": "Increases the damage of sweeping attacks.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "rare",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:swift_sneak": {
+  "name": "Swift Sneak",
+  "description": "Increases movement speed while sneaking.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "very_rare",
+  "category": "armor_legs",
+  "treasure": true,
+  "curse": false
+ },
+ "minecraft:thorns": {
+  "name": "Thorns",
+  "description": "Causes damage to enemies when they attack you.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "very_rare",
+  "category": "armor_chest",
+  "treasure": false,
+  "curse": false
+ },
+ "minecraft:vanishing_curse": {
+  "name": "Curse of Vanishing",
+  "description": "Destroys the cursed item if you die with it in your inventory.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "very_rare",
+  "category": "vanishable",
+  "treasure": true,
+  "curse": true
+ },
+ "obscure_api:distance": {
+  "name": "Distance",
+  "description": "Increase the radius of the projectile's orbit.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "common",
+  "category": "dynamic_projectile_distance",
+  "treasure": false,
+  "curse": false
+ },
+ "obscure_api:fast_spin": {
+  "name": "Fast Spin",
+  "description": "Increase the flight speed of projectile.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "common",
+  "category": "dynamic_projectile_fast_spin",
+  "treasure": false,
+  "curse": false
+ },
+ "obscure_api:mirror": {
+  "name": "Mirror",
+  "description": "Duplicates projectile, but each duplicate will only deal 50% damage.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "uncommon",
+  "category": "dynamic_projectile_mirror",
+  "treasure": false,
+  "curse": false
+ },
+ "origins:water_protection": {
+  "name": "Water Protection",
+  "description": "Delays damage from hydrophobia.",
+  "minLevel": 1,
+  "maxLevel": 4,
+  "rarity": "rare",
+  "category": "armor",
+  "treasure": true,
+  "curse": false
+ },
+ "passablefoliage:leaf_walker": {
+  "name": "Leaf Walker",
+  "description": "Allows the player to walk on foliage blocks.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "common",
+  "category": "armor_feet",
+  "treasure": false,
+  "curse": true
+ },
+ "samurai_dynasty:returning_blade": {
+  "name": "Returning Blade",
+  "description": "The Kunai does not lose durability when used.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "soulsweapons:stagger": {
+  "name": "Stagger",
+  "description": "Apply 'Posture Loss' on target. At max loss, Posture Break target.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "uncommon",
+  "category": "weapon",
+  "treasure": false,
+  "curse": false
+ },
+ "too_many_bows:ricochet": {
+  "name": "Ricochet",
+  "description": "Allows arrows to ricochet off more surfaces for the Astral Bound Bow only.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "uncommon",
+  "category": "bow",
+  "treasure": false,
+  "curse": false
+ },
+ "too_many_bows:spectral": {
+  "name": "Spectral",
+  "description": "Allows arrows to pass through additional obstacles.",
+  "minLevel": 1,
+  "maxLevel": 3,
+  "rarity": "uncommon",
+  "category": "bow",
+  "treasure": false,
+  "curse": false
+ },
+ "veinmining:vein_mining": {
+  "name": "Vein Mining",
+  "description": "Breaks matching connected blocks when mining.",
+  "minLevel": 1,
+  "maxLevel": 1,
+  "rarity": "rare",
+  "category": "veinmining:vein_mining",
+  "treasure": false,
+  "curse": false
+ },
+ "wom:invigoration": {
+  "name": "Invigoration",
+  "description": "Increase your stamina by 2 per level.",
+  "minLevel": 1,
+  "maxLevel": 5,
+  "rarity": "rare",
+  "category": "armor",
+  "treasure": false,
+  "curse": false
+ }
+}

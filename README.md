@@ -112,6 +112,7 @@ Write embeds on a line of their own, as a one-line shortcode or a fenced JSON bl
 | `items` | `{{items minecraft:diamond minecraft:emerald}}`, `{{items tag=minecraft:planks}}` | A grid of items with tooltips. |
 | `image` | `{{image mobs/wraith.png caption="A wraith" align=right width=240 pixelated=true}}` | Path under `assets/`. |
 | `model` | `{{model mobs/wraith.glb animation=idle poster=mobs/wraith.png}}` | 3D viewer (see below). |
+| `moveset` | `{{moveset minecraft:iron_sword}}`, `{{moveset type=epicfight:longsword}}` | The item's Epic Fight moveset from `game-data/movesets.json`: per style, its combo, dash and jump attacks and innate skill, then what each skill does. With `type=`, a weapon type without a particular item. |
 
 Hand-written recipes use any station in `site/stations/`. `#tag` ingredients cycle through the tag's items.
 
@@ -154,7 +155,7 @@ A station is a diagram layout in Minecraft GUI pixels (slots are 18×18, drawn a
 }
 ```
 
-The adapters are `shaped`, `shapeless`, `cooking`, `single`, `smithing` and `generic`, all in `src/render/recipes/adapters/index.js`. If a mod's recipe format matches one of them, map its type in a station. For a mod with an unusual format, add a small adapter function there.
+The adapters are `shaped`, `shapeless`, `cooking`, `single`, `smithing`, `pair` (base + addition, no template) and `generic`, all in `src/render/recipes/adapters/index.js`. If a mod's recipe format matches one of them, map its type in a station. For a mod with an unusual format, add a small adapter function there.
 
 Use `"flow": true` instead of `size`/`inputs`/`outputs` for an automatic row layout. Recipe types no station claims are still shown with the generic row layout, labelled from the type name.
 
@@ -164,10 +165,23 @@ Use `"flow": true` instead of `size`/`inputs`/`outputs` for an automatic row lay
 
 1. **Jar scan** (automatic). Item names, flat icons, recipes and tags straight from the mod jars. This works without starting the game, but it misses KubeJS recipe changes, tooltips, rarities and 3D block icons.
 2. **In-game export** (exact data). To set it up:
-   1. Copy `tools/kubejs/server_scripts/wiki_export.js` and `tools/kubejs/client_scripts/wiki_export.js` into the instance's `kubejs/` folders.
+   1. Run `npm run install-kubejs`. It copies `tools/kubejs/server_scripts/wiki_export.js` and `tools/kubejs/client_scripts/wiki_export.js` into the instance's `kubejs/` folders, replacing the old copies (`--instance <dir>` for another instance). Run it again after changing either script.
    2. Create `kubejs/exported/wiki/enabled.json` containing `{}`. Without this file the scripts do nothing, so they're harmless if they ever ship with the pack.
-   3. Start the game and open a single-player world. On load, the server script writes `recipes.json` and `tags.json`. When you join, the client script writes `items.json` and tells you in chat.
-   4. Run `npm run sync-game`.
+   3. Start the game and open a single-player world **on a fresh character with nothing equipped and no origin bonuses**. Spell values and Epic Fight styles are read with your player as the caster, so gear or origin bonuses would leak into them. On load, the server script writes `recipes.json`, `tags.json` and `loot_tables.json`. When you join, it writes `item_stats.json`, and the client script writes `items.json`, `gems.json`, `skills.json`, `spells.json`, `attributes.json`, `effects.json` and `enchantments.json`. Each step reports in chat, and a step that fails doesn't stop the others.
+   4. Run `npm run sync-game`. Its `data:` line lists the extra files it copied.
+
+   The extra files land in `game-data/` for writing pages; the build doesn't read them yet:
+
+   | File | Holds |
+   | --- | --- |
+   | `item-stats.json` | Per item: attribute modifiers per equipment slot, durability, stack size, enchantability, burn time, tool tier, armor values, food, curio slots and curio attributes, Apotheosis loot category, Epic Fight weapon data (category, innate skill, damage attributes per style), spellbook slots. |
+   | `gems.json` | Apotheosis gems: weight, dimensions, rarity range and the bonus lines at every rarity. |
+   | `skills.json` | Epic Fight skills: name, category, resource, cost and description. |
+   | `spells.json` | Iron's Spellbooks spells: school, cast type, cooldown, and per level the rarity, mana cost, cast time and info lines. |
+   | `attributes.json`, `effects.json`, `enchantments.json` | Names, descriptions and basic properties. |
+   | `loot-tables.json`, `loot-index.json` | Every loot table after datapack overrides, and an index from each item to the tables and pools that drop it. Global loot modifiers and drops made in code are not included. |
+
+   Attribute amounts are the raw modifiers. Main-hand attack damage doesn't include the player's base 1, which the vanilla tooltip adds. Tooltip lines that mods only show while Shift is held can't be exported.
 3. **Rendered icons** (exact inventory icons, including 3D items and Every Compat's runtime-generated blocks). Use [IconExporter](https://www.curseforge.com/minecraft/mc-mods/iconexporter), in the dev instance only:
    1. Download **IconExporter** and its required library **Cyclops Core** for Forge 1.20.1, and put both jars in the instance's `mods/` folder. The CurseForge page shows newer versions first, so open the full Files list and filter to 1.20.1.
    2. Launch the game, open any world, and run `/iconexporter export 32`. The `32` matches `iconSize` in `site.json`; without it the mod uses 64. Wait for it to finish (Escape cancels). With about 14,000 items this takes a while.
@@ -180,9 +194,15 @@ Use `"flow": true` instead of `size`/`inputs`/`outputs` for an automatic row lay
 
    Without rendered icons, the jar scan falls back to the flat texture an item model points at. Items the game draws in 3D with code (GeckoLib weapons, banners, chests, …) and Every Compat items have no usable flat texture, so they show the magenta "missing" checkerboard until you export.
 
+**Movesets** (`game-data/movesets.json`, read by the `moveset` embed) need no export step. `sync-game` reads them from the instance on every run:
+
+- Weapon types registered in mod code are read from the jars' bytecode (`tools/lib/classfile.mjs`), by replaying each preset's builder calls (combos, innate skills, styles).
+- Datapack weapon types and item capabilities come from the jars, from packs embedded in jars (`packs/<name>/data/…`), and from Paxi datapacks, which win.
+- The in-game export's `item-stats.json` (Epic Fight category, default style and innate skill per item) settles ties and is checked against the result. `sync-game` warns about items that disagree, and stores the game's innate skill on such an item.
+
 Re-run the export (open a world with `enabled.json` present, then `npm run sync-game`) whenever recipes, items or tags change. If a script errors, the KubeJS log says where.
 
-`game-data/` only covers items, recipes and tags. For everything else (quests, acts, origins, skill trees, boss spawns), read the instance directly: [`docs/instance-guide.md`](docs/instance-guide.md) says where each thing lives and which files to skip.
+`game-data/` only covers items, recipes, tags, the export's data files and Epic Fight movesets. For everything else (quests, acts, origins, skill trees, boss spawns), read the instance directly: [`docs/instance-guide.md`](docs/instance-guide.md) says where each thing lives and which files to skip.
 
 ## Font
 

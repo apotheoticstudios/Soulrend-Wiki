@@ -8,14 +8,18 @@
 //      Needs no running game, but misses KubeJS changes, tooltips and 3D block icons.
 //      --packs applies resource-pack models and textures on top, in the order given.
 //   2. kubejs/exported/wiki/{items,recipes,tags}.json, written in game by tools/kubejs/*/wiki_export.js:
-//      exact names, rarities, tooltips, and recipes/tags after KubeJS changes.
+//      exact names, rarities, tooltips, and recipes/tags after KubeJS changes. The same export's data
+//      files (EXPORT_DATA below) are copied as they are, plus loot-index.json built from loot tables.
 //   3. Rendered icons from an icon-export mod (a folder of <namespace>__<path>.png files).
+// movesets.json (Epic Fight weapon types, combos and skills) is read from mod bytecode and capability JSON;
+// see tools/lib/movesets.mjs.
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { unzipSync, strFromU8 } from 'fflate';
 import { PNG } from 'pngjs';
+import { extractMovesets } from './lib/movesets.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'game-data');
@@ -30,6 +34,17 @@ const CLIENT_JAR = arg('jar', path.join(CURSEFORGE, 'Install/versions/1.20.1/1.2
 const PACKS = (arg('packs', '') || '').split(',').map(s => s.trim()).filter(Boolean)
   .map(p => path.isAbsolute(p) ? p : path.join(INSTANCE, 'resourcepacks', p));
 const EXPORT_DIR = path.join(INSTANCE, 'kubejs/exported/wiki');
+// In-game export files copied to game-data/ unchanged: export name -> game-data name.
+const EXPORT_DATA = {
+  'item_stats.json': 'item-stats.json',
+  'loot_tables.json': 'loot-tables.json',
+  'gems.json': 'gems.json',
+  'skills.json': 'skills.json',
+  'spells.json': 'spells.json',
+  'attributes.json': 'attributes.json',
+  'effects.json': 'effects.json',
+  'enchantments.json': 'enchantments.json',
+};
 
 const LANG = /^assets\/([a-z0-9_.-]+)\/lang\/en_us\.json$/;
 const MODEL = /^assets\/([a-z0-9_.-]+)\/models\/([a-z0-9_./-]+)\.json$/;
@@ -244,6 +259,59 @@ function expandTags(itemIds) {
   return tags;
 }
 
+// soulrend_core's removals.toml runs on TagsUpdatedEvent, after the KubeJS recipe event, so an export made
+// before wiki_export.js filtered against the live recipe manager (and the jar scan) still has those recipes.
+// Mirrors RecipeRules: protected ids are kept; byOutput tests the result item; byInput tests every
+// ingredient, with smithing slots only on vanilla smithing recipes. Ingredients are read from the JSON.
+const PROTECTED_RECIPE_NAMESPACES = new Set(['soulrend_core', 'soulrend', 'kubejs']);
+const RESULT_KEYS = new Set(['result', 'results', 'output', 'outputs']);
+const SMITHING_KEYS = new Set(['template', 'base', 'addition']);
+const VANILLA_SMITHING = new Set(['minecraft:smithing_transform', 'minecraft:smithing_trim']);
+
+function readRecipeRemovals() {
+  const file = path.join(INSTANCE, 'config/soulrend_core/recipes/removals.toml');
+  if (!fs.existsSync(file)) return null;
+  const text = fs.readFileSync(file, 'utf8').replace(/^\s*#.*$/gm, '');
+  const list = key => {
+    const m = new RegExp(`^\\s*${key}\\s*=\\s*\\[([^\\]]*)\\]`, 'm').exec(text);
+    return m ? [...m[1].matchAll(/"([^"]*)"|'([^']*)'/g)].map(q => (q[1] ?? q[2]).trim()) : [];
+  };
+  return { byId: list('byId'), byOutput: list('byOutput'), byInput: list('byInput'), byMod: list('byMod') };
+}
+
+function removeRecipes(recipes, rules, tags) {
+  const items = entries => new Set(entries.flatMap(e => e.startsWith('#') ? tags[e.slice(1)] ?? [] : [e]));
+  const ids = new Set(rules.byId);
+  const mods = new Set(rules.byMod);
+  const outputs = items(rules.byOutput);
+  const inputs = items(rules.byInput);
+  const resultOf = json => {
+    for (const key of RESULT_KEYS) {
+      if (json[key] == null) continue;
+      const r = Array.isArray(json[key]) ? json[key][0] : json[key];
+      return typeof r === 'string' ? r : r?.item ?? r?.id;
+    }
+    return null;
+  };
+  const usesInput = (value, smithing) => {
+    if (Array.isArray(value)) return value.some(v => usesInput(v, smithing));
+    if (!value || typeof value !== 'object') return false;
+    if (typeof value.item === 'string' && inputs.has(value.item)) return true;
+    if (typeof value.tag === 'string' && (tags[value.tag] ?? []).some(id => inputs.has(id))) return true;
+    return Object.entries(value).some(([k, v]) => !RESULT_KEYS.has(k) && k !== 'tool' && (smithing || !SMITHING_KEYS.has(k)) && usesInput(v, smithing));
+  };
+  const removed = [];
+  for (const [id, json] of Object.entries(recipes)) {
+    const [ns, recipePath] = id.split(':');
+    if (PROTECTED_RECIPE_NAMESPACES.has(ns) || recipePath.startsWith('kjs/')) continue;
+    if (ids.has(id) || mods.has(ns) || outputs.has(resultOf(json)) || (inputs.size && usesInput(json, VANILLA_SMITHING.has(json.type)))) {
+      removed.push(id);
+      delete recipes[id];
+    }
+  }
+  return removed;
+}
+
 function readExport(name) {
   const file = path.join(EXPORT_DIR, name);
   if (!fs.existsSync(file)) return null;
@@ -259,6 +327,33 @@ function findIconExport() {
     .map(d => path.join(INSTANCE, d.name))
     .sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs);
   return candidates[0] ?? null;
+}
+
+// item id -> every loot-table entry that can drop it. Only data-driven tables: global loot modifiers
+// and drops made in code aren't loot tables. Weight is out of the pool's total entry weight.
+function lootIndex(tables) {
+  const index = {};
+  const countOf = functions => {
+    const fn = (functions ?? []).find(f => String(f.function).replace(/^minecraft:/, '') === 'set_count');
+    return fn ? fn.count : 1;
+  };
+  for (const [table, json] of Object.entries(tables)) {
+    // A table the game failed to serialize comes through as null.
+    (json?.pools ?? []).forEach((pool, p) => {
+      const entries = pool.entries ?? [];
+      const totalWeight = entries.reduce((sum, e) => sum + (e.weight ?? 1), 0);
+      // Items inside alternatives/group/sequence entries share the parent's weight; `within` names it.
+      const visit = (entry, weight, within) => {
+        const type = String(entry.type ?? '').replace(/^minecraft:/, '');
+        if (type === 'item' && entry.name) {
+          (index[entry.name] ??= []).push({ table, pool: p, weight, totalWeight, rolls: pool.rolls ?? 1, count: countOf(entry.functions), conditions: (entry.conditions ?? pool.conditions ?? []).length > 0, ...(within && { within }) });
+        }
+        for (const child of entry.children ?? []) visit(child, weight, within ?? type);
+      };
+      for (const entry of entries) visit(entry, entry.weight ?? 1, null);
+    });
+  }
+  return index;
 }
 
 function writeJson(name, value) {
@@ -330,6 +425,8 @@ if (!recipes) {
   }
 }
 const tags = exported.tags ?? expandTags(itemIds);
+const removalRules = readRecipeRemovals();
+const removedRecipes = removalRules ? removeRecipes(recipes, removalRules, tags) : [];
 
 // Icons: a rendered export wins; otherwise the texture the item's model points at.
 const rendered = new Map();
@@ -421,19 +518,37 @@ writeJson('glyphs.json', glyphs);
 writeJson('items.json', items);
 writeJson('recipes.json', recipes);
 writeJson('tags.json', tags);
+const exportedData = [];
+for (const [name, target] of Object.entries(EXPORT_DATA)) {
+  const data = readExport(name);
+  if (!data) {
+    fs.rmSync(path.join(OUT, target), { force: true });
+    if (name === 'loot_tables.json') fs.rmSync(path.join(OUT, 'loot-index.json'), { force: true });
+    continue;
+  }
+  writeJson(target, data);
+  exportedData.push(`${target.replace(/\.json$/, '')} (${Object.keys(data).length})`);
+  if (name === 'loot_tables.json') writeJson('loot-index.json', lootIndex(data));
+}
+const movesets = extractMovesets({ instance: INSTANCE, itemStats: readExport('item_stats.json') ?? {} });
+writeJson('movesets.json', movesets.data);
 const source = {
   syncedAt: new Date().toISOString(),
   items: exported.items ? 'kubejs export' : 'jar scan',
   recipes: exported.recipes ? 'kubejs export' : 'jar scan',
+  recipesRemoved: removalRules ? removedRecipes.length : null,
   tags: exported.tags ? 'kubejs export' : 'jar scan',
+  data: exportedData,
   icons: { folder: rendered.size ? path.relative(INSTANCE, iconDir) : null, ...iconCounts },
 };
 writeJson('source.json', source);
 
 console.log(`Wrote game-data/ in ${((performance.now() - started) / 1000).toFixed(1)} s
   items:   ${itemIds.size} (${source.items})
-  recipes: ${Object.keys(recipes).length} (${source.recipes})
+  recipes: ${Object.keys(recipes).length} (${source.recipes}; ${removalRules ? `${removedRecipes.length} dropped by soulrend_core removals.toml` : 'removals.toml not found'})
   tags:    ${Object.keys(tags).length} (${source.tags})
+  data:    ${exportedData.length ? exportedData.join(', ') : 'none (run the in-game export)'}
+  movesets: ${movesets.summary}
   glyphs:  ${Object.keys(glyphs).length} tooltip icons from ${fontProviders.length} font sheets
   icons:   ${iconCounts.rendered} rendered, ${iconCounts.flat} flat textures, ${iconCounts.none} missing (${iconCounts.entity} are 3D-rendered items that need the icon export)`);
 if (!exported.recipes) {

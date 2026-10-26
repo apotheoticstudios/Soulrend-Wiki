@@ -12,8 +12,9 @@ const escape = s => s.replace(/[&<>"]/g, c => ESCAPES[c]);
 // Private-use characters are mod font icons; the build turns each known one into a .g-<codepoint> sprite.
 const withGlyphs = s => escape(s).replace(/[\uE000-\uF8FF]/g, c => `<span class="mc-glyph g-${c.codePointAt(0).toString(16)}" aria-hidden="true"></span>`);
 
-// §rainbow is a mod's own marker (Apotheosis ancient materials), not a vanilla code; drop it whole.
-const CODE = /§(#[0-9a-f]{6}|rainbow|.)/gi;
+// §rainbow (Apotheosis ancient materials) and §fabled (Fallen Gems' Fabled rarity) are mods' own markers,
+// not vanilla codes; drop them whole rather than reading §f + "abled".
+const CODE = /§(#[0-9a-f]{6}|rainbow|fabled|.)/gi;
 
 // Plain text without §-codes, for link labels, search and other places that can't show colour.
 export function stripMcCodes(text) {
@@ -33,9 +34,9 @@ export function mcTextToHtml(text) {
         // §#rrggbb: hex colour, written by the KubeJS export for colours outside the 16 named ones.
         style = { color: hex[0] };
         chunk = part.slice(7);
-      } else if (/^rainbow/i.test(part)) {
+      } else if (/^(rainbow|fabled)/i.test(part)) {
         style = {};
-        chunk = part.slice(7);
+        chunk = part.slice(/^rainbow/i.test(part) ? 7 : 6);
       } else if (code in COLORS) style = { color: COLORS[code] };
       else if (code === 'r') style = {};
       else if (code === 'l') style = { ...style, bold: true };

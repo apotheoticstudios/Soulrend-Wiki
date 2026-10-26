@@ -2,21 +2,23 @@
 {
   "title": "Progression Keys",
   "category": "Items",
-  "order": 7,
+  "order": 6,
   "summary": "Eyes, keys, seals and summoning items that gate progression."
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  first pass, generated from the game-data dumps only (no instance files or jars read)
+  content/_items-outline.md (page list, groups and quest order)
+-->
 
-Eyes, keys, seals and summoning items that gate progression.
+**Progression Keys** — Eyes, keys, seals and summoning items that gate progression.
 
 ## In this section
 
 - [[items/progression-keys/legendary-eyes|Legendary Eyes]] — The 16 End Remastered eyes. Five eye quests open Act IV, and the End portal needs twelve different eyes.
 - [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]] — The eight eyes that open the Eight Sins dimensions.
 - [[items/progression-keys/nether-seal|Nether Seal]] — The four seal pieces, the crystal and the Seal of the Underworld that open the Nether.
-- [[items/progression-keys/sky-arena-keys|Sky Arena Keys]]
+- [[items/progression-keys/emblem-of-the-past|Emblem of the Past (Items)]]
+- [[items/progression-keys/sky-arena-keys|Sky Arena Keys]] — Only the Ice Key and the trophies; the other arena keys are disabled.
 - [[items/progression-keys/cave-dimension-keys|Cave Dimension Keys]]
 - [[items/progression-keys/boss-summons|Boss Summons]]

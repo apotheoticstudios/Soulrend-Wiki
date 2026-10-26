@@ -45,6 +45,12 @@ export const adapters = {
     };
   },
 
+  // base + addition with no template, e.g. cataclysm:weapon_fusion (Mechanical Fusion Anvil).
+  pair(json, r) {
+    if (json.base === undefined || json.addition === undefined) throw new Error('expected "base" and "addition"');
+    return { inputs: [r.ingredient(json.base), r.ingredient(json.addition)], outputs: [r.output(json.result, json.count)] };
+  },
+
   // Best effort for mod recipes: collects the usual input/output field names into a row.
   generic(json, r) {
     const inputs = [];

@@ -1,0 +1,2324 @@
+{
+ "alexscaves:bubbled": {
+  "name": "Bubbled",
+  "description": null,
+  "category": "harmful",
+  "color": 2209279
+ },
+ "alexscaves:darkness_incarnate": {
+  "name": "Darkness Incarnate",
+  "description": null,
+  "category": "beneficial",
+  "color": 5312014
+ },
+ "alexscaves:deepsight": {
+  "name": "Deepsight",
+  "description": null,
+  "category": "beneficial",
+  "color": 10610
+ },
+ "alexscaves:irradiated": {
+  "name": "Irradiated",
+  "description": null,
+  "category": "harmful",
+  "color": 7853582
+ },
+ "alexscaves:magnetizing": {
+  "name": "Magnetizing",
+  "description": null,
+  "category": "neutral",
+  "color": 5461356
+ },
+ "alexscaves:rage": {
+  "name": "Rage",
+  "description": null,
+  "category": "neutral",
+  "color": 12201518
+ },
+ "alexscaves:stunned": {
+  "name": "Stunned",
+  "description": null,
+  "category": "harmful",
+  "color": 16776133
+ },
+ "alexscaves:sugar_rush": {
+  "name": "Sugar Rush",
+  "description": null,
+  "category": "beneficial",
+  "color": 16753899
+ },
+ "alexsmobs:bug_pheromones": {
+  "name": "Bug Pheromones",
+  "description": null,
+  "category": "beneficial",
+  "color": 7882315
+ },
+ "alexsmobs:clinging": {
+  "name": "Clinging",
+  "description": null,
+  "category": "beneficial",
+  "color": 12405579
+ },
+ "alexsmobs:debilitating_sting": {
+  "name": "Debilitating Sting",
+  "description": null,
+  "category": "neutral",
+  "color": 16774021
+ },
+ "alexsmobs:earthquake": {
+  "name": "Earthquake",
+  "description": null,
+  "category": "harmful",
+  "color": 15788513
+ },
+ "alexsmobs:ender_flu": {
+  "name": "Ender Flu",
+  "description": null,
+  "category": "harmful",
+  "color": 6829738
+ },
+ "alexsmobs:exsanguination": {
+  "name": "Exsanguination",
+  "description": null,
+  "category": "harmful",
+  "color": 15552849
+ },
+ "alexsmobs:fear": {
+  "name": "Scared Still",
+  "description": null,
+  "category": "neutral",
+  "color": 7632119
+ },
+ "alexsmobs:fleet_footed": {
+  "name": "Fleet-Footed",
+  "description": null,
+  "category": "beneficial",
+  "color": 6837313
+ },
+ "alexsmobs:knockback_resistance": {
+  "name": "Knockback Resistance",
+  "description": null,
+  "category": "beneficial",
+  "color": 8803127
+ },
+ "alexsmobs:lava_vision": {
+  "name": "Lava Vision",
+  "description": null,
+  "category": "beneficial",
+  "color": 16738816
+ },
+ "alexsmobs:mosquito_repellent": {
+  "name": "Mosquito Repellent",
+  "description": null,
+  "category": "beneficial",
+  "color": 13401712
+ },
+ "alexsmobs:oiled": {
+  "name": "Oiled",
+  "description": null,
+  "category": "beneficial",
+  "color": 16771228
+ },
+ "alexsmobs:orcas_might": {
+  "name": "Orca's Might",
+  "description": null,
+  "category": "beneficial",
+  "color": 4868690
+ },
+ "alexsmobs:poison_resistance": {
+  "name": "Poison Resistance",
+  "description": null,
+  "category": "beneficial",
+  "color": 5373871
+ },
+ "alexsmobs:power_down": {
+  "name": "Power Outage",
+  "description": null,
+  "category": "neutral",
+  "color": 0
+ },
+ "alexsmobs:soulsteal": {
+  "name": "Soulsteal",
+  "description": null,
+  "category": "beneficial",
+  "color": 9698815
+ },
+ "alexsmobs:sunbird_blessing": {
+  "name": "Sunbird's Blessing",
+  "description": null,
+  "category": "beneficial",
+  "color": 16771769
+ },
+ "alexsmobs:sunbird_curse": {
+  "name": "Sunbird's Curse",
+  "description": null,
+  "category": "harmful",
+  "color": 16771769
+ },
+ "alexsmobs:tigers_blessing": {
+  "name": "Tiger's Blessing",
+  "description": null,
+  "category": "beneficial",
+  "color": 16766814
+ },
+ "alshanex_familiars:bird_buff": {
+  "name": "Cheered",
+  "description": null,
+  "category": "beneficial",
+  "color": 14270531
+ },
+ "alshanex_familiars:end_mayhem": {
+  "name": "End's Mayhem",
+  "description": null,
+  "category": "harmful",
+  "color": 13695487
+ },
+ "alshanex_familiars:sleepy": {
+  "name": "Sleepy",
+  "description": null,
+  "category": "harmful",
+  "color": 13695487
+ },
+ "apotheotic_additions:bad_voodoo": {
+  "name": "Bad Voodoo",
+  "description": null,
+  "category": "harmful",
+  "color": -60730
+ },
+ "aquamirae:abyss_blindness": {
+  "name": "Blindness",
+  "description": "Blinding Abyss armor effect. Decreases movement speed.",
+  "category": "harmful",
+  "color": -6750055
+ },
+ "aquamirae:armor_decrease": {
+  "name": "§cPerforation",
+  "description": "Whisper of the Abyss effect. Reduces armor value.",
+  "category": "neutral",
+  "color": -6750055
+ },
+ "aquamirae:crystallization": {
+  "name": "§cCrystallization",
+  "description": "Blinding Abyss armor effect. You deal 80% less damage and die when the effect ends.",
+  "category": "harmful",
+  "color": -6750055
+ },
+ "aquamirae:health_decrease": {
+  "name": "§cDivide",
+  "description": "Divider effect. Reduces max health.",
+  "category": "neutral",
+  "color": -6750055
+ },
+ "aquamirae:poison_immunity": {
+  "name": "Poison Immunity",
+  "description": "You are immune to poison.",
+  "category": "beneficial",
+  "color": -6750055
+ },
+ "aquamirae:strong_armor": {
+  "name": "Strong Armor",
+  "description": "Blinding Abyss armor effect. Increases armor value.",
+  "category": "beneficial",
+  "color": -3407668
+ },
+ "aquamirae:swim_speed": {
+  "name": "Speed",
+  "description": "Terrible armor effect. Increases underwater movement speed.",
+  "category": "beneficial",
+  "color": -16737844
+ },
+ "attributeslib:bleeding": {
+  "name": "Bleeding",
+  "description": "Inflicts damage every two seconds.",
+  "category": "harmful",
+  "color": 9109504
+ },
+ "attributeslib:detonation": {
+  "name": "Flaming Detonation",
+  "description": "On expiry, inflicts damage based on remaining fire ticks.",
+  "category": "harmful",
+  "color": 16766976
+ },
+ "attributeslib:flying": {
+  "name": "Flying",
+  "description": "Grant Creative Flight.",
+  "category": "beneficial",
+  "color": 16733525
+ },
+ "attributeslib:grievous": {
+  "name": "Grievous Wounds",
+  "description": "Decreases healing received.",
+  "category": "harmful",
+  "color": 11141120
+ },
+ "attributeslib:knowledge": {
+  "name": "Ancient Knowledge",
+  "description": "Increases experience gained from kills and blocks.",
+  "category": "beneficial",
+  "color": 16051778
+ },
+ "attributeslib:sundering": {
+  "name": "Sundering",
+  "description": "Increases damage received.",
+  "category": "harmful",
+  "color": 10000536
+ },
+ "attributeslib:vitality": {
+  "name": "Bursting Vitality",
+  "description": "Increases healing received.",
+  "category": "beneficial",
+  "color": 16733525
+ },
+ "ba_bt:core_temperature_effect": {
+  "name": "Core Temperature",
+  "description": null,
+  "category": "harmful",
+  "color": 10027008
+ },
+ "ba_bt:depth_dropper_effect": {
+  "name": "Depth Dropper",
+  "description": null,
+  "category": "neutral",
+  "color": 13565951
+ },
+ "cataclysm:abyssal_burn": {
+  "name": "Abyssal Burn",
+  "description": null,
+  "category": "harmful",
+  "color": 6619391
+ },
+ "cataclysm:abyssal_curse": {
+  "name": "Abyssal Curse",
+  "description": null,
+  "category": "harmful",
+  "color": 9060095
+ },
+ "cataclysm:abyssal_fear": {
+  "name": "Abyssal Fear",
+  "description": null,
+  "category": "harmful",
+  "color": 7609087
+ },
+ "cataclysm:blazing_brand": {
+  "name": "Blazing Brand",
+  "description": null,
+  "category": "harmful",
+  "color": 14423100
+ },
+ "cataclysm:blessing_of_amethyst": {
+  "name": "Blessing of Amethyst",
+  "description": null,
+  "category": "beneficial",
+  "color": 16698342
+ },
+ "cataclysm:bone_fracture": {
+  "name": "Bone Fracture",
+  "description": null,
+  "category": "harmful",
+  "color": 11381677
+ },
+ "cataclysm:curse_of_desert": {
+  "name": "Curse of Desert",
+  "description": null,
+  "category": "harmful",
+  "color": 16773835
+ },
+ "cataclysm:ghost_form": {
+  "name": "Ghost Form",
+  "description": null,
+  "category": "beneficial",
+  "color": 3789490
+ },
+ "cataclysm:ghost_sickness": {
+  "name": "Ghost Sickness",
+  "description": null,
+  "category": "harmful",
+  "color": 9722673
+ },
+ "cataclysm:monstrous": {
+  "name": "Monstrous",
+  "description": null,
+  "category": "beneficial",
+  "color": 8803127
+ },
+ "cataclysm:stun": {
+  "name": "Stun",
+  "description": null,
+  "category": "harmful",
+  "color": 16747520
+ },
+ "cataclysm:wetness": {
+  "name": "Wetness",
+  "description": null,
+  "category": "harmful",
+  "color": 5928654
+ },
+ "combat_evolution:assassination_protection": {
+  "name": "Assassination Protection",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "combat_evolution:bypass_dodge_effect": {
+  "name": "Bypass Dodge",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "combat_evolution:bypass_guard_effect": {
+  "name": "Bypass Guard",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "combat_evolution:full_stun_immunity": {
+  "name": "Full Stun Immunity",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "combat_evolution:high_stun_immunity": {
+  "name": "High Stun Immunity",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "combat_evolution:impact_boost": {
+  "name": "Impact Boost",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "combat_evolution:middle_stun_immunity": {
+  "name": "Middle Stun Immunity",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "combat_evolution:normal_stun_immunity": {
+  "name": "Normal Stun Immunity",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "combat_evolution:on_execution": {
+  "name": "Being Executed",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "dacxirons:blood_spell_strength": {
+  "name": "Blood Spell Strength",
+  "description": null,
+  "category": "beneficial",
+  "color": 16729344
+ },
+ "dacxirons:cast_speed": {
+  "name": "Cast Speed",
+  "description": null,
+  "category": "beneficial",
+  "color": 16729344
+ },
+ "dacxirons:spell_burn": {
+  "name": "Spell Burning Aura",
+  "description": null,
+  "category": "beneficial",
+  "color": -6730217
+ },
+ "dacxirons:spell_strength": {
+  "name": "Spell Strength",
+  "description": null,
+  "category": "beneficial",
+  "color": 16729344
+ },
+ "deeperdarker:sculk_affinity": {
+  "name": "Sculk Affinity",
+  "description": null,
+  "category": "beneficial",
+  "color": 65488
+ },
+ "dungeons_and_combat:acid_fire": {
+  "name": "Acid Fire",
+  "description": null,
+  "category": "harmful",
+  "color": -5179904
+ },
+ "dungeons_and_combat:acid_fire_edge": {
+  "name": "Acid Fire Edge",
+  "description": null,
+  "category": "neutral",
+  "color": -4587765
+ },
+ "dungeons_and_combat:ammit_armor_bonus": {
+  "name": "Ammit Armor Bonus",
+  "description": null,
+  "category": "beneficial",
+  "color": -5376
+ },
+ "dungeons_and_combat:ammit_edge": {
+  "name": "Ammit Edge",
+  "description": null,
+  "category": "neutral",
+  "color": -3557768
+ },
+ "dungeons_and_combat:bleeding": {
+  "name": "Bleeding",
+  "description": null,
+  "category": "harmful",
+  "color": -3526351
+ },
+ "dungeons_and_combat:bleeding_edge": {
+  "name": "Bleeding Edge",
+  "description": null,
+  "category": "neutral",
+  "color": -7594466
+ },
+ "dungeons_and_combat:blessing_of_neptune": {
+  "name": "Blessing of Neptune",
+  "description": null,
+  "category": "beneficial",
+  "color": -13369396
+ },
+ "dungeons_and_combat:broken_armor": {
+  "name": "Broken Armor I",
+  "description": null,
+  "category": "harmful",
+  "color": -5855037
+ },
+ "dungeons_and_combat:broken_armor_ii": {
+  "name": "Broken Armor II",
+  "description": null,
+  "category": "harmful",
+  "color": -5855037
+ },
+ "dungeons_and_combat:broken_armor_iii": {
+  "name": "Broken Armor III",
+  "description": null,
+  "category": "harmful",
+  "color": -5855037
+ },
+ "dungeons_and_combat:bronze_barbarian_helmet_bonus": {
+  "name": "Bronze Barbarian Helmet Bonus",
+  "description": null,
+  "category": "beneficial",
+  "color": -7768509
+ },
+ "dungeons_and_combat:burning_aura": {
+  "name": "Burning Aura",
+  "description": null,
+  "category": "beneficial",
+  "color": -6730217
+ },
+ "dungeons_and_combat:burning_edge": {
+  "name": "Burning Edge",
+  "description": null,
+  "category": "neutral",
+  "color": -1732864
+ },
+ "dungeons_and_combat:champion_belt_effect": {
+  "name": "Champion Belt Effect",
+  "description": null,
+  "category": "beneficial",
+  "color": -1
+ },
+ "dungeons_and_combat:conductive": {
+  "name": "Conductive",
+  "description": null,
+  "category": "harmful",
+  "color": -2854956
+ },
+ "dungeons_and_combat:crimson_rage": {
+  "name": "Crimson Rage",
+  "description": null,
+  "category": "neutral",
+  "color": -7266778
+ },
+ "dungeons_and_combat:curse_of_the_sun": {
+  "name": "Curse of the Sun",
+  "description": null,
+  "category": "harmful",
+  "color": -4207
+ },
+ "dungeons_and_combat:deadly_aura": {
+  "name": "Deadly Aura",
+  "description": null,
+  "category": "beneficial",
+  "color": -14409439
+ },
+ "dungeons_and_combat:death_mark": {
+  "name": "Death Mark",
+  "description": null,
+  "category": "harmful",
+  "color": -3404763
+ },
+ "dungeons_and_combat:ernos_necklace": {
+  "name": "Ernos Necklace",
+  "description": null,
+  "category": "beneficial",
+  "color": -1
+ },
+ "dungeons_and_combat:fang_necklace_effect": {
+  "name": "Fang Necklace Effect",
+  "description": null,
+  "category": "beneficial",
+  "color": -1
+ },
+ "dungeons_and_combat:fatal_oath": {
+  "name": "Fatal Oath",
+  "description": null,
+  "category": "harmful",
+  "color": -13823470
+ },
+ "dungeons_and_combat:fatal_oath_ii": {
+  "name": "Fatal Oath II",
+  "description": null,
+  "category": "harmful",
+  "color": -13823470
+ },
+ "dungeons_and_combat:fatal_oath_iii": {
+  "name": "Fatal Oath III",
+  "description": null,
+  "category": "harmful",
+  "color": -13823470
+ },
+ "dungeons_and_combat:flame_grant_me_strength": {
+  "name": "Flame Grant Me Strength",
+  "description": null,
+  "category": "beneficial",
+  "color": -3249122
+ },
+ "dungeons_and_combat:forgotten_entity": {
+  "name": "Forgotten Entity",
+  "description": null,
+  "category": "neutral",
+  "color": -12827287
+ },
+ "dungeons_and_combat:frostbite": {
+  "name": "Frostbite",
+  "description": null,
+  "category": "harmful",
+  "color": -7536660
+ },
+ "dungeons_and_combat:horuso_armo_bonus": {
+  "name": "Horuso Armor Bonus",
+  "description": null,
+  "category": "beneficial",
+  "color": -3617317
+ },
+ "dungeons_and_combat:hunter_boots_effect": {
+  "name": "Hunter Boots Effect",
+  "description": null,
+  "category": "beneficial",
+  "color": -1
+ },
+ "dungeons_and_combat:hunter_fury": {
+  "name": "Hunter Fury",
+  "description": null,
+  "category": "beneficial",
+  "color": -12834012
+ },
+ "dungeons_and_combat:hunter_fury_ii": {
+  "name": "Hunter Fury II",
+  "description": null,
+  "category": "beneficial",
+  "color": -12834012
+ },
+ "dungeons_and_combat:ice_resistance": {
+  "name": "Ice Resistance",
+  "description": null,
+  "category": "beneficial",
+  "color": -6684673
+ },
+ "dungeons_and_combat:klauen_necklace_effect": {
+  "name": "Klauen Necklace Effect",
+  "description": null,
+  "category": "beneficial",
+  "color": -1
+ },
+ "dungeons_and_combat:life_stealer": {
+  "name": "Life Stealer",
+  "description": null,
+  "category": "neutral",
+  "color": -7006432
+ },
+ "dungeons_and_combat:man_of_dark_steel": {
+  "name": "Man Of Dark Steel",
+  "description": null,
+  "category": "beneficial",
+  "color": -12896454
+ },
+ "dungeons_and_combat:man_of_steel": {
+  "name": "Man Of Steel",
+  "description": null,
+  "category": "beneficial",
+  "color": -9605259
+ },
+ "dungeons_and_combat:poisoned_edge": {
+  "name": "Poisoned Edge",
+  "description": null,
+  "category": "neutral",
+  "color": -10514882
+ },
+ "dungeons_and_combat:processed_antidote_shield": {
+  "name": "Processed Antidote Shield",
+  "description": null,
+  "category": "beneficial",
+  "color": -3866855
+ },
+ "dungeons_and_combat:ring_of_life_effect": {
+  "name": "Ring Of Life Effect",
+  "description": null,
+  "category": "beneficial",
+  "color": -1
+ },
+ "dungeons_and_combat:scarlet_restoration": {
+  "name": "Scarlet Restoration",
+  "description": null,
+  "category": "neutral",
+  "color": -4521960
+ },
+ "dungeons_and_combat:scarlet_restoration_ii": {
+  "name": "Scarlet Restoration II",
+  "description": null,
+  "category": "neutral",
+  "color": -4521960
+ },
+ "dungeons_and_combat:scarlet_restoration_iii": {
+  "name": "Scarlet Restoration III",
+  "description": null,
+  "category": "neutral",
+  "color": -4521960
+ },
+ "dungeons_and_combat:scorpion_claw_effect": {
+  "name": "Scorpion Claw Effect",
+  "description": null,
+  "category": "beneficial",
+  "color": -1
+ },
+ "dungeons_and_combat:steel_shoulder_effect": {
+  "name": "Steel Shoulder Effect",
+  "description": null,
+  "category": "beneficial",
+  "color": -1
+ },
+ "dungeons_and_combat:toxic_edge": {
+  "name": "Toxic Edge",
+  "description": null,
+  "category": "neutral",
+  "color": -9683603
+ },
+ "dungeons_and_combat:toxin": {
+  "name": "Toxin",
+  "description": null,
+  "category": "harmful",
+  "color": -7257973
+ },
+ "dungeons_and_combat:wither_edge": {
+  "name": "Wither Edge",
+  "description": null,
+  "category": "neutral",
+  "color": -14869219
+ },
+ "efn_enhance:thunder": {
+  "name": "effect.efn_enhance.thunder",
+  "description": null,
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:attack_damage_increase": {
+  "name": "ATK Boost",
+  "description": null,
+  "category": "beneficial",
+  "color": 16776960
+ },
+ "efn:attack_speed_increase": {
+  "name": "ATS Boost",
+  "description": null,
+  "category": "beneficial",
+  "color": 16711935
+ },
+ "efn:battle_continuation": {
+  "name": "Battle Continuation",
+  "description": "increased movement speed and damage, immune to ranged damage; death occurs after Fighting Spirit ends",
+  "category": "beneficial",
+  "color": 16739179
+ },
+ "efn:blood_blessing": {
+  "name": "Blood blessing",
+  "description": null,
+  "category": "beneficial",
+  "color": 0
+ },
+ "efn:blood_explosion": {
+  "name": "BloodExplosion",
+  "description": null,
+  "category": "neutral",
+  "color": 16711680
+ },
+ "efn:bloodlust": {
+  "name": "§o§l§c bloodlust",
+  "description": null,
+  "category": "beneficial",
+  "color": 16711680
+ },
+ "efn:bypass_dodge_effect": {
+  "name": "effect.efn.bypass_dodge_effect",
+  "description": null,
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:claw": {
+  "name": "§o§l§c BeastClaw",
+  "description": null,
+  "category": "neutral",
+  "color": 9127187
+ },
+ "efn:combo_execute_window": {
+  "name": "Execute Window",
+  "description": null,
+  "category": "neutral",
+  "color": 65280
+ },
+ "efn:curse_of_blood": {
+  "name": "Curse of blood",
+  "description": null,
+  "category": "harmful",
+  "color": 9109504
+ },
+ "efn:damage_reduction": {
+  "name": "Damage Reduction",
+  "description": null,
+  "category": "beneficial",
+  "color": 7829503
+ },
+ "efn:die": {
+  "name": "effect.efn.die",
+  "description": null,
+  "category": "neutral",
+  "color": 65280
+ },
+ "efn:falchion_bless": {
+  "name": "Falchion Bless",
+  "description": null,
+  "category": "beneficial",
+  "color": 65280
+ },
+ "efn:falchion_vulnerability": {
+  "name": "Crescent's Scare",
+  "description": null,
+  "category": "neutral",
+  "color": 65280
+ },
+ "efn:gradual_heal": {
+  "name": "Gradual Heal",
+  "description": "Restores total health equal to [%5 of max health * potion effect level] over the duration",
+  "category": "beneficial",
+  "color": 16739179
+ },
+ "efn:guard_puncture_effect": {
+  "name": "effect.efn.guard_puncture_effect",
+  "description": null,
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:heavy_rain_stun": {
+  "name": "Heavy Rain Stun",
+  "description": null,
+  "category": "neutral",
+  "color": 5904538
+ },
+ "efn:horizontalstop": {
+  "name": "Horizontal Halt",
+  "description": null,
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:invincibility": {
+  "name": "Invincible Time",
+  "description": "Cannot be hit by attacks",
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:knockbackresistant": {
+  "name": "Knockback Resistance",
+  "description": null,
+  "category": "neutral",
+  "color": 5921535
+ },
+ "efn:meenlance": {
+  "name": "§o§l§cMeEn's Residual Flames",
+  "description": null,
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:murasama_sheath": {
+  "name": "Charging Sheath",
+  "description": null,
+  "category": "beneficial",
+  "color": 14423100
+ },
+ "efn:replay": {
+  "name": "Replay Time",
+  "description": null,
+  "category": "neutral",
+  "color": 65280
+ },
+ "efn:ring": {
+  "name": "effect alpha",
+  "description": null,
+  "category": "neutral",
+  "color": 65280
+ },
+ "efn:shiver": {
+  "name": "Shiver",
+  "description": null,
+  "category": "neutral",
+  "color": 8900331
+ },
+ "efn:sin_stun_immunity": {
+  "name": "§o§l§cTrue Stun Immunity",
+  "description": "Immune to all types of stun",
+  "category": "beneficial",
+  "color": 8978431
+ },
+ "efn:stop": {
+  "name": "effect.efn.stop",
+  "description": null,
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:verticalstop": {
+  "name": "Vertical Halt",
+  "description": null,
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:vulnerability": {
+  "name": "vulnerability",
+  "description": null,
+  "category": "harmful",
+  "color": 16739179
+ },
+ "efn:yamato": {
+  "name": "effect.efn.yamato",
+  "description": null,
+  "category": "neutral",
+  "color": 16777215
+ },
+ "efn:yamato_stun": {
+  "name": "effect.efn.yamato_stun",
+  "description": null,
+  "category": "neutral",
+  "color": 5904538
+ },
+ "endlessbiomes:cowardice": {
+  "name": "Hex of Cowardice",
+  "description": null,
+  "category": "harmful",
+  "color": -9714014
+ },
+ "endlessbiomes:decay": {
+  "name": "Hex of Decay",
+  "description": null,
+  "category": "harmful",
+  "color": -13487566
+ },
+ "endlessbiomes:perplexion": {
+  "name": "Hex of Perplexion",
+  "description": null,
+  "category": "harmful",
+  "color": -11196283
+ },
+ "endlessbiomes:tough_dirt": {
+  "name": "Hex of Tough Dirt",
+  "description": null,
+  "category": "harmful",
+  "color": -8825542
+ },
+ "endlessbiomes:truth": {
+  "name": "Hex of Truth",
+  "description": null,
+  "category": "harmful",
+  "color": -7580002
+ },
+ "endlessbiomes:weight": {
+  "name": "Hex of Weight",
+  "description": null,
+  "category": "harmful",
+  "color": -4505022
+ },
+ "epicfight_awaken:curse_of_night": {
+  "name": "Curse Of Night",
+  "description": null,
+  "category": "beneficial",
+  "color": 16715792
+ },
+ "epicfight_awaken:flame_enchant": {
+  "name": "Flame Enchant",
+  "description": null,
+  "category": "beneficial",
+  "color": 16711680
+ },
+ "epicfight_awaken:lightning_enchant": {
+  "name": "Lightning Enchant",
+  "description": null,
+  "category": "beneficial",
+  "color": 16776960
+ },
+ "epicfight_dd:crumbling": {
+  "name": "Crumbling",
+  "description": null,
+  "category": "harmful",
+  "color": 10584180
+ },
+ "epicfight_dd:cursed": {
+  "name": "Mortal Curse",
+  "description": null,
+  "category": "harmful",
+  "color": 656131
+ },
+ "epicfight_dd:drained": {
+  "name": "Drained",
+  "description": null,
+  "category": "harmful",
+  "color": 10555654
+ },
+ "epicfight_dd:endurance": {
+  "name": "Endurance",
+  "description": null,
+  "category": "beneficial",
+  "color": 16769280
+ },
+ "epicfight_dd:exhausted": {
+  "name": "Exhausted",
+  "description": null,
+  "category": "harmful",
+  "color": 2240000
+ },
+ "epicfight_dd:fortified": {
+  "name": "Fortified",
+  "description": null,
+  "category": "beneficial",
+  "color": 14603978
+ },
+ "epicfight_dd:impact": {
+  "name": "Impact",
+  "description": null,
+  "category": "beneficial",
+  "color": 12549185
+ },
+ "epicfight_dd:potion_of_power": {
+  "name": "Vigor",
+  "description": null,
+  "category": "beneficial",
+  "color": 7667712
+ },
+ "epicfight_dd:sepukku": {
+  "name": "Sepukku",
+  "description": null,
+  "category": "beneficial",
+  "color": 10555654
+ },
+ "epicfight_dd:stamina": {
+  "name": "Stamina",
+  "description": null,
+  "category": "beneficial",
+  "color": 65399
+ },
+ "epicfight_dd:stunarmor": {
+  "name": "Stun Resistance",
+  "description": null,
+  "category": "beneficial",
+  "color": 16084275
+ },
+ "epicfight_dd:sweeping": {
+  "name": "Dexterity",
+  "description": null,
+  "category": "beneficial",
+  "color": 12445824
+ },
+ "epicfight:instability": {
+  "name": "Instability",
+  "description": null,
+  "category": "beneficial",
+  "color": 0
+ },
+ "epicfight:stun_immunity": {
+  "name": "Stun Immunity",
+  "description": null,
+  "category": "beneficial",
+  "color": 16758016
+ },
+ "epicfightx:efx_speed": {
+  "name": "effect.epicfightx.efx_speed",
+  "description": null,
+  "category": "beneficial",
+  "color": 2003199
+ },
+ "farmersdelight:comfort": {
+  "name": "Comfort",
+  "description": "Provides natural regeneration, regardless of how hungry you are.",
+  "category": "beneficial",
+  "color": 0
+ },
+ "farmersdelight:nourishment": {
+  "name": "Nourishment",
+  "description": "Prevents hunger loss, except when using saturation to heal damage.",
+  "category": "beneficial",
+  "color": 0
+ },
+ "friendsandfoes:glide": {
+  "name": "Glide",
+  "description": "Makes all blocks as slippery as ice.",
+  "category": "beneficial",
+  "color": 7624580
+ },
+ "friendsandfoes:penguins_glide": {
+  "name": "Penguin's Glide",
+  "description": "Increases the speed of boats.",
+  "category": "beneficial",
+  "color": 7624580
+ },
+ "friendsandfoes:reach": {
+  "name": "Reach",
+  "description": "Increases the range of block interaction.",
+  "category": "beneficial",
+  "color": 16685131
+ },
+ "gtbcs_geomancy_plus:aegis": {
+  "name": "Aegis",
+  "description": "Grants Armor and Spell Resistance to any element",
+  "category": "beneficial",
+  "color": 9127187
+ },
+ "gtbcs_geomancy_plus:casting": {
+  "name": "Casting...",
+  "description": "Simulates spell casting",
+  "category": "neutral",
+  "color": 0
+ },
+ "gtbcs_geomancy_plus:erode": {
+  "name": "Erode",
+  "description": "Shred Armor and Spell Resistance to any element",
+  "category": "beneficial",
+  "color": 9127187
+ },
+ "gtbcs_geomancy_plus:geo_spell_power": {
+  "name": "Geo Spell Power",
+  "description": null,
+  "category": "beneficial",
+  "color": 16698342
+ },
+ "gtbcs_geomancy_plus:seismic_ride_timer": {
+  "name": "effect.gtbcs_geomancy_plus.seismic_ride_timer",
+  "description": null,
+  "category": "beneficial",
+  "color": 9127187
+ },
+ "gtbcs_geomancy_plus:solar_storm": {
+  "name": "Solar Storm",
+  "description": "Calls Sunstrikes on nearby entities",
+  "category": "beneficial",
+  "color": 0
+ },
+ "gtbcs_geomancy_plus:tremor_step_effect": {
+  "name": "Tremor Step",
+  "description": "Unleash shock waves when sprinting",
+  "category": "beneficial",
+  "color": 9127187
+ },
+ "icarus:flightless": {
+  "name": "Flightless",
+  "description": null,
+  "category": "neutral",
+  "color": 11980016
+ },
+ "irons_spellbooks:abyssal_shroud": {
+  "name": "Abyssal Shroud",
+  "description": "Dodge any attack while under its effects, taking no damage",
+  "category": "beneficial",
+  "color": 0
+ },
+ "irons_spellbooks:airborne": {
+  "name": "Airborne",
+  "description": "You are vulnerable to taking kinetic damage",
+  "category": "harmful",
+  "color": 16777215
+ },
+ "irons_spellbooks:angel_wings": {
+  "name": "Angel Wings",
+  "description": "Grants spectral elytra wings",
+  "category": "beneficial",
+  "color": 12495141
+ },
+ "irons_spellbooks:antigravity": {
+  "name": "Anti-Gravity",
+  "description": "Produces Weightlessness",
+  "category": "neutral",
+  "color": 7095029
+ },
+ "irons_spellbooks:ascension": {
+  "name": "Ascension",
+  "description": "Provides lingering weightlessness from the Ascension spell",
+  "category": "beneficial",
+  "color": 12495141
+ },
+ "irons_spellbooks:blight": {
+  "name": "Blighted",
+  "description": "Decreases your outgoing damage by 5% per level and incoming healing by 10% per level",
+  "category": "harmful",
+  "color": 14679851
+ },
+ "irons_spellbooks:burning_dash": {
+  "name": "Burning Dash",
+  "description": null,
+  "category": "beneficial",
+  "color": 13695487
+ },
+ "irons_spellbooks:charged": {
+  "name": "Charged",
+  "description": "Increases attack damage by 10% per level, spell power by 5% per level, and speed by 20% per level",
+  "category": "beneficial",
+  "color": 3311322
+ },
+ "irons_spellbooks:chilled": {
+  "name": "Chilled",
+  "description": "Decreases movement speed and doubles incoming freeze time",
+  "category": "harmful",
+  "color": 13695487
+ },
+ "irons_spellbooks:echoing_strikes": {
+  "name": "Echoing Strikes",
+  "description": "While under the effects of the spell, non-magical attack will leave an echo of ender energy behind, shortly thereafter exploding with an echo of the attack's damage.",
+  "category": "beneficial",
+  "color": 10423267
+ },
+ "irons_spellbooks:evasion": {
+  "name": "Evasion",
+  "description": "Teleport away from any attack while under its effects, taking no damage",
+  "category": "beneficial",
+  "color": 15825908
+ },
+ "irons_spellbooks:fall_damage_immunity": {
+  "name": "Fall Damage Immunity",
+  "description": "Prevented from taking fall damage while under its effects",
+  "category": "beneficial",
+  "color": 14540287
+ },
+ "irons_spellbooks:fortify": {
+  "name": "Fortified",
+  "description": "Provides absorption hearts",
+  "category": "beneficial",
+  "color": 16239960
+ },
+ "irons_spellbooks:frostbite": {
+  "name": "Frostbite",
+  "description": "While under the effects of the spell, any fully-frozen creature you kill turn into an Ice Shadow. Ice Shadows shatter into icicles after 5 seconds or upon taking any damage.",
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "irons_spellbooks:gluttony": {
+  "name": "Gluttony",
+  "description": "Converts food eaten into mana based on its nutrition",
+  "category": "beneficial",
+  "color": 13695487
+ },
+ "irons_spellbooks:guided": {
+  "name": "Guided",
+  "description": "Nearby projectiles are attracted towards you.",
+  "category": "harmful",
+  "color": 16239960
+ },
+ "irons_spellbooks:hastened": {
+  "name": "Hastened",
+  "description": "Increases movement speed, attack speed, mining speed, mana regeneration, and cast time reduction",
+  "category": "beneficial",
+  "color": 14270531
+ },
+ "irons_spellbooks:heartstop": {
+  "name": "Heartstop",
+  "description": "Become temporarily invulnerable, but take 50% of accumulated damage once it wears off",
+  "category": "beneficial",
+  "color": 4393481
+ },
+ "irons_spellbooks:immolate": {
+  "name": "Immolation",
+  "description": "Upon reaching 3 stacks of Immolation, the creature explodes, dealing damage and Immolating nearby creatures",
+  "category": "harmful",
+  "color": 16755200
+ },
+ "irons_spellbooks:instant_mana": {
+  "name": "Instant Mana",
+  "description": "Restores 25 mana + 5% of your max mana per level",
+  "category": "beneficial",
+  "color": 47084
+ },
+ "irons_spellbooks:oakskin": {
+  "name": "Oakskin",
+  "description": "Grants 15% damage reduction, and an additional 5% per level",
+  "category": "beneficial",
+  "color": 16773013
+ },
+ "irons_spellbooks:planar_sight": {
+  "name": "Planar Sight",
+  "description": "Shift your vision in between planes, gaining the ability to see creatures through solid material",
+  "category": "beneficial",
+  "color": 7095029
+ },
+ "irons_spellbooks:rend": {
+  "name": "Rend",
+  "description": "Decreases your armor by 5% per level",
+  "category": "harmful",
+  "color": 4800826
+ },
+ "irons_spellbooks:slowed": {
+  "name": "Slowed",
+  "description": "Decreases movement speed, attack speed, mining speed, mana regeneration, and cast time reduction",
+  "category": "harmful",
+  "color": 5926017
+ },
+ "irons_spellbooks:spider_aspect": {
+  "name": "Aspect of the Spider",
+  "description": "Increases your damage dealt against targets with poison by 5% per level",
+  "category": "beneficial",
+  "color": 4800826
+ },
+ "irons_spellbooks:thunderstorm": {
+  "name": "Thunderstorm",
+  "description": "While under the effects of the spell, small bolts of lightning strike nearby creatures every 2 seconds.",
+  "category": "beneficial",
+  "color": 10423267
+ },
+ "irons_spellbooks:true_invisibility": {
+  "name": "True Invisibility",
+  "description": "Your body as well as armor and items become invisible while under its effects",
+  "category": "beneficial",
+  "color": 8356754
+ },
+ "irons_spellbooks:vigor": {
+  "name": "Vigor",
+  "description": "Gain 1 additional heart of max hp per level",
+  "category": "beneficial",
+  "color": 8719629
+ },
+ "irons_spellbooks:volt_strike": {
+  "name": "effect.irons_spellbooks.volt_strike",
+  "description": null,
+  "category": "beneficial",
+  "color": 218138879
+ },
+ "kubejs:mounted": {
+  "name": "Mounted",
+  "description": null,
+  "category": "neutral",
+  "color": 3548433
+ },
+ "magistuarmory:laceration": {
+  "name": "Laceration",
+  "description": null,
+  "category": "harmful",
+  "color": -10092544
+ },
+ "minecraft:absorption": {
+  "name": "Absorption",
+  "description": null,
+  "category": "beneficial",
+  "color": 2445989
+ },
+ "minecraft:bad_omen": {
+  "name": "Bad Omen",
+  "description": null,
+  "category": "neutral",
+  "color": 745784
+ },
+ "minecraft:blindness": {
+  "name": "Blindness",
+  "description": null,
+  "category": "harmful",
+  "color": 2039587
+ },
+ "minecraft:conduit_power": {
+  "name": "Conduit Power",
+  "description": null,
+  "category": "beneficial",
+  "color": 1950417
+ },
+ "minecraft:darkness": {
+  "name": "Darkness",
+  "description": null,
+  "category": "harmful",
+  "color": 2696993
+ },
+ "minecraft:dolphins_grace": {
+  "name": "Dolphin's Grace",
+  "description": null,
+  "category": "beneficial",
+  "color": 8954814
+ },
+ "minecraft:fire_resistance": {
+  "name": "Fire Resistance",
+  "description": null,
+  "category": "beneficial",
+  "color": 16750848
+ },
+ "minecraft:glowing": {
+  "name": "Glowing",
+  "description": null,
+  "category": "neutral",
+  "color": 9740385
+ },
+ "minecraft:haste": {
+  "name": "Haste",
+  "description": null,
+  "category": "beneficial",
+  "color": 14270531
+ },
+ "minecraft:health_boost": {
+  "name": "Health Boost",
+  "description": null,
+  "category": "beneficial",
+  "color": 16284963
+ },
+ "minecraft:hero_of_the_village": {
+  "name": "Hero of the Village",
+  "description": null,
+  "category": "beneficial",
+  "color": 4521796
+ },
+ "minecraft:hunger": {
+  "name": "Hunger",
+  "description": null,
+  "category": "harmful",
+  "color": 5797459
+ },
+ "minecraft:instant_damage": {
+  "name": "Instant Damage",
+  "description": null,
+  "category": "harmful",
+  "color": 11101546
+ },
+ "minecraft:instant_health": {
+  "name": "Instant Health",
+  "description": null,
+  "category": "beneficial",
+  "color": 16262179
+ },
+ "minecraft:invisibility": {
+  "name": "Invisibility",
+  "description": null,
+  "category": "beneficial",
+  "color": 16185078
+ },
+ "minecraft:jump_boost": {
+  "name": "Jump Boost",
+  "description": null,
+  "category": "beneficial",
+  "color": 16646020
+ },
+ "minecraft:levitation": {
+  "name": "Levitation",
+  "description": null,
+  "category": "harmful",
+  "color": 13565951
+ },
+ "minecraft:luck": {
+  "name": "Luck",
+  "description": null,
+  "category": "beneficial",
+  "color": 5882118
+ },
+ "minecraft:mining_fatigue": {
+  "name": "Mining Fatigue",
+  "description": null,
+  "category": "harmful",
+  "color": 4866583
+ },
+ "minecraft:nausea": {
+  "name": "Nausea",
+  "description": null,
+  "category": "harmful",
+  "color": 5578058
+ },
+ "minecraft:night_vision": {
+  "name": "Night Vision",
+  "description": null,
+  "category": "beneficial",
+  "color": 12779366
+ },
+ "minecraft:poison": {
+  "name": "Poison",
+  "description": null,
+  "category": "harmful",
+  "color": 8889187
+ },
+ "minecraft:regeneration": {
+  "name": "Regeneration",
+  "description": null,
+  "category": "beneficial",
+  "color": 13458603
+ },
+ "minecraft:resistance": {
+  "name": "Resistance",
+  "description": null,
+  "category": "beneficial",
+  "color": 9520880
+ },
+ "minecraft:saturation": {
+  "name": "Saturation",
+  "description": null,
+  "category": "beneficial",
+  "color": 16262180
+ },
+ "minecraft:slow_falling": {
+  "name": "Slow Falling",
+  "description": null,
+  "category": "beneficial",
+  "color": 15978425
+ },
+ "minecraft:slowness": {
+  "name": "Slowness",
+  "description": null,
+  "category": "harmful",
+  "color": 9154528
+ },
+ "minecraft:speed": {
+  "name": "Speed",
+  "description": null,
+  "category": "beneficial",
+  "color": 3402751
+ },
+ "minecraft:strength": {
+  "name": "Strength",
+  "description": null,
+  "category": "beneficial",
+  "color": 16762624
+ },
+ "minecraft:unluck": {
+  "name": "Bad Luck",
+  "description": null,
+  "category": "harmful",
+  "color": 12624973
+ },
+ "minecraft:water_breathing": {
+  "name": "Water Breathing",
+  "description": null,
+  "category": "beneficial",
+  "color": 10017472
+ },
+ "minecraft:weakness": {
+  "name": "Weakness",
+  "description": null,
+  "category": "harmful",
+  "color": 4738376
+ },
+ "minecraft:wither": {
+  "name": "Wither",
+  "description": null,
+  "category": "harmful",
+  "color": 7561558
+ },
+ "mowziesmobs:eclipsed": {
+  "name": "Eclipse",
+  "description": "Prevents all other status effects while active.",
+  "category": "neutral",
+  "color": 15790320
+ },
+ "mowziesmobs:fragility": {
+  "name": "Fragility",
+  "description": "Increases damage taken.",
+  "category": "harmful",
+  "color": 10874950
+ },
+ "mowziesmobs:frozen": {
+  "name": "Frozen",
+  "description": "Prevents all actions for a short duration. Fire damage will remove the effect early.",
+  "category": "harmful",
+  "color": 14215167
+ },
+ "mowziesmobs:geomancy": {
+  "name": "Geomancy",
+  "description": "Allows you to command the power of the earth.",
+  "category": "beneficial",
+  "color": 13500280
+ },
+ "mowziesmobs:moons_curse": {
+  "name": "effect.mowziesmobs.moons_curse",
+  "description": null,
+  "category": "beneficial",
+  "color": 6051049
+ },
+ "mowziesmobs:poison_resist": {
+  "name": "Poison Resistance",
+  "description": "Prevents the Poison status effect.",
+  "category": "beneficial",
+  "color": 6750003
+ },
+ "mowziesmobs:sunblock": {
+  "name": "Sunblock",
+  "description": "A small boost to regeneration and damage resistance.",
+  "category": "beneficial",
+  "color": 16768834
+ },
+ "mowziesmobs:suns_blessing": {
+  "name": "Sun's Blessing",
+  "description": "Allows you to command the power of the sun.",
+  "category": "beneficial",
+  "color": 16768834
+ },
+ "nightfall_invade:soul_of_flame": {
+  "name": "Soul of flame",
+  "description": null,
+  "category": "neutral",
+  "color": 16766720
+ },
+ "obscure_api:fury": {
+  "name": "Fury",
+  "description": "Each level increase the power of class abilities by 10%.",
+  "category": "beneficial",
+  "color": -52378
+ },
+ "obscure_api:knowledge": {
+  "name": "Knowledge",
+  "description": "Displays hidden information about some items in their tooltips.",
+  "category": "beneficial",
+  "color": -13408513
+ },
+ "obscure_api:rush": {
+  "name": "Rush",
+  "description": "Each level reduces the cooldown of class abilities by 10%.",
+  "category": "beneficial",
+  "color": -6736897
+ },
+ "p1nero_ec:soul_incinerator": {
+  "name": "effect.p1nero_ec.soul_incinerator",
+  "description": null,
+  "category": "beneficial",
+  "color": 6970061
+ },
+ "projectile_damage:impact": {
+  "name": "Impact",
+  "description": null,
+  "category": "beneficial",
+  "color": 11206621
+ },
+ "quark:resilience": {
+  "name": "Resilience",
+  "description": null,
+  "category": "beneficial",
+  "color": 5970436
+ },
+ "ranged_weapon:damage": {
+  "name": "Impact",
+  "description": "Increases ranged damage",
+  "category": "beneficial",
+  "color": 11206621
+ },
+ "ranged_weapon:haste": {
+  "name": "Rapid Fire",
+  "description": "Increases ranged attack speed",
+  "category": "beneficial",
+  "color": 11730944
+ },
+ "simplyswords:astral_shift": {
+  "name": "Astral Shift",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:battle_fatigue": {
+  "name": "Battle Fatigue",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:echo": {
+  "name": "Echo",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:elemental_vortex": {
+  "name": "Elemental Vortex",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:fatal_flicker": {
+  "name": "Fatal Flicker, dashing forward.",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:fire_vortex": {
+  "name": "Fire Vortex",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:flameseed": {
+  "name": "Flameseed",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:freeze": {
+  "name": "Freeze",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:frenzy": {
+  "name": "Frenzy",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:frost_vortex": {
+  "name": "Frost Vortex",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:immolation": {
+  "name": "Immolation",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:magislam": {
+  "name": "Magislam",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:magistorm": {
+  "name": "Magistorm",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:onslaught": {
+  "name": "Onslaught",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:pain": {
+  "name": "Pain",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:resilience": {
+  "name": "Resilience",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:ribboncleave": {
+  "name": "Ribboncleave",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:ribbonwrath": {
+  "name": "Ribbonwrath",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:smouldering": {
+  "name": "Smouldering",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:spore_swarm": {
+  "name": "Spore Swarm",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:storm": {
+  "name": "Storm",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:void_assault": {
+  "name": "Void Assault",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "simplyswords:voidcloak": {
+  "name": "Voidcloak",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:ward": {
+  "name": "Ward",
+  "description": null,
+  "category": "beneficial",
+  "color": 1124687
+ },
+ "simplyswords:wildfire": {
+  "name": "Wildfire",
+  "description": null,
+  "category": "harmful",
+  "color": 1124687
+ },
+ "skilltree:liquid_fire": {
+  "name": "Liquid Fire",
+  "description": null,
+  "category": "harmful",
+  "color": 16401420
+ },
+ "sl_library:chained_soul": {
+  "name": "Chained Soul",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "sl_library:creative_block": {
+  "name": "Creative Block",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "sl_library:death_mark": {
+  "name": "Death Mark",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "sl_library:invulnerability": {
+  "name": "Invulnerability",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "soulsweapons:blade_dance": {
+  "name": "Blade Dance",
+  "description": null,
+  "category": "beneficial",
+  "color": 11075583
+ },
+ "soulsweapons:bleed": {
+  "name": "Bleed",
+  "description": null,
+  "category": "harmful",
+  "color": 12192768
+ },
+ "soulsweapons:blight": {
+  "name": "Blight",
+  "description": null,
+  "category": "harmful",
+  "color": 7536956
+ },
+ "soulsweapons:bloodthirsty": {
+  "name": "Bloodthirsty",
+  "description": null,
+  "category": "neutral",
+  "color": 6488329
+ },
+ "soulsweapons:calculated_fall": {
+  "name": "Calculated Fall",
+  "description": null,
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "soulsweapons:chungus_tonic_effect": {
+  "name": "Chungus Tonic",
+  "description": null,
+  "category": "beneficial",
+  "color": 2752400
+ },
+ "soulsweapons:cooldown": {
+  "name": "Cooldown",
+  "description": null,
+  "category": "harmful",
+  "color": 5395026
+ },
+ "soulsweapons:decay": {
+  "name": "Decay",
+  "description": null,
+  "category": "harmful",
+  "color": 917540
+ },
+ "soulsweapons:disable_heal": {
+  "name": "Cursed Wounds",
+  "description": null,
+  "category": "harmful",
+  "color": 16555421
+ },
+ "soulsweapons:echo": {
+  "name": "Echo",
+  "description": null,
+  "category": "harmful",
+  "color": 16948
+ },
+ "soulsweapons:exalted": {
+  "name": "Exalted",
+  "description": null,
+  "category": "beneficial",
+  "color": 16711680
+ },
+ "soulsweapons:fear": {
+  "name": "Undead Fear",
+  "description": null,
+  "category": "harmful",
+  "color": 13068032
+ },
+ "soulsweapons:freezing": {
+  "name": "Permafrost",
+  "description": null,
+  "category": "harmful",
+  "color": 9238001
+ },
+ "soulsweapons:frost_moon": {
+  "name": "Frost Moon",
+  "description": null,
+  "category": "beneficial",
+  "color": 4575487
+ },
+ "soulsweapons:ghostly": {
+  "name": "Ghostly",
+  "description": null,
+  "category": "beneficial",
+  "color": 6197649
+ },
+ "soulsweapons:hallowed_dragon_mist": {
+  "name": "Purified Mist",
+  "description": null,
+  "category": "neutral",
+  "color": 11081174
+ },
+ "soulsweapons:life_leach": {
+  "name": "Life Leach",
+  "description": null,
+  "category": "beneficial",
+  "color": 4532083
+ },
+ "soulsweapons:magic_resistance": {
+  "name": "Magic Resistance",
+  "description": null,
+  "category": "beneficial",
+  "color": 8454143
+ },
+ "soulsweapons:moon_herald": {
+  "name": "Lunar Herald",
+  "description": null,
+  "category": "beneficial",
+  "color": 256252
+ },
+ "soulsweapons:posture_break": {
+  "name": "Posture Break",
+  "description": null,
+  "category": "harmful",
+  "color": 1835008
+ },
+ "soulsweapons:potency": {
+  "name": "Potency",
+  "description": null,
+  "category": "beneficial",
+  "color": 2097300
+ },
+ "soulsweapons:retribution": {
+  "name": "Retribution",
+  "description": null,
+  "category": "harmful",
+  "color": 13068032
+ },
+ "soulsweapons:shadow_step": {
+  "name": "Shadow Step",
+  "description": null,
+  "category": "beneficial",
+  "color": 134776
+ },
+ "soulsweapons:soul_of_cinder": {
+  "name": "Soul of Cinder",
+  "description": null,
+  "category": "beneficial",
+  "color": 13382400
+ },
+ "soulsweapons:stormveil": {
+  "name": "Stormveil",
+  "description": null,
+  "category": "beneficial",
+  "color": 8582143
+ },
+ "soulsweapons:veil_of_fire": {
+  "name": "Veil of Fire",
+  "description": null,
+  "category": "neutral",
+  "color": 16418048
+ },
+ "supplementaries:flammable": {
+  "name": "Flammable",
+  "description": "Increases on fire duration and spreads fire as you walk",
+  "category": "harmful",
+  "color": 14500864
+ },
+ "supplementaries:overencumbered": {
+  "name": "Overencumbered",
+  "description": "Prevents sprinting. Further levels reduce jump height hinder walking speed respectively",
+  "category": "harmful",
+  "color": 7095583
+ },
+ "too_many_bows:cursed_flame": {
+  "name": "Cursed Flame",
+  "description": null,
+  "category": "harmful",
+  "color": 6684774
+ },
+ "traveloptics:abyssal_strike": {
+  "name": "Abyssal Strike",
+  "description": "Attacks have a chance to spread the Abyssal Curse effect to nearby entities.",
+  "category": "beneficial",
+  "color": 0
+ },
+ "traveloptics:aerial_collapse": {
+  "name": "Aerial Collapse",
+  "description": "Causes the affected entity to fly and crash down, dealing percentage-based damage to their health, ignoring armor.",
+  "category": "harmful",
+  "color": 0
+ },
+ "traveloptics:aerial_collapse_helper": {
+  "name": "effect.traveloptics.aerial_collapse_helper",
+  "description": null,
+  "category": "beneficial",
+  "color": 0
+ },
+ "traveloptics:assassin": {
+  "name": "Assassin",
+  "description": "Grants true invisibility, greatly increases movement speed and attack damage. The effect is removed after the first attack.",
+  "category": "beneficial",
+  "color": 0
+ },
+ "traveloptics:astral_path_reveal": {
+  "name": "Astral Path Reveal",
+  "description": "Reveals the affected mob's pathfinder.",
+  "category": "neutral",
+  "color": 11393254
+ },
+ "traveloptics:astral_sense": {
+  "name": "Astral Sense [Entity]",
+  "description": "Alert the player about incoming projectiles, targeting and approaching entities.",
+  "category": "beneficial",
+  "color": 16766720
+ },
+ "traveloptics:astral_sense_treasure": {
+  "name": "Astral Sense [Treasure]",
+  "description": "Helps the player to find chests, traps, and valuable blocks.",
+  "category": "beneficial",
+  "color": 16766720
+ },
+ "traveloptics:azure_frenzy": {
+  "name": "Azure Frenzy",
+  "description": "Grants attack speed to the affected player while the Galenic Polarizer is held in the main hand",
+  "category": "beneficial",
+  "color": 49151
+ },
+ "traveloptics:blackout": {
+  "name": "Blackout",
+  "description": "Affected get their magic suppressed for the entire duration, they can melee attack.",
+  "category": "neutral",
+  "color": 0
+ },
+ "traveloptics:casting": {
+  "name": "Casting...",
+  "description": "Simulates spell casting.",
+  "category": "neutral",
+  "color": 0
+ },
+ "traveloptics:consume": {
+  "name": "Consume",
+  "description": "Grants bonus attack speed.",
+  "category": "beneficial",
+  "color": 9636843
+ },
+ "traveloptics:corroded": {
+  "name": "Corroded",
+  "description": "Reduces resistance to fire spells and corrodes armor.",
+  "category": "harmful",
+  "color": 0
+ },
+ "traveloptics:crimson_descend": {
+  "name": "effect.traveloptics.crimson_descend",
+  "description": null,
+  "category": "beneficial",
+  "color": 4915330
+ },
+ "traveloptics:flames_reborn": {
+  "name": "Flames Reborn",
+  "description": "Ignite a wave of fire, marking your place in time. If you fall, the flames will resurrect you at your marked spot, fully restoring your health",
+  "category": "beneficial",
+  "color": 16729344
+ },
+ "traveloptics:flare_vacuum": {
+  "name": "Flare Vacuum",
+  "description": "Pulls in nearby entities with a fiery vacuum effect before bursting into flame jets.",
+  "category": "harmful",
+  "color": 0
+ },
+ "traveloptics:floodgate": {
+  "name": "Floodgate",
+  "description": "Imposes a damage cap on the caster, ensuring that any incoming damage exceeding the threshold is reduced to the cap. When damage surpasses the threshold, waves surge outward in all directions, dealing damage.",
+  "category": "beneficial",
+  "color": 65280
+ },
+ "traveloptics:frozen_sight": {
+  "name": "Frozen Sight",
+  "description": "Fixes the entity’s vision at the point they were looking when the effect took hold. Also disables certain player abilities.",
+  "category": "harmful",
+  "color": 5926017
+ },
+ "traveloptics:jet_steam": {
+  "name": "Jet Steam",
+  "description": "Significantly boosts elytra flight and swimming speed.",
+  "category": "beneficial",
+  "color": 0
+ },
+ "traveloptics:lingering_strain": {
+  "name": "Lingering Strain",
+  "description": "Splits incoming burst damage into four parts, dealt over 8 seconds instead of instantly.",
+  "category": "beneficial",
+  "color": 16711680
+ },
+ "traveloptics:meteor_storm": {
+  "name": "Meteor Storm",
+  "description": "Summons Ignis fireballs to rain down from the sky. If the caster's health falls below 50%, the fireballs transform into soul-fired projectiles.",
+  "category": "beneficial",
+  "color": 0
+ },
+ "traveloptics:nullflare_fire": {
+  "name": "Nullflare Fire",
+  "description": "Deals damage-over-time to the affected entity.",
+  "category": "harmful",
+  "color": 16711680
+ },
+ "traveloptics:nullflare_ice": {
+  "name": "Nullflare Ice",
+  "description": "Slows and chills the affected entity.",
+  "category": "harmful",
+  "color": 65535
+ },
+ "traveloptics:overloaded": {
+  "name": "Overloaded",
+  "description": "Disables Infernal Devastator transforms.",
+  "category": "harmful",
+  "color": 0
+ },
+ "traveloptics:phantom_rage": {
+  "name": "Phantom Rage",
+  "description": "Increases Attack damage, Spell power, Arrow damage.",
+  "category": "beneficial",
+  "color": 10423267
+ },
+ "traveloptics:psychic_control": {
+  "name": "Psychic Control",
+  "description": "Psychic Control",
+  "category": "harmful",
+  "color": 2744299
+ },
+ "traveloptics:replenish": {
+  "name": "Replenish",
+  "description": "Adds mana regeneration to the affected entity.",
+  "category": "beneficial",
+  "color": 9636843
+ },
+ "traveloptics:reversal": {
+  "name": "Reversal",
+  "description": "Reverses any incoming damage. Additionally, it can copy incoming projectiles.",
+  "category": "beneficial",
+  "color": 16711680
+ },
+ "traveloptics:spectral_blink": {
+  "name": "Spectral Blink",
+  "description": "After 3 seconds, teleports the affected entity to the entity they were looking at, passing through any blocks.",
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "traveloptics:spirit_damage_helper": {
+  "name": "Spirit Damage",
+  "description": "A helper effect to simulate scaling damage on Dinosaur Spirits.",
+  "category": "beneficial",
+  "color": 16777215
+ },
+ "traveloptics:third_person_switch": {
+  "name": "Force Third Person",
+  "description": "Forces the affected player to switch to third person perspective. Switches back to first person when effect ends.",
+  "category": "neutral",
+  "color": 0
+ },
+ "traveloptics:tidal_grasp": {
+  "name": "Tidal Grasp",
+  "description": "Helper effects for Tidal grasp spell.",
+  "category": "beneficial",
+  "color": 9636843
+ },
+ "traveloptics:tidal_grasp_helper": {
+  "name": "Tidal Grasp",
+  "description": "Helper effects for Tidal grasp spell.",
+  "category": "harmful",
+  "color": 9636843
+ },
+ "traveloptics:tidal_torment": {
+  "name": "Tidal Torment",
+  "description": "Causes nearby entities to take area damage when the affected target is struck by the Trident of the Eternal Maelstrom",
+  "category": "harmful",
+  "color": 0
+ },
+ "traveloptics:vigor_siphon": {
+  "name": "Vigor Siphon",
+  "description": "While affected, Damage dealt by the summon heals you, and your damage heals the summon in return. If you die while tethered, the linked summon is sacrificed to restore you with 8hp",
+  "category": "beneficial",
+  "color": 10423267
+ },
+ "traveloptics:void_collapse": {
+  "name": "Void Collapse",
+  "description": "Lifts affected entities into the air, then slams them down, dealing damage based on the effect’s amplifier",
+  "category": "harmful",
+  "color": 0
+ },
+ "traveloptics:vortex_punch": {
+  "name": "Vortex Uppercut",
+  "description": "Helper effect for Vortex Uppercut spell.",
+  "category": "beneficial",
+  "color": 10423267
+ },
+ "traveloptics:wet": {
+  "name": "Wet",
+  "description": "Reduces resistance to ice and lightning spells.",
+  "category": "harmful",
+  "color": 0
+ },
+ "valarian_conquest:cannon_cooldown_potion": {
+  "name": "Cannon Cooldown Potion",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "valarian_conquest:guard_potion": {
+  "name": "Guard Potion",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "valarian_conquest:long_patrol_potion": {
+  "name": "Long Patrol Potion",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "valarian_conquest:npc_follow_potion": {
+  "name": "Follow Potion",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "valarian_conquest:patrol_points_potion": {
+  "name": "Patrol Points Potion",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "valarian_conquest:stand_ground_potion": {
+  "name": "Stand Ground Potion",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "valarian_conquest:summon_horse_mount_potion": {
+  "name": "Summon Horse Mount Potion",
+  "description": null,
+  "category": "neutral",
+  "color": -1
+ },
+ "wo_traveloptics:atel_spell_atk_1": {
+  "name": "ATEL Spell Atk 1",
+  "description": null,
+  "category": "neutral",
+  "color": -3355444
+ },
+ "womplus:impregnability": {
+  "name": "RAAHHHRR",
+  "description": null,
+  "category": "beneficial",
+  "color": -4144960
+ },
+ "xaerominimap:no_cave_maps": {
+  "name": "No Cave Maps",
+  "description": null,
+  "category": "neutral",
+  "color": -16777216
+ },
+ "xaerominimap:no_cave_maps_harmful": {
+  "name": "No Cave Maps",
+  "description": null,
+  "category": "harmful",
+  "color": -16777216
+ },
+ "xaerominimap:no_entity_radar": {
+  "name": "No Entity Radar",
+  "description": null,
+  "category": "neutral",
+  "color": -16777216
+ },
+ "xaerominimap:no_entity_radar_harmful": {
+  "name": "No Entity Radar",
+  "description": null,
+  "category": "harmful",
+  "color": -16777216
+ },
+ "xaerominimap:no_minimap": {
+  "name": "No Minimap",
+  "description": null,
+  "category": "neutral",
+  "color": -16777216
+ },
+ "xaerominimap:no_minimap_harmful": {
+  "name": "No Minimap",
+  "description": null,
+  "category": "harmful",
+  "color": -16777216
+ },
+ "xaerominimap:no_waypoints": {
+  "name": "No Waypoints",
+  "description": null,
+  "category": "neutral",
+  "color": -16777216
+ },
+ "xaerominimap:no_waypoints_harmful": {
+  "name": "No Waypoints",
+  "description": null,
+  "category": "harmful",
+  "color": -16777216
+ },
+ "xaeroworldmap:no_cave_maps": {
+  "name": "No WM Cave Maps",
+  "description": null,
+  "category": "neutral",
+  "color": -16777216
+ },
+ "xaeroworldmap:no_cave_maps_harmful": {
+  "name": "No WM Cave Maps",
+  "description": null,
+  "category": "harmful",
+  "color": -16777216
+ },
+ "xaeroworldmap:no_world_map": {
+  "name": "No World Map",
+  "description": null,
+  "category": "neutral",
+  "color": -16777216
+ },
+ "xaeroworldmap:no_world_map_harmful": {
+  "name": "No World Map",
+  "description": null,
+  "category": "harmful",
+  "color": -16777216
+ }
+}

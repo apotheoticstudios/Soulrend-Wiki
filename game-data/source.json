@@ -1,4 +1,14 @@
 {
+ "data": [
+  "item-stats (14144)",
+  "loot-tables (8411)",
+  "gems (102)",
+  "skills (302)",
+  "spells (219)",
+  "attributes (615)",
+  "effects (387)",
+  "enchantments (133)"
+ ],
  "icons": {
   "folder": "icon-exports-x32",
   "rendered": 13283,
@@ -8,6 +18,7 @@
  },
  "items": "kubejs export",
  "recipes": "kubejs export",
- "syncedAt": "2026-10-22T22:06:43.230Z",
+ "recipesRemoved": 680,
+ "syncedAt": "2026-10-26T06:19:29.885Z",
  "tags": "kubejs export"
 }

@@ -116,6 +116,29 @@ span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
 .mc-tooltip .tt-hint { margin-top: 4px; color: #888; font-family: var(--font-ui); font-size: 12px; text-shadow: none; }
 .mc-obfuscated { filter: blur(2px); }
 
+/* Epic Fight moveset: a two-column table per style, then skill texts in tooltip boxes */
+.moveset { margin: 0 0 1.2em; }
+.moveset-facts { margin: 0 0 0.6em; }
+.prose .moveset-table th { width: 9em; background: var(--panel); font-family: var(--font-ui); font-weight: 600; }
+.prose .moveset-table tr.moveset-style th { width: auto; background: var(--surface); font-family: var(--font-heading); }
+.moveset-style span { margin-left: 0.4em; color: var(--muted); font-family: var(--font-ui); font-size: 13px; font-weight: 400; }
+.moveset-anim small { color: var(--muted); }
+.moveset-skills { margin: 0; }
+.moveset-skills dt { margin: 0.8em 0 0.3em; font-family: var(--font-ui); font-weight: 600; }
+.moveset-skills dd {
+  margin: 0;
+  padding: 4px 8px 6px;
+  background: var(--tooltip-bg);
+  border: 2px solid transparent;
+  border-image: linear-gradient(var(--tooltip-border), var(--tooltip-border2)) 1;
+  color: #fff;
+  font-family: "Soulrend MC", var(--font-ui);
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 2px 2px 0 rgb(0 0 0 / 0.35);
+  -webkit-font-smoothing: none;
+}
+
 /* 3D model viewer */
 .embed-model { margin: 1.5em 0; }
 .model-stage {

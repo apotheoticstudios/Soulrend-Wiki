@@ -1,0 +1,2462 @@
+{
+ "additional_attributes:apothic_crafting": {
+  "name": "Apothic Crafting",
+  "default": 0
+ },
+ "additional_attributes:fishing_luck": {
+  "name": "Fishing Luck",
+  "default": 0
+ },
+ "additional_attributes:fishing_lure": {
+  "name": "Fishing Lure",
+  "default": 0
+ },
+ "additional_attributes:harvest": {
+  "name": "Harvesting",
+  "default": 0
+ },
+ "additional_attributes:innate_school/familiarslib/sound": {
+  "name": "Innate Sound School",
+  "default": 0
+ },
+ "additional_attributes:innate_school/gtbcs_geomancy_plus/geo": {
+  "name": "Innate Geo School",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/blood": {
+  "name": "Innate School: Blood",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/eldritch": {
+  "name": "Innate School: Eldritch",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/ender": {
+  "name": "Innate School: Ender",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/evocation": {
+  "name": "Innate School: Evocation",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/fire": {
+  "name": "Innate School: Fire",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/holy": {
+  "name": "Innate School: Holy",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/ice": {
+  "name": "Innate School: Ice",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/lightning": {
+  "name": "Innate School: Lightning",
+  "default": 0
+ },
+ "additional_attributes:innate_school/irons_spellbooks/nature": {
+  "name": "Innate School: Nature",
+  "default": 0
+ },
+ "additional_attributes:innate_school/traveloptics/aqua": {
+  "name": "Innate Aqua School",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/birds_spell": {
+  "name": "Innate Birds",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/default_note": {
+  "name": "Innate Default Note",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/end_mayhem": {
+  "name": "Innate End Mayhem",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/explosion_melody": {
+  "name": "Innate Explosion Melody",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/fire_fist": {
+  "name": "Innate Fire Fist",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/guardian_angel": {
+  "name": "Innate Guardian Angel",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/harp_symphony": {
+  "name": "Innate Harp Symphony",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/ice_age": {
+  "name": "Innate Ice Age",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/ice_chamber": {
+  "name": "Innate Ice Chamber",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/lullaby": {
+  "name": "Innate Lullaby",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/megido": {
+  "name": "Innate Megido",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/music_bolt": {
+  "name": "Innate Music Bolt",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/sonata": {
+  "name": "Innate Sonata",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/alshanex_familiars/summon_shadows": {
+  "name": "Innate Summon Shadows",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/cataclysm_spellbooks/gravitation_pull": {
+  "name": null,
+  "default": 0
+ },
+ "additional_attributes:innate_spell/cataclysm_spellbooks/tectonic_tremble": {
+  "name": null,
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/acid_ball_spell": {
+  "name": "Innate Acid Ball",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/arcane_arrow": {
+  "name": "Innate Arcane Arrow",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/bloody_arrow": {
+  "name": "Innate Bloody Arrow",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/crimson_oath": {
+  "name": "Innate Crimson Oath",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/eldritch_slash": {
+  "name": "Innate Eldritch Slash",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/fairys_wish_spell": {
+  "name": "Innate Fairys Wish",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/summon_bloodymancer_cultist": {
+  "name": "Innate Summon Bloodymancer Cultist",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/summon_pyro_knight": {
+  "name": "Innate Summon Pyro Knight",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/summon_weakness": {
+  "name": "Innate Summon Weakness",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/summonkamath": {
+  "name": "Innate Summon Kamath",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/sunleia_beam": {
+  "name": "Innate Sunleia Beam",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/suns_wrath": {
+  "name": "Innate Suns Wrath",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/dacxirons/triple_fireball_spell": {
+  "name": "Innate Triple Fireball",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/chunker": {
+  "name": "Innate Chunker",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/crystalline_conduit": {
+  "name": "Innate Crystalline Conduit",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/dripstone_bolt": {
+  "name": "Innate Dripstone Bolt",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/eroding_boulder": {
+  "name": "Innate Eroding Boulder",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/fissure": {
+  "name": "Innate Fissure",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/geo_conductor": {
+  "name": "Innate Geo Conductor",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/petrivise": {
+  "name": "Innate Petrivise",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/pillar_of_the_resounding_earth": {
+  "name": "Innate Pillar Of The Resounding Earth",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/seismic_surf": {
+  "name": "Innate Seismic Surf",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/solar_beam": {
+  "name": "Innate Solar Beam",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/solar_chorus": {
+  "name": "Innate Solar Chorus",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/solar_storm": {
+  "name": "Innate Solar Storm",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/tremor_spike": {
+  "name": "Innate Tremor Spike",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/tremor_step": {
+  "name": "Innate Tremor Step",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/weeping_cluster": {
+  "name": "Innate Weeping Cluster",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/gtbcs_geomancy_plus/weeping_wall": {
+  "name": "Innate Weeping Wall",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/abyssal_shroud": {
+  "name": "Abyssal Shroud",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/acid_orb": {
+  "name": "Acid Orb",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/acupuncture": {
+  "name": "Acupuncture",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/angel_wing": {
+  "name": "Angel Wing",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/arrow_volley": {
+  "name": "Arrow Volley",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/ascension": {
+  "name": "Ascension",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/ball_lightning": {
+  "name": "Ball Lightning",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/black_hole": {
+  "name": "Black Hole",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/blaze_storm": {
+  "name": "Blaze Storm",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/blessing_of_life": {
+  "name": "Blessing Of Life",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/blight": {
+  "name": "Blight",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/blood_needles": {
+  "name": "Blood Needles",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/blood_slash": {
+  "name": "Blood Slash",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/blood_step": {
+  "name": "Blood Step",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/burning_dash": {
+  "name": "Burning Dash",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/chain_creeper": {
+  "name": "Chain Creeper",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/chain_lightning": {
+  "name": "Chain Lightning",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/charge": {
+  "name": "Charge",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/cleanse": {
+  "name": "Innate Spell: Cleanse",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/cloud_of_regeneration": {
+  "name": "Cloud Of Regeneration",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/cone_of_cold": {
+  "name": "Cone Of Cold",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/counterspell": {
+  "name": "Counterspell",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/devour": {
+  "name": "Devour",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/divine_smite": {
+  "name": "Divine Smite",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/dragon_breath": {
+  "name": "Dragon Breath",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/earthquake": {
+  "name": "Earthquake",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/echoing_strikes": {
+  "name": "Echoing Strikes",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/eldritch_blast": {
+  "name": "Eldritch Blast",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/electrocute": {
+  "name": "Electrocute",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/evasion": {
+  "name": "Evasion",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/fang_strike": {
+  "name": "Fang Strike",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/fang_ward": {
+  "name": "Fang Ward",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/fire_arrow": {
+  "name": "Innate Fire Arrow",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/fire_breath": {
+  "name": "Fire Breath",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/fireball": {
+  "name": "Fireball",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/firebolt": {
+  "name": "Firebolt",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/firecracker": {
+  "name": "Firecracker",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/firefly_swarm": {
+  "name": "Firefly Swarm",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/flaming_barrage": {
+  "name": "Flaming Barrage",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/flaming_strike": {
+  "name": "Flaming Strike",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/fortify": {
+  "name": "Fortify",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/frost_step": {
+  "name": "Frost Step",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/frostbite": {
+  "name": "Innate Frostbite",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/frostwave": {
+  "name": "Frostwave",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/gluttony": {
+  "name": "Gluttony",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/greater_heal": {
+  "name": "Greater Heal",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/guiding_bolt": {
+  "name": "Guiding Bolt",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/gust": {
+  "name": "Gust",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/haste": {
+  "name": "Haste",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/heal": {
+  "name": "Heal",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/healing_circle": {
+  "name": "Healing Circle",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/heartstop": {
+  "name": "Heartstop",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/heat_surge": {
+  "name": "Heat Surge",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/ice_block": {
+  "name": "Ice Block",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/ice_spikes": {
+  "name": "Innate Ice Spikes",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/ice_tomb": {
+  "name": "Innate Ice Tomb",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/icicle": {
+  "name": "Icicle",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/invisibility": {
+  "name": "Invisibility",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/lightning_bolt": {
+  "name": "Lightning Bolt",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/lightning_lance": {
+  "name": "Lightning Lance",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/lob_creeper": {
+  "name": "Lob Creeper",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/magic_arrow": {
+  "name": "Magic Arrow",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/magic_missile": {
+  "name": "Magic Missile",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/magma_bomb": {
+  "name": "Magma Bomb",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/oakskin": {
+  "name": "Oakskin",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/planar_sight": {
+  "name": "Planar Sight",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/pocket_dimension": {
+  "name": null,
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/poison_arrow": {
+  "name": "Poison Arrow",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/poison_breath": {
+  "name": "Poison Breath",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/poison_splash": {
+  "name": "Poison Splash",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/portal": {
+  "name": "Portal",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/raise_dead": {
+  "name": "Raise Dead",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/raise_hell": {
+  "name": "Innate Raise Hell",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/ray_of_frost": {
+  "name": "Ray Of Frost",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/ray_of_siphoning": {
+  "name": "Ray Of Siphoning",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/recall": {
+  "name": "Recall",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/root": {
+  "name": "Root",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/sacrifice": {
+  "name": "Sacrifice",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/scorch": {
+  "name": "Scorch",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/sculk_tentacles": {
+  "name": "Sculk Tentacles",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/shadow_slash": {
+  "name": "Innate Shadow Slash",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/shield": {
+  "name": "Shield",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/shockwave": {
+  "name": "Shockwave",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/slow": {
+  "name": "Slow",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/snowball": {
+  "name": "Innate Snowball",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/sonic_boom": {
+  "name": "Sonic Boom",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/spectral_hammer": {
+  "name": "Spectral Hammer",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/spider_aspect": {
+  "name": "Spider Aspect",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/starfall": {
+  "name": "Starfall",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/stomp": {
+  "name": "Stomp",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/summon_ender_chest": {
+  "name": "Summon Ender Chest",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/summon_horse": {
+  "name": "Summon Horse",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/summon_polar_bear": {
+  "name": "Summon Polar Bear",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/summon_swords": {
+  "name": "Innate Summon Swords",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/summon_vex": {
+  "name": "Summon Vex",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/sunbeam": {
+  "name": "Innate Spell: Sunbeam",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/telekinesis": {
+  "name": "Telekinesis",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/teleport": {
+  "name": "Teleport",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/throw": {
+  "name": "Innate Throw",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/thunderstorm": {
+  "name": "Thunderstorm",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/touch_dig": {
+  "name": "Innate Touch Dig",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/volt_strike": {
+  "name": "Innate Volt Strike",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/wall_of_fire": {
+  "name": "Wall Of Fire",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/wisp": {
+  "name": "Wisp",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/wither_skull": {
+  "name": "Wither Skull",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/irons_spellbooks/wololo": {
+  "name": "Wololo",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/kubejs/cannibalism": {
+  "name": null,
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/abyssal_blast": {
+  "name": "Innate Abyssal Blast",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/aerial_collapse": {
+  "name": "Aerial Collapse",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/annihilation": {
+  "name": "Innate Annihilation",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/apex_harvest": {
+  "name": "Innate Apex Harvest",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/aqua_missiles": {
+  "name": "Innate Aqua Missiles",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/ashen_breath": {
+  "name": "Ashen Breath",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/astral_sense": {
+  "name": "Innate Astral Sense",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/axe_of_the_doomed": {
+  "name": "Innate Axe Of The Doomed",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/blackout": {
+  "name": "Innate Blackout",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/blink": {
+  "name": "Innate Blink",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/blood_howl": {
+  "name": "Innate Blood Howl",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/bubble_spray": {
+  "name": "Innate Bubble Spray",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/burning_judgment": {
+  "name": "Innate Burning Judgment",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/call_forth_the_dead_king": {
+  "name": "Innate Call Forth The Dead King",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/conjure_void_tomes": {
+  "name": "Innate Conjure Void Tomes",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/coral_barrage": {
+  "name": "Innate Coral Barrage",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/cursed_minefield": {
+  "name": "Innate Cursed Minefield",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/cursed_revenants": {
+  "name": "Innate Cursed Revenants",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/death_laser": {
+  "name": "Innate Death Laser",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/despair": {
+  "name": "Innate Despair",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/echo_of_the_abyss": {
+  "name": "Innate Echo Of The Abyss",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/eek": {
+  "name": "Innate Eek",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/em_pulse": {
+  "name": "EM-Pulse",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/eternal_sentinel": {
+  "name": "Innate Eternal Sentinel",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/extinction": {
+  "name": "Innate Extinction",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/flames_reborn": {
+  "name": "Innate Flames Reborn",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/flood_slash": {
+  "name": "Innate Flood Slash",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/floodgate": {
+  "name": "Innate Floodgate",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/galena_shatter": {
+  "name": "Innate Galena Shatter",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/gyro_slash": {
+  "name": "Innate Gyro Slash",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/halberd_horizon": {
+  "name": "Innate Halberd Horizon",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/herald_of_acropolis": {
+  "name": "Innate Herald Of Acropolis",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/hydroshot": {
+  "name": "Innate Hydroshot",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/ignited_onslaught": {
+  "name": "Innate Ignited Onslaught",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/jet_steam": {
+  "name": "Innate Jet Steam",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/lava_bomb": {
+  "name": "Innate Lava Bomb",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/lingering_strain": {
+  "name": "Innate Lingering Strain",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/magnetron_deployment": {
+  "name": "Innate Magnetron Deployment",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/mechanized_predator": {
+  "name": "Innate Mechanized Predator",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/meteor_storm": {
+  "name": "Innate Meteor Storm",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/nocturnal_swarm": {
+  "name": "Innate Nocturnal Swarm",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/nullflare": {
+  "name": "Nullflare",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/orbital_void": {
+  "name": "Innate Orbital Void",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/overflow": {
+  "name": "Innate Overflow",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/primal_pack": {
+  "name": "Innate Primal Pack",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/primordial_steed": {
+  "name": "Innate Primordial Steed",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/psychic_bolt": {
+  "name": "Innate Psychic Bolt",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/rainfall": {
+  "name": "Innate Rainfall",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/rapid_laser": {
+  "name": "Innate Rapid Laser",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/reversal": {
+  "name": "Reversal",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/serpentide": {
+  "name": "Innate Serpentide",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/shadowed_miasma": {
+  "name": "Innate Shadowed Miasma",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/shear_of_the_stars": {
+  "name": "Innate Shear Of The Stars",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/skypiercer": {
+  "name": "Innate Skypiercer",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/spectral_blink": {
+  "name": "Innate Spectral Blink",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/stele_cascade": {
+  "name": "Innate Stele Cascade",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/sticky_steed_summon": {
+  "name": "Innate Sticky Steed Summon",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/summon_desert_dwellers": {
+  "name": "Innate Summon Desert Dwellers",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/supernova": {
+  "name": "Innate Supernova",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/sword_of_the_ancients": {
+  "name": "Innate Sword Of The Ancients",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/the_forgotten_beast": {
+  "name": "Innate The Forgotten Beast",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/the_howling_tempest": {
+  "name": "Innate The Howling Tempest",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/tidal_grasp": {
+  "name": "Innate Tidal Grasp",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/tsunami": {
+  "name": "Innate Tsunami",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/vigor_siphon": {
+  "name": "Innate Vigor Siphon",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/violent_skreech": {
+  "name": "Innate Violent Skreech",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/void_eruption": {
+  "name": "Innate Void Eruption",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/vortex_of_the_deep": {
+  "name": "Innate Vortex Of The Deep",
+  "default": 0
+ },
+ "additional_attributes:innate_spell/traveloptics/vortex_punch": {
+  "name": "Innate Vortex Punch",
+  "default": 0
+ },
+ "additional_attributes:keep_scroll": {
+  "name": "Keep Scroll",
+  "default": 0
+ },
+ "additional_attributes:looting": {
+  "name": "Looting",
+  "default": 0
+ },
+ "additional_attributes:respiration": {
+  "name": "Respiration",
+  "default": 0
+ },
+ "additional_attributes:school/familiarslib/sound": {
+  "name": "Sound School Level",
+  "default": 0
+ },
+ "additional_attributes:school/gtbcs_geomancy_plus/geo": {
+  "name": "Geo School Level",
+  "default": 0
+ },
+ "additional_attributes:school/traveloptics/aqua": {
+  "name": "Aqua School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_general": {
+  "name": "General Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_blood": {
+  "name": "Blood School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_eldritch": {
+  "name": "Eldritch School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_ender": {
+  "name": "Ender School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_evocation": {
+  "name": "Evocation School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_fire": {
+  "name": "Fire School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_holy": {
+  "name": "Holy School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_ice": {
+  "name": "Ice School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_lightning": {
+  "name": "Lightning School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_school_nature": {
+  "name": "Nature School Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_abyssal_shroud": {
+  "name": "Abyssal Shroud Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_acid_orb": {
+  "name": "Acid Orb Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_acupuncture": {
+  "name": "Acupuncture Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_angel_wing": {
+  "name": "Angel Wing Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_arrow_volley": {
+  "name": "Arrow Volley Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_ascension": {
+  "name": "Ascension Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_ball_lightning": {
+  "name": "Ball Lightning Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_black_hole": {
+  "name": "Black Hole Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_blaze_storm": {
+  "name": "Blaze Storm Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_blessing_of_life": {
+  "name": "Blessing Of Life Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_blight": {
+  "name": "Blight Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_blood_needles": {
+  "name": "Blood Needles Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_blood_slash": {
+  "name": "Blood Slash Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_blood_step": {
+  "name": "Blood Step Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_burning_dash": {
+  "name": "Burning Dash Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_chain_creeper": {
+  "name": "Chain Creeper Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_chain_lightning": {
+  "name": "Chain Lightning Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_charge": {
+  "name": "Charge Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_cleanse": {
+  "name": "Cleanse Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_cloud_of_regeneration": {
+  "name": "Cloud Of Regeneration Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_cone_of_cold": {
+  "name": "Cone Of Cold Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_counterspell": {
+  "name": "Counterspell Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_devour": {
+  "name": "Devour Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_divine_smite": {
+  "name": "Divine Smite Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_dragon_breath": {
+  "name": "Dragon Breath Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_earthquake": {
+  "name": "Earthquake Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_echoing_strikes": {
+  "name": "Echoing Strikes Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_eldritch_blast": {
+  "name": "Eldritch Blast Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_electrocute": {
+  "name": "Electrocute Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_evasion": {
+  "name": "Evasion Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_fang_strike": {
+  "name": "Fang Strike Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_fang_ward": {
+  "name": "Fang Ward Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_fire_arrow": {
+  "name": "Fire Arrow Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_fire_breath": {
+  "name": "Fire Breath Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_fireball": {
+  "name": "Fireball Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_firebolt": {
+  "name": "Firebolt Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_firecracker": {
+  "name": "Firecracker Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_firefly_swarm": {
+  "name": "Firefly Swarm Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_flaming_barrage": {
+  "name": "Flaming Barrage Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_flaming_strike": {
+  "name": "Flaming Strike Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_fortify": {
+  "name": "Fortify Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_frost_step": {
+  "name": "Frost Step Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_frostbite": {
+  "name": "Frostbite Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_frostwave": {
+  "name": "Frostwave Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_gluttony": {
+  "name": "Gluttony Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_greater_heal": {
+  "name": "Greater Heal Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_guiding_bolt": {
+  "name": "Guiding Bolt Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_gust": {
+  "name": "Gust Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_haste": {
+  "name": "Haste Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_heal": {
+  "name": "Heal Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_healing_circle": {
+  "name": "Healing Circle Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_heartstop": {
+  "name": "Heartstop Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_heat_surge": {
+  "name": "Heat Surge Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_ice_block": {
+  "name": "Ice Block Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_ice_spikes": {
+  "name": "Ice Spikes Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_ice_tomb": {
+  "name": "Ice Tomb Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_icicle": {
+  "name": "Icicle Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_invisibility": {
+  "name": "Invisibility Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_lightning_bolt": {
+  "name": "Lightning Bolt Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_lightning_lance": {
+  "name": "Lightning Lance Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_lob_creeper": {
+  "name": "Lob Creeper Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_magic_arrow": {
+  "name": "Magic Arrow Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_magic_missile": {
+  "name": "Magic Missile Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_magma_bomb": {
+  "name": "Magma Bomb Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_oakskin": {
+  "name": "Oakskin Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_planar_sight": {
+  "name": "Planar Sight Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_pocket_dimension": {
+  "name": null,
+  "default": 0
+ },
+ "additional_attributes:spell_type_poison_arrow": {
+  "name": "Poison Arrow Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_poison_breath": {
+  "name": "Poison Breath Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_poison_splash": {
+  "name": "Poison Splash Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_portal": {
+  "name": "Portal Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_raise_dead": {
+  "name": "Raise Dead Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_raise_hell": {
+  "name": "Raise Hell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_ray_of_frost": {
+  "name": "Ray Of Frost Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_ray_of_siphoning": {
+  "name": "Ray Of Siphoning Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_recall": {
+  "name": "Recall Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_root": {
+  "name": "Root Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_sacrifice": {
+  "name": "Sacrifice Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_scorch": {
+  "name": "Scorch Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_sculk_tentacles": {
+  "name": "Sculk Tentacles Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_shadow_slash": {
+  "name": "Shadow Slash Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_shield": {
+  "name": "Shield Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_shockwave": {
+  "name": "Shockwave Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_slow": {
+  "name": "Slow Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_snowball": {
+  "name": "Snowball Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_sonic_boom": {
+  "name": "Sonic Boom Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_spectral_hammer": {
+  "name": "Spectral Hammer Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_spider_aspect": {
+  "name": "Spider Aspect Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_starfall": {
+  "name": "Starfall Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_stomp": {
+  "name": "Stomp Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_summon_ender_chest": {
+  "name": "Summon Ender Chest Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_summon_horse": {
+  "name": "Summon Horse Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_summon_polar_bear": {
+  "name": "Summon Polar Bear Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_summon_swords": {
+  "name": "Summon Swords Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_summon_vex": {
+  "name": "Summon Vex Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_sunbeam": {
+  "name": "Sunbeam Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_telekinesis": {
+  "name": "Telekinesis Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_teleport": {
+  "name": "Teleport Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_throw": {
+  "name": "Throw Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_thunderstorm": {
+  "name": "Thunderstorm Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_touch_dig": {
+  "name": "Touch Dig Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_volt_strike": {
+  "name": "Volt Strike Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_wall_of_fire": {
+  "name": "Wall Of Fire Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_wisp": {
+  "name": "Wisp Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_wither_skull": {
+  "name": "Wither Skull Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell_type_wololo": {
+  "name": "Wololo Spell Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/birds_spell": {
+  "name": "Birds Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/default_note": {
+  "name": "Default Note Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/end_mayhem": {
+  "name": "End Mayhem Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/explosion_melody": {
+  "name": "Explosion Melody Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/fire_fist": {
+  "name": "Fire Fist Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/guardian_angel": {
+  "name": "Guardian Angel Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/harp_symphony": {
+  "name": "Harp Symphony Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/ice_age": {
+  "name": "Ice Age Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/ice_chamber": {
+  "name": "Ice Chamber Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/lullaby": {
+  "name": "Lullaby Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/megido": {
+  "name": "Megido Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/music_bolt": {
+  "name": "Music Bolt Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/sonata": {
+  "name": "Sonata Level",
+  "default": 0
+ },
+ "additional_attributes:spell/alshanex_familiars/summon_shadows": {
+  "name": "Summon Shadows Level",
+  "default": 0
+ },
+ "additional_attributes:spell/cataclysm_spellbooks/gravitation_pull": {
+  "name": null,
+  "default": 0
+ },
+ "additional_attributes:spell/cataclysm_spellbooks/tectonic_tremble": {
+  "name": null,
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/acid_ball_spell": {
+  "name": "Acid Ball Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/arcane_arrow": {
+  "name": "Arcane Arrow Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/bloody_arrow": {
+  "name": "Bloody Arrow Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/crimson_oath": {
+  "name": "Crimson Oath Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/eldritch_slash": {
+  "name": "Eldritch Slash Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/fairys_wish_spell": {
+  "name": "Fairys Wish Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/summon_bloodymancer_cultist": {
+  "name": "Summon Bloodymancer Cultist Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/summon_pyro_knight": {
+  "name": "Summon Pyro Knight Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/summon_weakness": {
+  "name": "Summon Weakness Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/summonkamath": {
+  "name": "Summon Kamath Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/sunleia_beam": {
+  "name": "Sunleia Beam Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/suns_wrath": {
+  "name": "Suns Wrath Level",
+  "default": 0
+ },
+ "additional_attributes:spell/dacxirons/triple_fireball_spell": {
+  "name": "Triple Fireball Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/chunker": {
+  "name": "Chunker Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/crystalline_conduit": {
+  "name": "Crystalline Conduit Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/dripstone_bolt": {
+  "name": "Dripstone Bolt Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/eroding_boulder": {
+  "name": "Eroding Boulder Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/fissure": {
+  "name": "Fissure Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/geo_conductor": {
+  "name": "Geo Conductor Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/petrivise": {
+  "name": "Petrivise Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/pillar_of_the_resounding_earth": {
+  "name": "Pillar Of The Resounding Earth Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/seismic_surf": {
+  "name": "Seismic Surf Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/solar_beam": {
+  "name": "Solar Beam Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/solar_chorus": {
+  "name": "Solar Chorus Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/solar_storm": {
+  "name": "Solar Storm Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/tremor_spike": {
+  "name": "Tremor Spike Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/tremor_step": {
+  "name": "Tremor Step Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/weeping_cluster": {
+  "name": "Weeping Cluster Level",
+  "default": 0
+ },
+ "additional_attributes:spell/gtbcs_geomancy_plus/weeping_wall": {
+  "name": "Weeping Wall Level",
+  "default": 0
+ },
+ "additional_attributes:spell/kubejs/cannibalism": {
+  "name": "Cannibalism Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/abyssal_blast": {
+  "name": "Abyssal Blast Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/aerial_collapse": {
+  "name": "Aerial Collapse Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/annihilation": {
+  "name": "Annihilation Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/apex_harvest": {
+  "name": "Apex Harvest Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/aqua_missiles": {
+  "name": "Aqua Missiles Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/ashen_breath": {
+  "name": "Ashen Breath Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/astral_sense": {
+  "name": "Astral Sense Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/axe_of_the_doomed": {
+  "name": "Axe Of The Doomed Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/blackout": {
+  "name": "Blackout Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/blink": {
+  "name": "Blink Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/blood_howl": {
+  "name": "Blood Howl Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/bubble_spray": {
+  "name": "Bubble Spray Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/burning_judgment": {
+  "name": "Burning Judgment Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/call_forth_the_dead_king": {
+  "name": "Call Forth The Dead King Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/conjure_void_tomes": {
+  "name": "Conjure Void Tomes Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/coral_barrage": {
+  "name": "Coral Barrage Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/cursed_minefield": {
+  "name": "Cursed Minefield Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/cursed_revenants": {
+  "name": "Cursed Revenants Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/death_laser": {
+  "name": "Death Laser Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/despair": {
+  "name": "Despair Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/echo_of_the_abyss": {
+  "name": "Echo Of The Abyss Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/eek": {
+  "name": "Eek Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/em_pulse": {
+  "name": "Em Pulse Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/eternal_sentinel": {
+  "name": "Eternal Sentinel Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/extinction": {
+  "name": "Extinction Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/flames_reborn": {
+  "name": "Flames Reborn Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/flood_slash": {
+  "name": "Flood Slash Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/floodgate": {
+  "name": "Floodgate Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/galena_shatter": {
+  "name": "Galena Shatter Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/gyro_slash": {
+  "name": "Gyro Slash Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/halberd_horizon": {
+  "name": "Halberd Horizon Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/herald_of_acropolis": {
+  "name": "Herald Of Acropolis Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/hydroshot": {
+  "name": "Hydroshot Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/ignited_onslaught": {
+  "name": "Ignited Onslaught Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/jet_steam": {
+  "name": "Jet Steam Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/lava_bomb": {
+  "name": "Lava Bomb Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/lingering_strain": {
+  "name": "Lingering Strain Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/magnetron_deployment": {
+  "name": "Magnetron Deployment Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/mechanized_predator": {
+  "name": "Mechanized Predator Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/meteor_storm": {
+  "name": "Meteor Storm Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/nocturnal_swarm": {
+  "name": "Nocturnal Swarm Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/nullflare": {
+  "name": "Nullflare Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/orbital_void": {
+  "name": "Orbital Void Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/overflow": {
+  "name": "Overflow Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/primal_pack": {
+  "name": "Primal Pack Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/primordial_steed": {
+  "name": "Primordial Steed Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/psychic_bolt": {
+  "name": "Psychic Bolt Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/rainfall": {
+  "name": "Rainfall Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/rapid_laser": {
+  "name": "Rapid Laser Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/reversal": {
+  "name": "Reversal Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/serpentide": {
+  "name": "Serpentide Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/shadowed_miasma": {
+  "name": "Shadowed Miasma Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/shear_of_the_stars": {
+  "name": "Shear Of The Stars Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/skypiercer": {
+  "name": "Skypiercer Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/spectral_blink": {
+  "name": "Spectral Blink Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/stele_cascade": {
+  "name": "Stele Cascade Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/sticky_steed_summon": {
+  "name": "Sticky Steed Summon Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/summon_desert_dwellers": {
+  "name": "Summon Desert Dwellers Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/supernova": {
+  "name": "Supernova Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/sword_of_the_ancients": {
+  "name": "Sword Of The Ancients Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/the_forgotten_beast": {
+  "name": "The Forgotten Beast Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/the_howling_tempest": {
+  "name": "The Howling Tempest Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/tidal_grasp": {
+  "name": "Tidal Grasp Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/tsunami": {
+  "name": "Tsunami Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/vigor_siphon": {
+  "name": "Vigor Siphon Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/violent_skreech": {
+  "name": "Violent Skreech Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/void_eruption": {
+  "name": "Void Eruption Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/vortex_of_the_deep": {
+  "name": "Vortex Of The Deep Level",
+  "default": 0
+ },
+ "additional_attributes:spell/traveloptics/vortex_punch": {
+  "name": "Vortex Punch Level",
+  "default": 0
+ },
+ "additionalentityattributes:generic.jump_height": {
+  "name": "Jump Height",
+  "default": 0
+ },
+ "additionalentityattributes:generic.lava_speed": {
+  "name": "Lava Speed",
+  "default": 0.5
+ },
+ "additionalentityattributes:generic.lung_capacity": {
+  "name": "Lung Capacity",
+  "default": 0
+ },
+ "additionalentityattributes:generic.magic_protection": {
+  "name": "Magic Protection",
+  "default": 0
+ },
+ "additionalentityattributes:generic.water_speed": {
+  "name": "Water Speed",
+  "default": 0.5
+ },
+ "additionalentityattributes:player.bonus_loot_count_rolls": {
+  "name": "Additional Enchantment Loot Rolls",
+  "default": 0
+ },
+ "additionalentityattributes:player.bonus_rare_loot_rolls": {
+  "name": "Additional Rare Loot Rolls",
+  "default": 0
+ },
+ "additionalentityattributes:player.collection_range": {
+  "name": "Collection Range",
+  "default": 0
+ },
+ "additionalentityattributes:player.critical_bonus_damage": {
+  "name": "Crit Damage",
+  "default": 0.5
+ },
+ "additionalentityattributes:player.dig_speed": {
+  "name": "Mining Speed",
+  "default": 0
+ },
+ "additionalentityattributes:player.dropped_experience": {
+  "name": "Dropped Experience",
+  "default": 1
+ },
+ "additionalentityattributes:player.lava_visibility": {
+  "name": "Lava Vision",
+  "default": 1
+ },
+ "additionalentityattributes:player.water_visibility": {
+  "name": " Water Vision",
+  "default": 96
+ },
+ "attributeslib:armor_pierce": {
+  "name": "Armor Pierce",
+  "default": 0
+ },
+ "attributeslib:armor_shred": {
+  "name": "Armor Shred",
+  "default": 0
+ },
+ "attributeslib:arrow_damage": {
+  "name": "Arrow Damage",
+  "default": 1
+ },
+ "attributeslib:arrow_velocity": {
+  "name": "Arrow Velocity",
+  "default": 1
+ },
+ "attributeslib:cold_damage": {
+  "name": "Cold Damage",
+  "default": 0
+ },
+ "attributeslib:creative_flight": {
+  "name": "Creative Flight",
+  "default": 0
+ },
+ "attributeslib:crit_chance": {
+  "name": "Crit Chance",
+  "default": 0.05
+ },
+ "attributeslib:crit_damage": {
+  "name": "Crit Damage",
+  "default": 1.5
+ },
+ "attributeslib:current_hp_damage": {
+  "name": "Current HP Damage",
+  "default": 0
+ },
+ "attributeslib:dodge_chance": {
+  "name": "Dodge Chance",
+  "default": 0
+ },
+ "attributeslib:draw_speed": {
+  "name": "Draw Speed",
+  "default": 1
+ },
+ "attributeslib:elytra_flight": {
+  "name": "Elytra Flight",
+  "default": 0
+ },
+ "attributeslib:experience_gained": {
+  "name": "Experience Gained",
+  "default": 1
+ },
+ "attributeslib:fire_damage": {
+  "name": "Fire Damage",
+  "default": 0
+ },
+ "attributeslib:ghost_health": {
+  "name": "Ghost Health",
+  "default": 0
+ },
+ "attributeslib:healing_received": {
+  "name": "Healing Received",
+  "default": 1
+ },
+ "attributeslib:life_steal": {
+  "name": "Life Steal",
+  "default": 0
+ },
+ "attributeslib:mining_speed": {
+  "name": "Mining Speed",
+  "default": 1
+ },
+ "attributeslib:overheal": {
+  "name": "Overheal",
+  "default": 0
+ },
+ "attributeslib:prot_pierce": {
+  "name": "Protection Pierce",
+  "default": 0
+ },
+ "attributeslib:prot_shred": {
+  "name": "Protection Shred",
+  "default": 0
+ },
+ "autoleveling:monster.explosion_damage_bonus": {
+  "name": null,
+  "default": 1
+ },
+ "autoleveling:monster.projectile_damage_bonus": {
+  "name": null,
+  "default": 1
+ },
+ "block_factorys_bosses:burning_stability": {
+  "name": "Burning Stability",
+  "default": 0
+ },
+ "block_factorys_bosses:movement_recovery": {
+  "name": "Movement Recovery",
+  "default": 0.5
+ },
+ "block_factorys_bosses:roll_animtime": {
+  "name": "Roll Animtime",
+  "default": 0
+ },
+ "caelus:fall_flying": {
+  "name": "Fall Flying",
+  "default": 0.1
+ },
+ "combat_evolution:execution_damage_multiply": {
+  "name": "Execution Damage Multiplier",
+  "default": 1
+ },
+ "combat_evolution:execution_regen_amount": {
+  "name": "Execution Regeneration Amount",
+  "default": 10
+ },
+ "combat_evolution:execution_regen_percent": {
+  "name": "Execution Regeneration Percent",
+  "default": 0.5
+ },
+ "dungeons_and_combat:action_state": {
+  "name": "Action State",
+  "default": 0
+ },
+ "epicfight:armor_negation": {
+  "name": "Armor Negation",
+  "default": 0
+ },
+ "epicfight:execution_resistance": {
+  "name": "Execution Resistance",
+  "default": 0
+ },
+ "epicfight:impact": {
+  "name": "Impact",
+  "default": 0.5
+ },
+ "epicfight:max_strikes": {
+  "name": "Max Strikes",
+  "default": 1
+ },
+ "epicfight:offhand_armor_negation": {
+  "name": "Offhand Armor Negation",
+  "default": 0
+ },
+ "epicfight:offhand_attack_speed": {
+  "name": "Offhand Attack Speed",
+  "default": 4
+ },
+ "epicfight:offhand_impact": {
+  "name": "Offhand Impact",
+  "default": 0.5
+ },
+ "epicfight:offhand_max_strikes": {
+  "name": "Offhand Max Strikes",
+  "default": 1
+ },
+ "epicfight:stamina_regen": {
+  "name": "Stamina Regen",
+  "default": 1
+ },
+ "epicfight:staminar": {
+  "name": "Max Stamina",
+  "default": 15
+ },
+ "epicfight:stun_armor": {
+  "name": "Stun Armor",
+  "default": 0
+ },
+ "epicfight:weight": {
+  "name": "Weight",
+  "default": 0
+ },
+ "fallen_gems_affixes:max_health_damage": {
+  "name": "Max Health Damage",
+  "default": 0
+ },
+ "familiarslib:sound_magic_resist": {
+  "name": "Sound Spell Resistance",
+  "default": 1
+ },
+ "familiarslib:sound_spell_power": {
+  "name": "Sound Spell Power",
+  "default": 1
+ },
+ "forge:block_reach": {
+  "name": "Block Reach",
+  "default": 4.5
+ },
+ "forge:entity_gravity": {
+  "name": "Gravity",
+  "default": 0.08
+ },
+ "forge:entity_reach": {
+  "name": "Entity Reach",
+  "default": 3
+ },
+ "forge:nametag_distance": {
+  "name": "Nametag Render Distance",
+  "default": 64
+ },
+ "forge:step_height_addition": {
+  "name": "Step Height",
+  "default": 0
+ },
+ "forge:swim_speed": {
+  "name": "Swim Speed",
+  "default": 1
+ },
+ "gtbcs_geomancy_plus:geo_magic_resist": {
+  "name": "Geo Magic Resistance",
+  "default": 1
+ },
+ "gtbcs_geomancy_plus:geo_spell_power": {
+  "name": "Geo Spell Power",
+  "default": 1
+ },
+ "gtbcs_spell_lib:magic_projectile_damage": {
+  "name": "Magic Projectile Damage",
+  "default": 1
+ },
+ "gtbcs_spell_lib:spell_crit_chance": {
+  "name": "Spell Critical Chance",
+  "default": 0
+ },
+ "gtbcs_spell_lib:spell_crit_damage": {
+  "name": "Spell Critical Damage",
+  "default": 1
+ },
+ "gtbcs_spell_lib:spell_damage": {
+  "name": "Spell Damage",
+  "default": 1
+ },
+ "irons_spellbooks:blood_magic_resist": {
+  "name": "Blood Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:blood_spell_power": {
+  "name": "Blood Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:cast_time_reduction": {
+  "name": "Cast Time Reduction",
+  "default": 1
+ },
+ "irons_spellbooks:casting_movespeed": {
+  "name": "Casting Movement Speed",
+  "default": 1
+ },
+ "irons_spellbooks:cooldown_reduction": {
+  "name": "Cooldown Reduction",
+  "default": 1
+ },
+ "irons_spellbooks:eldritch_magic_resist": {
+  "name": "Eldritch Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:eldritch_spell_power": {
+  "name": "Eldritch Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:ender_magic_resist": {
+  "name": "Ender Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:ender_spell_power": {
+  "name": "Ender Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:evocation_magic_resist": {
+  "name": "Evocation Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:evocation_spell_power": {
+  "name": "Evocation Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:fire_magic_resist": {
+  "name": "Fire Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:fire_spell_power": {
+  "name": "Fire Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:holy_magic_resist": {
+  "name": "Holy Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:holy_spell_power": {
+  "name": "Holy Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:ice_magic_resist": {
+  "name": "Ice Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:ice_spell_power": {
+  "name": "Ice Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:lightning_magic_resist": {
+  "name": "Lightning Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:lightning_spell_power": {
+  "name": "Lightning Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:mana_regen": {
+  "name": "Mana Regeneration",
+  "default": 1
+ },
+ "irons_spellbooks:max_mana": {
+  "name": "Max Mana",
+  "default": 100
+ },
+ "irons_spellbooks:nature_magic_resist": {
+  "name": "Nature Magic Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:nature_spell_power": {
+  "name": "Nature Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:spell_power": {
+  "name": "Spell Power",
+  "default": 1
+ },
+ "irons_spellbooks:spell_resist": {
+  "name": "Spell Resistance",
+  "default": 1
+ },
+ "irons_spellbooks:summon_damage": {
+  "name": "Summon Damage",
+  "default": 1
+ },
+ "kubejs:lifesteal": {
+  "name": "Lifesteal",
+  "default": 0
+ },
+ "medievalorigins:summon.ranged_damage": {
+  "name": null,
+  "default": 0
+ },
+ "minecraft:generic.armor": {
+  "name": "Armor",
+  "default": 0
+ },
+ "minecraft:generic.armor_toughness": {
+  "name": "Armor Toughness",
+  "default": 0
+ },
+ "minecraft:generic.attack_damage": {
+  "name": "Attack Damage",
+  "default": 2
+ },
+ "minecraft:generic.attack_knockback": {
+  "name": "Attack Knockback",
+  "default": 0
+ },
+ "minecraft:generic.attack_speed": {
+  "name": "Attack Speed",
+  "default": 4
+ },
+ "minecraft:generic.flying_speed": {
+  "name": "Flying Speed",
+  "default": 0.4000000059604645
+ },
+ "minecraft:generic.follow_range": {
+  "name": "Mob Follow Range",
+  "default": 32
+ },
+ "minecraft:generic.knockback_resistance": {
+  "name": "Knockback Resistance",
+  "default": 0
+ },
+ "minecraft:generic.luck": {
+  "name": "Luck",
+  "default": 0
+ },
+ "minecraft:generic.max_health": {
+  "name": "Max Health",
+  "default": 20
+ },
+ "minecraft:generic.movement_speed": {
+  "name": "Speed",
+  "default": 0.699999988079071
+ },
+ "minecraft:horse.jump_strength": {
+  "name": "Horse Jump Strength",
+  "default": 0.7
+ },
+ "minecraft:zombie.spawn_reinforcements": {
+  "name": "Zombie Reinforcements",
+  "default": 0
+ },
+ "obscure_api:accuracy": {
+  "name": "Accuracy",
+  "default": 0
+ },
+ "obscure_api:critical_damage": {
+  "name": "Critical Damage",
+  "default": 2
+ },
+ "obscure_api:critical_hit": {
+  "name": "Critical Hit",
+  "default": 0
+ },
+ "obscure_api:dodge": {
+  "name": "Dodge",
+  "default": 0
+ },
+ "obscure_api:healing_power": {
+  "name": "Healing Power",
+  "default": 1
+ },
+ "obscure_api:magic_damage": {
+  "name": "Magic Damage",
+  "default": 0
+ },
+ "obscure_api:magic_resistance": {
+  "name": "Magic Resistance",
+  "default": 0
+ },
+ "obscure_api:parry": {
+  "name": "Parry",
+  "default": 0
+ },
+ "obscure_api:penetration": {
+  "name": "Penetration",
+  "default": 0
+ },
+ "obscure_api:regeneration": {
+  "name": "Regeneration",
+  "default": 0
+ },
+ "obscure_api:resilience": {
+  "name": "Resilience",
+  "default": 0
+ },
+ "projectile_damage:generic": {
+  "name": "Projectile Damage",
+  "default": 0
+ },
+ "ranged_weapon:damage": {
+  "name": "Ranged Damage",
+  "default": 0
+ },
+ "ranged_weapon:haste": {
+  "name": "Draw Speed",
+  "default": 100
+ },
+ "ranged_weapon:pull_time": {
+  "name": "sec Pull Time",
+  "default": 1
+ },
+ "ranged_weapon:velocity": {
+  "name": "Arrow Velocity",
+  "default": 0
+ },
+ "reach-entity-attributes:attack_range": {
+  "name": "Attack Range",
+  "default": 0
+ },
+ "reach-entity-attributes:reach": {
+  "name": "Reach",
+  "default": 0
+ },
+ "soulsweapons:base_posture_increase": {
+  "name": "Base Posture Increase",
+  "default": 0
+ },
+ "soulsweapons:bleed_buildup_resistance": {
+  "name": "Bleed Buildup Resistance",
+  "default": 0
+ },
+ "soulsweapons:bleed_damage_resistance": {
+  "name": "Bleed Damage Resistance",
+  "default": 0
+ },
+ "soulsweapons:frost_buildup_resistance": {
+  "name": null,
+  "default": 0
+ },
+ "soulsweapons:frost_damage_resistance": {
+  "name": null,
+  "default": 0
+ },
+ "soulsweapons:posture_buildup_resistance": {
+  "name": "Posture Loss Buildup Resistance",
+  "default": 0
+ },
+ "too_many_bows:bow_crit_chance": {
+  "name": "Bow Crit Chance",
+  "default": 0
+ },
+ "too_many_bows:bow_damage": {
+  "name": "Bow Damage",
+  "default": 1
+ },
+ "too_many_bows:bow_draw_speed": {
+  "name": "Bow Draw Speed",
+  "default": 1
+ },
+ "traveloptics:aqua_magic_resist": {
+  "name": "Aqua Magic Resistance",
+  "default": 1
+ },
+ "traveloptics:aqua_spell_power": {
+  "name": "Aqua Spell Power",
+  "default": 1
+ }
+}

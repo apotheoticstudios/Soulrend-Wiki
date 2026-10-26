@@ -683,7 +683,7 @@
       - [[item:alshanex_familiars:sound_spell_book]]
       - [[item:dacxirons:divine_manuscript_spell_book]]
       - [[item:alexscaves:cave_codex]]
-    - **Spells** `items/magic/spells` — About 217 spells across 12 schools, one page per school. Spell pages come from the spell registry, not from items.
+    - **Spells** `items/magic/spells` — 219 spells across 12 schools, one page per school. Spell pages come from the spell registry, not from items.
       - **Fire Spells** `items/magic/spells/fire-spells`
       - **Ice Spells** `items/magic/spells/ice-spells`
       - **Lightning Spells** `items/magic/spells/lightning-spells`

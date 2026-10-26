@@ -6,6 +6,7 @@
     "dev": "node tools/dev.mjs",
     "build": "node tools/build.mjs",
     "sync-game": "node tools/sync-game.mjs",
+    "install-kubejs": "node tools/install-kubejs.mjs",
     "font": "node tools/make-font.mjs"
   },
   "devDependencies": {

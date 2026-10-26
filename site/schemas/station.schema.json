@@ -75,6 +75,6 @@
   "definitions": {
     "point": { "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 2, "maxItems": 2 },
     "itemId": { "type": "string", "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$" },
-    "adapter": { "enum": ["shaped", "shapeless", "cooking", "single", "smithing", "generic"] }
+    "adapter": { "enum": ["shaped", "shapeless", "cooking", "single", "smithing", "pair", "generic"] }
   }
 }
