@@ -36,14 +36,31 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from game-data/item-stats.json (mining level, speed, durability, damage); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/tags.json (minecraft:pickaxes, minecraft:axes, …)
-  game-data/item-stats.json (tier, durability)
-  game-data/items.json (tooltips)
+  game-data/items.json (tooltips: hit effects and abilities)
+  mods/Aquaculture-1.20.1-2.5.7.jar lang (aquaculture.neptunium_*.tooltip: the Shift text)
 -->
 
 **Hoes** lists every hoe in Soulrend, sorted by mining level.
+
+## Usage
+
+**Mining level** decides which blocks a hoe can harvest, using the vanilla tiers: 0 is wood and gold, 1 stone, 2 iron, 3 diamond and 4 netherite. A block that needs a higher level drops nothing when mined with a lower one; obsidian and ancient debris need level 3. Mining speed is how fast it breaks the blocks it can harvest.
+
+Many entries are weapons that also count as hoes; their Epic Fight movesets are on the weapon pages. Tools with an extra effect, from their tooltips:
+
+- [[item:dungeons_and_combat:silver_hoe]]: Strength against the Undead type.
+- [[item:iceandfire:silver_hoe]]: extra damage against undead.
+- [[item:iceandfire:myrmex_desert_hoe]]: +4 damage against non-arthropods and deathworms.
+- [[item:iceandfire:myrmex_jungle_hoe]]: +4 damage against non-arthropods and deathworms.
+- [[item:dungeons_and_combat:blessed_gold_hoe]]: Haste II in the day.
+- [[item:aquaculture:neptunium_hoe]]: Neptune's Gift: tilled farmland stays moist.
+- [[item:dungeons_and_combat:ebony_hoe]]: hits apply Wither.
+- [[item:iceandfire:dragonsteel_fire_hoe]]: Ignites and knocks back targets.
+- [[item:iceandfire:dragonsteel_ice_hoe]]: Freezes targets.
+- [[item:iceandfire:dragonsteel_lightning_hoe]]: Strikes targets with lightning.
+- [[item:dungeons_and_combat:crimson_hoe]]: hits apply Bleeding.
 
 | Tool | Mod | Mining level | Mining speed | Durability | Attack damage |
 | --- | --- | --- | --- | --- | --- |

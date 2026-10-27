@@ -38,7 +38,7 @@
 | `incendium:artifact/weapon/trailblazer` (loot table) | 100% | 1 |
 | `betterfortresses:chests/beacon` (chest) | 57.1% | 1 |
 | `dungeons_arise:chests/illager_campsite/illager_campsite_map` (chest) | 50% | 1 |
-| `u_sea:island/bow` (chest) | 50% per roll, undefined–undefined rolls | 1 |
+| `u_sea:island/bow` (chest) | 50% per roll, 0–1 rolls (one roll at 50%) | 1 |
 | `friendsandfoes:chests/illusioner_shack` (chest) | 33.3% | 1 |
 | `friendsandfoes:chests/illusioner_shack` (chest) | 33.3% | 1 |
 | `friendsandfoes:chests/illusioner_shack` (chest) | 33.3% | 1 |

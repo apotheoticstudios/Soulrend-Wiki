@@ -3,7 +3,7 @@
   "title": "Storage Items",
   "category": "Items",
   "order": 14,
-  "summary": "Chests, drawers and storage networks. __.",
+  "summary": "Chests, barrels, drawers and item networks: how each storage mod's tiers, upgrades and keys work.",
   "items": [
     "sophisticatedcore:ender_linker",
     "sophisticatedcore:xp_bucket",
@@ -373,16 +373,58 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (tooltips, obtaining); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/recipes.json
+  saves/New World/serverconfig/sophisticatedstorage-server.toml (mod defaults; no defaultconfigs override: slots 27/45/54/81/108/132, upgrade slots 1/1/2/3/4/5)
+  config/storagedrawers-common.v2.toml (unitsPerSlot, storage upgrade multipliers, controllerRange 50) and StorageDrawers-forge-1.20.1-12.15.1.jar lang (*.desc)
+  mods/toms_storage-1.20-1.7.1.jar lang (tooltip.toms_storage.*); saves/New World/serverconfig/toms_storage-server.toml (inventoryConnectorRange 16, wirelessReach 16, advWirelessRange 64, beacon levels)
+  config/ironchests/chests/*.json (length x rows)
+  defaultconfigs/create-server.toml (vaultCapacity 54)
 -->
 
-**Storage Items** covers chests, drawers and storage networks. _(visible)_.
+**Storage Items** are the pack's chests, barrels, drawers and item networks, from five mods. They don't affect progression; this page explains how each system works, and the tables below list every item with its tooltip.
 
-[[item:toms_storage:ts.adv_wireless_terminal]] has its own entry on another page.
+## Usage
+
+### Sophisticated Storage
+
+Chests, barrels and shulker boxes come in six tiers. Each tier adds slots and upgrade slots:
+
+| Tier | Slots | Upgrade slots |
+| --- | --- | --- |
+| Wood | 27 | 1 |
+| Copper | 45 | 1 |
+| Iron | 54 | 2 |
+| Gold | 81 | 3 |
+| Diamond | 108 | 4 |
+| Netherite | 132 | 5 |
+
+- **Tier upgrades** (Basic to Copper, Copper to Iron, and so on) are used on a placed storage to raise its tier without emptying it. The Basic Tier Upgrade turns a vanilla chest or barrel into the Sophisticated version.
+- **Upgrades** go into the upgrade slots: pickup, magnet, filter, hopper, compacting, void, feeding, smelting, crafting, jukebox and others. Their advanced versions add filtering options; the tooltips in the table say what each one does.
+- **Limited Barrels** (I to IV) hold one, two, three or four item types in large stacks instead of normal slots.
+- A **Storage Controller** joins touching Sophisticated storages into one network; **Storage Connectors** bridge the gaps.
+
+### Storage Drawers
+
+A drawer block holds large amounts of one item per slot: a full 1×1 drawer holds 32 stacks, a 1×2 holds 16 per slot and a 2×2 holds 8 per slot (half drawers hold half). Compacting drawers store an item and its compressed forms together.
+
+- **Storage upgrades** multiply capacity: Obsidian ×2, Copper ×4, Iron ×8, Gold ×16, Emerald ×64, Diamond ×256, Netherite ×2,048.
+- **Other upgrades** void excess items, show fill levels, emit redstone, pull or push items, collect nearby items, or let a filled drawer be carried.
+- **Keys:** the Drawer Key locks a drawer to its item (hold it in the off hand to lock new drawers), the Shroud Key hides labels, the Quantify Key shows counts, the Suspend Key pauses a controller, Priority Keys set which drawer fills first, Connection Keys set each side's input and output, and the Personal Key keeps other players out. Crouch-use cycles a key's mode. A **Keyring** holds keys and cycles between them.
+- A **Drawer Controller** links every drawer within 50 blocks into one interface; Remote Upgrades connect drawers out of reach.
+
+### Tom's Simple Storage
+
+An **Inventory Connector** joins every touching inventory into one network (up to 16 blocks away, with **Trims** filling gaps). A **Storage Terminal** placed on the network shows every item in it; the **Crafting Terminal** adds a crafting grid. **Inventory Cables** with Cable Connectors reach farther inventories. The **Wireless Terminal** works within 16 blocks of a terminal; the **Advanced Wireless Terminal** binds to a terminal (shift-right-click) and works within 64 blocks, or from anywhere in the dimension when the terminal sits on a beacon. The Inventory Hopper imports or exports filtered items, and the Level Emitter gives a redstone signal based on contents.
+
+### Iron Chests: Restocked
+
+Upgraded chests and barrels: Copper 36 slots, Iron 54, Gold 66, Diamond, Obsidian and Crystal 72 (the Crystal Chest shows its items), Netherite 91, and the joke Dirt Chest 1. **Chest upgrades** convert a placed chest to the next tier with its contents. The **Lock** and **Key** lock a chest to its key, and the **Dolly** picks up a full chest.
+
+### Create item vaults
+
+Item Vaults placed next to each other merge into one larger vault that holds 54 stacks per block. "Hold [W] to Ponder" opens Create's animated tutorial for it.
 
 ## Sophisticated chests, barrels and upgrades
 

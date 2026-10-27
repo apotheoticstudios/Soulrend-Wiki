@@ -7,11 +7,11 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  section index; each page lists its own sources (researched 2026-10-27)
   content/_items-outline.md (page list, groups and quest order)
 -->
 
-**Dragon Items** — Ice and Fire dragon materials, eggs, crystals and forges.
+**Dragons** covers the Ice and Fire items that come from or serve dragons: corpse parts, eggs and scales, Dragonforges and the dragonsteel they make, and the tools for keeping a tamed dragon. Each page opens with a Usage section; the [[progression/side-chapters/dragonslayer|Dragonslayer]] chapter has the quests.
 
 ## In this section
 

@@ -9,7 +9,7 @@
     "Block of Lightning Dragonsteel",
     "Lightning Dragonsteel Ingot"
   ],
-  "summary": "Dragonsteel: 6 items from the Soulrend modpack.",
+  "summary": "Fire, Ice and Lightning Dragonsteel: the Dragonforge metal behind Ice and Fire's strongest gear.",
   "items": [
     "iceandfire:dragonsteel_fire_block",
     "iceandfire:dragonsteel_fire_ingot",
@@ -21,14 +21,22 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json (iceandfire:entities/dragon/*: scales 60, flesh 40, egg 2 on females; customize_to_dragon), game-data/recipes.json
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar lang (jei_desc, advancements), EntityDragonBase.interact (corpse: Glass Bottle gives blood; skull and heart by death stage; dragon meal, sickly dragon meal)
+  config/iceandfire-common.toml ("Dragon Egg Hatch Time" = 7200, "Dragon Flute Distance" = 4, "Dragons Drop Skull/Heart/Blood" = true, dragonsteel base stats)
+  game-data/recipes.json (iceandfire:dragonforge/dragonsteel_*_ingot: iron ingot + blood, 1,000 ticks)
 -->
 
-**Dragonsteel** lists 6 items.
+**Dragonsteel** is the metal made in a Dragonforge from iron and dragon blood. Each element has its own ingot and block.
+
+## Usage
+
+- **Making it:** see [[items/dragons/dragonforges|Dragonforges]]. One iron ingot and one blood of the forge's element make one ingot in 50 s of dragon breath.
+- **Ingots** make dragonsteel tools, the long swords and Soulrend's Dragon Steel Claymores.
+- **Blocks** (nine ingots) are what the armor uses: they upgrade armor into the Dragonsteel sets at a Smithing Table, make dragonsteel dragon armor and shields, and go into several Soulrend upgrades.
+- Ice and Fire's config sets dragonsteel's base stats: 25 attack for the sword, 12 armor for the chestplate, 6 armor toughness and 8,000 durability. Soulrend's Molten Ingot upgrades Dragonsteel armor further (see [[items/materials/act-iii-materials|Act III Materials]]).
 
 ## Overview
 

@@ -455,13 +455,37 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from game-data/item-stats.json (food values and effects) and game-data/effects.json (effect names, descriptions); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/item-stats.json (food values and effects)
-  game-data/effects.json (effect names)
+  kubejs/startup_scripts/magic/spells.js (Cannibalism: ceil((health - 1) / 10) x spell level Raw Human Flesh, health set to 1; flesh stacks to 256), kubejs/server_scripts/recipes/food.js (flesh cooking)
+  mods/dungeons_and_combat-1.2.4-forge-1.20.1.jar *PlayerFinishesUsingItemProcedure (Mortar And Pestle: <Edge> effect 2,400 ticks, Ammit 1,200; Processed Antidote: shield 1,200; Silver Orange removes Poison and Nausea; Divine Stew, Egyptian Beer, Enchanted Fairy Dust Apple, Mead effects), *EdgeEffectProcedure (hits apply the effect for 100 ticks; Burning sets fire for 10 s), ProcessedAntidoteShieldOnEffectActiveTickProcedure (removes Toxin, Nausea, Hunger, Poison)
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar ItemAmbrosia (Strength, Absorption, Jump Boost, Luck, 3,600 ticks), ItemCannoli (Strength, 3,600 ticks)
+  mods/Quark-4.0-462.jar AncientFruitItem; config/quark-common.toml ("Ancient Fruit Exp Value" = 10)
+  mods/bossesrise-1.20.1-forge-1.0.9.2b.jar BossCancelDie2Procedure (Dragon Shank)
 -->
 
-**Food** lists every food item in Soulrend, grouped by mod. Hunger and saturation are the item's food values.
+**Food** lists every food item in Soulrend, grouped by mod. Hunger and saturation are the item's food values; the Effects column lists what eating it gives.
+
+## Usage
+
+Most food only restores hunger and saturation, plus the effects in its row. The two effects that appear most often come from Farmer's Delight:
+
+- **Comfort:** natural regeneration regardless of hunger.
+- **Nourishment:** no hunger loss, except when saturation is spent healing damage.
+
+These foods do more than their row shows:
+
+- **Raw Human Flesh** comes only from the Cannibalism spell (Eldritch school, see [[items/magic/spells/eldritch-spells|Eldritch Spells]]), which leaves the caster at 1 HP and gives one flesh per 10 HP sacrificed, times the spell level. It stacks to 256 and cooks into **"Steak"** in a furnace, smoker or campfire.
+- **Mortar And Pestle** items (Dungeons and Combat) coat the eater's weapon: for 120 s (60 s for Ammit Powder) each hit applies their effect to the target for 5 s. Acid Fire, Ammit Powder (Broken Armor), Blood (Bleeding), Poison, Toxin and Wither work this way; Blaze Powder sets targets on fire for 10 s.
+- **Processed Antidote:** for 60 s, Poison, Toxin, Nausea and Hunger are removed as soon as they apply.
+- **Silver Orange** cures Poison and Nausea and gives Absorption, Regeneration and Resistance. **Divine Stew** gives Haste, Glowing and Resistance for 120 s. **Enchanted Fairy Dust Apple** gives Absorption, Regeneration, Speed and Haste. **Mead** gives Nausea and Absorption for 6 s; **Egyptian Beer** gives Nausea and Strength.
+- **Ambrosia** gives Strength, Absorption, Jump Boost and Luck for 180 s. The **Cannoli** gives Strength for 180 s.
+- **Enchanted Fruit** (Quark) gives experience (10 points in Soulrend's config).
+- **Poseidon's Breakfast** and **Sea Stew** give Fury and Rush: each level of Fury makes class abilities 10% stronger, and each level of Rush cuts their cooldowns by 10%.
+- **Blessed Amethyst Crab Meat:** its Blessing of Amethyst makes the eater immune to Darkness, Abyssal Fear and Abyssal Burn. It is made at an Altar of Amethyst (see [[items/boss-drops/cataclysm-drops|Cataclysm Drops]]).
+- **Vial of Knowledge:** its Knowledge effect shows hidden information in some items' tooltips.
+- **Bottle of Void** moves the drinker to another dimension; **Anklor Flesh** can always be eaten; **Endurian** gives Resistance and **Marula Slice** Levitation (Endless Biomes tooltips).
+- **Dragon Shank:** an Ender Dragon killed by a hit from someone holding the Knight Sword drops 12 (see [[items/boss-drops/bossesrise-drops|Bosses'Rise Drops]]).
 
 ## Farmer's Delight
 

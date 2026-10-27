@@ -23,14 +23,30 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json
+  config/skyarena.json (trophies: effect, amplifier, duration in seconds, cooldown in seconds; read by Trophy.use, which multiplies both by 20)
+  config/ftbquests/quests/chapters/l9_sky_arena.snbt (shop task counts), act_2.snbt (Heart of Deepdark: 4 efn:deepdark_heart for 8 Ice Keys)
 -->
 
-**Sky Arena Keys** covers only the Ice Key and the trophies; the other arena keys are disabled.
+**Sky Arena Keys** are the Sky Arena mod's rewards in Soulrend: the Ice Key, the only key the pack's arenas drop, and six trophies for clearing the arenas at rising difficulty.
+
+## Usage
+
+- **Ice Keys** are currency for the [[progression/side-chapters/sky-arena|Sky Arena]] chapter's repeatable shop. Prices run from 1 key (coal, iron, food) to 256 (a Simply Swords unique of your choice). The Act II **Heart of Deepdark** quest also trades 4 [[item:efn:deepdark_heart]]s for 8 Ice Keys, and it repeats. Don't use keys on arena chests (the chapter's own warning).
+- **Trophies** are blocks. Placed and right-clicked, each gives a 30-minute buff:
+
+  | Trophy | Buff |
+  | --- | --- |
+  | Oak | Haste |
+  | Stone | Speed |
+  | Iron | Resistance |
+  | Gold | Absorption III (30 s cooldown) |
+  | Diamond | Regeneration |
+  | Netherite | Strength and Luck |
+
+  Each trophy also completes a quest in the Sky Arena chapter's trophy ladder.
 
 ## Overview
 

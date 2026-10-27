@@ -9,8 +9,17 @@
   "recipes": {
     "minecraft:crafting_shaped": "shaped",
     "minecraft:crafting_shapeless": "shapeless",
+    "kubejs:shaped": "shaped",
+    "kubejs:shapeless": "shapeless",
     "travelersbackpack:backpack_shaped": "shaped",
     "soulrend_core:upgrade_shaped": "shaped",
-    "sophisticatedstorage:shulker_box_from_vanilla_shapeless": "shapeless"
+    "sophisticatedstorage:shulker_box_from_vanilla_shapeless": "shapeless",
+    "sophisticatedstorage:storage_tier_upgrade": "shaped",
+    "sophisticatedstorage:storage_tier_upgrade_shapeless": "shapeless",
+    "sophisticatedstorage:double_chest_tier_upgrade": "shaped",
+    "sophisticatedstorage:double_chest_tier_upgrade_shapeless": "shapeless",
+    "sophisticatedstorage:shulker_box_from_chest": "shaped",
+    "sophisticatedstorage:generic_wood_storage": "shaped",
+    "sophisticatedcore:upgrade_next_tier": "shaped"
   }
 }

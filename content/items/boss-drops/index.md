@@ -7,11 +7,11 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  section index; each page lists its own sources (researched 2026-10-26)
   content/_items-outline.md (page list, groups and quest order)
 -->
 
-**Boss Drops** — Materials and trophies that come from bosses.
+**Boss Drops** are the materials, trophies and summoning items that bosses leave behind, one page per boss mod. Most go into the weapons and armor of their mod or into Soulrend's upgrade recipes; some summon the next boss. Each page opens with a Usage section that explains what its items do.
 
 ## In this section
 

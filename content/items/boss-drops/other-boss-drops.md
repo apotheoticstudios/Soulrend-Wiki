@@ -22,7 +22,7 @@
     "Heart of the Deep",
     "Disaster Fragment - Red"
   ],
-  "summary": "Other Boss Drops: 20 items from the Soulrend modpack.",
+  "summary": "Drops of the Aquamirae, Mowzie's Mobs, Ice and Fire, Deeper and Darker and Nightfall bosses, and what each does.",
   "items": [
     "aquamirae:rune_of_the_storm",
     "aquamirae:divider",
@@ -47,14 +47,43 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json (minecraft:kjs/deeperdarker_heart_of_the_deep)
+  mods/aquamirae-forge-1.20.1-6.4.0.jar lang (perk.aquamirae.rune_of_the_storm.desc, ability.aquamirae.divider, advancements obtain_frozen_key), data/aquamirae/recipes/rune_smithing.json + RuneSmithingRecipe (rune + a SwordItem), DividerItem (Health Decrease, 10 s per hit, up to 10 stacks)
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar data/iceandfire/loot_tables/entities/gorgon.json (head) vs config/paxi/datapacks/soulrend_loot/data/iceandfire/loot_tables/entities/gorgon.json (Witherbone)
+  mods/deeperdarker-forge-1.20.1-1.3.3.jar WardenHeartItem.useOn (Overworld or Otherside, consumed outside creative), OthersidePortalBlock$OthersidePortalShape (Reinforced Deepslate frame); config/deeperdarker-common.toml (portal 6 x 3)
+  kubejs/server_scripts/recipes/misc_utility.js (Heart of the Deep recipe, Black Eye)
 -->
 
-**Other Boss Drops** lists 20 items.
+**Other Boss Drops** covers boss drops from the smaller boss mods: Aquamirae ([[Captain Cornelia]]), Mowzie's Mobs ([[Frostmaw]], [[Umvuthi]] and the Sculptor), Ice and Fire's legendary monsters, Deeper and Darker's Heart of the Deep and Nightfall's Disaster Fragment.
+
+## Usage
+
+**Aquamirae**
+
+- **Frozen Key:** [[Captain Cornelia]]'s drop. It opens the frozen chest hidden in the depths of the Ice Maze, which holds the Rune of the Storm.
+- **Rune of the Storm:** combined with a sword at a Smithing Table, it gives the sword the Rune of the Storm perk: 33% more damage in cold biomes.
+- **Divider:** each hit adds a stack of Health Decrease to the target for 10 s, cutting its maximum health by 5% per stack, up to 10 stacks.
+- **Abyssal Amethyst** crafts the Abyssal armor, the Divider, Fin Cutter and Maze Rose, and Soulrend's Moon Crystals.
+
+**Mowzie's Mobs.** The tooltips describe each item:
+
+- **Sol Visage:** worn as a helmet; right-clicking while holding an Umvuthana mask summons a minion, and right-clicking a minion returns it to its mask.
+- **Umvuthana masks:** each gives one effect while worn (jump boost, health boost, swiftness, strength, resistance or haste).
+- **Earthrend Gauntlet:** lifts boulders from earthen ground and throws them, or tunnels through the ground.
+- **Ice Crystal:** held right-click channels an icy whirlwind; it recharges while in the inventory.
+
+**Ice and Fire**
+
+- **Hydra Heart:** in the hotbar, gives Regeneration that grows stronger the more injured its holder is.
+- **Eye of Cyclops:** held, it gives Weakness to all nearby hostile mobs.
+- **Siren Tear** crafts the Siren Flute and a banner pattern.
+- **Gorgon Head:** unobtainable in Soulrend. The pack's loot tables make the Gorgon drop a Witherbone instead.
+
+**Heart of the Deep.** Used on Reinforced Deepslate in the Overworld or the Otherside, it opens a 6 × 3 Otherside Portal and is used up (see [[progression/act-ii-first-steps/the-otherside|The Otherside]]). It is also crafted into the Black Eye, one of the End portal eyes. The Warden doesn't drop it in Soulrend; it is crafted.
+
+**Disaster Fragment - Red** is the [[bosses/act-v/o-brolachain-the-scarlet-hunter|Scarlet Hunter]]'s drop, used to upgrade the Warriors-BroadBlade.
 
 ## Overview
 
@@ -93,6 +122,8 @@ Its tooltip says:
 
 - Attachable to a sword at the
 - Smithing Table.
+
+Combined with a sword at a Smithing Table, it adds the perk "Rune of the Storm: deals 33% more damage in cold biomes".
 
 #### Obtaining
 
@@ -436,6 +467,10 @@ Its tooltip says:
 
 - Legendary Weapon
 
+#### Obtaining
+
+Nothing gives it in Soulrend. The `soulrend_loot` datapack replaces the Gorgon's head drop with a Witherbone, and no recipe makes it.
+
 #### Used in
 
 {{uses iceandfire:gorgon_head}}
@@ -486,6 +521,14 @@ One loot table drops it:
 
 [[item:deeperdarker:heart_of_the_deep]] (Deeper and Darker, rare)
 
+### Obtaining
+
+It is crafted; the Warden doesn't drop it in Soulrend.
+
+### Crafting
+
+{{recipes deeperdarker:heart_of_the_deep}}
+
 ### Used in
 
 {{uses deeperdarker:heart_of_the_deep}}
@@ -500,7 +543,7 @@ One loot table drops it:
 
 | Source | Chance | Count |
 | --- | --- | --- |
-| [[bosses/act-v/o-brolachain-the-scarlet-hunter\|Scarlet Hunter spawn egg]] (drop) | 100% (player kill) | 1 |
+| [[bosses/act-v/o-brolachain-the-scarlet-hunter\|Scarlet Hunter]] (drop) | 100% (player kill) | 1 |
 
 ### Used in
 

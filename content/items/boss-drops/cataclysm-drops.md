@@ -13,7 +13,7 @@
     "Altar of Void",
     "Boss Respawner"
   ],
-  "summary": "Cataclysm Drops: 20 items from the Soulrend modpack.",
+  "summary": "Ingots, Burning Ashes, music discs and the arena altars of L_Ender's Cataclysm bosses.",
   "items": [
     "cataclysm:ancient_metal_ingot",
     "cataclysm:cursium_ingot",
@@ -39,14 +39,28 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json (cataclysm:amethyst_bless/blessed_amethyst_crab_meat, 120 ticks)
+  mods/L_Enders_Cataclysm-3.16.jar AltarOfFire_Block_Entity (Burning Ashes: Ignis), AltarOfAbyss_Block_Entity (Abyssal Sacrifice: The Leviathan), AltarOfVoid_Block_Entity.tick (spawns the Ender Guardian when a player is in range), Altar_Of_Amethyst_Block (holds an item, cataclysm:amethyst_bless recipes), Boss_Respawn_Spawner_Block.use (item matching its stored slot, consumed outside creative, respawns the stored boss)
+  mods/L_Enders_Cataclysm-3.16.jar data/cataclysm/advancements/kill_all_bosses.json (Cataclysmfarer disc is the icon; reward 500 XP only)
+  enderite ingot: no recipe, loot table, trade or KubeJS script names it (game-data, instance config and kubejs searched)
+  config/serilum/configurableextramobdrops/mobdropconfig.txt (Ignited Berserker: Burning Ashes, 25%)
 -->
 
-**Cataclysm Drops** lists 20 items.
+**Cataclysm Drops** covers what L_Ender's Cataclysm bosses leave behind: five boss ingots, Burning Ashes, a music disc per boss, and the altars and Boss Respawner that stand in their arenas.
+
+## Usage
+
+- **Ingots.** Ignitium (Ignis), Cursium (Maledictus), Witherite and Ancient Metal are crafting materials for Cataclysm gear and for many of Soulrend's Mechanical Fusion Anvil and upgrade recipes; each ingot's Used in section lists them. The **Enderite Ingot** has no source and no use in Soulrend: no loot table, recipe or trade gives it.
+- **Burning Ashes** go into a few upgrade recipes and a gem recipe. The Act III quest asks for one even though the Eye of Flame no longer uses it (see [[progression/act-iii-into-the-flames/burning-ashes|Burning Ashes]]).
+- **Music discs** play their boss's theme in a jukebox. Each boss has a 10% chance to drop its disc (+10% per Looting level).
+- **Altars** are part of the boss arenas and can't be crafted:
+  - **Altar of Fire:** using [[item:cataclysm:burning_ashes]] on it summons [[Ignis]].
+  - **Altar of Abyss:** using an Abyssal Sacrifice on it summons [[The Leviathan]].
+  - **Altar of Void:** summons the [[Ender Guardian]] when a player comes near.
+  - **Altar of Amethyst:** holds one item and blesses it. Its only recipe turns [[item:cataclysm:amethyst_crab_meat]] into [[item:cataclysm:blessed_amethyst_crab_meat]] in 6 s.
+- **Boss Respawner:** a block in the arenas that stores a boss and an item. Using that item on it while it is lit spends one and spawns the boss again.
 
 ## Overview
 
@@ -126,6 +140,8 @@ It can also be crafted (see below).
 
 [[item:cataclysm:enderite_ingot]] (cataclysm, epic)
 
+Nothing in Soulrend drops or crafts it, and no recipe uses it.
+
 ### Ignitium Ingot
 
 [[item:cataclysm:ignitium_ingot]] (cataclysm, epic)
@@ -170,11 +186,12 @@ It is crafted (see below).
 
 ### Obtaining
 
-One loot table drops it:
+Two sources drop it:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | [[bosses/optional-and-world/cataclysm-minibosses\|Ignited Revenant]] (drop) | 100% | 1 |
+| [[Ignited Berserker]] (extra mob drop) | 25% | 1 |
 
 It can also be crafted (see below).
 
@@ -316,6 +333,8 @@ Its tooltip says:
 
 - Yuri_O - The Cataclysmfarer
 
+Nothing drops it. It is the icon of Cataclysm's advancement for killing every boss, which rewards only experience.
+
 #### Used in
 
 {{uses cataclysm:music_disc_the_cataclysmfarer}}
@@ -366,18 +385,28 @@ One loot table drops it:
 
 [[item:cataclysm:altar_of_abyss]] (cataclysm, epic)
 
+Using an Abyssal Sacrifice on it summons [[The Leviathan]]. It generates in the arena and has no recipe.
+
 ### Altar of Amethyst
 
 [[item:cataclysm:altar_of_amethyst]] (cataclysm, epic)
+
+It holds one item and blesses it: [[item:cataclysm:amethyst_crab_meat]] becomes [[item:cataclysm:blessed_amethyst_crab_meat]] after 6 s. It generates in the arena and has no recipe.
 
 ### Altar of Fire
 
 [[item:cataclysm:altar_of_fire]] (cataclysm, epic)
 
+Using [[item:cataclysm:burning_ashes]] on it summons [[Ignis]]. It generates in the arena and has no recipe.
+
 ### Altar of Void
 
 [[item:cataclysm:altar_of_void]] (cataclysm, epic)
 
+It summons the [[Ender Guardian]] when a player comes within range. It generates in the arena and has no recipe.
+
 ### Boss Respawner
 
 [[item:cataclysm:boss_respawner]] (cataclysm, epic)
+
+It stores a boss and an item. Using that item on it while it is lit spends one and spawns the boss again. It generates in the arena and has no recipe.

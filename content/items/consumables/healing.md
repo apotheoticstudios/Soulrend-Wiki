@@ -15,7 +15,7 @@
     "Golden Life Fruit",
     "Draconic Life Fruit"
   ],
-  "summary": "Healing: 13 items from the Soulrend modpack.",
+  "summary": "Estus Flasks, Iron's Spellbooks elixirs, Blessed Bandages and the familiar Life Fruits.",
   "items": [
     "dungeons_and_combat:estus_flask",
     "dungeons_and_combat:crimson_flask",
@@ -34,14 +34,32 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json (kubejs:estus_flask, minecraft:kjs/dungeons_and_combat_crimson_flask), game-data/effects.json (Evasion, True Invisibility, Oakskin)
+  kubejs/server_scripts/minor_features/estus_flask_healing.js (heal 25% / 75% of max health)
+  mods/dungeons_and_combat-1.2.4-forge-1.20.1.jar EstusFlaskPlayerFinishesUsingItemProcedure, CrimsonFlaskPlayerFinishesUsingItemProcedure (80-tick item cooldown; Regeneration IV for 60 / 100 ticks), EstusFlaskItem (stacks to 16, drink)
+  mods/familiarslib-1.20.1-1.6.jar lang (consumable_item_desc "Right click a Familiar to use", max_reached, tier_too_high)
 -->
 
-**Healing** lists 13 items.
+**Healing** covers the pack's healing and defensive drinks: the two Estus Flasks, Iron's Spellbooks elixirs, the Blessed Bandages and the Life Fruits that strengthen familiars.
+
+## Usage
+
+- **Estus Flask** and **Huge Estus Flask:** drinkable at any hunger level. Soulrend's KubeJS makes them heal a share of maximum health at once, and Dungeons and Combat adds Regeneration IV and a 4 s cooldown on that flask. Each drink uses up one flask; Estus Flasks stack to 16.
+
+  | Flask | Instant healing | Regeneration IV | Cooldown |
+  | --- | --- | --- | --- |
+  | Estus Flask | 25% of max health | 3 s | 4 s |
+  | Huge Estus Flask | 75% of max health | 5 s | 4 s |
+
+- **Elixirs** (Iron's Spellbooks) give one effect each:
+  - **Evasion:** the drinker teleports away from an attack and takes no damage, for as many hits as the elixir says (2 or 4).
+  - **True Invisibility:** hides the body, armor and held items too.
+  - **Oakskin:** damage reduction, 15% plus 5% per level (+20% and +40% for these elixirs).
+- **Greater Potion of Healing:** Instant Health III.
+- **Blessed Bandages:** worn in the hands Curios slot, they make the wearer immune to Bleeding.
+- **Life Fruits** aren't eaten by the player. Right-clicking a familiar with one raises the familiar's maximum health by the fruit's Bonus, up to its Tier Limit. A familiar past a fruit's tier can't use it.
 
 ## Overview
 
@@ -65,7 +83,7 @@
 
 [[item:dungeons_and_combat:estus_flask]] (dungeons and combat, uncommon)
 
-Eating it restores 0 hunger and 0 saturation, and it can be eaten at full hunger.
+Drinking it heals 25% of maximum health and gives Regeneration IV for 3 s, then puts the flask on a 4 s cooldown. It can be drunk at full hunger.
 
 ### Obtaining
 
@@ -86,11 +104,23 @@ Eating it restores 0 hunger and 0 saturation, and it can be eaten at full hunger
 | `dungeons_and_combat:chests/weak_cult` (chest) | 21.1% | 0–2 |
 | `dungeons_and_combat:blocks/field_of_fallen` (chest) | 20% | 1–2 |
 
+It can also be crafted:
+
+{{recipes dungeons_and_combat:estus_flask}}
+
 ## Huge Estus Flask
 
 [[item:dungeons_and_combat:crimson_flask]] (dungeons and combat, uncommon)
 
-Eating it restores 0 hunger and 0 saturation, and it can be eaten at full hunger.
+Drinking it heals 75% of maximum health and gives Regeneration IV for 5 s, then puts the flask on a 4 s cooldown. It can be drunk at full hunger.
+
+### Obtaining
+
+It is crafted.
+
+### Crafting
+
+{{recipes dungeons_and_combat:crimson_flask}}
 
 ## Blessed Bandages
 

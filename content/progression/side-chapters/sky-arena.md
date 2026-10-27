@@ -16,8 +16,8 @@
 }
 ---
 <!-- sources:
-  config/ftbquests/quests/chapters/l9_sky_arena.snbt (33 quests; "Challenge yourself on SkyArena!" depends on act_2 "Sky Arena"; trophy ladder; 25 repeatable shop quests, each consuming 1 Ice Key (the "8 Emeralds" task stores a stack of 2 but has no count field); three shop quests also depend on the act_iii Act IV gate)
-  config/ftbquests/quests/chapters/act_2.snbt Heart of Deepdark quest (1 heart -> 8 Ice Keys, repeatable)
+  config/ftbquests/quests/chapters/l9_sky_arena.snbt (33 quests; "Challenge yourself on SkyArena!" depends on act_2 "Sky Arena"; trophy ladder; 25 repeatable shop quests; costs from each task's count field (file updated 2026-10-25 23:21, re-read 2026-10-27); three shop quests also depend on the act_iii Act IV gate)
+  config/ftbquests/quests/chapters/act_2.snbt Heart of Deepdark quest (4 hearts -> 8 Ice Keys, repeatable)
   config/ftbquests/quests/reward_tables/*.snbt
 -->
 **Sky Arena** is a side chapter for the Sky Arena mod's battle arenas. It has two parts: a ladder of trophy quests for clearing the arenas at higher difficulties, and a shop of repeatable quests that trade [[item:skyarena:ice_key]]s for rewards.
@@ -49,40 +49,40 @@ Each trophy quest needs the one before it. The Oak Trophy is for the lowest diff
 
 ## The Ice Key shop
 
-Every shop quest takes **one** Ice Key and can be repeated. Click the quest's reward to trade.
+Every shop quest can be repeated, and each one takes the number of Ice Keys in the Cost column. Click the quest's reward to trade.
 
-| Shop quest | Reward |
-| --- | --- |
-| 8 Emeralds | 8 [[item:minecraft:emerald]] |
-| 4 Diamonds | 4 [[item:minecraft:diamond]] |
-| 16 Iron Ingot | 16 [[item:minecraft:iron_ingot]] |
-| 8 Gold Ingot | 8 [[item:minecraft:gold_ingot]] |
-| 64 Coal | 64 [[item:minecraft:coal]] |
-| 1 Runic Tablet | [[item:simplyswords:runic_tablet]] |
-| Cracked Gems | A roll on Cracked Gems |
-| Chipped Gems | A roll on Chipped Gems |
-| Flawed Gems | A roll on Flawed Gems |
-| Chipped Magic Gems | A roll on Chipped Magic Gems |
-| Gem Dust | 3–5 [[item:apotheosis:gem_dust]] |
-| Magic Runes | A rune stack of your choice |
-| Upgrade Orb | An upgrade orb of your choice |
-| Ink For Spells | A roll on Ink_irons |
-| Ancient Knowledge Fragment | 1–5 [[item:irons_spellbooks:ancient_knowledge_fragment]] |
-| Magic Materials | A roll on Magic_materials |
-| Enchanted Books | A roll on Enchanted_books |
-| Dragon Scales | 8 Dragon Scales of a random color |
-| Food | A roll on Food |
-| Wood | 96 logs of your choice |
-| Stone/Sand | Stone, deepslate or sand of your choice |
-| Draw your Simply Sword | A random Simply Swords unique weapon |
-| Choose your Simply Sword | A Simply Swords unique weapon of your choice |
-| Perfect Gems | A Perfect Gem of your choice |
+| Shop quest | Cost | Reward |
+| --- | --- | --- |
+| 8 Emeralds | 2 | 8 [[item:minecraft:emerald]] |
+| 4 Diamonds | 1 | 4 [[item:minecraft:diamond]] |
+| 16 Iron Ingot | 1 | 16 [[item:minecraft:iron_ingot]] |
+| 8 Gold Ingot | 1 | 8 [[item:minecraft:gold_ingot]] |
+| 64 Coal | 1 | 64 [[item:minecraft:coal]] |
+| 1 Runic Tablet | 20 | [[item:simplyswords:runic_tablet]] |
+| Cracked Gems | 3 | A roll on Cracked Gems |
+| Chipped Gems | 5 | A roll on Chipped Gems |
+| Flawed Gems | 15 | A roll on Flawed Gems |
+| Chipped Magic Gems | 6 | A roll on Chipped Magic Gems |
+| Gem Dust | 3 | 3–5 [[item:apotheosis:gem_dust]] |
+| Magic Runes | 2 | A rune stack of your choice |
+| Upgrade Orb | 4 | An upgrade orb of your choice |
+| Ink For Spells | 6 | A roll on Ink_irons |
+| Ancient Knowledge Fragment | 6 | 1–5 [[item:irons_spellbooks:ancient_knowledge_fragment]] |
+| Magic Materials | 1 | A roll on Magic_materials |
+| Enchanted Books | 1 | A roll on Enchanted_books |
+| Dragon Scales | 3 | 8 Dragon Scales of a random color |
+| Food | 1 | A roll on Food |
+| Wood | 1 | 96 logs of your choice |
+| Stone/Sand | 1 | Stone, deepslate or sand of your choice |
+| Draw your Simply Sword | 64 | A random Simply Swords unique weapon |
+| Choose your Simply Sword | 256 | A Simply Swords unique weapon of your choice |
+| Perfect Gems | 100 | A Perfect Gem of your choice |
 
 The last three also need the [[progression/act-iii-into-the-flames/act-iv-beyond-reality-gate|Act IV gate]], even though the two Simply Sword quests say "Unlocked after Mechanical Fusion Anvil Quest". Every table is listed on [[progression/reward-tables|Quest Reward Tables]].
 
 ## Tips
 
-- Besides the arenas, the Act II **Heart of Deepdark** quest trades one [[item:efn:deepdark_heart]] for 8 Ice Keys, and it repeats. Every [[Warden]] drops a heart.
-- "Choose your Simply Sword" costs the same single key as the random draw, so it is always the better deal once it opens.
+- Besides the arenas, the Act II **Heart of Deepdark** quest trades four [[item:efn:deepdark_heart]]s for 8 Ice Keys, and it repeats. Every [[Warden]] drops a heart.
+- "Draw your Simply Sword" (64 keys) is a quarter of the price of "Choose your Simply Sword" (256 keys).
 
 See [[items/progression-keys/sky-arena-keys|Sky Arena Keys]].

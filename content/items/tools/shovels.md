@@ -35,14 +35,33 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from game-data/item-stats.json (mining level, speed, durability, damage); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/tags.json (minecraft:pickaxes, minecraft:axes, …)
-  game-data/item-stats.json (tier, durability)
-  game-data/items.json (tooltips)
+  game-data/items.json (tooltips: hit effects and abilities)
+  mods/Aquaculture-1.20.1-2.5.7.jar lang (aquaculture.neptunium_*.tooltip: the Shift text)
 -->
 
 **Shovels** lists every shovel in Soulrend, sorted by mining level.
+
+## Usage
+
+**Mining level** decides which blocks a shovel can harvest, using the vanilla tiers: 0 is wood and gold, 1 stone, 2 iron, 3 diamond and 4 netherite. A block that needs a higher level drops nothing when mined with a lower one; obsidian and ancient debris need level 3. Mining speed is how fast it breaks the blocks it can harvest.
+
+Many entries are weapons that also count as shovels; their Epic Fight movesets are on the weapon pages. Tools with an extra effect, from their tooltips:
+
+- [[item:dungeons_and_combat:silver_shovel]]: Strength against the Undead type.
+- [[item:dungeons_and_combat:the_gravedigger_greataxe]]: Rise Palehand:; Summon a Palehand Minion with Cursed Souls in inventory; +5% Cooldown Reduction; +10% Summon Damage.
+- [[item:dungeons_and_combat:the_gravedigger_sword]]: Summon a Palehand Minion with Souls.
+- [[item:iceandfire:silver_shovel]]: extra damage against undead.
+- [[item:iceandfire:myrmex_desert_shovel]]: +4 damage against non-arthropods and deathworms.
+- [[item:iceandfire:myrmex_jungle_shovel]]: +4 damage against non-arthropods and deathworms.
+- [[item:dungeons_and_combat:blessed_gold_shovel]]: Haste II in the day.
+- [[item:aquaculture:neptunium_shovel]]: Neptune's Grace: no mining-speed penalty underwater.
+- [[item:dungeons_and_combat:ebony_shovel]]: hits apply Wither.
+- [[item:iceandfire:dragonsteel_fire_shovel]]: Ignites and knocks back targets.
+- [[item:iceandfire:dragonsteel_ice_shovel]]: Freezes targets.
+- [[item:iceandfire:dragonsteel_lightning_shovel]]: Strikes targets with lightning.
+- [[item:dungeons_and_combat:crimson_shovel]]: hits apply Bleeding.
 
 | Tool | Mod | Mining level | Mining speed | Durability | Attack damage |
 | --- | --- | --- | --- | --- | --- |

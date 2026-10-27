@@ -3,7 +3,7 @@
   "title": "Travel Items",
   "category": "Items",
   "order": 13,
-  "summary": "Teleporting, gliding and finding your way. __.",
+  "summary": "Waystones, Sharestones, warp items and the two search compasses: how travel works in Soulrend.",
   "items": [
     "waystones:black_sharestone",
     "waystones:blackstone_waystone",
@@ -43,14 +43,38 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (tooltips, obtaining); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (tooltips), game-data/recipes.json (minecraft:kjs/waystones_waystone and _sandy_waystone from kubejs/server_scripts/recipes/misc_utility.js; waystones:warp_plate recipes)
+  mods/waystones-forge-1.20.1-14.1.21.jar lang (scroll binding, warp plate shard messages)
+  config/waystones-common.toml (blocksPerXpLevel 1000, minimum/maximum base XP cost 1, dimensionalWarpXpCost 1, warpStoneCooldown 300, warpStoneUseTime 32, inventoryButton "", worldGenStyle BIOME, frequency 25, overworld/nether/end, spawnInVillages)
+  config/explorerscompass-common.toml (maxRadius 10000, allowTeleport, displayCoordinates), config/naturescompass-common.toml
+  docs/instance-guide.md (leaving the Past with a waystone item, confirmed by the pack author)
 -->
 
-**Travel Items** covers teleporting, gliding and finding your way. _(visible)_.
+**Travel Items** are Soulrend's ways to get around: Waystones and their relatives for teleporting, and the Explorer's and Nature's Compasses for finding structures and biomes.
+
+## Usage
+
+### Waystones
+
+A **Waystone** is a teleport point. Right-clicking one activates it; from then on any activated waystone can teleport its user to any other. Waystones also generate in the world (in the Overworld, the Nether and the End, and in villages), in plain, mossy, sandy, deepslate, blackstone and end stone styles. The plain and sandy ones have Soulrend recipes built around a Warp Stone; the deepslate, blackstone and end stone ones only generate.
+
+- **Cost:** each teleport costs 1 XP level, plus 1 more to change dimension (Soulrend's config sets both the minimum and maximum base cost to 1 level).
+- **Sharestones** connect only to Sharestones of the same color, and the **Portstone** can teleport to waystones but can't be teleported to.
+- **The inventory warp button is turned off** in Soulrend, so teleporting needs a waystone or an item.
+
+### Warp items
+
+- **Warp Stone:** opens the waystone menu from anywhere. Using it takes about 1.5 s, and it then has a 5-minute cooldown (100 durability).
+- **Warp Scroll**, **Bound Scroll** and **Return Scroll:** scrolls that teleport their user; a bound scroll shows its waystone in the tooltip ("Bound to: …"). Several quests give Warp Scrolls, for example entering each Eight Sins dimension.
+- **Warp Plate:** a block that teleports to another Warp Plate. A plate is linked by the **Attuned Shard** inside it; shards are made on a plate (flint with Warp Dust, or the Crumbling Attuned Shard from an Ender Pearl and amethyst).
+- A waystone item is also the way out of the [[progression/act-v-duties/visit-the-past|Past]].
+
+### Compasses
+
+- **Explorer's Compass:** searches for a structure by name and points to it, up to 10,000 blocks away. It shows the result's coordinates. The [[progression/act-i-awakening/explorers-compass|Explorer's Compass]] quest asks for one, and many later quests start with "Find Structure".
+- **Nature's Compass:** the same for biomes.
 
 ## Waystones and Sharestones
 

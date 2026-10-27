@@ -1,15 +1,15 @@
 ---
 {
   "title": "Tier 1 Skill Books",
-  "summary": "Tier 1 Skill Books."
+  "summary": "The Tier 1 Epic Fight skill books in the Epic Fight quest chapter."
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  section index; each page lists its own sources (written 2026-10-27 from game-data/skills.json, the KubeJS skill book recipes and epicfight.snbt)
   content/_items-outline.md (page list, groups and quest order)
 -->
 
-**Tier 1 Skill Books** — item pages in this section.
+**Tier 1 Skill Books** are the skill books in the Tier 1 group of the [[progression/side-chapters/epic-fight|Epic Fight]] quest chapter. Every one has a Soulrend crafting recipe, and most of their quests give 3 XP levels.
 
 ## In this section
 

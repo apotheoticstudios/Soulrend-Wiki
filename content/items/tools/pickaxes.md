@@ -51,14 +51,41 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from game-data/item-stats.json (mining level, speed, durability, damage); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/tags.json (minecraft:pickaxes, minecraft:axes, …)
-  game-data/item-stats.json (tier, durability)
-  game-data/items.json (tooltips)
+  game-data/items.json (tooltips: hit effects and abilities)
+  mods/Aquaculture-1.20.1-2.5.7.jar lang (aquaculture.neptunium_*.tooltip: the Shift text)
 -->
 
 **Pickaxes** lists every pickaxe in Soulrend, sorted by mining level.
+
+## Usage
+
+**Mining level** decides which blocks a pickaxe can harvest, using the vanilla tiers: 0 is wood and gold, 1 stone, 2 iron, 3 diamond and 4 netherite. A block that needs a higher level drops nothing when mined with a lower one; obsidian and ancient debris need level 3. Mining speed is how fast it breaks the blocks it can harvest.
+
+Many entries are weapons that also count as pickaxes; their Epic Fight movesets are on the weapon pages. Tools with an extra effect, from their tooltips:
+
+- [[item:dungeons_and_combat:rotten_hammer]]: hits apply Slowness.
+- [[item:dungeons_and_combat:bronze_hand_drill]]: Multi-Tool.
+- [[item:dungeons_and_combat:silver_pickaxe]]: Strength against the Undead type.
+- [[item:iceandfire:silver_pickaxe]]: extra damage against undead.
+- [[item:iceandfire:myrmex_desert_pickaxe]]: +4 damage against non-arthropods and deathworms.
+- [[item:iceandfire:myrmex_jungle_pickaxe]]: +4 damage against non-arthropods and deathworms.
+- [[item:dungeons_and_combat:neptunium_greathammer]]: Weapon Effect:; You gain strength while you are underwater.
+- [[item:dungeons_and_combat:neptunium_hammer]]: Weapon Effect:; You gain strength while you are underwater.
+- [[item:dungeons_and_combat:blessed_gold_pickaxe]]: Haste II in the day.
+- [[item:aquaculture:neptunium_pickaxe]]: Neptune's Grace: no mining-speed penalty underwater.
+- [[item:dungeons_and_combat:acid_molten_blazing_greathammer]]: Fire; Flame Grant me Strength:; This effect will give you Resistance I and Strength II for 40 Seconds.
+- [[item:dungeons_and_combat:acid_molten_blazing_hammer]]: Fire; Flame Grant me Strength:; This effect will give you Resistance I and Strength II for 40 Seconds.
+- [[item:dungeons_and_combat:curse_molten_blazing_hammer]]: Fire; Flame Grant me Strength:; This effect will give you Resistance I and Strength II for 40 Seconds.
+- [[item:dungeons_and_combat:cursed_molten_blazing_greathammer]]: Fire; Flame Grant me Strength:; This effect will give you Resistance I and Strength II for 40 Seconds.
+- [[item:dungeons_and_combat:ebony_pickaxe]]: hits apply Wither.
+- [[item:dungeons_and_combat:molten_blazing_greathammer]]: Fire; Flame Grant me Strength:; This effect will give you Resistance I and Strength II for 40 Seconds.
+- [[item:dungeons_and_combat:molten_blazing_hammer]]: Fire; Flame Grant me Strength:; This effect will give you Resistance I and Strength II for 40 Seconds.
+- [[item:iceandfire:dragonsteel_fire_pickaxe]]: Ignites and knocks back targets.
+- [[item:iceandfire:dragonsteel_ice_pickaxe]]: Freezes targets.
+- [[item:iceandfire:dragonsteel_lightning_pickaxe]]: Strikes targets with lightning.
+- [[item:dungeons_and_combat:crimson_pickaxe]]: hits apply Bleeding.
 
 | Tool | Mod | Mining level | Mining speed | Durability | Attack damage |
 | --- | --- | --- | --- | --- | --- |

@@ -7,11 +7,11 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  section index; each page lists its own sources (researched 2026-10-27)
   content/_items-outline.md (page list, groups and quest order)
 -->
 
-**Tools** — Tool tiers from vanilla and mods, one page per tool type. Each page lists every material tier.
+**Tools** are the pickaxes, axes, shovels, hoes, fishing gear and other utility tools of Soulrend, one page per tool type. Each page explains mining levels and lists every tool, including the weapons that also count as tools, with their special effects.
 
 ## In this section
 

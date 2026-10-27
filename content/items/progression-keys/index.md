@@ -7,11 +7,11 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  section index; each page lists its own sources (researched 2026-10-27)
   content/_items-outline.md (page list, groups and quest order)
 -->
 
-**Progression Keys** — Eyes, keys, seals and summoning items that gate progression.
+**Progression Keys** are the items that open the next stage of the game: the Nether seal, the Legendary Eyes for the End portal, the Cataclysm eyes, the cave keys, boss summons, Sky Arena rewards and the Emblem of the Past. Each page's Usage section says what the item opens and links the quest that asks for it.
 
 ## In this section
 

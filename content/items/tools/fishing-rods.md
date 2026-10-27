@@ -20,7 +20,7 @@
     "Fishing Line",
     "Bobber"
   ],
-  "summary": "rods, hooks and lines.",
+  "summary": "Fishing rods, hooks, lines and bobbers, and what each Aquaculture hook does.",
   "items": [
     "aquaculture:diamond_fishing_rod",
     "aquaculture:gold_fishing_rod",
@@ -43,14 +43,31 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (durability, obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (tooltips)
+  mods/Aquaculture-1.20.1-2.5.7.jar lang (aquaculture.<item>.tooltip.title/.desc: the Shift text)
 -->
 
-**Fishing Rods** covers rods, hooks and lines.
+**Fishing Rods** covers vanilla and Aquaculture 2 fishing gear: rods of five materials and the hooks, lines and bobbers that customize them.
+
+## Usage
+
+Aquaculture rods take a **hook**, a **line** and a **bobber**, which change how the rod fishes. The hook's effect is hidden behind Shift in game:
+
+| Hook | Effect |
+| --- | --- |
+| [[item:aquaculture:iron_hook]] | Durable: 20% chance not to use durability |
+| [[item:aquaculture:diamond_hook]] | Super Durable: 50% chance not to use durability |
+| [[item:aquaculture:gold_hook]] | Lucky: increased luck |
+| [[item:aquaculture:nether_star_hook]] | Otherworldly: 50% chance not to use durability, and increased luck |
+| [[item:aquaculture:light_hook]] | Light: casts further |
+| [[item:aquaculture:heavy_hook]] | Heavy: casts shorter |
+| [[item:aquaculture:double_hook]] | Double Barb: a chance to catch two things |
+| [[item:aquaculture:redstone_hook]] | Enticing: more time to reel in a fish |
+| [[item:aquaculture:note_hook]] | Alert: plays a sound when a fish approaches |
+
+The **Neptunium Fishing Rod** has Neptune's Song: fish are more likely to bite. A rod with more durability (Iron 125, Gold 55, Diamond 450, Neptunium 1,000) lasts longer than the vanilla rod's 64.
 
 ## Overview
 
@@ -157,8 +174,8 @@ It can also be crafted (see below).
 | Source | Chance | Count |
 | --- | --- | --- |
 | `irons_spellbooks:chests/impaled_icebreaker/food_barrel` (chest) | 100% | 1 |
-| `u_sea:island/cooled_fish` (chest) | 100% per roll, undefined–undefined rolls | 1 |
-| `u_sea:raft/cooled_fish` (chest) | 100% per roll, undefined–undefined rolls | 1 |
+| `u_sea:island/cooled_fish` (chest) | 100% per roll, 0–1 rolls (one roll at 33%) | 1 |
+| `u_sea:raft/cooled_fish` (chest) | 100% per roll, 0–1 rolls (one roll at 33%) | 1 |
 | `minecraft:chests/underwater_ruin_small` (chest) | 41.7% | 1 |
 | `alshanex_familiars:chests/origin_island/fishing` (chest) | 40% | 1 |
 | `minecraft:chests/underwater_ruin_big` (chest) | 21.7% | 1 |

@@ -25,14 +25,32 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json
+  config/cataclysm_dimension/cataclysm_dimension.json (enable_teleport_eye, slow_fall_when_enter_dimensions, random_spread_in_dimension)
+  config/ftbquests/quests/chapters/act_iii__into_the_flames.snbt (eight "Eye of ..." quests, subtitle "Craftable"), act_4.snbt ("Free The End" gives an Eye of Storm)
+  content/progression/act-iii-into-the-flames/the-eight-sins.md (eye, dimension and boss for each line)
 -->
 
-**Cataclysm Eyes** covers the eight eyes that open the Eight Sins dimensions.
+**Cataclysm Eyes** are the eight eyes that open the dimensions of the Eight Sins, the Cataclysm bosses of [[progression/act-iii-into-the-flames/the-eight-sins|Act III]].
+
+## Usage
+
+Right-clicking an eye while sneaking takes its user into that eye's dimension, where the boss waits. Entering gives Slow Falling and lands the player at a random spot (Cataclysm Dimension's config).
+
+| Eye | Dimension | Boss |
+| --- | --- | --- |
+| [[item:cataclysm:desert_eye]] | The Pharaoh's Bane | [[Ancient Remnant]] |
+| [[item:cataclysm:storm_eye]] | The Fallen Sanctum | [[Scylla]] |
+| [[item:cataclysm:mech_eye]] | The Forge of Aeons | [[The Harbinger]] |
+| [[item:cataclysm:flame_eye]] | The Infernos Maw | [[Ignis]] |
+| [[item:cataclysm:void_eye]] | The Lost Bastion | [[Ender Guardian]] |
+| [[item:cataclysm:cursed_eye]] | The Eternal Frosthold | [[Maledictus]] |
+| [[item:cataclysm:monstrous_eye]] | The Soul Anvil | [[Netherite Monstrosity]] |
+| [[item:cataclysm:abyss_eye]] | The Abyssal Depths | [[The Leviathan]] |
+
+All eight are crafted, and each has an Act III quest. The Eye of Flame quest mentions Burning Ashes, but Soulrend's recipe doesn't use them. The Act IV "Free The End" quest also gives an Eye of Storm.
 
 ## Overview
 

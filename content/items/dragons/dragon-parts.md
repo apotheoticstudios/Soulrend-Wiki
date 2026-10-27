@@ -13,7 +13,7 @@
     "Lightning Dragon Heart",
     "Witherbone"
   ],
-  "summary": "Dragon Parts: 14 items from the Soulrend modpack.",
+  "summary": "What a dead Ice and Fire dragon gives: blood, flesh, hearts, skulls and bones, and what each is for.",
   "items": [
     "iceandfire:fire_dragon_blood",
     "iceandfire:ice_dragon_blood",
@@ -33,14 +33,30 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json (iceandfire:entities/dragon/*: scales 60, flesh 40, egg 2 on females; customize_to_dragon), game-data/recipes.json
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar lang (jei_desc, advancements), EntityDragonBase.interact (corpse: Glass Bottle gives blood; skull and heart by death stage; dragon meal, sickly dragon meal)
+  config/iceandfire-common.toml ("Dragon Egg Hatch Time" = 7200, "Dragon Flute Distance" = 4, "Dragons Drop Skull/Heart/Blood" = true, dragonsteel base stats)
 -->
 
-**Dragon Parts** lists 14 items.
+**Dragon Parts** are what a dead Ice and Fire dragon leaves: its blood, flesh, heart, skull and bones. They are the raw materials for dragonsteel, Dragonforges and dragon-bone weapons. Ice and Fire dragons are covered on the [[Fire Dragon]], [[Ice Dragon]] and [[Lightning Dragon]] pages.
+
+## Usage
+
+**Harvesting a corpse.** A killed dragon doesn't vanish; it leaves a corpse that is harvested by right-clicking it, in stages:
+
+- With a **Glass Bottle**, the corpse fills it with that dragon's **blood** (Fire, Ice or Lightning).
+- Otherwise each harvest rolls the dragon's loot: its **scales** (in the dragon's color) or its **flesh**, and for a female a small chance of an **egg** (see [[items/dragons/dragon-eggs-and-scales|Dragon Eggs & Scales]]).
+- Later stages give the dragon's **skull** and its **heart**.
+
+**Uses:**
+
+- **Dragon blood** turns iron into dragonsteel in a Dragonforge of the same element (see [[items/dragons/dragonforges|Dragonforges]]), and upgrades dragon-bone weapons into their Flamed, Iced and Lightning versions. All three bloods go into the Dormant Radar.
+- **Dragon hearts** craft the Dragonforge core of their element, and go into Soulrend's Solar Flare, Cyroheart Bow and Galeforce upgrades and the elemental Dragon Bone Swords.
+- **Dragon flesh** is food (8 hunger). Soulrend also uses one of each in the Solar Flare, Cyroheart Bow and Galeforce upgrades.
+- **Dragon skulls** are trophies: they can be placed on the ground or on a wall. The fire skull also goes into the Titanlord's Scepter.
+- **Dragon Bone** makes the dragon-bone tools, weapons, arrows and dragon shields. **Witherbone** goes into dragonsteel long swords and several bone greatswords.
 
 ## Overview
 

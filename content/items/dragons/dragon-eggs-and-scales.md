@@ -1,7 +1,7 @@
 ---
 {
   "title": "Dragon Eggs & Scales",
-  "summary": "Dragon Eggs & Scales: 36 items from the Soulrend modpack.",
+  "summary": "Dragon eggs, which hatch into a tamed Ice and Fire dragon, and the dragon scales that make dragon scale armor.",
   "items": [
     "iceandfire:dragonegg_amythest",
     "iceandfire:dragonegg_black",
@@ -43,14 +43,29 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json (iceandfire:entities/dragon/*: scales 60, flesh 40, egg 2 on females; customize_to_dragon), game-data/recipes.json
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar lang (jei_desc, advancements), EntityDragonBase.interact (corpse: Glass Bottle gives blood; skull and heart by death stage; dragon meal, sickly dragon meal)
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar EnumDragonEgg (color to element)
+  config/iceandfire-common.toml ("Dragon Egg Hatch Time" = 7200, "Dragon Flute Distance" = 4, "Dragons Drop Skull/Heart/Blood" = true, dragonsteel base stats)
 -->
 
-**Dragon Eggs & Scales** lists 36 items.
+**Dragon Eggs & Scales** covers the twelve dragon colors of Ice and Fire. Eggs hatch into a dragon of that color; scales make the dragon scale armor and the [[item:iceandfire:dragonscale_red|scale blocks]].
+
+## Usage
+
+**Eggs.** Each color belongs to one element:
+
+| Element | Egg colors | Hatches |
+| --- | --- | --- |
+| Fire | Red, Green (Emerald), Bronze, Gray | in an open flame |
+| Ice | Blue, White, Sapphire, Silver | underwater |
+| Lightning | Electric Blue, Amethyst, Copper, Black | out in the rain |
+
+An egg in the right place hatches after 6 min (Soulrend's config), and the dragon bonds with the closest player. Eggs come from dead female dragons: each loot roll of a female's corpse has a 2-in-102 chance to give an egg, in her own color. Two dragons of opposite sex can also be bred with that element's stew; the female then makes a nest with an egg.
+
+**Scales** drop from every dragon corpse (60-in-102 per loot roll) in the dragon's color. Nine scales make a block and back. They make that color's dragon scale armor and go into dragon shields. The [[progression/side-chapters/sky-arena|Sky Arena]] shop also sells 8 scales of a random color for 3 Ice Keys.
 
 ## Dragon eggs
 

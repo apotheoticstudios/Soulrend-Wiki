@@ -1,15 +1,15 @@
 ---
 {
   "title": "End Game Skill Books",
-  "summary": "End Game Skill Books."
+  "summary": "The End Game Epic Fight skill books in the Epic Fight quest chapter."
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  section index; each page lists its own sources (written 2026-10-27 from game-data/skills.json, the KubeJS skill book recipes and epicfight.snbt)
   content/_items-outline.md (page list, groups and quest order)
 -->
 
-**End Game Skill Books** — item pages in this section.
+**End Game Skill Books** are the skill books in the End Game group of the [[progression/side-chapters/epic-fight|Epic Fight]] quest chapter. Every one has a Soulrend crafting recipe, and most of their quests give 10 XP levels.
 
 ## In this section
 

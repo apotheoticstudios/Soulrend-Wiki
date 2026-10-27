@@ -59,7 +59,7 @@ Soulrend's extra mob drops give the Warden a **50%** chance to drop the crystal,
 
 | Quest | Task | Rewards |
 | --- | --- | --- |
-| Heart of Deepdark (repeatable) | Hand in 1 [[item:efn:deepdark_heart]] (consumed) | 8 [[item:skyarena:ice_key]] |
+| Heart of Deepdark (repeatable) | Hand in 4 [[item:efn:deepdark_heart]]s (consumed) | 8 [[item:skyarena:ice_key]] |
 | Sky Arena | Checkmark | A link to [[progression/side-chapters/sky-arena\|Sky Arena]] |
 | [[progression/act-ii-first-steps/the-otherside\|The Otherside]] | Heart of the Deep (also needs a Dark Iron Ingot quest) | Opens Act III-b |
 

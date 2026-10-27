@@ -20,7 +20,7 @@
     "Grotesque Ingot",
     "Enchanted Ingot"
   ],
-  "summary": "Act II Materials: 24 items from the Soulrend modpack.",
+  "summary": "Act II materials: titanium, Ice and Fire monster parts, mithril and the first Astral Calamity armor ingots.",
   "items": [
     "dungeons_and_combat:titanium_ingot",
     "iceandfire:sapphire_gem",
@@ -50,14 +50,33 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json, game-data/tags.json (tag-based uses: forge:ingots/steel, forge:ingots/silver, forge:gems/<gem>)
+  kubejs/server_scripts/recipes/ingot_progression_recipes.js (Astral Calamity, Duskfire and HF ingot recipes)
+  mods/irons_spellbooks-1.20.1-3.15.6.jar data/irons_spellbooks/worldgen/placed_feature/ore_mithril_placement.json (7 per chunk, y -63 to -38), configured_feature/ore_mithril_feature.json (size 3, never exposed to air), loot_tables/blocks/mithril_ore.json (Silk Touch keeps the ore)
 -->
 
-**Act II Materials** lists 24 items.
+**Act II Materials** come from the monsters and dungeons of Act II: Dungeons and Combat titanium, Ice and Fire monster parts, Iron's Spellbooks mithril, and five Astral Calamity ingots that Soulrend uses to upgrade armor sets.
+
+## Usage
+
+- **Titanium Ingot** makes Dungeons and Combat's titanium tools, weapons, shield and armor.
+- **Ancient Sapphire** goes into most Ice and Fire dragon armor upgrades and the Heart of the Deep.
+- **Troll Leather** (three kinds) makes the matching troll leather armor. **Death Worm Chitin** (three colors) makes chitin armor and the Death Worm Gauntlet. **Sea Serpent Scales** of any color make the Tide Guardian armor.
+- **Mithril:** Mithril Ore generates deep underground (y=−63 to −38) in small veins that never touch air. Mining it gives Mithril Scrap, or the ore itself with Silk Touch. Scrap crafts into the Mithril Ingot, and both go into Iron's Spellbooks rings and amulets and several armor upgrades. Mithril Weave is used for the top mage chestplates and some magic weapons.
+- **Astral Calamity ingots** are made with Soulrend's own recipes (shown in each section) and upgrade one armor set each:
+
+  | Ingot | Made from | Upgrades into |
+  | --- | --- | --- |
+  | Cryonic Ingot | Wrought Ingot and Cryolite Shards | Bounty Hunter armor; also the Subliminal Ingot |
+  | Subliminal Ingot | Cryonic Ingot, Frozen Bones and an Echo Shard | Warden armor |
+  | Tidal Ingot | Wrought Ingot and two Essences Of Kamath | Kamath's Remains armor |
+  | Grotesque Ingot | Magic Cloth and a Stuffed Pumpkin | Scarecrow armor |
+  | Enchanted Ingot | Magic Cloth and an Arcane Ingot | Wizard armor |
+
+  The tooltips' descriptions (for example "combining the ancient ice artifact and steel") come from the mod and don't match Soulrend's recipes.
+
 
 ## Overview
 
@@ -415,6 +434,8 @@ It is crafted (see below).
 
 [[item:irons_spellbooks:mithril_ore]] (Iron's Spells 'n Spellbooks)
 
+The ore generates 7 times per chunk between y=−63 and y=−38, in veins of up to 3 blocks that are never exposed to air (a deepslate variant replaces deepslate). It drops Mithril Scrap, or itself when mined with Silk Touch.
+
 ### Mithril Scrap
 
 [[item:irons_spellbooks:mithril_scrap]] (Iron's Spells 'n Spellbooks, rare)
@@ -462,6 +483,14 @@ Its tooltip says:
 
 - A cold metal that can be created by combining the ancient ice artifact and steel.
 
+### Obtaining
+
+It is crafted (see below).
+
+### Crafting
+
+{{recipes astral_calamity_extras:cryonic_ingot}}
+
 ### Used in
 
 {{uses astral_calamity_extras:cryonic_ingot}}
@@ -473,6 +502,14 @@ Its tooltip says:
 Its tooltip says:
 
 - A material so cold that it freezes anything that is touching it.
+
+### Obtaining
+
+It is crafted (see below).
+
+### Crafting
+
+{{recipes astral_calamity_extras:subliminal_ingot}}
 
 ### Used in
 
@@ -486,6 +523,14 @@ Its tooltip says:
 
 - A material rarely created in the deep pressure of the abyss.
 
+### Obtaining
+
+It is crafted (see below).
+
+### Crafting
+
+{{recipes astral_calamity_extras:tidal_ingot}}
+
 ### Used in
 
 {{uses astral_calamity_extras:tidal_ingot}}
@@ -498,6 +543,14 @@ Its tooltip says:
 
 - A special metal that is possessed with the soul of Lord Pumpkinhead.
 
+### Obtaining
+
+It is crafted (see below).
+
+### Crafting
+
+{{recipes astral_calamity_extras:grotesque_ingot}}
+
 ### Used in
 
 {{uses astral_calamity_extras:grotesque_ingot}}
@@ -509,6 +562,14 @@ Its tooltip says:
 Its tooltip says:
 
 - A special material that was forged by the Ancient Builders.
+
+### Obtaining
+
+It is crafted (see below).
+
+### Crafting
+
+{{recipes astral_calamity_extras:enchanted_ingot}}
 
 ### Used in
 

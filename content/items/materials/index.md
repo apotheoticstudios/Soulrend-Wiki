@@ -7,11 +7,11 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  section index; each page lists its own sources (researched 2026-10-26)
   content/_items-outline.md (page list, groups and quest order)
 -->
 
-**Materials** — Ingots, gems and mob drops used in crafting, many per page, one page per act in progression order.
+**Materials** are the ingots, gems and mob drops used in crafting, one page per act in the order players reach them. Soulrend adds its own chain of Astral Calamity ingots, from the Wrought Ingot in Act I to the Universium, Nightmare and Astral Ingots in Act V; each page's Usage section says what its materials make.
 
 ## In this section
 

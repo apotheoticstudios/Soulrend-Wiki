@@ -41,14 +41,20 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json
+  content/progression/side-chapters/journey-to-the-end.md and content/progression/act-iii-into-the-flames/act-iv-beyond-reality-gate.md (eye sources, portal rules, quest counts; their sources comments cite config/endrem.toml, ERPortalPredicate and the quests)
 -->
 
-**Legendary Eyes** covers the 16 End Remastered eyes. Five eye quests open Act IV, and the End portal needs twelve different eyes.
+**Legendary Eyes** are the sixteen End Remastered eyes. In Soulrend they replace Eyes of Ender: the End portal only accepts these eyes, and their quests open [[progression/act-iv-beyond-reality|Act IV]].
+
+## Usage
+
+- **The End portal** has twelve frames. Each frame takes one Legendary Eye and refuses an eye type already in the portal, so opening it takes **twelve different** eyes. Plain Eyes of Ender don't fit, and placed eyes can't be taken back out.
+- **Finding the stronghold:** a Legendary Eye can be thrown like an Eye of Ender to point toward it.
+- **Act IV:** the [[progression/act-iii-into-the-flames/act-iv-beyond-reality-gate|Act IV gate]] opens after any **five** of the sixteen eye quests in [[progression/side-chapters/journey-to-the-end|Journey To The End]]. The quests only check the inventory, so claim each one before placing its eye.
+- **Sources** differ for every eye: structure chests, bosses ([[bosses/act-ii/yeti|Yeti]], [[Infernal Dragon]], [[Wither]]) and a few Soulrend recipes. Journey To The End lists them all with the quest's difficulty rating. Soulrend turns off two End Remastered sources: Cryptic Eyes from normal enchanting and Evil Eyes from Cleric trades.
 
 ## Overview
 

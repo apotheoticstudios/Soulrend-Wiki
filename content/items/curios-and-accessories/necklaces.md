@@ -105,6 +105,10 @@ The **Amethyst Resonance Charm**, the plain **Conjurer's Talisman** and the **He
 | --- | --- | --- |
 |  | Attack Damage Bonus | When Equipped |
 
+#### Obtaining
+
+Nothing makes or drops it in Soulrend (see [[bugs|Known Bugs]]).
+
 ### Ammit Fang Necklace
 
 [[item:dungeons_and_combat:fang_necklace]] (dungeons and combat, uncommon)
@@ -113,6 +117,14 @@ The **Amethyst Resonance Charm**, the plain **Conjurer's Talisman** and the **He
 | --- | --- | --- |
 |  | Attacks will leave the Broken Armor effect | When Equipped |
 
+#### Obtaining
+
+It is crafted (see below).
+
+#### Crafting
+
+{{recipes dungeons_and_combat:fang_necklace}}
+
 ### Klauen Necklace
 
 [[item:dungeons_and_combat:klauen_necklace]] (dungeons and combat, uncommon)
@@ -120,6 +132,14 @@ The **Amethyst Resonance Charm**, the plain **Conjurer's Talisman** and the **He
 | Stat | Value | When |
 | --- | --- | --- |
 |  | Attack Speed Bonus | When Equipped |
+
+#### Obtaining
+
+It is crafted (see below).
+
+#### Crafting
+
+{{recipes dungeons_and_combat:klauen_necklace}}
 
 ### Nullfire Amulet
 

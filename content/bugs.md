@@ -49,6 +49,11 @@ This page lists bugs observed in Soulrend. Each entry says what happens, where i
 - **Workaround:** none for players; the config needs `dimension|min|max` entries.
 - **Also seen:** the Relic of the Renowned's tooltip reads "Rarity Material (rarity.null)" (a missing lang key in Fallen Gems & Affixes).
 
+### Ernos Fang Necklace can't be obtained
+- **Seen:** 2026-10-26, Dungeons and Combat 1.2.4, `dungeons_and_combat:ernos_fang_necklace`: the jar has recipes for the Ammit Fang and Klauen necklaces but none for this one, Soulrend's KubeJS replaces only the Ammit Fang Necklace's recipe, and no loot table in `game-data/loot-tables.json` contains it.
+- **What happens:** the necklace (an attack damage bonus in the necklace slot) exists and shows in JEI, but nothing makes or drops it. Its material, the Ernos Fang, goes into other recipes instead.
+- **Workaround:** none known.
+
 <!-- Entry template:
 ### Short description
 - **Seen:** 2026-10-24, where (mod, item, boss, file)

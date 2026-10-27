@@ -29,14 +29,38 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from game-data/item-stats.json (mining level, speed, durability, damage); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/tags.json (minecraft:pickaxes, minecraft:axes, …)
-  game-data/item-stats.json (tier, durability)
-  game-data/items.json (tooltips)
+  game-data/items.json (tooltips: hit effects and abilities)
+  mods/Aquaculture-1.20.1-2.5.7.jar lang (aquaculture.neptunium_*.tooltip: the Shift text)
 -->
 
 **Axes** lists every axe in Soulrend (tool axes; battle axes are on Heavy Load), sorted by mining level.
+
+## Usage
+
+**Mining level** decides which blocks an axe can harvest, using the vanilla tiers: 0 is wood and gold, 1 stone, 2 iron, 3 diamond and 4 netherite. A block that needs a higher level drops nothing when mined with a lower one; obsidian and ancient debris need level 3. Mining speed is how fast it breaks the blocks it can harvest.
+
+Many entries are weapons that also count as axes; their Epic Fight movesets are on the weapon pages. Tools with an extra effect, from their tooltips:
+
+- [[item:mowziesmobs:wrought_axe]]: Never breaks; Right-click to attack in an large arc; Shift-right-click to slam the ground and create a shockwave.
+- [[item:dungeons_and_combat:bronze_hand_drill]]: Multi-Tool.
+- [[item:dungeons_and_combat:silver_axe]]: Strength against the Undead type.
+- [[item:iceandfire:silver_axe]]: extra damage against undead.
+- [[item:dungeons_and_combat:molten_dark_steel_axe_ii]]: Flame absorption; Killing your target while on fire will heal some of your health.
+- [[item:dungeons_and_combat:molten_dark_steel_greataxe]]: Flame absorption; Killing your target while on fire will heal some of your health.
+- [[item:iceandfire:myrmex_desert_axe]]: +4 damage against non-arthropods and deathworms.
+- [[item:iceandfire:myrmex_jungle_axe]]: +4 damage against non-arthropods and deathworms.
+- [[item:dungeons_and_combat:bleesed_gold_axe]]: hits apply Broken Armor.
+- [[item:dungeons_and_combat:blessed_gold_axe]]: Haste II in the day.
+- [[item:dungeons_and_combat:blessed_gold_sickle]]: Haste V for 3 seconds if it's daytime.
+- [[item:dungeons_and_combat:blessed_gold_twin_blade]]: hits apply Broken Armor.
+- [[item:aquaculture:neptunium_axe]]: Neptune's Might: more damage against enemies underwater.
+- [[item:dungeons_and_combat:ebony_axe]]: hits apply Wither.
+- [[item:iceandfire:dragonsteel_fire_axe]]: Ignites and knocks back targets.
+- [[item:iceandfire:dragonsteel_ice_axe]]: Freezes targets.
+- [[item:iceandfire:dragonsteel_lightning_axe]]: Strikes targets with lightning.
+- [[item:dungeons_and_combat:crimson_axe]]: hits apply Bleeding.
 
 | Tool | Mod | Mining level | Mining speed | Durability | Attack damage |
 | --- | --- | --- | --- | --- | --- |

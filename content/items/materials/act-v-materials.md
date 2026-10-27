@@ -6,7 +6,7 @@
     "Nightmare Ingot",
     "Astral Ingot"
   ],
-  "summary": "Act V Materials: 3 items from the Soulrend modpack.",
+  "summary": "Act V materials: the Universium, Nightmare and Astral Ingots that end the Astral Calamity chain.",
   "items": [
     "astral_calamity_extras:universium_ingot",
     "astral_calamity_extras:nightmare_ingot",
@@ -15,14 +15,19 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json, game-data/tags.json (tag-based uses: forge:ingots/steel, forge:ingots/silver, forge:gems/<gem>)
+  kubejs/server_scripts/recipes/ingot_progression_recipes.js (Astral Calamity, Duskfire and HF ingot recipes)
 -->
 
-**Act V Materials** lists 3 items.
+**Act V Materials** are the last three Astral Calamity ingots. They end the chain that starts with the Wrought Ingot, and two of them open the Past.
+
+## Usage
+
+- **Universium Ingot** (makes 4) combines the late materials of every act: Moon Crystals, a Dragon Egg, an Abyssal Egg, a Brimspec Ingot, Soul Infused Ingots and High-frequency Alloys. It upgrades armor into the Molten Cryolite set and makes the Nightmare and Astral Ingots.
+- **Nightmare Ingot** and **Astral Ingot** both go into the [[item:kubejs:emblem_of_the_past]], the only way into the Past (see [[progression/act-v-duties|Act V]]). They also upgrade armor at the Mechanical Fusion Anvil: Nightmare into the Cursium, Ignitium and Duskfire sets, Astral into the Ebony Wizard, Dark Metal and Soul Eater sets.
+
 
 ## Overview
 
@@ -39,6 +44,14 @@
 Its tooltip says:
 
 - A material created within the birth of the universe...
+
+### Obtaining
+
+It is crafted (see below).
+
+### Crafting
+
+{{recipes astral_calamity_extras:universium_ingot}}
 
 ### Used in
 

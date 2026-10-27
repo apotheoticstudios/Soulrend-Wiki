@@ -7,7 +7,7 @@
     "Dragon Guard Shield",
     "Sandworm Scale"
   ],
-  "summary": "Bosses'Rise Drops: 6 items from the Soulrend modpack.",
+  "summary": "Materials and gear dropped by the Bosses'Rise bosses: the Infernal Dragon, the Sandworm and the Dragon Guards.",
   "items": [
     "block_factorys_bosses:dragon_bone",
     "block_factorys_bosses:sandworm_dart",
@@ -18,14 +18,23 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json
+  mods/bossesrise-1.20.1-forge-1.0.9.2b.jar lang (sandworm_dart.description_0-4), BossCancelDie2Procedure (LivingAttackEvent: an Ender Dragon taking a lethal hit from an attacker holding the Knight Sword drops 12 Dragon Shanks)
+  config/soulsweapons/soulsweapons.json (enable_shield_parry, shield_parry_cooldown 40: the shield's "Hold [LEFT ALT]" line)
 -->
 
-**Bosses'Rise Drops** lists 6 items.
+**Bosses'Rise Drops** covers the materials and gear that Bosses'Rise bosses drop: Dragon Bones from the [[Infernal Dragon]], the Sandworm Dart and Sandworm Scale from the [[Sandworm]], and Ancient Iron and the Dragon Guard Shield from Bosses'Rise chests (Ancient Iron also drops from the [[bosses/optional-and-world/wither-knight|Wither Knight]]).
+
+## Usage
+
+- **Dragon Bone** makes the Dragon Bones armor and the Dragon Guard Shield, and goes into Soulrend's Titanium armor upgrades.
+- **Ancient Iron Ingot** makes the Knight armor, the Enhanced Shield and the Warrior Sword.
+- **Sandworm Scale** upgrades armor into the Centinel set.
+- **Sandworm Dart:** left-click fires a poisonous dart. Right-click reloads it by spending the holder's health; a poisoned holder spends the poison instead.
+- **Dragon Guard Shield:** an off-hand shield (+1 Armor, +2 Armor Toughness, −10% Speed while held). Its "Hold [LEFT ALT]" line is Soulslike Weaponry's parry, which every shield has: the parry key parries an attack, with a 2 s cooldown.
+- **Dragon Shank** (food, on [[items/consumables/food|Food]]) comes from the [[Ender Dragon]], not from a Bosses'Rise boss: a dragon killed by a hit from someone holding the [[item:block_factorys_bosses:knight_sword]] drops 12 Dragon Shanks.
 
 ## Overview
 

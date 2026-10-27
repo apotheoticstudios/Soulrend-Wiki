@@ -12,7 +12,7 @@
     "Lightning Radar",
     "Master Radar"
   ],
-  "summary": "Dragon Utility: 9 items from the Soulrend modpack.",
+  "summary": "Items for raising and controlling tamed dragons, and the Dragon Radar mod's trackers.",
   "items": [
     "iceandfire:dragon_meal",
     "iceandfire:dragon_flute",
@@ -27,14 +27,25 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json (iceandfire:entities/dragon/*: scales 60, flesh 40, egg 2 on females; customize_to_dragon), game-data/recipes.json
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar lang (jei_desc, advancements), EntityDragonBase.interact (corpse: Glass Bottle gives blood; skull and heart by death stage; dragon meal, sickly dragon meal)
+  config/iceandfire-common.toml ("Dragon Egg Hatch Time" = 7200, "Dragon Flute Distance" = 4, "Dragons Drop Skull/Heart/Blood" = true, dragonsteel base stats)
+  game-data/items.json (dragonradarmod tooltips: activation process, Stage 4-5 dragons)
 -->
 
-**Dragon Utility** lists 9 items.
+**Dragon Utility** covers the items for keeping tamed dragons, plus the Dragon Radar mod's trackers for finding wild ones.
+
+## Usage
+
+- **Dragon Meal:** fed to a baby dragon, it makes it grow fast. The Sickly Dragon Meal made from it does the opposite and stunts growth.
+- **Dragon Bone Flute:** calls back runaway dragons within 4 chunks.
+- **Dragon Horn:** stores a dragon inside it, so it can be carried and released elsewhere.
+- **Dragon Command Staff:** sets a tamed dragon's mode: Wandering, Following, Staying or Sleeping.
+- **Dragon radars** track wild dragons. The Fire, Ice and Lightning Radars each track their own element. Merging all three into a **Dormant Radar** at an anvil, then holding it in the off hand while killing stage 4–5 dragons, purifies it into the **Master Radar**, which tracks every dragon. The Master Radar also goes into the Dragonmancer's Oathbook.
+
+The [[progression/side-chapters/dragonslayer|Dragonslayer]] chapter has quests for the radars and for hatching an egg. To teleport a tamed dragon to you, see [[items/dragons/summoning-crystals|Summoning Crystals]].
 
 ## Overview
 

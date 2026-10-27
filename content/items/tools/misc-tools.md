@@ -2,19 +2,21 @@
 {
   "title": "Misc Tools",
   "aliases": ["Shears", "Flint and Steel"],
-  "summary": "shears, flint and steel, paxels and multitools.",
+  "summary": "Shears and flint and steel.",
   "items": ["minecraft:shears", "minecraft:flint_and_steel"]
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (durability, obtaining, crafting); Usage written 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/loot-index.json (u_sea binomial rolls)
 -->
 
-**Misc Tools** covers shears, flint and steel, paxels and multitools.
+**Misc Tools** covers the two vanilla utility tools in Soulrend, shears and flint and steel. The outline's paxels and multitools don't exist as separate tools; Dungeons and Combat's Bronze Hand Drill is the one multi-tool, listed on the [[items/tools/axes|Axes]] and [[items/tools/pickaxes|Pickaxes]] pages.
+
+## Usage
+
+Both work as in vanilla Minecraft: **shears** shear sheep and collect leaves, vines and cobwebs; **flint and steel** lights fires and Nether portals. Soulrend's Nether portals only work after the [[items/progression-keys/nether-seal|Seal Of The Underworld]] has been used.
 
 ## Overview
 
@@ -34,10 +36,10 @@
 | Source | Chance | Count |
 | --- | --- | --- |
 | `endlessbiomes:chests/bulwark_farming_loot` (chest) | 100% | 1 |
-| `u_sea:island/melon` (chest) | 100% per roll, undefined–undefined rolls | 1 |
-| `u_sea:island/wheat` (chest) | 100% per roll, undefined–undefined rolls | 1 |
-| `u_sea:raft/melon` (chest) | 100% per roll, undefined–undefined rolls | 1 |
-| `u_sea:raft/wheat` (chest) | 100% per roll, undefined–undefined rolls | 1 |
+| `u_sea:island/melon` (chest) | 100% per roll, 0–1 rolls (one roll at 50%) | 1 |
+| `u_sea:island/wheat` (chest) | 100% per roll, 0–1 rolls (one roll at 50%) | 1 |
+| `u_sea:raft/melon` (chest) | 100% per roll, 0–1 rolls (one roll at 50%) | 1 |
+| `u_sea:raft/wheat` (chest) | 100% per roll, 0–1 rolls (one roll at 50%) | 1 |
 | `idas:chests/bazaar/bazaar_tools` (chest) | 26.3% per roll, 2 rolls | 1 |
 | `idas:chests/beekeepers_house/beekeepers_tools` (chest) | 26.3% per roll, 2 rolls | 1 |
 | `idas:chests/desert_pyramid/desert_pyramid_tools` (chest) | 26.3% per roll, 2 rolls | 1 |

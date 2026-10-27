@@ -10,7 +10,7 @@
     "Steel Ingot",
     "Wrought Ingot"
   ],
-  "summary": "Act I Materials: 53 items from the Soulrend modpack.",
+  "summary": "Early materials: vanilla drops and minerals, Samurai Dynasty gems, silver, steel and the Wrought Ingot.",
   "items": [
     "minecraft:string",
     "minecraft:leather",
@@ -68,14 +68,23 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json, game-data/tags.json (tag-based uses: forge:ingots/steel, forge:ingots/silver, forge:gems/<gem>)
+  kubejs/server_scripts/recipes/ingot_progression_recipes.js (Astral Calamity, Duskfire and HF ingot recipes)
+  kubejs/server_scripts/recipes/ingot_progression_recipes.js (Gunpowder from sugar, coal and bone meal)
 -->
 
-**Act I Materials** lists 53 items.
+**Act I Materials** are the materials a new player gathers first: vanilla mob drops, gems and ores, the Samurai Dynasty gems, Dungeons and Combat silver and steel, and the Wrought Ingot that starts the Astral Calamity ingot chain.
+
+## Usage
+
+- **Vanilla materials** work as in vanilla Minecraft. Soulrend adds one recipe: Gunpowder from sugar, coal and bone meal.
+- **Samurai Dynasty gems** (Aquamarine, Jade, Onyx, Ruby) each make the matching Samurai armor in its three grades (Light, plain and Master) and a storage block. They come from their ores; Oni also drop Rubies.
+- **Steel Ingot** is one of the most used materials: over 200 recipes take any steel ingot (`#forge:ingots/steel`), including the Wrought Ingot and many weapons.
+- **Silver Ingot** makes Dungeons and Combat's silver tools, the Silver Shield and the Silver Orange, and Ice and Fire's Holy Dragonsilver armor.
+- **Wrought Ingot** (gunpowder and steel) is the first Astral Calamity ingot. It upgrades armor into the Wrought Steel and Titan sets and is the base of the Cryonic and Tidal Ingots (see [[items/materials/act-ii-materials|Act II Materials]]).
+
 
 [[item:minecraft:spider_eye]] has its own entry on another page.
 
@@ -166,3 +175,7 @@
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:astral_calamity_extras:wrought_ingot]] | Astral Calamity Extras | A durable metal that was used to forge the Wroughtnaut's gear. |  |
+
+{{recipes astral_calamity_extras:wrought_ingot}}
+
+{{uses astral_calamity_extras:wrought_ingot limit=6}}

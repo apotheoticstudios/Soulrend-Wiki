@@ -8,7 +8,7 @@
     "High-frequency Alloy",
     "High-frequency Alloy-Re"
   ],
-  "summary": "Act IV Materials: 5 items from the Soulrend modpack.",
+  "summary": "Act IV materials: End drops and the Nightfall Duskfire and High-frequency ingots.",
   "items": [
     "minecraft:shulker_shell",
     "minecraft:dragon_breath",
@@ -19,14 +19,20 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-26
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json, game-data/tags.json (tag-based uses: forge:ingots/steel, forge:ingots/silver, forge:gems/<gem>)
+  kubejs/server_scripts/recipes/ingot_progression_recipes.js (Astral Calamity, Duskfire and HF ingot recipes)
 -->
 
-**Act IV Materials** lists 5 items.
+**Act IV Materials** are End drops and the Nightfall ingots: the Duskfire Ingot and the two High-frequency Alloys.
+
+## Usage
+
+- **Shulker Shell** and **Dragon's Breath** work as in vanilla. A Shulker Shell can also be worn on the head (+1 Armor Toughness, +20% Knockback Resistance).
+- **Duskfire Ingot:** a drop of [[bosses/act-v/arterius-the-last-watcher|Arterius]], or crafted from Soulslike Crimson Ingots and Netherite Ingots. It upgrades a weapon into [Duskfire] and teaches a skill book.
+- **High-frequency Alloy** (Soulrend recipe) makes the HF Murasama blade, the Kusabimaru and the Universium Ingot. At a Smithing Table it becomes **High-frequency Alloy-Re**, which upgrades the HF-Blade, Thunderbrand and the Arcane Bow.
+
 
 ## Overview
 
@@ -105,7 +111,13 @@ One loot table drops it:
 
 | Source | Chance | Count |
 | --- | --- | --- |
-| [[bosses/act-v/arterius-the-last-watcher\|Arterius spawn egg]] (drop) | 100% per roll, 2–6 rolls (player kill) | 1 |
+| [[bosses/act-v/arterius-the-last-watcher\|Arterius]] (drop) | 100% per roll, 2–6 rolls (player kill) | 1 |
+
+It can also be crafted (see below).
+
+#### Crafting
+
+{{recipes efn:duskfire_ingot}}
 
 #### Used in
 
@@ -114,6 +126,14 @@ One loot table drops it:
 ### High-frequency Alloy
 
 [[item:efn:hf_ingot]] (EpicFight Nightfall, epic)
+
+#### Obtaining
+
+It is crafted (see below).
+
+#### Crafting
+
+{{recipes efn:hf_ingot}}
 
 #### Used in
 

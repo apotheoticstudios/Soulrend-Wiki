@@ -18,14 +18,21 @@
 }
 ---
 <!-- sources:
-  first pass, generated from the game-data dumps only (no instance files or jars read)
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
-  game-data/items.json (names, tooltips)
-  game-data/item-stats.json
-  game-data/loot-tables.json, game-data/recipes.json
+  game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json
+  content/progression/act-ii-first-steps/the-seal-of-the-underworld.md and bottled-nether-essence.md (shard sources, essence mobs, seal rules; their sources comments cite act_2.snbt, config/nether remastered.toml and CaptureEssenceProcedure)
+  config/serilum/configurableextramobdrops/mobdropconfig.txt (Warden: Nether Crystal, 50%)
 -->
 
-**Nether Seal** covers the four seal pieces, the crystal and the Seal of the Underworld that open the Nether.
+The **Nether Seal** items open the Nether, which is sealed in Soulrend. Four Mysterious Shards, a Nether Crystal and four Bottled Nether Essence craft the **Seal Of The Underworld**, the goal of [[progression/act-ii-first-steps|Act II]].
+
+## Usage
+
+- **Seal Of The Underworld:** hold right-click for 5 s to use it. After that, Nether portals take the player to the Nether; before, they only show a message. Each player has to use a seal, but it isn't used up, so one seal can be passed around a team.
+- **Mysterious Shards:** all four share that name; the quests call them by position (Top-Left, Top-Right, Bottom-Left, Bottom-Right). Each comes from an Act II boss line or a rare chest or mob drop; see [[progression/act-ii-first-steps/the-seal-of-the-underworld|The Seal Of The Underworld]].
+- **Nether Crystal:** the [[Warden]] drops it 50% of the time (the quest says 30%). It also unlocks the core keystones of every skill tree once picked up.
+- **Obsidian Infused Bottle → Bottled Nether Essence:** held in the off hand, a bottle fills with essence when its holder kills an undead mob (zombies, skeletons and their variants, zombified piglins, zoglins). Spiders don't count, despite the quest text. The seal needs four.
 
 ## Overview
 
