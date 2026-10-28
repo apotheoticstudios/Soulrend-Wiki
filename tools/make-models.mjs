@@ -23,8 +23,10 @@
 //   "mesh"     may also be a list: an Epic Fight body plus its armor or weapon meshes
 //   "attach"   entries whose parts are copied onto the part "to" at each of "at": [{ pos, rot }], as a
 //              render layer draws them; "translucent" blends instead of cutting out
+//   "variants" key → fields replacing the entry's, each built as its own model <id>_<key> (the dragons'
+//              colors and stages, which differ only in texture)
 // Resource ids are "ns:path" under assets/. "$resourcePacks" at the top lists resource packs whose files
-// replace the jars' (Excalibur for vanilla textures). Other fields starting with "$" are notes. tools/models/discover.mjs
+// replace the jars' (Excalibur for vanilla textures, Excalibur's Ice and Fire pack for the dragons). Other fields starting with "$" are notes. tools/models/discover.mjs
 // drafts new entries. The output also goes into game-data/mobs.json (entity id → name and model path).
 import fs from 'node:fs';
 import path from 'node:path';
@@ -56,9 +58,14 @@ const javaReplay = () => (java ??= javaModels({ classPath: inst.classPath, renam
 const RAD = Math.PI / 180;
 let built = 0;
 const failed = [];
+// "variants" (key → fields replacing the entry's, usually textures) become models of their own, <id>_<key>.
+const entries = Object.fromEntries(Object.entries(manifest).flatMap(([id, { variants, ...entry }]) => [
+  [id, entry],
+  ...Object.entries(variants ?? {}).map(([key, over]) => [`${id}_${key}`, { ...entry, name: undefined, $why: undefined, ...over }]),
+]));
 const index = fs.existsSync(INDEX) ? JSON.parse(fs.readFileSync(INDEX, 'utf8')) : {};
-for (const id of Object.keys(index)) if (!manifest[id]) delete index[id];
-for (const [id, entry] of Object.entries(manifest)) {
+for (const id of Object.keys(index)) if (!entries[id]) delete index[id];
+for (const [id, entry] of Object.entries(entries)) {
   if (id.startsWith('$') || (only && !only.includes(id))) continue;
   try {
     const layers = [entry, ...(entry.layers ?? [])].map(e => buildLayer(e, id));

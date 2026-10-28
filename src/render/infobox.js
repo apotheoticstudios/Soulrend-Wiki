@@ -9,7 +9,7 @@ export function infoboxHtml(page, env, ctx) {
   const info = box.item ? ctx.game.items.get(box.item) : null;
 
   let media = '';
-  if (box.model) media = h.embed('model', { src: box.model, poster: box.image, posterHtml: box.item && !box.image ? icon(box.item, ctx, env, 'xl') : null, height: 260, compact: true });
+  if (box.model) media = h.embed('model', { src: box.model, axes: box.modelAxes, start: box.modelStart, poster: box.image, posterHtml: box.item && !box.image ? icon(box.item, ctx, env, 'xl') : null, height: 260, compact: true });
   else if (box.image) media = `<img${attrs({ src: h.asset(box.image), alt: box.title ?? page.title, class: 'pixelated' })}>`;
   else if (box.item) media = icon(box.item, ctx, env, 'xl');
 

@@ -179,6 +179,9 @@ span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
 /* One button per model when a viewer holds several mobs. */
 .model-picker { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
 .embed-model.compact .model-picker { padding: 6px 6px 0; }
+.embed-model.compact .model-picker + .model-picker { margin-top: -6px; }
+.embed-model.compact .model-pick { padding: 3px 6px; }
+.model-axis { align-self: center; min-width: 3em; font-family: var(--font-ui); font-size: 12px; color: var(--muted); }
 .model-pick {
   padding: 3px 8px;
   border: 1px solid var(--border);
@@ -259,6 +262,53 @@ span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
 .skill-tooltip-title { position: absolute; left: 0; right: 0; top: 4px; text-align: center; white-space: nowrap; }
 .skill-tooltip-lines { position: relative; width: max-content; max-width: 100%; }
 .embed-model.compact .model-stage { background: none; border: 0; border-radius: 0; }
+
+/* Fullscreen model overlay (model-viewer.js). Bottom left keeps the button clear of the pickers above
+   the stage and the status text at the bottom right. */
+.model-expand {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--panel) 85%, transparent);
+  color: var(--fg);
+  cursor: pointer;
+}
+.model-expand:hover { border-color: var(--accent); color: var(--accent); }
+.model-dialog {
+  width: 100vw;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 16px;
+  border: 0;
+  background: transparent;
+  color: var(--fg);
+}
+.model-dialog[open] { display: flex; }
+.model-dialog::backdrop { background: rgb(0 0 0 / 0.7); }
+.model-dialog .embed-model {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  padding: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 24px 64px rgb(0 0 0 / 0.45);
+}
+.model-dialog .model-stage { flex: 1; height: auto; min-height: 0; }
+.model-dialog figcaption { margin-top: 8px; }
+html:has(.model-dialog[open]) { overflow: hidden; }
 
 /* Recipe diagrams. --u is one Minecraft GUI pixel; slots are 18u, item icons 16u (= the 32px export). */
 .recipe-group { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; margin: 0 0 1.2em; }

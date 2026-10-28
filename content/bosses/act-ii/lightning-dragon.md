@@ -5,7 +5,9 @@
   "items": ["iceandfire:spawn_egg_lightning_dragon"],
   "infobox": {
     "item": "iceandfire:spawn_egg_lightning_dragon",
-    "model": "iceandfire:lightning_dragon",
+    "model": ["iceandfire:lightning_dragon_electric_1", "iceandfire:lightning_dragon_electric_1_male", "iceandfire:lightning_dragon_electric_2", "iceandfire:lightning_dragon_electric_2_male", "iceandfire:lightning_dragon_electric_3", "iceandfire:lightning_dragon_electric_3_male", "iceandfire:lightning_dragon_electric_4", "iceandfire:lightning_dragon_electric_4_male", "iceandfire:lightning_dragon", "iceandfire:lightning_dragon_electric_5_male", "iceandfire:lightning_dragon_amythest_1", "iceandfire:lightning_dragon_amythest_1_male", "iceandfire:lightning_dragon_amythest_2", "iceandfire:lightning_dragon_amythest_2_male", "iceandfire:lightning_dragon_amythest_3", "iceandfire:lightning_dragon_amythest_3_male", "iceandfire:lightning_dragon_amythest_4", "iceandfire:lightning_dragon_amythest_4_male", "iceandfire:lightning_dragon_amythest_5", "iceandfire:lightning_dragon_amythest_5_male", "iceandfire:lightning_dragon_copper_1", "iceandfire:lightning_dragon_copper_1_male", "iceandfire:lightning_dragon_copper_2", "iceandfire:lightning_dragon_copper_2_male", "iceandfire:lightning_dragon_copper_3", "iceandfire:lightning_dragon_copper_3_male", "iceandfire:lightning_dragon_copper_4", "iceandfire:lightning_dragon_copper_4_male", "iceandfire:lightning_dragon_copper_5", "iceandfire:lightning_dragon_copper_5_male", "iceandfire:lightning_dragon_black_1", "iceandfire:lightning_dragon_black_1_male", "iceandfire:lightning_dragon_black_2", "iceandfire:lightning_dragon_black_2_male", "iceandfire:lightning_dragon_black_3", "iceandfire:lightning_dragon_black_3_male", "iceandfire:lightning_dragon_black_4", "iceandfire:lightning_dragon_black_4_male", "iceandfire:lightning_dragon_black_5", "iceandfire:lightning_dragon_black_5_male"],
+    "modelAxes": { "Color": ["Electric", "Amethyst", "Copper", "Black"], "Stage": ["1", "2", "3", "4", "5"], "Gender": ["Female", "Male"] },
+    "modelStart": 9,
     "rows": [
       ["ID", "`iceandfire:lightning_dragon`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],
@@ -25,6 +27,14 @@
   mods/iceandfire-2.1.13-1.20.1-beta-5.jar WorldGenDragonRoosts (age 40 + radius, radius 12 + rand(8) = 52-59 days) and WorldGenDragonCave (age 75 + rand(50) = 75-124 days; aging disabled)
   config/iceandfire/lightning_dragon_biomes.json / lightning_dragon_cave_biomes.json (jungle, badlands, savanna; some Terralith and BYG biomes)
   mods/iceandfire-2.1.13-1.20.1-beta-5.jar data/iceandfire/loot_tables/entities/dragon/lightning_dragon_male.json and _female.json (scales 60, flesh 40, egg 2 (female only); stack size scaled to the dragon)
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar EntityDragonBase.getDragonStage (stage 1 under 25 days, 2 from 25, 3 from 50, 4 from 75, 5 from 100) and RenderDragonBase (one model for every color and stage, texture <getVariantName><stage>.png)
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar EntityLightningDragon.getVariantName (variants 0-3: electric, amythest, copper, black)
+  resourcepacks/Gs ReDraco_IaF_1.20.1_v7.zip assets/iceandfire/textures/models/lightningdragon/<color>_1-5.png (model textures; loads after IceandFireExcaliburizedv3.1.zip in config/paxi/resourcepack_load_order.json)
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar RenderDragonBase.getTextureLocation (males: EnumDragonTextures male overlay male_<color>.png drawn over the body texture)
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar EntityDragonBase.finalizeSpawn (setGender(random.nextBoolean())), canMate (same class, opposite genders); WorldGenDragonRoosts.place (gender = nextBoolean) and WorldGenDragonCave (isMale = nextBoolean; gold pile on 1 in max(1, Dragon Den Gold Amount) × (male ? 1 : 2) blocks; chest DRAGON_MALE_CHEST or DRAGON_CHEST)
+  config/iceandfire-common.toml "Dragon Den Gold Amount" = 4
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar assets/iceandfire/lang/en_us.json dragon.gender ("Gender:"), item.iceandfire.lightning_stew.jei_desc
+  game-data/loot-tables.json iceandfire:chest/lightning_dragon_male_cave (1-6 rolls) and lightning_dragon_female_cave (1-4 rolls)
   config/soulrend_core/boss_damage.toml (not listed)
   config/autoleveling-common.toml [Attributes]
   config/ftbquests/quests/chapters/dragonslayer.snbt ("Dragons", "Lightning Dragon", Dragonslayer, egg quests); act_2.snbt (chapter link)
@@ -37,8 +47,8 @@
 
 Lightning Dragons generate with the world in jungles, badlands and savannas:
 
-- **Roosts** on the surface hold a dragon 52–59 days old.
-- **Caves** underground hold a sleeping dragon 75–124 days old, on piles of gold. Cave dragons don't age.
+- **Roosts** on the surface hold a stage 3 dragon, 52–59 days old.
+- **Caves** underground hold a sleeping stage 4 or 5 dragon, 75–124 days old, on piles of gold. Cave dragons don't age.
 
 A [[item:dragonradarmod:lightning_radar]] finds the location of Lightning Dragons.
 
@@ -54,6 +64,8 @@ A dragon's base stats grow with its age in days, up to 125 days. Soulrend's leve
 | Damage cap | | | None | None | None | None |
 
 A fully grown dragon (125 days) has 500 base health and 18 base attack damage.
+
+Each dragon has one of four **colors**: Electric, Amethyst, Copper or Black. Its look also changes with its **stage**, which comes from its age: stage 1 under 25 days old, then one stage every 25 days, up to stage 5 from 100 days. The model in the infobox can show every color at every stage, for both genders.
 
 ## Attacks
 
@@ -84,6 +96,14 @@ Stack sizes grow with the dragon's size, and scales and eggs take the dragon's c
 
 > [!NOTE] Dragon eggs
 > The Dragonslayer chapter says that eggs come from female dragons of stage 4 or more, the ones sleeping in caves.
+
+## Males and Females
+
+Every dragon is male or female; the dragon's screen shows its "Gender". Wild Lightning Dragons are either at random, in roosts and in caves alike. The two look the same except for the wings: males have a pattern of veins on the wing membranes.
+
+- **Eggs.** Only females drop eggs (see [Drops](#drops)), and only a male and a female Lightning Dragon can breed. The [[item:iceandfire:lightning_stew]] is the breeding food: "The female will create a nest with an egg afterwards."
+- **Cave gold.** Gold piles cover about 1 in 4 of the floor blocks in a male's cave and 1 in 8 in a female's.
+- **Cave chest.** The chest in a male's cave is filled 1–6 times from a richer table: stacks of up to 25 iron ingots, bones and copper ingots, enchanted books, enchanted diamond and iron gear, and sometimes an enchanted golden apple. A female's chest is filled 1–4 times, with stacks of up to 10 iron ingots, bones and copper ingots, unenchanted copper gear, more amethyst shards and more cobwebs.
 
 ## Quests
 

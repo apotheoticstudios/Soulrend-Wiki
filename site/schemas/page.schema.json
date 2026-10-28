@@ -25,6 +25,8 @@
           "description": "3D model: a glTF path under assets/ (\"models/wraith.glb\") or a mob id from game-data/mobs.json (\"cataclysm:ignis\"). A list shows several mobs in one viewer.",
           "oneOf": [{ "type": "string" }, { "type": "array", "items": { "type": "string" }, "minItems": 1 }]
         },
+        "modelAxes": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" }, "minItems": 1 }, "description": "Rows of picker buttons (name → labels) for a model list given axis by axis, first axis outermost: { \"Color\": [4], \"Stage\": [5] } for 20 models." },
+        "modelStart": { "type": "integer", "minimum": 1, "description": "Which model of the list is shown first (1 = the first)." },
         "caption": { "type": "string" },
         "itemRows": { "type": "boolean", "description": "false leaves out the automatic Mod and ID rows, for pages that only borrow the item's icon (quests)." },
         "rows": {

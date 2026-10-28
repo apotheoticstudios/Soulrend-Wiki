@@ -11,7 +11,7 @@ const CURSEFORGE = path.join(os.homedir(), 'Documents/curseforge/minecraft');
 const MC = '1.20.1-20230612.114412';
 
 // packs: resource packs from the instance's resourcepacks/ that override jar assets, highest priority
-// first, as { file, namespaces?, prefix? } (only those namespaces, only paths under prefix).
+// first, as { file, namespaces?, prefix? } (only those namespaces, only paths under prefix, which may be a list).
 export function openInstance(instance = path.join(CURSEFORGE, 'Instances/Soulrend-Development'), { packs = [] } = {}) {
   const libraries = path.join(CURSEFORGE, 'Install/libraries');
   const clientSrg = path.join(libraries, `net/minecraft/client/${MC}/client-${MC}-srg.jar`);
@@ -47,7 +47,7 @@ export function openInstance(instance = path.join(CURSEFORGE, 'Instances/Soulren
     const file = `assets/${ns}/${rel}`;
     for (const pack of overrides) {
       if (pack.namespaces && !pack.namespaces.includes(ns)) continue;
-      if (pack.prefix && !rel.startsWith(pack.prefix)) continue;
+      if (pack.prefix && ![pack.prefix].flat().some(p => rel.startsWith(p))) continue;
       if (!pack.names.has(file)) continue;
       const key = `${pack.zip}!${file}`;
       if (!cache.has(key)) cache.set(key, unzipSync(fs.readFileSync(pack.zip), { filter: e => e.name === file })[file]);

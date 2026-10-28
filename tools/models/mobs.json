@@ -8,6 +8,18 @@
       ],
       "prefix": "textures/",
       "$why": "Soulrend loads Excalibur over vanilla (config/paxi/resourcepack_load_order.json); it only retextures"
+    },
+    {
+      "file": "Gs ReDraco_IaF_1.20.1_v7.zip",
+      "namespaces": [
+        "iceandfire"
+      ],
+      "prefix": [
+        "textures/models/firedragon/",
+        "textures/models/icedragon/",
+        "textures/models/lightningdragon/"
+      ],
+      "$why": "G's ReDraco is the last pack Soulrend loads over the dragons (after Excalibur's Ice and Fire pack); used on the dragons only"
     }
   ],
   "alexscaves:atlatitan": {
@@ -809,7 +821,265 @@
       "iceandfire:models/tabula/firedragon/firedragon_walk4.tbl"
     ],
     "texture": "iceandfire:textures/models/firedragon/red_5.png",
-    "emissive": "iceandfire:textures/models/firedragon/red_5_eyes.png"
+    "emissive": "iceandfire:textures/models/firedragon/red_5_eyes.png",
+    "$why": "RenderDragonBase draws every color, stage and gender with the same model and picks the texture by color and stage (getVariantName + getDragonStage), drawing male_<color>.png over it for males; this is a red stage 5 female, \"variants\" the others",
+    "variants": {
+      "red_1": {
+        "name": "Fire Dragon (Red, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/firedragon/red_1.png",
+        "emissive": "iceandfire:textures/models/firedragon/red_1_eyes.png"
+      },
+      "red_1_male": {
+        "name": "Fire Dragon (Red, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/red_1.png",
+          "iceandfire:textures/models/firedragon/male_red.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/red_1_eyes.png"
+      },
+      "red_2": {
+        "name": "Fire Dragon (Red, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/firedragon/red_2.png",
+        "emissive": "iceandfire:textures/models/firedragon/red_2_eyes.png"
+      },
+      "red_2_male": {
+        "name": "Fire Dragon (Red, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/red_2.png",
+          "iceandfire:textures/models/firedragon/male_red.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/red_2_eyes.png"
+      },
+      "red_3": {
+        "name": "Fire Dragon (Red, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/firedragon/red_3.png",
+        "emissive": "iceandfire:textures/models/firedragon/red_3_eyes.png"
+      },
+      "red_3_male": {
+        "name": "Fire Dragon (Red, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/red_3.png",
+          "iceandfire:textures/models/firedragon/male_red.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/red_3_eyes.png"
+      },
+      "red_4": {
+        "name": "Fire Dragon (Red, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/firedragon/red_4.png",
+        "emissive": "iceandfire:textures/models/firedragon/red_4_eyes.png"
+      },
+      "red_4_male": {
+        "name": "Fire Dragon (Red, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/red_4.png",
+          "iceandfire:textures/models/firedragon/male_red.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/red_4_eyes.png"
+      },
+      "red_5_male": {
+        "name": "Fire Dragon (Red, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/red_5.png",
+          "iceandfire:textures/models/firedragon/male_red.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/red_5_eyes.png"
+      },
+      "green_1": {
+        "name": "Fire Dragon (Green, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/firedragon/green_1.png",
+        "emissive": "iceandfire:textures/models/firedragon/green_1_eyes.png"
+      },
+      "green_1_male": {
+        "name": "Fire Dragon (Green, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/green_1.png",
+          "iceandfire:textures/models/firedragon/male_green.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/green_1_eyes.png"
+      },
+      "green_2": {
+        "name": "Fire Dragon (Green, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/firedragon/green_2.png",
+        "emissive": "iceandfire:textures/models/firedragon/green_2_eyes.png"
+      },
+      "green_2_male": {
+        "name": "Fire Dragon (Green, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/green_2.png",
+          "iceandfire:textures/models/firedragon/male_green.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/green_2_eyes.png"
+      },
+      "green_3": {
+        "name": "Fire Dragon (Green, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/firedragon/green_3.png",
+        "emissive": "iceandfire:textures/models/firedragon/green_3_eyes.png"
+      },
+      "green_3_male": {
+        "name": "Fire Dragon (Green, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/green_3.png",
+          "iceandfire:textures/models/firedragon/male_green.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/green_3_eyes.png"
+      },
+      "green_4": {
+        "name": "Fire Dragon (Green, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/firedragon/green_4.png",
+        "emissive": "iceandfire:textures/models/firedragon/green_4_eyes.png"
+      },
+      "green_4_male": {
+        "name": "Fire Dragon (Green, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/green_4.png",
+          "iceandfire:textures/models/firedragon/male_green.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/green_4_eyes.png"
+      },
+      "green_5": {
+        "name": "Fire Dragon (Green, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/firedragon/green_5.png",
+        "emissive": "iceandfire:textures/models/firedragon/green_5_eyes.png"
+      },
+      "green_5_male": {
+        "name": "Fire Dragon (Green, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/green_5.png",
+          "iceandfire:textures/models/firedragon/male_green.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/green_5_eyes.png"
+      },
+      "bronze_1": {
+        "name": "Fire Dragon (Bronze, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/firedragon/bronze_1.png",
+        "emissive": "iceandfire:textures/models/firedragon/bronze_1_eyes.png"
+      },
+      "bronze_1_male": {
+        "name": "Fire Dragon (Bronze, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/bronze_1.png",
+          "iceandfire:textures/models/firedragon/male_bronze.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/bronze_1_eyes.png"
+      },
+      "bronze_2": {
+        "name": "Fire Dragon (Bronze, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/firedragon/bronze_2.png",
+        "emissive": "iceandfire:textures/models/firedragon/bronze_2_eyes.png"
+      },
+      "bronze_2_male": {
+        "name": "Fire Dragon (Bronze, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/bronze_2.png",
+          "iceandfire:textures/models/firedragon/male_bronze.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/bronze_2_eyes.png"
+      },
+      "bronze_3": {
+        "name": "Fire Dragon (Bronze, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/firedragon/bronze_3.png",
+        "emissive": "iceandfire:textures/models/firedragon/bronze_3_eyes.png"
+      },
+      "bronze_3_male": {
+        "name": "Fire Dragon (Bronze, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/bronze_3.png",
+          "iceandfire:textures/models/firedragon/male_bronze.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/bronze_3_eyes.png"
+      },
+      "bronze_4": {
+        "name": "Fire Dragon (Bronze, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/firedragon/bronze_4.png",
+        "emissive": "iceandfire:textures/models/firedragon/bronze_4_eyes.png"
+      },
+      "bronze_4_male": {
+        "name": "Fire Dragon (Bronze, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/bronze_4.png",
+          "iceandfire:textures/models/firedragon/male_bronze.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/bronze_4_eyes.png"
+      },
+      "bronze_5": {
+        "name": "Fire Dragon (Bronze, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/firedragon/bronze_5.png",
+        "emissive": "iceandfire:textures/models/firedragon/bronze_5_eyes.png"
+      },
+      "bronze_5_male": {
+        "name": "Fire Dragon (Bronze, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/bronze_5.png",
+          "iceandfire:textures/models/firedragon/male_bronze.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/bronze_5_eyes.png"
+      },
+      "gray_1": {
+        "name": "Fire Dragon (Gray, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/firedragon/gray_1.png",
+        "emissive": "iceandfire:textures/models/firedragon/gray_1_eyes.png"
+      },
+      "gray_1_male": {
+        "name": "Fire Dragon (Gray, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/gray_1.png",
+          "iceandfire:textures/models/firedragon/male_gray.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/gray_1_eyes.png"
+      },
+      "gray_2": {
+        "name": "Fire Dragon (Gray, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/firedragon/gray_2.png",
+        "emissive": "iceandfire:textures/models/firedragon/gray_2_eyes.png"
+      },
+      "gray_2_male": {
+        "name": "Fire Dragon (Gray, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/gray_2.png",
+          "iceandfire:textures/models/firedragon/male_gray.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/gray_2_eyes.png"
+      },
+      "gray_3": {
+        "name": "Fire Dragon (Gray, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/firedragon/gray_3.png",
+        "emissive": "iceandfire:textures/models/firedragon/gray_3_eyes.png"
+      },
+      "gray_3_male": {
+        "name": "Fire Dragon (Gray, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/gray_3.png",
+          "iceandfire:textures/models/firedragon/male_gray.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/gray_3_eyes.png"
+      },
+      "gray_4": {
+        "name": "Fire Dragon (Gray, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/firedragon/gray_4.png",
+        "emissive": "iceandfire:textures/models/firedragon/gray_4_eyes.png"
+      },
+      "gray_4_male": {
+        "name": "Fire Dragon (Gray, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/gray_4.png",
+          "iceandfire:textures/models/firedragon/male_gray.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/gray_4_eyes.png"
+      },
+      "gray_5": {
+        "name": "Fire Dragon (Gray, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/firedragon/gray_5.png",
+        "emissive": "iceandfire:textures/models/firedragon/gray_5_eyes.png"
+      },
+      "gray_5_male": {
+        "name": "Fire Dragon (Gray, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/firedragon/gray_5.png",
+          "iceandfire:textures/models/firedragon/male_gray.png"
+        ],
+        "emissive": "iceandfire:textures/models/firedragon/gray_5_eyes.png"
+      }
+    }
   },
   "iceandfire:ghost": {
     "boxes": "com/github/alexthe666/iceandfire/client/model/ModelGhost",
@@ -881,7 +1151,265 @@
       "iceandfire:models/tabula/icedragon/icedragon_walk4.tbl"
     ],
     "texture": "iceandfire:textures/models/icedragon/blue_5.png",
-    "emissive": "iceandfire:textures/models/icedragon/blue_5_eyes.png"
+    "emissive": "iceandfire:textures/models/icedragon/blue_5_eyes.png",
+    "$why": "RenderDragonBase draws every color, stage and gender with the same model and picks the texture by color and stage (getVariantName + getDragonStage), drawing male_<color>.png over it for males; this is a blue stage 5 female, \"variants\" the others",
+    "variants": {
+      "blue_1": {
+        "name": "Ice Dragon (Blue, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/icedragon/blue_1.png",
+        "emissive": "iceandfire:textures/models/icedragon/blue_1_eyes.png"
+      },
+      "blue_1_male": {
+        "name": "Ice Dragon (Blue, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/blue_1.png",
+          "iceandfire:textures/models/icedragon/male_blue.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/blue_1_eyes.png"
+      },
+      "blue_2": {
+        "name": "Ice Dragon (Blue, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/icedragon/blue_2.png",
+        "emissive": "iceandfire:textures/models/icedragon/blue_2_eyes.png"
+      },
+      "blue_2_male": {
+        "name": "Ice Dragon (Blue, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/blue_2.png",
+          "iceandfire:textures/models/icedragon/male_blue.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/blue_2_eyes.png"
+      },
+      "blue_3": {
+        "name": "Ice Dragon (Blue, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/icedragon/blue_3.png",
+        "emissive": "iceandfire:textures/models/icedragon/blue_3_eyes.png"
+      },
+      "blue_3_male": {
+        "name": "Ice Dragon (Blue, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/blue_3.png",
+          "iceandfire:textures/models/icedragon/male_blue.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/blue_3_eyes.png"
+      },
+      "blue_4": {
+        "name": "Ice Dragon (Blue, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/icedragon/blue_4.png",
+        "emissive": "iceandfire:textures/models/icedragon/blue_4_eyes.png"
+      },
+      "blue_4_male": {
+        "name": "Ice Dragon (Blue, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/blue_4.png",
+          "iceandfire:textures/models/icedragon/male_blue.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/blue_4_eyes.png"
+      },
+      "blue_5_male": {
+        "name": "Ice Dragon (Blue, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/blue_5.png",
+          "iceandfire:textures/models/icedragon/male_blue.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/blue_5_eyes.png"
+      },
+      "white_1": {
+        "name": "Ice Dragon (White, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/icedragon/white_1.png",
+        "emissive": "iceandfire:textures/models/icedragon/white_1_eyes.png"
+      },
+      "white_1_male": {
+        "name": "Ice Dragon (White, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/white_1.png",
+          "iceandfire:textures/models/icedragon/male_white.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/white_1_eyes.png"
+      },
+      "white_2": {
+        "name": "Ice Dragon (White, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/icedragon/white_2.png",
+        "emissive": "iceandfire:textures/models/icedragon/white_2_eyes.png"
+      },
+      "white_2_male": {
+        "name": "Ice Dragon (White, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/white_2.png",
+          "iceandfire:textures/models/icedragon/male_white.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/white_2_eyes.png"
+      },
+      "white_3": {
+        "name": "Ice Dragon (White, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/icedragon/white_3.png",
+        "emissive": "iceandfire:textures/models/icedragon/white_3_eyes.png"
+      },
+      "white_3_male": {
+        "name": "Ice Dragon (White, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/white_3.png",
+          "iceandfire:textures/models/icedragon/male_white.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/white_3_eyes.png"
+      },
+      "white_4": {
+        "name": "Ice Dragon (White, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/icedragon/white_4.png",
+        "emissive": "iceandfire:textures/models/icedragon/white_4_eyes.png"
+      },
+      "white_4_male": {
+        "name": "Ice Dragon (White, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/white_4.png",
+          "iceandfire:textures/models/icedragon/male_white.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/white_4_eyes.png"
+      },
+      "white_5": {
+        "name": "Ice Dragon (White, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/icedragon/white_5.png",
+        "emissive": "iceandfire:textures/models/icedragon/white_5_eyes.png"
+      },
+      "white_5_male": {
+        "name": "Ice Dragon (White, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/white_5.png",
+          "iceandfire:textures/models/icedragon/male_white.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/white_5_eyes.png"
+      },
+      "sapphire_1": {
+        "name": "Ice Dragon (Sapphire, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/icedragon/sapphire_1.png",
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_1_eyes.png"
+      },
+      "sapphire_1_male": {
+        "name": "Ice Dragon (Sapphire, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/sapphire_1.png",
+          "iceandfire:textures/models/icedragon/male_sapphire.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_1_eyes.png"
+      },
+      "sapphire_2": {
+        "name": "Ice Dragon (Sapphire, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/icedragon/sapphire_2.png",
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_2_eyes.png"
+      },
+      "sapphire_2_male": {
+        "name": "Ice Dragon (Sapphire, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/sapphire_2.png",
+          "iceandfire:textures/models/icedragon/male_sapphire.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_2_eyes.png"
+      },
+      "sapphire_3": {
+        "name": "Ice Dragon (Sapphire, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/icedragon/sapphire_3.png",
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_3_eyes.png"
+      },
+      "sapphire_3_male": {
+        "name": "Ice Dragon (Sapphire, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/sapphire_3.png",
+          "iceandfire:textures/models/icedragon/male_sapphire.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_3_eyes.png"
+      },
+      "sapphire_4": {
+        "name": "Ice Dragon (Sapphire, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/icedragon/sapphire_4.png",
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_4_eyes.png"
+      },
+      "sapphire_4_male": {
+        "name": "Ice Dragon (Sapphire, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/sapphire_4.png",
+          "iceandfire:textures/models/icedragon/male_sapphire.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_4_eyes.png"
+      },
+      "sapphire_5": {
+        "name": "Ice Dragon (Sapphire, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/icedragon/sapphire_5.png",
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_5_eyes.png"
+      },
+      "sapphire_5_male": {
+        "name": "Ice Dragon (Sapphire, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/sapphire_5.png",
+          "iceandfire:textures/models/icedragon/male_sapphire.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/sapphire_5_eyes.png"
+      },
+      "silver_1": {
+        "name": "Ice Dragon (Silver, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/icedragon/silver_1.png",
+        "emissive": "iceandfire:textures/models/icedragon/silver_1_eyes.png"
+      },
+      "silver_1_male": {
+        "name": "Ice Dragon (Silver, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/silver_1.png",
+          "iceandfire:textures/models/icedragon/male_silver.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/silver_1_eyes.png"
+      },
+      "silver_2": {
+        "name": "Ice Dragon (Silver, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/icedragon/silver_2.png",
+        "emissive": "iceandfire:textures/models/icedragon/silver_2_eyes.png"
+      },
+      "silver_2_male": {
+        "name": "Ice Dragon (Silver, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/silver_2.png",
+          "iceandfire:textures/models/icedragon/male_silver.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/silver_2_eyes.png"
+      },
+      "silver_3": {
+        "name": "Ice Dragon (Silver, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/icedragon/silver_3.png",
+        "emissive": "iceandfire:textures/models/icedragon/silver_3_eyes.png"
+      },
+      "silver_3_male": {
+        "name": "Ice Dragon (Silver, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/silver_3.png",
+          "iceandfire:textures/models/icedragon/male_silver.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/silver_3_eyes.png"
+      },
+      "silver_4": {
+        "name": "Ice Dragon (Silver, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/icedragon/silver_4.png",
+        "emissive": "iceandfire:textures/models/icedragon/silver_4_eyes.png"
+      },
+      "silver_4_male": {
+        "name": "Ice Dragon (Silver, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/silver_4.png",
+          "iceandfire:textures/models/icedragon/male_silver.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/silver_4_eyes.png"
+      },
+      "silver_5": {
+        "name": "Ice Dragon (Silver, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/icedragon/silver_5.png",
+        "emissive": "iceandfire:textures/models/icedragon/silver_5_eyes.png"
+      },
+      "silver_5_male": {
+        "name": "Ice Dragon (Silver, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/icedragon/silver_5.png",
+          "iceandfire:textures/models/icedragon/male_silver.png"
+        ],
+        "emissive": "iceandfire:textures/models/icedragon/silver_5_eyes.png"
+      }
+    }
   },
   "iceandfire:lightning_dragon": {
     "tabula": "iceandfire:models/tabula/lightningdragon/lightningdragon_ground.tbl",
@@ -892,7 +1420,265 @@
       "iceandfire:models/tabula/lightningdragon/lightningdragon_walk4.tbl"
     ],
     "texture": "iceandfire:textures/models/lightningdragon/electric_5.png",
-    "emissive": "iceandfire:textures/models/lightningdragon/electric_5_eyes.png"
+    "emissive": "iceandfire:textures/models/lightningdragon/electric_5_eyes.png",
+    "$why": "RenderDragonBase draws every color, stage and gender with the same model and picks the texture by color and stage (getVariantName + getDragonStage), drawing male_<color>.png over it for males; this is a electric stage 5 female, \"variants\" the others",
+    "variants": {
+      "electric_1": {
+        "name": "Lightning Dragon (Electric, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/electric_1.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_1_eyes.png"
+      },
+      "electric_1_male": {
+        "name": "Lightning Dragon (Electric, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/electric_1.png",
+          "iceandfire:textures/models/lightningdragon/male_electric.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_1_eyes.png"
+      },
+      "electric_2": {
+        "name": "Lightning Dragon (Electric, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/electric_2.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_2_eyes.png"
+      },
+      "electric_2_male": {
+        "name": "Lightning Dragon (Electric, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/electric_2.png",
+          "iceandfire:textures/models/lightningdragon/male_electric.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_2_eyes.png"
+      },
+      "electric_3": {
+        "name": "Lightning Dragon (Electric, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/electric_3.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_3_eyes.png"
+      },
+      "electric_3_male": {
+        "name": "Lightning Dragon (Electric, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/electric_3.png",
+          "iceandfire:textures/models/lightningdragon/male_electric.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_3_eyes.png"
+      },
+      "electric_4": {
+        "name": "Lightning Dragon (Electric, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/electric_4.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_4_eyes.png"
+      },
+      "electric_4_male": {
+        "name": "Lightning Dragon (Electric, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/electric_4.png",
+          "iceandfire:textures/models/lightningdragon/male_electric.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_4_eyes.png"
+      },
+      "electric_5_male": {
+        "name": "Lightning Dragon (Electric, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/electric_5.png",
+          "iceandfire:textures/models/lightningdragon/male_electric.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/electric_5_eyes.png"
+      },
+      "amythest_1": {
+        "name": "Lightning Dragon (Amethyst, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/amythest_1.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_1_eyes.png"
+      },
+      "amythest_1_male": {
+        "name": "Lightning Dragon (Amethyst, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/amythest_1.png",
+          "iceandfire:textures/models/lightningdragon/male_amythest.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_1_eyes.png"
+      },
+      "amythest_2": {
+        "name": "Lightning Dragon (Amethyst, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/amythest_2.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_2_eyes.png"
+      },
+      "amythest_2_male": {
+        "name": "Lightning Dragon (Amethyst, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/amythest_2.png",
+          "iceandfire:textures/models/lightningdragon/male_amythest.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_2_eyes.png"
+      },
+      "amythest_3": {
+        "name": "Lightning Dragon (Amethyst, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/amythest_3.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_3_eyes.png"
+      },
+      "amythest_3_male": {
+        "name": "Lightning Dragon (Amethyst, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/amythest_3.png",
+          "iceandfire:textures/models/lightningdragon/male_amythest.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_3_eyes.png"
+      },
+      "amythest_4": {
+        "name": "Lightning Dragon (Amethyst, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/amythest_4.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_4_eyes.png"
+      },
+      "amythest_4_male": {
+        "name": "Lightning Dragon (Amethyst, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/amythest_4.png",
+          "iceandfire:textures/models/lightningdragon/male_amythest.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_4_eyes.png"
+      },
+      "amythest_5": {
+        "name": "Lightning Dragon (Amethyst, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/amythest_5.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_5_eyes.png"
+      },
+      "amythest_5_male": {
+        "name": "Lightning Dragon (Amethyst, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/amythest_5.png",
+          "iceandfire:textures/models/lightningdragon/male_amythest.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/amythest_5_eyes.png"
+      },
+      "copper_1": {
+        "name": "Lightning Dragon (Copper, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/copper_1.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_1_eyes.png"
+      },
+      "copper_1_male": {
+        "name": "Lightning Dragon (Copper, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/copper_1.png",
+          "iceandfire:textures/models/lightningdragon/male_copper.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_1_eyes.png"
+      },
+      "copper_2": {
+        "name": "Lightning Dragon (Copper, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/copper_2.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_2_eyes.png"
+      },
+      "copper_2_male": {
+        "name": "Lightning Dragon (Copper, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/copper_2.png",
+          "iceandfire:textures/models/lightningdragon/male_copper.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_2_eyes.png"
+      },
+      "copper_3": {
+        "name": "Lightning Dragon (Copper, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/copper_3.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_3_eyes.png"
+      },
+      "copper_3_male": {
+        "name": "Lightning Dragon (Copper, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/copper_3.png",
+          "iceandfire:textures/models/lightningdragon/male_copper.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_3_eyes.png"
+      },
+      "copper_4": {
+        "name": "Lightning Dragon (Copper, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/copper_4.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_4_eyes.png"
+      },
+      "copper_4_male": {
+        "name": "Lightning Dragon (Copper, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/copper_4.png",
+          "iceandfire:textures/models/lightningdragon/male_copper.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_4_eyes.png"
+      },
+      "copper_5": {
+        "name": "Lightning Dragon (Copper, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/copper_5.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_5_eyes.png"
+      },
+      "copper_5_male": {
+        "name": "Lightning Dragon (Copper, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/copper_5.png",
+          "iceandfire:textures/models/lightningdragon/male_copper.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/copper_5_eyes.png"
+      },
+      "black_1": {
+        "name": "Lightning Dragon (Black, Stage 1, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/black_1.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/black_1_eyes.png"
+      },
+      "black_1_male": {
+        "name": "Lightning Dragon (Black, Stage 1, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/black_1.png",
+          "iceandfire:textures/models/lightningdragon/male_black.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/black_1_eyes.png"
+      },
+      "black_2": {
+        "name": "Lightning Dragon (Black, Stage 2, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/black_2.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/black_2_eyes.png"
+      },
+      "black_2_male": {
+        "name": "Lightning Dragon (Black, Stage 2, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/black_2.png",
+          "iceandfire:textures/models/lightningdragon/male_black.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/black_2_eyes.png"
+      },
+      "black_3": {
+        "name": "Lightning Dragon (Black, Stage 3, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/black_3.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/black_3_eyes.png"
+      },
+      "black_3_male": {
+        "name": "Lightning Dragon (Black, Stage 3, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/black_3.png",
+          "iceandfire:textures/models/lightningdragon/male_black.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/black_3_eyes.png"
+      },
+      "black_4": {
+        "name": "Lightning Dragon (Black, Stage 4, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/black_4.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/black_4_eyes.png"
+      },
+      "black_4_male": {
+        "name": "Lightning Dragon (Black, Stage 4, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/black_4.png",
+          "iceandfire:textures/models/lightningdragon/male_black.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/black_4_eyes.png"
+      },
+      "black_5": {
+        "name": "Lightning Dragon (Black, Stage 5, Female)",
+        "texture": "iceandfire:textures/models/lightningdragon/black_5.png",
+        "emissive": "iceandfire:textures/models/lightningdragon/black_5_eyes.png"
+      },
+      "black_5_male": {
+        "name": "Lightning Dragon (Black, Stage 5, Male)",
+        "texture": [
+          "iceandfire:textures/models/lightningdragon/black_5.png",
+          "iceandfire:textures/models/lightningdragon/male_black.png"
+        ],
+        "emissive": "iceandfire:textures/models/lightningdragon/black_5_eyes.png"
+      }
+    }
   },
   "iceandfire:myrmex_queen": {
     "boxes": "com/github/alexthe666/iceandfire/client/model/ModelMyrmexQueen",

@@ -758,6 +758,201 @@
     "model": "models/iceandfire/fire_dragon.glb",
     "animated": true
   },
+  "iceandfire:fire_dragon_bronze_1": {
+    "name": "Fire Dragon (Bronze, Stage 1, Female)",
+    "model": "models/iceandfire/fire_dragon_bronze_1.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_1_male": {
+    "name": "Fire Dragon (Bronze, Stage 1, Male)",
+    "model": "models/iceandfire/fire_dragon_bronze_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_2": {
+    "name": "Fire Dragon (Bronze, Stage 2, Female)",
+    "model": "models/iceandfire/fire_dragon_bronze_2.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_2_male": {
+    "name": "Fire Dragon (Bronze, Stage 2, Male)",
+    "model": "models/iceandfire/fire_dragon_bronze_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_3": {
+    "name": "Fire Dragon (Bronze, Stage 3, Female)",
+    "model": "models/iceandfire/fire_dragon_bronze_3.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_3_male": {
+    "name": "Fire Dragon (Bronze, Stage 3, Male)",
+    "model": "models/iceandfire/fire_dragon_bronze_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_4": {
+    "name": "Fire Dragon (Bronze, Stage 4, Female)",
+    "model": "models/iceandfire/fire_dragon_bronze_4.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_4_male": {
+    "name": "Fire Dragon (Bronze, Stage 4, Male)",
+    "model": "models/iceandfire/fire_dragon_bronze_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_5": {
+    "name": "Fire Dragon (Bronze, Stage 5, Female)",
+    "model": "models/iceandfire/fire_dragon_bronze_5.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_bronze_5_male": {
+    "name": "Fire Dragon (Bronze, Stage 5, Male)",
+    "model": "models/iceandfire/fire_dragon_bronze_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_1": {
+    "name": "Fire Dragon (Gray, Stage 1, Female)",
+    "model": "models/iceandfire/fire_dragon_gray_1.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_1_male": {
+    "name": "Fire Dragon (Gray, Stage 1, Male)",
+    "model": "models/iceandfire/fire_dragon_gray_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_2": {
+    "name": "Fire Dragon (Gray, Stage 2, Female)",
+    "model": "models/iceandfire/fire_dragon_gray_2.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_2_male": {
+    "name": "Fire Dragon (Gray, Stage 2, Male)",
+    "model": "models/iceandfire/fire_dragon_gray_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_3": {
+    "name": "Fire Dragon (Gray, Stage 3, Female)",
+    "model": "models/iceandfire/fire_dragon_gray_3.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_3_male": {
+    "name": "Fire Dragon (Gray, Stage 3, Male)",
+    "model": "models/iceandfire/fire_dragon_gray_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_4": {
+    "name": "Fire Dragon (Gray, Stage 4, Female)",
+    "model": "models/iceandfire/fire_dragon_gray_4.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_4_male": {
+    "name": "Fire Dragon (Gray, Stage 4, Male)",
+    "model": "models/iceandfire/fire_dragon_gray_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_5": {
+    "name": "Fire Dragon (Gray, Stage 5, Female)",
+    "model": "models/iceandfire/fire_dragon_gray_5.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_gray_5_male": {
+    "name": "Fire Dragon (Gray, Stage 5, Male)",
+    "model": "models/iceandfire/fire_dragon_gray_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_1": {
+    "name": "Fire Dragon (Green, Stage 1, Female)",
+    "model": "models/iceandfire/fire_dragon_green_1.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_1_male": {
+    "name": "Fire Dragon (Green, Stage 1, Male)",
+    "model": "models/iceandfire/fire_dragon_green_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_2": {
+    "name": "Fire Dragon (Green, Stage 2, Female)",
+    "model": "models/iceandfire/fire_dragon_green_2.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_2_male": {
+    "name": "Fire Dragon (Green, Stage 2, Male)",
+    "model": "models/iceandfire/fire_dragon_green_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_3": {
+    "name": "Fire Dragon (Green, Stage 3, Female)",
+    "model": "models/iceandfire/fire_dragon_green_3.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_3_male": {
+    "name": "Fire Dragon (Green, Stage 3, Male)",
+    "model": "models/iceandfire/fire_dragon_green_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_4": {
+    "name": "Fire Dragon (Green, Stage 4, Female)",
+    "model": "models/iceandfire/fire_dragon_green_4.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_4_male": {
+    "name": "Fire Dragon (Green, Stage 4, Male)",
+    "model": "models/iceandfire/fire_dragon_green_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_5": {
+    "name": "Fire Dragon (Green, Stage 5, Female)",
+    "model": "models/iceandfire/fire_dragon_green_5.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_green_5_male": {
+    "name": "Fire Dragon (Green, Stage 5, Male)",
+    "model": "models/iceandfire/fire_dragon_green_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_1": {
+    "name": "Fire Dragon (Red, Stage 1, Female)",
+    "model": "models/iceandfire/fire_dragon_red_1.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_1_male": {
+    "name": "Fire Dragon (Red, Stage 1, Male)",
+    "model": "models/iceandfire/fire_dragon_red_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_2": {
+    "name": "Fire Dragon (Red, Stage 2, Female)",
+    "model": "models/iceandfire/fire_dragon_red_2.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_2_male": {
+    "name": "Fire Dragon (Red, Stage 2, Male)",
+    "model": "models/iceandfire/fire_dragon_red_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_3": {
+    "name": "Fire Dragon (Red, Stage 3, Female)",
+    "model": "models/iceandfire/fire_dragon_red_3.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_3_male": {
+    "name": "Fire Dragon (Red, Stage 3, Male)",
+    "model": "models/iceandfire/fire_dragon_red_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_4": {
+    "name": "Fire Dragon (Red, Stage 4, Female)",
+    "model": "models/iceandfire/fire_dragon_red_4.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_4_male": {
+    "name": "Fire Dragon (Red, Stage 4, Male)",
+    "model": "models/iceandfire/fire_dragon_red_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:fire_dragon_red_5_male": {
+    "name": "Fire Dragon (Red, Stage 5, Male)",
+    "model": "models/iceandfire/fire_dragon_red_5_male.glb",
+    "animated": true
+  },
   "iceandfire:ghost": {
     "name": "Ghost",
     "model": "models/iceandfire/ghost.glb"
@@ -775,9 +970,399 @@
     "model": "models/iceandfire/ice_dragon.glb",
     "animated": true
   },
+  "iceandfire:ice_dragon_blue_1": {
+    "name": "Ice Dragon (Blue, Stage 1, Female)",
+    "model": "models/iceandfire/ice_dragon_blue_1.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_blue_1_male": {
+    "name": "Ice Dragon (Blue, Stage 1, Male)",
+    "model": "models/iceandfire/ice_dragon_blue_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_blue_2": {
+    "name": "Ice Dragon (Blue, Stage 2, Female)",
+    "model": "models/iceandfire/ice_dragon_blue_2.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_blue_2_male": {
+    "name": "Ice Dragon (Blue, Stage 2, Male)",
+    "model": "models/iceandfire/ice_dragon_blue_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_blue_3": {
+    "name": "Ice Dragon (Blue, Stage 3, Female)",
+    "model": "models/iceandfire/ice_dragon_blue_3.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_blue_3_male": {
+    "name": "Ice Dragon (Blue, Stage 3, Male)",
+    "model": "models/iceandfire/ice_dragon_blue_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_blue_4": {
+    "name": "Ice Dragon (Blue, Stage 4, Female)",
+    "model": "models/iceandfire/ice_dragon_blue_4.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_blue_4_male": {
+    "name": "Ice Dragon (Blue, Stage 4, Male)",
+    "model": "models/iceandfire/ice_dragon_blue_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_blue_5_male": {
+    "name": "Ice Dragon (Blue, Stage 5, Male)",
+    "model": "models/iceandfire/ice_dragon_blue_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_1": {
+    "name": "Ice Dragon (Sapphire, Stage 1, Female)",
+    "model": "models/iceandfire/ice_dragon_sapphire_1.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_1_male": {
+    "name": "Ice Dragon (Sapphire, Stage 1, Male)",
+    "model": "models/iceandfire/ice_dragon_sapphire_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_2": {
+    "name": "Ice Dragon (Sapphire, Stage 2, Female)",
+    "model": "models/iceandfire/ice_dragon_sapphire_2.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_2_male": {
+    "name": "Ice Dragon (Sapphire, Stage 2, Male)",
+    "model": "models/iceandfire/ice_dragon_sapphire_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_3": {
+    "name": "Ice Dragon (Sapphire, Stage 3, Female)",
+    "model": "models/iceandfire/ice_dragon_sapphire_3.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_3_male": {
+    "name": "Ice Dragon (Sapphire, Stage 3, Male)",
+    "model": "models/iceandfire/ice_dragon_sapphire_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_4": {
+    "name": "Ice Dragon (Sapphire, Stage 4, Female)",
+    "model": "models/iceandfire/ice_dragon_sapphire_4.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_4_male": {
+    "name": "Ice Dragon (Sapphire, Stage 4, Male)",
+    "model": "models/iceandfire/ice_dragon_sapphire_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_5": {
+    "name": "Ice Dragon (Sapphire, Stage 5, Female)",
+    "model": "models/iceandfire/ice_dragon_sapphire_5.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_sapphire_5_male": {
+    "name": "Ice Dragon (Sapphire, Stage 5, Male)",
+    "model": "models/iceandfire/ice_dragon_sapphire_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_1": {
+    "name": "Ice Dragon (Silver, Stage 1, Female)",
+    "model": "models/iceandfire/ice_dragon_silver_1.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_1_male": {
+    "name": "Ice Dragon (Silver, Stage 1, Male)",
+    "model": "models/iceandfire/ice_dragon_silver_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_2": {
+    "name": "Ice Dragon (Silver, Stage 2, Female)",
+    "model": "models/iceandfire/ice_dragon_silver_2.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_2_male": {
+    "name": "Ice Dragon (Silver, Stage 2, Male)",
+    "model": "models/iceandfire/ice_dragon_silver_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_3": {
+    "name": "Ice Dragon (Silver, Stage 3, Female)",
+    "model": "models/iceandfire/ice_dragon_silver_3.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_3_male": {
+    "name": "Ice Dragon (Silver, Stage 3, Male)",
+    "model": "models/iceandfire/ice_dragon_silver_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_4": {
+    "name": "Ice Dragon (Silver, Stage 4, Female)",
+    "model": "models/iceandfire/ice_dragon_silver_4.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_4_male": {
+    "name": "Ice Dragon (Silver, Stage 4, Male)",
+    "model": "models/iceandfire/ice_dragon_silver_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_5": {
+    "name": "Ice Dragon (Silver, Stage 5, Female)",
+    "model": "models/iceandfire/ice_dragon_silver_5.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_silver_5_male": {
+    "name": "Ice Dragon (Silver, Stage 5, Male)",
+    "model": "models/iceandfire/ice_dragon_silver_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_1": {
+    "name": "Ice Dragon (White, Stage 1, Female)",
+    "model": "models/iceandfire/ice_dragon_white_1.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_1_male": {
+    "name": "Ice Dragon (White, Stage 1, Male)",
+    "model": "models/iceandfire/ice_dragon_white_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_2": {
+    "name": "Ice Dragon (White, Stage 2, Female)",
+    "model": "models/iceandfire/ice_dragon_white_2.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_2_male": {
+    "name": "Ice Dragon (White, Stage 2, Male)",
+    "model": "models/iceandfire/ice_dragon_white_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_3": {
+    "name": "Ice Dragon (White, Stage 3, Female)",
+    "model": "models/iceandfire/ice_dragon_white_3.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_3_male": {
+    "name": "Ice Dragon (White, Stage 3, Male)",
+    "model": "models/iceandfire/ice_dragon_white_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_4": {
+    "name": "Ice Dragon (White, Stage 4, Female)",
+    "model": "models/iceandfire/ice_dragon_white_4.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_4_male": {
+    "name": "Ice Dragon (White, Stage 4, Male)",
+    "model": "models/iceandfire/ice_dragon_white_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_5": {
+    "name": "Ice Dragon (White, Stage 5, Female)",
+    "model": "models/iceandfire/ice_dragon_white_5.glb",
+    "animated": true
+  },
+  "iceandfire:ice_dragon_white_5_male": {
+    "name": "Ice Dragon (White, Stage 5, Male)",
+    "model": "models/iceandfire/ice_dragon_white_5_male.glb",
+    "animated": true
+  },
   "iceandfire:lightning_dragon": {
     "name": "Lightning Dragon",
     "model": "models/iceandfire/lightning_dragon.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_1": {
+    "name": "Lightning Dragon (Amethyst, Stage 1, Female)",
+    "model": "models/iceandfire/lightning_dragon_amythest_1.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_1_male": {
+    "name": "Lightning Dragon (Amethyst, Stage 1, Male)",
+    "model": "models/iceandfire/lightning_dragon_amythest_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_2": {
+    "name": "Lightning Dragon (Amethyst, Stage 2, Female)",
+    "model": "models/iceandfire/lightning_dragon_amythest_2.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_2_male": {
+    "name": "Lightning Dragon (Amethyst, Stage 2, Male)",
+    "model": "models/iceandfire/lightning_dragon_amythest_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_3": {
+    "name": "Lightning Dragon (Amethyst, Stage 3, Female)",
+    "model": "models/iceandfire/lightning_dragon_amythest_3.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_3_male": {
+    "name": "Lightning Dragon (Amethyst, Stage 3, Male)",
+    "model": "models/iceandfire/lightning_dragon_amythest_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_4": {
+    "name": "Lightning Dragon (Amethyst, Stage 4, Female)",
+    "model": "models/iceandfire/lightning_dragon_amythest_4.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_4_male": {
+    "name": "Lightning Dragon (Amethyst, Stage 4, Male)",
+    "model": "models/iceandfire/lightning_dragon_amythest_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_5": {
+    "name": "Lightning Dragon (Amethyst, Stage 5, Female)",
+    "model": "models/iceandfire/lightning_dragon_amythest_5.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_amythest_5_male": {
+    "name": "Lightning Dragon (Amethyst, Stage 5, Male)",
+    "model": "models/iceandfire/lightning_dragon_amythest_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_1": {
+    "name": "Lightning Dragon (Black, Stage 1, Female)",
+    "model": "models/iceandfire/lightning_dragon_black_1.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_1_male": {
+    "name": "Lightning Dragon (Black, Stage 1, Male)",
+    "model": "models/iceandfire/lightning_dragon_black_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_2": {
+    "name": "Lightning Dragon (Black, Stage 2, Female)",
+    "model": "models/iceandfire/lightning_dragon_black_2.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_2_male": {
+    "name": "Lightning Dragon (Black, Stage 2, Male)",
+    "model": "models/iceandfire/lightning_dragon_black_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_3": {
+    "name": "Lightning Dragon (Black, Stage 3, Female)",
+    "model": "models/iceandfire/lightning_dragon_black_3.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_3_male": {
+    "name": "Lightning Dragon (Black, Stage 3, Male)",
+    "model": "models/iceandfire/lightning_dragon_black_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_4": {
+    "name": "Lightning Dragon (Black, Stage 4, Female)",
+    "model": "models/iceandfire/lightning_dragon_black_4.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_4_male": {
+    "name": "Lightning Dragon (Black, Stage 4, Male)",
+    "model": "models/iceandfire/lightning_dragon_black_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_5": {
+    "name": "Lightning Dragon (Black, Stage 5, Female)",
+    "model": "models/iceandfire/lightning_dragon_black_5.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_black_5_male": {
+    "name": "Lightning Dragon (Black, Stage 5, Male)",
+    "model": "models/iceandfire/lightning_dragon_black_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_1": {
+    "name": "Lightning Dragon (Copper, Stage 1, Female)",
+    "model": "models/iceandfire/lightning_dragon_copper_1.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_1_male": {
+    "name": "Lightning Dragon (Copper, Stage 1, Male)",
+    "model": "models/iceandfire/lightning_dragon_copper_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_2": {
+    "name": "Lightning Dragon (Copper, Stage 2, Female)",
+    "model": "models/iceandfire/lightning_dragon_copper_2.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_2_male": {
+    "name": "Lightning Dragon (Copper, Stage 2, Male)",
+    "model": "models/iceandfire/lightning_dragon_copper_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_3": {
+    "name": "Lightning Dragon (Copper, Stage 3, Female)",
+    "model": "models/iceandfire/lightning_dragon_copper_3.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_3_male": {
+    "name": "Lightning Dragon (Copper, Stage 3, Male)",
+    "model": "models/iceandfire/lightning_dragon_copper_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_4": {
+    "name": "Lightning Dragon (Copper, Stage 4, Female)",
+    "model": "models/iceandfire/lightning_dragon_copper_4.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_4_male": {
+    "name": "Lightning Dragon (Copper, Stage 4, Male)",
+    "model": "models/iceandfire/lightning_dragon_copper_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_5": {
+    "name": "Lightning Dragon (Copper, Stage 5, Female)",
+    "model": "models/iceandfire/lightning_dragon_copper_5.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_copper_5_male": {
+    "name": "Lightning Dragon (Copper, Stage 5, Male)",
+    "model": "models/iceandfire/lightning_dragon_copper_5_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_1": {
+    "name": "Lightning Dragon (Electric, Stage 1, Female)",
+    "model": "models/iceandfire/lightning_dragon_electric_1.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_1_male": {
+    "name": "Lightning Dragon (Electric, Stage 1, Male)",
+    "model": "models/iceandfire/lightning_dragon_electric_1_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_2": {
+    "name": "Lightning Dragon (Electric, Stage 2, Female)",
+    "model": "models/iceandfire/lightning_dragon_electric_2.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_2_male": {
+    "name": "Lightning Dragon (Electric, Stage 2, Male)",
+    "model": "models/iceandfire/lightning_dragon_electric_2_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_3": {
+    "name": "Lightning Dragon (Electric, Stage 3, Female)",
+    "model": "models/iceandfire/lightning_dragon_electric_3.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_3_male": {
+    "name": "Lightning Dragon (Electric, Stage 3, Male)",
+    "model": "models/iceandfire/lightning_dragon_electric_3_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_4": {
+    "name": "Lightning Dragon (Electric, Stage 4, Female)",
+    "model": "models/iceandfire/lightning_dragon_electric_4.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_4_male": {
+    "name": "Lightning Dragon (Electric, Stage 4, Male)",
+    "model": "models/iceandfire/lightning_dragon_electric_4_male.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon_electric_5_male": {
+    "name": "Lightning Dragon (Electric, Stage 5, Male)",
+    "model": "models/iceandfire/lightning_dragon_electric_5_male.glb",
     "animated": true
   },
   "iceandfire:myrmex_queen": {

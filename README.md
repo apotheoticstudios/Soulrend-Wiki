@@ -214,7 +214,7 @@ Re-run the export (open a world with `enabled.json` present, then `npm run sync-
 
 ## 3D models
 
-Every boss, enemy and dragon the wiki covers has a model in `assets/models/<namespace>/<entity>.glb`, built from the modpack's own model data by `npm run models` (`tools/make-models.mjs`). Pages name them by entity id: `"model": "mowziesmobs:frostmaw"` in a mob infobox, or `{{model …}}` in the text. `game-data/mobs.json` lists every built model with its in-game name, which labels the buttons when one viewer holds several mobs.
+Every boss, enemy and dragon the wiki covers has a model in `assets/models/<namespace>/<entity>.glb`, built from the modpack's own model data by `npm run models` (`tools/make-models.mjs`). Pages name them by entity id: `"model": "mowziesmobs:frostmaw"` in a mob infobox, or `{{model …}}` in the text. `game-data/mobs.json` lists every built model with its in-game name, which labels the buttons when one viewer holds several mobs. Every viewer has a fullscreen button at its bottom left (double-clicking the model does the same): it opens the whole viewer, pickers included, in an overlay over the page, and Esc closes it.
 
 `tools/models/mobs.json` says where each mob's model lives, and the tool converts it:
 
