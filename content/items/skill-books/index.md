@@ -3,7 +3,8 @@
   "title": "Combat Skill Books",
   "category": "Items",
   "order": 8,
-  "summary": "Epic Fight skill books: what each skill does, which slot it takes and how to craft it, sorted by quest tier."
+  "summary": "Epic Fight skill books: what each skill does, which slot it takes and how to craft it, sorted by quest tier.",
+  "icon": "epicfight:skillbook"
 }
 ---
 <!-- sources:

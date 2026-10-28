@@ -6,6 +6,7 @@
   "items": ["iceandfire:spawn_egg_lich"],
   "infobox": {
     "item": "iceandfire:spawn_egg_lich",
+    "model": "iceandfire:dread_lich",
     "rows": [
       ["ID", "`iceandfire:dread_lich`"],
       ["Level", "The player's level"],

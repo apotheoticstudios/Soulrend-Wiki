@@ -4,7 +4,8 @@
   "navTitle": "Epic Fight",
   "category": "Mods",
   "order": 4,
-  "summary": "The Epic Fight combat system, its movesets, add-ons and compat."
+  "summary": "The Epic Fight combat system, its movesets, add-ons and compat.",
+  "icon": "epicfight:iron_tachi"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

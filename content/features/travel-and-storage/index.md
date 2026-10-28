@@ -3,7 +3,8 @@
   "title": "Travel & Storage Features",
   "navTitle": "Travel & Storage",
   "category": "Features",
-  "order": 7
+  "order": 7,
+  "icon": "waystones:warp_stone"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

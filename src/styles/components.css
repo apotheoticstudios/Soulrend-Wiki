@@ -176,6 +176,22 @@ span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
   pointer-events: none;
 }
 .embed-model.compact { margin: 0; width: 100%; }
+/* One button per model when a viewer holds several mobs. */
+.model-picker { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+.embed-model.compact .model-picker { padding: 6px 6px 0; }
+.model-pick {
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  color: inherit;
+  font: inherit;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  cursor: pointer;
+}
+.model-pick:hover { border-color: var(--accent); }
+.model-pick[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
 
 /* Skill tree maps (src/client/skilltree.js). Always dark, like the game's skill tree screen. */
 .embed-skilltree { margin: 1.5em 0; }

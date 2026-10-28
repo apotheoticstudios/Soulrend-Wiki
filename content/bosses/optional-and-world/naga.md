@@ -5,6 +5,7 @@
   "items": ["mowziesmobs:naga_spawn_egg"],
   "infobox": {
     "item": "mowziesmobs:naga_spawn_egg",
+    "model": "mowziesmobs:naga",
     "rows": [
       ["ID", "`mowziesmobs:naga`"],
       ["Level", "The player's level"],

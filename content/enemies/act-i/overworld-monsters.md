@@ -6,6 +6,7 @@
   "items": ["minecraft:slime_spawn_egg", "minecraft:phantom_spawn_egg", "minecraft:pillager_spawn_egg", "minecraft:vindicator_spawn_egg"],
   "infobox": {
     "item": "minecraft:pillager_spawn_egg",
+    "model": ["minecraft:witch", "minecraft:slime", "minecraft:phantom", "minecraft:pillager", "minecraft:vindicator", "minecraft:creeper"],
     "rows": [
       ["ID", "`minecraft:witch`, `slime`, `phantom`, `pillager`, `vindicator`"],
       ["Act", "[[progression/act-i-awakening|Act I]]"],

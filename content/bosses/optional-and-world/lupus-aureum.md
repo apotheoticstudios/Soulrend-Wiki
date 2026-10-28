@@ -6,6 +6,7 @@
   "items": ["wom:lupus_rex_spawn_egg"],
   "infobox": {
     "item": "wom:lupus_rex_spawn_egg",
+    "model": "wom:lupus_rex",
     "rows": [
       ["ID", "`wom:lupus_rex`"],
       ["Level", "The player's level"],

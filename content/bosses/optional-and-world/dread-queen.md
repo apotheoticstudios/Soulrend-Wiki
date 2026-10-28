@@ -9,8 +9,11 @@
   mods/iceandfire-2.1.13-1.20.1-beta-5.jar EntityDreadQueen.class (present but unused); assets/iceandfire/lang/en_us.json (entity.iceandfire.dread_queen = "Dread Queen")
   game-data/items.json (no Dread Queen spawn egg; iceandfire:dread_queen_staff, iceandfire:dread_queen_sword)
   game-data/recipes.json (soulrend:equipment/swords/iceandfire/dread_queen_sword)
+  mods/iceandfire-2.1.13-1.20.1-beta-5.jar ModelDreadQueen, assets/iceandfire/textures/models/dread/dread_queen.png (3D model built by tools/make-models.mjs)
 -->
 **Dread Queen** is a boss that Ice and Fire has planned but not finished. The mod contains its code and a name, but version 2.1.13 doesn't register it as an entity, so it can't spawn and can't be summoned in Soulrend.
+
+{{model iceandfire:dread_queen caption="The Dread Queen's model and texture, which Ice and Fire ships unused."}}
 
 Two of its items still exist:
 

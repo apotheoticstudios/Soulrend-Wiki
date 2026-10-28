@@ -3,7 +3,8 @@
   "title": "Melee Classes",
   "category": "Origins",
   "order": 2,
-  "summary": "The martial classes: weapon bonuses, health and armor for close combat."
+  "summary": "The martial classes: weapon bonuses, health and armor for close combat.",
+  "icon": "minecraft:iron_sword"
 }
 ---
 <!-- sources:

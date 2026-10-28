@@ -5,6 +5,7 @@
   "items": ["iceandfire:spawn_egg_hydra"],
   "infobox": {
     "item": "iceandfire:spawn_egg_hydra",
+    "model": "iceandfire:hydra",
     "rows": [
       ["ID", "`iceandfire:hydra`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

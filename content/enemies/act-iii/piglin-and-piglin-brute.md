@@ -6,6 +6,7 @@
   "items": ["minecraft:piglin_spawn_egg", "minecraft:piglin_brute_spawn_egg"],
   "infobox": {
     "item": "minecraft:piglin_brute_spawn_egg",
+    "model": ["minecraft:piglin", "minecraft:piglin_brute"],
     "rows": [
       ["ID", "`minecraft:piglin`, `minecraft:piglin_brute`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

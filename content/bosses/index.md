@@ -4,7 +4,8 @@
   "navTitle": "Overview",
   "category": "Bosses",
   "order": 0,
-  "summary": "Every boss, by the act it belongs to."
+  "summary": "Every boss, by the act it belongs to.",
+  "icon": "minecraft:dragon_head"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

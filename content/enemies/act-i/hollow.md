@@ -6,6 +6,7 @@
   "items": ["wom:hollow_spawn_egg"],
   "infobox": {
     "item": "wom:hollow_spawn_egg",
+    "model": "wom:hollow",
     "rows": [
       ["ID", "`wom:hollow`"],
       ["Act", "[[progression/act-i-awakening|Act I]]"],

@@ -3,7 +3,8 @@
   "title": "Progression Keys",
   "category": "Items",
   "order": 6,
-  "summary": "Eyes, keys, seals and summoning items that gate progression."
+  "summary": "Eyes, keys, seals and summoning items that gate progression.",
+  "icon": "endrem:black_eye"
 }
 ---
 <!-- sources:

@@ -4,7 +4,8 @@
   "navTitle": "Structures",
   "category": "Mods",
   "order": 7,
-  "summary": "Dungeons, towers, villages and other generated structures."
+  "summary": "Dungeons, towers, villages and other generated structures.",
+  "icon": "minecraft:filled_map"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

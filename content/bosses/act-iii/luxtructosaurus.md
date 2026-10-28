@@ -5,6 +5,7 @@
   "items": ["alexscaves:spawn_egg_luxtructosaurus"],
   "infobox": {
     "item": "alexscaves:spawn_egg_luxtructosaurus",
+    "model": "alexscaves:luxtructosaurus",
     "rows": [
       ["ID", "`alexscaves:luxtructosaurus`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

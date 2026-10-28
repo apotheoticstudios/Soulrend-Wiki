@@ -17,6 +17,7 @@
   ],
   "infobox": {
     "item": "minecraft:blaze_spawn_egg",
+    "model": ["minecraft:blaze", "minecraft:ghast", "minecraft:hoglin", "minecraft:magma_cube", "minecraft:zombified_piglin", "dungeons_and_combat:fractured_vex", "dungeons_and_combat:ghoul", "wom:evil_skeleton"],
     "rows": [
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],
       ["Level", "The player's level (Ghasts, Soul Vultures and Straddlers never level)"],

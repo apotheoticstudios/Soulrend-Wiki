@@ -13,6 +13,7 @@
   ],
   "infobox": {
     "item": "irons_spellbooks:pyromancer_spawn_egg",
+    "model": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:apothecarist", "irons_spellbooks:ice_spider", "traveloptics:aquamancer", "gtbcs_geomancy_plus:geomancer"],
     "rows": [
       ["ID", "`irons_spellbooks:pyromancer`, `cryomancer`, `apothecarist`, `ice_spider`; `traveloptics:aquamancer`; `gtbcs_geomancy_plus:geomancer`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

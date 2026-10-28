@@ -4,7 +4,8 @@
   "navTitle": "Ranger",
   "category": "Skill Trees",
   "order": 2,
-  "summary": "The Ranger passive skill tree: a core of six spokes and two subclasses, Hexshot and Sharpshooter."
+  "summary": "The Ranger passive skill tree: a core of six spokes and two subclasses, Hexshot and Sharpshooter.",
+  "icon": "minecraft:crossbow"
 }
 ---
 <!-- sources:

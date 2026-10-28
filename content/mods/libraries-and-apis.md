@@ -4,7 +4,8 @@
   "navTitle": "Libraries",
   "category": "Mods",
   "order": 22,
-  "summary": "Code libraries other mods depend on. No gameplay of their own."
+  "summary": "Code libraries other mods depend on. No gameplay of their own.",
+  "icon": "minecraft:book"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

@@ -6,6 +6,7 @@
   "items": ["minecraft:spider_spawn_egg", "minecraft:cave_spider_spawn_egg"],
   "infobox": {
     "item": "minecraft:spider_spawn_egg",
+    "model": ["minecraft:spider", "minecraft:cave_spider"],
     "rows": [
       ["ID", "`minecraft:spider`"],
       ["Act", "[[progression/act-i-awakening|Act I]]"],

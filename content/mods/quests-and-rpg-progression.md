@@ -4,7 +4,8 @@
   "navTitle": "Quests & RPG Progression",
   "category": "Mods",
   "order": 11,
-  "summary": "Quests, origins, skill trees, levelling and attributes."
+  "summary": "Quests, origins, skill trees, levelling and attributes.",
+  "icon": "ftbquests:book"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

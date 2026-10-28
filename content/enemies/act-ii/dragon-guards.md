@@ -10,6 +10,7 @@
   ],
   "infobox": {
     "item": "block_factorys_bosses:dragon_guard_sword_spawn_egg",
+    "model": ["block_factorys_bosses:dragon_guard_sword", "block_factorys_bosses:soul_skeleton", "block_factorys_bosses:pile_of_bones", "block_factorys_bosses:flaming_skeleton_guard_sword", "block_factorys_bosses:flaming_skeleton_guard_fireball"],
     "rows": [
       ["ID", "`block_factorys_bosses:dragon_guard_sword`, `soul_skeleton`, `pile_of_bones`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

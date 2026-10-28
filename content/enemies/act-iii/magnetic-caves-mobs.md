@@ -6,6 +6,7 @@
   "items": ["alexscaves:teletor_spawn_egg", "alexscaves:boundroid_spawn_egg", "alexscaves:ferrouslime_spawn_egg", "alexscaves:notor_spawn_egg"],
   "infobox": {
     "item": "alexscaves:boundroid_spawn_egg",
+    "model": ["alexscaves:teletor", "alexscaves:boundroid", "alexscaves:ferrouslime", "alexscaves:notor"],
     "rows": [
       ["ID", "`alexscaves:teletor`, `boundroid`, `ferrouslime`, `notor`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

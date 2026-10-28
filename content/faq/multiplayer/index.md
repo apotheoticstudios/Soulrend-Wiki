@@ -3,7 +3,8 @@
   "title": "Multiplayer FAQ",
   "navTitle": "Multiplayer",
   "category": "FAQ",
-  "order": 6
+  "order": 6,
+  "icon": "minecraft:cake"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

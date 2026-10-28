@@ -6,6 +6,7 @@
   "items": ["soulsweapons:evil_forlorn_spawn_egg", "soulsweapons:forlorn_spawn_egg", "soulsweapons:withered_demon_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:withered_demon_spawn_egg",
+    "model": ["soulsweapons:evil_forlorn", "soulsweapons:withered_demon", "soulsweapons:forlorn"],
     "rows": [
       ["ID", "`soulsweapons:evil_forlorn`, `soulsweapons:withered_demon`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

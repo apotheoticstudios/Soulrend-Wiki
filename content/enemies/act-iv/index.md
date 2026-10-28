@@ -4,7 +4,8 @@
   "navTitle": "Act IV",
   "category": "Enemies",
   "order": 5,
-  "summary": "Enemies of the End: Endermen, Shulkers and the creatures of the Outer End and Endless Biomes highlands."
+  "summary": "Enemies of the End: Endermen, Shulkers and the creatures of the Outer End and Endless Biomes highlands.",
+  "icon": "minecraft:chorus_fruit"
 }
 ---
 <!-- sources:

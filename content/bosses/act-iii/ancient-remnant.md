@@ -5,6 +5,7 @@
   "items": ["cataclysm:ancient_remnant_spawn_egg"],
   "infobox": {
     "item": "cataclysm:ancient_remnant_spawn_egg",
+    "model": "cataclysm:ancient_remnant",
     "rows": [
       ["ID", "`cataclysm:ancient_remnant`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

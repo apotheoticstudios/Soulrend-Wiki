@@ -4,7 +4,8 @@
   "category": "Leveling",
   "order": 2,
   "summary": "The six leveling stats (CON, STR, AGI, INT, LCK, FOC): what each point gives, the cap of 30 and how to respec.",
-  "aliases": ["Levelling Stats", "Leveling Stats", "Attribute Points", "Constitution", "Strength", "Agility", "Intelligence", "Luckiness", "Focus"]
+  "aliases": ["Levelling Stats", "Leveling Stats", "Attribute Points", "Constitution", "Strength", "Agility", "Intelligence", "Luckiness", "Focus"],
+  "icon": "minecraft:golden_apple"
 }
 ---
 <!-- sources:

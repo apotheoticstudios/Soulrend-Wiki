@@ -5,6 +5,7 @@
   "items": ["soulsweapons:returning_knight_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:returning_knight_spawn_egg",
+    "model": "soulsweapons:returning_knight",
     "rows": [
       ["ID", "`soulsweapons:returning_knight`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

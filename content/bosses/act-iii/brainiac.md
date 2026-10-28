@@ -5,6 +5,7 @@
   "items": ["alexscaves:spawn_egg_brainiac"],
   "infobox": {
     "item": "alexscaves:spawn_egg_brainiac",
+    "model": "alexscaves:brainiac",
     "rows": [
       ["ID", "`alexscaves:brainiac`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

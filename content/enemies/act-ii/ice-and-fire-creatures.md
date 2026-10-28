@@ -14,6 +14,7 @@
   ],
   "infobox": {
     "item": "iceandfire:spawn_egg_stymphalian_bird",
+    "model": ["iceandfire:deathworm", "iceandfire:stymphalian_bird", "iceandfire:amphithere", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal"],
     "rows": [
       ["ID", "`iceandfire:deathworm`, `stymphalian_bird`, `amphithere`, `myrmex_*`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

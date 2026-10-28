@@ -4,7 +4,8 @@
   "navTitle": "Soulrend",
   "category": "Mods",
   "order": 1,
-  "summary": "Mods made for Soulrend by the pack team."
+  "summary": "Mods made for Soulrend by the pack team.",
+  "icon": "minecraft:soul_torch"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

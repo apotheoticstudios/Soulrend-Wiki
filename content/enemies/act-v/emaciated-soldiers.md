@@ -5,6 +5,7 @@
   "aliases": ["Emaciated Pikeman", "Emaciated Spearman", "Emaciated Noble"],
   "infobox": {
     "item": "wom:agony",
+    "model": ["past:emaciated_pikeman", "past:emaciated_spearman", "past:emaciated_noble"],
     "itemRows": false,
     "rows": [
       ["ID", "`minecraft:skeleton` (renamed)"],

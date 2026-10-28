@@ -5,6 +5,7 @@
   "items": ["aquamirae:anglerfish_spawn_egg"],
   "infobox": {
     "item": "aquamirae:anglerfish_spawn_egg",
+    "model": "aquamirae:anglerfish",
     "rows": [
       ["ID", "`aquamirae:anglerfish`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

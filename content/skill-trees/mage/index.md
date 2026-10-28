@@ -4,7 +4,8 @@
   "navTitle": "Mage",
   "category": "Skill Trees",
   "order": 4,
-  "summary": "The Mage passive skill tree: the Mind core and twelve school nodes, of which a player can take two."
+  "summary": "The Mage passive skill tree: the Mind core and twelve school nodes, of which a player can take two.",
+  "icon": "minecraft:blaze_rod"
 }
 ---
 <!-- sources:

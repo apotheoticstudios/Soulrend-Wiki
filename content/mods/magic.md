@@ -4,7 +4,8 @@
   "navTitle": "Magic",
   "category": "Mods",
   "order": 2,
-  "summary": "Iron's Spellbooks and its add-ons."
+  "summary": "Iron's Spellbooks and its add-ons.",
+  "icon": "irons_spellbooks:copper_spell_book"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

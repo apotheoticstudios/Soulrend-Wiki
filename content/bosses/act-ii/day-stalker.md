@@ -5,6 +5,7 @@
   "items": ["soulsweapons:day_stalker_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:day_stalker_spawn_egg",
+    "model": "soulsweapons:day_stalker",
     "rows": [
       ["ID", "`soulsweapons:day_stalker`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

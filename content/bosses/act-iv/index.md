@@ -3,7 +3,8 @@
   "title": "Act IV Bosses",
   "navTitle": "Act IV",
   "category": "Bosses",
-  "order": 4
+  "order": 4,
+  "icon": "minecraft:ender_dragon_spawn_egg"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

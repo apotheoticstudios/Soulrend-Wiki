@@ -4,7 +4,8 @@
   "navTitle": "Act III",
   "category": "Enemies",
   "order": 3,
-  "summary": "Enemies of the Nether, the Cataclysm dimensions and the Alex's Caves dimensions met in Act III."
+  "summary": "Enemies of the Nether, the Cataclysm dimensions and the Alex's Caves dimensions met in Act III.",
+  "icon": "cataclysm:deepling_spawn_egg"
 }
 ---
 <!-- sources:

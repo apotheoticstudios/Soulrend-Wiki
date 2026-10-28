@@ -13,6 +13,7 @@
   ],
   "infobox": {
     "item": "samurai_dynasty:kitsune_spawn_egg",
+    "model": ["samurai_dynasty:jorogumo", "samurai_dynasty:kitsune", "samurai_dynasty:enenra", "samurai_dynasty:onibi", "samurai_dynasty:oni", "samurai_dynasty:akaname", "samurai_dynasty:twotailed", "samurai_dynasty:tanuki"],
     "rows": [
       ["ID", "`samurai_dynasty:jorogumo`, `kitsune`, `enenra`, `onibi`, `oni`, `akaname`"],
       ["Level", "The player's level"],

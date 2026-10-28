@@ -4,7 +4,8 @@
   "navTitle": "Overview",
   "category": "Mods",
   "order": 0,
-  "summary": "Every mod in Soulrend, grouped by what it does."
+  "summary": "Every mod in Soulrend, grouped by what it does.",
+  "icon": "minecraft:knowledge_book"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

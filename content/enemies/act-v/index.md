@@ -4,7 +4,8 @@
   "navTitle": "Act V",
   "category": "Enemies",
   "order": 6,
-  "summary": "The Past's reskinned soldiers and dragons from Soulrend's KubeJS scripts."
+  "summary": "The Past's reskinned soldiers and dragons from Soulrend's KubeJS scripts.",
+  "icon": "minecraft:rotten_flesh"
 }
 ---
 <!-- sources:

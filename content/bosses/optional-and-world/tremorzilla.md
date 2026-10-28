@@ -5,6 +5,7 @@
   "items": ["alexscaves:spawn_egg_tremorzilla"],
   "infobox": {
     "item": "alexscaves:spawn_egg_tremorzilla",
+    "model": "alexscaves:tremorzilla",
     "rows": [
       ["ID", "`alexscaves:tremorzilla`"],
       ["Level", "400–440"],

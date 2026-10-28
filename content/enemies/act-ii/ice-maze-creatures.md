@@ -12,6 +12,7 @@
   ],
   "infobox": {
     "item": "aquamirae:maw_spawn_egg",
+    "model": ["aquamirae:maw", "aquamirae:tortured_soul", "aquamirae:spinefish", "aquamirae:abyssal_scyphoid"],
     "rows": [
       ["ID", "`aquamirae:maw`, `tortured_soul`, `spinefish`, `abyssal_scyphoid`, `pillagers_patrol`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

@@ -56,17 +56,21 @@ export function readClass(bytes) {
   at += 2 * interfaces;
   // `at += u4()` would read `at` before u4() advances it.
   const skipAttributes = () => { for (let n = u2(); n--;) { at += 2; const len = u4(); at += len; } };
-  for (let n = u2(); n--;) { at += 6; skipAttributes(); } // fields
+  const fields = [];
+  for (let n = u2(); n--;) { const access = u2(); fields.push({ access, name: text(u2()), desc: text(u2()) }); skipAttributes(); }
 
   const methods = [];
   for (let n = u2(); n--;) {
-    at += 2;
-    const method = { name: text(u2()), desc: text(u2()), code: [] };
+    const access = u2();
+    const method = { name: text(u2()), desc: text(u2()), access, code: [] };
     for (let a = u2(); a--;) {
       const attr = text(u2()), len = u4(), end = at + len;
       if (attr === 'Code') {
-        at += 4;
+        at += 2;
+        method.maxLocals = u2();
         const codeLen = u4(), start = at;
+        // The raw bytes are kept for interpreters (tools/lib/models/jvm.mjs); `code` is the summary movesets use.
+        method.bytes = bytes.subarray(start, start + codeLen);
         method.code = decode(bytes, view, start, codeLen, { pool, member, constant, nameType });
         at = start + codeLen;
       }
@@ -75,7 +79,7 @@ export function readClass(bytes) {
     methods.push(method);
   }
 
-  const bootstrap = [];
+  const bootstrap = [], bootstrapStrings = [];
   for (let a = u2(); a--;) {
     const attr = text(u2()), len = u4(), end = at + len;
     if (attr === 'BootstrapMethods') {
@@ -86,11 +90,13 @@ export function readClass(bytes) {
         // LambdaMetafactory's second argument is the implementation method handle.
         const handle = args.map(i => pool[i]).find(c => c?.tag === 15 && member(c.ref).owner !== 'java/lang/invoke/LambdaMetafactory');
         bootstrap.push(handle ? member(handle.ref) : null);
+        // String constants, e.g. the recipe of a string-concatenation call site.
+        bootstrapStrings.push(args.map(i => pool[i]?.tag === 8 ? text(pool[i].ref) : null));
       }
     }
     at = end;
   }
-  return { name, superName, methods, bootstrap, strings: pool.filter(c => c?.tag === 1).map(c => c.text) };
+  return { name, superName, fields, methods, bootstrap, bootstrapStrings, strings: pool.filter(c => c?.tag === 1).map(c => c.text), pool, member, constant, className, nameType };
 }
 
 function decode(bytes, view, start, length, { pool, member, constant, nameType }) {

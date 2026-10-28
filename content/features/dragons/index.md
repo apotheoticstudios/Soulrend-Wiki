@@ -3,7 +3,8 @@
   "title": "Dragons Features",
   "navTitle": "Dragons",
   "category": "Features",
-  "order": 6
+  "order": 6,
+  "icon": "iceandfire:dragonegg_red"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

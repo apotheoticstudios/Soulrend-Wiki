@@ -3,7 +3,8 @@
   "title": "Weapons",
   "category": "Items",
   "order": 1,
-  "summary": "Weapons grouped by their Pursuit of Mastery quest chapter, each in quest order. Epic Knights weapons are on one page; weapons no quest mentions are on Misc Weapons."
+  "summary": "Weapons grouped by their Pursuit of Mastery quest chapter, each in quest order. Epic Knights weapons are on one page; weapons no quest mentions are on Misc Weapons.",
+  "icon": "minecraft:diamond_sword"
 }
 ---
 <!-- sources:

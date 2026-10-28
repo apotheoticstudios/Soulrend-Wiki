@@ -6,6 +6,7 @@
   "items": ["minecraft:shulker_spawn_egg"],
   "infobox": {
     "item": "minecraft:shulker_spawn_egg",
+    "model": "minecraft:shulker",
     "rows": [
       ["ID", "`minecraft:shulker`"],
       ["Act", "[[progression/act-iv-beyond-reality|Act IV]]"],

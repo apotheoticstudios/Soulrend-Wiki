@@ -5,6 +5,7 @@
   "aliases": ["Elden Beast", "Elden Soldier's Mount", "Elden Prince's Mount", "Elden Watcher's Mount"],
   "infobox": {
     "item": "iceandfire:dragonarmor_diamond_head",
+    "model": ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon"],
     "itemRows": false,
     "rows": [
       ["ID", "`iceandfire:fire_dragon`, `ice_dragon`, `lightning_dragon` (renamed)"],

@@ -5,6 +5,7 @@
   "aliases": ["Echo of Tyros, First Flamebearer", "Tyros", "Fire Boss"],
   "infobox": {
     "item": "irons_spellbooks:tyros_statue",
+    "model": "irons_spellbooks:fire_boss",
     "rows": [
       ["ID", "`irons_spellbooks:fire_boss`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

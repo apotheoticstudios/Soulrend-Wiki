@@ -6,6 +6,7 @@
   "items": ["dungeons_and_combat:the_grave_watcher_spawn_egg"],
   "infobox": {
     "item": "dungeons_and_combat:the_grave_watcher_spawn_egg",
+    "model": "dungeons_and_combat:the_grave_watcher",
     "rows": [
       ["ID", "`dungeons_and_combat:the_grave_watcher`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

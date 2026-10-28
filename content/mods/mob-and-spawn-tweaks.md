@@ -4,7 +4,8 @@
   "navTitle": "Mob & Spawn Tweaks",
   "category": "Mods",
   "order": 6,
-  "summary": "Mods that change how and where mobs spawn."
+  "summary": "Mods that change how and where mobs spawn.",
+  "icon": "minecraft:creeper_spawn_egg"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

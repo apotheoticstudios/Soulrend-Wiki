@@ -6,6 +6,7 @@
   "items": ["nightfall_invade:arterius_spawn_egg"],
   "infobox": {
     "item": "nightfall_invade:arterius_spawn_egg",
+    "model": "nightfall_invade:arterius",
     "rows": [
       ["ID", "`nightfall_invade:arterius`"],
       ["Act", "[[progression/act-v-duties|Act V]]"],

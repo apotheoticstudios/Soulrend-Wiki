@@ -4,7 +4,8 @@
   "navTitle": "Act III-b",
   "category": "Enemies",
   "order": 4,
-  "summary": "The sculk creatures of the Otherside, Deeper and Darker's dimension."
+  "summary": "The sculk creatures of the Otherside, Deeper and Darker's dimension.",
+  "icon": "deeperdarker:stalker_spawn_egg"
 }
 ---
 <!-- sources:

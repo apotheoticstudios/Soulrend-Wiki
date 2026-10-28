@@ -11,6 +11,7 @@
   ],
   "infobox": {
     "item": "dungeons_and_combat:bloody_cultist_spawn_egg",
+    "model": ["dungeons_and_combat:bloody_cultist", "dungeons_and_combat:bloodymancer_cultist", "dungeons_and_combat:weakness", "dungeons_and_combat:failure"],
     "rows": [
       ["ID", "`dungeons_and_combat:bloody_cultist`, `bloodymancer_cultist`, `weakness`, `failure`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

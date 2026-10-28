@@ -4,7 +4,8 @@
   "category": "Leveling",
   "order": 4,
   "summary": "Most mobs spawn at the Soulrend level of the nearest player, so the world grows stronger as you level. Some bosses have a level floor or a fixed level.",
-  "aliases": ["Mob Levelling", "Mob Leveling", "Mob Scaling", "Auto Leveling"]
+  "aliases": ["Mob Levelling", "Mob Leveling", "Mob Scaling", "Auto Leveling"],
+  "icon": "minecraft:zombie_head"
 }
 ---
 <!-- sources:

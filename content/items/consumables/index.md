@@ -3,7 +3,8 @@
   "title": "Consumables",
   "category": "Items",
   "order": 10,
-  "summary": "Healing items, totems and food, one page per category."
+  "summary": "Healing items, totems and food, one page per category.",
+  "icon": "dungeons_and_combat:estus_flask"
 }
 ---
 <!-- sources:

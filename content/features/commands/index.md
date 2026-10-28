@@ -3,7 +3,8 @@
   "title": "Commands Features",
   "navTitle": "Commands",
   "category": "Features",
-  "order": 10
+  "order": 10,
+  "icon": "minecraft:command_block"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

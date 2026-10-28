@@ -6,6 +6,7 @@
   "items": ["deeperdarker:stalker_spawn_egg"],
   "infobox": {
     "item": "deeperdarker:stalker_spawn_egg",
+    "model": "deeperdarker:stalker",
     "rows": [
       ["ID", "`deeperdarker:stalker`"],
       ["Act", "[[progression/act-iii-b-deeper-and-darker|Act III-b]]"],

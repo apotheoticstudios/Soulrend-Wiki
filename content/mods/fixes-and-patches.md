@@ -4,7 +4,8 @@
   "navTitle": "Fixes & Patches",
   "category": "Mods",
   "order": 20,
-  "summary": "Bug fixes and compatibility patches."
+  "summary": "Bug fixes and compatibility patches.",
+  "icon": "minecraft:shears"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

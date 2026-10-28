@@ -4,7 +4,8 @@
   "navTitle": "QoL & UI",
   "category": "Mods",
   "order": 16,
-  "summary": "Quality-of-life, interface, maps and recipe viewers."
+  "summary": "Quality-of-life, interface, maps and recipe viewers.",
+  "icon": "minecraft:spyglass"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

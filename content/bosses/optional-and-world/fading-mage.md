@@ -5,6 +5,7 @@
   "items": ["traveloptics:fading_mage_spawn_egg"],
   "infobox": {
     "item": "traveloptics:fading_mage_spawn_egg",
+    "model": "traveloptics:fading_mage",
     "rows": [
       ["ID", "`traveloptics:fading_mage`"],
       ["Level", "The player's level"],

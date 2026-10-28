@@ -5,6 +5,7 @@
   "items": ["irons_spellbooks:necromancer_spawn_egg"],
   "infobox": {
     "item": "irons_spellbooks:necromancer_spawn_egg",
+    "model": "irons_spellbooks:necromancer",
     "rows": [
       ["ID", "`irons_spellbooks:necromancer`"],
       ["Act", "[[progression/act-i-awakening|Act I]]"],

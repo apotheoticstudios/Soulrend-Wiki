@@ -5,6 +5,7 @@
   "aliases": ["Rotten Soldier", "Rotten Knight", "Rotten Guard", "Rotten Champion", "Rotten Giant", "Rotten Titan"],
   "infobox": {
     "item": "efn:ruinsgreatsword",
+    "model": ["past:rotten_soldier", "past:rotten_knight", "past:rotten_guard", "past:rotten_champion", "past:rotten_giant", "past:rotten_titan"],
     "itemRows": false,
     "rows": [
       ["ID", "`minecraft:zombie`, `minecraft:zombie_villager` (renamed)"],

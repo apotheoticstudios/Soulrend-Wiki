@@ -4,7 +4,8 @@
   "navTitle": "Pack & Admin Tools",
   "category": "Mods",
   "order": 21,
-  "summary": "Scripting, datapack loading, profiling and admin tools."
+  "summary": "Scripting, datapack loading, profiling and admin tools.",
+  "icon": "minecraft:debug_stick"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

@@ -3,7 +3,8 @@
   "title": "Mobs & World Features",
   "navTitle": "Mobs & World",
   "category": "Features",
-  "order": 3
+  "order": 3,
+  "icon": "minecraft:bone"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

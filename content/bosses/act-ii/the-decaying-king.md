@@ -6,6 +6,7 @@
   "items": ["soulsweapons:accursed_lord_boss_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:accursed_lord_boss_spawn_egg",
+    "model": "soulsweapons:accursed_lord_boss",
     "rows": [
       ["ID", "`soulsweapons:accursed_lord_boss`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

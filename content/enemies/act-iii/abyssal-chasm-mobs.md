@@ -6,6 +6,7 @@
   "items": ["alexscaves:deep_one_spawn_egg", "alexscaves:deep_one_knight_spawn_egg", "alexscaves:deep_one_mage_spawn_egg"],
   "infobox": {
     "item": "alexscaves:deep_one_knight_spawn_egg",
+    "model": ["alexscaves:deep_one", "alexscaves:deep_one_knight", "alexscaves:deep_one_mage", "alexscaves:lanternfish", "alexscaves:sea_pig", "alexscaves:tripodfish", "alexscaves:gossamer_worm"],
     "rows": [
       ["ID", "`alexscaves:deep_one`, `deep_one_knight`, `deep_one_mage`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

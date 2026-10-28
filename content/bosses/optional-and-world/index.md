@@ -4,7 +4,8 @@
   "navTitle": "Optional / World",
   "category": "Bosses",
   "order": 6,
-  "summary": "Bosses with no quest or no act link."
+  "summary": "Bosses with no quest or no act link.",
+  "icon": "mowziesmobs:naga_spawn_egg"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

@@ -5,6 +5,7 @@
   "items": ["iceandfire:spawn_egg_ghost"],
   "infobox": {
     "item": "iceandfire:spawn_egg_ghost",
+    "model": "iceandfire:ghost",
     "rows": [
       ["ID", "`iceandfire:ghost`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

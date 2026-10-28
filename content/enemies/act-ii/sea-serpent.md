@@ -5,6 +5,7 @@
   "items": ["iceandfire:spawn_egg_sea_serpent"],
   "infobox": {
     "item": "iceandfire:spawn_egg_sea_serpent",
+    "model": "iceandfire:sea_serpent",
     "rows": [
       ["ID", "`iceandfire:sea_serpent`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

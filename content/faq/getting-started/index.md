@@ -3,7 +3,8 @@
   "title": "Getting Started FAQ",
   "navTitle": "Getting Started",
   "category": "FAQ",
-  "order": 1
+  "order": 1,
+  "icon": "minecraft:oak_sapling"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

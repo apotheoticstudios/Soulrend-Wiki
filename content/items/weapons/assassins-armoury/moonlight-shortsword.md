@@ -61,7 +61,3 @@ In Epic Fight it is a sword. Its default One Handed style has a five-hit basic c
 ## Crafting
 
 {{recipes soulsweapons:moonlight_shortsword}}
-
-## Used in
-
-{{uses soulsweapons:moonlight_shortsword}}

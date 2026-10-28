@@ -5,6 +5,7 @@
   "items": ["cataclysm:ignited_berserker_spawn_egg"],
   "infobox": {
     "item": "cataclysm:ignited_berserker_spawn_egg",
+    "model": "cataclysm:ignited_berserker",
     "rows": [
       ["ID", "`cataclysm:ignited_berserker`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

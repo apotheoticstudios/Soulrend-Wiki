@@ -58,7 +58,3 @@ In Epic Fight it is a sword. Its default One Handed style has a three-hit basic 
 ## Crafting
 
 {{recipes epicfight_dd:netherite_messer}}
-
-## Used in
-
-{{uses epicfight_dd:netherite_messer}}

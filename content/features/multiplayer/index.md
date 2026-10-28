@@ -3,7 +3,8 @@
   "title": "Multiplayer Features",
   "navTitle": "Multiplayer",
   "category": "Features",
-  "order": 8
+  "order": 8,
+  "icon": "minecraft:bell"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

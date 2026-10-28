@@ -3,7 +3,8 @@
   "title": "Performance & Troubleshooting FAQ",
   "navTitle": "Performance & Troubleshooting",
   "category": "FAQ",
-  "order": 7
+  "order": 7,
+  "icon": "minecraft:redstone"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

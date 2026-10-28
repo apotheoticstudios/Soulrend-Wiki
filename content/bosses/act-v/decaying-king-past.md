@@ -5,6 +5,7 @@
   "icon": "minecraft:wither_skeleton_skull",
   "infobox": {
     "item": "minecraft:wither_skeleton_spawn_egg",
+    "model": "past:decaying_king",
     "rows": [
       ["ID", "`minecraft:wither_skeleton`"],
       ["Act", "[[progression/act-v-duties|Act V]]"],

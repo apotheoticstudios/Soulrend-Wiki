@@ -5,6 +5,7 @@
   "items": ["block_factorys_bosses:soul_knight_wither_skeleton_spawn_egg"],
   "infobox": {
     "item": "block_factorys_bosses:soul_knight_wither_skeleton_spawn_egg",
+    "model": "block_factorys_bosses:soul_knight_wither_skeleton",
     "rows": [
       ["ID", "`block_factorys_bosses:soul_knight_wither_skeleton`"],
       ["Level", "The player's level"],

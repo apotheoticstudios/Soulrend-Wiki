@@ -3,7 +3,8 @@
   "title": "Act III Bosses",
   "navTitle": "Act III",
   "category": "Bosses",
-  "order": 2
+  "order": 2,
+  "icon": "cataclysm:ignis_spawn_egg"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

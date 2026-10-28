@@ -6,6 +6,7 @@
   "items": ["traveloptics:voidshelf_golem_spawn_egg"],
   "infobox": {
     "item": "traveloptics:voidshelf_golem_spawn_egg",
+    "model": "traveloptics:voidshelf_golem",
     "rows": [
       ["ID", "`traveloptics:voidshelf_golem`"],
       ["Level", "The player's level"],

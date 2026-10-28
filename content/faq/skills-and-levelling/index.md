@@ -3,7 +3,8 @@
   "title": "Skills & Levelling FAQ",
   "navTitle": "Skills & Levelling",
   "category": "FAQ",
-  "order": 4
+  "order": 4,
+  "icon": "xpbook:xp_book"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

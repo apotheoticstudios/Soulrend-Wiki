@@ -2,7 +2,8 @@
 {
   "title": "Soulrend Wiki",
   "navTitle": "Main page",
-  "summary": "The wiki for Soulrend, a Forge 1.20.1 adventure modpack: items, blocks, magic and guides."
+  "summary": "The wiki for Soulrend, a Forge 1.20.1 adventure modpack: items, blocks, magic and guides.",
+  "icon": "minecraft:soul_lantern"
 }
 ---
 Welcome to the **Soulrend** wiki, the player's guide to the modpack.

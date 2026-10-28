@@ -6,6 +6,7 @@
   "items": ["cataclysm:hippocamtus_spawn_egg", "cataclysm:cindaria_spawn_egg", "cataclysm:urchinkin_spawn_egg", "cataclysm:octohost_spawn_egg", "cataclysm:symbiocto_spawn_egg"],
   "infobox": {
     "item": "cataclysm:hippocamtus_spawn_egg",
+    "model": ["cataclysm:hippocamtus", "cataclysm:cindaria", "cataclysm:urchinkin", "cataclysm:drowned_host", "cataclysm:symbiocto"],
     "rows": [
       ["ID", "`cataclysm:hippocamtus`, `cindaria`, `urchinkin`, `drowned_host`, `symbiocto`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

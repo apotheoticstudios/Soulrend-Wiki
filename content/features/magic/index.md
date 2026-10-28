@@ -3,7 +3,8 @@
   "title": "Magic Features",
   "navTitle": "Magic",
   "category": "Features",
-  "order": 5
+  "order": 5,
+  "icon": "irons_spellbooks:scroll"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

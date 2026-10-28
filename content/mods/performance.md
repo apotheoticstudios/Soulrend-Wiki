@@ -4,7 +4,8 @@
   "navTitle": "Performance",
   "category": "Mods",
   "order": 19,
-  "summary": "Rendering, memory, loading and server optimisations."
+  "summary": "Rendering, memory, loading and server optimisations.",
+  "icon": "minecraft:clock"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

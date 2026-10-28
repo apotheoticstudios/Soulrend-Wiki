@@ -6,6 +6,7 @@
   "items": ["soulsweapons:draugr_boss_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:draugr_boss_spawn_egg",
+    "model": "soulsweapons:draugr_boss",
     "rows": [
       ["ID", "`soulsweapons:draugr_boss`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

@@ -12,6 +12,7 @@
   ],
   "infobox": {
     "item": "iceandfire:spawn_egg_dread_knight",
+    "model": ["iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_beast", "iceandfire:dread_scuttler", "iceandfire:dread_knight"],
     "rows": [
       ["ID", "`iceandfire:dread_thrall`, `dread_ghoul`, `dread_beast`, `dread_scuttler`, `dread_knight`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

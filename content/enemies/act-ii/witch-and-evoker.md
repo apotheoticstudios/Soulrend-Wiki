@@ -6,6 +6,7 @@
   "items": ["minecraft:witch_spawn_egg", "minecraft:evoker_spawn_egg"],
   "infobox": {
     "item": "minecraft:evoker_spawn_egg",
+    "model": ["minecraft:witch", "minecraft:evoker"],
     "rows": [
       ["ID", "`minecraft:witch`, `minecraft:evoker`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

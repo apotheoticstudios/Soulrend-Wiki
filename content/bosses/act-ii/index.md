@@ -3,7 +3,8 @@
   "title": "Act II Bosses",
   "navTitle": "Act II",
   "category": "Bosses",
-  "order": 1
+  "order": 1,
+  "icon": "mowziesmobs:frostmaw_spawn_egg"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

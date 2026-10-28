@@ -4,7 +4,8 @@
   "navTitle": "Loot & Gear Progression",
   "category": "Mods",
   "order": 10,
-  "summary": "Apotheosis and the reforging, gem and affix mods around it."
+  "summary": "Apotheosis and the reforging, gem and affix mods around it.",
+  "icon": "apotheosis:gem"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

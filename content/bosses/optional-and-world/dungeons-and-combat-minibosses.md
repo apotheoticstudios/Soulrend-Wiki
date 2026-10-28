@@ -34,6 +34,9 @@
 
 None of them has a level setting, so their level matches the Soulrend level of the nearest player (see [[leveling/mob-levels|Mob Levels]]). None has a damage cap.
 
+{{model dungeons_and_combat:sandstone_golem dungeons_and_combat:ammit dungeons_and_combat:horuso dungeons_and_combat:gigant_scorpion dungeons_and_combat:palehand dungeons_and_combat:pyro_knight dungeons_and_combat:infernus dungeons_and_combat:lady_blaze dungeons_and_combat:the_aberrator caption="The Dungeons and Combat minibosses, in the order of the table below."}}
+
+
 ## Comparison
 
 The scaled columns use level 40 for the Overworld (Act II) and level 100 for the Nether (Act III).

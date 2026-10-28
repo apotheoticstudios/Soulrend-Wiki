@@ -5,6 +5,7 @@
   "items": ["minecraft:warden_spawn_egg"],
   "infobox": {
     "item": "minecraft:warden_spawn_egg",
+    "model": "minecraft:warden",
     "rows": [
       ["ID", "`minecraft:warden`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

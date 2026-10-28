@@ -4,7 +4,8 @@
   "navTitle": "Food & Farming",
   "category": "Mods",
   "order": 15,
-  "summary": "Cooking, farming, fishing and forestry."
+  "summary": "Cooking, farming, fishing and forestry.",
+  "icon": "farmersdelight:cooking_pot"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

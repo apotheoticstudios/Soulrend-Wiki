@@ -23,6 +23,9 @@
 -->
 **Battle Tower golems** are the six guardians of the Battle Towers mod. Each sleeps at the top of its tower, beside a monolith; bringing three Monolith Keys found inside the tower awakens it. No main-line quest needs them, but the [[progression/side-chapters/fabled-realms|Fabled Realms]] Overworld chapter has a quest for each.
 
+{{model ba_bt:land_golem ba_bt:ocean_golem ba_bt:core_golem ba_bt:nether_golem ba_bt:end_golem ba_bt:sky_golem labels="Bahryn'muul|Moraizu'un|Obthu'ryn|Infuur'niir|Shul'losniir|Veyhz'kriin" caption="The six golems, from the Land Tower to the Sky Tower."}}
+
+
 ## Comparison
 
 | Golem | Tower | Base health | Base attack | Levels? |

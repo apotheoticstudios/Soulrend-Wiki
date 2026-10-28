@@ -6,6 +6,7 @@
   "items": ["irons_spellbooks:keeper_spawn_egg"],
   "infobox": {
     "item": "irons_spellbooks:keeper_spawn_egg",
+    "model": "irons_spellbooks:citadel_keeper",
     "rows": [
       ["ID", "`irons_spellbooks:citadel_keeper`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

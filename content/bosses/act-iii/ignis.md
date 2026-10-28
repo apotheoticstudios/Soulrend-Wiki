@@ -5,6 +5,7 @@
   "items": ["cataclysm:ignis_spawn_egg"],
   "infobox": {
     "item": "cataclysm:ignis_spawn_egg",
+    "model": "cataclysm:ignis",
     "rows": [
       ["ID", "`cataclysm:ignis`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

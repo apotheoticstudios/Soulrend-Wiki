@@ -6,6 +6,7 @@
   "items": ["minecraft:enderman_spawn_egg"],
   "infobox": {
     "item": "minecraft:enderman_spawn_egg",
+    "model": "minecraft:enderman",
     "rows": [
       ["ID", "`minecraft:enderman`"],
       ["Act", "[[progression/act-i-awakening|Act I]], [[progression/act-iv-beyond-reality|Act IV]]"],

@@ -5,6 +5,7 @@
   "items": ["nightfall_invade:fallen_knight_spawn_egg"],
   "infobox": {
     "item": "nightfall_invade:fallen_knight_spawn_egg",
+    "model": "nightfall_invade:fallen_knight",
     "rows": [
       ["ID", "`nightfall_invade:fallen_knight`"],
       ["Level", "The player's level"],

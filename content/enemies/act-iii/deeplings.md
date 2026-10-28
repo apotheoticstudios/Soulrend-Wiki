@@ -13,6 +13,7 @@
   ],
   "infobox": {
     "item": "cataclysm:deepling_spawn_egg",
+    "model": ["cataclysm:deepling", "cataclysm:deepling_brute", "cataclysm:deepling_angler", "cataclysm:deepling_priest", "cataclysm:deepling_warlock", "cataclysm:coral_golem"],
     "rows": [
       ["ID", "`cataclysm:deepling`, `deepling_brute`, `deepling_angler`, `deepling_priest`, `deepling_warlock`, `coral_golem`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

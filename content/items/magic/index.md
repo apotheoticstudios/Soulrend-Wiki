@@ -3,7 +3,8 @@
   "title": "Magic Items",
   "category": "Items",
   "order": 3,
-  "summary": "Spellbooks, spells and spellcasting gear. Staffs are on Weapons → Magic Weapons; magic curios are on Curios & Accessories."
+  "summary": "Spellbooks, spells and spellcasting gear. Staffs are on Weapons → Magic Weapons; magic curios are on Curios & Accessories.",
+  "icon": "irons_spellbooks:arcane_essence"
 }
 ---
 <!-- sources:

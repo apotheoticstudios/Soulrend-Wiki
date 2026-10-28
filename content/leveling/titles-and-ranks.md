@@ -4,7 +4,8 @@
   "category": "Leveling",
   "order": 3,
   "summary": "Cosmetic titles unlocked by stats, mob kills or operator status, and the five ranks from Novice to Ascendant.",
-  "aliases": ["Titles", "Ranks", "Novice", "Initiate", "Adept", "Champion", "Ascendant"]
+  "aliases": ["Titles", "Ranks", "Novice", "Initiate", "Adept", "Champion", "Ascendant"],
+  "icon": "minecraft:name_tag"
 }
 ---
 <!-- sources:

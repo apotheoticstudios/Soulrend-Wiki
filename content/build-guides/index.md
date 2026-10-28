@@ -4,7 +4,8 @@
   "navTitle": "Overview",
   "category": "Build Guides",
   "order": 0,
-  "summary": "Character builds: race, class, skill tree path and gear. Coming soon."
+  "summary": "Character builds: race, class, skill tree path and gear. Coming soon.",
+  "icon": "minecraft:armor_stand"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

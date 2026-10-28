@@ -5,6 +5,7 @@
   "items": ["iceandfire:spawn_egg_ice_dragon"],
   "infobox": {
     "item": "iceandfire:spawn_egg_ice_dragon",
+    "model": "iceandfire:ice_dragon",
     "rows": [
       ["ID", "`iceandfire:ice_dragon`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

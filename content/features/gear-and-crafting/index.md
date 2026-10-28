@@ -3,7 +3,8 @@
   "title": "Gear & Crafting Features",
   "navTitle": "Gear & Crafting",
   "category": "Features",
-  "order": 4
+  "order": 4,
+  "icon": "minecraft:crafting_table"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

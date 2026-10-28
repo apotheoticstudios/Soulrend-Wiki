@@ -6,6 +6,7 @@
   "items": ["alexscaves:underzealot_spawn_egg", "alexscaves:corrodent_spawn_egg", "alexscaves:vesper_spawn_egg", "alexscaves:gloomoth_spawn_egg"],
   "infobox": {
     "item": "alexscaves:vesper_spawn_egg",
+    "model": ["alexscaves:underzealot", "alexscaves:corrodent", "alexscaves:vesper", "alexscaves:gloomoth"],
     "rows": [
       ["ID", "`alexscaves:underzealot`, `corrodent`, `vesper`, `gloomoth`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

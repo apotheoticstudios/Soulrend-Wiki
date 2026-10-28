@@ -4,7 +4,8 @@
   "navTitle": "Biomes & Worldgen",
   "category": "Mods",
   "order": 8,
-  "summary": "New biomes and terrain generation."
+  "summary": "New biomes and terrain generation.",
+  "icon": "minecraft:grass_block"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

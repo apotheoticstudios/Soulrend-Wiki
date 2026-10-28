@@ -5,6 +5,7 @@
   "items": ["block_factorys_bosses:infernal_dragon_spawn_egg"],
   "infobox": {
     "item": "block_factorys_bosses:infernal_dragon_spawn_egg",
+    "model": "block_factorys_bosses:infernal_dragon",
     "rows": [
       ["ID", "`block_factorys_bosses:infernal_dragon`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

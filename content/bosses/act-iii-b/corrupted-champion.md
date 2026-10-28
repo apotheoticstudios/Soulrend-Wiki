@@ -6,6 +6,7 @@
   "items": ["graveyard:lich_spawn_egg"],
   "infobox": {
     "item": "graveyard:lich_spawn_egg",
+    "model": "graveyard:lich",
     "rows": [
       ["ID", "`graveyard:lich`"],
       ["Act", "[[progression/act-iii-b-deeper-and-darker|Act III-b]]"],

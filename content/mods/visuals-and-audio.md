@@ -4,7 +4,8 @@
   "navTitle": "Visuals & Audio",
   "category": "Mods",
   "order": 18,
-  "summary": "Shaders, models, particles, music and sound."
+  "summary": "Shaders, models, particles, music and sound.",
+  "icon": "minecraft:music_disc_cat"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

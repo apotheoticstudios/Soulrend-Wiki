@@ -5,6 +5,7 @@
   "items": ["deeperdarker:shriek_worm_spawn_egg"],
   "infobox": {
     "item": "deeperdarker:shriek_worm_spawn_egg",
+    "model": "deeperdarker:shriek_worm",
     "rows": [
       ["ID", "`deeperdarker:shriek_worm`"],
       ["Act", "[[progression/act-iii-b-deeper-and-darker|Act III-b]]"],

@@ -4,7 +4,8 @@
   "navTitle": "Mobs & Bosses",
   "category": "Mods",
   "order": 5,
-  "summary": "Mods that add creatures, bosses and factions."
+  "summary": "Mods that add creatures, bosses and factions.",
+  "icon": "minecraft:creeper_head"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

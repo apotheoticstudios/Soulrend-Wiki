@@ -3,7 +3,8 @@
   "title": "Tools",
   "category": "Items",
   "order": 9,
-  "summary": "Tool tiers from vanilla and mods, one page per tool type. Each page lists every material tier."
+  "summary": "Tool tiers from vanilla and mods, one page per tool type. Each page lists every material tier.",
+  "icon": "minecraft:iron_pickaxe"
 }
 ---
 <!-- sources:

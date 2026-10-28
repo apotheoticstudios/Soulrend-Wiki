@@ -6,6 +6,7 @@
   "items": ["iceandfire:spawn_egg_siren"],
   "infobox": {
     "item": "iceandfire:spawn_egg_siren",
+    "model": "iceandfire:siren",
     "rows": [
       ["ID", "`iceandfire:siren`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

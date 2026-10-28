@@ -6,6 +6,7 @@
   "items": ["minecraft:skeleton_spawn_egg", "minecraft:stray_spawn_egg"],
   "infobox": {
     "item": "minecraft:skeleton_spawn_egg",
+    "model": ["minecraft:skeleton", "minecraft:stray"],
     "rows": [
       ["ID", "`minecraft:skeleton`"],
       ["Act", "[[progression/act-i-awakening|Act I]]"],

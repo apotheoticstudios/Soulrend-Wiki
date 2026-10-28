@@ -5,6 +5,7 @@
   "items": ["dungeons_and_combat:kamath_spawn_egg"],
   "infobox": {
     "item": "dungeons_and_combat:kamath_spawn_egg",
+    "model": "dungeons_and_combat:kamath",
     "rows": [
       ["ID", "`dungeons_and_combat:kamath`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

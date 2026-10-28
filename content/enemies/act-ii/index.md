@@ -4,7 +4,8 @@
   "navTitle": "Act II",
   "category": "Enemies",
   "order": 2,
-  "summary": "Enemies of Act II: Ice and Fire monsters and the Dread Army, seal-shard droppers, Aquamirae's Ice Maze, Bosses'Rise guards and hostile mages."
+  "summary": "Enemies of Act II: Ice and Fire monsters and the Dread Army, seal-shard droppers, Aquamirae's Ice Maze, Bosses'Rise guards and hostile mages.",
+  "icon": "iceandfire:spawn_egg_cyclops"
 }
 ---
 <!-- sources:

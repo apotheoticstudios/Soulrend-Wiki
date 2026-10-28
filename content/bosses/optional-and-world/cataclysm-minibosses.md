@@ -41,6 +41,9 @@
 
 Every one of them has a level floor of 200, the highest level a player can reach, so they are always level 200 (see [[leveling/mob-levels|Mob Levels]]). None has a damage cap.
 
+{{model cataclysm:clawdian cataclysm:kobolediator cataclysm:the_prowler cataclysm:aptrgangr cataclysm:wadjet cataclysm:ender_golem cataclysm:coralssus cataclysm:ignited_revenant cataclysm:the_watcher caption="The Cataclysm minibosses, in the order of the table below."}}
+
+
 ## Comparison
 
 Cataclysm's config multiplies most of their base health and attack damage by 1.2 before the level bonus applies; Coralssus and The Watcher have no multiplier.

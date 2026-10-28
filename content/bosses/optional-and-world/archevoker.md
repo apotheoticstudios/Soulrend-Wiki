@@ -5,6 +5,7 @@
   "items": ["irons_spellbooks:archevoker_spawn_egg"],
   "infobox": {
     "item": "irons_spellbooks:archevoker_spawn_egg",
+    "model": "irons_spellbooks:archevoker",
     "rows": [
       ["ID", "`irons_spellbooks:archevoker`"],
       ["Level", "The player's level"],

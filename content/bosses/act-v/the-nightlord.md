@@ -6,6 +6,7 @@
   "items": ["souls_like_bosses:nightlord_spawn_egg"],
   "infobox": {
     "item": "souls_like_bosses:nightlord_spawn_egg",
+    "model": "souls_like_bosses:nightlord",
     "rows": [
       ["ID", "`souls_like_bosses:nightlord`"],
       ["Act", "[[progression/act-v-duties|Act V]]"],

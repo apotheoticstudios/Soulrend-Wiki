@@ -6,6 +6,7 @@
   "items": ["aquamirae:captain_cornelia_spawn_egg"],
   "infobox": {
     "item": "aquamirae:captain_cornelia_spawn_egg",
+    "model": "aquamirae:captain_cornelia",
     "rows": [
       ["ID", "`aquamirae:captain_cornelia`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

@@ -4,7 +4,8 @@
   "navTitle": "Dimensions",
   "category": "Mods",
   "order": 9,
-  "summary": "New dimensions and the gates that lock the Nether and the End."
+  "summary": "New dimensions and the gates that lock the Nether and the End.",
+  "icon": "minecraft:ender_eye"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

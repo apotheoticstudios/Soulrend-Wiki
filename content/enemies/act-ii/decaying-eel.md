@@ -6,6 +6,7 @@
   "items": ["aquamirae:eel_spawn_egg"],
   "infobox": {
     "item": "aquamirae:eel_spawn_egg",
+    "model": "aquamirae:eel",
     "rows": [
       ["ID", "`aquamirae:eel`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

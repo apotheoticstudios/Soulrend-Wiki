@@ -5,6 +5,7 @@
   "items": ["traveloptics:enraged_dead_king_spawn_egg"],
   "infobox": {
     "item": "traveloptics:enraged_dead_king_spawn_egg",
+    "model": "traveloptics:enraged_dead_king",
     "rows": [
       ["ID", "`traveloptics:enraged_dead_king`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

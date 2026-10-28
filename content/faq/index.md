@@ -4,7 +4,8 @@
   "navTitle": "Overview",
   "category": "FAQ",
   "order": 0,
-  "summary": "Frequently asked questions."
+  "summary": "Frequently asked questions.",
+  "icon": "minecraft:writable_book"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

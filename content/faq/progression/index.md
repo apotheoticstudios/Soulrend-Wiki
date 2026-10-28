@@ -4,7 +4,8 @@
   "navTitle": "Progression",
   "category": "FAQ",
   "order": 2,
-  "summary": "Short answers about the main quest line: the Nether seal, Act IV, the Past, the Nightwarden and Act III-b."
+  "summary": "Short answers about the main quest line: the Nether seal, Act IV, the Past, the Nightwarden and Act III-b.",
+  "icon": "ftbquests:book"
 }
 ---
 Short answers to common questions about the main quest line. Each links to the full [[progression|Progression]] pages.

@@ -3,7 +3,8 @@
   "title": "Dragon Items",
   "category": "Items",
   "order": 4,
-  "summary": "Ice and Fire dragon materials, eggs, crystals and forges."
+  "summary": "Ice and Fire dragon materials, eggs, crystals and forges.",
+  "icon": "iceandfire:dragonegg_blue"
 }
 ---
 <!-- sources:

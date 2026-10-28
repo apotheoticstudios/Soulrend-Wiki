@@ -5,6 +5,7 @@
   "items": ["dungeons_and_combat:ernos_spawn_egg"],
   "infobox": {
     "item": "dungeons_and_combat:ernos_spawn_egg",
+    "model": "dungeons_and_combat:ernos",
     "rows": [
       ["ID", "`dungeons_and_combat:ernos`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

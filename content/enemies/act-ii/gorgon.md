@@ -5,6 +5,7 @@
   "items": ["iceandfire:spawn_egg_gorgon"],
   "infobox": {
     "item": "iceandfire:spawn_egg_gorgon",
+    "model": "iceandfire:gorgon",
     "rows": [
       ["ID", "`iceandfire:gorgon`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

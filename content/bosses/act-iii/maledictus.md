@@ -5,6 +5,7 @@
   "items": ["cataclysm:maledictus_spawn_egg"],
   "infobox": {
     "item": "cataclysm:maledictus_spawn_egg",
+    "model": "cataclysm:maledictus",
     "rows": [
       ["ID", "`cataclysm:maledictus`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

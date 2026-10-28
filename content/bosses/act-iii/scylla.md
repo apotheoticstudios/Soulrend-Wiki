@@ -5,6 +5,7 @@
   "items": ["cataclysm:scylla_spawn_egg"],
   "infobox": {
     "item": "cataclysm:scylla_spawn_egg",
+    "model": "cataclysm:scylla",
     "rows": [
       ["ID", "`cataclysm:scylla`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

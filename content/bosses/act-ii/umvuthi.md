@@ -6,6 +6,7 @@
   "items": ["mowziesmobs:umvuthi_spawn_egg"],
   "infobox": {
     "item": "mowziesmobs:umvuthi_spawn_egg",
+    "model": "mowziesmobs:umvuthi",
     "rows": [
       ["ID", "`mowziesmobs:umvuthi`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

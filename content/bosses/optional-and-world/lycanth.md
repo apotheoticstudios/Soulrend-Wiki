@@ -5,6 +5,7 @@
   "items": ["wom:lycanth_spawn_egg"],
   "infobox": {
     "item": "wom:lycanth_spawn_egg",
+    "model": "wom:lycanth",
     "rows": [
       ["ID", "`wom:lycanth`"],
       ["Level", "The player's level"],

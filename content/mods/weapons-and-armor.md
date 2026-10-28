@@ -4,7 +4,8 @@
   "navTitle": "Weapons & Armor",
   "category": "Mods",
   "order": 3,
-  "summary": "Mods that mainly add weapons and armor."
+  "summary": "Mods that mainly add weapons and armor.",
+  "icon": "minecraft:netherite_sword"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

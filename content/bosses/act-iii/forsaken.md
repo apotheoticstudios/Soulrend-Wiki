@@ -5,6 +5,7 @@
   "items": ["alexscaves:spawn_egg_forsaken"],
   "infobox": {
     "item": "alexscaves:spawn_egg_forsaken",
+    "model": "alexscaves:forsaken",
     "rows": [
       ["ID", "`alexscaves:forsaken`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

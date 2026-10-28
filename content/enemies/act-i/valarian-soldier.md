@@ -6,6 +6,7 @@
   "items": ["valarian_conquest:soldier_spawn_egg", "valarian_conquest:archer_spawn_egg"],
   "infobox": {
     "item": "valarian_conquest:soldier_spawn_egg",
+    "model": ["valarian_conquest:soldier", "valarian_conquest:archer", "valarian_conquest:crossbowman"],
     "rows": [
       ["ID", "`valarian_conquest:soldier`, `valarian_conquest:archer`"],
       ["Act", "[[progression/act-i-awakening|Act I]]"],

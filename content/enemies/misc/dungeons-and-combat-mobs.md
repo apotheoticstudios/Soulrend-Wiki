@@ -10,6 +10,7 @@
   ],
   "infobox": {
     "item": "dungeons_and_combat:remanent_spawn_egg",
+    "model": ["dungeons_and_combat:remanent", "dungeons_and_combat:hermit_witch", "dungeons_and_combat:mummy", "dungeons_and_combat:flower_fairy"],
     "rows": [
       ["ID", "`dungeons_and_combat:remanent`, `hermit_witch`, `mummy`"],
       ["Level", "The player's level"],

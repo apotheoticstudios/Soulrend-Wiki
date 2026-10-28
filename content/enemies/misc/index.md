@@ -4,7 +4,8 @@
   "navTitle": "Misc",
   "category": "Enemies",
   "order": 7,
-  "summary": "Hostile mobs with no quest or act link: Graveyard undead, Dungeons and Combat mobs, Friends & Foes illagers and Overworld wildlife."
+  "summary": "Hostile mobs with no quest or act link: Graveyard undead, Dungeons and Combat mobs, Friends & Foes illagers and Overworld wildlife.",
+  "icon": "graveyard:ghoul_spawn_egg"
 }
 ---
 <!-- sources:

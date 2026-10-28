@@ -5,6 +5,7 @@
   "items": ["minecraft:ender_dragon_spawn_egg"],
   "infobox": {
     "item": "minecraft:ender_dragon_spawn_egg",
+    "model": "minecraft:ender_dragon",
     "rows": [
       ["ID", "`minecraft:ender_dragon`"],
       ["Act", "[[progression/act-iv-beyond-reality|Act IV]]"],

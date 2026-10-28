@@ -6,6 +6,7 @@
   "items": ["soulsweapons:chaos_monarch_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:chaos_monarch_spawn_egg",
+    "model": "soulsweapons:chaos_monarch",
     "rows": [
       ["ID", "`soulsweapons:chaos_monarch`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

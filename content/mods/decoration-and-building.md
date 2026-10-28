@@ -4,7 +4,8 @@
   "navTitle": "Decoration & Building",
   "category": "Mods",
   "order": 14,
-  "summary": "Furniture, building blocks and decoration."
+  "summary": "Furniture, building blocks and decoration.",
+  "icon": "minecraft:flower_pot"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

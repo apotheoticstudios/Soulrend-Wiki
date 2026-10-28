@@ -6,6 +6,7 @@
   "items": ["alexscaves:caniac_spawn_egg", "alexscaves:gumbeeper_spawn_egg", "alexscaves:caramel_cube_spawn_egg", "alexscaves:gummy_bear_spawn_egg", "alexscaves:gum_worm_spawn_egg", "alexscaves:candicorn_spawn_egg"],
   "infobox": {
     "item": "alexscaves:caniac_spawn_egg",
+    "model": ["alexscaves:caniac", "alexscaves:gumbeeper", "alexscaves:caramel_cube", "alexscaves:gummy_bear", "alexscaves:gum_worm", "alexscaves:candicorn", "alexscaves:sweetish_fish"],
     "rows": [
       ["ID", "`alexscaves:caniac`, `gumbeeper`, `caramel_cube`, `gummy_bear`, `gum_worm`, `candicorn`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

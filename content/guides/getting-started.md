@@ -3,7 +3,8 @@
   "title": "Getting Started",
   "category": "Guides",
   "aliases": ["Beginner's Guide", "First Steps"],
-  "summary": "Your first hours in Soulrend: what to do first and where to go next."
+  "summary": "Your first hours in Soulrend: what to do first and where to go next.",
+  "icon": "minecraft:compass"
 }
 ---
 > [!NOTE]

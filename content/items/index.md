@@ -4,7 +4,8 @@
   "navTitle": "Overview",
   "category": "Items",
   "order": 0,
-  "summary": "Every gameplay-relevant item group in Soulrend."
+  "summary": "Every gameplay-relevant item group in Soulrend.",
+  "icon": "minecraft:diamond"
 }
 ---
 <!-- sources:

@@ -140,7 +140,7 @@ Some pinned levels are far above 200 (the Ender Dragon is level 467), because th
 
 **Turning a stub into a page:** delete the `<!-- outline-stub … -->` line, the placeholder `> [!NOTE]`, and `"hidden": true`. Keep any facts from the stub's notes, after checking them against a source.
 
-**Mob and boss infoboxes:** set `"item"` to the spawn egg, which gives a large icon and the Mod row. Override the ID row with the entity id, so it doesn't show the egg's id: `["ID", "`mowziesmobs:frostmaw`"]`. A mob without a spawn egg uses `"image"` (once there is a screenshot), with `["Mod", "…"]` and `["ID", "…"]` rows written by hand.
+**Mob and boss infoboxes:** set `"item"` to the spawn egg, which gives the Mod row (and the icon shown until the model loads). Override the ID row with the entity id, so it doesn't show the egg's id: `["ID", "`mowziesmobs:frostmaw`"]`. Set `"model"` to the entity id, or a list of ids for a page about several mobs, in the order the page lists them; the ids must be in `game-data/mobs.json` (see the README's 3D models section). A page without an infobox puts `{{model …}}` after the lead. A mob without a spawn egg uses `"image"` (once there is a screenshot), with `["Mod", "…"]` and `["ID", "…"]` rows written by hand.
 
 ## Callouts and media
 

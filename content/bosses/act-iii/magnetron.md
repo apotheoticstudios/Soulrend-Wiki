@@ -5,6 +5,7 @@
   "items": ["alexscaves:spawn_egg_magnetron"],
   "infobox": {
     "item": "alexscaves:spawn_egg_magnetron",
+    "model": "alexscaves:magnetron",
     "rows": [
       ["ID", "`alexscaves:magnetron`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

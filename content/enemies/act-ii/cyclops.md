@@ -6,6 +6,7 @@
   "items": ["iceandfire:spawn_egg_cyclops"],
   "infobox": {
     "item": "iceandfire:spawn_egg_cyclops",
+    "model": "iceandfire:cyclops",
     "rows": [
       ["ID", "`iceandfire:cyclops`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

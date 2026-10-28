@@ -5,6 +5,7 @@
   "items": ["cataclysm:the_harbinger_spawn_egg"],
   "infobox": {
     "item": "cataclysm:the_harbinger_spawn_egg",
+    "model": "cataclysm:the_harbinger",
     "rows": [
       ["ID", "`cataclysm:the_harbinger`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

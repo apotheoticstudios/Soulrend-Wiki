@@ -3,7 +3,8 @@
   "title": "Curios & Accessories",
   "category": "Items",
   "order": 12,
-  "summary": "One page per curio slot. The index adds a second sort by class or purpose. Magic curios live here now."
+  "summary": "One page per curio slot. The index adds a second sort by class or purpose. Magic curios live here now.",
+  "icon": "dungeons_and_combat:ernos_fang_necklace"
 }
 ---
 <!-- sources:

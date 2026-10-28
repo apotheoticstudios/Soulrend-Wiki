@@ -5,6 +5,7 @@
   "items": ["traveloptics:aqua_grandmaster_spawn_egg"],
   "infobox": {
     "item": "traveloptics:aqua_grandmaster_spawn_egg",
+    "model": "traveloptics:aqua_grandmaster",
     "rows": [
       ["ID", "`traveloptics:aqua_grandmaster`"],
       ["Level", "The player's level"],

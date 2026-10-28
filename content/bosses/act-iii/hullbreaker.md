@@ -5,6 +5,7 @@
   "items": ["alexscaves:spawn_egg_hullbreaker"],
   "infobox": {
     "item": "alexscaves:spawn_egg_hullbreaker",
+    "model": "alexscaves:hullbreaker",
     "rows": [
       ["ID", "`alexscaves:hullbreaker`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

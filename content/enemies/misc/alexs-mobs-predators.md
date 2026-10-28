@@ -15,6 +15,7 @@
   ],
   "infobox": {
     "item": "alexsmobs:spawn_egg_grizzly_bear",
+    "model": ["alexsmobs:grizzly_bear", "alexsmobs:komodo_dragon", "alexsmobs:froststalker", "alexsmobs:tusklin", "alexsmobs:rattlesnake", "alexsmobs:rocky_roller", "alexsmobs:skelewag", "alexsmobs:farseer"],
     "rows": [
       ["ID", "`alexsmobs:grizzly_bear` and others"],
       ["Level", "Base stats (most never level up)"],

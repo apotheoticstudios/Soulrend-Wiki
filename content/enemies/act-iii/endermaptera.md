@@ -5,6 +5,7 @@
   "items": ["cataclysm:endermaptera_spawn_egg"],
   "infobox": {
     "item": "cataclysm:endermaptera_spawn_egg",
+    "model": "cataclysm:endermaptera",
     "rows": [
       ["ID", "`cataclysm:endermaptera`"],
       ["Level", "At least 50"],

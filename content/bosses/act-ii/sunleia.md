@@ -5,6 +5,7 @@
   "items": ["dungeons_and_combat:sunleia_spawn_egg"],
   "infobox": {
     "item": "dungeons_and_combat:sunleia_spawn_egg",
+    "model": "dungeons_and_combat:sunleia",
     "rows": [
       ["ID", "`dungeons_and_combat:sunleia`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

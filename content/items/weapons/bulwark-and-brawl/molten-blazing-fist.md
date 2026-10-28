@@ -60,7 +60,3 @@ In Epic Fight it is a fist. Its default Two Handed style has a five-hit basic co
 ## Crafting
 
 {{recipes dungeons_and_combat:molten_blazing_fists}}
-
-## Used in
-
-{{uses dungeons_and_combat:molten_blazing_fists}}

@@ -226,10 +226,6 @@ It is crafted (see below).
 
 {{recipes traveloptics:elytra_jetpack_component}}
 
-#### Used in
-
-{{uses traveloptics:elytra_jetpack_component}}
-
 ### Pocket Black Hole
 
 [[item:traveloptics:pocket_black_hole]] (T.O Magic 'n Extras, traveloptics:void)

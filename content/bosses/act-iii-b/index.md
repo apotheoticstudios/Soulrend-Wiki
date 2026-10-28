@@ -3,7 +3,8 @@
   "title": "Act III-b Bosses",
   "navTitle": "Act III-b",
   "category": "Bosses",
-  "order": 3
+  "order": 3,
+  "icon": "graveyard:lich_spawn_egg"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

@@ -4,7 +4,8 @@
   "navTitle": "Overview",
   "category": "Origins",
   "order": 0,
-  "summary": "The race and class every character picks at the start: what each layer does and how the picker works."
+  "summary": "The race and class every character picks at the start: what each layer does and how the picker works.",
+  "icon": "origins:orb_of_origin"
 }
 ---
 <!-- sources:

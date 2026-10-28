@@ -6,6 +6,7 @@
   "items": ["deeperdarker:sculk_snapper_spawn_egg", "deeperdarker:sculk_centipede_spawn_egg", "deeperdarker:sculk_leech_spawn_egg", "deeperdarker:sludge_spawn_egg", "deeperdarker:angler_fish_spawn_egg"],
   "infobox": {
     "item": "deeperdarker:sculk_snapper_spawn_egg",
+    "model": ["deeperdarker:sculk_snapper", "deeperdarker:sculk_centipede", "deeperdarker:sculk_leech", "deeperdarker:sludge", "deeperdarker:angler_fish"],
     "rows": [
       ["ID", "`deeperdarker:sculk_snapper`, `sculk_centipede`, `sculk_leech`, `sludge`, `angler_fish`"],
       ["Act", "[[progression/act-iii-b-deeper-and-darker|Act III-b]]"],

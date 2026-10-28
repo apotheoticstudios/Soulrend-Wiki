@@ -3,7 +3,8 @@
   "title": "Ranged Classes",
   "category": "Origins",
   "order": 3,
-  "summary": "The in-game Ranged tab: the Hunter, Soulrend's archer class."
+  "summary": "The in-game Ranged tab: the Hunter, Soulrend's archer class.",
+  "icon": "minecraft:bow"
 }
 ---
 <!-- sources:

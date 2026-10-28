@@ -5,6 +5,7 @@
   "items": ["soulsweapons:night_prowler_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:night_prowler_spawn_egg",
+    "model": "soulsweapons:night_prowler",
     "rows": [
       ["ID", "`soulsweapons:night_prowler`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

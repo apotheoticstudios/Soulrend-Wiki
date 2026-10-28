@@ -3,7 +3,8 @@
   "title": "Settings & Performance Features",
   "navTitle": "Settings & Performance",
   "category": "Features",
-  "order": 9
+  "order": 9,
+  "icon": "minecraft:comparator"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

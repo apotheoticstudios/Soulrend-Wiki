@@ -4,7 +4,8 @@
   "navTitle": "Overview",
   "category": "Enemies",
   "order": 0,
-  "summary": "Soulrend's non-boss enemies, grouped by the act whose quests or dimension they belong to, plus world spawns no quest asks for."
+  "summary": "Soulrend's non-boss enemies, grouped by the act whose quests or dimension they belong to, plus world spawns no quest asks for.",
+  "icon": "minecraft:skeleton_skull"
 }
 ---
 <!-- sources:

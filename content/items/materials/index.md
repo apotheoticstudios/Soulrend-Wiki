@@ -3,7 +3,8 @@
   "title": "Materials",
   "category": "Items",
   "order": 11,
-  "summary": "Ingots, gems and mob drops used in crafting, many per page, one page per act in progression order."
+  "summary": "Ingots, gems and mob drops used in crafting, many per page, one page per act in progression order.",
+  "icon": "minecraft:iron_ingot"
 }
 ---
 <!-- sources:

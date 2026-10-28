@@ -1,0 +1,1216 @@
+{
+  "alexscaves:atlatitan": {
+    "name": "Atlatitan",
+    "model": "models/alexscaves/atlatitan.glb"
+  },
+  "alexscaves:boundroid": {
+    "name": "Boundroid",
+    "model": "models/alexscaves/boundroid.glb"
+  },
+  "alexscaves:brainiac": {
+    "name": "Brainiac",
+    "model": "models/alexscaves/brainiac.glb"
+  },
+  "alexscaves:candicorn": {
+    "name": "Candicorn",
+    "model": "models/alexscaves/candicorn.glb"
+  },
+  "alexscaves:caniac": {
+    "name": "Caniac",
+    "model": "models/alexscaves/caniac.glb"
+  },
+  "alexscaves:caramel_cube": {
+    "name": "Caramel Cube",
+    "model": "models/alexscaves/caramel_cube.glb"
+  },
+  "alexscaves:corrodent": {
+    "name": "Corrodent",
+    "model": "models/alexscaves/corrodent.glb"
+  },
+  "alexscaves:deep_one": {
+    "name": "Deep One",
+    "model": "models/alexscaves/deep_one.glb"
+  },
+  "alexscaves:deep_one_knight": {
+    "name": "Deep One Knight",
+    "model": "models/alexscaves/deep_one_knight.glb"
+  },
+  "alexscaves:deep_one_mage": {
+    "name": "Deep One Mage",
+    "model": "models/alexscaves/deep_one_mage.glb"
+  },
+  "alexscaves:ferrouslime": {
+    "name": "Ferrouslime",
+    "model": "models/alexscaves/ferrouslime.glb"
+  },
+  "alexscaves:forsaken": {
+    "name": "Forsaken",
+    "model": "models/alexscaves/forsaken.glb"
+  },
+  "alexscaves:gammaroach": {
+    "name": "Gammaroach",
+    "model": "models/alexscaves/gammaroach.glb"
+  },
+  "alexscaves:gloomoth": {
+    "name": "Gloomoth",
+    "model": "models/alexscaves/gloomoth.glb"
+  },
+  "alexscaves:gossamer_worm": {
+    "name": "Gossamer Worm",
+    "model": "models/alexscaves/gossamer_worm.glb"
+  },
+  "alexscaves:grottoceratops": {
+    "name": "Grottoceratops",
+    "model": "models/alexscaves/grottoceratops.glb"
+  },
+  "alexscaves:gum_worm": {
+    "name": "Gum Worm",
+    "model": "models/alexscaves/gum_worm.glb"
+  },
+  "alexscaves:gumbeeper": {
+    "name": "Gumbeeper",
+    "model": "models/alexscaves/gumbeeper.glb"
+  },
+  "alexscaves:gummy_bear": {
+    "name": "Gummy Bear",
+    "model": "models/alexscaves/gummy_bear.glb"
+  },
+  "alexscaves:hullbreaker": {
+    "name": "Hullbreaker",
+    "model": "models/alexscaves/hullbreaker.glb"
+  },
+  "alexscaves:lanternfish": {
+    "name": "Lanternfish",
+    "model": "models/alexscaves/lanternfish.glb"
+  },
+  "alexscaves:luxtructosaurus": {
+    "name": "Luxtructosaurus",
+    "model": "models/alexscaves/luxtructosaurus.glb"
+  },
+  "alexscaves:magnetron": {
+    "name": "Magnetron",
+    "model": "models/alexscaves/magnetron.glb"
+  },
+  "alexscaves:notor": {
+    "name": "Notor",
+    "model": "models/alexscaves/notor.glb"
+  },
+  "alexscaves:nucleeper": {
+    "name": "Nucleeper",
+    "model": "models/alexscaves/nucleeper.glb"
+  },
+  "alexscaves:radgill": {
+    "name": "Radgill",
+    "model": "models/alexscaves/radgill.glb"
+  },
+  "alexscaves:raycat": {
+    "name": "Raycat",
+    "model": "models/alexscaves/raycat.glb"
+  },
+  "alexscaves:relicheirus": {
+    "name": "Relicheirus",
+    "model": "models/alexscaves/relicheirus.glb"
+  },
+  "alexscaves:sea_pig": {
+    "name": "Sea Pig",
+    "model": "models/alexscaves/sea_pig.glb"
+  },
+  "alexscaves:subterranodon": {
+    "name": "Subterranodon",
+    "model": "models/alexscaves/subterranodon.glb"
+  },
+  "alexscaves:sweetish_fish": {
+    "name": "Sweetish Fish",
+    "model": "models/alexscaves/sweetish_fish.glb"
+  },
+  "alexscaves:teletor": {
+    "name": "Teletor",
+    "model": "models/alexscaves/teletor.glb"
+  },
+  "alexscaves:tremorsaurus": {
+    "name": "Tremorsaurus",
+    "model": "models/alexscaves/tremorsaurus.glb"
+  },
+  "alexscaves:tremorzilla": {
+    "name": "Tremorzilla",
+    "model": "models/alexscaves/tremorzilla.glb"
+  },
+  "alexscaves:tripodfish": {
+    "name": "Tripodfish",
+    "model": "models/alexscaves/tripodfish.glb"
+  },
+  "alexscaves:underzealot": {
+    "name": "Underzealot",
+    "model": "models/alexscaves/underzealot.glb"
+  },
+  "alexscaves:vallumraptor": {
+    "name": "Vallumraptor",
+    "model": "models/alexscaves/vallumraptor.glb"
+  },
+  "alexscaves:vesper": {
+    "name": "Vesper",
+    "model": "models/alexscaves/vesper.glb"
+  },
+  "alexsmobs:farseer": {
+    "name": "Farseer",
+    "model": "models/alexsmobs/farseer.glb"
+  },
+  "alexsmobs:froststalker": {
+    "name": "Froststalker",
+    "model": "models/alexsmobs/froststalker.glb"
+  },
+  "alexsmobs:grizzly_bear": {
+    "name": "Grizzly Bear",
+    "model": "models/alexsmobs/grizzly_bear.glb"
+  },
+  "alexsmobs:komodo_dragon": {
+    "name": "Komodo Dragon",
+    "model": "models/alexsmobs/komodo_dragon.glb"
+  },
+  "alexsmobs:rattlesnake": {
+    "name": "Rattlesnake",
+    "model": "models/alexsmobs/rattlesnake.glb"
+  },
+  "alexsmobs:rocky_roller": {
+    "name": "Rocky Roller",
+    "model": "models/alexsmobs/rocky_roller.glb"
+  },
+  "alexsmobs:skelewag": {
+    "name": "Skelewag",
+    "model": "models/alexsmobs/skelewag.glb"
+  },
+  "alexsmobs:tusklin": {
+    "name": "Tusklin",
+    "model": "models/alexsmobs/tusklin.glb"
+  },
+  "aquamirae:abyssal_scyphoid": {
+    "name": "Abyssal Scyphoid",
+    "model": "models/aquamirae/abyssal_scyphoid.glb"
+  },
+  "aquamirae:anglerfish": {
+    "name": "Anglerfish",
+    "model": "models/aquamirae/anglerfish.glb"
+  },
+  "aquamirae:captain_cornelia": {
+    "name": "Ghost of Captain Cornelia",
+    "model": "models/aquamirae/captain_cornelia.glb"
+  },
+  "aquamirae:eel": {
+    "name": "Eel",
+    "model": "models/aquamirae/eel.glb"
+  },
+  "aquamirae:maw": {
+    "name": "Maw",
+    "model": "models/aquamirae/maw.glb"
+  },
+  "aquamirae:maze_mother": {
+    "name": "Mother of the Maze",
+    "model": "models/aquamirae/maze_mother.glb"
+  },
+  "aquamirae:spinefish": {
+    "name": "Spinefish",
+    "model": "models/aquamirae/spinefish.glb"
+  },
+  "aquamirae:tortured_soul": {
+    "name": "Tortured Soul",
+    "model": "models/aquamirae/tortured_soul.glb"
+  },
+  "ba_bt:core_golem": {
+    "name": "Obthu'ryn, God of the Core",
+    "model": "models/ba_bt/core_golem.glb"
+  },
+  "ba_bt:end_golem": {
+    "name": "Shul'losniir, Warped Guardian",
+    "model": "models/ba_bt/end_golem.glb"
+  },
+  "ba_bt:land_golem": {
+    "name": "Bahryn'muul, Entombed Watcher",
+    "model": "models/ba_bt/land_golem.glb"
+  },
+  "ba_bt:nether_golem": {
+    "name": "Infuur'niir, Blaze King Tyrant",
+    "model": "models/ba_bt/nether_golem.glb"
+  },
+  "ba_bt:ocean_golem": {
+    "name": "Moraizu'un, Idol of the Drowned",
+    "model": "models/ba_bt/ocean_golem.glb"
+  },
+  "ba_bt:sky_golem": {
+    "name": "Veyhz'kriin, Sky Goddess",
+    "model": "models/ba_bt/sky_golem.glb"
+  },
+  "block_factorys_bosses:dragon_guard_sword": {
+    "name": "Dragon Guard",
+    "model": "models/block_factorys_bosses/dragon_guard_sword.glb",
+    "animated": true
+  },
+  "block_factorys_bosses:flaming_skeleton_guard_fireball": {
+    "name": "Flaming Skeleton Shooter",
+    "model": "models/block_factorys_bosses/flaming_skeleton_guard_fireball.glb",
+    "animated": true
+  },
+  "block_factorys_bosses:flaming_skeleton_guard_sword": {
+    "name": "Flaming Dragon Guard",
+    "model": "models/block_factorys_bosses/flaming_skeleton_guard_sword.glb",
+    "animated": true
+  },
+  "block_factorys_bosses:infernal_dragon": {
+    "name": "Infernal Dragon",
+    "model": "models/block_factorys_bosses/infernal_dragon.glb"
+  },
+  "block_factorys_bosses:pile_of_bones": {
+    "name": "Pile Of Bones",
+    "model": "models/block_factorys_bosses/pile_of_bones.glb"
+  },
+  "block_factorys_bosses:sandworm": {
+    "name": "Sandworm",
+    "model": "models/block_factorys_bosses/sandworm.glb",
+    "animated": true
+  },
+  "block_factorys_bosses:soul_knight_wither_skeleton": {
+    "name": "Wither Knight",
+    "model": "models/block_factorys_bosses/soul_knight_wither_skeleton.glb",
+    "animated": true
+  },
+  "block_factorys_bosses:soul_skeleton": {
+    "name": "Soul Skeleton",
+    "model": "models/block_factorys_bosses/soul_skeleton.glb",
+    "animated": true
+  },
+  "block_factorys_bosses:underworld_knight": {
+    "name": "Underworld Knight",
+    "model": "models/block_factorys_bosses/underworld_knight.glb",
+    "animated": true
+  },
+  "block_factorys_bosses:yeti": {
+    "name": "Yeti",
+    "model": "models/block_factorys_bosses/yeti.glb",
+    "animated": true
+  },
+  "cataclysm:ancient_remnant": {
+    "name": "Ancient Remnant",
+    "model": "models/cataclysm/ancient_remnant.glb",
+    "animated": true
+  },
+  "cataclysm:aptrgangr": {
+    "name": "Aptrgangr",
+    "model": "models/cataclysm/aptrgangr.glb",
+    "animated": true
+  },
+  "cataclysm:cindaria": {
+    "name": "Cindaria",
+    "model": "models/cataclysm/cindaria.glb",
+    "animated": true
+  },
+  "cataclysm:clawdian": {
+    "name": "Clawdian",
+    "model": "models/cataclysm/clawdian.glb",
+    "animated": true
+  },
+  "cataclysm:coral_golem": {
+    "name": "Coral Golem",
+    "model": "models/cataclysm/coral_golem.glb"
+  },
+  "cataclysm:coralssus": {
+    "name": "Coralssus",
+    "model": "models/cataclysm/coralssus.glb",
+    "animated": true
+  },
+  "cataclysm:deepling": {
+    "name": "Deepling",
+    "model": "models/cataclysm/deepling.glb"
+  },
+  "cataclysm:deepling_angler": {
+    "name": "Deepling Angler",
+    "model": "models/cataclysm/deepling_angler.glb"
+  },
+  "cataclysm:deepling_brute": {
+    "name": "Deepling Brute",
+    "model": "models/cataclysm/deepling_brute.glb"
+  },
+  "cataclysm:deepling_priest": {
+    "name": "Deepling Priest",
+    "model": "models/cataclysm/deepling_priest.glb"
+  },
+  "cataclysm:deepling_warlock": {
+    "name": "Deepling Warlock",
+    "model": "models/cataclysm/deepling_warlock.glb"
+  },
+  "cataclysm:draugr": {
+    "name": "Draugr",
+    "model": "models/cataclysm/draugr.glb",
+    "animated": true
+  },
+  "cataclysm:drowned_host": {
+    "name": "Drowned Host",
+    "model": "models/cataclysm/drowned_host.glb"
+  },
+  "cataclysm:elite_draugr": {
+    "name": "Elite Draugr",
+    "model": "models/cataclysm/elite_draugr.glb",
+    "animated": true
+  },
+  "cataclysm:ender_golem": {
+    "name": "Ender Golem",
+    "model": "models/cataclysm/ender_golem.glb"
+  },
+  "cataclysm:ender_guardian": {
+    "name": "Ender Guardian",
+    "model": "models/cataclysm/ender_guardian.glb"
+  },
+  "cataclysm:endermaptera": {
+    "name": "Endermaptera",
+    "model": "models/cataclysm/endermaptera.glb"
+  },
+  "cataclysm:hippocamtus": {
+    "name": "Hippocamtus",
+    "model": "models/cataclysm/hippocamtus.glb",
+    "animated": true
+  },
+  "cataclysm:ignis": {
+    "name": "Ignis",
+    "model": "models/cataclysm/ignis.glb"
+  },
+  "cataclysm:ignited_berserker": {
+    "name": "Ignited Berserker",
+    "model": "models/cataclysm/ignited_berserker.glb",
+    "animated": true
+  },
+  "cataclysm:ignited_revenant": {
+    "name": "Ignited Revenant",
+    "model": "models/cataclysm/ignited_revenant.glb"
+  },
+  "cataclysm:kobolediator": {
+    "name": "Kobolediator",
+    "model": "models/cataclysm/kobolediator.glb",
+    "animated": true
+  },
+  "cataclysm:koboleton": {
+    "name": "Koboleton",
+    "model": "models/cataclysm/koboleton.glb"
+  },
+  "cataclysm:maledictus": {
+    "name": "Maledictus",
+    "model": "models/cataclysm/maledictus.glb"
+  },
+  "cataclysm:netherite_monstrosity": {
+    "name": "Netherite Monstrosity",
+    "model": "models/cataclysm/netherite_monstrosity.glb",
+    "animated": true
+  },
+  "cataclysm:royal_draugr": {
+    "name": "Royal Draugr",
+    "model": "models/cataclysm/royal_draugr.glb",
+    "animated": true
+  },
+  "cataclysm:scylla": {
+    "name": "Scylla",
+    "model": "models/cataclysm/scylla.glb",
+    "animated": true
+  },
+  "cataclysm:symbiocto": {
+    "name": "Symbiocto",
+    "model": "models/cataclysm/symbiocto.glb",
+    "animated": true
+  },
+  "cataclysm:the_harbinger": {
+    "name": "The Harbinger",
+    "model": "models/cataclysm/the_harbinger.glb"
+  },
+  "cataclysm:the_leviathan": {
+    "name": "The Leviathan",
+    "model": "models/cataclysm/the_leviathan.glb"
+  },
+  "cataclysm:the_prowler": {
+    "name": "The Prowler",
+    "model": "models/cataclysm/the_prowler.glb",
+    "animated": true
+  },
+  "cataclysm:the_watcher": {
+    "name": "The Watcher",
+    "model": "models/cataclysm/the_watcher.glb"
+  },
+  "cataclysm:urchinkin": {
+    "name": "Urchinkin",
+    "model": "models/cataclysm/urchinkin.glb",
+    "animated": true
+  },
+  "cataclysm:wadjet": {
+    "name": "Wadjet",
+    "model": "models/cataclysm/wadjet.glb",
+    "animated": true
+  },
+  "deeperdarker:angler_fish": {
+    "name": "Angler Fish",
+    "model": "models/deeperdarker/angler_fish.glb"
+  },
+  "deeperdarker:sculk_centipede": {
+    "name": "Sculk Centipede",
+    "model": "models/deeperdarker/sculk_centipede.glb"
+  },
+  "deeperdarker:sculk_leech": {
+    "name": "Sculk Leech",
+    "model": "models/deeperdarker/sculk_leech.glb"
+  },
+  "deeperdarker:sculk_snapper": {
+    "name": "Sculk Snapper",
+    "model": "models/deeperdarker/sculk_snapper.glb",
+    "animated": true
+  },
+  "deeperdarker:shattered": {
+    "name": "Shattered",
+    "model": "models/deeperdarker/shattered.glb",
+    "animated": true
+  },
+  "deeperdarker:shriek_worm": {
+    "name": "Shriek Worm",
+    "model": "models/deeperdarker/shriek_worm.glb",
+    "animated": true
+  },
+  "deeperdarker:sludge": {
+    "name": "Sludge",
+    "model": "models/deeperdarker/sludge.glb"
+  },
+  "deeperdarker:stalker": {
+    "name": "Stalker",
+    "model": "models/deeperdarker/stalker.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:ammit": {
+    "name": "Ammit",
+    "model": "models/dungeons_and_combat/ammit.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:bloody_cultist": {
+    "name": "Bloody Cultist",
+    "model": "models/dungeons_and_combat/bloody_cultist.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:bloodymancer_cultist": {
+    "name": "Bloodymancer",
+    "model": "models/dungeons_and_combat/bloodymancer_cultist.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:counselor_skull": {
+    "name": "Counselor Skull",
+    "model": "models/dungeons_and_combat/counselor_skull.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:ernos": {
+    "name": "Ernos",
+    "model": "models/dungeons_and_combat/ernos.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:failure": {
+    "name": "Failure",
+    "model": "models/dungeons_and_combat/failure.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:flower_fairy": {
+    "name": "Flower Fairy",
+    "model": "models/dungeons_and_combat/flower_fairy.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:fractured_vex": {
+    "name": "Fractured Vex",
+    "model": "models/dungeons_and_combat/fractured_vex.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:ghoul": {
+    "name": "Ghoul",
+    "model": "models/dungeons_and_combat/ghoul.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:gigant_scorpion": {
+    "name": "Gigant Scorpion",
+    "model": "models/dungeons_and_combat/gigant_scorpion.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:hermit_witch": {
+    "name": "Hermit Witch",
+    "model": "models/dungeons_and_combat/hermit_witch.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:high_priest": {
+    "name": "High Priest",
+    "model": "models/dungeons_and_combat/high_priest.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:horuso": {
+    "name": "Horuso",
+    "model": "models/dungeons_and_combat/horuso.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:infernus": {
+    "name": "Infernus",
+    "model": "models/dungeons_and_combat/infernus.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:kamath": {
+    "name": "Kamath",
+    "model": "models/dungeons_and_combat/kamath.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:lady_blaze": {
+    "name": "Blazing Lady",
+    "model": "models/dungeons_and_combat/lady_blaze.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:mummy": {
+    "name": "Centinel",
+    "model": "models/dungeons_and_combat/mummy.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:palehand": {
+    "name": "Palehand",
+    "model": "models/dungeons_and_combat/palehand.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:prisoner_skull": {
+    "name": "Prisoner Skull",
+    "model": "models/dungeons_and_combat/prisoner_skull.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:pyro_knight": {
+    "name": "Pyro Knight",
+    "model": "models/dungeons_and_combat/pyro_knight.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:remanent": {
+    "name": "Remanent",
+    "model": "models/dungeons_and_combat/remanent.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:royal_skull": {
+    "name": "Royal Skull",
+    "model": "models/dungeons_and_combat/royal_skull.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:sandstone_golem": {
+    "name": "Sandstone Golem",
+    "model": "models/dungeons_and_combat/sandstone_golem.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:skull": {
+    "name": "Skull",
+    "model": "models/dungeons_and_combat/skull.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:skull_deserter": {
+    "name": "Skull Deserter",
+    "model": "models/dungeons_and_combat/skull_deserter.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:skull_mimic": {
+    "name": "Skull Mimic",
+    "model": "models/dungeons_and_combat/skull_mimic.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:sunleia": {
+    "name": "Sunleia",
+    "model": "models/dungeons_and_combat/sunleia.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:the_aberrator": {
+    "name": "The Aberrator",
+    "model": "models/dungeons_and_combat/the_aberrator.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:the_grave_watcher": {
+    "name": "The GraveWatcher",
+    "model": "models/dungeons_and_combat/the_grave_watcher.glb",
+    "animated": true
+  },
+  "dungeons_and_combat:weakness": {
+    "name": "Weakness",
+    "model": "models/dungeons_and_combat/weakness.glb",
+    "animated": true
+  },
+  "endlessbiomes:anklor": {
+    "name": "Anklor",
+    "model": "models/endlessbiomes/anklor.glb"
+  },
+  "endlessbiomes:perished_shiftling": {
+    "name": "Perished Shiftling",
+    "model": "models/endlessbiomes/perished_shiftling.glb"
+  },
+  "endlessbiomes:radon_sentinel": {
+    "name": "Radon Sentinel",
+    "model": "models/endlessbiomes/radon_sentinel.glb"
+  },
+  "endlessbiomes:resistive_sentinel": {
+    "name": "Resistive Sentinel",
+    "model": "models/endlessbiomes/resistive_sentinel.glb"
+  },
+  "endlessbiomes:riftite_sentinel": {
+    "name": "Riftite Sentinel",
+    "model": "models/endlessbiomes/riftite_sentinel.glb"
+  },
+  "endlessbiomes:shiftling": {
+    "name": "Shiftling",
+    "model": "models/endlessbiomes/shiftling.glb"
+  },
+  "friendsandfoes:iceologer": {
+    "name": "Iceologer",
+    "model": "models/friendsandfoes/iceologer.glb"
+  },
+  "friendsandfoes:illusioner": {
+    "name": "Illusioner",
+    "model": "models/friendsandfoes/illusioner.glb"
+  },
+  "friendsandfoes:mauler": {
+    "name": "Mauler",
+    "model": "models/friendsandfoes/mauler.glb",
+    "animated": true
+  },
+  "friendsandfoes:wildfire": {
+    "name": "Wildfire",
+    "model": "models/friendsandfoes/wildfire.glb",
+    "animated": true
+  },
+  "graveyard:acolyte": {
+    "name": "Acolyte",
+    "model": "models/graveyard/acolyte.glb"
+  },
+  "graveyard:corrupted_pillager": {
+    "name": "Corrupted Pillager",
+    "model": "models/graveyard/corrupted_pillager.glb"
+  },
+  "graveyard:corrupted_vindicator": {
+    "name": "Corrupted Vindicator",
+    "model": "models/graveyard/corrupted_vindicator.glb"
+  },
+  "graveyard:ghoul": {
+    "name": "Ghoul",
+    "model": "models/graveyard/ghoul.glb",
+    "animated": true
+  },
+  "graveyard:lich": {
+    "name": "Corrupted Champion",
+    "model": "models/graveyard/lich.glb",
+    "animated": true
+  },
+  "graveyard:nightmare": {
+    "name": "Nightmare",
+    "model": "models/graveyard/nightmare.glb",
+    "animated": true
+  },
+  "graveyard:reaper": {
+    "name": "Reaper",
+    "model": "models/graveyard/reaper.glb",
+    "animated": true
+  },
+  "graveyard:revenant": {
+    "name": "Revenant",
+    "model": "models/graveyard/revenant.glb",
+    "animated": true
+  },
+  "gtbcs_geomancy_plus:geomancer": {
+    "name": "Geomancer",
+    "model": "models/gtbcs_geomancy_plus/geomancer.glb"
+  },
+  "iceandfire:amphithere": {
+    "name": "Amphithere",
+    "model": "models/iceandfire/amphithere.glb"
+  },
+  "iceandfire:black_frost_dragon": {
+    "name": "Black Frost",
+    "model": "models/iceandfire/black_frost_dragon.glb"
+  },
+  "iceandfire:cyclops": {
+    "name": "Cyclops",
+    "model": "models/iceandfire/cyclops.glb"
+  },
+  "iceandfire:deathworm": {
+    "name": "Death Worm",
+    "model": "models/iceandfire/deathworm.glb"
+  },
+  "iceandfire:dread_beast": {
+    "name": "Dread Beast",
+    "model": "models/iceandfire/dread_beast.glb"
+  },
+  "iceandfire:dread_ghoul": {
+    "name": "Dread Ghoul",
+    "model": "models/iceandfire/dread_ghoul.glb"
+  },
+  "iceandfire:dread_knight": {
+    "name": "Dread Knight",
+    "model": "models/iceandfire/dread_knight.glb"
+  },
+  "iceandfire:dread_lich": {
+    "name": "Dread Lich",
+    "model": "models/iceandfire/dread_lich.glb"
+  },
+  "iceandfire:dread_queen": {
+    "name": "Dread Queen",
+    "model": "models/iceandfire/dread_queen.glb"
+  },
+  "iceandfire:dread_scuttler": {
+    "name": "Dread Scuttler",
+    "model": "models/iceandfire/dread_scuttler.glb"
+  },
+  "iceandfire:dread_thrall": {
+    "name": "Dread Thrall",
+    "model": "models/iceandfire/dread_thrall.glb"
+  },
+  "iceandfire:fire_dragon": {
+    "name": "Fire Dragon",
+    "model": "models/iceandfire/fire_dragon.glb",
+    "animated": true
+  },
+  "iceandfire:ghost": {
+    "name": "Ghost",
+    "model": "models/iceandfire/ghost.glb"
+  },
+  "iceandfire:gorgon": {
+    "name": "Gorgon",
+    "model": "models/iceandfire/gorgon.glb"
+  },
+  "iceandfire:hydra": {
+    "name": "Hydra",
+    "model": "models/iceandfire/hydra.glb"
+  },
+  "iceandfire:ice_dragon": {
+    "name": "Ice Dragon",
+    "model": "models/iceandfire/ice_dragon.glb",
+    "animated": true
+  },
+  "iceandfire:lightning_dragon": {
+    "name": "Lightning Dragon",
+    "model": "models/iceandfire/lightning_dragon.glb",
+    "animated": true
+  },
+  "iceandfire:myrmex_queen": {
+    "name": "Myrmex Queen",
+    "model": "models/iceandfire/myrmex_queen.glb"
+  },
+  "iceandfire:myrmex_royal": {
+    "name": "Myrmex Royal",
+    "model": "models/iceandfire/myrmex_royal.glb"
+  },
+  "iceandfire:myrmex_sentinel": {
+    "name": "Myrmex Sentinel",
+    "model": "models/iceandfire/myrmex_sentinel.glb"
+  },
+  "iceandfire:myrmex_soldier": {
+    "name": "Myrmex Soldier",
+    "model": "models/iceandfire/myrmex_soldier.glb"
+  },
+  "iceandfire:myrmex_worker": {
+    "name": "Myrmex Worker",
+    "model": "models/iceandfire/myrmex_worker.glb"
+  },
+  "iceandfire:sea_serpent": {
+    "name": "Sea Serpent",
+    "model": "models/iceandfire/sea_serpent.glb",
+    "animated": true
+  },
+  "iceandfire:siren": {
+    "name": "Siren",
+    "model": "models/iceandfire/siren.glb"
+  },
+  "iceandfire:stymphalian_bird": {
+    "name": "Stymphalian Bird",
+    "model": "models/iceandfire/stymphalian_bird.glb"
+  },
+  "iceandfire:troll": {
+    "name": "Troll",
+    "model": "models/iceandfire/troll.glb"
+  },
+  "irons_spellbooks:apothecarist": {
+    "name": "Apothecarist",
+    "model": "models/irons_spellbooks/apothecarist.glb"
+  },
+  "irons_spellbooks:archevoker": {
+    "name": "Archevoker",
+    "model": "models/irons_spellbooks/archevoker.glb"
+  },
+  "irons_spellbooks:citadel_keeper": {
+    "name": "Ancient Knight",
+    "model": "models/irons_spellbooks/citadel_keeper.glb"
+  },
+  "irons_spellbooks:cryomancer": {
+    "name": "Cryomancer",
+    "model": "models/irons_spellbooks/cryomancer.glb"
+  },
+  "irons_spellbooks:dead_king": {
+    "name": "The Dead King",
+    "model": "models/irons_spellbooks/dead_king.glb"
+  },
+  "irons_spellbooks:fire_boss": {
+    "name": "Echo of Tyros, First Flamebearer",
+    "model": "models/irons_spellbooks/fire_boss.glb"
+  },
+  "irons_spellbooks:ice_spider": {
+    "name": "Ice Spider",
+    "model": "models/irons_spellbooks/ice_spider.glb"
+  },
+  "irons_spellbooks:necromancer": {
+    "name": "Necromancer",
+    "model": "models/irons_spellbooks/necromancer.glb"
+  },
+  "irons_spellbooks:pyromancer": {
+    "name": "Pyromancer",
+    "model": "models/irons_spellbooks/pyromancer.glb"
+  },
+  "minecraft:blaze": {
+    "name": "Blaze",
+    "model": "models/minecraft/blaze.glb"
+  },
+  "minecraft:cave_spider": {
+    "name": "Cave Spider",
+    "model": "models/minecraft/cave_spider.glb"
+  },
+  "minecraft:creeper": {
+    "name": "Creeper",
+    "model": "models/minecraft/creeper.glb"
+  },
+  "minecraft:drowned": {
+    "name": "Drowned",
+    "model": "models/minecraft/drowned.glb"
+  },
+  "minecraft:ender_dragon": {
+    "name": "Ender Dragon",
+    "model": "models/minecraft/ender_dragon.glb"
+  },
+  "minecraft:enderman": {
+    "name": "Enderman",
+    "model": "models/minecraft/enderman.glb"
+  },
+  "minecraft:evoker": {
+    "name": "Evoker",
+    "model": "models/minecraft/evoker.glb"
+  },
+  "minecraft:ghast": {
+    "name": "Ghast",
+    "model": "models/minecraft/ghast.glb"
+  },
+  "minecraft:hoglin": {
+    "name": "Hoglin",
+    "model": "models/minecraft/hoglin.glb"
+  },
+  "minecraft:husk": {
+    "name": "Husk",
+    "model": "models/minecraft/husk.glb"
+  },
+  "minecraft:magma_cube": {
+    "name": "Magma Cube",
+    "model": "models/minecraft/magma_cube.glb"
+  },
+  "minecraft:phantom": {
+    "name": "Phantom",
+    "model": "models/minecraft/phantom.glb"
+  },
+  "minecraft:piglin": {
+    "name": "Piglin",
+    "model": "models/minecraft/piglin.glb"
+  },
+  "minecraft:piglin_brute": {
+    "name": "Piglin Brute",
+    "model": "models/minecraft/piglin_brute.glb"
+  },
+  "minecraft:pillager": {
+    "name": "Pillager",
+    "model": "models/minecraft/pillager.glb"
+  },
+  "minecraft:shulker": {
+    "name": "Shulker",
+    "model": "models/minecraft/shulker.glb"
+  },
+  "minecraft:skeleton": {
+    "name": "Skeleton",
+    "model": "models/minecraft/skeleton.glb"
+  },
+  "minecraft:slime": {
+    "name": "Slime",
+    "model": "models/minecraft/slime.glb"
+  },
+  "minecraft:spider": {
+    "name": "Spider",
+    "model": "models/minecraft/spider.glb"
+  },
+  "minecraft:stray": {
+    "name": "Stray",
+    "model": "models/minecraft/stray.glb"
+  },
+  "minecraft:vindicator": {
+    "name": "Vindicator",
+    "model": "models/minecraft/vindicator.glb"
+  },
+  "minecraft:warden": {
+    "name": "Warden",
+    "model": "models/minecraft/warden.glb"
+  },
+  "minecraft:witch": {
+    "name": "Witch",
+    "model": "models/minecraft/witch.glb"
+  },
+  "minecraft:wither": {
+    "name": "Wither",
+    "model": "models/minecraft/wither.glb"
+  },
+  "minecraft:wither_skeleton": {
+    "name": "Wither Skeleton",
+    "model": "models/minecraft/wither_skeleton.glb"
+  },
+  "minecraft:zombie": {
+    "name": "Zombie",
+    "model": "models/minecraft/zombie.glb"
+  },
+  "minecraft:zombie_villager": {
+    "name": "Zombie Villager",
+    "model": "models/minecraft/zombie_villager.glb"
+  },
+  "minecraft:zombified_piglin": {
+    "name": "Zombified Piglin",
+    "model": "models/minecraft/zombified_piglin.glb"
+  },
+  "mowziesmobs:ferrous_wroughtnaut": {
+    "name": "Ferrous Wroughtnaut",
+    "model": "models/mowziesmobs/ferrous_wroughtnaut.glb"
+  },
+  "mowziesmobs:frostmaw": {
+    "name": "Frostmaw",
+    "model": "models/mowziesmobs/frostmaw.glb"
+  },
+  "mowziesmobs:naga": {
+    "name": "Naga",
+    "model": "models/mowziesmobs/naga.glb"
+  },
+  "mowziesmobs:umvuthi": {
+    "name": "Umvuthi, the Sunbird",
+    "model": "models/mowziesmobs/umvuthi.glb"
+  },
+  "nightfall_invade:arterius": {
+    "name": "Arterius, the Last Watcher",
+    "model": "models/nightfall_invade/arterius.glb"
+  },
+  "nightfall_invade:fallen_knight": {
+    "name": "Fallen Knight",
+    "model": "models/nightfall_invade/fallen_knight.glb"
+  },
+  "nightfall_invade:scarlet_hunter": {
+    "name": "Ó Brolacháin, the Scarlet Hunter",
+    "model": "models/nightfall_invade/scarlet_hunter.glb"
+  },
+  "outer_end:entombed": {
+    "name": "Entombed",
+    "model": "models/outer_end/entombed.glb"
+  },
+  "outer_end:himmelite": {
+    "name": "Himmelite",
+    "model": "models/outer_end/himmelite.glb"
+  },
+  "outer_end:purpur_golem": {
+    "name": "Purpur Golem",
+    "model": "models/outer_end/purpur_golem.glb"
+  },
+  "outer_end:sinker": {
+    "name": "Sinker",
+    "model": "models/outer_end/sinker.glb"
+  },
+  "outer_end:spectrafly": {
+    "name": "Spectrafly",
+    "model": "models/outer_end/spectrafly.glb"
+  },
+  "outer_end:stalker": {
+    "name": "Stalker",
+    "model": "models/outer_end/stalker.glb"
+  },
+  "past:decaying_king": {
+    "name": "Decaying King",
+    "model": "models/past/decaying_king.glb"
+  },
+  "past:emaciated_noble": {
+    "name": "Emaciated Noble",
+    "model": "models/past/emaciated_noble.glb"
+  },
+  "past:emaciated_pikeman": {
+    "name": "Emaciated Pikeman",
+    "model": "models/past/emaciated_pikeman.glb"
+  },
+  "past:emaciated_spearman": {
+    "name": "Emaciated Spearman",
+    "model": "models/past/emaciated_spearman.glb"
+  },
+  "past:rotten_champion": {
+    "name": "Rotten Champion",
+    "model": "models/past/rotten_champion.glb"
+  },
+  "past:rotten_giant": {
+    "name": "Rotten Giant",
+    "model": "models/past/rotten_giant.glb"
+  },
+  "past:rotten_guard": {
+    "name": "Rotten Guard",
+    "model": "models/past/rotten_guard.glb"
+  },
+  "past:rotten_knight": {
+    "name": "Rotten Knight",
+    "model": "models/past/rotten_knight.glb"
+  },
+  "past:rotten_soldier": {
+    "name": "Rotten Soldier",
+    "model": "models/past/rotten_soldier.glb"
+  },
+  "past:rotten_titan": {
+    "name": "Rotten Titan",
+    "model": "models/past/rotten_titan.glb"
+  },
+  "samurai_dynasty:akaname": {
+    "name": "Akaname",
+    "model": "models/samurai_dynasty/akaname.glb",
+    "animated": true
+  },
+  "samurai_dynasty:enenra": {
+    "name": "Enenra",
+    "model": "models/samurai_dynasty/enenra.glb",
+    "animated": true
+  },
+  "samurai_dynasty:jorogumo": {
+    "name": "Jorogumo",
+    "model": "models/samurai_dynasty/jorogumo.glb",
+    "animated": true
+  },
+  "samurai_dynasty:kitsune": {
+    "name": "Kitsune",
+    "model": "models/samurai_dynasty/kitsune.glb",
+    "animated": true
+  },
+  "samurai_dynasty:oni": {
+    "name": "Oni",
+    "model": "models/samurai_dynasty/oni.glb",
+    "animated": true
+  },
+  "samurai_dynasty:onibi": {
+    "name": "Onibi",
+    "model": "models/samurai_dynasty/onibi.glb",
+    "animated": true
+  },
+  "samurai_dynasty:tanuki": {
+    "name": "Tanuki",
+    "model": "models/samurai_dynasty/tanuki.glb",
+    "animated": true
+  },
+  "samurai_dynasty:twotailed": {
+    "name": "Two-Tailed Fox",
+    "model": "models/samurai_dynasty/twotailed.glb"
+  },
+  "souls_like_bosses:nightlord": {
+    "name": "The Nightlord",
+    "model": "models/souls_like_bosses/nightlord.glb",
+    "animated": true
+  },
+  "soulsweapons:accursed_lord_boss": {
+    "name": "The Decaying King",
+    "model": "models/soulsweapons/accursed_lord_boss.glb",
+    "animated": true
+  },
+  "soulsweapons:big_chungus": {
+    "name": "Moderately Sized Chungus",
+    "model": "models/soulsweapons/big_chungus.glb"
+  },
+  "soulsweapons:chaos_monarch": {
+    "name": "Monarch of Chaos",
+    "model": "models/soulsweapons/chaos_monarch.glb",
+    "animated": true
+  },
+  "soulsweapons:day_stalker": {
+    "name": "Day Stalker",
+    "model": "models/soulsweapons/day_stalker.glb",
+    "animated": true
+  },
+  "soulsweapons:draugr_boss": {
+    "name": "Old Champion's Remains",
+    "model": "models/soulsweapons/draugr_boss.glb"
+  },
+  "soulsweapons:evil_forlorn": {
+    "name": "Invading Forlorn",
+    "model": "models/soulsweapons/evil_forlorn.glb"
+  },
+  "soulsweapons:forlorn": {
+    "name": "Forlorn",
+    "model": "models/soulsweapons/forlorn.glb"
+  },
+  "soulsweapons:moonknight": {
+    "name": "Fallen Icon",
+    "model": "models/soulsweapons/moonknight.glb"
+  },
+  "soulsweapons:night_prowler": {
+    "name": "Night Prowler",
+    "model": "models/soulsweapons/night_prowler.glb",
+    "animated": true
+  },
+  "soulsweapons:night_shade": {
+    "name": "Frenzied Shade",
+    "model": "models/soulsweapons/night_shade.glb",
+    "animated": true
+  },
+  "soulsweapons:returning_knight": {
+    "name": "Returning Knight",
+    "model": "models/soulsweapons/returning_knight.glb",
+    "animated": true
+  },
+  "soulsweapons:withered_demon": {
+    "name": "Withered Demon",
+    "model": "models/soulsweapons/withered_demon.glb",
+    "animated": true
+  },
+  "traveloptics:aqua_grandmaster": {
+    "name": "Aqua Grandmaster",
+    "model": "models/traveloptics/aqua_grandmaster.glb"
+  },
+  "traveloptics:aquamancer": {
+    "name": "Aquamancer",
+    "model": "models/traveloptics/aquamancer.glb"
+  },
+  "traveloptics:enraged_dead_king": {
+    "name": "Enraged Dead King",
+    "model": "models/traveloptics/enraged_dead_king.glb"
+  },
+  "traveloptics:fading_mage": {
+    "name": "Fading Mage",
+    "model": "models/traveloptics/fading_mage.glb",
+    "animated": true
+  },
+  "traveloptics:the_nightwarden": {
+    "name": "The Nightwarden",
+    "model": "models/traveloptics/the_nightwarden.glb"
+  },
+  "traveloptics:voidshelf_golem": {
+    "name": "VoidShelf Golem",
+    "model": "models/traveloptics/voidshelf_golem.glb"
+  },
+  "valarian_conquest:archer": {
+    "name": "Archer",
+    "model": "models/valarian_conquest/archer.glb"
+  },
+  "valarian_conquest:crossbowman": {
+    "name": "Valarian Archer",
+    "model": "models/valarian_conquest/crossbowman.glb"
+  },
+  "valarian_conquest:soldier": {
+    "name": "Soldier",
+    "model": "models/valarian_conquest/soldier.glb"
+  },
+  "wom:evil_skeleton": {
+    "name": "Evil Skeleton",
+    "model": "models/wom/evil_skeleton.glb"
+  },
+  "wom:hollow": {
+    "name": "Hollow",
+    "model": "models/wom/hollow.glb"
+  },
+  "wom:lupus_rex": {
+    "name": "Lupus Aureum",
+    "model": "models/wom/lupus_rex.glb"
+  },
+  "wom:lycanth": {
+    "name": "Lycanth",
+    "model": "models/wom/lycanth.glb"
+  },
+  "wom:saulomonk": {
+    "name": "Saulomonk",
+    "model": "models/wom/saulomonk.glb"
+  }
+}

@@ -6,6 +6,7 @@
   "items": ["cataclysm:draugr_spawn_egg", "cataclysm:royal_draugr_spawn_egg", "cataclysm:elite_draugr_spawn_egg"],
   "infobox": {
     "item": "cataclysm:royal_draugr_spawn_egg",
+    "model": ["cataclysm:draugr", "cataclysm:royal_draugr", "cataclysm:elite_draugr"],
     "rows": [
       ["ID", "`cataclysm:draugr`, `royal_draugr`, `elite_draugr`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

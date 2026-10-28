@@ -6,6 +6,7 @@
   "items": ["minecraft:zombie_spawn_egg", "minecraft:husk_spawn_egg", "minecraft:drowned_spawn_egg", "minecraft:zombie_villager_spawn_egg"],
   "infobox": {
     "item": "minecraft:zombie_spawn_egg",
+    "model": ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:zombie_villager"],
     "rows": [
       ["ID", "`minecraft:zombie`"],
       ["Act", "[[progression/act-i-awakening|Act I]]"],

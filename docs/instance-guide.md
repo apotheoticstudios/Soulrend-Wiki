@@ -211,6 +211,26 @@ The `soulrend:` namespace only holds tags, recipes and textures. Pack items are 
   - The Corrupted Champion's entity ID is `graveyard:lich`.
   - The Scarlet Hunter is called "Brad" by its mod.
 
+## Mob models
+
+`tools/models/mobs.json` records where each mob's model lives (researched 2026-10-28); `tools/models/discover.mjs` finds most of it by following the renderer registration. What the mods do:
+
+- **GeckoLib/AzureLib mods** keep `assets/<ns>/geo/**.geo.json` and `animations/**.animation.json`. The renderer or its model class names them, but the strings are often built at run time, so discovery guesses wrong names (`this`, `translation`) for Iron's Spellbooks, Traveloptics and Soulslike Weaponry; their files are `geo/entity/<name>.geo.json` and `textures/entity/<name>.png`.
+  - **Iron's casting mobs** (Necromancer, Pyromancer, Cryomancer, Apothecarist) share `geo/abstract_casting_mob.geo.json` with a texture each; Traveloptics' Aquamancer, Aqua Grandmaster and the Geomancy addon's Geomancer reuse it. The Enraged Dead King reuses Iron's `dead_king` model with `dead_king_enraged.png`.
+  - **MCreator mods (Dungeons and Combat)** build the texture path as `textures/entities/<texture>.png`, where `<texture>` is a string in the *entity* class (`human_soleia` for Sunleia, `mimic` for the Skull Mimic, `centinel` for the Mummy). The Mummy and the Weakness use the `centinel` and `disappointment` models.
+  - **Effect bones** sit in some geo files and are hidden in code: the Nightlord's `lightning` planes are 1024 pixels wide.
+- **Java models** come in four kinds: vanilla `LayerDefinition`s (`createBodyLayer`, or vanilla's own `LayerDefinitions.createRoots`), Citadel's `AdvancedModelBox` (Alex's Mobs, Alex's Caves, Ice and Fire), Cataclysm's copy of it in `lionfishapi`, and Mowzie's copy of llibrary. All four build cubes through the same `ModelBox(texU, texV, x, y, z, w, h, d, growX, growY, growZ, mirror, texW, texH)` constructor.
+  - Newer Cataclysm models, Deeper and Darker, Bosses'Rise and Friends and Foes take their idle pose from vanilla `AnimationDefinition`s in static fields (`Scylla_Normal_Animation.IDLE`); without one, Scylla lies flat.
+  - Render layers add parts the model class doesn't have: Ice and Fire's `LayerHydraHead` draws a `ModelHydraHead` per head (offsets in its `TRANSLATE`/`ROTATE` arrays), the Ignited Revenant's shields use `revenant_shield.png`, and Maledictus draws `maledictus_armor.png` over its ghost texture. The vanilla ender dragon draws its `neck` part 5 times and then 12 more as the tail, in `EnderDragonRenderer.DragonModel.renderToBuffer`.
+  - Scylla's `anchor2` is the thrown anchor, shown only during that attack.
+- **Ice and Fire dragons** are Tabula files in `models/tabula/<kind>dragon/` (one `.tbl` per pose; `*_ground` is the base). Their textures are `textures/models/<kind>dragon/<color>_<stage>.png` plus `_eyes`. The unused Black Frost has a texture (`textures/models/dread/black_frost.png`) laid out for the ice dragon model; the unused Dread Queen has a model class and texture.
+- **Epic Fight mobs:** Weapons of Miracles ships meshes in `animmodels/entity/mob/*.json`. Nightfall Invade's bosses use Epic Fight's biped mesh (`epicfight:animmodels/entity/biped.json`) with a skin in `textures/entity/`, and their `setEquipment` gives them gear: Arterius the Duskfire armor and the Meen spear, the Scarlet Hunter the Crimson Moon. EFN's armor (`animmodels/armor/`) and weapon (`animmodels/weapon/`) meshes are skinned to the same biped armature, so they line up with the body as they are.
+- **Armor on mobs:** MCreator armor (Dungeons and Combat) maps each piece onto parts of one model class (`Modelkamath_armor`; boots use `left_shoe`/`right_shoe` on the legs), and the game copies the wearer's part poses onto them. Fantasy Armor is GeckoLib (`geo/<set>_armor.geo.json`, `bipedHead` … bones; `armorCape` is the non-Epic Fight cape). EFN's Ruinfighter has meshes for the chestplate and leggings only; its helmet and boots use the vanilla armor model with `textures/armor/ruinfighter.png`.
+- **The Past's soldiers** are vanilla zombies, skeletons and wither skeletons that `kubejs/server_scripts/dimension/past.js` renames and arms (`CONFIG.PAST.SOLDIERS`); the wiki models them as `past:<name>` entries.
+- **Valarian Conquest** soldiers use the player model with a `male_citizen_<n>.png` skin chosen per entity, plus their faction's armor from `textures/models/armor/<faction>_layer_1/2.png`.
+- **Resource packs** load in the order of `config/paxi/resourcepack_load_order.json` (`options.txt`'s list is empty). `Excalibur_V1.21.10.zip` retextures the vanilla mobs at the 1.20.1 paths without changing their models; separate Excalibur packs cover Cataclysm, Mowzie's Mobs, Friends and Foes, Deeper and Darker, Aquamirae, Iron's Spellbooks, Ice and Fire and others.
+- `aquamirae:pillagers_patrol` has a spawn egg but no model: it spawns a patrol rather than being a mob.
+
 ## Items
 
 Use `game-data/items.json` and `tags.json`, not registry dumps.

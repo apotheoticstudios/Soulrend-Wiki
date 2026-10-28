@@ -4,7 +4,8 @@
   "navTitle": "Overview",
   "category": "Features",
   "order": 0,
-  "summary": "Mechanics that Soulrend adds or changes."
+  "summary": "Mechanics that Soulrend adds or changes.",
+  "icon": "minecraft:nether_star"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

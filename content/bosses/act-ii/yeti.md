@@ -6,6 +6,7 @@
   "items": ["block_factorys_bosses:yeti_spawn_egg"],
   "infobox": {
     "item": "block_factorys_bosses:yeti_spawn_egg",
+    "model": "block_factorys_bosses:yeti",
     "rows": [
       ["ID", "`block_factorys_bosses:yeti`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

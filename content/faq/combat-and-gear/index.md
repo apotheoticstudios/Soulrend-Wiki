@@ -3,7 +3,8 @@
   "title": "Combat & Gear FAQ",
   "navTitle": "Combat & Gear",
   "category": "FAQ",
-  "order": 3
+  "order": 3,
+  "icon": "minecraft:shield"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

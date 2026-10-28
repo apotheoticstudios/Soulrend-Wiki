@@ -4,7 +4,8 @@
   "navTitle": "Act I",
   "category": "Enemies",
   "order": 1,
-  "summary": "Overworld enemies met from the start: Hunter's Journal targets, Factions soldiers, trolls and common night spawns."
+  "summary": "Overworld enemies met from the start: Hunter's Journal targets, Factions soldiers, trolls and common night spawns.",
+  "icon": "minecraft:zombie_spawn_egg"
 }
 ---
 <!-- sources:

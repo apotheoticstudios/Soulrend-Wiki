@@ -4,7 +4,8 @@
   "navTitle": "Warrior",
   "category": "Skill Trees",
   "order": 1,
-  "summary": "The Warrior passive skill tree: a core of six spokes and two subclasses, Templar and Berserker."
+  "summary": "The Warrior passive skill tree: a core of six spokes and two subclasses, Templar and Berserker.",
+  "icon": "epicfight:iron_greatsword"
 }
 ---
 <!-- sources:

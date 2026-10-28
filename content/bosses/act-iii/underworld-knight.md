@@ -5,6 +5,7 @@
   "items": ["block_factorys_bosses:underworld_knight_spawn_egg"],
   "infobox": {
     "item": "block_factorys_bosses:underworld_knight_spawn_egg",
+    "model": "block_factorys_bosses:underworld_knight",
     "rows": [
       ["ID", "`block_factorys_bosses:underworld_knight`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

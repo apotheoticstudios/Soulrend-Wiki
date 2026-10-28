@@ -4,7 +4,8 @@
   "navTitle": "Rogue",
   "category": "Skill Trees",
   "order": 3,
-  "summary": "The Rogue passive skill tree: a core of six spokes and two subclasses, Skirmisher and Assassin."
+  "summary": "The Rogue passive skill tree: a core of six spokes and two subclasses, Skirmisher and Assassin.",
+  "icon": "epicfight:iron_dagger"
 }
 ---
 <!-- sources:

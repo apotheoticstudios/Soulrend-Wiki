@@ -3,7 +3,8 @@
   "title": "Fusion Classes",
   "category": "Origins",
   "order": 5,
-  "summary": "Hybrid classes that mix melee and magic: Paladin, Reaper and Spellblade."
+  "summary": "Hybrid classes that mix melee and magic: Paladin, Reaper and Spellblade.",
+  "icon": "irons_spellbooks:amethyst_rapier"
 }
 ---
 <!-- sources:

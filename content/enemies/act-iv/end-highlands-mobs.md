@@ -21,6 +21,7 @@
   ],
   "infobox": {
     "item": "endlessbiomes:radon_sentinel_spawn_egg",
+    "model": ["outer_end:sinker", "outer_end:himmelite", "outer_end:entombed", "outer_end:purpur_golem", "outer_end:spectrafly", "outer_end:stalker", "endlessbiomes:anklor", "endlessbiomes:shiftling", "endlessbiomes:perished_shiftling", "endlessbiomes:radon_sentinel", "endlessbiomes:riftite_sentinel", "endlessbiomes:resistive_sentinel"],
     "rows": [
       ["Act", "[[progression/act-iv-beyond-reality|Act IV]]"],
       ["Level", "The player's level (Mimicube and Enderiophage never level)"],

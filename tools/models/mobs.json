@@ -1,0 +1,1777 @@
+{
+  "$comment": "Where each mob model comes from; see tools/make-models.mjs. Draft new entries with tools/models/discover.mjs.",
+  "$resourcePacks": [
+    {
+      "file": "Excalibur_V1.21.10.zip",
+      "namespaces": [
+        "minecraft"
+      ],
+      "prefix": "textures/",
+      "$why": "Soulrend loads Excalibur over vanilla (config/paxi/resourcepack_load_order.json); it only retextures"
+    }
+  ],
+  "alexscaves:atlatitan": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/AtlatitanModel",
+    "texture": "alexscaves:textures/entity/atlatitan.png",
+    "setup": true
+  },
+  "alexscaves:boundroid": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/BoundroidModel",
+    "texture": "alexscaves:textures/entity/boundroid.png"
+  },
+  "alexscaves:brainiac": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/BrainiacModel",
+    "texture": "alexscaves:textures/entity/brainiac.png"
+  },
+  "alexscaves:candicorn": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/CandicornModel",
+    "texture": "alexscaves:textures/entity/candicorn_0.png"
+  },
+  "alexscaves:caniac": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/CaniacModel",
+    "texture": "alexscaves:textures/entity/caniac.png"
+  },
+  "alexscaves:caramel_cube": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/CaramelCubeModel",
+    "texture": "alexscaves:textures/entity/caramel_cube/caramel_cube_small.png"
+  },
+  "alexscaves:corrodent": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/CorrodentModel",
+    "texture": "alexscaves:textures/entity/corrodent.png"
+  },
+  "alexscaves:deep_one": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/DeepOneModel",
+    "texture": "alexscaves:textures/entity/deep_one/deep_one.png"
+  },
+  "alexscaves:deep_one_knight": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/DeepOneKnightModel",
+    "texture": "alexscaves:textures/entity/deep_one/deep_one_knight.png"
+  },
+  "alexscaves:deep_one_mage": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/DeepOneMageModel",
+    "texture": "alexscaves:textures/entity/deep_one/deep_one_mage.png"
+  },
+  "alexscaves:ferrouslime": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/FerrouslimeModel",
+    "texture": "alexscaves:textures/entity/ferrouslime.png"
+  },
+  "alexscaves:forsaken": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/ForsakenModel",
+    "texture": "alexscaves:textures/entity/forsaken.png",
+    "setup": true
+  },
+  "alexscaves:gammaroach": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/GammaroachModel",
+    "texture": "alexscaves:textures/entity/gammaroach.png"
+  },
+  "alexscaves:gloomoth": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/GloomothModel",
+    "texture": "alexscaves:textures/entity/gloomoth.png"
+  },
+  "alexscaves:gossamer_worm": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/GossamerWormModel",
+    "texture": "alexscaves:textures/entity/gossamer_worm.png"
+  },
+  "alexscaves:grottoceratops": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/GrottoceratopsModel",
+    "texture": "alexscaves:textures/entity/grottoceratops.png"
+  },
+  "alexscaves:gum_worm": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/GumWormModel",
+    "texture": "alexscaves:textures/entity/gum_worm.png"
+  },
+  "alexscaves:gumbeeper": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/GumbeeperModel",
+    "texture": "alexscaves:textures/entity/gumbeeper.png"
+  },
+  "alexscaves:gummy_bear": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/GummyBearModel",
+    "texture": "alexscaves:textures/entity/gummy_bear_red.png"
+  },
+  "alexscaves:hullbreaker": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/HullbreakerModel",
+    "texture": "alexscaves:textures/entity/hullbreaker.png"
+  },
+  "alexscaves:lanternfish": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/LanternfishModel",
+    "texture": "alexscaves:textures/entity/lanternfish.png"
+  },
+  "alexscaves:luxtructosaurus": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/LuxtructosaurusModel",
+    "texture": "alexscaves:textures/entity/luxtructosaurus.png",
+    "setup": true
+  },
+  "alexscaves:magnetron": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/MagnetronModel",
+    "texture": "alexscaves:textures/entity/magnetron.png"
+  },
+  "alexscaves:notor": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/NotorModel",
+    "texture": "alexscaves:textures/entity/notor.png"
+  },
+  "alexscaves:nucleeper": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/NucleeperModel",
+    "texture": "alexscaves:textures/entity/nucleeper/nucleeper.png"
+  },
+  "alexscaves:radgill": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/RadgillModel",
+    "texture": "alexscaves:textures/entity/radgill.png"
+  },
+  "alexscaves:raycat": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/RaycatModel",
+    "texture": "alexscaves:textures/entity/raycat.png"
+  },
+  "alexscaves:relicheirus": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/RelicheirusModel",
+    "texture": "alexscaves:textures/entity/relicheirus.png"
+  },
+  "alexscaves:sea_pig": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/SeaPigModel",
+    "texture": "alexscaves:textures/entity/sea_pig.png"
+  },
+  "alexscaves:subterranodon": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/SubterranodonModel",
+    "texture": "alexscaves:textures/entity/subterranodon.png"
+  },
+  "alexscaves:sweetish_fish": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/SweetishFishModel",
+    "texture": "alexscaves:textures/entity/sweetish_fish_red.png"
+  },
+  "alexscaves:teletor": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/TeletorModel",
+    "texture": "alexscaves:textures/entity/teletor.png"
+  },
+  "alexscaves:tremorsaurus": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/TremorsaurusModel",
+    "texture": "alexscaves:textures/entity/tremorsaurus.png"
+  },
+  "alexscaves:tremorzilla": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/TremorzillaModel",
+    "texture": "alexscaves:textures/entity/tremorzilla/tremorzilla.png"
+  },
+  "alexscaves:tripodfish": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/TripodfishModel",
+    "texture": "alexscaves:textures/entity/tripodfish.png"
+  },
+  "alexscaves:underzealot": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/UnderzealotModel",
+    "texture": "alexscaves:textures/entity/underzealot.png"
+  },
+  "alexscaves:vallumraptor": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/VallumraptorModel",
+    "texture": "alexscaves:textures/entity/vallumraptor.png"
+  },
+  "alexscaves:vesper": {
+    "boxes": "com/github/alexmodguy/alexscaves/client/model/VesperModel",
+    "texture": "alexscaves:textures/entity/vesper.png"
+  },
+  "alexsmobs:farseer": {
+    "boxes": "com/github/alexthe666/alexsmobs/client/model/ModelFarseer",
+    "texture": "alexsmobs:textures/entity/farseer/farseer.png"
+  },
+  "alexsmobs:froststalker": {
+    "boxes": "com/github/alexthe666/alexsmobs/client/model/ModelFroststalker",
+    "texture": "alexsmobs:textures/entity/froststalker.png"
+  },
+  "alexsmobs:grizzly_bear": {
+    "boxes": "com/github/alexthe666/alexsmobs/client/model/ModelGrizzlyBear",
+    "texture": "alexsmobs:textures/entity/grizzly_bear.png"
+  },
+  "alexsmobs:komodo_dragon": {
+    "boxes": "com/github/alexthe666/alexsmobs/client/model/ModelKomodoDragon",
+    "texture": "alexsmobs:textures/entity/komodo_dragon.png"
+  },
+  "alexsmobs:rattlesnake": {
+    "boxes": "com/github/alexthe666/alexsmobs/client/model/ModelRattlesnake",
+    "texture": "alexsmobs:textures/entity/rattlesnake.png"
+  },
+  "alexsmobs:rocky_roller": {
+    "boxes": "com/github/alexthe666/alexsmobs/client/model/ModelRockyRoller",
+    "texture": "alexsmobs:textures/entity/rocky_roller.png"
+  },
+  "alexsmobs:skelewag": {
+    "boxes": "com/github/alexthe666/alexsmobs/client/model/ModelSkelewag",
+    "texture": "alexsmobs:textures/entity/skelewag_0.png"
+  },
+  "alexsmobs:tusklin": {
+    "boxes": "com/github/alexthe666/alexsmobs/client/model/ModelTusklin",
+    "texture": "alexsmobs:textures/entity/tusklin.png"
+  },
+  "aquamirae:abyssal_scyphoid": {
+    "layer": "com/obscuria/aquamirae/client/models/ModelAbyssalScyphoid.createBodyLayer",
+    "texture": "aquamirae:textures/entity/abyssal_scyphoid.png"
+  },
+  "aquamirae:anglerfish": {
+    "layer": "com/obscuria/aquamirae/client/models/ModelAnglerfish.createBodyLayer",
+    "texture": "aquamirae:textures/entity/anglerfish.png"
+  },
+  "aquamirae:captain_cornelia": {
+    "layer": "com/obscuria/aquamirae/client/models/ModelCaptainCornelia.createBodyLayer",
+    "texture": "aquamirae:textures/entity/captain_cornelia.png"
+  },
+  "aquamirae:eel": {
+    "layer": "com/obscuria/aquamirae/client/models/ModelEel.createBodyLayer",
+    "texture": "aquamirae:textures/entity/eel.png"
+  },
+  "aquamirae:maw": {
+    "layer": "com/obscuria/aquamirae/client/models/ModelMaw.createBodyLayer",
+    "texture": "aquamirae:textures/entity/maw.png"
+  },
+  "aquamirae:maze_mother": {
+    "layer": "com/obscuria/aquamirae/client/models/ModelMazeMother.createBodyLayer",
+    "texture": "aquamirae:textures/entity/maze_mother.png"
+  },
+  "aquamirae:spinefish": {
+    "layer": "com/obscuria/aquamirae/client/models/ModelSpinefish.createBodyLayer",
+    "texture": "aquamirae:textures/entity/spinefish.png"
+  },
+  "aquamirae:tortured_soul": {
+    "layer": "com/obscuria/aquamirae/client/models/ModelTorturedSoul.createBodyLayer",
+    "texture": "aquamirae:textures/entity/tortured_soul.png"
+  },
+  "ba_bt:core_golem": {
+    "layer": "com/brass_amber/ba_bt/client/model/hostile/CoreGolemModel.createBodyLayer",
+    "texture": "ba_bt:textures/entity/golem/core_golem/core_golem.png"
+  },
+  "ba_bt:end_golem": {
+    "layer": "com/brass_amber/ba_bt/client/model/hostile/LandGolemModel.createBodyLayer",
+    "texture": "ba_bt:textures/entity/golem/end_golem/end_golem.png"
+  },
+  "ba_bt:land_golem": {
+    "layer": "com/brass_amber/ba_bt/client/model/hostile/LandGolemModel.createBodyLayer",
+    "texture": "ba_bt:textures/entity/golem/land_golem/land_golem.png"
+  },
+  "ba_bt:nether_golem": {
+    "layer": "com/brass_amber/ba_bt/client/model/hostile/LandGolemModel.createBodyLayer",
+    "texture": "ba_bt:textures/entity/golem/nether_golem/nether_golem.png"
+  },
+  "ba_bt:ocean_golem": {
+    "layer": "com/brass_amber/ba_bt/client/model/hostile/OceanGolemModel.createBodyLayer",
+    "texture": "ba_bt:textures/entity/golem/ocean_golem/ocean_golem.png"
+  },
+  "ba_bt:sky_golem": {
+    "layer": "com/brass_amber/ba_bt/client/model/hostile/SkyGolemModel.createBodyLayer",
+    "texture": "ba_bt:textures/entity/golem/sky_golem/sky_golem.png"
+  },
+  "block_factorys_bosses:dragon_guard_sword": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modeldragon_guard_sword.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/dragon_guard.png",
+    "keyframes": "net/unusual/blockfactorysbosses/client/animation/dragon_guard_swordAnimation.IDLE"
+  },
+  "block_factorys_bosses:flaming_skeleton_guard_fireball": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modelflaming_skeleton_guard_fireball.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/flaming_skeleton_guard_fireball.png",
+    "keyframes": "net/unusual/blockfactorysbosses/client/animation/flaming_skeleton_guard_fireballAnimation.IDLE"
+  },
+  "block_factorys_bosses:flaming_skeleton_guard_sword": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modelflaming_skeleton_guard_sword.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/flaming_skeleton_guard_sword.png",
+    "keyframes": "net/unusual/blockfactorysbosses/client/animation/flaming_skeleton_guard_swordAnimation.IDLE"
+  },
+  "block_factorys_bosses:infernal_dragon": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modeldragon.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/dragon_2.png",
+    "emissive": "block_factorys_bosses:textures/entities/dragon_2_glow.png"
+  },
+  "block_factorys_bosses:pile_of_bones": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/ModelCustomModel.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/skeleton.png"
+  },
+  "block_factorys_bosses:sandworm": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modelsandworm.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/sandworm.png",
+    "keyframes": "net/unusual/blockfactorysbosses/client/animation/sandworm/sandwormIdleSpit.IDLE"
+  },
+  "block_factorys_bosses:soul_knight_wither_skeleton": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modelsoul_knight_wither_skeleton.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/soul_knight_wither_skeleton_sword.png",
+    "keyframes": "net/unusual/blockfactorysbosses/client/animation/soul_knight_wither_skeletonAnimation.IDLE"
+  },
+  "block_factorys_bosses:soul_skeleton": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modelsoul_skeleton.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/soul_skeleton.png",
+    "keyframes": "net/unusual/blockfactorysbosses/client/animation/soul_skeletonAnimation.IDLE"
+  },
+  "block_factorys_bosses:underworld_knight": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modelunderworld_knight.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/underworld_knight.png",
+    "keyframes": "net/unusual/blockfactorysbosses/client/animation/underworld_knight/knightIdleKnockDodge.IDLE_1"
+  },
+  "block_factorys_bosses:yeti": {
+    "layer": "net/unusual/blockfactorysbosses/client/model/Modelyeti.createBodyLayer",
+    "texture": "block_factorys_bosses:textures/entities/yeti.png",
+    "keyframes": "net/unusual/blockfactorysbosses/client/animation/yeti/yetiIdle.IDLE"
+  },
+  "cataclysm:ancient_remnant": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Ancient_Remnant_Rework_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/ancient_remnant/ancient_remnant.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Ancient_Remnant_Animation.IDLE"
+  },
+  "cataclysm:aptrgangr": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Aptrgangr_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/draugar/aptrgangr.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Aptrgangr_Animation.IDLE"
+  },
+  "cataclysm:cindaria": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Cindaria_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/sea/cindaria.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Cindaria_Animation.IDLE"
+  },
+  "cataclysm:clawdian": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Clawdian_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/sea/shrimp.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Clawdian_Animation.IDLE"
+  },
+  "cataclysm:coral_golem": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Coral_Golem_Model",
+    "texture": "cataclysm:textures/entity/deepling/coral_golem.png"
+  },
+  "cataclysm:coralssus": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Coralssus_Model",
+    "texture": "cataclysm:textures/entity/deepling/coralssus_fire.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Coralssus_Animation.IDLE"
+  },
+  "cataclysm:deepling": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Deepling_Model",
+    "texture": "cataclysm:textures/entity/deepling/deepling_1.png"
+  },
+  "cataclysm:deepling_angler": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Deepling_Angler_Model",
+    "texture": "cataclysm:textures/entity/deepling/deepling_angler.png"
+  },
+  "cataclysm:deepling_brute": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Deepling_Brute_Model",
+    "texture": "cataclysm:textures/entity/deepling/deepling_brute.png"
+  },
+  "cataclysm:deepling_priest": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Deepling_Priest_Model",
+    "texture": "cataclysm:textures/entity/deepling/deepling_priest.png"
+  },
+  "cataclysm:deepling_warlock": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Deepling_Warlock_Model",
+    "texture": "cataclysm:textures/entity/deepling/deepling_warlock.png"
+  },
+  "cataclysm:draugr": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Draugr_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/draugar/draugr.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Draugar_Animation.IDLE"
+  },
+  "cataclysm:drowned_host": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/CMModelLayers.lambda$register$15",
+    "texture": "cataclysm:textures/entity/sea/drowned_host.png"
+  },
+  "cataclysm:elite_draugr": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Elite_Draugr_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/draugar/elite_draugr.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Elite_Draugr_Animation.IDLE"
+  },
+  "cataclysm:ender_golem": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Ender_Golem_Model",
+    "texture": "cataclysm:textures/entity/ender_golem.png"
+  },
+  "cataclysm:ender_guardian": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Ender_Guardian_Model",
+    "texture": "cataclysm:textures/entity/ender_guardian.png"
+  },
+  "cataclysm:endermaptera": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Endermaptera_Model",
+    "texture": "cataclysm:textures/entity/ender_ssap_bug.png"
+  },
+  "cataclysm:hippocamtus": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Hippocamtus_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/sea/hippocamtus.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Hippocamtus_Animation.IDLE"
+  },
+  "cataclysm:ignis": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Ignis_Model",
+    "texture": "cataclysm:textures/entity/ignis/ignis_idle_0.png"
+  },
+  "cataclysm:ignited_berserker": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Ignited_Berserker_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/ignited_berserker.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Ignited_Berserker_Animation.IDLE"
+  },
+  "cataclysm:ignited_revenant": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Ignited_Revenant_Model",
+    "texture": "cataclysm:textures/entity/revenant_body.png",
+    "emissive": "cataclysm:textures/entity/revenant_layer.png",
+    "hide": [
+      "guardingring"
+    ],
+    "layers": [
+      {
+        "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Ignited_Revenant_Model",
+        "hide": [
+          "center"
+        ],
+        "texture": "cataclysm:textures/entity/revenant_shield.png"
+      }
+    ]
+  },
+  "cataclysm:kobolediator": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Kobolediator_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/koboleton/kobolediator.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Kobolediator_Animation.IDLE"
+  },
+  "cataclysm:koboleton": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Koboleton_Model",
+    "texture": "cataclysm:textures/entity/koboleton/koboleton.png"
+  },
+  "cataclysm:maledictus": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Maledictus_Model.createBodyLayer",
+    "texture": [
+      "cataclysm:textures/entity/maledictus/maledictus_ghost.png",
+      "cataclysm:textures/entity/maledictus/maledictus_armor.png"
+    ]
+  },
+  "cataclysm:netherite_monstrosity": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Netherite_Monstrosity_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/monstrosity/netherite_monstrosity.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Netherite_Monstrosity_Animation.IDLE"
+  },
+  "cataclysm:royal_draugr": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Royal_Draugr_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/draugar/royal_draugr.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Draugar_Animation.IDLE"
+  },
+  "cataclysm:scylla": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Scylla_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/scylla/scylla.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Scylla_Normal_Animation.IDLE",
+    "hide": [
+      "anchor2"
+    ]
+  },
+  "cataclysm:symbiocto": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Symbiocto_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/sea/symbiocto_open.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Symbiocto_Animation.IDLE"
+  },
+  "cataclysm:the_harbinger": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/The_Harbinger_Model",
+    "texture": "cataclysm:textures/entity/harbinger/the_harbinger.png"
+  },
+  "cataclysm:the_leviathan": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/The_Leviathan_Model",
+    "texture": "cataclysm:textures/entity/leviathan/the_leviathan.png"
+  },
+  "cataclysm:the_prowler": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/The_Prowler_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/factory/the_prowler.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Prowler_Animation.IDLE"
+  },
+  "cataclysm:the_watcher": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/The_Watcher_Model",
+    "texture": "cataclysm:textures/entity/factory/the_watcher.png"
+  },
+  "cataclysm:urchinkin": {
+    "layer": "com/github/L_Ender/cataclysm/client/model/entity/Urchinkin_Model.createBodyLayer",
+    "texture": "cataclysm:textures/entity/sea/urchinkin.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Urchinkin_Animation.IDLE"
+  },
+  "cataclysm:wadjet": {
+    "boxes": "com/github/L_Ender/cataclysm/client/model/entity/Wadjet_Model",
+    "texture": "cataclysm:textures/entity/koboleton/wadjet.png",
+    "keyframes": "com/github/L_Ender/cataclysm/client/animation/Wadjet_Animation.IDLE"
+  },
+  "deeperdarker:angler_fish": {
+    "layer": "com/kyanite/deeperdarker/client/model/AnglerFishModel.createBodyModel",
+    "texture": "deeperdarker:textures/entity/angler_fish.png"
+  },
+  "deeperdarker:sculk_centipede": {
+    "layer": "com/kyanite/deeperdarker/client/model/SculkCentipedeModel.createBodyModel",
+    "texture": "deeperdarker:textures/entity/sculk_centipede.png"
+  },
+  "deeperdarker:sculk_leech": {
+    "layer": "com/kyanite/deeperdarker/client/model/SculkLeechModel.createBodyModel",
+    "texture": "deeperdarker:textures/entity/sculk_leech.png"
+  },
+  "deeperdarker:sculk_snapper": {
+    "layer": "com/kyanite/deeperdarker/client/model/SculkSnapperModel.createBodyModel",
+    "texture": "deeperdarker:textures/entity/sculk_snapper.png",
+    "keyframes": "com/kyanite/deeperdarker/content/entities/animations/SculkSnapperAnimation.IDLE"
+  },
+  "deeperdarker:shattered": {
+    "layer": "com/kyanite/deeperdarker/client/model/ShatteredModel.createBodyModel",
+    "texture": "deeperdarker:textures/entity/shattered.png",
+    "keyframes": "com/kyanite/deeperdarker/content/entities/animations/ShatteredAnimation.IDLE"
+  },
+  "deeperdarker:shriek_worm": {
+    "layer": "com/kyanite/deeperdarker/client/model/ShriekWormModel.createBodyModel",
+    "texture": "deeperdarker:textures/entity/shriek_worm.png",
+    "keyframes": "com/kyanite/deeperdarker/content/entities/animations/ShriekWormAnimation.IDLE"
+  },
+  "deeperdarker:sludge": {
+    "layer": "com/kyanite/deeperdarker/client/model/SludgeModel.createInnerBodyModel",
+    "texture": "deeperdarker:textures/entity/sludge.png"
+  },
+  "deeperdarker:stalker": {
+    "layer": "com/kyanite/deeperdarker/client/model/StalkerModel.createBodyModel",
+    "texture": "deeperdarker:textures/entity/stalker.png",
+    "keyframes": "com/kyanite/deeperdarker/content/entities/animations/StalkerAnimation.IDLE"
+  },
+  "dungeons_and_combat:ammit": {
+    "geo": "dungeons_and_combat:geo/ammit.geo.json",
+    "animation": "dungeons_and_combat:animations/ammit.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/ammit.png"
+  },
+  "dungeons_and_combat:bloody_cultist": {
+    "geo": "dungeons_and_combat:geo/bloody_cultist.geo.json",
+    "animation": "dungeons_and_combat:animations/bloody_cultist.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/bloody_cultist.png"
+  },
+  "dungeons_and_combat:bloodymancer_cultist": {
+    "geo": "dungeons_and_combat:geo/bloodymancer.geo.json",
+    "animation": "dungeons_and_combat:animations/bloodymancer.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/bloodymancer_entity.png"
+  },
+  "dungeons_and_combat:counselor_skull": {
+    "geo": "dungeons_and_combat:geo/counselor_skull.geo.json",
+    "animation": "dungeons_and_combat:animations/counselor_skull.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/counselor_skull.png"
+  },
+  "dungeons_and_combat:ernos": {
+    "geo": "dungeons_and_combat:geo/ernos.geo.json",
+    "animation": "dungeons_and_combat:animations/ernos.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/ernos.png"
+  },
+  "dungeons_and_combat:failure": {
+    "geo": "dungeons_and_combat:geo/failure.geo.json",
+    "animation": "dungeons_and_combat:animations/failure.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/failure.png"
+  },
+  "dungeons_and_combat:flower_fairy": {
+    "geo": "dungeons_and_combat:geo/flowerfairy.geo.json",
+    "animation": "dungeons_and_combat:animations/flowerfairy.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/flower_fairy.png"
+  },
+  "dungeons_and_combat:fractured_vex": {
+    "geo": "dungeons_and_combat:geo/fractured_vex.geo.json",
+    "animation": "dungeons_and_combat:animations/fractured_vex.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/fractured_vex.png"
+  },
+  "dungeons_and_combat:ghoul": {
+    "geo": "dungeons_and_combat:geo/ghoul.geo.json",
+    "animation": "dungeons_and_combat:animations/ghoul.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/ghoul.png"
+  },
+  "dungeons_and_combat:gigant_scorpion": {
+    "geo": "dungeons_and_combat:geo/gigantscorpion.geo.json",
+    "animation": "dungeons_and_combat:animations/gigantscorpion.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/gigant_scorpion.png"
+  },
+  "dungeons_and_combat:hermit_witch": {
+    "geo": "dungeons_and_combat:geo/hermit_witch.geo.json",
+    "animation": "dungeons_and_combat:animations/hermit_witch.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/hermit_witch.png"
+  },
+  "dungeons_and_combat:high_priest": {
+    "geo": "dungeons_and_combat:geo/high_priest.geo.json",
+    "animation": "dungeons_and_combat:animations/high_priest.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/high_priest.png"
+  },
+  "dungeons_and_combat:horuso": {
+    "geo": "dungeons_and_combat:geo/horuso.geo.json",
+    "animation": "dungeons_and_combat:animations/horuso.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/horuso.png"
+  },
+  "dungeons_and_combat:infernus": {
+    "geo": "dungeons_and_combat:geo/infernus.geo.json",
+    "animation": "dungeons_and_combat:animations/infernus.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/infernus_alternative.png"
+  },
+  "dungeons_and_combat:kamath": {
+    "geo": "dungeons_and_combat:geo/royal_kamath.geo.json",
+    "animation": "dungeons_and_combat:animations/royal_kamath.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/royal_kamath.png",
+    "emissive": "dungeons_and_combat:textures/entities/royal_kamath_layer.png"
+  },
+  "dungeons_and_combat:lady_blaze": {
+    "geo": "dungeons_and_combat:geo/ladyblaze.geo.json",
+    "animation": "dungeons_and_combat:animations/ladyblaze.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/ladyblaze.png"
+  },
+  "dungeons_and_combat:mummy": {
+    "geo": "dungeons_and_combat:geo/centinel.geo.json",
+    "animation": "dungeons_and_combat:animations/centinel.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/centinel.png"
+  },
+  "dungeons_and_combat:palehand": {
+    "geo": "dungeons_and_combat:geo/palehands.geo.json",
+    "animation": "dungeons_and_combat:animations/palehands.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/palehands.png"
+  },
+  "dungeons_and_combat:prisoner_skull": {
+    "geo": "dungeons_and_combat:geo/prisoner_skull.geo.json",
+    "animation": "dungeons_and_combat:animations/prisoner_skull.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/prisoner_skull.png"
+  },
+  "dungeons_and_combat:pyro_knight": {
+    "geo": "dungeons_and_combat:geo/pyroknight.geo.json",
+    "animation": "dungeons_and_combat:animations/pyroknight.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/pyroknight.png"
+  },
+  "dungeons_and_combat:remanent": {
+    "geo": "dungeons_and_combat:geo/remanent.geo.json",
+    "animation": "dungeons_and_combat:animations/remanent.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/remanent.png"
+  },
+  "dungeons_and_combat:royal_skull": {
+    "geo": "dungeons_and_combat:geo/royal_skull.geo.json",
+    "animation": "dungeons_and_combat:animations/royal_skull.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/royal_skull.png"
+  },
+  "dungeons_and_combat:sandstone_golem": {
+    "geo": "dungeons_and_combat:geo/sandstone_golem.geo.json",
+    "animation": "dungeons_and_combat:animations/sandstone_golem.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/sandstone_golem.png"
+  },
+  "dungeons_and_combat:skull": {
+    "geo": "dungeons_and_combat:geo/skull.geo.json",
+    "animation": "dungeons_and_combat:animations/skull.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/skull.png"
+  },
+  "dungeons_and_combat:skull_deserter": {
+    "geo": "dungeons_and_combat:geo/skull_deserter.geo.json",
+    "animation": "dungeons_and_combat:animations/skull_deserter.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/skull_deserter.png"
+  },
+  "dungeons_and_combat:skull_mimic": {
+    "geo": "dungeons_and_combat:geo/mimic.geo.json",
+    "animation": "dungeons_and_combat:animations/mimic.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/mimic.png"
+  },
+  "dungeons_and_combat:sunleia": {
+    "geo": "dungeons_and_combat:geo/sunleia.geo.json",
+    "animation": "dungeons_and_combat:animations/sunleia.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/human_soleia.png",
+    "emissive": "dungeons_and_combat:textures/entities/sunleia_layer.png"
+  },
+  "dungeons_and_combat:the_aberrator": {
+    "geo": "dungeons_and_combat:geo/theaberrator.geo.json",
+    "animation": "dungeons_and_combat:animations/theaberrator.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/theaberrator.png"
+  },
+  "dungeons_and_combat:the_grave_watcher": {
+    "geo": "dungeons_and_combat:geo/gravewatcher.geo.json",
+    "animation": "dungeons_and_combat:animations/gravewatcher.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/gravewatcher.png",
+    "emissive": "dungeons_and_combat:textures/entities/gravewatcher_glowing.png"
+  },
+  "dungeons_and_combat:weakness": {
+    "geo": "dungeons_and_combat:geo/disappointment.geo.json",
+    "animation": "dungeons_and_combat:animations/disappointment.animation.json",
+    "texture": "dungeons_and_combat:textures/entities/disappointment.png"
+  },
+  "endlessbiomes:anklor": {
+    "layer": "net/mcreator/endlessbiomes/client/model/ModelAnklorNewNew.createBodyLayer",
+    "texture": "endlessbiomes:textures/entities/anklorupdatedtexture.png"
+  },
+  "endlessbiomes:perished_shiftling": {
+    "layer": "net/mcreator/endlessbiomes/client/model/ModelShiftling.createBodyLayer",
+    "texture": "endlessbiomes:textures/entities/perishedshiftlingzfightingfixed.png"
+  },
+  "endlessbiomes:radon_sentinel": {
+    "layer": "net/mcreator/endlessbiomes/client/model/ModelSentinel.createBodyLayer",
+    "texture": "endlessbiomes:textures/entities/sentineltexture.png"
+  },
+  "endlessbiomes:resistive_sentinel": {
+    "layer": "net/mcreator/endlessbiomes/client/model/ModelSentinel.createBodyLayer",
+    "texture": "endlessbiomes:textures/entities/resistivesentineltexture.png"
+  },
+  "endlessbiomes:riftite_sentinel": {
+    "layer": "net/mcreator/endlessbiomes/client/model/ModelSentinel.createBodyLayer",
+    "texture": "endlessbiomes:textures/entities/riftitesentineltexture.png"
+  },
+  "endlessbiomes:shiftling": {
+    "layer": "net/mcreator/endlessbiomes/client/model/ModelShiftling.createBodyLayer",
+    "texture": "endlessbiomes:textures/entities/shiftlingtexturetest.png"
+  },
+  "friendsandfoes:iceologer": {
+    "layer": "net/minecraft/client/model/IllagerModel.createBodyLayer",
+    "texture": "friendsandfoes:textures/entity/illager/iceologer.png"
+  },
+  "friendsandfoes:illusioner": {
+    "layer": "net/minecraft/client/model/IllagerModel.createBodyLayer",
+    "texture": "friendsandfoes:textures/entity/illusioner/illusioner.png"
+  },
+  "friendsandfoes:mauler": {
+    "layer": "com/faboslav/friendsandfoes/common/client/render/entity/model/MaulerEntityModel.getTexturedModelData",
+    "texture": "friendsandfoes:textures/entity/mauler/mauler_badlands.png",
+    "keyframes": "com/faboslav/friendsandfoes/common/entity/animation/MaulerAnimations.IDLE"
+  },
+  "friendsandfoes:wildfire": {
+    "layer": "com/faboslav/friendsandfoes/common/client/render/entity/model/WildfireEntityModel.getTexturedModelData",
+    "texture": "friendsandfoes:textures/entity/wildfire/wildfire.png",
+    "keyframes": "com/faboslav/friendsandfoes/common/entity/animation/WildfireAnimations.IDLE"
+  },
+  "graveyard:acolyte": {
+    "layer": "com/lion/graveyard/entities/models/CorruptedIllagerModel.getTexturedModelData",
+    "texture": "graveyard:textures/entity/acolyte.png"
+  },
+  "graveyard:corrupted_pillager": {
+    "layer": "com/lion/graveyard/entities/models/CorruptedIllagerModel.getTexturedModelData",
+    "texture": "graveyard:textures/entity/corrupted_pillager.png"
+  },
+  "graveyard:corrupted_vindicator": {
+    "layer": "com/lion/graveyard/entities/models/CorruptedIllagerModel.getTexturedModelData",
+    "texture": "graveyard:textures/entity/corrupted_vindicator.png"
+  },
+  "graveyard:ghoul": {
+    "geo": "graveyard:geo/ghoul.geo.json",
+    "animation": "graveyard:animations/ghoul/ghoul.animation.json",
+    "texture": "graveyard:textures/entity/ghoul_skin9.png"
+  },
+  "graveyard:lich": {
+    "geo": "graveyard:geo/lich.geo.json",
+    "animation": "graveyard:animations/lich/lich.animation.json",
+    "texture": "graveyard:textures/entity/lich_texture.png"
+  },
+  "graveyard:nightmare": {
+    "geo": "graveyard:geo/nightmare.geo.json",
+    "animation": "graveyard:animations/nightmare/nightmare.animation.json",
+    "texture": "graveyard:textures/entity/nightmare.png"
+  },
+  "graveyard:reaper": {
+    "geo": "graveyard:geo/reaper.geo.json",
+    "animation": "graveyard:animations/reaper/reaper.animation.json",
+    "texture": "graveyard:textures/entity/reaper.png"
+  },
+  "graveyard:revenant": {
+    "geo": "graveyard:geo/revenant.geo.json",
+    "animation": "graveyard:animations/revenant/revenant.animation.json",
+    "texture": "graveyard:textures/entity/revenant.png"
+  },
+  "gtbcs_geomancy_plus:geomancer": {
+    "geo": "irons_spellbooks:geo/abstract_casting_mob.geo.json",
+    "texture": "gtbcs_geomancy_plus:textures/models/entity/geomancer.png"
+  },
+  "iceandfire:amphithere": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelAmphithere",
+    "texture": "iceandfire:textures/models/amphithere/amphithere_blue.png"
+  },
+  "iceandfire:black_frost_dragon": {
+    "$why": "not a registered entity; Ice and Fire ships its texture for the ice dragon model",
+    "tabula": "iceandfire:models/tabula/icedragon/icedragon_ground.tbl",
+    "texture": "iceandfire:textures/models/dread/black_frost.png",
+    "emissive": "iceandfire:textures/models/dread/black_frost_eyes.png"
+  },
+  "iceandfire:cyclops": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelCyclops",
+    "texture": "iceandfire:textures/models/cyclops/cyclops_0.png"
+  },
+  "iceandfire:deathworm": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelDeathWorm",
+    "texture": "iceandfire:textures/models/deathworm/deathworm_red.png"
+  },
+  "iceandfire:dread_beast": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelDreadBeast",
+    "texture": "iceandfire:textures/models/dread/dread_beast_1.png",
+    "emissive": "iceandfire:textures/models/dread/dread_beast_eyes.png"
+  },
+  "iceandfire:dread_ghoul": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelDreadGhoul",
+    "texture": "iceandfire:textures/models/dread/dread_ghoul_mid_1.png",
+    "emissive": "iceandfire:textures/models/dread/dread_ghoul_eyes.png"
+  },
+  "iceandfire:dread_knight": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelDreadKnight",
+    "texture": "iceandfire:textures/models/dread/dread_knight_1.png",
+    "emissive": "iceandfire:textures/models/dread/dread_knight_eyes.png"
+  },
+  "iceandfire:dread_lich": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelDreadLich",
+    "texture": "iceandfire:textures/models/dread/dread_lich_0.png",
+    "emissive": "iceandfire:textures/models/dread/dread_lich_eyes.png"
+  },
+  "iceandfire:dread_queen": {
+    "$why": "not a registered entity; the model and texture are in the jar",
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelDreadQueen",
+    "texture": "iceandfire:textures/models/dread/dread_queen.png",
+    "emissive": "iceandfire:textures/models/dread/dread_queen_eyes.png"
+  },
+  "iceandfire:dread_scuttler": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelDreadScuttler",
+    "texture": "iceandfire:textures/models/dread/dread_scuttler.png",
+    "emissive": "iceandfire:textures/models/dread/dread_scuttler_eyes.png"
+  },
+  "iceandfire:dread_thrall": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelDreadThrall",
+    "texture": "iceandfire:textures/models/dread/dread_thrall.png",
+    "emissive": "iceandfire:textures/models/dread/dread_thrall_eyes.png"
+  },
+  "iceandfire:fire_dragon": {
+    "tabula": "iceandfire:models/tabula/firedragon/firedragon_ground.tbl",
+    "poses": [
+      "iceandfire:models/tabula/firedragon/firedragon_walk1.tbl",
+      "iceandfire:models/tabula/firedragon/firedragon_walk2.tbl",
+      "iceandfire:models/tabula/firedragon/firedragon_walk3.tbl",
+      "iceandfire:models/tabula/firedragon/firedragon_walk4.tbl"
+    ],
+    "texture": "iceandfire:textures/models/firedragon/red_5.png",
+    "emissive": "iceandfire:textures/models/firedragon/red_5_eyes.png"
+  },
+  "iceandfire:ghost": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelGhost",
+    "texture": "iceandfire:textures/models/ghost/ghost_white.png"
+  },
+  "iceandfire:gorgon": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelGorgon",
+    "texture": "iceandfire:textures/models/gorgon/gorgon_passive.png",
+    "emissive": "iceandfire:textures/models/gorgon/gorgon_eyes.png"
+  },
+  "iceandfire:hydra": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelHydraBody",
+    "texture": "iceandfire:textures/models/hydra/hydra_0.png",
+    "emissive": "iceandfire:textures/models/hydra/hydra_eyes.png",
+    "$why": "LayerHydraHead draws a ModelHydraHead per head from BodyUpper, moved by TRANSLATE and turned by ROTATE (row for 3 heads, the spawn count)",
+    "attach": [
+      {
+        "to": "BodyUpper",
+        "boxes": "com/github/alexthe666/iceandfire/client/model/ModelHydraHead",
+        "texture": "iceandfire:textures/models/hydra/hydra_0.png",
+        "emissive": "iceandfire:textures/models/hydra/hydra_eyes.png",
+        "at": [
+          {
+            "pos": [
+              -4.8,
+              0,
+              0
+            ],
+            "rot": [
+              0,
+              10,
+              0
+            ]
+          },
+          {
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "rot": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "pos": [
+              4.8,
+              0,
+              0
+            ],
+            "rot": [
+              0,
+              -10,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "iceandfire:ice_dragon": {
+    "tabula": "iceandfire:models/tabula/icedragon/icedragon_ground.tbl",
+    "poses": [
+      "iceandfire:models/tabula/icedragon/icedragon_walk1.tbl",
+      "iceandfire:models/tabula/icedragon/icedragon_walk2.tbl",
+      "iceandfire:models/tabula/icedragon/icedragon_walk3.tbl",
+      "iceandfire:models/tabula/icedragon/icedragon_walk4.tbl"
+    ],
+    "texture": "iceandfire:textures/models/icedragon/blue_5.png",
+    "emissive": "iceandfire:textures/models/icedragon/blue_5_eyes.png"
+  },
+  "iceandfire:lightning_dragon": {
+    "tabula": "iceandfire:models/tabula/lightningdragon/lightningdragon_ground.tbl",
+    "poses": [
+      "iceandfire:models/tabula/lightningdragon/lightningdragon_walk1.tbl",
+      "iceandfire:models/tabula/lightningdragon/lightningdragon_walk2.tbl",
+      "iceandfire:models/tabula/lightningdragon/lightningdragon_walk3.tbl",
+      "iceandfire:models/tabula/lightningdragon/lightningdragon_walk4.tbl"
+    ],
+    "texture": "iceandfire:textures/models/lightningdragon/electric_5.png",
+    "emissive": "iceandfire:textures/models/lightningdragon/electric_5_eyes.png"
+  },
+  "iceandfire:myrmex_queen": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelMyrmexQueen",
+    "texture": "iceandfire:textures/models/myrmex/myrmex_desert_queen.png"
+  },
+  "iceandfire:myrmex_royal": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelMyrmexRoyal",
+    "texture": "iceandfire:textures/models/myrmex/myrmex_desert_royal.png"
+  },
+  "iceandfire:myrmex_sentinel": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelMyrmexSentinel",
+    "texture": "iceandfire:textures/models/myrmex/myrmex_desert_sentinel.png"
+  },
+  "iceandfire:myrmex_soldier": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelMyrmexSoldier",
+    "texture": "iceandfire:textures/models/myrmex/myrmex_desert_soldier.png"
+  },
+  "iceandfire:myrmex_worker": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelMyrmexWorker",
+    "texture": "iceandfire:textures/models/myrmex/myrmex_desert_worker.png"
+  },
+  "iceandfire:sea_serpent": {
+    "tabula": "iceandfire:models/tabula/seaserpent/seaserpent_base.tbl",
+    "poses": [
+      "iceandfire:models/tabula/seaserpent/seaserpent_swim1.tbl",
+      "iceandfire:models/tabula/seaserpent/seaserpent_swim2.tbl",
+      "iceandfire:models/tabula/seaserpent/seaserpent_swim3.tbl",
+      "iceandfire:models/tabula/seaserpent/seaserpent_swim4.tbl",
+      "iceandfire:models/tabula/seaserpent/seaserpent_swim5.tbl",
+      "iceandfire:models/tabula/seaserpent/seaserpent_swim6.tbl"
+    ],
+    "texture": "iceandfire:textures/models/seaserpent/seaserpent_blue.png"
+  },
+  "iceandfire:siren": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelSiren",
+    "texture": "iceandfire:textures/models/siren/siren_0.png"
+  },
+  "iceandfire:stymphalian_bird": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelStymphalianBird",
+    "texture": "iceandfire:textures/models/stymphalianbird/stymphalian_bird.png"
+  },
+  "iceandfire:troll": {
+    "boxes": "com/github/alexthe666/iceandfire/client/model/ModelTroll",
+    "texture": "iceandfire:textures/models/troll/troll_forest.png",
+    "emissive": "iceandfire:textures/models/troll/troll_forest_eyes.png"
+  },
+  "irons_spellbooks:apothecarist": {
+    "geo": "irons_spellbooks:geo/abstract_casting_mob.geo.json",
+    "texture": "irons_spellbooks:textures/entity/apothecarist.png"
+  },
+  "irons_spellbooks:archevoker": {
+    "geo": "irons_spellbooks:geo/archevoker.geo.json",
+    "texture": "irons_spellbooks:textures/entity/archevoker.png"
+  },
+  "irons_spellbooks:citadel_keeper": {
+    "geo": "irons_spellbooks:geo/citadel_keeper.geo.json",
+    "texture": "irons_spellbooks:textures/entity/keeper/keeper.png"
+  },
+  "irons_spellbooks:cryomancer": {
+    "geo": "irons_spellbooks:geo/abstract_casting_mob.geo.json",
+    "texture": "irons_spellbooks:textures/entity/cryomancer.png"
+  },
+  "irons_spellbooks:dead_king": {
+    "geo": "irons_spellbooks:geo/dead_king.geo.json",
+    "texture": "irons_spellbooks:textures/entity/dead_king/dead_king.png",
+    "emissive": "irons_spellbooks:textures/entity/dead_king/dead_king_glowing.png"
+  },
+  "irons_spellbooks:fire_boss": {
+    "geo": "irons_spellbooks:geo/tyros.geo.json",
+    "texture": "irons_spellbooks:textures/entity/fire_boss/tyros.png"
+  },
+  "irons_spellbooks:ice_spider": {
+    "geo": "irons_spellbooks:geo/ice_spider.geo.json",
+    "animation": "irons_spellbooks:animations/ice_spider.animation.json",
+    "texture": "irons_spellbooks:textures/entity/ice_spider/ice_spider.png"
+  },
+  "irons_spellbooks:necromancer": {
+    "geo": "irons_spellbooks:geo/abstract_casting_mob.geo.json",
+    "texture": "irons_spellbooks:textures/entity/necromancer.png"
+  },
+  "irons_spellbooks:pyromancer": {
+    "geo": "irons_spellbooks:geo/abstract_casting_mob.geo.json",
+    "texture": "irons_spellbooks:textures/entity/pyromancer.png"
+  },
+  "minecraft:blaze": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:blaze",
+    "setup": "net/minecraft/client/model/BlazeModel",
+    "texture": "minecraft:textures/entity/blaze.png"
+  },
+  "minecraft:cave_spider": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:cave_spider",
+    "setup": "net/minecraft/client/model/SpiderModel",
+    "texture": "minecraft:textures/entity/spider/cave_spider.png",
+    "emissive": "minecraft:textures/entity/spider_eyes.png"
+  },
+  "minecraft:creeper": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:creeper",
+    "texture": "minecraft:textures/entity/creeper/creeper.png"
+  },
+  "minecraft:drowned": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:drowned#main",
+    "setup": "net/minecraft/client/model/DrownedModel",
+    "texture": "minecraft:textures/entity/zombie/drowned.png",
+    "layers": [
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:drowned#outer",
+        "setup": "net/minecraft/client/model/DrownedModel",
+        "texture": "minecraft:textures/entity/zombie/drowned_outer_layer.png"
+      }
+    ]
+  },
+  "minecraft:ender_dragon": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:ender_dragon",
+    "texture": "minecraft:textures/entity/enderdragon/dragon.png",
+    "emissive": "minecraft:textures/entity/enderdragon/dragon_eyes.png",
+    "$why": "EnderDragonRenderer.DragonModel.renderToBuffer draws neck 5 times, then the head, then neck 12 times as the tail; the leg and wing angles are its values at rest",
+    "repeat": {
+      "neck": [
+        {
+          "from": [
+            0,
+            20,
+            -12
+          ],
+          "step": [
+            0,
+            0,
+            -10
+          ],
+          "count": 5
+        },
+        {
+          "from": [
+            0,
+            10,
+            60
+          ],
+          "step": [
+            0,
+            0,
+            10
+          ],
+          "count": 12
+        }
+      ]
+    },
+    "move": {
+      "head": [
+        0,
+        20,
+        -62
+      ]
+    },
+    "pose": {
+      "left_wing": [
+        -4.3,
+        -14.32,
+        -5.73
+      ],
+      "left_wing_tip": [
+        0,
+        0,
+        60.56
+      ],
+      "right_wing": [
+        -4.3,
+        14.32,
+        5.73
+      ],
+      "right_wing_tip": [
+        0,
+        0,
+        -60.56
+      ],
+      "left_front_leg": [
+        74.48,
+        0,
+        0
+      ],
+      "left_front_leg_tip": [
+        -28.65,
+        0,
+        0
+      ],
+      "left_front_foot": [
+        42.97,
+        0,
+        0
+      ],
+      "right_front_leg": [
+        74.48,
+        0,
+        0
+      ],
+      "right_front_leg_tip": [
+        -28.65,
+        0,
+        0
+      ],
+      "right_front_foot": [
+        42.97,
+        0,
+        0
+      ],
+      "left_hind_leg": [
+        57.3,
+        0,
+        0
+      ],
+      "left_hind_leg_tip": [
+        28.65,
+        0,
+        0
+      ],
+      "left_hind_foot": [
+        42.97,
+        0,
+        0
+      ],
+      "right_hind_leg": [
+        57.3,
+        0,
+        0
+      ],
+      "right_hind_leg_tip": [
+        28.65,
+        0,
+        0
+      ],
+      "right_hind_foot": [
+        42.97,
+        0,
+        0
+      ]
+    }
+  },
+  "minecraft:enderman": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:enderman",
+    "setup": "net/minecraft/client/model/EndermanModel",
+    "texture": "minecraft:textures/entity/enderman/enderman.png",
+    "emissive": "minecraft:textures/entity/enderman/enderman_eyes.png"
+  },
+  "minecraft:evoker": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:evoker",
+    "hide": [
+      "left_arm",
+      "right_arm"
+    ],
+    "texture": "minecraft:textures/entity/illager/evoker.png"
+  },
+  "minecraft:ghast": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:ghast",
+    "setup": "net/minecraft/client/model/GhastModel",
+    "texture": "minecraft:textures/entity/ghast/ghast.png"
+  },
+  "minecraft:hoglin": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:hoglin",
+    "texture": "minecraft:textures/entity/hoglin/hoglin.png"
+  },
+  "minecraft:husk": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:husk#main",
+    "setup": "net/minecraft/client/model/ZombieModel",
+    "texture": "minecraft:textures/entity/zombie/husk.png"
+  },
+  "minecraft:magma_cube": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:magma_cube",
+    "texture": "minecraft:textures/entity/slime/magmacube.png"
+  },
+  "minecraft:phantom": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:phantom",
+    "setup": "net/minecraft/client/model/PhantomModel",
+    "texture": "minecraft:textures/entity/phantom.png",
+    "emissive": "minecraft:textures/entity/phantom_eyes.png"
+  },
+  "minecraft:piglin": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:piglin#main",
+    "texture": "minecraft:textures/entity/piglin/piglin.png"
+  },
+  "minecraft:piglin_brute": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:piglin_brute#main",
+    "texture": "minecraft:textures/entity/piglin/piglin_brute.png"
+  },
+  "minecraft:pillager": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:pillager",
+    "hide": [
+      "arms"
+    ],
+    "texture": "minecraft:textures/entity/illager/pillager.png"
+  },
+  "minecraft:shulker": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:shulker",
+    "texture": "minecraft:textures/entity/shulker/shulker.png"
+  },
+  "minecraft:skeleton": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:skeleton#main",
+    "texture": "minecraft:textures/entity/skeleton/skeleton.png"
+  },
+  "minecraft:slime": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:slime#main",
+    "texture": "minecraft:textures/entity/slime/slime.png",
+    "layers": [
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:slime#outer",
+        "texture": "minecraft:textures/entity/slime/slime.png",
+        "translucent": true
+      }
+    ]
+  },
+  "minecraft:spider": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:spider",
+    "setup": "net/minecraft/client/model/SpiderModel",
+    "texture": "minecraft:textures/entity/spider/spider.png",
+    "emissive": "minecraft:textures/entity/spider_eyes.png"
+  },
+  "minecraft:stray": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:stray#main",
+    "texture": "minecraft:textures/entity/skeleton/stray.png",
+    "layers": [
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:stray#outer",
+        "texture": "minecraft:textures/entity/skeleton/stray_overlay.png"
+      }
+    ]
+  },
+  "minecraft:vindicator": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:vindicator",
+    "hide": [
+      "left_arm",
+      "right_arm"
+    ],
+    "texture": "minecraft:textures/entity/illager/vindicator.png"
+  },
+  "minecraft:warden": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:warden",
+    "texture": "minecraft:textures/entity/warden/warden.png",
+    "emissive": [
+      "minecraft:textures/entity/warden/warden_bioluminescent_layer.png",
+      "minecraft:textures/entity/warden/warden_heart.png"
+    ]
+  },
+  "minecraft:witch": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:witch",
+    "texture": "minecraft:textures/entity/witch.png"
+  },
+  "minecraft:wither": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:wither#main",
+    "setup": "net/minecraft/client/model/WitherBossModel",
+    "texture": "minecraft:textures/entity/wither/wither.png"
+  },
+  "minecraft:wither_skeleton": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:wither_skeleton#main",
+    "texture": "minecraft:textures/entity/skeleton/wither_skeleton.png"
+  },
+  "minecraft:zombie": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombie#main",
+    "setup": "net/minecraft/client/model/ZombieModel",
+    "texture": "minecraft:textures/entity/zombie/zombie.png"
+  },
+  "minecraft:zombie_villager": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombie_villager#main",
+    "setup": "net/minecraft/client/model/ZombieVillagerModel",
+    "texture": [
+      "minecraft:textures/entity/zombie_villager/zombie_villager.png",
+      "minecraft:textures/entity/zombie_villager/type/plains.png"
+    ]
+  },
+  "minecraft:zombified_piglin": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombified_piglin#main",
+    "texture": "minecraft:textures/entity/piglin/zombified_piglin.png"
+  },
+  "mowziesmobs:ferrous_wroughtnaut": {
+    "boxes": "com/bobmowzie/mowziesmobs/client/model/entity/ModelWroughtnaut",
+    "texture": "mowziesmobs:textures/entity/wroughtnaut.png",
+    "setup": true
+  },
+  "mowziesmobs:frostmaw": {
+    "boxes": "com/bobmowzie/mowziesmobs/client/model/entity/ModelFrostmaw",
+    "texture": "mowziesmobs:textures/entity/frostmaw.png"
+  },
+  "mowziesmobs:naga": {
+    "boxes": "com/bobmowzie/mowziesmobs/client/model/entity/ModelNaga",
+    "texture": "mowziesmobs:textures/entity/naga.png"
+  },
+  "mowziesmobs:umvuthi": {
+    "geo": "mowziesmobs:geo/umvuthi.geo.json",
+    "animation": "mowziesmobs:animations/umvuthi.animation.json",
+    "texture": "mowziesmobs:textures/entity/umvuthi.png"
+  },
+  "nightfall_invade:arterius": {
+    "$why": "Epic Fight draws it with its biped mesh; Arterius.setEquipment gives it the Duskfire armor and the Meen spear",
+    "name": "Arterius, the Last Watcher",
+    "mesh": "epicfight:animmodels/entity/biped.json",
+    "texture": "nightfall_invade:textures/entity/knight.png",
+    "layers": [
+      {
+        "mesh": [
+          "efn:animmodels/armor/duskfire_helmet.json",
+          "efn:animmodels/armor/duskfire_chestplate.json",
+          "efn:animmodels/armor/duskfire_leggings.json",
+          "efn:animmodels/armor/duskfire_boots.json"
+        ],
+        "texture": "efn:textures/armor/duskfirearmor.png"
+      },
+      {
+        "mesh": "efn:animmodels/weapon/meen_spear.json",
+        "texture": "efn:textures/item/weapon/meen_spear.png"
+      }
+    ]
+  },
+  "nightfall_invade:fallen_knight": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:player#main",
+    "texture": "nightfall_invade:textures/entity/fallen_knight.png"
+  },
+  "nightfall_invade:scarlet_hunter": {
+    "$why": "Epic Fight draws it with its biped mesh; ScarletHunter.setEquipment gives it the Crimson Moon",
+    "name": "Ó Brolacháin, the Scarlet Hunter",
+    "mesh": "epicfight:animmodels/entity/biped.json",
+    "texture": "nightfall_invade:textures/entity/scarlet_hunter/scarlet_hunter.png",
+    "layers": [
+      {
+        "mesh": "efn:animmodels/weapon/crimson_moon.json",
+        "texture": "efn:textures/item/weapon/crimson_moon.png",
+        "emissive": "efn:textures/item/weapon/crimson_moon_light.png"
+      }
+    ]
+  },
+  "outer_end:entombed": {
+    "layer": "blueduck/outer_end/client/model/EntombedModel.createBodyLayer",
+    "texture": "outer_end:textures/entity/entombed.png"
+  },
+  "outer_end:himmelite": {
+    "layer": "blueduck/outer_end/client/model/HimmeliteModel.createBodyLayer",
+    "texture": "outer_end:textures/entity/himmelite.png"
+  },
+  "outer_end:purpur_golem": {
+    "layer": "blueduck/outer_end/client/model/PurpurGolemModel.createBodyLayer",
+    "texture": "outer_end:textures/entity/purpur_golem.png"
+  },
+  "outer_end:sinker": {
+    "layer": "blueduck/outer_end/client/model/SinkerModel.createBodyLayer",
+    "texture": "outer_end:textures/entity/sinker.png"
+  },
+  "outer_end:spectrafly": {
+    "layer": "blueduck/outer_end/client/model/SpectraflyModel.createBodyLayer",
+    "texture": "outer_end:textures/entity/glowdragon.png"
+  },
+  "outer_end:stalker": {
+    "layer": "blueduck/outer_end/client/model/StalkerModel.createBodyLayer",
+    "texture": "outer_end:textures/entity/stalker.png"
+  },
+  "past:decaying_king": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Decaying King",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:wither_skeleton#main",
+    "texture": "minecraft:textures/entity/skeleton/wither_skeleton.png",
+    "layers": [
+      {
+        "geo": "fantasy_armor:geo/golden_execution_armor.geo.json",
+        "follow": true,
+        "hide": [
+          "armorCape"
+        ],
+        "texture": "fantasy_armor:textures/armor/golden_execution_armor.png"
+      }
+    ]
+  },
+  "past:emaciated_noble": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Emaciated Noble",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:skeleton#main",
+    "texture": "minecraft:textures/entity/skeleton/skeleton.png",
+    "layers": [
+      {
+        "geo": "fantasy_armor:geo/sunset_wings_armor.geo.json",
+        "follow": true,
+        "hide": [
+          "armorCape"
+        ],
+        "texture": "fantasy_armor:textures/armor/sunset_wings_armor.png"
+      }
+    ]
+  },
+  "past:emaciated_pikeman": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Emaciated Pikeman",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:skeleton#main",
+    "texture": "minecraft:textures/entity/skeleton/skeleton.png",
+    "layers": [
+      {
+        "geo": "fantasy_armor:geo/ronin_armor.geo.json",
+        "follow": true,
+        "hide": [
+          "armorCape"
+        ],
+        "texture": "fantasy_armor:textures/armor/ronin_armor.png"
+      }
+    ]
+  },
+  "past:emaciated_spearman": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Emaciated Spearman",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:skeleton#main",
+    "texture": "minecraft:textures/entity/skeleton/skeleton.png",
+    "layers": [
+      {
+        "geo": "fantasy_armor:geo/dark_cover_armor.geo.json",
+        "follow": true,
+        "hide": [
+          "armorCape"
+        ],
+        "texture": "fantasy_armor:textures/armor/dark_cover_armor.png"
+      }
+    ]
+  },
+  "past:rotten_champion": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Rotten Champion",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombie#main",
+    "texture": "minecraft:textures/entity/zombie/zombie.png",
+    "layers": [
+      {
+        "layer": "net/mcreator/dungeonsandcombat/client/model/Modelkamath_armor.createBodyLayer",
+        "follow": true,
+        "texture": "dungeons_and_combat:textures/entities/kamath_armor.png"
+      }
+    ]
+  },
+  "past:rotten_giant": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Rotten Giant",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombie#main",
+    "texture": "minecraft:textures/entity/zombie/zombie.png",
+    "layers": [
+      {
+        "layer": "net/mcreator/dungeonsandcombat/client/model/Modeldarkmetal.createBodyLayer",
+        "follow": true,
+        "texture": "dungeons_and_combat:textures/entities/darkmetal.png"
+      }
+    ]
+  },
+  "past:rotten_guard": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Rotten Guard",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombie#main",
+    "texture": "minecraft:textures/entity/zombie/zombie.png",
+    "layers": [
+      {
+        "layer": "net/mcreator/dungeonsandcombat/client/model/Modeldarkmetal.createBodyLayer",
+        "follow": true,
+        "texture": "dungeons_and_combat:textures/entities/darkmetal.png"
+      }
+    ]
+  },
+  "past:rotten_knight": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Rotten Knight",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombie#main",
+    "texture": "minecraft:textures/entity/zombie/zombie.png",
+    "layers": [
+      {
+        "layer": "net/mcreator/dungeonsandcombat/client/model/Modelkamath_armor.createBodyLayer",
+        "follow": true,
+        "texture": "dungeons_and_combat:textures/entities/kamath_armor.png"
+      }
+    ]
+  },
+  "past:rotten_soldier": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Rotten Soldier",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombie#main",
+    "texture": "minecraft:textures/entity/zombie/zombie.png",
+    "layers": [
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:zombie#outer_armor",
+        "follow": true,
+        "hide": [
+          "body",
+          "right_arm",
+          "left_arm"
+        ],
+        "texture": "efn:textures/armor/ruinfighter.png"
+      },
+      {
+        "mesh": [
+          "efn:animmodels/armor/ruinfighter_chestplate.json",
+          "efn:animmodels/armor/ruinfighter_leggings.json"
+        ],
+        "texture": "efn:textures/armor/ruinfighter_mesh.png"
+      }
+    ]
+  },
+  "past:rotten_titan": {
+    "$why": "kubejs/server_scripts/dimension/past.js: a vanilla mob renamed and given a full armor set (ArmorItems); Epic Fight animates them, so the arms hang down",
+    "name": "Rotten Titan",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:zombie#main",
+    "texture": "minecraft:textures/entity/zombie/zombie.png",
+    "layers": [
+      {
+        "layer": "net/mcreator/dungeonsandcombat/client/model/Modelonislayer.createBodyLayer",
+        "follow": true,
+        "texture": "dungeons_and_combat:textures/entities/onislayer.png"
+      }
+    ]
+  },
+  "samurai_dynasty:akaname": {
+    "geo": "samurai_dynasty:geo/akaname.geo.json",
+    "animation": "samurai_dynasty:animations/akaname.animation.json",
+    "texture": "samurai_dynasty:textures/entity/akaname.png"
+  },
+  "samurai_dynasty:enenra": {
+    "geo": "samurai_dynasty:geo/enenra.geo.json",
+    "animation": "samurai_dynasty:animations/enenra.animation.json",
+    "texture": "samurai_dynasty:textures/entity/enenra.png"
+  },
+  "samurai_dynasty:jorogumo": {
+    "geo": "samurai_dynasty:geo/jorogumo.geo.json",
+    "animation": "samurai_dynasty:animations/jorogumo.animation.json",
+    "texture": "samurai_dynasty:textures/entity/jorogumo.png"
+  },
+  "samurai_dynasty:kitsune": {
+    "geo": "samurai_dynasty:geo/kitsune.geo.json",
+    "animation": "samurai_dynasty:animations/kitsune.animation.json",
+    "texture": "samurai_dynasty:textures/entity/kitsune.png"
+  },
+  "samurai_dynasty:oni": {
+    "geo": "samurai_dynasty:geo/oni.geo.json",
+    "animation": "samurai_dynasty:animations/oni.animation.json",
+    "texture": "samurai_dynasty:textures/entity/oni.png"
+  },
+  "samurai_dynasty:onibi": {
+    "geo": "samurai_dynasty:geo/spirit.geo.json",
+    "animation": "samurai_dynasty:animations/spirit.animation.json",
+    "texture": "samurai_dynasty:textures/entity/spirit.png"
+  },
+  "samurai_dynasty:tanuki": {
+    "geo": "samurai_dynasty:geo/tanuki.geo.json",
+    "animation": "samurai_dynasty:animations/tanuki.animation.json",
+    "texture": "samurai_dynasty:textures/entity/tanuki.png"
+  },
+  "samurai_dynasty:twotailed": {
+    "geo": "samurai_dynasty:geo/kitsune_small.geo.json",
+    "animation": "samurai_dynasty:animations/kitsune_small.animation.json",
+    "texture": "samurai_dynasty:textures/entity/kitsune_small.png"
+  },
+  "souls_like_bosses:nightlord": {
+    "geo": "souls_like_bosses:geo/night_lord.geo.json",
+    "animation": "souls_like_bosses:animations/night_lord.animation.json",
+    "texture": "souls_like_bosses:textures/entity/night_lord.png",
+    "hide": [
+      "light_circle",
+      "lightning",
+      "lightning_sword",
+      "lightning_sword2",
+      "kamehameha_beam",
+      "kamehameha_orb",
+      "effect",
+      "fire_effect",
+      "lightning_effect"
+    ]
+  },
+  "soulsweapons:accursed_lord_boss": {
+    "geo": "soulsweapons:geo/entity/accursed_lord.geo.json",
+    "animation": "soulsweapons:animations/entity/accursed_lord.animation.json",
+    "texture": "soulsweapons:textures/entity/accursed_lord.png"
+  },
+  "soulsweapons:big_chungus": {
+    "layer": "net/soulsweaponry/client/model/entity/mobs/BigChungusModel.getTexturedModelData",
+    "texture": "soulsweapons:textures/entity/chungus/big_chungus.png"
+  },
+  "soulsweapons:chaos_monarch": {
+    "geo": "soulsweapons:geo/entity/chaos_monarch.geo.json",
+    "animation": "soulsweapons:animations/entity/chaos_monarch.animation.json",
+    "texture": "soulsweapons:textures/entity/chaos_monarch.png"
+  },
+  "soulsweapons:day_stalker": {
+    "geo": "soulsweapons:geo/entity/day_stalker.geo.json",
+    "animation": "soulsweapons:animations/entity/day_stalker.animation.json",
+    "texture": "soulsweapons:textures/entity/day_stalker.png"
+  },
+  "soulsweapons:draugr_boss": {
+    "geo": "soulsweapons:geo/entity/draugr_boss.geo.json",
+    "animation": "soulsweapons:animations/entity/draugr_boss.animation.json",
+    "texture": "soulsweapons:textures/entity/draugr_boss.png"
+  },
+  "soulsweapons:evil_forlorn": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:player#main",
+    "texture": "soulsweapons:textures/entity/dark_sorcerer.png"
+  },
+  "soulsweapons:forlorn": {
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:player#main",
+    "texture": "soulsweapons:textures/entity/forlorn_inner.png"
+  },
+  "soulsweapons:moonknight": {
+    "geo": "soulsweapons:geo/entity/moonknight.geo.json",
+    "animation": "soulsweapons:animations/entity/moonknight.animation.json",
+    "texture": "soulsweapons:textures/entity/moonknight/moonknight_phase_1.png"
+  },
+  "soulsweapons:night_prowler": {
+    "geo": "soulsweapons:geo/entity/night_prowler.geo.json",
+    "animation": "soulsweapons:animations/entity/night_prowler.animation.json",
+    "texture": "soulsweapons:textures/entity/night_prowler.png"
+  },
+  "soulsweapons:night_shade": {
+    "geo": "soulsweapons:geo/entity/night_shade.geo.json",
+    "animation": "soulsweapons:animations/entity/night_shade.animation.json",
+    "texture": "soulsweapons:textures/entity/night_shade.png"
+  },
+  "soulsweapons:returning_knight": {
+    "geo": "soulsweapons:geo/entity/returning_knight.geo.json",
+    "animation": "soulsweapons:animations/entity/returning_knight.animation.json",
+    "texture": "soulsweapons:textures/entity/returning_knight.png"
+  },
+  "soulsweapons:withered_demon": {
+    "geo": "soulsweapons:geo/entity/withered_demon.geo.json",
+    "animation": "soulsweapons:animations/entity/withered_demon.animation.json",
+    "texture": "soulsweapons:textures/entity/withered_demon.png"
+  },
+  "traveloptics:aqua_grandmaster": {
+    "geo": "irons_spellbooks:geo/abstract_casting_mob.geo.json",
+    "texture": "traveloptics:textures/models/entity/aqua_grandmaster.png"
+  },
+  "traveloptics:aquamancer": {
+    "geo": "irons_spellbooks:geo/abstract_casting_mob.geo.json",
+    "texture": "traveloptics:textures/models/entity/aquamancer.png"
+  },
+  "traveloptics:enraged_dead_king": {
+    "geo": "irons_spellbooks:geo/dead_king.geo.json",
+    "texture": "irons_spellbooks:textures/entity/dead_king/dead_king_enraged.png",
+    "emissive": "irons_spellbooks:textures/entity/dead_king/dead_king_enraged_glowing.png"
+  },
+  "traveloptics:fading_mage": {
+    "geo": "traveloptics:geo/fading_mage.geo.json",
+    "animation": "traveloptics:animations/nightwarden_defeated.animation.json",
+    "texture": "traveloptics:textures/models/entity/nightwarden/nightwarden_defeated.png"
+  },
+  "traveloptics:the_nightwarden": {
+    "geo": "traveloptics:geo/nightwarden.geo.json",
+    "texture": "traveloptics:textures/models/entity/nightwarden/nightwarden.png"
+  },
+  "traveloptics:voidshelf_golem": {
+    "geo": "traveloptics:geo/voidshelf_golem.geo.json",
+    "animation": "traveloptics:animations/voidshelf_golem.animation.json",
+    "texture": "traveloptics:textures/models/entity/voidshelf_golem/voidshelf_golem_chorus_camo.png"
+  },
+  "valarian_conquest:archer": {
+    "$why": "SoldierRenderer/ArcherRenderer pick a male_citizen_<n> skin per entity; soldiers wear their faction armor (Valarian here), drawn by the vanilla armor layers",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:player#main",
+    "texture": "valarian_conquest:textures/entities/male_citizen_1.png",
+    "layers": [
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:player#outer_armor",
+        "texture": "valarian_conquest:textures/models/armor/valarian_layer_1.png"
+      },
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:player#inner_armor",
+        "hide": [
+          "head",
+          "hat",
+          "right_arm",
+          "left_arm"
+        ],
+        "texture": "valarian_conquest:textures/models/armor/valarian_layer_2.png"
+      }
+    ]
+  },
+  "valarian_conquest:crossbowman": {
+    "$why": "SoldierRenderer/ArcherRenderer pick a male_citizen_<n> skin per entity; soldiers wear their faction armor (Valarian here), drawn by the vanilla armor layers",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:player#main",
+    "texture": "valarian_conquest:textures/entities/male_citizen_1.png",
+    "layers": [
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:player#outer_armor",
+        "texture": "valarian_conquest:textures/models/armor/valarian_layer_1.png"
+      },
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:player#inner_armor",
+        "hide": [
+          "head",
+          "hat",
+          "right_arm",
+          "left_arm"
+        ],
+        "texture": "valarian_conquest:textures/models/armor/valarian_layer_2.png"
+      }
+    ]
+  },
+  "valarian_conquest:soldier": {
+    "$why": "SoldierRenderer/ArcherRenderer pick a male_citizen_<n> skin per entity; soldiers wear their faction armor (Valarian here), drawn by the vanilla armor layers",
+    "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+    "key": "minecraft:player#main",
+    "texture": "valarian_conquest:textures/entities/male_citizen_1.png",
+    "layers": [
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:player#outer_armor",
+        "texture": "valarian_conquest:textures/models/armor/valarian_layer_1.png"
+      },
+      {
+        "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+        "key": "minecraft:player#inner_armor",
+        "hide": [
+          "head",
+          "hat",
+          "right_arm",
+          "left_arm"
+        ],
+        "texture": "valarian_conquest:textures/models/armor/valarian_layer_2.png"
+      }
+    ]
+  },
+  "wom:evil_skeleton": {
+    "mesh": "wom:animmodels/entity/mob/evil_skeleton.json",
+    "texture": "wom:textures/entity/evil_skeleton.png"
+  },
+  "wom:hollow": {
+    "mesh": "wom:animmodels/entity/mob/hollow.json",
+    "texture": "wom:textures/entity/hollow_texture.png"
+  },
+  "wom:lupus_rex": {
+    "mesh": "wom:animmodels/entity/mob/lupus_rex.json",
+    "texture": "wom:textures/entity/lupus_rex.png"
+  },
+  "wom:lycanth": {
+    "mesh": "wom:animmodels/entity/mob/lycanth.json",
+    "texture": "wom:textures/entity/lycanth_texture.png"
+  },
+  "wom:saulomonk": {
+    "mesh": "wom:animmodels/entity/mob/saulomonk.json",
+    "texture": "wom:textures/entity/saulomonk_texture.png"
+  }
+}

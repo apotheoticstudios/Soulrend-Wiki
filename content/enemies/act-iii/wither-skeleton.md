@@ -6,6 +6,7 @@
   "items": ["minecraft:wither_skeleton_spawn_egg"],
   "infobox": {
     "item": "minecraft:wither_skeleton_spawn_egg",
+    "model": "minecraft:wither_skeleton",
     "rows": [
       ["ID", "`minecraft:wither_skeleton`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

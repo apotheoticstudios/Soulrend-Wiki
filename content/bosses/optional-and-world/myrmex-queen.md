@@ -5,6 +5,7 @@
   "items": ["iceandfire:spawn_egg_myrmex_queen"],
   "infobox": {
     "item": "iceandfire:spawn_egg_myrmex_queen",
+    "model": "iceandfire:myrmex_queen",
     "rows": [
       ["ID", "`iceandfire:myrmex_queen`"],
       ["Level", "The player's level"],

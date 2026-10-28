@@ -1,7 +1,8 @@
 ---
 {
   "title": "Known Bugs",
-  "summary": "Bugs observed in Soulrend, with workarounds where known."
+  "summary": "Bugs observed in Soulrend, with workarounds where known.",
+  "icon": "minecraft:spider_eye"
 }
 ---
 <!-- sources: observed in the Soulrend-Development instance; each entry notes where it was seen. -->

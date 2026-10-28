@@ -6,6 +6,7 @@
   "items": ["mowziesmobs:frostmaw_spawn_egg"],
   "infobox": {
     "item": "mowziesmobs:frostmaw_spawn_egg",
+    "model": "mowziesmobs:frostmaw",
     "rows": [
       ["ID", "`mowziesmobs:frostmaw`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

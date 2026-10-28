@@ -6,6 +6,7 @@
   "items": ["iceandfire:spawn_egg_troll"],
   "infobox": {
     "item": "iceandfire:spawn_egg_troll",
+    "model": "iceandfire:troll",
     "rows": [
       ["ID", "`iceandfire:troll`"],
       ["Act", "[[progression/act-i-awakening|Act I]]"],

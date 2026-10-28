@@ -5,6 +5,7 @@
   "items": ["deeperdarker:shattered_spawn_egg"],
   "infobox": {
     "item": "deeperdarker:shattered_spawn_egg",
+    "model": "deeperdarker:shattered",
     "rows": [
       ["ID", "`deeperdarker:shattered`"],
       ["Act", "[[progression/act-iii-b-deeper-and-darker|Act III-b]]"],

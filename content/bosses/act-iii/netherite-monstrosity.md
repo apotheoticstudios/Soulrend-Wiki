@@ -5,6 +5,7 @@
   "items": ["cataclysm:netherite_monstrosity_spawn_egg"],
   "infobox": {
     "item": "cataclysm:netherite_monstrosity_spawn_egg",
+    "model": "cataclysm:netherite_monstrosity",
     "rows": [
       ["ID", "`cataclysm:netherite_monstrosity`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

@@ -3,7 +3,8 @@
   "title": "Act V Bosses",
   "navTitle": "Act V",
   "category": "Bosses",
-  "order": 5
+  "order": 5,
+  "icon": "souls_like_bosses:nightlord_spawn_egg"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

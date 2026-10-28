@@ -5,6 +5,7 @@
   "items": ["wom:saulomonk_spawn_egg"],
   "infobox": {
     "item": "wom:saulomonk_spawn_egg",
+    "model": "wom:saulomonk",
     "rows": [
       ["ID", "`wom:saulomonk`"],
       ["Level", "The player's level"],

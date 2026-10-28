@@ -7,7 +7,6 @@
     "Iron Fishing Rod",
     "Neptunium Fishing Rod",
     "Fishing Rod",
-    "Candy Cane Hook",
     "Diamond Hook",
     "Double Hook",
     "Gold Hook",
@@ -27,7 +26,6 @@
     "aquaculture:iron_fishing_rod",
     "aquaculture:neptunium_fishing_rod",
     "minecraft:fishing_rod",
-    "alexscaves:candy_cane_hook",
     "aquaculture:diamond_hook",
     "aquaculture:double_hook",
     "aquaculture:gold_hook",
@@ -46,6 +44,7 @@
   first pass from the game-data dumps (durability, obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
+  game-data/tags.json (alexscaves:candy_cane_hook is in #soulrend:deleted_items, so it is left out)
   mods/Aquaculture-1.20.1-2.5.7.jar lang (aquaculture.<item>.tooltip.title/.desc: the Shift text)
 -->
 
@@ -78,7 +77,6 @@ The **Neptunium Fishing Rod** has Neptune's Song: fish are more likely to bite. 
 | [[item:aquaculture:iron_fishing_rod]] | Aquaculture 2 | 125 durability | crafting |
 | [[item:aquaculture:neptunium_fishing_rod]] | Aquaculture 2 | Neptune's Song [SHIFT]; 1,000 durability | crafting, 1 loot table |
 | [[item:minecraft:fishing_rod]] | Minecraft | 64 durability | crafting, 30 loot tables |
-| [[item:alexscaves:candy_cane_hook]] | Alex's Caves | 200 durability | crafting |
 | [[item:aquaculture:diamond_hook]] | Aquaculture 2 | Super Durable [SHIFT] | crafting |
 | [[item:aquaculture:double_hook]] | Aquaculture 2 | Double Barb [SHIFT] | crafting |
 | [[item:aquaculture:gold_hook]] | Aquaculture 2 | Lucky [SHIFT] | crafting |
@@ -197,18 +195,6 @@ It can also be crafted (see below).
 {{uses minecraft:fishing_rod}}
 
 ## Hooks
-
-### Candy Cane Hook
-
-[[item:alexscaves:candy_cane_hook]] (Alex's Caves)
-
-#### Obtaining
-
-It is crafted (see below).
-
-#### Crafting
-
-{{recipes alexscaves:candy_cane_hook}}
 
 ### Diamond Hook
 

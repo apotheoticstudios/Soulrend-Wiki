@@ -11,6 +11,7 @@
   ],
   "infobox": {
     "item": "friendsandfoes:iceologer_spawn_egg",
+    "model": ["friendsandfoes:iceologer", "friendsandfoes:illusioner", "friendsandfoes:wildfire", "friendsandfoes:mauler"],
     "rows": [
       ["ID", "`friendsandfoes:iceologer`, `illusioner`, `wildfire`"],
       ["Level", "The player's level"],

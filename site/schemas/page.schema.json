@@ -21,7 +21,10 @@
         "title": { "type": "string", "description": "Defaults to the page title." },
         "item": { "$ref": "#/definitions/itemId", "description": "Shows this item's icon large at the top." },
         "image": { "type": "string", "description": "Image path, e.g. \"/assets/mobs/wraith.png\"." },
-        "model": { "type": "string", "description": "glTF model path under assets/, e.g. \"models/wraith.glb\"." },
+        "model": {
+          "description": "3D model: a glTF path under assets/ (\"models/wraith.glb\") or a mob id from game-data/mobs.json (\"cataclysm:ignis\"). A list shows several mobs in one viewer.",
+          "oneOf": [{ "type": "string" }, { "type": "array", "items": { "type": "string" }, "minItems": 1 }]
+        },
         "caption": { "type": "string" },
         "itemRows": { "type": "boolean", "description": "false leaves out the automatic Mod and ID rows, for pages that only borrow the item's icon (quests)." },
         "rows": {

@@ -4,7 +4,8 @@
   "navTitle": "Menus & Launch",
   "category": "Mods",
   "order": 17,
-  "summary": "Title screen, loading screen and world creation."
+  "summary": "Title screen, loading screen and world creation.",
+  "icon": "minecraft:item_frame"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

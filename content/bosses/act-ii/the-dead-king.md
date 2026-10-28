@@ -4,6 +4,7 @@
   "summary": "A level 40 undead spellcaster on a throne in the Catacombs; an Act II boss.",
   "aliases": ["Dead King"],
   "infobox": {
+    "model": "irons_spellbooks:dead_king",
     "rows": [
       ["Mod", "Iron's Spells 'n Spellbooks"],
       ["ID", "`irons_spellbooks:dead_king`"],

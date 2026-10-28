@@ -3,7 +3,8 @@
   "title": "Boss Drops",
   "category": "Items",
   "order": 5,
-  "summary": "Materials and trophies that come from bosses."
+  "summary": "Materials and trophies that come from bosses.",
+  "icon": "soulsweapons:lord_soul_dark"
 }
 ---
 <!-- sources:

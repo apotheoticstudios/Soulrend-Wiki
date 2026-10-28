@@ -6,6 +6,7 @@
   "items": ["traveloptics:the_nightwarden_spawn_egg"],
   "infobox": {
     "item": "traveloptics:the_nightwarden_spawn_egg",
+    "model": "traveloptics:the_nightwarden",
     "rows": [
       ["ID", "`traveloptics:the_nightwarden`"],
       ["Act", "[[progression/act-iv-beyond-reality|Act IV]] (optional)"],

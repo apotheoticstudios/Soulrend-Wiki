@@ -13,6 +13,7 @@
   ],
   "infobox": {
     "item": "dungeons_and_combat:skull_spawn_egg",
+    "model": ["dungeons_and_combat:skull", "dungeons_and_combat:skull_deserter", "dungeons_and_combat:prisoner_skull", "dungeons_and_combat:royal_skull", "dungeons_and_combat:counselor_skull", "dungeons_and_combat:skull_mimic"],
     "rows": [
       ["ID", "`dungeons_and_combat:skull`, `skull_deserter`, `prisoner_skull`, `royal_skull`, `counselor_skull`, `skull_mimic`"],
       ["Level", "The player's level"],

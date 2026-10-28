@@ -6,6 +6,7 @@
   "items": ["alexscaves:nucleeper_spawn_egg", "alexscaves:gammaroach_spawn_egg", "alexscaves:raycat_spawn_egg", "alexscaves:radgill_spawn_egg"],
   "infobox": {
     "item": "alexscaves:nucleeper_spawn_egg",
+    "model": ["alexscaves:nucleeper", "alexscaves:gammaroach", "alexscaves:raycat", "alexscaves:radgill"],
     "rows": [
       ["ID", "`alexscaves:nucleeper`, `gammaroach`, `raycat`, `radgill`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

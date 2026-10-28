@@ -4,7 +4,8 @@
   "navTitle": "Create",
   "category": "Mods",
   "order": 13,
-  "summary": "Create and its add-ons."
+  "summary": "Create and its add-ons.",
+  "icon": "create:wrench"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

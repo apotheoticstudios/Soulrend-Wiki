@@ -3,7 +3,8 @@
   "title": "Combat Features",
   "navTitle": "Combat",
   "category": "Features",
-  "order": 2
+  "order": 2,
+  "icon": "epicfight:iron_longsword"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

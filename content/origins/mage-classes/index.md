@@ -3,7 +3,8 @@
   "title": "Mage Classes",
   "category": "Origins",
   "order": 4,
-  "summary": "Twelve school mages: each gets +50% max mana, +30% power in its school and a starting spellbook."
+  "summary": "Twelve school mages: each gets +50% max mana, +30% power in its school and a starting spellbook.",
+  "icon": "irons_spellbooks:fire_upgrade_orb"
 }
 ---
 <!-- sources:

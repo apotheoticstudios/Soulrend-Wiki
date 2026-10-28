@@ -6,6 +6,7 @@
   "items": ["block_factorys_bosses:sandworm_spawn_egg"],
   "infobox": {
     "item": "block_factorys_bosses:sandworm_spawn_egg",
+    "model": "block_factorys_bosses:sandworm",
     "rows": [
       ["ID", "`block_factorys_bosses:sandworm`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

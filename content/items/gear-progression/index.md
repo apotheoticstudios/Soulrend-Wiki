@@ -3,7 +3,8 @@
   "title": "Gear Progression",
   "category": "Items",
   "order": 7,
-  "summary": "How Apotheosis affix gear works in Soulrend: rarities, affixes, sockets and gems, reforging, salvaging, sigils, augments and universal bosses."
+  "summary": "How Apotheosis affix gear works in Soulrend: rarities, affixes, sockets and gems, reforging, salvaging, sigils, augments and universal bosses.",
+  "icon": "apotheosis:gem"
 }
 ---
 <!-- sources:

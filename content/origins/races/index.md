@@ -3,7 +3,8 @@
   "title": "Races",
   "category": "Origins",
   "order": 1,
-  "summary": "The race layer: 19 playable races, each with its own body, powers and drawbacks."
+  "summary": "The race layer: 19 playable races, each with its own body, powers and drawbacks.",
+  "icon": "minecraft:totem_of_undying"
 }
 ---
 <!-- sources:

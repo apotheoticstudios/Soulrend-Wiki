@@ -3,7 +3,8 @@
   "title": "Character Features",
   "navTitle": "Character",
   "category": "Features",
-  "order": 1
+  "order": 1,
+  "icon": "minecraft:leather_chestplate"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

@@ -5,6 +5,7 @@
   "items": ["dungeons_and_combat:high_priest_spawn_egg"],
   "infobox": {
     "item": "dungeons_and_combat:high_priest_spawn_egg",
+    "model": "dungeons_and_combat:high_priest",
     "rows": [
       ["ID", "`dungeons_and_combat:high_priest`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

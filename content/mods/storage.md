@@ -4,7 +4,8 @@
   "navTitle": "Storage",
   "category": "Mods",
   "order": 12,
-  "summary": "Chests, drawers, backpacks and storage networks."
+  "summary": "Chests, drawers, backpacks and storage networks.",
+  "icon": "minecraft:bundle"
 }
 ---
 <!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->

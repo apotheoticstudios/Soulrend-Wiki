@@ -6,6 +6,7 @@
   "items": ["nightfall_invade:scarlet_hunter_spawn_egg"],
   "infobox": {
     "item": "nightfall_invade:scarlet_hunter_spawn_egg",
+    "model": "nightfall_invade:scarlet_hunter",
     "rows": [
       ["ID", "`nightfall_invade:scarlet_hunter`"],
       ["Act", "[[progression/act-v-duties|Act V]]"],

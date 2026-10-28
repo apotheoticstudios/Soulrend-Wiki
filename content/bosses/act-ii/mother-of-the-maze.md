@@ -6,6 +6,7 @@
   "items": ["aquamirae:maze_mother_spawn_egg"],
   "infobox": {
     "item": "aquamirae:maze_mother_spawn_egg",
+    "model": "aquamirae:maze_mother",
     "rows": [
       ["ID", "`aquamirae:maze_mother`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

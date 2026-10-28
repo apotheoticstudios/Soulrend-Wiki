@@ -14,6 +14,7 @@
   ],
   "infobox": {
     "item": "graveyard:ghoul_spawn_egg",
+    "model": ["graveyard:ghoul", "graveyard:revenant", "graveyard:nightmare", "graveyard:acolyte", "graveyard:corrupted_vindicator", "graveyard:corrupted_pillager", "graveyard:reaper"],
     "rows": [
       ["ID", "`graveyard:ghoul`, `revenant`, `nightmare`, `acolyte`, `corrupted_vindicator`, `corrupted_pillager`"],
       ["Level", "The player's level"],

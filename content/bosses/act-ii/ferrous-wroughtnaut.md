@@ -6,6 +6,7 @@
   "items": ["mowziesmobs:wroughtnaut_spawn_egg"],
   "infobox": {
     "item": "mowziesmobs:wroughtnaut_spawn_egg",
+    "model": "mowziesmobs:ferrous_wroughtnaut",
     "rows": [
       ["ID", "`mowziesmobs:ferrous_wroughtnaut`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

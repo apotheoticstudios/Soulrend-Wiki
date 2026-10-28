@@ -5,6 +5,7 @@
   "items": ["cataclysm:ender_guardian_spawn_egg"],
   "infobox": {
     "item": "cataclysm:ender_guardian_spawn_egg",
+    "model": "cataclysm:ender_guardian",
     "rows": [
       ["ID", "`cataclysm:ender_guardian`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

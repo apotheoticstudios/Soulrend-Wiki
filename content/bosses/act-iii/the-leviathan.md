@@ -5,6 +5,7 @@
   "items": ["cataclysm:the_leviathan_spawn_egg"],
   "infobox": {
     "item": "cataclysm:the_leviathan_spawn_egg",
+    "model": "cataclysm:the_leviathan",
     "rows": [
       ["ID", "`cataclysm:the_leviathan`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

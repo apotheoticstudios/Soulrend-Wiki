@@ -6,6 +6,7 @@
   "items": ["alexscaves:vallumraptor_spawn_egg", "alexscaves:tremorsaurus_spawn_egg", "alexscaves:relicheirus_spawn_egg", "alexscaves:grottoceratops_spawn_egg", "alexscaves:atlatitan_spawn_egg", "alexscaves:subterranodon_spawn_egg"],
   "infobox": {
     "item": "alexscaves:tremorsaurus_spawn_egg",
+    "model": ["alexscaves:vallumraptor", "alexscaves:tremorsaurus", "alexscaves:relicheirus", "alexscaves:grottoceratops", "alexscaves:atlatitan", "alexscaves:subterranodon"],
     "rows": [
       ["ID", "`alexscaves:vallumraptor`, `tremorsaurus`, `relicheirus`, `grottoceratops`, `atlatitan`, `subterranodon`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

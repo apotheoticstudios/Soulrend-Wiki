@@ -5,7 +5,8 @@
   "category": "Skill Trees",
   "order": 0,
   "summary": "The four passive skill trees (Warrior, Ranger, Rogue and Mage), where skill points buy permanent stat bonuses.",
-  "aliases": ["Passive Skill Tree", "Skill Tree"]
+  "aliases": ["Passive Skill Tree", "Skill Tree"],
+  "icon": "skilltree:wisdom_scroll"
 }
 ---
 <!-- sources:

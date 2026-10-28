@@ -3,7 +3,8 @@
   "title": "Decoration & Building Items",
   "category": "Items",
   "order": 15,
-  "summary": "Collapsed groups for the thousands of building and decoration blocks, one page per group. Minimal info, mostly an index."
+  "summary": "Collapsed groups for the thousands of building and decoration blocks, one page per group. Minimal info, mostly an index.",
+  "icon": "minecraft:bricks"
 }
 ---
 <!-- sources:

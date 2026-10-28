@@ -6,6 +6,7 @@
   "items": ["soulsweapons:moonknight_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:moonknight_spawn_egg",
+    "model": "soulsweapons:moonknight",
     "rows": [
       ["ID", "`soulsweapons:moonknight`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

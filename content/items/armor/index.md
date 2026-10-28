@@ -3,7 +3,8 @@
   "title": "Armor",
   "category": "Items",
   "order": 2,
-  "summary": "The three armor paths from Rise of the Champion, each with its dragon line merged in, then Mage Armor, Epic Knights Armor and Misc Armor. One page per set for every set a quest mentions."
+  "summary": "The three armor paths from Rise of the Champion, each with its dragon line merged in, then Mage Armor, Epic Knights Armor and Misc Armor. One page per set for every set a quest mentions.",
+  "icon": "minecraft:iron_chestplate"
 }
 ---
 <!-- sources:

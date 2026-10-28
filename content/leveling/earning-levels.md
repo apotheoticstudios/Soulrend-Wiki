@@ -4,7 +4,8 @@
   "category": "Leveling",
   "order": 1,
   "summary": "Levels come from damage dealt to mobs: 50 damage for level 1, rising to 50,000,000 for level 200.",
-  "aliases": ["Skill Points from Damage", "Level Curve", "Damage Threshold"]
+  "aliases": ["Skill Points from Damage", "Level Curve", "Damage Threshold"],
+  "icon": "minecraft:experience_bottle"
 }
 ---
 <!-- sources:

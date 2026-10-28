@@ -6,6 +6,7 @@
   "items": ["soulsweapons:night_shade_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:night_shade_spawn_egg",
+    "model": "soulsweapons:night_shade",
     "rows": [
       ["ID", "`soulsweapons:night_shade`"],
       ["Act", "[[progression/act-ii-first-steps|Act II]]"],

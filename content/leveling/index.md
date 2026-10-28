@@ -5,7 +5,8 @@
   "category": "Leveling",
   "order": 0,
   "summary": "Soulrend levels: dealing damage raises your level to 200, and each level gives a skill point and an attribute point.",
-  "aliases": ["Soulrend Level", "Levelling", "Level Up"]
+  "aliases": ["Soulrend Level", "Levelling", "Level Up"],
+  "icon": "xpbook:xp_tome"
 }
 ---
 <!-- sources:

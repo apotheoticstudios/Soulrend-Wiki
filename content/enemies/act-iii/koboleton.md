@@ -5,6 +5,7 @@
   "items": ["cataclysm:koboleton_spawn_egg"],
   "infobox": {
     "item": "cataclysm:koboleton_spawn_egg",
+    "model": "cataclysm:koboleton",
     "rows": [
       ["ID", "`cataclysm:koboleton`"],
       ["Act", "[[progression/act-iii-into-the-flames|Act III]]"],

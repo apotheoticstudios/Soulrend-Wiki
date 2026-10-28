@@ -6,6 +6,7 @@
   "items": ["soulsweapons:big_chungus_spawn_egg"],
   "infobox": {
     "item": "soulsweapons:big_chungus_spawn_egg",
+    "model": "soulsweapons:big_chungus",
     "rows": [
       ["ID", "`soulsweapons:big_chungus`"],
       ["Level", "The player's level"],
