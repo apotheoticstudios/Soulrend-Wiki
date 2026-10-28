@@ -30,7 +30,8 @@ export function buildNav(site, pages, atlas, diag) {
 
 export function navHtml(sections, current, root) {
   return sections.filter(section => section.entries.length).map(section => {
-    const open = !section.collapsed || section.entries.some(e => e.page === current);
+    // Deep pages aren't listed, so the section holding one of their ancestors counts as theirs.
+    const holdsCurrent = !!current && section.entries.some(e => e.page && (e.page === current || (e.page.path && current.path.startsWith(e.page.path))));
     const items = section.entries.map(e => {
       if (!e.page) return `<li><a class="external"${attrs({ href: e.href, rel: 'noopener' })}>${esc(e.label)}</a></li>`;
       const iconHtml = e.iconPos
@@ -38,6 +39,7 @@ export function navHtml(sections, current, root) {
         : '';
       return `<li><a${attrs({ href: root + e.page.path, 'aria-current': e.page === current ? 'page' : null })}>${iconHtml}<span>${esc(e.page.data.navTitle ?? e.page.title)}</span></a></li>`;
     }).join('');
-    return `<details class="nav-section"${open ? ' open' : ''}><summary>${esc(section.label)}</summary><ul>${items}</ul></details>`;
+    // Rendered compact (the default sidebar setting); src/client/nav.js opens the rest for "Expanded".
+    return `<details${attrs({ class: 'nav-section', open: holdsCurrent, 'data-current': holdsCurrent, 'data-expand': !section.collapsed })}><summary>${esc(section.label)}</summary><ul>${items}</ul></details>`;
   }).join('\n');
 }

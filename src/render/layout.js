@@ -3,13 +3,15 @@ import { ICONS } from './icons.js';
 
 // Runs before first paint: restores the visitor's style and mode so the page never flashes the wrong theme.
 function bootScript(styleIds) {
-  return `(function(){var d=document.documentElement;d.classList.replace('no-js','js');try{var s=localStorage.getItem('wiki:style'),m=localStorage.getItem('wiki:mode');if(${JSON.stringify(styleIds)}.indexOf(s)>=0)d.dataset.style=s;if(m==='light'||m==='dark'||m==='system')d.dataset.mode=m}catch(e){}})();`;
+  return `(function(){var d=document.documentElement;d.classList.replace('no-js','js');try{var s=localStorage.getItem('wiki:style'),m=localStorage.getItem('wiki:mode');if(${JSON.stringify(styleIds)}.indexOf(s)>=0)d.dataset.style=s;if(m==='light'||m==='dark'||m==='system')d.dataset.mode=m;var n=localStorage.getItem('wiki:sidebar');if(n==='compact'||n==='expanded')d.dataset.sidebar=n}catch(e){}})();`;
 }
 
 // JSON inside <script> must not contain "</script>" or "<!--".
 const scriptJson = value => JSON.stringify(value).replace(/</g, '\\u003c');
 
 const MODES = [['system', 'System'], ['light', 'Light'], ['dark', 'Dark']];
+const SIDEBARS = [['compact', 'Compact'], ['expanded', 'Expanded']];
+const choices = (name, options) => options.map(([value, label]) => `<label><input type="radio" name="${name}" value="${value}"> ${label}</label>`).join('');
 
 // Used until site.json sets a "logo": a small teal soul flame.
 const DEFAULT_FAVICON = `data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges"><path fill="#4fd1c5" d="M7 1h2v2h1v2h1v2h1v4h-1v2h-1v1H6v-1H5v-2H4V7h1V5h1V3h1z"/><path fill="#0c0a0f" d="M7 8h2v1h1v2H9v1H7v-1H6V9h1z"/></svg>')}`;
@@ -28,6 +30,7 @@ export function layoutHtml(o) {
 <html lang="en" class="no-js"${attrs({
     'data-style': site.defaultStyle,
     'data-mode': site.defaultMode ?? 'system',
+    'data-sidebar': 'compact',
     'data-root': root,
     'data-app': app,
     'data-search': searchIndex,
@@ -60,7 +63,8 @@ ${canonical ? `<link rel="canonical" href="${esc(canonical)}">\n<meta property="
     <button class="icon-button prefs-toggle" type="button" aria-expanded="false" aria-controls="prefs-panel" aria-label="Display settings">${ICONS.palette}</button>
     <div class="prefs-panel" id="prefs-panel" hidden>
       <fieldset><legend>Style</legend>${themes.map(t => `<label><input type="radio" name="style" value="${esc(t.id)}"> ${esc(t.name)}</label>`).join('')}</fieldset>
-      <fieldset class="mode-choice"><legend>Mode</legend>${MODES.map(([value, label]) => `<label><input type="radio" name="mode" value="${value}"> ${label}</label>`).join('')}</fieldset>
+      <fieldset class="segmented"><legend>Mode</legend>${choices('mode', MODES)}</fieldset>
+      <fieldset class="segmented"><legend>Sidebar</legend>${choices('sidebar', SIDEBARS)}</fieldset>
     </div>
   </div>
 </header>

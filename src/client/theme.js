@@ -1,6 +1,6 @@
-// Style and light/dark picker. The choice is applied before first paint by the inline script in
+// Style, light/dark and sidebar picker. The choice is applied before first paint by the inline script in
 // <head> (see src/render/layout.js); this module handles the picker and saves changes.
-const STORAGE_KEYS = { style: 'wiki:style', mode: 'wiki:mode' };
+const STORAGE_KEYS = { style: 'wiki:style', mode: 'wiki:mode', sidebar: 'wiki:sidebar' };
 
 export function initTheme() {
   const html = document.documentElement;

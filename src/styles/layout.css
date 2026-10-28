@@ -97,11 +97,11 @@
 }
 .prefs-panel label:hover { background: var(--panel); }
 .prefs-panel input { accent-color: var(--accent); margin: 0; }
-.mode-choice { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
-.mode-choice legend { grid-column: 1 / -1; }
-.mode-choice label { justify-content: center; padding: 6px 4px; border: 1px solid var(--border); font-size: 14px; }
-.mode-choice label:has(input:checked) { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); }
-.mode-choice input { position: absolute; opacity: 0; pointer-events: none; }
+.segmented { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; }
+.segmented legend { grid-column: 1 / -1; }
+.segmented label { justify-content: center; padding: 6px 4px; border: 1px solid var(--border); font-size: 14px; }
+.segmented label:has(input:checked) { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.segmented input { position: absolute; opacity: 0; pointer-events: none; }
 
 .shell {
   display: grid;
