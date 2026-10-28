@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/site.schema.json",
   "title": "Soulrend Wiki",
-  "url": "https://soldierdonkey.github.io/Soulrend-Wiki/",
+  "url": "https://soulrend.wiki/",
   "description": "The wiki for Soulrend, a Forge 1.20.1 adventure modpack.",
   "defaultStyle": "soulrend",
   "defaultMode": "system",
