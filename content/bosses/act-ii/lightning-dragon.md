@@ -43,7 +43,7 @@ A [[item:dragonradarmod:lightning_radar]] finds the location of Lightning Dragon
 
 ## Stats
 
-A dragon's base stats grow with its age in days, up to 125 days. Soulrend's level system then multiplies them: Lightning Dragons have a level floor of 25, so their level is the nearest player's Soulrend level, but never less than 25 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+A dragon's base stats grow with its age in days, up to 125 days. Soulrend's level system then multiplies them: Lightning Dragons have a level floor of 25, so their level is the nearest player's Soulrend level, but never less than 25 (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Roost (base) | Cave (base) | Roost, level 40 | Cave, level 40 | Roost, level 100 | Cave, level 100 |
 | --- | --- | --- | --- | --- | --- | --- |

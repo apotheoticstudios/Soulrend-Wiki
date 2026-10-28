@@ -15,3 +15,6 @@ initSearch();
 if (document.querySelector('.model-stage')) {
   import('./model-viewer.js').then(m => m.initModels());
 }
+if (document.querySelector('.skilltree-stage')) {
+  import('./skilltree.js').then(m => m.initSkillTrees());
+}

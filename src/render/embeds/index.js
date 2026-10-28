@@ -6,5 +6,6 @@ import model from './model.js';
 import moveset from './moveset.js';
 import recipe from './recipe.js';
 import { recipes, uses } from './recipes.js';
+import skilltree from './skilltree.js';
 
-export const embedTypes = { image, items, model, moveset, recipe, recipes, uses };
+export const embedTypes = { image, items, model, moveset, recipe, recipes, skilltree, uses };

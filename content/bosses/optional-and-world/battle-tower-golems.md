@@ -36,7 +36,7 @@
 
 All six have 4 armor and full knockback resistance, and fight with Epic Fight animations. None has a damage cap.
 
-The Land, Ocean and Sky golems are on Auto Leveling's list of mobs that never level up, so they keep their base stats. The other three take the nearest player's Soulrend level, but never less than 20 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]):
+The Land, Ocean and Sky golems are on Auto Leveling's list of mobs that never level up, so they keep their base stats. The other three take the nearest player's Soulrend level, but never less than 20 (see [[leveling/mob-levels|Mob Levels]]):
 
 | Golem | Level 40 health | Level 40 attack | Level 100 health | Level 100 attack |
 | --- | --- | --- | --- | --- |

@@ -39,7 +39,7 @@ The Dead King sits in the Catacombs (`irons_spellbooks:catacombs`), which genera
 
 ## Stats
 
-The Dead King's level is fixed at 40, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Dead King's level is fixed at 40, so its stats never change. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 40 |
 | --- | --- | --- |

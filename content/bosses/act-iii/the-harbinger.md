@@ -48,7 +48,7 @@ The Harbinger lives in the Ancient Factory (`cataclysm:ancient_factory`). In Sou
 
 ## Stats
 
-The Harbinger's level is fixed at 250, so its stats never change. Cataclysm's config multiplies its base health by 1.3 and its attack damage by 1.2 before the level bonus applies. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Harbinger's level is fixed at 250, so its stats never change. Cataclysm's config multiplies its base health by 1.3 and its attack damage by 1.2 before the level bonus applies. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 250 |
 | --- | --- | --- |

@@ -42,7 +42,7 @@ Naga spawn like normal hostile mobs, in groups of 1–2:
 
 ## Stats
 
-The Naga has no level floor or cap, so its level matches the Soulrend level of the nearest player. The columns use the typical level of each act (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Naga has no level floor or cap, so its level matches the Soulrend level of the nearest player. The columns use the typical level of each act (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act I (10) | Act II (40) | Act III (100) | Act IV (180) | Act V (200) |
 | --- | --- | --- | --- | --- | --- | --- |

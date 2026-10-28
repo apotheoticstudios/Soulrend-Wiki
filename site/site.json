@@ -18,6 +18,7 @@
     { "label": "Guides", "category": "Guides" },
     { "label": "Progression", "category": "Progression" },
     { "label": "Origins", "category": "Origins" },
+    { "label": "Leveling", "category": "Leveling" },
     { "label": "Skill Trees", "category": "Skill Trees" },
     { "label": "Bosses", "category": "Bosses" },
     { "label": "Enemies", "category": "Enemies", "collapsed": true },

@@ -35,7 +35,7 @@ Fallen Knights stand in the Ancient Church (`nightfall_invade:ancient_church`), 
 
 ## Stats
 
-The Fallen Knight has no level setting, so its level matches the Soulrend level of the nearest player. The column uses Act V's typical level, the player cap of 200 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]). Soulrend's Past script doesn't change its stats.
+The Fallen Knight has no level setting, so its level matches the Soulrend level of the nearest player. The column uses Act V's typical level, the player cap of 200 (see [[leveling/mob-levels|Mob Levels]]). Soulrend's Past script doesn't change its stats.
 
 | Stat | Base | Level 200 |
 | --- | --- | --- |

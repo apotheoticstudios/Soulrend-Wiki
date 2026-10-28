@@ -42,7 +42,7 @@ Using a [[item:deeperdarker:sculk_transmitter]] on the Altar summons the Corrupt
 
 ## Stats
 
-The Corrupted Champion's level is at least 300, plus a random 0–10, up to 310 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]). Its base stats come from The Graveyard's config.
+The Corrupted Champion's level is at least 300, plus a random 0–10, up to 310 (see [[leveling/mob-levels|Mob Levels]]). Its base stats come from The Graveyard's config.
 
 | Stat | Base | Level 300 | Level 310 |
 | --- | --- | --- | --- |

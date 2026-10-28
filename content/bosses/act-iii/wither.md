@@ -40,7 +40,7 @@ The Wither is summoned the vanilla way: four Soul Sand (or Soul Soil) in a T sha
 
 ## Stats
 
-The Wither has a level floor of 150: it takes the Soulrend level of the nearest player, but never less than 150. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Wither has a level floor of 150: it takes the Soulrend level of the nearest player, but never less than 150. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 150 (floor) | Level 200 |
 | --- | --- | --- | --- |

@@ -47,8 +47,8 @@ The **Hunter's Journal** is a side chapter of kill-count quests in the Tales of 
 
 | Mob | Kills | Rewards |
 | --- | --- | --- |
-| [[enemies/act-ii/necromancer\|Necromancer]] | 5, then 25 | 16, then 64 [[item:irons_spellbooks:arcane_essence]] |
-| [[enemies/act-ii/hollow\|Hollow]] | 5, then 25 | 16 Iron and 16 Steel Ingots, then 32 of each |
+| [[enemies/act-i/necromancer\|Necromancer]] | 5, then 25 | 16, then 64 [[item:irons_spellbooks:arcane_essence]] |
+| [[enemies/act-i/hollow\|Hollow]] | 5, then 25 | 16 Iron and 16 Steel Ingots, then 32 of each |
 | Enderman | 5, then 25 | 5, then 10 [[item:minecraft:ender_pearl]] |
 | [[enemies/act-iii/piglin-and-piglin-brute\|Piglin]] | 50, then 250 | 4, then 16 [[item:minecraft:gold_block]] |
 | [[enemies/act-iii/piglin-and-piglin-brute\|Piglin Brute]] | 50, then 250 | 4, then 16 Blocks of Gold |

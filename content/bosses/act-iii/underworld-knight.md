@@ -45,7 +45,7 @@ Soul Skeletons and [[bosses/optional-and-world/wither-knight|Wither Knights]] sp
 
 ## Stats
 
-The knight's level is fixed at 150, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]] for how levels scale other mobs.
+The knight's level is fixed at 150, so its stats never change. See [[leveling/mob-levels|Mob Levels]] for how levels scale other mobs.
 
 | Stat | Base | Level 150 |
 | --- | --- | --- |

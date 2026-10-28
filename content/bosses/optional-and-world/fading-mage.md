@@ -42,7 +42,7 @@ One source of Void Manuscripts is the last optional quest of [[progression/act-i
 
 ## Stats
 
-The Fading Mage is neutral. It has no level setting, so its level matches the Soulrend level of the nearest player (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Fading Mage is neutral. It has no level setting, so its level matches the Soulrend level of the nearest player (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act II (40) | Act III (100) |
 | --- | --- | --- | --- |

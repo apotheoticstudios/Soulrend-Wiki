@@ -36,7 +36,7 @@ The Voidshelf Golem is part of the Void Cathedral (`traveloptics:void_cathedral`
 
 ## Stats
 
-The golem has no level setting, so its level matches the Soulrend level of the nearest player. The columns use the typical levels of the acts in which players reach the End (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The golem has no level setting, so its level matches the Soulrend level of the nearest player. The columns use the typical levels of the acts in which players reach the End (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act IV (180) | Act V (200) |
 | --- | --- | --- | --- |

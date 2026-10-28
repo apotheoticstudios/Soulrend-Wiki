@@ -41,7 +41,7 @@ The Past is reached with the [[item:kubejs:emblem_of_the_past]] (see [[features/
 
 ## Stats
 
-Soulrend gives the Decaying King base health of 6,000 and base attack damage of 200 when it spawns, and the level bonus then multiplies them. Wither skeletons have no level setting, so its level is the nearest player's Soulrend level. The last column uses Act V's typical level, the player cap of 200 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+Soulrend gives the Decaying King base health of 6,000 and base attack damage of 200 when it spawns, and the level bonus then multiplies them. Wither skeletons have no level setting, so its level is the nearest player's Soulrend level. The last column uses Act V's typical level, the player cap of 200 (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Past base | Level 200 |
 | --- | --- | --- |

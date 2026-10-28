@@ -12,8 +12,7 @@
 
 ## In this section
 
-- [[features/character/levelling-stats|Levelling Stats]] — STR, CON, AGI, INT, LCK and FOC; each point gives attribute bonuses.
-- [[features/character/titles-and-ranks|Titles & Ranks]] — About 40 unlockable titles and ranks from Novice to Ascendant.
+Levels, stats, titles and ranks have their own section: see [[leveling|Leveling]].
+
 - [[features/character/inventory-tabs|Inventory Tabs]] — Inventory, Levelling, Origins, Skill Tree, Quests and Combat Skills tabs.
 - [[features/character/origin-selector|Origin Selector]] — Paged Race → Class → Path picker with class tabs and Random.
-- [[features/character/skill-points-from-damage|Skill Points from Damage]] — Skill points are earned by dealing damage; dummies and gates excluded.

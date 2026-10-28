@@ -42,7 +42,7 @@ The Nightwarden returns to its home position if pulled away, and it has handlers
 
 ## Stats
 
-The Nightwarden's level is fixed at 500, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Nightwarden's level is fixed at 500, so its stats never change. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 500 |
 | --- | --- | --- |

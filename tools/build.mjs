@@ -130,7 +130,8 @@ function writeApp(out, site, themes, atlasFile, game) {
   css += glyphCss(game.glyphs);
   css = applyBreakpoints(css, site.layout.mobileBreakpoint);
 
-  const sources = [...walk(path.join(ROOT, 'src/client')), ...walk(path.join(ROOT, 'src/shared')), ...walk(path.join(ROOT, 'src/fonts')), ...walk(game.glyphDir)];
+  const sources = [...walk(path.join(ROOT, 'src/client')), ...walk(path.join(ROOT, 'src/shared')), ...walk(path.join(ROOT, 'src/fonts')), ...walk(game.glyphDir),
+    ...walk(game.skillTreeDir), ...(game.skillTrees ? [path.join(ROOT, 'game-data/skilltrees.json')] : [])];
   const versions = ['minisearch', 'three'].map(name => readJson(path.join(ROOT, 'node_modules', name, 'package.json')).version);
   const app = `_app/${hash(css, hashFiles(sources), versions.join())}`;
   const dir = path.join(out, app);
@@ -138,6 +139,12 @@ function writeApp(out, site, themes, atlasFile, game) {
   writeFile(path.join(dir, 'wiki.css'), css);
   for (const folder of ['client', 'shared', 'fonts']) copyDir(path.join(ROOT, 'src', folder), path.join(dir, folder));
   copyDir(game.glyphDir, path.join(dir, 'glyphs'));
+  // Skill trees: textures, plus one JSON per tree that the skilltree client fetches next to them.
+  if (game.skillTrees) {
+    copyDir(game.skillTreeDir, path.join(dir, 'skilltrees'));
+    const { trees, frames, screen } = game.skillTrees;
+    for (const [id, tree] of Object.entries(trees)) writeFile(path.join(dir, 'skilltrees', `${id}.json`), JSON.stringify({ ...tree, frames, screen }));
+  }
   for (const [from, to] of VENDOR) copyFile(path.join(ROOT, 'node_modules', from), path.join(dir, to));
   return app;
 }

@@ -36,7 +36,7 @@ Dread Liches spawn naturally as rare hostile mobs (spawn weight 2) in snowy Over
 
 ## Stats
 
-The Dread Lich has no level setting, so its level matches the Soulrend level of the nearest player (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Dread Lich has no level setting, so its level matches the Soulrend level of the nearest player (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act I (10) | Act II (40) | Act III (100) |
 | --- | --- | --- | --- | --- |
@@ -51,7 +51,7 @@ The Dread Lich has no level setting, so its level matches the Soulrend level of 
 | Attack | Notes |
 | --- | --- |
 | Dread Lich Skull | A flying skull projectile. |
-| Summon minions | Raises Dread Thralls, Dread Ghouls, Dread Beasts and Dread Scuttlers. |
+| Summon minions | Raises Dread Thralls, Dread Ghouls, Dread Beasts and Dread Scuttlers (see [[Dread Army]]). |
 
 ## Drops
 

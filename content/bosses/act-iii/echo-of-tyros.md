@@ -41,7 +41,7 @@ The Citadel (`irons_spellbooks:citadel`) generates in the same Nether biomes as 
 
 ## Stats
 
-Echo of Tyros's level is fixed at 100, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+Echo of Tyros's level is fixed at 100, so its stats never change. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 100 |
 | --- | --- | --- |

@@ -41,7 +41,7 @@ The Luxtructosaurus is summoned at a **Volcanic Core** in the Primordial Caves b
 
 ## Stats
 
-The Luxtructosaurus's level is at least 500, plus a random 0–50, up to 550 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Luxtructosaurus's level is at least 500, plus a random 0–50, up to 550 (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Level 500 | Level 550 |
 | --- | --- | --- | --- |

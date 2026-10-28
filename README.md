@@ -113,6 +113,7 @@ Write embeds on a line of their own, as a one-line shortcode or a fenced JSON bl
 | `image` | `{{image mobs/wraith.png caption="A wraith" align=right width=240 pixelated=true}}` | Path under `assets/`. |
 | `model` | `{{model mobs/wraith.glb animation=idle poster=mobs/wraith.png}}` | 3D viewer (see below). |
 | `moveset` | `{{moveset minecraft:iron_sword}}`, `{{moveset type=epicfight:longsword}}` | The item's Epic Fight moveset from `game-data/movesets.json`: per style, its combo, dash and jump attacks and innate skill, then what each skill does. With `type=`, a weapon type without a particular item. |
+| `skilltree` | `{{skilltree warrior}}`, `{{skilltree warrior focus="warrior_6, warrior_80"}}` | A pannable, zoomable map of a passive skill tree from `game-data/skilltrees.json`, drawn like the game's own screen, with the game's tooltips on hover. `focus` lists node ids to light up (the rest is darkened) and the view opens on them. An ordinary node stands for its whole branch; a root, subclass, school or keystone node (one with a limited tag) stands for itself. `height=` sets the height in px (default 440); `caption=` adds a caption. |
 
 Hand-written recipes use any station in `site/stations/`. `#tag` ingredients cycle through the tag's items.
 
@@ -200,9 +201,11 @@ Use `"flow": true` instead of `size`/`inputs`/`outputs` for an automatic row lay
 - Datapack weapon types and item capabilities come from the jars, from packs embedded in jars (`packs/<name>/data/…`), and from Paxi datapacks, which win.
 - The in-game export's `item-stats.json` (Epic Fight category, default style and innate skill per item) settles ties and is checked against the result. `sync-game` warns about items that disagree, and stores the game's innate skill on such an item.
 
+**Skill trees** (`game-data/skilltrees.json` and `game-data/skilltrees/`, read by the `skilltree` embed) also need no export step. `sync-game` reads the trees from the Passive Skill Tree jar and the Paxi datapacks, builds each node's tooltip with a port of the mod's tooltip code (`tools/lib/skilltree-tooltips.mjs`), and takes textures from the jars and then the Paxi resource packs (Tabla's PST-I pack replaces the node frames and connections). Each tree's node textures are packed into one sheet. Untranslated lang keys stay raw, as they do in game, and `sync-game` lists them.
+
 Re-run the export (open a world with `enabled.json` present, then `npm run sync-game`) whenever recipes, items or tags change. If a script errors, the KubeJS log says where.
 
-`game-data/` only covers items, recipes, tags, the export's data files and Epic Fight movesets. For everything else (quests, acts, origins, skill trees, boss spawns), read the instance directly: [`docs/instance-guide.md`](docs/instance-guide.md) says where each thing lives and which files to skip.
+`game-data/` only covers items, recipes, tags, the export's data files, Epic Fight movesets and the skill tree maps. For everything else (quests, acts, origins, skill tree numbers, boss spawns), read the instance directly: [`docs/instance-guide.md`](docs/instance-guide.md) says where each thing lives and which files to skip.
 
 ## Font
 

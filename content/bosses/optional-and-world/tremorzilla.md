@@ -37,7 +37,7 @@ A nuclear explosion turns any [[item:alexscaves:tremorsaurus_egg]] caught in its
 
 ## Stats
 
-Tremorzilla's level is at least 400, plus a random 0–40, up to 440 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+Tremorzilla's level is at least 400, plus a random 0–40, up to 440 (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Level 400 | Level 440 |
 | --- | --- | --- | --- |

@@ -32,7 +32,7 @@
 -->
 **Dungeons and Combat minibosses** are the stronger mobs that guard three Dungeons and Combat structures: the Forgotten Sands in the desert, and the Blazing Fortress and the Church in the Nether. No quest requires them, but they drop the materials for several Dungeons and Combat items.
 
-None of them has a level setting, so their level matches the Soulrend level of the nearest player (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]). None has a damage cap.
+None of them has a level setting, so their level matches the Soulrend level of the nearest player (see [[leveling/mob-levels|Mob Levels]]). None has a damage cap.
 
 ## Comparison
 

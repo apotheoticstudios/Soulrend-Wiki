@@ -1,22 +1,39 @@
 ---
 {
   "title": "Ranger – Core",
-  "summary": "Root: +5% movement, less slowdown while drawing a bow.",
-  "hidden": true
+  "summary": "The Ranger root node and its six spokes: arrow damage, bounty, endurance, lightweight, arrow retrieval and evasion."
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  config/paxi/datapacks/soulrend_skilltree/data/skilltree/skills/ranger_1.json (root)
+  config/paxi/datapacks/soulrend_skilltree/data/skilltree/skill_trees/ranger.json
+  mods/PassiveSkillTree-1.20.1-BETA-0.7.6c-all.jar (each skill costs 1 point: PlayerSkills.learnSkill; multipliers count whole steps: FloatFunctionMultiplier.getValue; tooltip wording from assets/skilltree/lang/en_us.json)
+  game-data/attributes.json, game-data/effects.json, game-data/spells.json (display names)
+-->
+The **Ranger core** is the part of the [[skill-trees/ranger|Ranger skill tree]] that every Ranger build starts from: the root node, six spokes and the core keystones. The root is the tree's starting point and costs 1 point like every other node.
 
-Root: +5% movement, less slowdown while drawing a bow.
+{{skilltree ranger focus="ranger_1, ranger_2, ranger_6, ranger_3, ranger_4, ranger_7, ranger_10, ranger_11, ranger_12, ranger_13, ranger_14, ranger_5"}}
 
-## In this section
+## Root
 
-- [[skill-trees/ranger/core/keystones|Ranger – Core – Keystones]] — Pick 3 (Seal Crystal): arrow velocity, arrow damage, crit damage, crit chance, draw speed.
-- [[skill-trees/ranger/core/arrow-damage|Ranger – Core – Arrow Damage]] — Hub +10% arrow damage; invisibility on kill and crit damage leaves.
-- [[skill-trees/ranger/core/bounty|Ranger – Core – Bounty]] — Hub +50% mob XP; mob loot, fishing loot and Looting leaves.
-- [[skill-trees/ranger/core/endurance|Ranger – Core – Endurance]] — Hub +50% arrow damage; stamina regen, dodge and healing leaves.
-- [[skill-trees/ranger/core/lightweight|Ranger – Core – Lightweight]] — Hub −10 weight; stamina leaves.
-- [[skill-trees/ranger/core/arrow-retrieval|Ranger – Core – Arrow Retrieval]] — Hub 25% arrow retrieval; Shield spell, Slowness and jump leaves.
-- [[skill-trees/ranger/core/evasion|Ranger – Core – Evasion]] — Hub +0.1 dodge; armour, dodge and HP leaves.
+The Ranger root gives:
+
+- +5% Speed
+- 5% less movement penalty while using bows
+
+## Spokes
+
+Each spoke is a path of Minor nodes that ends in a hub; three leaves branch off each hub.
+
+| Spoke | Points to hub | Hub effect | Nodes |
+| --- | --- | --- | --- |
+| [[skill-trees/ranger/core/arrow-damage\|Arrow Damage]] | 10 | +10% Arrow Damage (total) while crouching | 13 |
+| [[skill-trees/ranger/core/bounty\|Bounty]] | 10 | +50% experience from mobs | 13 |
+| [[skill-trees/ranger/core/endurance\|Endurance]] | 10 | +50% Arrow Damage while riding (the [[features/combat/mounted-combat|Mounted]] effect) | 13 |
+| [[skill-trees/ranger/core/lightweight\|Lightweight]] | 10 | −10 Weight | 13 |
+| [[skill-trees/ranger/core/arrow-retrieval\|Arrow Retrieval]] | 10 | 25% chance to retrieve fired arrows | 13 |
+| [[skill-trees/ranger/core/evasion\|Evasion]] | 10 | +10% Dodge Chance | 13 |
+
+## Keystones
+
+The root also connects to five keystones, of which a player can take three. They need a picked-up [[item:nether_remastered:seal_crystal]]. See [[skill-trees/ranger/core/keystones|Ranger – Core – Keystones]].

@@ -40,7 +40,7 @@ The Ender Dragon waits on the main island of the End. In Soulrend the End portal
 
 ## Stats
 
-The dragon's level is fixed at 467, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The dragon's level is fixed at 467, so its stats never change. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 467 |
 | --- | --- | --- |

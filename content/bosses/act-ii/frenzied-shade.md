@@ -42,7 +42,7 @@ The Frenzied Shade doesn't spawn on its own. It appears where the Old Champion's
 
 ## Stats
 
-The Frenzied Shade has a level floor of 60: it takes the nearest player's Soulrend level, but never less than 60. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Frenzied Shade has a level floor of 60: it takes the nearest player's Soulrend level, but never less than 60. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 60 (floor) | Level 100 | Level 200 |
 | --- | --- | --- | --- | --- |

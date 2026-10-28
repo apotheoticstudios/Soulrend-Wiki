@@ -37,7 +37,7 @@ Click the checkmark task, **Leveling Up**.
 1. Open the inventory (I with Soulrend's default key bindings) and find the leveling tab.
 2. Spend attribute points there as they come in.
 
-See [[features/character/levelling-stats|Leveling Stats]] for what each attribute does and [[features/character/skill-points-from-damage|Skill Points from Damage]] for how the damage threshold works.
+See [[leveling/stats|Stats]] for what each attribute does and [[leveling/earning-levels|Earning Levels]] for how the damage threshold works.
 
 ## Next
 

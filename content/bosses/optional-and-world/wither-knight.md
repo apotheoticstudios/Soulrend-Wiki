@@ -36,7 +36,7 @@ Wither Knights spawn as part of the Underworld Arena (`block_factorys_bosses:und
 
 ## Stats
 
-The Wither Knight has no level floor or cap, so its level matches the Soulrend level of the nearest player. The columns use the typical levels of the acts in which players visit the arena (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Wither Knight has no level floor or cap, so its level matches the Soulrend level of the nearest player. The columns use the typical levels of the acts in which players visit the arena (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act III (100) | Act III-b (150) | Act V (200) |
 | --- | --- | --- | --- | --- |

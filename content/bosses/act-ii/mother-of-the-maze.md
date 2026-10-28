@@ -41,7 +41,7 @@ Anglerfish live in the Ice Maze, so that is where the ambush happens. While a Mo
 
 ## Stats
 
-The Mother of the Maze is on Auto Leveling's list of mobs that never level up, so it keeps its base stats at every stage of the game (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Mother of the Maze is on Auto Leveling's list of mobs that never level up, so it keeps its base stats at every stage of the game (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Value |
 | --- | --- |

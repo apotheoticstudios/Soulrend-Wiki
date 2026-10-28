@@ -39,7 +39,7 @@
 -->
 **Cataclysm minibosses** are the strong L_Ender's Cataclysm mobs that guard the structures of the [[progression/act-iii-into-the-flames/the-eight-sins|Eight Sins]]. Players meet them on the way to the Sins in [[progression/act-iii-into-the-flames|Act III]], but no quest requires killing them.
 
-Every one of them has a level floor of 200, the highest level a player can reach, so they are always level 200 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]). None has a damage cap.
+Every one of them has a level floor of 200, the highest level a player can reach, so they are always level 200 (see [[leveling/mob-levels|Mob Levels]]). None has a damage cap.
 
 ## Comparison
 

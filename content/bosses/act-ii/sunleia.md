@@ -44,7 +44,7 @@ The pantheon holds the **Sunleia Light**. Using the lit Sunleia Light summons Su
 
 ## Stats
 
-Sunleia's level is fixed at 30, so its stats never change. The quest book states it too ("Level 30"). See [[features/mobs-and-world/mob-levelling|Mob Levelling]] for how levels scale other mobs.
+Sunleia's level is fixed at 30, so its stats never change. The quest book states it too ("Level 30"). See [[leveling/mob-levels|Mob Levels]] for how levels scale other mobs.
 
 | Stat | Base | Level 30 |
 | --- | --- | --- |

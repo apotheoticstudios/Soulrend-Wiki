@@ -33,7 +33,7 @@ Lupus Aureum spawns alone in Old Growth Pine Taigas and Old Growth Spruce Taigas
 
 ## Stats
 
-It has no level setting, so its level matches the Soulrend level of the nearest player (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+It has no level setting, so its level matches the Soulrend level of the nearest player (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act I (10) | Act II (40) | Act III (100) |
 | --- | --- | --- | --- | --- |

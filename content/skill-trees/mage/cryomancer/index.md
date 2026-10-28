@@ -1,19 +1,34 @@
 ---
 {
   "title": "Mage – Cryomancer",
-  "summary": "Ice school: +1 Ice spell power. 3 branches of 6 minor nodes, a Sentience notable and 3 leaves.",
-  "hidden": true
+  "summary": "Ice school node of the Mage tree: +100% Ice Spell Power, with three branches and three keystones."
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  config/paxi/datapacks/soulrend_skilltree/data/skilltree/skills/mage-ice.json (school node), config/paxi/datapacks/soulrend_skilltree/data/skilltree/skill_trees/mage.json (skillLimitations "Class": 2)
+  mods/PassiveSkillTree-1.20.1-BETA-0.7.6c-all.jar (each skill costs 1 point: PlayerSkills.learnSkill; multipliers count whole steps: FloatFunctionMultiplier.getValue; tooltip wording from assets/skilltree/lang/en_us.json)
+  game-data/attributes.json, game-data/effects.json, game-data/spells.json (display names)
+-->
+**Cryomancer** is the Ice school node of the [[skill-trees/mage|Mage skill tree]]. It connects directly to the Mage root and costs 1 point. A player can take at most two of the twelve school nodes. Taking it opens three branches and three keystones.
 
-Ice school: +1 Ice spell power. 3 branches of 6 minor nodes, a Sentience notable and 3 leaves.
+{{skilltree mage focus="mage-ice, mage-nt_defense-ice, mage-ks_defense-ice, mage-ks_offense-ice, mage-ks_utility-ice, mage-nt_offense-ice, mage-nt_utility-ice"}}
 
-## In this section
+## School node
 
-- [[skill-trees/mage/cryomancer/keystones|Mage – Cryomancer – Keystones]] — Pick 1: +1% spell resistance, +1% max mana, or +2 innate Ice levels.
-- [[skill-trees/mage/cryomancer/defence|Mage – Cryomancer – Defence]] — Spell resistance; +1 Ice level leaf.
-- [[skill-trees/mage/cryomancer/offence|Mage – Cryomancer – Offence]] — Ice spell power leaves.
-- [[skill-trees/mage/cryomancer/utility|Mage – Cryomancer – Utility]] — Ice spell power leaves.
+The Cryomancer node gives:
+
+- +100% Ice Spell Power
+
+## Branches
+
+Each branch is a path of six Minor nodes that ends in a hub (titled "Sentience" in game) with three leaves.
+
+| Branch | Points to hub | Hub effect | Nodes |
+| --- | --- | --- | --- |
+| [[skill-trees/mage/cryomancer/defence\|Defense]] | 7 | +2.5% Spell Resistance per 25% Ice Spell Power | 10 |
+| [[skill-trees/mage/cryomancer/offence\|Offense]] | 7 | +5% Ice Spell Power | 10 |
+| [[skill-trees/mage/cryomancer/utility\|Utility]] | 7 | +5% Ice Spell Power | 10 |
+
+## Keystones
+
+The Cryomancer node connects to three keystones, of which a player can take one. They need a picked-up [[item:block_factorys_bosses:knight_sword]]. See [[skill-trees/mage/cryomancer/keystones|Mage – Cryomancer – Keystones]].

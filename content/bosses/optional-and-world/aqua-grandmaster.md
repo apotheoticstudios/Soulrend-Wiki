@@ -34,7 +34,7 @@ Aqua Grandmasters spawn naturally in beach biomes, one at a time, with a spawn w
 
 ## Stats
 
-The Aqua Grandmaster has no level setting, so its level matches the Soulrend level of the nearest player (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Aqua Grandmaster has no level setting, so its level matches the Soulrend level of the nearest player (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act I (10) | Act II (40) | Act III (100) |
 | --- | --- | --- | --- | --- |

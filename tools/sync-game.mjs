@@ -12,7 +12,8 @@
 //      files (EXPORT_DATA below) are copied as they are, plus loot-index.json built from loot tables.
 //   3. Rendered icons from an icon-export mod (a folder of <namespace>__<path>.png files).
 // movesets.json (Epic Fight weapon types, combos and skills) is read from mod bytecode and capability JSON;
-// see tools/lib/movesets.mjs.
+// see tools/lib/movesets.mjs. skilltrees.json and skilltrees/ (Passive Skill Tree layouts, tooltips and
+// textures) come from the Paxi packs; see tools/lib/skilltrees.mjs.
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -20,6 +21,7 @@ import { fileURLToPath } from 'node:url';
 import { unzipSync, strFromU8 } from 'fflate';
 import { PNG } from 'pngjs';
 import { extractMovesets } from './lib/movesets.mjs';
+import { readSkillTrees, writeSkillTrees } from './lib/skilltrees.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'game-data');
@@ -62,6 +64,7 @@ const ICON_SLOTS = ['layer0', 'all', 'side', 'front', 'texture', 'top', 'end', '
 const itemNames = new Map();    // from item.<ns>.<id> keys
 const blockNames = new Map();   // from block.<ns>.<id> keys, used for block items
 const descriptions = new Map();
+const lang = new Map();          // every en_us string, for the skill tree tooltips
 const models = new Map();       // "ns:item/x" | "ns:block/x" -> model JSON
 const modNames = new Map([['minecraft', 'Minecraft'], ['forge', 'Forge']]);
 const loadedMods = new Set(['minecraft', 'forge']);
@@ -138,9 +141,10 @@ function scanArchive(file, { data = true } = {}) {
   }
 }
 
-function readLang(lang) {
-  for (const [key, value] of Object.entries(lang)) {
+function readLang(entries) {
+  for (const [key, value] of Object.entries(entries)) {
     if (typeof value !== 'string') continue;
+    lang.set(key, value);
     const nameMatch = NAME_KEY.exec(key);
     if (nameMatch) {
       (nameMatch[1] === 'item' ? itemNames : blockNames).set(`${nameMatch[2]}:${nameMatch[3]}`, value);
@@ -459,6 +463,9 @@ for (const id of itemIds) {
   candidates.set(id, list);
   list.forEach(t => needed.add(t));
 }
+// Skill tree node textures and the mod's screen textures.
+const skillTrees = readSkillTrees(INSTANCE);
+for (const key of skillTrees.needed) needed.add(key);
 // Sheets for mod font icons (e.g. Obscure API's hunger/saturation/damage symbols in tooltips).
 const glyphSheet = provider => `${ref(provider.file).replace(/\.png$/, '')}`;
 for (const provider of fontProviders) needed.add(glyphSheet(provider));
@@ -532,6 +539,15 @@ for (const [name, target] of Object.entries(EXPORT_DATA)) {
 }
 const movesets = extractMovesets({ instance: INSTANCE, itemStats: readExport('item_stats.json') ?? {} });
 writeJson('movesets.json', movesets.data);
+const skillTreeNames = {
+  attributes: readExport('attributes.json') ?? {},
+  effects: readExport('effects.json') ?? {},
+  spells: readExport('spells.json') ?? {},
+  items,
+};
+const skillTreeResult = skillTrees.trees.size
+  ? writeSkillTrees({ instance: INSTANCE, read: skillTrees, textures, lang, names: skillTreeNames, outDir: OUT })
+  : null;
 const source = {
   syncedAt: new Date().toISOString(),
   items: exported.items ? 'kubejs export' : 'jar scan',
@@ -549,6 +565,7 @@ console.log(`Wrote game-data/ in ${((performance.now() - started) / 1000).toFixe
   tags:    ${Object.keys(tags).length} (${source.tags})
   data:    ${exportedData.length ? exportedData.join(', ') : 'none (run the in-game export)'}
   movesets: ${movesets.summary}
+  skill trees: ${skillTreeResult ? skillTreeResult.summary : 'none (Passive Skill Tree not installed)'}
   glyphs:  ${Object.keys(glyphs).length} tooltip icons from ${fontProviders.length} font sheets
   icons:   ${iconCounts.rendered} rendered, ${iconCounts.flat} flat textures, ${iconCounts.none} missing (${iconCounts.entity} are 3D-rendered items that need the icon export)`);
 if (!exported.recipes) {

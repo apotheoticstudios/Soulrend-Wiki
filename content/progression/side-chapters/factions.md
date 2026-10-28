@@ -51,4 +51,4 @@ Each faction quest has two tasks: find the faction's castle, and kill a number o
 
 - Soldier kills count toward every faction quest that is open at the time, so open several at once.
 
-See [[features/multiplayer/factions-and-sieges|Factions and Sieges]] and [[enemies/act-ii/valarian-soldier|Valarian Soldier]].
+See [[features/multiplayer/factions-and-sieges|Factions and Sieges]] and [[enemies/act-i/valarian-soldier|Valarian Soldier]].

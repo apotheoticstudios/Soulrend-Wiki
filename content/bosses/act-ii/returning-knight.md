@@ -45,7 +45,7 @@ The Guiding Moon quest gives 2 Lost Souls, and they can be crafted:
 
 ## Stats
 
-The Returning Knight has a level floor of 50: it takes the nearest player's Soulrend level, but never less than 50. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Returning Knight has a level floor of 50: it takes the nearest player's Soulrend level, but never less than 50. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 50 (floor) | Level 100 | Level 200 |
 | --- | --- | --- | --- | --- |

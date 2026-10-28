@@ -159,6 +159,15 @@ Races and classes you pick at the start of the game.
     - [[origins/fusion-classes/spellblade|Spellblade]] — +20% mana, +25% spell power, +15% attack damage. Starts with Magic Missile and Teleport.
     - [[origins/fusion-classes/reaper|Reaper]] — +25% blood spell power, +25% with scythes, heal on kill; weak to holy.
 
+## Leveling
+
+Soulrend Core's damage-based levels, stats, titles and ranks.
+
+- [[leveling|Leveling]]
+  - [[leveling/earning-levels|Earning Levels]] — Damage dealt to mobs; 50 damage for level 1 up to 50,000,000 for level 200.
+  - [[leveling/stats|Stats]] — CON, STR, AGI, INT, LCK and FOC; 1 point per level to 180, max 30 each, free respec.
+  - [[leveling/titles-and-ranks|Titles & Ranks]] — Titles from stats, mob kills and operator status; ranks Novice to Ascendant.
+
 ## Skill Trees
 
 The four Passive Skill Tree trees: Warrior, Ranger, Rogue and Mage.
@@ -378,13 +387,19 @@ Every boss, by the act it belongs to.
 
 ## Enemies
 
-Major non-boss enemies, by the act you meet them in.
+Major non-boss enemies, grouped like Progression: by the act whose quests or dimension they belong to, plus Misc for world spawns no quest asks for. Researched 2026-10-27 from the quests, biome modifiers, structure NBT and spawn configs (see each stub's research comment).
 
 - [[enemies|Enemies]]
   - [[enemies/act-i|Act I Enemies]]
-    - [[enemies/act-i/zombie|Zombie]] — Hunter's Journal kill target; "Kill 3 Zombies" ends Act I.
-    - [[enemies/act-i/skeleton|Skeleton]] — Hunter's Journal kill target.
-    - [[enemies/act-i/spider|Spider]] — Hunter's Journal kill target.
+    - [[enemies/act-i/zombie|Zombie]] — Hunter's Journal target; "Kill 3 Zombies" ends Act I.
+    - [[enemies/act-i/skeleton|Skeleton]] — Hunter's Journal target.
+    - [[enemies/act-i/spider|Spider]] — Hunter's Journal target.
+    - [[enemies/act-i/enderman|Enderman]] — Hunter's Journal target; also the main End mob in Act IV.
+    - [[enemies/act-i/hollow|Hollow]] — Weapons of Miracles; spawns in every Overworld biome; Hunter's Journal target.
+    - [[enemies/act-i/necromancer|Necromancer]] — Iron's Spellbooks caster; spawns in every Overworld biome; Hunter's Journal target.
+    - [[enemies/act-i/valarian-soldier|Valarian Soldier]] — Valarian Conquest soldiers and archers; Factions chapter kill counts (10–80 per castle).
+    - [[enemies/act-i/troll|Troll]] — Ice and Fire; forest, mountain and snowy trolls.
+    - [[enemies/act-i/overworld-monsters|Overworld Monsters]] — Husks, Strays, Drowned, Witches, Slimes, Phantoms, Cave Spiders and Pillagers; Creepers are disabled.
   - [[enemies/act-ii|Act II Enemies]]
     - [[enemies/act-ii/ernos|Ernos]] — Dungeons and Combat mini-boss (optional quest).
     - [[enemies/act-ii/sea-serpent|Sea Serpent]] — Ice and Fire sea monster (optional kill quest).
@@ -393,28 +408,53 @@ Major non-boss enemies, by the act you meet them in.
     - [[enemies/act-ii/siren|Siren (Enemy)]] — Ice and Fire; kill 3 at Sirens Cove.
     - [[enemies/act-ii/gorgon|Gorgon]] — Ice and Fire; kill one at the Gorgon Temple.
     - [[enemies/act-ii/ghost|Ghost]] — Ice and Fire; kill one at the Graveyard.
-    - [[enemies/act-ii/necromancer|Necromancer]] — Iron's Spellbooks caster; Hunter's Journal target.
-    - [[enemies/act-ii/hollow|Hollow]] — Weapons of Miracles mob; Hunter's Journal target.
-    - [[enemies/act-ii/valarian-soldier|Valarian Soldier]] — Faction soldiers; Factions chapter kill counts (10–80 per castle).
-    - [[enemies/act-ii/troll|Troll]] — Valarian Conquest troll.
-    - [[enemies/act-ii/witch-and-evoker|Witch & Evoker]] — Drop Nether seal pieces (config/nether remastered.toml).
+    - [[enemies/act-ii/dread-army|Dread Army]] — Ice and Fire; the Dread Thralls, Ghouls, Beasts, Scuttlers and Knights of snowy Mausoleums, raised by the Dread Lich.
+    - [[enemies/act-ii/ice-and-fire-creatures|Ice and Fire Creatures]] — Death Worms, Stymphalian Birds, Amphitheres and Myrmex.
+    - [[enemies/act-ii/witch-and-evoker|Witch & Evoker]] — Drop the Top-Right and Bottom-Left Nether seal shards.
     - [[enemies/act-ii/anglerfish|Anglerfish]] — Aquamirae; one turns into the Maze Mother at midnight.
     - [[enemies/act-ii/decaying-eel|Decaying Eel]] — Aquamirae eel with a boss bar from KubeJS; no quest.
+    - [[enemies/act-ii/ice-maze-creatures|Ice Maze Creatures]] — Aquamirae; Maws, Spinefish, Abyssal Scyphoids, Tortured Souls and Pillager patrols.
+    - [[enemies/act-ii/dragon-guards|Dragon Guards]] — Bosses'Rise; Dragon Guards and Piles of Bones in the Dragon Tower and Underworld Arena.
+    - [[enemies/act-ii/spellcasters|Spellcasters]] — Pyromancers, Cryomancers, Apothecarists, Aquamancers and Geomancers, plus Ice Spiders.
   - [[enemies/act-iii|Act III Enemies]]
     - [[enemies/act-iii/ignited-berserker|Ignited Berserker]] — Cataclysm; drops Burning Ashes (25%) for the Eye of Flame.
     - [[enemies/act-iii/ancient-knight|Ancient Knight]] — Iron's Spellbooks Citadel Keeper; rare Keeper Flamberge drop.
     - [[enemies/act-iii/wither-skeleton|Wither Skeleton]] — Hunter's Journal target.
     - [[enemies/act-iii/piglin-and-piglin-brute|Piglin & Piglin Brute]] — Hunter's Journal targets.
+    - [[enemies/act-iii/nether-mobs|Nether Mobs]] — Vanilla Nether mobs plus Oni, Akaname, Fractured Vexes, Ghouls, Evil Skeletons, Soul Vultures and Straddlers.
+    - [[enemies/act-iii/forlorn-and-withered-demon|Forlorn & Withered Demon]] — Soulslike Weaponry Nether spawns; Forlorn never drop their armor.
+    - [[enemies/act-iii/cult-of-the-weak|Cult of the Weak]] — Dungeons and Combat; Bloody Cultists, Bloodymancers, Weakness and Failure. The Aberrator is on [[bosses/optional-and-world/dungeons-and-combat-minibosses|Dungeons and Combat Minibosses]].
+    - [[enemies/act-iii/frosted-prison-draugr|Frosted Prison Draugr]] — Cataclysm; Draugr, Royal Draugr and Elite Draugr. The Aptrgangr is on [[bosses/optional-and-world/cataclysm-minibosses|Cataclysm Minibosses]].
+    - [[enemies/act-iii/acropolis-creatures|Acropolis Creatures]] — Cataclysm; Hippocamtus, Cindaria, Urchinkin and Drowned Hosts with Symbioctos. The Clawdian is on [[bosses/optional-and-world/cataclysm-minibosses|Cataclysm Minibosses]].
+    - [[enemies/act-iii/deeplings|Deeplings]] — Cataclysm; Deeplings, Brutes, Anglers, Priests, Warlocks and Coral Golems; also in Overworld oceans.
+    - [[enemies/act-iii/koboleton|Koboleton]] — Cataclysm; hot Overworld deserts. Kobolediators and Wadjets are on [[bosses/optional-and-world/cataclysm-minibosses|Cataclysm Minibosses]].
+    - [[enemies/act-iii/endermaptera|Endermaptera]] — Cataclysm; level floor 50, but nothing spawns it naturally. The Ender Golem is on [[bosses/optional-and-world/cataclysm-minibosses|Cataclysm Minibosses]].
+    - [[enemies/act-iii/magnetic-caves-mobs|Magnetic Caves Mobs]] — Alex's Caves; Teletors, Boundroids, Ferrouslimes, Notors and Magnetrons.
+    - [[enemies/act-iii/toxic-caves-mobs|Toxic Caves Mobs]] — Alex's Caves; Brainiacs, Nucleepers, Gammaroaches, Raycats and Radgills.
+    - [[enemies/act-iii/abyssal-chasm-mobs|Abyssal Chasm Mobs]] — Alex's Caves; Deep Ones, Deep One Knights and Mages, and the Hullbreaker.
+    - [[enemies/act-iii/forlorn-hollows-mobs|Forlorn Hollows Mobs]] — Alex's Caves; Underzealots, Corrodents, Vespers and Gloomoths.
+    - [[enemies/act-iii/primordial-caves-mobs|Primordial Caves Mobs]] — Alex's Caves; Vallumraptors, Tremorsauruses, Subterranodons and other dinosaurs.
+    - [[enemies/act-iii/candy-cavity-mobs|Candy Cavity Mobs]] — Alex's Caves; Caniacs, Gumbeepers, Gum Worms, Caramel Cubes and Gummy Bears.
   - [[enemies/act-iii-b|Act III-b Enemies]]
-    - [[enemies/act-iii-b/shriek-worm|Shriek Worm]] — Deeper and Darker; KubeJS boss bar, only takes damage within 7 blocks.
-    - [[enemies/act-iii-b/stalker|Stalker]] — Deeper and Darker; only spawns in the Otherside.
-    - [[enemies/act-iii-b/shattered|Shattered]] — Deeper and Darker Otherside mob.
+    - [[enemies/act-iii-b/shriek-worm|Shriek Worm]] — KubeJS boss bar; only takes damage within 7 blocks.
+    - [[enemies/act-iii-b/stalker|Stalker]] — Only spawns in the Otherside.
+    - [[enemies/act-iii-b/shattered|Shattered]] — Otherside mob; quest target.
+    - [[enemies/act-iii-b/otherside-creatures|Otherside Creatures]] — Sculk Snappers, Sculk Centipedes, Sculk Leeches, Sludges and Angler Fish.
   - [[enemies/act-iv|Act IV Enemies]]
-    - [[enemies/act-iv/end-highlands-mobs|End Highlands Mobs]] — End mobs met on the way to Act V. To be filled in.
+    - [[enemies/act-iv/shulker|Shulker]] — Vanilla End City guard.
+    - [[enemies/act-iv/end-highlands-mobs|End Highlands Mobs]] — The Outer End, Endless Biomes and Alex's Mobs creatures of the outer islands.
   - [[enemies/act-v|Act V Enemies]]
     - [[enemies/act-v/rotten-soldiers|Rotten Soldiers]] — Zombies in the Past: Soldier, Knight, Guard, Champion, Giant and Rotten Titan.
     - [[enemies/act-v/emaciated-soldiers|Emaciated Soldiers]] — Skeletons in the Past: Pikeman, Spearman and Noble.
     - [[enemies/act-v/elden-beasts|Elden Beasts]] — Ice and Fire dragons in the Past: Elden Beast and the Elden mounts.
+  - [[enemies/misc|Miscellaneous Enemies]]
+    - [[enemies/misc/graveyard-undead|Graveyard Undead]] — The Graveyard; Ghouls, Revenants, Reapers and Nightmares (Skeleton Creepers are disabled).
+    - [[enemies/misc/moderately-sized-chungus|Moderately Sized Chungus]] — Soulslike Weaponry; spawns in Overworld packs of 4–8.
+    - [[enemies/misc/dungeons-and-combat-mobs|Dungeons and Combat Mobs]] — Remanents, Hermit Witches, Flower Fairies and Centinels. The structure guardians are on [[bosses/optional-and-world/dungeons-and-combat-minibosses|Dungeons and Combat Minibosses]].
+    - [[enemies/misc/catacomb-skulls|Catacomb Skulls]] — Skulls, Skull Deserters, Prisoner, Royal and Counselor Skulls.
+    - [[enemies/misc/friends-and-foes-mobs|Friends & Foes Mobs]] — Iceologers, Illusioners, Maulers and the Wildfire.
+    - [[enemies/misc/alexs-mobs-predators|Alex's Mobs Predators]] — Komodo Dragons, Tigers, Snow Leopards, Froststalkers, Rattlesnakes, Skelewags, Murmurs, Farseers and others.
+    - [[enemies/misc/samurai-dynasty-yokai|Samurai Dynasty Yokai]] — Jorogumo, Kitsune, Enenra and Two-Tailed Foxes; Oni and Akaname in the Nether.
 
 ## Items
 
@@ -426,11 +466,8 @@ Mechanics that Soulrend adds or changes.
 
 - [[features|Features]]
   - [[features/character|Character Features]]
-    - [[features/character/levelling-stats|Levelling Stats]] — STR, CON, AGI, INT, LCK and FOC; each point gives attribute bonuses.
-    - [[features/character/titles-and-ranks|Titles & Ranks]] — About 40 unlockable titles and ranks from Novice to Ascendant.
     - [[features/character/inventory-tabs|Inventory Tabs]] — Inventory, Levelling, Origins, Skill Tree, Quests and Combat Skills tabs.
     - [[features/character/origin-selector|Origin Selector]] — Paged Race → Class → Path picker with class tabs and Random.
-    - [[features/character/skill-points-from-damage|Skill Points from Damage]] — Skill points are earned by dealing damage; dummies and gates excluded.
   - [[features/combat|Combat Features]]
     - [[features/combat/epic-fight-combat|Epic Fight Combat]] — The core combat system, movesets and skills.
     - [[features/combat/combat-skill-books|Combat Skill Books (Feature)]] — About 55 skill book recipes.
@@ -441,7 +478,7 @@ Mechanics that Soulrend adds or changes.
     - [[features/combat/boss-damage-limits|Boss Damage Limits]] — Bosses can lose at most a set % of HP per second (Cataclysm 5%, Nightwarden 4%, others 20%).
     - [[features/combat/companion-protection|Companion Protection]] — Your summons and companions cannot hurt you or your team.
   - [[features/mobs-and-world|Mobs & World Features]]
-    - [[features/mobs-and-world/mob-levelling|Mob Levelling]] — Mob levels follow nearby players' levels.
+    - [[leveling/mob-levels|Mob Levels]] — moved to the Leveling section.
     - [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]] — Each Cataclysm eye teleports you to its boss dimension.
     - [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]] — Craftable keys open the cave dimensions.
     - [[features/mobs-and-world/the-past|The Past]] — The Act V dimension: soldier reskins, Elden dragons, buffed bosses.

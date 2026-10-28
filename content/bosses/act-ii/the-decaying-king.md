@@ -44,7 +44,7 @@ It can also be summoned at a [[item:soulsweapons:blackstone_pedestal]] with a [[
 
 ## Stats
 
-The Decaying King has a level floor of 200. Players can't go above Soulrend level 200, so it is always level 200. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Decaying King has a level floor of 200. Players can't go above Soulrend level 200, so it is always level 200. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 200 |
 | --- | --- | --- |

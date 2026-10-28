@@ -7,6 +7,7 @@ import { jsonErrorLine } from './diagnostics.mjs';
 //   tags.json     { "ns:tag": ["ns:item", ...] }   item tags, fully expanded
 //   recipes.json  { "ns:recipe_id": { type, ...raw recipe JSON } }
 //   movesets.json { types, items, skills, labels, mods }   Epic Fight movesets (tools/lib/movesets.mjs)
+//   skilltrees.json { trees, frames, screen } + skilltrees/   Passive Skill Tree layouts (tools/lib/skilltrees.mjs)
 //   icons/<ns>/<path>.png
 export function loadGameData(root, diag) {
   const dir = path.join(root, 'game-data');
@@ -28,6 +29,8 @@ export function loadGameData(root, diag) {
     tags: new Map(Object.entries(read('tags.json') ?? {})),
     recipes: new Map(Object.entries(read('recipes.json') ?? {})),
     movesets: read('movesets.json'),
+    skillTrees: read('skilltrees.json'),
+    skillTreeDir: path.join(dir, 'skilltrees'),
     source: read('source.json'),
     glyphs: read('glyphs.json') ?? {},
     glyphDir: path.join(dir, 'glyphs'),

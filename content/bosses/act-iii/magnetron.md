@@ -40,7 +40,7 @@ Magnetrons spawn naturally as hostile mobs in the Magnetic Caves, one at a time.
 
 ## Stats
 
-Magnetron has no level setting, so its level matches the Soulrend level of the nearest player. The columns use the typical levels of the acts in which players visit the caves (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+Magnetron has no level setting, so its level matches the Soulrend level of the nearest player. The columns use the typical levels of the acts in which players visit the caves (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act III (100) | Act III-b (150) | Act V (200) |
 | --- | --- | --- | --- | --- |

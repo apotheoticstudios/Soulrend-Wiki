@@ -45,7 +45,7 @@ The GraveWatcher waits in the Field of the Fallen (`dungeons_and_combat:the_fiel
 
 ## Stats
 
-The GraveWatcher's level is fixed at 20, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]] for how levels scale other mobs.
+The GraveWatcher's level is fixed at 20, so its stats never change. See [[leveling/mob-levels|Mob Levels]] for how levels scale other mobs.
 
 | Stat | Base | Level 20 |
 | --- | --- | --- |

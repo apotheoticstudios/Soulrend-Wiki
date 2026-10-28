@@ -11,7 +11,7 @@ Readers are mostly **new players**. Writers are the pack author and AI agents. E
 - **Neutral and encyclopedic.** Write in the third person and present tense: "Frostmaw sleeps in snowy biomes", not "You'll find Frostmaw sleeping…".
   - **Exceptions:** Guides, build guides and FAQ answers may address the reader as "you".
   - Walkthrough steps on quest pages are written as instructions: "Drink an Invisibility potion, then…".
-- **American spelling** in prose and in page titles that aren't in-game names: armor, color, leveling, center. In-game names are always written the way the game writes them. Some outline stubs have British titles ("Mob Levelling", "Levelling Stats"). Retitle them when you write them; the file path can stay.
+- **American spelling** in prose and in page titles that aren't in-game names: armor, color, leveling, center. In-game names are always written the way the game writes them. Some outline stubs have British titles ("Levelling"). Retitle them when you write them; the file path can stay.
 - **Plain and direct.** One idea per paragraph, and short sentences.
   - Don't use "simply", "just", "obviously", "easily", "basically" or "note that".
   - Don't hedge ("it seems", "probably"). If you aren't sure, don't write it (see [Facts and sources](#facts-numbers-and-sources)).
@@ -245,7 +245,7 @@ Sources: `config/paxi/datapacks/soulrend_origins_classes/` and `soulrend_lang`.
 
 ### Skill tree node or branch
 
-Sections: Lead (the branch's theme), `## Nodes` (a table: node, cost, effect, requirement), `## Keystones`, `## Recommended paths`.
+Sections: Lead (the branch's theme), then a `{{skilltree <tree> focus="…"}}` map before the first heading (a branch's hub id lights the whole branch; index pages list their own node, their branches' hubs and their keystones), `## Nodes` (a table: node, cost, effect, requirement), `## Keystones`, `## Recommended paths`.
 
 Effects come from each node's bonuses, not from its file name (see [`instance-guide.md`](instance-guide.md#skill-trees)).
 

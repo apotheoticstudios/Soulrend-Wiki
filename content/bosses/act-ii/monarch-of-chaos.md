@@ -44,7 +44,7 @@ The [[Wither]] drops the Shard of Uncertainty (along with a Lord Soul) when it d
 
 ## Stats
 
-The Monarch of Chaos has a level floor of 200 and no cap. Players can't go above Soulrend level 200, so it is always level 200. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Monarch of Chaos has a level floor of 200 and no cap. Players can't go above Soulrend level 200, so it is always level 200. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 200 |
 | --- | --- | --- |

@@ -13,7 +13,7 @@
   config/ftbquests/quests/chapters/the_realms.snbt, act_1.snbt, act_2.snbt, act_iii__into_the_flames.snbt, act_35.snbt, act_4.snbt, duties.snbt (gate quests and their dependencies)
   mods/ftb-quests-forge-2001.4.22.jar Quest.checkDependencies, ItemTask.readData
 -->
-Soulrend's progression follows the quest book. Its main line, **The Exalted Path**, is split into a Prologue and five acts, and each act ends with an octagon-shaped quest that opens the next one. Side chapters for bosses, gear and exploration hang off the acts. Mob levels follow the player's Soulrend level rather than the act (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]), but many bosses are pinned to a fixed level, which is what makes later acts harder.
+Soulrend's progression follows the quest book. Its main line, **The Exalted Path**, is split into a Prologue and five acts, and each act ends with an octagon-shaped quest that opens the next one. Side chapters for bosses, gear and exploration hang off the acts. Mob levels follow the player's Soulrend level rather than the act (see [[leveling/mob-levels|Mob Levels]]), but many bosses are pinned to a fixed level, which is what makes later acts harder.
 
 ## The acts
 

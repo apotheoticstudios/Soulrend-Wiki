@@ -53,7 +53,7 @@ Frostmaw heals while it sleeps.
 
 ## Stats
 
-Frostmaw's level is fixed at 60 whatever the player's level, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]] for how levels scale other mobs.
+Frostmaw's level is fixed at 60 whatever the player's level, so its stats never change. See [[leveling/mob-levels|Mob Levels]] for how levels scale other mobs.
 
 | Stat | Base | Level 60 |
 | --- | --- | --- |

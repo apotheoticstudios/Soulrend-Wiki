@@ -10,6 +10,26 @@ This page lists bugs observed in Soulrend. Each entry says what happens, where i
 
 ## Open
 
+### Revenant squads above tier 0 are out of reach
+- **Seen:** 2026-10-27, `mods/soulrend_origins-1.2-1.20.1.jar` (`OriginMath.revenantTier`, `Revenant.summon` and its `SQUADS` table), read against `game-data/attributes.json` (Evocation Spell Power defaults to 1.0) and the Revenance badge text in `config/paxi/resourcepacks/soulrend_lang/assets/medievalorigins/lang/en_us.json`.
+- **What happens:** the squad tier is Evocation Spell Power divided by 4, rounded down, minus 1. Tier 1 needs 8.0 (800%) and the full squad with Kamath needs 20.0, so in practice every Revenant raises tier 0: one Zombie and one Skeleton archer. The in-game text promises "up to 8 summons". The other Soulrend origins step their abilities every +0.25 spell power, so the divisor looks unintended. Not yet confirmed in game.
+- **Workaround:** none known.
+
+### Origin descriptions don't match their powers
+- **Seen:** 2026-10-27, `config/paxi/resourcepacks/soulrend_lang/assets/{origins,medievalorigins}/lang/en_us.json` read against the origin and power files in `config/paxi/datapacks/soulrend_origins_classes/`, `soulrend_reforged/` and the `soulrend_origins` jar.
+- **What happens:** several texts in the origin picker describe powers the origin doesn't have, or give the wrong numbers:
+  - Priest: "+50% holy spell power"; the power gives +30%.
+  - Orc (Colossal Physique): "+50% Attack Damage" and "-75%" combat potency while crawling; neither is applied (the power gives +50% max health).
+  - Keres badges: "2 per Soul" healing; Devour Souls heals 4% of max health per Soul.
+  - Berserker "battle axe", Rogue "2 cutlass", Blade Dancer "a twinblade": the kits give an Iron Axe, two Flint Knives and a Wooden staff.
+  - Moon Elf and Valkyrie overviews still list traits that `config/origins_server.json` turns off (Foreign World, Nimble, Elegant; Corruption).
+- **Workaround:** none needed; the wiki's origin pages follow the powers.
+
+### Shulk and Orc shield ban only covers the vanilla Shield
+- **Seen:** 2026-10-27, `origins:no_shield` (Shulk) and `medievalorigins:orc/unwieldy` (Orc), which block items in `origins:shields`; `game-data/tags.json` lists only `minecraft:shield` in that tag.
+- **What happens:** both races are meant to be unable to use shields, but every modded shield (for example the Wooden Shield the Tank starts with) still works for them. Not yet confirmed in game.
+- **Workaround:** none needed for players.
+
 ### Vampirize skill book is blacklisted but required by a quest
 - **Seen:** 2026-10-24, `config/item_obliterator.json5` (`blacklisted_nbt` lists `wom:vampirize`), the End Game tier of the Epic Fight quest chapter (`epicfight.snbt`, quest `31CD1EBF3B8994B3`, not optional) and the recipe in `kubejs/server_scripts/recipes/skillbook_recipes.js`.
 - **What happens:** Item Obliterator removes items whose NBT matches `wom:vampirize`, which should include the Vampirize skill book. The pack still has a recipe for it and a quest that asks for it. Not yet confirmed in game.
@@ -52,6 +72,16 @@ This page lists bugs observed in Soulrend. Each entry says what happens, where i
 ### Ernos Fang Necklace can't be obtained
 - **Seen:** 2026-10-26, Dungeons and Combat 1.2.4, `dungeons_and_combat:ernos_fang_necklace`: the jar has recipes for the Ammit Fang and Klauen necklaces but none for this one, Soulrend's KubeJS replaces only the Ammit Fang Necklace's recipe, and no loot table in `game-data/loot-tables.json` contains it.
 - **What happens:** the necklace (an attack damage bonus in the necklace slot) exists and shows in JEI, but nothing makes or drops it. Its material, the Ernos Fang, goes into other recipes instead.
+- **Workaround:** none known.
+
+### Some skill tree bonuses check tags that don't exist
+- **Seen:** 2026-10-27, `config/paxi/datapacks/soulrend_skilltree/data/skilltree/skills/`: `ranger_88`–`ranger_92` (the Sharpshooter Critical path) check `#soulrend:ranged_weapons`, and `rogue_1` (the Rogue root) and `rogue_93` (Assassin Impact hub) check `#my_tags:weapons/dualwield`. Neither tag is in the exported tag list (`game-data/tags.json`), and no Paxi pack, KubeJS script or mod jar defines either one.
+- **What happens:** an item can't match a tag that doesn't exist, so these bonuses never apply: the Rogue root's +5% Attack Speed, the Crit Damage of the five Sharpshooter Critical path nodes, and the Assassin Impact hub's Impact and Offhand Impact. Defining the tags, or pointing the skills at existing ones (`#soulrend:shields` and `#soulrend:light_armor` show the naming the pack uses elsewhere), would fix it. Not yet confirmed in game.
+- **Workaround:** none known.
+
+### 23 titles can never be unlocked
+- **Seen:** 2026-10-27, Soulrend Core 2.7: `SoulrendTitles.IDS` lists 41 titles, and the lang file gives each a requirement, but `SoulrendTitles.isUnlocked` only has rules for Titleless, Rookie, the twelve stat titles, the three Mob Killer titles and Administrator. Every other id returns false.
+- **What happens:** Tank, Great Tank, Miner, Great Miner, DragonSlayer, PlayerKiller, Hero, Villain, the three Fisherman and three Enchanter titles, Survivor, Dealer Maker, Boat Driver, Cart Driver, Horse Rider, Pig Rider, Strider Rider, Infernal Traveler and End Traveler show requirements on the Titles menu but stay Locked whatever the player does. Tank and Miner refer to "Defense" and "Building" stats that don't exist. Separately, Great Warrior's text says Constitution 16 while the check needs 30. Not yet confirmed in game.
 - **Workaround:** none known.
 
 <!-- Entry template:

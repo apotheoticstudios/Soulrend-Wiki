@@ -54,7 +54,7 @@ Umvuthi heals while it is out of combat. A player who approaches peacefully can 
 
 ## Stats
 
-Umvuthi's level is fixed at 60, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]] for how levels scale other mobs.
+Umvuthi's level is fixed at 60, so its stats never change. See [[leveling/mob-levels|Mob Levels]] for how levels scale other mobs.
 
 | Stat | Base | Level 60 |
 | --- | --- | --- |

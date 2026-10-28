@@ -42,7 +42,7 @@ The Warden appears in the Deep Dark when a Sculk Shrieker is set off enough time
 
 ## Stats
 
-The Warden's level is fixed at 60, so its stats never change. Its level is never shown above its head. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Warden's level is fixed at 60, so its stats never change. Its level is never shown above its head. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 60 |
 | --- | --- | --- |

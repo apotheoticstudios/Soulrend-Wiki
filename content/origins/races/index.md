@@ -3,33 +3,37 @@
   "title": "Races",
   "category": "Origins",
   "order": 1,
-  "summary": "The Race layer: your body and its innate powers."
+  "summary": "The race layer: 19 playable races, each with its own body, powers and drawbacks."
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  config/paxi/datapacks/soulrend_origins_classes/data/origins/origin_layers/origin.json and rpg_class.json (layers, class conditions, auto_choose, allow_random)
+  mods/medievalorigins-forge-1.20.1-6.7.9.jar data/origins/origin_layers/origin.json (Medieval Origins races)
+  config/origins_server.json (enabled origins and powers)
+  config/soulrend_core/common.toml classCategories (selector tabs)
+  config/paxi/resourcepacks/soulrend_lang/assets/{origins,medievalorigins}/lang/en_us.json (names)
+  per-race sources on each race page
+-->
+The **race** is the first half of an [[origins|origin]]: it sets the character's body (size, health, speed and diet) and gives innate powers. Soulrend has 19 playable races from Origins, Medieval Origins and its own packs. Races Soulrend turns off, such as the Enderian, Feline, Elytrian, Alfiq, Banshee, Fae, Gorgon, Incubus and Ogre, aren't listed.
 
-The Race layer: your body and its innate powers.
-
-## In this section
-
-- [[origins/races/human|Human]] — No benefits or drawbacks.
-- [[origins/races/shulk|Shulk]] — Armored shell-dweller: defence, impact, teleport, lava immunity, growing storage; slow and hungry.
-- [[origins/races/pixie|Pixie]] — Tiny flier with Flight Power, glide, hover and dash; low defence, villagers won't trade.
-- [[origins/races/high-elf|High Elf]] — Magic-focused: Mystic Affinity, Highborne (+50 mana, +15 regen); −4 HP, weak to physical damage.
-- [[origins/races/plague-victim|Plague Victim]] — Undead plague carrier: Foul Aura, Contagious Hex, cheats death every 5 minutes; frail, no trading.
-- [[origins/races/valkyrie|Valkyrie]] — Winged healer: free flight, Divine Smite every 3rd attack, +1 holy spell power.
-- [[origins/races/revenant|Revenant]] — Undead summoner: raises up to 8 undead (incl. Kamath), commands them; villagers refuse.
-- [[origins/races/forest-elf|Forest Elf]] — Archer: piercing arrows, extra arrows per craft, wolf/bear summons, eagle and golden wolf mount; vegetarian.
-- [[origins/races/goblin|Goblin]] — Gold-loving and lucky: better loot, faster; small, −8 HP.
-- [[origins/races/moon-elf|Moon Elf]] — Stealthy rogue: dagger, sai and cutlass bonuses, To the Shadows opener; −10 HP.
-- [[origins/races/siren|Siren (Race)]] — Water-dweller: amphibious, fast regen underwater, Sirens' Song; weak to fire.
-- [[origins/races/faded|Faded]] — Ghostly mage: +50% mana, +30% spell power, block phasing, Pocket Dimension; −90% melee, −50% HP. Mage classes only.
-- [[origins/races/keres|Keres]] — Soul-eating flier: Souls resource, lifesteal, bleeding fangs, reel-in; no natural regen, burns in daylight.
-- [[origins/races/ungoliant|Ungoliant]] — Spider: wall climbing, webs, grapple, poison; −30% HP, hungry.
-- [[origins/races/yeti|Yeti (Race)]] — Frost tank: Glacial Slam, +12 HP, slows nearby mobs; double fire damage.
-- [[origins/races/dwarf|Dwarf]] — Miner: 2× mining speed, +10 HP, +5 armor, Brew heal; blinded by daylight, sinks.
-- [[origins/races/orc|Orc]] — Brute: +25% damage, +50% HP, Bloodlust, Leap & Shockwave; slower, less luck.
-- [[origins/races/corrosid|Corrosid]] — Acid bird: flight, wing dash, acid fireball, poison immunity; fragile, bread only.
-- [[origins/races/feral-beast|Feral Beast]] — Momentum hunter: speed that builds while sprinting, Pounce, Blood Scent. Class locked to Wildheart.
+| Race | Summary |
+| --- | --- |
+| [[origins/races/human\|Human]] | No powers and no drawbacks. |
+| [[origins/races/shulk\|Shulk]] | +8 armor, Phase Step teleport, lava immunity, storage that survives death; slow, hungry, no Shield. |
+| [[origins/races/pixie\|Pixie]] | Tiny flier: glides, hovers and dashes on Flight Power, no fall damage; −5 hearts, no villager trades. |
+| [[origins/races/high-elf\|High Elf]] | +25% magic damage, +50 max mana and a mana-regeneration burst; −2 hearts, +25% physical damage taken. |
+| [[origins/races/plague-victim\|Plague Victim]] | Withering aura and hits, cheats death every 5 minutes; frail, no Regeneration, no trading or sleep. |
+| [[origins/races/valkyrie\|Valkyrie]] | Free flight, a holy smite every third hit, +100% Holy Spell Power. |
+| [[origins/races/revenant\|Revenant]] | Raises and commands an undead squad, Reaper's Ward; no Regeneration, villagers refuse to trade. |
+| [[origins/races/forest-elf\|Forest Elf]] | Piercing, armor-shredding arrows, extra arrows, wolf and bear summons, an eagle and a golden wolf mount; vegetarian. |
+| [[origins/races/goblin\|Goblin]] | Golden gear bonuses, extra loot rolls, +1 luck, +30% speed; −4 hearts, small. |
+| [[origins/races/moon-elf\|Moon Elf]] | +50% dagger damage, invisibility while sneaking in the dark, triple-damage stealth opener; −5 hearts. |
+| [[origins/races/siren\|Siren (Race)]] | Breathes, swims fast and heals in water, Sirens' Song stops mobs attacking; +6 damage from every fire hit. |
+| [[origins/races/faded\|Faded]] | +30% spell power, +50% max mana, block phasing, Pocket Dimension; −90% attack damage, half health. Mage classes only. |
+| [[origins/races/keres\|Keres]] | Flight, Souls that heal and shield, bleeding bites, life steal, a reel-in; no natural regeneration. |
+| [[origins/races/ungoliant\|Ungoliant]] | Wall climbing, silk grapple, webbing hits, fall immunity, +25% katana damage; −30% health. |
+| [[origins/races/yeti\|Yeti (Race)]] | Glacial Slam, +6 hearts, slows mobs in melee range, immune to Slowness and cold; double fire damage. |
+| [[origins/races/dwarf\|Dwarf]] | Double pickaxe speed, gems from ore, +5 hearts, +5 armor, healing Brew; daylight blindness, sinks. |
+| [[origins/races/orc\|Orc]] | +50% health, +25% axe damage, Bloodlust, Orc Leap shockwave, wall climbing; −40% speed, very hungry, no Shield. |
+| [[origins/races/corrosid\|Corrosid]] | Flight, spinning Wing Dash, Acid Fireball, poison immunity, +20% speed; 4 hearts, bread only, can't swim. |
+| [[origins/races/feral-beast\|Feral Beast]] | Speed that builds while sprinting, Pounce, Blood Scent; −20% health. Class is always Wildheart. |

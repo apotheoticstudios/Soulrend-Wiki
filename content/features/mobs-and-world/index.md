@@ -12,7 +12,8 @@
 
 ## In this section
 
-- [[features/mobs-and-world/mob-levelling|Mob Levelling]] — Mob levels follow nearby players' levels.
+Mob levels are covered in the Leveling section: see [[leveling/mob-levels|Mob Levels]].
+
 - [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]] — Each Cataclysm eye teleports you to its boss dimension.
 - [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]] — Craftable keys open the cave dimensions.
 - [[features/mobs-and-world/the-past|The Past]] — The Act V dimension: soldier reskins, Elden dragons, buffed bosses.

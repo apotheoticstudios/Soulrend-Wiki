@@ -38,7 +38,7 @@ The Enraged Dead King is summoned by casting **Call Forth The Dead King** direct
 
 ## Stats
 
-The Enraged Dead King's level is fixed at 200, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Enraged Dead King's level is fixed at 200, so its stats never change. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 200 |
 | --- | --- | --- |

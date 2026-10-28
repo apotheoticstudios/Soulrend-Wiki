@@ -34,7 +34,7 @@ Archevokers live in Evoker Forts (`irons_spellbooks:evoker_fort`), which generat
 
 ## Stats
 
-The Archevoker has no level setting, so its level matches the Soulrend level of the nearest player (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Archevoker has no level setting, so its level matches the Soulrend level of the nearest player (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act I (10) | Act II (40) | Act III (100) |
 | --- | --- | --- | --- | --- |

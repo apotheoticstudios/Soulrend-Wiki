@@ -44,7 +44,7 @@ The nest holds a spawner block. The Sandworm appears when a player touches it.
 
 ## Stats
 
-The Sandworm has no level floor or cap, so its level matches the Soulrend level of the player who summons it. The columns show a typical Act II level and the player cap (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The Sandworm has no level floor or cap, so its level matches the Soulrend level of the player who summons it. The columns show a typical Act II level and the player cap (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Level 40 | Level 200 |
 | --- | --- | --- | --- |

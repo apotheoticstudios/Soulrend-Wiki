@@ -41,7 +41,7 @@ The [[item:soulsweapons:boss_compass]] points to the structures of this mod. Usi
 
 ## Stats
 
-The Old Champion's Remains has a level floor of 100: it takes the nearest player's Soulrend level, but never less than 100. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+The Old Champion's Remains has a level floor of 100: it takes the nearest player's Soulrend level, but never less than 100. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 100 (floor) | Level 200 |
 | --- | --- | --- | --- |

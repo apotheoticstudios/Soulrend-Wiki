@@ -176,6 +176,72 @@ span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
   pointer-events: none;
 }
 .embed-model.compact { margin: 0; width: 100%; }
+
+/* Skill tree maps (src/client/skilltree.js). Always dark, like the game's skill tree screen. */
+.embed-skilltree { margin: 1.5em 0; }
+.skilltree-stage {
+  position: relative;
+  height: var(--tree-height, 440px);
+  overflow: hidden;
+  background: #0d0a12;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.skilltree-stage:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.skilltree-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; cursor: grab; touch-action: pan-y; }
+.skilltree-stage canvas:active { cursor: grabbing; }
+.skilltree-fallback { margin: 0; padding: 16px; color: #bbb; font-family: var(--font-ui); font-size: 14px; }
+.skilltree-status { position: absolute; left: 12px; bottom: 8px; color: #bbb; font-family: var(--font-ui); font-size: 12px; }
+.skilltree-tools { position: absolute; top: 8px; right: 8px; display: flex; gap: 4px; }
+.skilltree-tools button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid rgb(255 255 255 / 0.25);
+  border-radius: var(--radius);
+  background: rgb(0 0 0 / 0.6);
+  color: #fff;
+  font: 18px/1 var(--font-ui);
+  cursor: pointer;
+}
+.skilltree-tools button:hover { background: rgb(0 0 0 / 0.85); }
+.skilltree-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  padding: 4px 10px;
+  background: rgb(0 0 0 / 0.6);
+  color: #fff;
+  border-radius: 999px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  animation: skilltree-hint 0.5s 6s forwards;
+}
+@keyframes skilltree-hint { to { opacity: 0; } }
+
+/* The mod's skill tooltip at GUI scale 2: a dark box, the node's frame texture as a header bar, the title
+   centred in it and the lines below. Sizes follow ScreenHelper.renderSkillTooltip (see skilltree.js). */
+.skill-tooltip {
+  position: fixed;
+  z-index: 100;
+  padding: 42px 74px 8px 10px;
+  color: #fff;
+  font-family: "Soulrend MC", var(--font-ui);
+  font-size: 16px;
+  line-height: 22px;
+  white-space: pre-wrap;
+  text-underline-position: from-font;
+  pointer-events: none;
+  -webkit-font-smoothing: none;
+}
+.skill-tooltip, .skill-tooltip * { text-shadow: 2px 2px 0 color-mix(in srgb, currentColor 25%, #000); }
+.skill-tooltip::before { content: ""; position: absolute; inset: 8px 2px 0; z-index: -1; background: rgb(0 0 0 / 0.867); }
+.skill-tooltip-frame { position: absolute; left: -8px; top: -8px; height: 40px; }
+.skill-tooltip-title { position: absolute; left: 0; right: 0; top: 4px; text-align: center; white-space: nowrap; }
+.skill-tooltip-lines { position: relative; width: max-content; max-width: 100%; }
 .embed-model.compact .model-stage { background: none; border: 0; border-radius: 0; }
 
 /* Recipe diagrams. --u is one Minecraft GUI pixel; slots are 18u, item icons 16u (= the 32px export). */

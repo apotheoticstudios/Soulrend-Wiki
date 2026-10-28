@@ -54,7 +54,7 @@ The Wroughtnaut wakes up when its target comes within 4.5 blocks, and heals whil
 
 ## Stats
 
-The Wroughtnaut's level is fixed at 25, so its stats never change. See [[features/mobs-and-world/mob-levelling|Mob Levelling]] for how levels scale other mobs.
+The Wroughtnaut's level is fixed at 25, so its stats never change. See [[leveling/mob-levels|Mob Levels]] for how levels scale other mobs.
 
 | Stat | Base | Level 25 |
 | --- | --- | --- |

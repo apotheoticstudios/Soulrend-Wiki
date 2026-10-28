@@ -48,7 +48,7 @@ Netherite Monstrosity lives in the Soul Black Smith (`cataclysm:soul_black_smith
 
 ## Stats
 
-Netherite Monstrosity's level is fixed at 250, so its stats never change. Cataclysm's config multiplies its base health by 1.2 and its attack damage by 1.2 before the level bonus applies. See [[features/mobs-and-world/mob-levelling|Mob Levelling]].
+Netherite Monstrosity's level is fixed at 250, so its stats never change. Cataclysm's config multiplies its base health by 1.2 and its attack damage by 1.2 before the level bonus applies. See [[leveling/mob-levels|Mob Levels]].
 
 | Stat | Base | Level 250 |
 | --- | --- | --- |

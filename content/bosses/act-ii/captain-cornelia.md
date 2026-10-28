@@ -41,7 +41,7 @@ The ghost is summoned with a [[item:aquamirae:shell_horn]], used near water in a
 
 ## Stats
 
-Captain Cornelia has no level setting, so its level matches the Soulrend level of the player who summons it (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+Captain Cornelia has no level setting, so its level matches the Soulrend level of the player who summons it (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Base | Act II (40) | Act III (100) |
 | --- | --- | --- | --- |

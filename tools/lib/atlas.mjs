@@ -81,7 +81,7 @@ export class Atlas {
 }
 
 // Some mod textures carry junk after the PNG's IEND chunk, which pngjs rejects; trim it and retry.
-function readPng(bytes) {
+export function readPng(bytes) {
   try {
     return PNG.sync.read(bytes);
   } catch {

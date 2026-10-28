@@ -39,7 +39,7 @@ No Past soldiers spawn within 96 blocks of the Scarlet Hunter.
 
 ## Stats
 
-The NightFall mod gives the Scarlet Hunter 350 health and 1 attack damage. In the Past, Soulrend replaces those bases with 12,000 health and 2,000 attack damage when it spawns, and the level bonus then multiplies the new bases. It has no level setting, so its level is the nearest player's Soulrend level. The last column uses Act V's typical level, the player cap of 200 (see [[features/mobs-and-world/mob-levelling|Mob Levelling]]).
+The NightFall mod gives the Scarlet Hunter 350 health and 1 attack damage. In the Past, Soulrend replaces those bases with 12,000 health and 2,000 attack damage when it spawns, and the level bonus then multiplies the new bases. It has no level setting, so its level is the nearest player's Soulrend level. The last column uses Act V's typical level, the player cap of 200 (see [[leveling/mob-levels|Mob Levels]]).
 
 | Stat | Mod base | Past base | Level 200 |
 | --- | --- | --- | --- |
