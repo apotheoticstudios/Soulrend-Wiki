@@ -118,6 +118,7 @@ Write embeds on a line of their own, as a one-line shortcode or a fenced JSON bl
 | `items` | `{{items minecraft:diamond minecraft:emerald}}`, `{{items tag=minecraft:planks}}` | A grid of items with tooltips. |
 | `image` | `{{image mobs/wraith.png caption="A wraith" align=right width=240 pixelated=true}}` | Path under `assets/`. |
 | `model` | `{{model cataclysm:ignis}}`, `{{model ba_bt:land_golem ba_bt:sky_golem labels="Bahryn'muul\|Veyhz'kriin"}}`, `{{model mobs/wraith.glb animation=idle poster=mobs/wraith.png}}` | 3D viewer (see below). Mob ids come from `game-data/mobs.json`; several models share one viewer with a button each. |
+| `dragonforge` | `{{dragonforge}}`, `{{dragonforge element=ice layer=2 spread=false}}` | A three.js schematic of an Ice and Fire Dragonforge: all three layers or one, an element button (Fire, Ice, Lightning) that swaps the block textures, and a Spread/Stacked button that pulls the layers apart. `element`, `layer` (`all`, 1, 2, 3) and `spread` only set the starting choice. Textures are in `assets/dragonforge/`, copied from the instance by `npm run forge`. |
 | `moveset` | `{{moveset minecraft:iron_sword}}`, `{{moveset type=epicfight:longsword}}`, `{{moveset category=longsword}}`, `{{moveset skill=epicfight:sweeping_edge}}` | The item's Epic Fight moveset from `game-data/movesets.json`: a 3D viewer that plays each attack (see [Attack animations](#attack-animations)), then per style its combo, dash and jump attacks and innate skill, then what each skill does. With `type=`, a weapon type without a particular item; with `category=`, every weapon type of a category in one viewer with a type selector (the weapon type pages); with `skill=`, only the viewer for an innate skill's animations (the innate skill pages). |
 | `skilltree` | `{{skilltree warrior}}`, `{{skilltree warrior focus="warrior_6, warrior_80"}}` | A pannable, zoomable map of a passive skill tree from `game-data/skilltrees.json`, drawn like the game's own screen, with the game's tooltips on hover. `focus` lists node ids to light up (the rest is darkened) and the view opens on them. An ordinary node stands for its whole branch; a root, subclass, school or keystone node (one with a limited tag) stands for itself. `height=` sets the height in px (default 440); `caption=` adds a caption. |
 
@@ -162,7 +163,7 @@ A station is a diagram layout in Minecraft GUI pixels (slots are 18×18, drawn a
 }
 ```
 
-The adapters are `shaped`, `shapeless`, `cooking`, `single`, `smithing`, `pair` (base + addition, no template) and `generic`, all in `src/render/recipes/adapters/index.js`. If a mod's recipe format matches one of them, map its type in a station. For a mod with an unusual format, add a small adapter function there.
+The adapters are `shaped`, `shapeless`, `cooking`, `single`, `smithing`, `pair` (base + addition, no template), `infusion` (Apotheosis's enchanting-table recipes, with their Eterna/Quanta/Arcana window as the info line) and `generic`, all in `src/render/recipes/adapters/index.js`. If a mod's recipe format matches one of them, map its type in a station. For a mod with an unusual format, add a small adapter function there.
 
 Use `"flow": true` instead of `size`/`inputs`/`outputs` for an automatic row layout. Recipe types no station claims are still shown with the generic row layout, labelled from the type name.
 

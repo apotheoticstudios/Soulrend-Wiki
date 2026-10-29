@@ -14,8 +14,11 @@ let selected = 0;
 export function initSearch() {
   const trigger = document.querySelector('.search-trigger');
   if (!trigger) return;
-  trigger.addEventListener('click', open);
-  trigger.addEventListener('pointerenter', loadIndex, { once: true });
+  // Any element marked data-open-search (the home page's buttons) opens the same dialog.
+  for (const el of [trigger, ...document.querySelectorAll('[data-open-search]')]) {
+    el.addEventListener('click', open);
+    el.addEventListener('pointerenter', loadIndex, { once: true });
+  }
   document.addEventListener('keydown', event => {
     const typing = event.target.closest?.('input, textarea, select, [contenteditable]');
     if ((event.key === '/' && !typing) || (event.key.toLowerCase() === 'k' && (event.metaKey || event.ctrlKey))) {

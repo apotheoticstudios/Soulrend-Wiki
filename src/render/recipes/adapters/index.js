@@ -51,6 +51,19 @@ export const adapters = {
     return { inputs: [r.ingredient(json.base), r.ingredient(json.addition)], outputs: [r.output(json.result, json.count)] };
   },
 
+  // apotheosis:enchanting / keep_nbt_enchanting: one item infused at an enchanting table whose stats sit in a window.
+  infusion(json, r) {
+    const stat = (name, label, suffix) => {
+      const min = json.requirements?.[name] ?? 0;
+      const max = json.max_requirements?.[name] ?? -1;
+      if (max >= 0 && max === min) return `${label} ${min}${suffix} exactly`;
+      if (max >= 0) return `${label} ${min}–${max}${suffix}`;
+      return min > 0 ? `${label} ${min}${suffix}+` : null;
+    };
+    const info = [stat('eterna', 'Eterna', ''), stat('quanta', 'Quanta', '%'), stat('arcana', 'Arcana', '%')].filter(Boolean).join(' · ');
+    return { inputs: [r.ingredient(json.input)], outputs: [r.output(json.result, json.count)], info: info || undefined };
+  },
+
   // Best effort for mod recipes: collects the usual input/output field names into a row.
   generic(json, r) {
     const inputs = [];

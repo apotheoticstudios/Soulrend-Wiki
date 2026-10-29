@@ -195,6 +195,10 @@ span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
 }
 .model-pick:hover { border-color: var(--accent); }
 .model-pick[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+.model-pick:disabled { opacity: 0.4; cursor: default; }
+.model-pick:disabled:hover { border-color: var(--border); }
+/* Block list under the dragonforge schematic (dragonforge.js). */
+.forge-legend { margin: 6px 0 0; font-family: var(--font-ui); font-size: 13px; color: var(--muted); }
 
 /* Attack viewer in moveset embeds (attack-viewer.js): a style row, then each style's moves in groups. */
 .embed-attacks { margin: 1em 0 1.2em; }
@@ -416,4 +420,91 @@ a.recipe-slot:hover::after, span.recipe-slot:not(.empty):hover::after {
   margin-right: 0.125em;
   background-repeat: no-repeat;
   image-rendering: pixelated;
+}
+
+/* Home page sections (the `home` embed) */
+.prose .home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 1.2em;
+}
+.prose .home-buttons.bar {
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.home-lead { font-family: var(--font-ui); font-weight: 700; }
+.prose .home-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--fg);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.prose .home-button:hover { border-color: var(--accent); }
+.prose .home-button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); font-weight: 700; }
+.prose .home-button.primary kbd { color: inherit; border-color: currentColor; background: none; }
+
+.prose .home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 12px;
+  margin: 0 0 1.2em;
+}
+.prose .home-card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--fg);
+  text-decoration: none;
+}
+.prose .home-card:hover { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+.home-card-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; font-size: 15px; line-height: 1.4; }
+.home-card-body strong { font-family: var(--font-ui); font-size: 16px; }
+.home-count { color: var(--muted); font-size: 13px; }
+
+.prose .home-acts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 0 0 1.2em;
+  padding: 0;
+  list-style: none;
+}
+.prose .home-acts li { margin: 0; }
+.prose .home-acts a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  height: 100%;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--fg);
+  text-decoration: none;
+}
+.prose .home-acts a:hover { border-color: var(--accent); }
+.prose .home-acts .optional a { border-style: dashed; }
+.prose .home-acts .mc-icon { margin-bottom: 6px; }
+.home-acts strong { font-family: var(--font-ui); font-size: 16px; }
+.home-act-name { font-size: 15px; line-height: 1.3; }
+.home-act-setting { color: var(--muted); font-size: 13px; line-height: 1.3; }
+@media (--mobile) {
+  .prose .home-acts { grid-template-columns: repeat(2, 1fr); }
 }

@@ -15,6 +15,9 @@ initSearch();
 if (document.querySelector('.model-stage[data-model]')) {
   import('./model-viewer.js').then(m => m.initModels());
 }
+if (document.querySelector('.forge-stage')) {
+  import('./dragonforge.js').then(m => m.initForges());
+}
 if (document.querySelector('.attack-stage')) {
   import('./attack-viewer.js').then(m => m.initAttacks());
 }

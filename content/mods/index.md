@@ -8,11 +8,9 @@
   "icon": "minecraft:knowledge_book"
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
-
 Every mod in Soulrend, grouped by what it does.
+
+Soulrend runs about 420 mods. Each page below lists the mods in one group, with a link to the mod's CurseForge page, a summary of what it does and how it affects this pack.
 
 ## In this section
 

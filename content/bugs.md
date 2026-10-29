@@ -104,6 +104,11 @@ This page lists bugs observed in Soulrend. Each entry says what happens, where i
 - **What happens:** Soulrend's [[features/combat/lifesteal|Lifesteal]] formula never runs in normal play. The Levelling screen's "Lifesteal" row shows Apothic Attributes' `attributeslib:life_steal`, a different attribute, which adds to the confusion.
 - **Workaround:** none known.
 
+### Nuclear Barrel Shelf can't be crafted
+- **Seen:** 2026-10-29, `mods/ApotheoticAdditionsV2.2.2.jar` `data/apotheotic_additions/recipes/shelves/nuclear_barrel_shelf.json` (a Hollowed Barrel Shelf with 4 Nuclear Bombs, 2 Polymer Plates and 2 Tectonic Shards), against `config/soulrend_core/recipes/removals.toml`, which removes every recipe that uses an item in `#soulrend:deleted_items`, and `alexscaves:nuclear_bomb` is in that tag. `game-data/recipes.json` has no recipe for the shelf, and no loot table in `game-data/loot-tables.json` holds it.
+- **What happens:** the Nuclear Barrel Shelf (Eterna +3 up to 35, Quanta +35%) exists, but nothing makes or drops it. It is the last step of the Alex's Caves barrel path in the [[guides/enchanting-guide|Enchanting Guide]].
+- **Workaround:** none known.
+
 <!-- Entry template:
 ### Short description
 - **Seen:** 2026-10-24, where (mod, item, boss, file)

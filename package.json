@@ -9,6 +9,7 @@
     "install-kubejs": "node tools/install-kubejs.mjs",
     "font": "node tools/make-font.mjs",
     "models": "node tools/make-models.mjs",
+    "forge": "node tools/make-dragonforge.mjs",
     "attacks": "node tools/make-attacks.mjs",
     "skin": "node tools/set-skin.mjs",
     "mods": "node --env-file-if-exists=.env tools/curseforge-mods.mjs"

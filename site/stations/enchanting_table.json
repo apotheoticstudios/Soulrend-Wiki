@@ -1,0 +1,13 @@
+{
+  "$schema": "../schemas/station.schema.json",
+  "label": "Infusion Enchanting",
+  "icon": "minecraft:enchanting_table",
+  "size": [86, 26],
+  "inputs": [{ "at": [0, 4] }],
+  "outputs": [{ "at": [60, 0], "large": true }],
+  "decorations": [{ "type": "arrow", "at": [28, 5] }],
+  "recipes": {
+    "apotheosis:enchanting": "infusion",
+    "apotheosis:keep_nbt_enchanting": "infusion"
+  }
+}

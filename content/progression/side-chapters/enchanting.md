@@ -51,10 +51,10 @@ Each quest asks for one block and needs the quest before it.
 
 Several quests explain **infusion**: an item placed in the enchanting table with the right Eterna, Quanta and Arcana (and enough XP levels) turns into its infused version. The Infused Hellshelf needs at least 22.5 Eterna and 30% Quanta, the Deepshelf at least 30 Eterna, 40% Quanta and 40% Arcana, and Infused Dragon's Breath at least 40 Eterna, 15–25% Quanta and 60% Arcana.
 
-Soulrend changes one recipe: the Dormant Deepshelf is made from books, deepslate and red nether bricks.
+Soulrend changes one recipe: the Dormant Deepshelf is made from books and deepslate.
 
 ```recipe
-{ "station": "crafting_table", "grid": ["BCB", "AAA", "BCB"], "key": { "A": "minecraft:book", "B": "#apotheosis:deepslate", "C": "minecraft:red_nether_bricks" }, "output": "apotheosis:dormant_deepshelf" }
+{ "station": "crafting_table", "grid": ["BBB", "AAA", "BBB"], "key": { "A": "minecraft:book", "B": "#apotheosis:deepslate" }, "output": "apotheosis:dormant_deepshelf" }
 ```
 
 ## Tomes
