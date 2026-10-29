@@ -21,6 +21,9 @@ if (document.querySelector('.forge-stage')) {
 if (document.querySelector('.attack-stage')) {
   import('./attack-viewer.js').then(m => m.initAttacks());
 }
+if (document.querySelector('.hof')) {
+  import('./hall-of-fame.js').then(m => m.initHallOfFame());
+}
 if (document.querySelector('.skilltree-stage')) {
   import('./skilltree.js').then(m => m.initSkillTrees());
 }
