@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T02:36:13.669Z",
+  "title": "Design System: Mod Planner",
+  "scope": "dev-tools/ only; the Soulrend wiki has its own theme system.",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "Planner Blue",
+        "canonical": "#2f6fe0",
+        "lightScheme": "#2f6fe0",
+        "tonalRamp": [
+          "oklch(15% 0.16 260.8)",
+          "oklch(26% 0.16 260.8)",
+          "oklch(37% 0.16 260.8)",
+          "oklch(48% 0.16 260.8)",
+          "oklch(59% 0.16 260.8)",
+          "oklch(70% 0.16 260.8)",
+          "oklch(82% 0.16 260.8)",
+          "oklch(95% 0.16 260.8)"
+        ]
+      },
+      "accent-text": {
+        "role": "primary",
+        "displayName": "Link Blue",
+        "canonical": "#7eabff",
+        "lightScheme": "#1d5bc9",
+        "tonalRamp": [
+          "oklch(15% 0.132 262.2)",
+          "oklch(26% 0.132 262.2)",
+          "oklch(37% 0.132 262.2)",
+          "oklch(48% 0.132 262.2)",
+          "oklch(59% 0.132 262.2)",
+          "oklch(70% 0.132 262.2)",
+          "oklch(82% 0.132 262.2)",
+          "oklch(95% 0.132 262.2)"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Blue Wash",
+        "canonical": "rgba(79, 140, 255, 0.14)",
+        "lightScheme": "rgba(47, 111, 224, 0.1)",
+        "tonalRamp": [
+          "oklch(15% 0.16 261.7)",
+          "oklch(26% 0.16 261.7)",
+          "oklch(37% 0.16 261.7)",
+          "oklch(48% 0.16 261.7)",
+          "oklch(59% 0.16 261.7)",
+          "oklch(70% 0.16 261.7)",
+          "oklch(82% 0.16 261.7)",
+          "oklch(95% 0.16 261.7)"
+        ]
+      },
+      "ok": {
+        "role": "tertiary",
+        "displayName": "In-Pack Green",
+        "canonical": "#4cc265",
+        "lightScheme": "#1a7f37",
+        "tonalRamp": [
+          "oklch(15% 0.16 147.8)",
+          "oklch(26% 0.16 147.8)",
+          "oklch(37% 0.16 147.8)",
+          "oklch(48% 0.16 147.8)",
+          "oklch(59% 0.16 147.8)",
+          "oklch(70% 0.16 147.8)",
+          "oklch(82% 0.16 147.8)",
+          "oklch(95% 0.16 147.8)"
+        ]
+      },
+      "ok-soft": {
+        "role": "tertiary",
+        "displayName": "In-Pack Wash",
+        "canonical": "rgba(76, 194, 101, 0.12)",
+        "lightScheme": "rgba(26, 127, 55, 0.09)",
+        "tonalRamp": [
+          "oklch(15% 0.16 147.8)",
+          "oklch(26% 0.16 147.8)",
+          "oklch(37% 0.16 147.8)",
+          "oklch(48% 0.16 147.8)",
+          "oklch(59% 0.16 147.8)",
+          "oklch(70% 0.16 147.8)",
+          "oklch(82% 0.16 147.8)",
+          "oklch(95% 0.16 147.8)"
+        ]
+      },
+      "warn": {
+        "role": "tertiary",
+        "displayName": "Needs Amber",
+        "canonical": "#dba53a",
+        "lightScheme": "#8a5a00",
+        "tonalRamp": [
+          "oklch(15% 0.135 80.7)",
+          "oklch(26% 0.135 80.7)",
+          "oklch(37% 0.135 80.7)",
+          "oklch(48% 0.135 80.7)",
+          "oklch(59% 0.135 80.7)",
+          "oklch(70% 0.135 80.7)",
+          "oklch(82% 0.135 80.7)",
+          "oklch(95% 0.135 80.7)"
+        ]
+      },
+      "warn-soft": {
+        "role": "tertiary",
+        "displayName": "Needs Wash",
+        "canonical": "rgba(219, 165, 58, 0.13)",
+        "lightScheme": "rgba(154, 103, 0, 0.1)",
+        "tonalRamp": [
+          "oklch(15% 0.135 80.7)",
+          "oklch(26% 0.135 80.7)",
+          "oklch(37% 0.135 80.7)",
+          "oklch(48% 0.135 80.7)",
+          "oklch(59% 0.135 80.7)",
+          "oklch(70% 0.135 80.7)",
+          "oklch(82% 0.135 80.7)",
+          "oklch(95% 0.135 80.7)"
+        ]
+      },
+      "bad": {
+        "role": "tertiary",
+        "displayName": "Conflict Red",
+        "canonical": "#f2716b",
+        "lightScheme": "#c4232d",
+        "tonalRamp": [
+          "oklch(15% 0.16 24.7)",
+          "oklch(26% 0.16 24.7)",
+          "oklch(37% 0.16 24.7)",
+          "oklch(48% 0.16 24.7)",
+          "oklch(59% 0.16 24.7)",
+          "oklch(70% 0.16 24.7)",
+          "oklch(82% 0.16 24.7)",
+          "oklch(95% 0.16 24.7)"
+        ]
+      },
+      "bad-soft": {
+        "role": "tertiary",
+        "displayName": "Conflict Wash",
+        "canonical": "rgba(242, 113, 107, 0.13)",
+        "lightScheme": "rgba(196, 35, 45, 0.08)",
+        "tonalRamp": [
+          "oklch(15% 0.16 24.7)",
+          "oklch(26% 0.16 24.7)",
+          "oklch(37% 0.16 24.7)",
+          "oklch(48% 0.16 24.7)",
+          "oklch(59% 0.16 24.7)",
+          "oklch(70% 0.16 24.7)",
+          "oklch(82% 0.16 24.7)",
+          "oklch(95% 0.16 24.7)"
+        ]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "Night Ground",
+        "canonical": "#0e1013",
+        "lightScheme": "#f4f6f8",
+        "tonalRamp": [
+          "oklch(15% 0.007 258.4)",
+          "oklch(26% 0.007 258.4)",
+          "oklch(37% 0.007 258.4)",
+          "oklch(48% 0.007 258.4)",
+          "oklch(59% 0.007 258.4)",
+          "oklch(70% 0.007 258.4)",
+          "oklch(82% 0.007 258.4)",
+          "oklch(95% 0.007 258.4)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "canonical": "#15181d",
+        "lightScheme": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.011 260.7)",
+          "oklch(26% 0.011 260.7)",
+          "oklch(37% 0.011 260.7)",
+          "oklch(48% 0.011 260.7)",
+          "oklch(59% 0.011 260.7)",
+          "oklch(70% 0.011 260.7)",
+          "oklch(82% 0.011 260.7)",
+          "oklch(95% 0.011 260.7)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised",
+        "canonical": "#1c2027",
+        "lightScheme": "#eef1f4",
+        "tonalRamp": [
+          "oklch(15% 0.015 261.7)",
+          "oklch(26% 0.015 261.7)",
+          "oklch(37% 0.015 261.7)",
+          "oklch(48% 0.015 261.7)",
+          "oklch(59% 0.015 261.7)",
+          "oklch(70% 0.015 261.7)",
+          "oklch(82% 0.015 261.7)",
+          "oklch(95% 0.015 261.7)"
+        ]
+      },
+      "hover": {
+        "role": "neutral",
+        "displayName": "Hover",
+        "canonical": "#232832",
+        "lightScheme": "#e6eaef",
+        "tonalRamp": [
+          "oklch(15% 0.02 264.2)",
+          "oklch(26% 0.02 264.2)",
+          "oklch(37% 0.02 264.2)",
+          "oklch(48% 0.02 264.2)",
+          "oklch(59% 0.02 264.2)",
+          "oklch(70% 0.02 264.2)",
+          "oklch(82% 0.02 264.2)",
+          "oklch(95% 0.02 264.2)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#2a2f38",
+        "lightScheme": "#d9dee5",
+        "tonalRamp": [
+          "oklch(15% 0.018 262.2)",
+          "oklch(26% 0.018 262.2)",
+          "oklch(37% 0.018 262.2)",
+          "oklch(48% 0.018 262.2)",
+          "oklch(59% 0.018 262.2)",
+          "oklch(70% 0.018 262.2)",
+          "oklch(82% 0.018 262.2)",
+          "oklch(95% 0.018 262.2)"
+        ]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#3a414d",
+        "lightScheme": "#c3cad3",
+        "tonalRamp": [
+          "oklch(15% 0.023 261.2)",
+          "oklch(26% 0.023 261.2)",
+          "oklch(37% 0.023 261.2)",
+          "oklch(48% 0.023 261.2)",
+          "oklch(59% 0.023 261.2)",
+          "oklch(70% 0.023 261.2)",
+          "oklch(82% 0.023 261.2)",
+          "oklch(95% 0.023 261.2)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#e7e9ec",
+        "lightScheme": "#1b1f24",
+        "tonalRamp": [
+          "oklch(15% 0.005 258.3)",
+          "oklch(26% 0.005 258.3)",
+          "oklch(37% 0.005 258.3)",
+          "oklch(48% 0.005 258.3)",
+          "oklch(59% 0.005 258.3)",
+          "oklch(70% 0.005 258.3)",
+          "oklch(82% 0.005 258.3)",
+          "oklch(95% 0.005 258.3)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#a3aab5",
+        "lightScheme": "#565f6b",
+        "tonalRamp": [
+          "oklch(15% 0.018 259.4)",
+          "oklch(26% 0.018 259.4)",
+          "oklch(37% 0.018 259.4)",
+          "oklch(48% 0.018 259.4)",
+          "oklch(59% 0.018 259.4)",
+          "oklch(70% 0.018 259.4)",
+          "oklch(82% 0.018 259.4)",
+          "oklch(95% 0.018 259.4)"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "#868e9a",
+        "lightScheme": "#5c6570",
+        "tonalRamp": [
+          "oklch(15% 0.02 258.4)",
+          "oklch(26% 0.02 258.4)",
+          "oklch(37% 0.02 258.4)",
+          "oklch(48% 0.02 258.4)",
+          "oklch(59% 0.02 258.4)",
+          "oklch(70% 0.02 258.4)",
+          "oklch(82% 0.02 258.4)",
+          "oklch(95% 0.02 258.4)"
+        ]
+      },
+      "on-accent": {
+        "role": "neutral",
+        "displayName": "On-Accent White",
+        "canonical": "#ffffff",
+        "lightScheme": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26% 0 89.9)",
+          "oklch(37% 0 89.9)",
+          "oklch(48% 0 89.9)",
+          "oklch(59% 0 89.9)",
+          "oklch(70% 0 89.9)",
+          "oklch(82% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page title only (24px on the overview page)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Mod names in rows, role names on the overview, the brand (700)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base page text and nav items."
+      },
+      "body-small": {
+        "displayName": "Body small",
+        "purpose": "Summaries, field labels, stats; 12px for authors, meta and counts."
+      },
+      "label": {
+        "displayName": "Group label",
+        "purpose": "Uppercase heading of a list group; never an eyebrow above a headline."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button text; 12px on small buttons."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float",
+        "value": "0 12px 32px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(0, 0, 0, 0.3)",
+        "lightScheme": "0 12px 32px rgba(20, 30, 45, 0.16), 0 2px 6px rgba(20, 30, 45, 0.08)",
+        "purpose": "Shortlist sheet and mobile filter drawer only, over a rgba(0, 0, 0, 0.45) scrim."
+      },
+      {
+        "name": "focus",
+        "value": "2px solid var(--accent-text) outline, 2px offset",
+        "purpose": "Global :focus-visible ring."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Sheet slide-in (24px) and drawer slide, 0.2s."
+      },
+      {
+        "name": "control-transition",
+        "value": "background-color 0.15s, border-color 0.15s",
+        "purpose": "Button hover."
+      },
+      {
+        "name": "skeleton-pulse",
+        "value": "opacity to 0.5, 1.4s ease-in-out infinite",
+        "purpose": "Loading rows; off under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1180px",
+        "purpose": "Below: the stats column drops."
+      },
+      {
+        "name": "drawer",
+        "value": "900px",
+        "purpose": "Below: sidebar becomes an off-canvas drawer."
+      },
+      {
+        "name": "mobile",
+        "value": "640px",
+        "purpose": "Below: rows stack, toolbar stops sticking, brand shows icon only."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default neutral action.",
+      "html": "<button class=\"ds-btn\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\"><path d=\"M7 3h10a1 1 0 0 1 1 1v17l-6-4-6 4V4a1 1 0 0 1 1-1z\"/></svg>Keep</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 12px;font:600 13px system-ui,sans-serif;color:var(--text,#e7e9ec);background:var(--raised,#1c2027);border:1px solid var(--border,#2a2f38);border-radius:6px;cursor:pointer;transition:background-color .15s,border-color .15s}.ds-btn:hover{background:var(--hover,#232832);border-color:var(--border-strong,#3a414d)}.ds-btn:focus-visible{outline:2px solid var(--accent-text,#7eabff);outline-offset:2px}.ds-icon{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main action (Copy list) and the pressed Kept state.",
+      "html": "<button class=\"ds-btn-primary\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\"><path d=\"M5 12.5l4.5 4.5L19 7\"/></svg>Kept</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 12px;font:600 13px system-ui,sans-serif;color:#fff;background:var(--accent,#2f6fe0);border:1px solid var(--accent,#2f6fe0);border-radius:6px;cursor:pointer}.ds-btn-primary:hover{filter:brightness(1.08)}.ds-btn-primary:focus-visible{outline:2px solid var(--accent-text,#7eabff);outline-offset:2px}.ds-icon{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Reset, close and remove.",
+      "html": "<button class=\"ds-btn-ghost\">Reset</button>",
+      "css": ".ds-btn-ghost{height:28px;padding:0 9px;font:600 12px system-ui,sans-serif;color:var(--text,#e7e9ec);background:transparent;border:1px solid transparent;border-radius:6px;cursor:pointer}.ds-btn-ghost:hover{background:var(--hover,#232832)}.ds-btn-ghost:focus-visible{outline:2px solid var(--accent-text,#7eabff);outline-offset:2px}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Top bar search with icon and key hint.",
+      "html": "<label class=\"ds-search\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"M20 20l-4-4\"/></svg><input type=\"search\" placeholder=\"Search name, summary or author\"><kbd>/</kbd></label>",
+      "css": ".ds-search{position:relative;display:block;width:360px}.ds-search .ds-icon{position:absolute;left:10px;top:9px;width:16px;height:16px;fill:none;stroke:var(--faint,#868e9a);stroke-width:2;stroke-linecap:round}.ds-search input{width:100%;height:34px;padding:0 32px 0 34px;font:14px system-ui,sans-serif;color:var(--text,#e7e9ec);background:var(--raised,#1c2027);border:1px solid var(--border,#2a2f38);border-radius:6px}.ds-search input::placeholder{color:var(--faint,#868e9a)}.ds-search input:hover{border-color:var(--border-strong,#3a414d)}.ds-search input:focus-visible{outline:2px solid var(--accent-text,#7eabff);outline-offset:2px}.ds-search kbd{position:absolute;right:8px;top:8px;font:12px system-ui,sans-serif;color:var(--faint,#868e9a);border:1px solid var(--border,#2a2f38);border-radius:4px;padding:0 5px}"
+    },
+    {
+      "name": "Sidebar Nav",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Role list with counts; current item in the blue wash.",
+      "html": "<ul class=\"ds-nav\"><li><a href=\"#\" aria-current=\"page\"><span>World &amp; Exploration</span><span class=\"n\">6,617</span></a></li><li><a href=\"#\"><span>Creatures</span><span class=\"n\">5,295</span></a></li><li><a href=\"#\"><span>Magic</span><span class=\"n\">3,022</span></a></li></ul>",
+      "css": ".ds-nav{list-style:none;margin:0;padding:8px;width:248px;background:var(--panel,#15181d);font:14px/1.45 system-ui,sans-serif}.ds-nav a{display:flex;justify-content:space-between;padding:6px 8px;border-radius:6px;color:var(--text,#e7e9ec);text-decoration:none}.ds-nav .n{color:var(--faint,#868e9a);font-size:12px;font-variant-numeric:tabular-nums}.ds-nav a:hover{background:var(--hover,#232832)}.ds-nav a:focus-visible{outline:2px solid var(--accent-text,#7eabff);outline-offset:2px}.ds-nav a[aria-current]{background:var(--accent-soft,rgba(79,140,255,.14));color:var(--accent-text,#7eabff);font-weight:600}.ds-nav a[aria-current] .n{color:var(--accent-text,#7eabff)}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Active filter with remove button.",
+      "html": "<span class=\"ds-chip\">Minecraft 1.20.1<button aria-label=\"Remove\"><svg viewBox=\"0 0 24 24\"><path d=\"M6 6l12 12M18 6L6 18\"/></svg></button></span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:4px;height:26px;padding:0 4px 0 10px;border-radius:13px;background:var(--raised,#1c2027);border:1px solid var(--border,#2a2f38);font:12px system-ui,sans-serif;color:var(--text,#e7e9ec)}.ds-chip button{display:grid;place-items:center;width:20px;height:20px;border:0;border-radius:10px;background:none;color:var(--muted,#a3aab5);cursor:pointer}.ds-chip button:hover{background:var(--hover,#232832);color:var(--text,#e7e9ec)}.ds-chip button:focus-visible{outline:2px solid var(--accent-text,#7eabff);outline-offset:2px}.ds-chip svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}"
+    },
+    {
+      "name": "Status Pills",
+      "kind": "chip",
+      "refersTo": "status-ok",
+      "description": "Pack-check results: in pack, needs N, conflict.",
+      "html": "<span class=\"ds-status ok\">In pack</span> <span class=\"ds-status warn\">Needs 1</span> <span class=\"ds-status bad\">Conflicts</span>",
+      "css": ".ds-status{display:inline-flex;align-items:center;height:24px;padding:0 9px;border-radius:12px;font:600 12px system-ui,sans-serif}.ds-status.ok{background:var(--ok-soft,rgba(76,194,101,.12));color:var(--ok,#4cc265)}.ds-status.warn{background:var(--warn-soft,rgba(219,165,58,.13));color:var(--warn,#dba53a)}.ds-status.bad{background:var(--bad-soft,rgba(242,113,107,.13));color:var(--bad,#f2716b)}"
+    },
+    {
+      "name": "Mod Row",
+      "kind": "custom",
+      "refersTo": "mod-row",
+      "description": "The scanning unit: icon, name, summary, meta, stats, actions.",
+      "html": "<div class=\"ds-row\"><div class=\"ph\"></div><div class=\"b\"><div class=\"t\"><a href=\"#\">Nature's Compass</a><span>by Chaosyr</span></div><p>Locate biomes anywhere in the world.</p><div class=\"m\"><span class=\"ty\">Biomes</span>Forge · Fabric · NeoForge</div></div><div class=\"s\"><b>306.1M</b><br>Oct 4, 2026</div><button class=\"ds-k\">Keep</button></div>",
+      "css": ".ds-row{display:grid;grid-template-columns:40px minmax(0,1fr) 112px auto;gap:0 16px;align-items:center;padding:5px 8px;border-bottom:1px solid var(--border,#2a2f38);border-radius:4px;font:14px/1.45 system-ui,sans-serif;color:var(--text,#e7e9ec);width:640px}.ds-row:hover{background:var(--panel,#15181d)}.ds-row .ph{width:40px;height:40px;border-radius:6px;background:var(--raised,#1c2027)}.ds-row .t{display:flex;gap:8px;align-items:baseline;line-height:1.2}.ds-row .t a{font-weight:600;font-size:15px;color:var(--text,#e7e9ec);text-decoration:none}.ds-row .t a:hover{color:var(--accent-text,#7eabff);text-decoration:underline}.ds-row .t span{color:var(--faint,#868e9a);font-size:12px}.ds-row p{margin:0;font-size:13px;line-height:1.35;color:var(--muted,#a3aab5)}.ds-row .m{display:flex;gap:10px;font-size:12px;color:var(--faint,#868e9a)}.ds-row .ty{padding:0 6px;border-radius:4px;background:var(--raised,#1c2027);color:var(--muted,#a3aab5)}.ds-row .s{font-size:13px;color:var(--muted,#a3aab5);font-variant-numeric:tabular-nums}.ds-row .s b{color:var(--text,#e7e9ec)}.ds-k{height:34px;padding:0 12px;font:600 13px system-ui,sans-serif;color:var(--text,#e7e9ec);background:var(--raised,#1c2027);border:1px solid var(--border,#2a2f38);border-radius:6px;cursor:pointer}.ds-k:hover{background:var(--hover,#232832)}.ds-k:focus-visible{outline:2px solid var(--accent-text,#7eabff);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Straight Catalog",
+    "overview": "The category standard played straight: a mod browser at the craft level of the CurseForge website, with search on top, a facet sidebar and a dense list of mods. It refuses any themed costume. What it adds is a planning layer (roles, addons by base mod, a dependency filter, pack checks and a shortlist) expressed with the same neutral parts as everything else, never with new decoration.\n\nThe surface is dark neutral by default: a near-black ground, the sidebar, top bar and sheet one step lighter, 1px borders between everything, and light ink. A light scheme comes from the same tokens through `prefers-color-scheme`. One blue accent carries selection, primary actions and focus. Green, amber and red exist only to report pack-check results and declared conflicts. Density serves volume: the author scans hundreds of mods per role, so a row is about 64px tall and carries icon, name, author, summary, type chips, stats, pack status and Keep/Reject.",
+    "keyCharacteristics": [
+      "Neutral dark panels with tonal steps and 1px borders; no texture, no gradient, no imagery beyond mod icons.",
+      "One accent hue (blue) for state and action; semantic colors only for pack checks.",
+      "A single system UI sans at small sizes; tabular figures for every count and statistic.",
+      "6px corners on controls, pills for status and chips, drawn 24-unit SVG line icons.",
+      "Shadow only on surfaces that float over the page (the shortlist sheet and the mobile filter drawer)."
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Blue is the only hue for selection, primary action and focus. Nothing else is tinted blue, and no second accent exists.",
+        "section": "colors"
+      },
+      {
+        "name": "The States-Only Rule",
+        "body": "Green, amber and red appear only as pack-check and conflict states (status pills, requirement links, Reject, excluded tags, shortlist warnings). They never decorate.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Counts Rule",
+        "body": "Every count, download figure and date sits in tabular figures (`.num` or the stats column) so columns of numbers align while scanning.",
+        "section": "typography"
+      },
+      {
+        "name": "The Labels-Head-Lists Rule",
+        "body": "Uppercase tracked labels name a group of items directly below them. They never sit above a headline as an eyebrow.",
+        "section": "typography"
+      },
+      {
+        "name": "The Float-Only Shadow Rule",
+        "body": "Rows, cards, buttons and the top bar never carry shadows; only a sheet or drawer that covers the page does.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do take every color from the `shared.css` custom properties so the light scheme follows automatically.",
+      "Do keep blue for selection, primary action and focus, and keep green, amber and red for pack checks and conflicts.",
+      "Do set counts, downloads and dates in tabular figures.",
+      "Do draw new icons as 24-unit, 2px round stroke SVG symbols in `shared.js`.",
+      "Do keep controls at 34px (28px small) with 6px corners.",
+      "Do honor `prefers-reduced-motion`: the sheet, drawer and skeleton pulse switch off their motion."
+    ],
+    "donts": [
+      "Don't borrow the wiki's themes, pixel font or Soulrend/Minecraft styling; the dev tools are visually separate.",
+      "Don't add a themed costume, texture, gradient or illustration to the planner surfaces.",
+      "Don't put shadows on rows, buttons or bars; shadow belongs only to a sheet or drawer over a scrim.",
+      "Don't use green, amber or red for decoration or emphasis.",
+      "Don't place uppercase tracked labels above headlines as eyebrows."
+    ]
+  }
+}

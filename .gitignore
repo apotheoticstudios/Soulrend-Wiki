@@ -7,3 +7,7 @@ dist-dev.tmp/
 .env
 .cache/
 .wrangler/
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/questions/
+.impeccable/hook.cache.json

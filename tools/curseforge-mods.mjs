@@ -1,4 +1,5 @@
-// Snapshots CurseForge's Minecraft mods for the mod filter in dev-tools/mods/, one data file per category.
+// Snapshots CurseForge's Minecraft mods for the mod planner in dev-tools/, one data file per modpack role and per
+// popular base mod (its addons).
 //   npm run mods              refresh cached mods, scan ids newer than the last scan, write the data files
 //   npm run mods -- --full    rescan every CurseForge project id (about half an hour)
 //   npm run mods -- --write   only rewrite the data files from the cache
@@ -19,6 +20,29 @@ const BATCH = 5000, PARALLEL = 6;
 const MIN_DOWNLOADS = 1000;
 const ICON_PREFIX = 'https://media.forgecdn.net/avatars/thumbnails/';
 const LOADERS = ['Any', 'Forge', 'Cauldron', 'LiteLoader', 'Fabric', 'Quilt', 'NeoForge'];
+// Modpack roles, each a union of CurseForge category slugs. A CurseForge category in none of them is reported, so new
+// ones get placed; Addons is covered by the per-base-mod files instead.
+const ROLES = [
+  ['world', 'World & Exploration', 'Biomes, dimensions, structures and ores.', ['world-gen', 'world-biomes', 'world-dimensions', 'world-structures', 'world-ores-resources']],
+  ['creatures', 'Creatures', 'New mobs, animals and bosses.', ['world-mobs']],
+  ['adventure', 'Adventure & Combat', 'RPG systems, dungeons, weapons, armor and horror.', ['adventure-rpg', 'armor-weapons-tools', 'horror', 'addons-tinkers-construct', 'twilight-forest']],
+  ['magic', 'Magic', 'Spells, rituals and magical progression.', ['magic', 'blood-magic', 'addons-thaumcraft']],
+  ['tech', 'Tech & Automation', 'Machines, energy, processing, logistics and redstone.', ['technology', 'create', 'technology-automation', 'technology-energy', 'technology-item-fluid-energy-transport', 'technology-processing', 'technology-genetics', 'redstone', 'applied-energistics-2', 'refined-storage', 'integrated-dynamics', 'addons-industrialcraft', 'addons-thermalexpansion', 'addons-buildcraft', 'addons-forestry', 'galacticraft']],
+  ['food', 'Food & Farming', 'Crops, cooking and farm automation.', ['mc-food', 'technology-farming', 'farmers-delight']],
+  ['storage', 'Storage', 'Chests, backpacks and inventory systems.', ['storage']],
+  ['travel', 'Travel & Transport', 'Vehicles, elevators, teleporters and trains.', ['technology-player-transport']],
+  ['building', 'Building & Decoration', 'Blocks, furniture and cosmetics.', ['cosmetic']],
+  ['qol', 'Quality of Life', 'Interface helpers, maps, tooltips and tweaks.', ['utility-qol', 'map-information']],
+  ['performance', 'Performance & Fixes', 'Optimization and bug fixes.', ['performance', 'bug-fixes']],
+  ['server', 'Server & Admin', 'Permissions, backups, chat and server tools.', ['server-utility']],
+  ['libraries', 'Libraries & Scripting', 'APIs other mods need, KubeJS and CraftTweaker.', ['library-api', 'kubejs', 'crafttweaker']],
+  ['misc', 'Everything Else', 'Miscellaneous, skyblock, education and MCreator mods.', ['mc-miscellaneous', 'education', 'skyblock', 'creativemode', 'twitch-integration', 'modjam-2025', 'mc-creator']],
+];
+const ADDON_SLUG = 'mc-addons', LIBRARY_SLUG = 'library-api';
+// Base mods get their own addons file when at least this many listed mods require them (top ADDON_BASES only).
+const ADDON_MIN = 25, ADDON_BASES = 30;
+// Required by many mods but not something you build a pack section around (menus, shared code, loader bridges).
+const NOT_BASES = new Set(['modmenu', 'blueprint', 'sinytra-connector']);
 // CurseForge's FileRelationType values.
 const REQUIRED = 3, OPTIONAL = 2, INCOMPATIBLE = 5;
 
@@ -46,17 +70,26 @@ async function api(url, body) {
 }
 
 function slim(m) {
-  const deps = { [REQUIRED]: new Set(), [OPTIONAL]: new Set(), [INCOMPATIBLE]: new Set() };
-  // shortcut: dependencies are the union over the mod's latest files, not per version; fetch per-file deps if that proves wrong.
-  for (const f of m.latestFiles ?? []) for (const d of f.dependencies ?? []) deps[d.relationType]?.add(d.modId);
+  // Per relation: dependency id -> bitmask of the loaders (LOADERS index) whose files declare it; 0 means an untagged file.
+  const deps = { [REQUIRED]: new Map(), [OPTIONAL]: new Map(), [INCOMPATIBLE]: new Map() };
+  // shortcut: dependencies come from the mod's latest files only, not every version; fetch per-file deps if that proves wrong.
+  for (const f of m.latestFiles ?? []) {
+    const mask = (f.gameVersions ?? []).reduce((bits, v) => { const l = LOADERS.indexOf(v); return l > 0 ? bits | (1 << l) : bits; }, 0);
+    for (const d of f.dependencies ?? []) {
+      const map = deps[d.relationType];
+      const prev = map?.get(d.modId);
+      map?.set(d.modId, prev === 0 || mask === 0 ? 0 : (prev ?? 0) | mask);
+    }
+  }
   const icon = m.logo?.thumbnailUrl ?? '';
   return {
     id: m.id, n: m.name, s: m.slug, d: m.summary, a: m.authors?.[0]?.name ?? '',
     dl: m.downloadCount, u: m.dateModified.slice(0, 10), r: m.dateReleased.slice(0, 10),
-    c: m.categories.map(c => c.id),
+    c: m.categories.map(c => c.id), p: m.primaryCategoryId,
     i: icon.startsWith(ICON_PREFIX) ? icon.slice(ICON_PREFIX.length) : icon,
     f: [...new Set((m.latestFilesIndexes ?? []).map(f => `${f.gameVersion}|${f.modLoader ?? 0}`))],
-    req: [...deps[REQUIRED]], opt: [...deps[OPTIONAL]], inc: [...deps[INCOMPATIBLE]],
+    req: [...deps[REQUIRED].keys()], rl: [...deps[REQUIRED].values()],
+    opt: [...deps[OPTIONAL].keys()], inc: [...deps[INCOMPATIBLE].keys()],
   };
 }
 
@@ -124,37 +157,69 @@ async function update(cache) {
 function writeData(cache) {
   const byId = new Map(cache.mods.map(m => [m.id, m]));
   const listed = cache.mods.filter(m => m.dl >= MIN_DOWNLOADS).sort((a, b) => b.dl - a.dl);
+  const catBySlug = new Map(cache.categories.map(c => [c.slug, c]));
+  const library = catBySlug.get(LIBRARY_SLUG).id;
+  const placed = new Set([ADDON_SLUG, ...ROLES.flatMap(r => r[3])]);
+  for (const c of cache.categories) if (!c.isClass && !placed.has(c.slug)) console.warn(`  CurseForge category "${c.name}" (${c.slug}) is in no role; add it to ROLES.`);
   fs.rmSync(OUT, { recursive: true, force: true });
-  const index = [];
-  for (const cat of cache.categories) {
-    const mods = listed.filter(m => m.c.includes(cat.id));
-    if (!mods.length) continue;
+
+  const write = (name, view, mods) => {
     // Version strings sorted newest first; files are stored as index * 8 + loader to keep the files small.
     const versions = [...new Set(mods.flatMap(m => m.f.map(f => f.split('|')[0])))].sort((a, b) => b.localeCompare(a, 'en', { numeric: true }));
     const versionIndex = new Map(versions.map((v, i) => [v, i]));
     const ids = new Set(mods.map(m => m.id));
     const refs = [...new Set(mods.flatMap(m => [...m.req, ...m.opt, ...m.inc]))].filter(id => !ids.has(id) && byId.has(id));
     const used = new Set(mods.flatMap(m => m.c));
-    const file = path.join(OUT, `${cat.slug}.json`);
+    const file = path.join(OUT, `${name}.json`);
     writeFile(file, JSON.stringify({
       generated: cache.generated,
-      category: { id: cat.id, name: cat.name, slug: cat.slug },
+      view,
       iconPrefix: ICON_PREFIX,
       loaders: LOADERS,
+      library,
       versions,
       categories: Object.fromEntries(cache.categories.filter(c => used.has(c.id)).map(c => [c.id, c.name])),
       libs: Object.fromEntries(refs.map(id => [id, [byId.get(id).n, byId.get(id).s]])),
       mods: mods.map(m => ({ ...m, f: m.f.map(k => { const [v, l] = k.split('|'); return versionIndex.get(v) * 8 + Number(l); }) })),
     }));
-    const parent = cache.categories.find(c => c.id === cat.parentCategoryId && !c.isClass);
-    index.push({ slug: cat.slug, name: cat.name, parent: parent?.name ?? null, count: mods.length, bytes: fs.statSync(file).size });
-  }
-  index.sort((a, b) => (a.parent ?? a.name).localeCompare(b.parent ?? b.name) || (a.parent ? 1 : 0) - (b.parent ? 1 : 0) || a.name.localeCompare(b.name));
-  writeFile(path.join(OUT, 'index.json'), JSON.stringify({ generated: cache.generated, minDownloads: MIN_DOWNLOADS, categories: index }));
-  const total = index.reduce((sum, c) => sum + c.bytes, 0);
-  console.log(`Wrote ${index.length} categories (${listed.length.toLocaleString()} of ${cache.mods.length.toLocaleString()} mods have ${MIN_DOWNLOADS}+ downloads), ${(total / 1e6).toFixed(1)} MB in ${path.relative(ROOT, OUT)}/`);
-  const largest = index.reduce((a, b) => a.bytes > b.bytes ? a : b);
-  console.log(`Largest: ${largest.name}, ${largest.count.toLocaleString()} mods, ${(largest.bytes / 1e6).toFixed(1)} MB`);
+    return fs.statSync(file).size;
+  };
+
+  // A mod's main role comes from its primary category; when that maps to no role (Addons, say), every role it is tagged
+  // with counts as main. Mods that only touch a role are marked o: 1 and shown there on request.
+  const roleTypes = ROLES.map(r => r[3].map(c => catBySlug.get(c)?.id).filter(Boolean));
+  const mainRoles = m => {
+    const primary = roleTypes.findIndex(t => t.includes(m.p));
+    return primary >= 0 ? [primary] : roleTypes.map((t, i) => m.c.some(c => t.includes(c)) ? i : -1).filter(i => i >= 0);
+  };
+  const main = new Map(listed.map(m => [m.id, mainRoles(m)]));
+  const roles = ROLES.map(([slug, name, blurb], r) => {
+    const types = roleTypes[r];
+    const mods = listed.filter(m => m.c.some(c => types.includes(c))).map(m => main.get(m.id).includes(r) ? m : { ...m, o: 1 });
+    const bytes = write(slug, { kind: 'role', slug, name, blurb, types }, mods);
+    // The overview counts main-role content mods; libraries show in a role only when asked for.
+    const count = mods.filter(m => !m.o && (slug === 'libraries' || !m.c.includes(library))).length;
+    return { slug, name, blurb, count, bytes };
+  });
+
+  const dependents = new Map();
+  for (const m of listed) for (const id of m.req) dependents.set(id, (dependents.get(id) ?? 0) + 1);
+  const bases = [...dependents].filter(([id, n]) => n >= ADDON_MIN && byId.get(id)?.dl >= MIN_DOWNLOADS && !byId.get(id).c.includes(library) && !NOT_BASES.has(byId.get(id).s))
+    .sort((a, b) => b[1] - a[1]).slice(0, ADDON_BASES)
+    .map(([id]) => {
+      const base = byId.get(id);
+      const mods = listed.filter(m => m.req.includes(id));
+      const bytes = write(`addons-${base.s}`, { kind: 'addons', slug: base.s, name: base.n, base: id }, mods);
+      // Counted like roles: libraries stay hidden in the planner unless asked for.
+      return { slug: base.s, name: base.n, id, count: mods.filter(m => !m.c.includes(library)).length, bytes };
+    });
+
+  writeFile(path.join(OUT, 'index.json'), JSON.stringify({ generated: cache.generated, minDownloads: MIN_DOWNLOADS, total: listed.length, roles, addons: bases }));
+  const all = [...roles, ...bases];
+  const total = all.reduce((sum, c) => sum + c.bytes, 0);
+  const largest = all.reduce((a, b) => a.bytes > b.bytes ? a : b);
+  console.log(`Wrote ${roles.length} roles and ${bases.length} addon sets (${listed.length.toLocaleString()} of ${cache.mods.length.toLocaleString()} mods have ${MIN_DOWNLOADS}+ downloads), ${(total / 1e6).toFixed(1)} MB in ${path.relative(ROOT, OUT)}/`);
+  console.log(`Largest: ${largest.name}, ${(largest.bytes / 1e6).toFixed(1)} MB`);
 }
 
 const cached = fs.existsSync(CACHE) && !args.includes('--full') ? readJson(CACHE) : null;

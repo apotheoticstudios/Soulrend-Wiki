@@ -4,373 +4,88 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Mod Filter</title>
-<style>
-  :root {
-    --bg: #f6f5f2; --panel: #fff; --text: #1d1c1a; --muted: #6b6862; --line: #dedbd4;
-    --accent: #6a4bc4; --good: #2f7d4f; --warn: #a06a12; --bad: #b2453a;
-    color-scheme: light;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #141316; --panel: #1d1c20; --text: #ebe8f0; --muted: #9a96a3; --line: #2f2d34;
-      --accent: #a58cf0; --good: #63c08a; --warn: #e0a84e; --bad: #e57a6e;
-      color-scheme: dark;
-    }
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, sans-serif; }
-  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
-  a { color: var(--accent); }
-  .back { font-size: 14px; }
-  h1 { font-size: 24px; margin: 8px 0 4px; }
-  .lead { color: var(--muted); margin: 0 0 20px; }
-  .filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin-bottom: 12px; }
-  label { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
-  label.check { display: flex; align-items: center; gap: 6px; }
-  input, select, button { font: inherit; color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
-  button { cursor: pointer; }
-  button:hover { border-color: var(--accent); }
-  .group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 8px; }
-  .group > span { font-size: 13px; color: var(--muted); min-width: 80px; }
-  .tag { font-size: 13px; padding: 3px 10px; border-radius: 999px; }
-  .tag small { color: var(--muted); }
-  .tag[data-state="in"] { border-color: var(--good); color: var(--good); }
-  .tag[data-state="out"] { border-color: var(--bad); color: var(--bad); text-decoration: line-through; }
-  .modlist { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; padding: 10px 12px; margin: 12px 0; font-size: 14px; }
-  .modlist.drag { border-color: var(--accent); }
-  .modlist .spacer, .bar .spacer { flex: 1; }
-  .bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; color: var(--muted); font-size: 14px; }
-  .list { display: grid; gap: 8px; }
-  .mod { display: grid; grid-template-columns: 48px 1fr auto; gap: 12px; align-items: start; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
-  .mod[data-mark="keep"] { border-color: var(--good); }
-  .mod[data-mark="reject"] { opacity: .5; }
-  .mod img { width: 48px; height: 48px; border-radius: 6px; background: var(--line); object-fit: cover; }
-  .mod h2 { font-size: 16px; margin: 0; }
-  .mod h2 a { color: inherit; }
-  .mod p { margin: 2px 0 4px; }
-  .meta { font-size: 12px; color: var(--muted); }
-  .notes { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; margin-top: 4px; }
-  .note-bad { color: var(--bad); }
-  .note-warn { color: var(--warn); }
-  .note-good { color: var(--good); }
-  .marks { display: flex; gap: 6px; }
-  .marks button[aria-pressed="true"].keep { background: var(--good); color: #fff; border-color: var(--good); }
-  .marks button[aria-pressed="true"].reject { background: var(--bad); color: #fff; border-color: var(--bad); }
-  .more { margin: 16px auto 0; display: block; }
-  @media (max-width: 560px) { .mod { grid-template-columns: 40px 1fr; } .mod img { width: 40px; height: 40px; } .marks { grid-column: 2; } }
-</style>
+<title>Mod Planner</title>
+<link rel="stylesheet" href="../shared.css">
+<link rel="stylesheet" href="planner.css">
 </head>
 <body>
-<main>
-  <a class="back" href="../">← All categories</a>
-  <h1 id="title">Mod Filter</h1>
-  <p class="lead">Filter by version, loader, category and dependency. Load a modpack's mod list to check mods against it.
-    Compatibility only covers what mod authors declare on CurseForge (required and incompatible projects).
-    Keep and Reject marks are shared across every category and saved in this browser.</p>
+<header class="top">
+  <a class="brand" href="../"><svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg>Mod Planner</a>
+  <label class="search">
+    <span class="sr-only">Search mods</span>
+    <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+    <input id="q" type="search" placeholder="Search name, summary or author" autocomplete="off">
+    <kbd>/</kbd>
+  </label>
+  <div class="actions">
+    <button class="btn" id="packBtn" type="button"><svg class="icon" aria-hidden="true"><use href="#i-package"/></svg><span class="label" id="packLabel">Load pack</span></button>
+    <button class="btn" id="shortlist" type="button"><svg class="icon" aria-hidden="true"><use href="#i-bookmark"/></svg><span class="label">Shortlist</span> <span class="badge">0</span></button>
+  </div>
+  <input type="file" id="file" accept=".json,application/json" hidden>
+</header>
 
-  <div class="filters">
-    <label>Search <input id="q" type="search" placeholder="name, summary or author"></label>
-    <label>Depends on <input id="dep" list="deps" placeholder="any mod"><datalist id="deps"></datalist></label>
-    <label>Minecraft version <select id="version"><option value="">Any</option></select></label>
-    <label>Loader
-      <select id="loader">
-        <option value="">Any</option><option value="1">Forge</option><option value="6">NeoForge</option>
-        <option value="4">Fabric</option><option value="5">Quilt</option>
-      </select>
-    </label>
-    <label>Sort
-      <select id="sort">
-        <option value="dl">Downloads</option><option value="u">Recently updated</option>
-        <option value="r">Newest</option><option value="n">Name</option>
-      </select>
-    </label>
-    <label>Show
-      <select id="show">
-        <option value="unrejected">Hide rejected</option><option value="all">All</option>
+<div class="layout">
+  <aside class="side" id="side" aria-label="Browse and filter">
+    <nav aria-label="Roles">
+      <h2>Roles</h2>
+      <ul class="nav" id="roles"></ul>
+    </nav>
+    <nav aria-label="Addons by base mod">
+      <h2>Addons for</h2>
+      <ul class="nav" id="addons"></ul>
+      <details class="more" id="moreAddons"><summary>All base mods</summary><ul class="nav" id="addonsMore"></ul></details>
+    </nav>
+    <section class="filters" aria-label="Filters">
+      <div class="filters-head"><h2>Filters</h2><button class="btn ghost small" id="reset" type="button">Reset</button></div>
+      <label class="field">Minecraft version <select id="version"><option value="">Any version</option></select></label>
+      <fieldset class="field">
+        <legend>Loader</legend>
+        <div class="segmented" id="loader">
+          <label><input type="radio" name="loader" value=""><span>Any</span></label>
+          <label><input type="radio" name="loader" value="1"><span>Forge</span></label>
+          <label><input type="radio" name="loader" value="6"><span>NeoForge</span></label>
+          <label><input type="radio" name="loader" value="4"><span>Fabric</span></label>
+          <label><input type="radio" name="loader" value="5"><span>Quilt</span></label>
+        </div>
+      </fieldset>
+      <label class="field">Depends on
+        <input id="dep" type="text" list="deps" placeholder="Any mod" autocomplete="off">
+        <datalist id="deps"></datalist>
+      </label>
+      <div class="field" id="typesField"><span class="field-label" id="typesLabel">Type</span><ul class="tags" id="types"></ul></div>
+      <details class="more" id="alsoField"><summary>Also tagged</summary><ul class="tags" id="also"></ul></details>
+      <label class="check" id="libsField"><input type="checkbox" id="showLibs"> Show libraries</label>
+      <label class="check" id="otherField" title="Mods tagged with this role whose main CurseForge category belongs to another role"><input type="checkbox" id="showOther"> Include mods mainly in other roles</label>
+    </section>
+  </aside>
+
+  <main class="main" id="main">
+    <div class="head">
+      <h1 id="title">Loading…</h1>
+      <p id="blurb"></p>
+    </div>
+    <div class="toolbar">
+      <button class="btn" id="filtersBtn" type="button" aria-controls="side" aria-expanded="false"><svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg>Filters</button>
+      <p class="count" id="count" aria-live="polite"></p>
+      <div class="pack-toggles" id="packToggles" hidden>
+        <label class="check"><input type="checkbox" id="hideConflicts"> Hide conflicts</label>
+        <label class="check"><input type="checkbox" id="hideOwned"> Hide mods in pack</label>
+      </div>
+      <label class="inline">Show <select id="show">
+        <option value="unrejected">All but rejected</option><option value="all">Everything</option>
         <option value="keep">Kept only</option><option value="unmarked">Unmarked only</option>
-      </select>
-    </label>
-  </div>
-  <div id="tags"></div>
-
-  <div class="modlist" id="modlist">
-    <span id="listInfo"></span>
-    <span class="spacer"></span>
-    <label class="check"><input type="checkbox" id="hideConflicts"> Hide conflicts</label>
-    <label class="check"><input type="checkbox" id="hideOwned"> Hide mods already in the list</label>
-    <button id="pick">Load mod list…</button><button id="unload" hidden>Remove</button>
-    <input type="file" id="file" accept=".json,application/json" hidden>
-  </div>
-
-  <div class="bar"><span id="status">Loading…</span><span class="spacer"></span>
-    <button id="export">Copy kept list</button><button id="clear">Clear marks</button></div>
-  <div class="list" id="list"></div>
-  <button class="more" id="more" hidden>Show more</button>
-</main>
-
-<script>
-const PAGE = 100;
-const LOADER_NAMES = { forge: 1, neoforge: 6, fabric: 4, quilt: 5 };
-const RELEASE = /^\d+\.\d+(\.\d+)?$/;
-const FILTERS = ['version', 'loader', 'sort', 'show'];
-const $ = id => document.getElementById(id);
-const fmt = new Intl.NumberFormat('en', { notation: 'compact' });
-const slug = new URLSearchParams(location.search).get('c');
-
-const store = {
-  get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } },
-  set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch {} },
-};
-// marks: id -> [mark ('keep' | 'reject'), name, slug], shared by every category
-const marks = store.get('mods:marks', {});
-const tagState = store.get(`mods:tags:${slug}`, {});
-// The loaded mod list: { name, version, loader, ids: [], names: { id: name }, inc: { id: [ids it declares incompatible] } }
-let modList = store.get('mods:modlist', null);
-let data, byId, depIds = new Map(), shown = [], limit = PAGE;
-
-function el(tag, props = {}, ...children) {
-  const node = Object.assign(document.createElement(tag), props);
-  node.append(...children.filter(c => c != null && c !== false));
-  return node;
-}
-
-function nameOf(id) {
-  return byId.get(id)?.n ?? data.libs[id]?.[0] ?? marks[id]?.[1] ?? modList?.names[id] ?? `project ${id}`;
-}
-function urlOf(id) {
-  const s = byId.get(id)?.s ?? data.libs[id]?.[1] ?? marks[id]?.[2];
-  return s ? `https://www.curseforge.com/minecraft/mc-mods/${s}` : `https://www.curseforge.com/projects/${id}`;
-}
-const markOf = id => marks[id]?.[0];
-
-// Mods the compatibility checks compare against: the loaded list plus everything marked Keep.
-function context() {
-  const ids = new Set(modList?.ids ?? []);
-  for (const [id, m] of Object.entries(marks)) if (m[0] === 'keep') ids.add(Number(id));
-  return ids;
-}
-
-function available(m, version, loader) {
-  // Loader 0 means the file isn't tagged with one, which is normal for older versions.
-  return m.f.some(f => (version < 0 || f >> 3 === version) && (loader < 0 || (f & 7) === loader || (f & 7) === 0));
-}
-
-function check(m, ctx) {
-  const conflicts = new Set(m.inc.filter(id => ctx.has(id) && id !== m.id));
-  for (const id of ctx) {
-    if (id !== m.id && (byId.get(id)?.inc.includes(m.id) || modList?.inc[id]?.includes(m.id))) conflicts.add(id);
-  }
-  return { conflicts: [...conflicts], missing: m.req.filter(id => !ctx.has(id)), owned: !!modList?.ids.includes(m.id) };
-}
-
-function update() {
-  const q = $('q').value.trim().toLowerCase();
-  const version = $('version').value === '' ? -1 : data.versions.indexOf($('version').value);
-  const loader = $('loader').value === '' ? -1 : Number($('loader').value);
-  const dep = depIds.get($('dep').value) ?? null;
-  const show = $('show').value;
-  const ctx = context();
-  const want = Object.entries(tagState).filter(([, s]) => s === 'in').map(([c]) => Number(c));
-  const avoid = Object.entries(tagState).filter(([, s]) => s === 'out').map(([c]) => Number(c));
-  shown = data.mods.filter(m => {
-    const mark = markOf(m.id);
-    if (show === 'unrejected' && mark === 'reject') return false;
-    if (show === 'keep' && mark !== 'keep') return false;
-    if (show === 'unmarked' && mark) return false;
-    if (dep != null && !m.req.includes(dep)) return false;
-    if (!available(m, version, loader)) return false;
-    if (want.some(c => !m.c.includes(c)) || avoid.some(c => m.c.includes(c))) return false;
-    if (q && !`${m.n}\n${m.d}\n${m.a}`.toLowerCase().includes(q)) return false;
-    if ($('hideOwned').checked && modList?.ids.includes(m.id)) return false;
-    if ($('hideConflicts').checked && check(m, ctx).conflicts.length) return false;
-    return true;
-  });
-  const key = $('sort').value;
-  if (key !== 'dl') shown.sort(key === 'n' ? (a, b) => a.n.localeCompare(b.n) : (a, b) => b[key].localeCompare(a[key]));
-  limit = PAGE;
-  render();
-}
-
-function link(id) {
-  return el('a', { href: urlOf(id), target: '_blank', rel: 'noopener', textContent: nameOf(id) });
-}
-function joined(ids) {
-  return ids.flatMap((id, i) => i ? [', ', link(id)] : [link(id)]);
-}
-
-function card(m, ctx) {
-  const mark = markOf(m.id);
-  const { conflicts, missing, owned } = check(m, ctx);
-  const met = m.req.filter(id => !missing.includes(id));
-  const loaders = [...new Set(m.f.map(f => f & 7))].filter(Boolean).map(l => data.loaders[l]);
-  const cats = m.c.map(c => data.categories[c]).filter(Boolean);
-  const button = (kind, text) => el('button', {
-    className: kind, textContent: text, ariaPressed: String(mark === kind),
-    onclick: () => {
-      if (mark === kind) delete marks[m.id]; else marks[m.id] = [kind, m.n, m.s];
-      store.set('mods:marks', marks);
-      render();
-    },
-  });
-  const node = el('article', { className: 'mod' },
-    el('img', { src: m.i ? (m.i.startsWith('http') ? m.i : data.iconPrefix + m.i) : '', alt: '', loading: 'lazy' }),
-    el('div', {},
-      el('h2', {}, el('a', { href: urlOf(m.id), target: '_blank', rel: 'noopener', textContent: m.n })),
-      el('p', { textContent: m.d }),
-      el('div', { className: 'meta', textContent: [
-        `by ${m.a}`, `${fmt.format(m.dl)} downloads`, loaders.join(', '), cats.join(', '), `updated ${m.u}`,
-      ].filter(Boolean).join(' · ') }),
-      el('div', { className: 'notes' },
-        owned && el('span', { className: 'note-good', textContent: 'In your mod list' }),
-        conflicts.length > 0 && el('span', { className: 'note-bad' }, 'Incompatible with ', ...joined(conflicts)),
-        missing.length > 0 && el('span', { className: 'note-warn' }, 'Needs ', ...joined(missing)),
-        met.length > 0 && el('span', { className: 'note-good' }, 'Requires ', ...joined(met), ' (have)'),
-        m.opt.length > 0 && el('span', { className: 'meta' }, 'Optional: ', ...joined(m.opt)))),
-    el('div', { className: 'marks' }, button('keep', 'Keep'), button('reject', 'Reject')));
-  node.dataset.mark = mark || '';
-  return node;
-}
-
-function render() {
-  const ctx = context();
-  $('list').replaceChildren(...shown.slice(0, limit).map(m => card(m, ctx)));
-  const kept = Object.values(marks).filter(m => m[0] === 'keep').length;
-  $('status').textContent = `${shown.length.toLocaleString()} of ${data.mods.length.toLocaleString()} mods · ${kept} kept in all categories · data from ${data.generated.slice(0, 10)}`;
-  $('more').hidden = limit >= shown.length;
-}
-
-// Other categories these mods carry, most common first.
-function renderTags() {
-  const counts = new Map();
-  for (const m of data.mods) for (const c of m.c) if (c !== data.category.id) counts.set(c, (counts.get(c) ?? 0) + 1);
-  const chip = id => {
-    const b = el('button', { className: 'tag', title: 'Click to require, again to exclude, again to clear' },
-      data.categories[id], ' ', el('small', { textContent: counts.get(id).toLocaleString() }));
-    b.dataset.state = tagState[id] || '';
-    b.onclick = () => {
-      const next = { '': 'in', in: 'out', out: '' }[tagState[id] || ''];
-      if (next) tagState[id] = next; else delete tagState[id];
-      store.set(`mods:tags:${slug}`, tagState);
-      b.dataset.state = next;
-      update();
-    };
-    return b;
-  };
-  const ids = [...counts.keys()].filter(id => data.categories[id]).sort((a, b) => counts.get(b) - counts.get(a));
-  $('tags').replaceChildren(el('div', { className: 'group' }, el('span', { textContent: 'Also tagged' }), ...ids.map(chip)));
-}
-
-// Required dependencies, most depended-on first, for the Depends on box.
-function renderDeps() {
-  const counts = new Map();
-  for (const m of data.mods) for (const id of m.req) counts.set(id, (counts.get(id) ?? 0) + 1);
-  const ids = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
-  depIds = new Map(ids.map(id => [nameOf(id), id]));
-  $('deps').replaceChildren(...ids.map(id => el('option', { value: nameOf(id), label: `${counts.get(id).toLocaleString()} mods` })));
-}
-
-function loaderId(name) {
-  return LOADER_NAMES[String(name).toLowerCase().split('-')[0]] ?? null;
-}
-
-// Reads CurseForge's minecraftinstance.json (an installed instance) or manifest.json (an exported modpack).
-function parseModList(json, fileName) {
-  const list = { name: json.name || fileName, version: null, loader: null, ids: [], names: {}, inc: {} };
-  if (Array.isArray(json.installedAddons)) {
-    list.version = json.gameVersion ?? null;
-    list.loader = loaderId(json.baseModLoader?.name ?? '');
-    for (const a of json.installedAddons) {
-      list.ids.push(a.addonID);
-      list.names[a.addonID] = a.name;
-      const inc = (a.installedFile?.dependencies ?? []).filter(d => d.type === 5).map(d => d.addonId);
-      if (inc.length) list.inc[a.addonID] = inc;
-    }
-  } else if (Array.isArray(json.files)) {
-    list.version = json.minecraft?.version ?? null;
-    list.loader = loaderId((json.minecraft?.modLoaders?.find(l => l.primary) ?? json.minecraft?.modLoaders?.[0])?.id ?? '');
-    list.ids = json.files.map(f => f.projectID);
-  } else {
-    throw new Error('Not a minecraftinstance.json or manifest.json from CurseForge.');
-  }
-  return list;
-}
-
-function showModList() {
-  $('unload').hidden = !modList;
-  $('listInfo').textContent = modList
-    ? `Checking against ${modList.name}: ${modList.ids.length} mods${modList.version ? `, ${modList.version}` : ''}${modList.loader ? ` ${data.loaders[modList.loader]}` : ''}.`
-    : 'No mod list loaded. Drop a minecraftinstance.json or a modpack\'s manifest.json here to check against it.';
-}
-
-async function loadFile(file) {
-  try {
-    modList = parseModList(JSON.parse(await file.text()), file.name);
-    store.set('mods:modlist', modList);
-    if (modList.version && data.versions.includes(modList.version)) $('version').value = modList.version;
-    if (modList.loader) $('loader').value = String(modList.loader);
-    saveFilters();
-    showModList();
-    update();
-  } catch (err) {
-    alert(`Couldn't read ${file.name}: ${err.message}`);
-  }
-}
-
-function saveFilters() {
-  store.set('mods:filters', Object.fromEntries(FILTERS.map(id => [id, $(id).value])));
-}
-
-async function init() {
-  try {
-    if (!slug || !/^[a-z0-9-]+$/.test(slug)) throw new Error('no category');
-    const res = await fetch(`data/${slug}.json`);
-    if (!res.ok) throw new Error(res.status);
-    data = await res.json();
-  } catch {
-    $('status').textContent = 'No data for this category. Pick one from the list of categories.';
-    return;
-  }
-  document.title = `${data.category.name} Mod Filter`;
-  $('title').textContent = `${data.category.name} Mods`;
-  byId = new Map(data.mods.map(m => [m.id, m]));
-  $('version').append(...data.versions.filter(v => RELEASE.test(v)).map(v => el('option', { value: v, textContent: v })));
-  const saved = store.get('mods:filters', { version: '1.20.1', loader: '1' });
-  for (const id of FILTERS) if (saved[id] != null) $(id).value = saved[id];
-  renderTags();
-  renderDeps();
-  showModList();
-
-  let timer;
-  const later = () => { clearTimeout(timer); timer = setTimeout(update, 200); };
-  const changed = () => { saveFilters(); update(); };
-  $('q').oninput = later;
-  $('dep').oninput = () => { if (!$('dep').value || depIds.has($('dep').value)) update(); };
-  for (const id of FILTERS) $(id).onchange = changed;
-  for (const id of ['hideConflicts', 'hideOwned']) $(id).onchange = update;
-  $('more').onclick = () => { limit += PAGE; render(); };
-  $('pick').onclick = () => $('file').click();
-  $('file').onchange = () => $('file').files[0] && loadFile($('file').files[0]);
-  $('unload').onclick = () => { modList = null; store.set('mods:modlist', null); showModList(); update(); };
-  const box = $('modlist');
-  box.ondragover = e => { e.preventDefault(); box.classList.add('drag'); };
-  box.ondragleave = () => box.classList.remove('drag');
-  box.ondrop = e => { e.preventDefault(); box.classList.remove('drag'); if (e.dataTransfer.files[0]) loadFile(e.dataTransfer.files[0]); };
-  $('export').onclick = async () => {
-    const text = Object.entries(marks).filter(([, m]) => m[0] === 'keep').map(([id]) => `${nameOf(Number(id))} - ${urlOf(Number(id))}`).join('\n');
-    try { await navigator.clipboard.writeText(text); $('export').textContent = 'Copied'; }
-    catch { prompt('Kept mods:', text); }
-    setTimeout(() => { $('export').textContent = 'Copy kept list'; }, 1500);
-  };
-  $('clear').onclick = () => {
-    if (!confirm('Clear all Keep and Reject marks in every category?')) return;
-    for (const k of Object.keys(marks)) delete marks[k];
-    store.set('mods:marks', marks);
-    update();
-  };
-  update();
-}
-init();
-</script>
+      </select></label>
+      <label class="inline">Sort <select id="sort">
+        <option value="dl">Most downloaded</option><option value="u">Recently updated</option>
+        <option value="r">Newest</option><option value="n">Name</option>
+      </select></label>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="list" id="list" role="list"></div>
+    <button class="btn more-btn" id="more" type="button" hidden></button>
+  </main>
+</div>
+<div class="drop" id="drop" hidden><div><svg class="icon" aria-hidden="true"><use href="#i-upload"/></svg><span>Drop a <b>minecraftinstance.json</b> or <b>manifest.json</b> to check mods against that pack</span></div></div>
+<script type="module" src="planner.js"></script>
 </body>
 </html>

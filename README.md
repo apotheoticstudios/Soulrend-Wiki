@@ -9,7 +9,7 @@ npm run build        # production build into dist/ (fails on any error)
 npm run sync-game    # refresh game-data/ from the modpack instance
 npm run font         # rebuild the pixel font from tools/font/glyphs.txt
 npm run models       # rebuild the mob 3D models in assets/models/ from the modpack instance
-npm run mods         # refresh the mod filters' CurseForge data (needs CURSEFORGE_API_KEY in .env)
+npm run mods         # refresh the Mod Planner's CurseForge data (needs CURSEFORGE_API_KEY in .env)
 ```
 
 `npm run dev` also prints an address you can open on a phone on the same Wi-Fi. Build errors show up in the terminal (as `file:line`, clickable in VS Code) and as a red box on the page.
@@ -242,9 +242,15 @@ Other models can be exported from Blockbench as glTF (`File → Export → Expor
 
 `dev-tools/` holds standalone pages served at `/dev-tools/`. The build copies them as they are, so they don't use the wiki's layout, sidebar or search.
 
-**Mod filters** (`/dev-tools/mods/?c=<category>`, listed on `/dev-tools/`) cover CurseForge's Minecraft mods, one page per CurseForge category (World Gen, Biomes, Addons, Create, Magic, …). Each one filters by version, loader, other tags and the mod a mod depends on, which is how you find, say, every Create addon. Mods can be marked Keep or Reject, and the marks are shared across categories. Load a `minecraftinstance.json` or a modpack's `manifest.json` to check mods against that pack. The page flags declared incompatibilities and missing required mods, counting kept mods as part of the pack.
+**Mod Planner** (`/dev-tools/`) is a CurseForge-style browser for planning modpacks. The overview lists 14 modpack roles (World & Exploration, Creatures, Adventure & Combat, Magic, Tech & Automation, …) and the 30 most depended-on base mods. The planner (`/dev-tools/mods/?r=<role>` or `?a=<base mod>`) shows one at a time.
 
-The data is `dev-tools/mods/data/<category>.json` plus `index.json`, written by `npm run mods` (`tools/curseforge-mods.mjs`). The script needs a CurseForge API key in a `.env` file (`CURSEFORGE_API_KEY='…'`, git-ignored). The first run scans every CurseForge project id, which takes about half an hour, and caches every Minecraft mod in `.cache/curseforge-mods.json` (git-ignored). Later runs refresh the cached mods and scan only new ids. `-- --full` rescans everything, and `-- --write` only rewrites the data files from the cache. Mods under 1,000 downloads are left out of the data files.
+- **Roles** are unions of CurseForge categories, set in `ROLES` in `tools/curseforge-mods.mjs`. A mod's main role comes from its primary CurseForge category. Mods that are only tagged with a role appear there when "Include mods mainly in other roles" is on. Libraries are hidden unless asked for.
+- **Addons for** pages list every mod that requires a base mod (Create, Farmer's Delight, Cobblemon, Iron's Spells, …). The "Depends on" filter does the same inside any role.
+- **Filters:** version, loader, type tags (click to require, again to exclude) and search. Version and loader carry over between pages.
+- **Pack check:** load or drop a `minecraftinstance.json` or modpack `manifest.json`. Each row then says whether the mod is already in the pack, conflicts with it (declared incompatibilities only), or needs mods you don't have. Requirements follow the selected loader.
+- **Shortlist:** Keep and Reject marks are saved in the browser and shared by every page. The Shortlist sheet groups kept mods by role, lists missing requirements and declared conflicts, and copies the list.
+
+The data is one `dev-tools/mods/data/<role>.json` per role, `addons-<slug>.json` per base mod and `index.json`, written by `npm run mods` (`tools/curseforge-mods.mjs`). The script needs a CurseForge API key in a `.env` file (`CURSEFORGE_API_KEY='…'`, git-ignored). The first run scans every CurseForge project id (about half an hour) and caches every Minecraft mod in `.cache/curseforge-mods.json` (git-ignored). Later runs refresh the cached mods and scan only new ids (a few minutes). `-- --full` rescans everything, and `-- --write` only rewrites the data files from the cache. Mods under 1,000 downloads are left out. When CurseForge adds a category, the script warns that it is in no role; add it to `ROLES`.
 
 ## Deploying
 

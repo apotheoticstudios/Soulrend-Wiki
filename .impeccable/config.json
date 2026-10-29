@@ -1,0 +1,116 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-29T02:29:47.605Z",
+        "reason": "agent decision: throwaway direction-round sketch, rendered only as a skeleton on the decision page, git-ignored and never shipped"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-29T02:29:47.621Z",
+        "reason": "agent decision: throwaway direction-round sketch, rendered only as a skeleton on the decision page, git-ignored and never shipped"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-29T02:29:47.636Z",
+        "reason": "agent decision: throwaway direction-round sketch, rendered only as a skeleton on the decision page, git-ignored and never shipped"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-29T02:29:47.651Z",
+        "reason": "agent decision: throwaway direction-round sketch, rendered only as a skeleton on the decision page, git-ignored and never shipped"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-manual.html"
+        ],
+        "createdAt": "2026-10-29T02:29:47.667Z",
+        "reason": "agent decision: throwaway direction-round sketch, rendered only as a skeleton on the decision page, git-ignored and never shipped"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-manual.html"
+        ],
+        "createdAt": "2026-10-29T02:29:47.682Z",
+        "reason": "agent decision: throwaway direction-round sketch, rendered only as a skeleton on the decision page, git-ignored and never shipped"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-10-29T02:29:47.697Z",
+        "reason": "agent decision: throwaway direction-round sketch, rendered only as a skeleton on the decision page, git-ignored and never shipped"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-10-29T02:29:47.713Z",
+        "reason": "agent decision: throwaway direction-round sketch, rendered only as a skeleton on the decision page, git-ignored and never shipped"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-29T02:36:51.646Z",
+        "reason": "agent decision: throwaway direction-round sketch, git-ignored and never shipped"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-29T02:36:51.663Z",
+        "reason": "agent decision: throwaway direction-round sketch, git-ignored and never shipped"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-manual.html"
+        ],
+        "createdAt": "2026-10-29T02:36:51.677Z",
+        "reason": "agent decision: throwaway direction-round sketch, git-ignored and never shipped"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-10-29T02:36:51.692Z",
+        "reason": "agent decision: throwaway direction-round sketch, git-ignored and never shipped"
+      }
+    ]
+  }
+}

@@ -4,51 +4,70 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Dev Tools</title>
+<title>Mod Planner</title>
+<link rel="stylesheet" href="shared.css">
 <style>
-  :root { --bg: #f6f5f2; --panel: #fff; --text: #1d1c1a; --muted: #6b6862; --line: #dedbd4; --accent: #6a4bc4; color-scheme: light; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #141316; --panel: #1d1c20; --text: #ebe8f0; --muted: #9a96a3; --line: #2f2d34; --accent: #a58cf0; color-scheme: dark; }
+  main { max-width: 1120px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 24px; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 4px; max-width: 70ch; }
+  .meta { color: var(--faint); font-size: 13px; margin: 0; }
+  h2 { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin: 36px 0 10px; }
+  .roles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; border-top: 1px solid var(--border); }
+  .role { display: grid; grid-template-columns: 1fr auto; gap: 2px 16px; align-items: baseline; padding: 12px 4px; border-bottom: 1px solid var(--border); color: var(--text); text-decoration: none; border-radius: 4px; }
+  .role:hover { background: var(--panel); }
+  .role b { font-size: 15px; }
+  .role:hover b { color: var(--accent-text); }
+  .role span { grid-column: 1; color: var(--muted); font-size: 13px; }
+  .role .num { grid-row: 1; grid-column: 2; color: var(--muted); font-size: 13px; }
+  .addons { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 24px; border-top: 1px solid var(--border); }
+  .addon { display: flex; justify-content: space-between; gap: 10px; padding: 8px 4px; border-bottom: 1px solid var(--border); color: var(--text); text-decoration: none; border-radius: 4px; }
+  .addon:hover { background: var(--panel); color: var(--accent-text); }
+  .addon span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .addon .num { color: var(--muted); font-size: 13px; }
+  .loading { color: var(--muted); padding: 24px 0; }
+  @media (max-width: 900px) { .addons { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 640px) {
+    .roles { grid-template-columns: 1fr; }
+    .top .search, .top .label { display: none; }
   }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, sans-serif; }
-  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
-  h1 { font-size: 24px; margin: 0 0 4px; }
-  h2 { font-size: 16px; margin: 0 0 6px; }
-  .lead, .count { color: var(--muted); }
-  .count { font-size: 13px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
-  section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
-  ul { list-style: none; margin: 0; padding: 0; }
-  li { padding: 1px 0; }
-  li.sub { padding-left: 14px; }
-  a { color: var(--accent); }
 </style>
 </head>
 <body>
+<header class="top">
+  <a class="brand" href="./"><svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg>Mod Planner</a>
+  <div class="actions">
+    <button class="btn" id="shortlist" type="button"><svg class="icon" aria-hidden="true"><use href="#i-bookmark"/></svg><span class="label">Shortlist</span> <span class="badge">0</span></button>
+  </div>
+</header>
 <main>
-  <h1>Dev Tools</h1>
-  <p class="lead">Mod filters for planning modpacks, one per CurseForge category. Each filters by version, loader, tags and dependency, and checks mods against a modpack's mod list.</p>
-  <div class="grid" id="categories"><p class="count">Loading categories…</p></div>
+  <h1>Plan a modpack</h1>
+  <p class="lead">CurseForge's Minecraft mods, grouped by the part they play in a pack. Pick a role or a base mod, set your version and loader, and keep or reject mods into a shortlist that checks what they need.</p>
+  <p class="meta" id="meta"></p>
+  <h2>Roles</h2>
+  <nav class="roles" id="roles" aria-label="Roles"><p class="loading">Loading…</p></nav>
+  <h2>Addons by base mod</h2>
+  <nav class="addons" id="addons" aria-label="Addons by base mod"></nav>
 </main>
-<script>
-const el = (tag, props = {}, ...children) => { const n = Object.assign(document.createElement(tag), props); n.append(...children); return n; };
-fetch('mods/data/index.json').then(r => r.ok ? r.json() : Promise.reject(r.status)).then(index => {
-  const groups = new Map();
-  for (const c of index.categories) {
-    const key = c.parent ?? c.name;
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(c);
-  }
-  const item = c => el('li', { className: c.parent ? 'sub' : '' },
-    el('a', { href: `mods/?c=${c.slug}`, textContent: c.name }), ' ', el('span', { className: 'count', textContent: c.count.toLocaleString() }));
-  document.getElementById('categories').replaceChildren(...[...groups].map(([name, cats]) => {
-    return el('section', {}, el('h2', { textContent: name }), el('ul', {}, ...cats.map(item)));
-  }));
-  document.querySelector('.lead').append(` Mods with fewer than ${index.minDownloads.toLocaleString()} downloads are left out. Data from ${index.generated.slice(0, 10)}.`);
-}).catch(() => {
-  document.getElementById('categories').replaceChildren(el('p', { className: 'count', textContent: 'No mod data yet. Run npm run mods.' }));
-});
+<script type="module">
+import { el, bindShortlistButton } from './shared.js';
+
+bindShortlistButton(document.getElementById('shortlist'));
+const n = v => v.toLocaleString('en');
+try {
+  const res = await fetch('mods/data/index.json');
+  if (!res.ok) throw new Error(res.status);
+  const index = await res.json();
+  document.getElementById('meta').textContent =
+    `${n(index.total)} mods with ${n(index.minDownloads)}+ downloads · data from ${index.generated.slice(0, 10)}`;
+  document.getElementById('roles').replaceChildren(...index.roles.map(r =>
+    el('a', { className: 'role', href: `mods/?r=${r.slug}` },
+      el('b', { textContent: r.name }), el('span', { className: 'num', textContent: n(r.count) }), el('span', { textContent: r.blurb }))));
+  document.getElementById('addons').replaceChildren(...index.addons.map(a =>
+    el('a', { className: 'addon', href: `mods/?a=${a.slug}`, title: `Mods that require ${a.name}` },
+      el('span', { textContent: a.name }), el('span', { className: 'num', textContent: n(a.count) }))));
+} catch {
+  document.getElementById('roles').replaceChildren(el('p', { className: 'loading', textContent: 'No mod data yet. Run npm run mods to download it.' }));
+}
 </script>
 </body>
 </html>
