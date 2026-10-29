@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Dev Tools</title>
+<style>
+  :root { --bg: #f6f5f2; --panel: #fff; --text: #1d1c1a; --muted: #6b6862; --line: #dedbd4; --accent: #6a4bc4; color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141316; --panel: #1d1c20; --text: #ebe8f0; --muted: #9a96a3; --line: #2f2d34; --accent: #a58cf0; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  h2 { font-size: 16px; margin: 0 0 6px; }
+  .lead, .count { color: var(--muted); }
+  .count { font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { padding: 1px 0; }
+  li.sub { padding-left: 14px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dev Tools</h1>
+  <p class="lead">Mod filters for planning modpacks, one per CurseForge category. Each filters by version, loader, tags and dependency, and checks mods against a modpack's mod list.</p>
+  <div class="grid" id="categories"><p class="count">Loading categories…</p></div>
+</main>
+<script>
+const el = (tag, props = {}, ...children) => { const n = Object.assign(document.createElement(tag), props); n.append(...children); return n; };
+fetch('mods/data/index.json').then(r => r.ok ? r.json() : Promise.reject(r.status)).then(index => {
+  const groups = new Map();
+  for (const c of index.categories) {
+    const key = c.parent ?? c.name;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(c);
+  }
+  const item = c => el('li', { className: c.parent ? 'sub' : '' },
+    el('a', { href: `mods/?c=${c.slug}`, textContent: c.name }), ' ', el('span', { className: 'count', textContent: c.count.toLocaleString() }));
+  document.getElementById('categories').replaceChildren(...[...groups].map(([name, cats]) => {
+    return el('section', {}, el('h2', { textContent: name }), el('ul', {}, ...cats.map(item)));
+  }));
+  document.querySelector('.lead').append(` Mods with fewer than ${index.minDownloads.toLocaleString()} downloads are left out. Data from ${index.generated.slice(0, 10)}.`);
+}).catch(() => {
+  document.getElementById('categories').replaceChildren(el('p', { className: 'count', textContent: 'No mod data yet. Run npm run mods.' }));
+});
+</script>
+</body>
+</html>

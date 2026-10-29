@@ -9,6 +9,7 @@ npm run build        # production build into dist/ (fails on any error)
 npm run sync-game    # refresh game-data/ from the modpack instance
 npm run font         # rebuild the pixel font from tools/font/glyphs.txt
 npm run models       # rebuild the mob 3D models in assets/models/ from the modpack instance
+npm run mods         # refresh the mod filters' CurseForge data (needs CURSEFORGE_API_KEY in .env)
 ```
 
 `npm run dev` also prints an address you can open on a phone on the same Wi-Fi. Build errors show up in the terminal (as `file:line`, clickable in VS Code) and as a red box on the page.
@@ -24,6 +25,7 @@ npm run models       # rebuild the mob 3D models in assets/models/ from the modp
 | `site/stations/` | Recipe diagram layouts (crafting table, furnace, …). |
 | `site/schemas/` | JSON Schemas. VS Code uses them for autocomplete in the JSON files above. |
 | `game-data/` | Item names, icons, recipes and tags from the modpack (written by `npm run sync-game`), and the list of mob models (`mobs.json`, written by `npm run models`). |
+| `dev-tools/` | Standalone tools served at `/dev-tools/`, copied into the build as they are, separate from the wiki. |
 | `src/` | The renderer (`render/`), browser scripts (`client/`), styles and the generated font. |
 | `tools/` | Build, dev server, game-data sync, font converter, and the in-game KubeJS export scripts. |
 | `docs/` | Notes for editors. [`docs/style-guide.md`](docs/style-guide.md) is how to write a page (voice, sources, templates). [`docs/instance-guide.md`](docs/instance-guide.md) says where to find quests, origins, skill trees, bosses and pack mechanics in the modpack instance. |
@@ -235,6 +237,14 @@ Adding a mob:
 The tool needs the instance and the Forge libraries from the CurseForge install (the SRG client jar and the mappings that turn `m_171599_` into `addOrReplaceChild`). The `.glb` files are committed, so the site builds without them.
 
 Other models can be exported from Blockbench as glTF (`File → Export → Export glTF Model`, binary `.glb`), put in `assets/`, and embedded with `{{model path.glb}}`. three.js only downloads on pages that have a model.
+
+## Dev tools
+
+`dev-tools/` holds standalone pages served at `/dev-tools/`. The build copies them as they are, so they don't use the wiki's layout, sidebar or search.
+
+**Mod filters** (`/dev-tools/mods/?c=<category>`, listed on `/dev-tools/`) cover CurseForge's Minecraft mods, one page per CurseForge category (World Gen, Biomes, Addons, Create, Magic, …). Each one filters by version, loader, other tags and the mod a mod depends on, which is how you find, say, every Create addon. Mods can be marked Keep or Reject, and the marks are shared across categories. Load a `minecraftinstance.json` or a modpack's `manifest.json` to check mods against that pack. The page flags declared incompatibilities and missing required mods, counting kept mods as part of the pack.
+
+The data is `dev-tools/mods/data/<category>.json` plus `index.json`, written by `npm run mods` (`tools/curseforge-mods.mjs`). The script needs a CurseForge API key in a `.env` file (`CURSEFORGE_API_KEY='…'`, git-ignored). The first run scans every CurseForge project id, which takes about half an hour, and caches every Minecraft mod in `.cache/curseforge-mods.json` (git-ignored). Later runs refresh the cached mods and scan only new ids. `-- --full` rescans everything, and `-- --write` only rewrites the data files from the cache. Mods under 1,000 downloads are left out of the data files.
 
 ## Deploying
 

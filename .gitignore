@@ -4,3 +4,5 @@ dist.tmp/
 dist-dev/
 dist-dev.tmp/
 .DS_Store
+.env
+.cache/
