@@ -27,7 +27,7 @@
   soulsweapons jar: Featherlight class, lang tooltip.soulsweapons.featherlight.*
 -->
 
-**Featherlight** is a sword from Marium's Soulslike Weaponry. It is weapon 17 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Featherlight** is a sword from Marium's Soulslike Weaponry. It is weapon 17 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

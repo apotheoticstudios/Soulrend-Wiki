@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (crucible_sword_normal_damage 9, empowered_damage 30, empowered_cooldown 300, empowered_min_cooldown 100, empowered_cooldown_modifier_in_nether 0.4)
 -->
 
-**Crucible Sword** is a sword from Marium's Soulslike Weaponry. It is weapon 41 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Crucible Sword** is a sword from Marium's Soulslike Weaponry. It is weapon 41 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

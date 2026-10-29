@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (dark_moon_greatsword_frost_moon_base_duration 400, frost_moon_cooldown 700, frost_moon_min_cooldown 300, post_hit_permafrost_base_duration 80)
 -->
 
-**Dark Moon Greatsword (Marium's Soulslike Weaponry)** is a sword from Marium's Soulslike Weaponry. It is weapon 45 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Dark Moon Greatsword (Marium's Soulslike Weaponry)** is a sword from Marium's Soulslike Weaponry. It is weapon 45 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

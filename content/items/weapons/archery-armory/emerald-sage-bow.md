@@ -26,7 +26,7 @@
   too_many_bows jar: EmeraldSageBow class, lang item.too_many_bows.emerald_sage_bow.tooltip
 -->
 
-**Emerald Sage Bow** is a bow from Too Many Bows. It is weapon 12 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Emerald Sage Bow** is a bow from Too Many Bows. It is weapon 12 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

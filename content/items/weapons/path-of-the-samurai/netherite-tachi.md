@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:tachi, from jar:epic-fight-20.14.17-mc1.20.1-forge.jar)
 -->
 
-**Netherite Tachi** is a katana from Epic Fight. It is weapon 11 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Netherite Tachi** is a katana from Epic Fight. It is weapon 11 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

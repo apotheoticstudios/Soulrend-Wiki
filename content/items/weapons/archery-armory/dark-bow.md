@@ -26,7 +26,7 @@
   too_many_bows jar: SonicBoomBow class, lang item.too_many_bows.sonic_bow.*
 -->
 
-**Dark Bow** is a bow from Too Many Bows. It is weapon 20 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Dark Bow** is a bow from Too Many Bows. It is weapon 20 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

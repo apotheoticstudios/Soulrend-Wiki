@@ -10,7 +10,7 @@
   game-data/items.json, game-data/item-stats.json (stats from the tooltip)
 -->
 
-**Bladesworn Battallion** is a Pursuit of Mastery quest chapter. Swords and longswords, 49 weapons in all. The weapons are listed in quest order.
+**Bladesworn Battallion** is a Pursuit of Mastery quest chapter. Swords and longswords, 50 weapons in all. The weapons are listed in quest order.
 
 ## Comparison
 
@@ -67,3 +67,4 @@ Damage and speed are the tooltip values (for bows, projectile damage and draw sp
 | [[item:iceandfire:dread_queen_sword]] | Sword | 25 | 1.60 | 8,000 |
 | [[item:dungeons_and_combat:crimson_sovereign_sword]] | Sword | 16 | 1.40 | 3,021 |
 | [[item:dungeons_and_combat:crimson_bloodweave_sword]] | Sword | 16 | 1.40 | 3,021 |
+| [[item:efn:sword_of_pioneer]] | Sword | 20 | 1.60 | 2,031 |

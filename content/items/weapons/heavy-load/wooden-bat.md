@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight_dd:nailbat, from jar:EpicfightDd-20.14.1.19.2.jar)
 -->
 
-**Wooden Bat** is a hammer from EpicFight - Dawnday. It is weapon 4 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Wooden Bat** is a hammer from EpicFight - Dawnday. It is weapon 4 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

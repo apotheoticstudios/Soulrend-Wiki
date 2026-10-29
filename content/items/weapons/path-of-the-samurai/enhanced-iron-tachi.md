@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type cdmoveset:s_tachi, from jar:EpicFight-Resurrection-forge1.20.1-0.20.12.2.jar)
 -->
 
-**Enhanced Iron Tachi** is a katana from EpicFight-Resurrection. It is weapon 8 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Enhanced Iron Tachi** is a katana from EpicFight-Resurrection. It is weapon 8 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

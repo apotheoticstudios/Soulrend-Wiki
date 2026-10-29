@@ -26,7 +26,7 @@
   too_many_bows jar: AuroraBow class, lang item.many_bows.aurora_bow.*
 -->
 
-**Aurora's Grace** is a bow from Too Many Bows. It is weapon 33 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Aurora's Grace** is a bow from Too Many Bows. It is weapon 35 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

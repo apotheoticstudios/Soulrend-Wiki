@@ -27,7 +27,7 @@
   samurai_dynasty jar: KatanaKitsuneBlue item class (tooltip strings)
 -->
 
-**Onibi Katana** is a katana from Samurai Dynasty. It is weapon 27 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Onibi Katana** is a katana from Samurai Dynasty. It is weapon 29 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

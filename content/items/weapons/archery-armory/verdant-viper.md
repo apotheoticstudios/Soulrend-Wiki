@@ -26,7 +26,7 @@
   too_many_bows jar: VerdantViperBow class, lang item.too_many_bows.verdant_viper_bow.*
 -->
 
-**Verdant Viper** is a bow from Too Many Bows. It is weapon 27 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Verdant Viper** is a bow from Too Many Bows. It is weapon 29 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

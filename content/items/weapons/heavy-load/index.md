@@ -10,7 +10,7 @@
   game-data/items.json, game-data/item-stats.json (stats from the tooltip)
 -->
 
-**Heavy Load** is a Pursuit of Mastery quest chapter. Axes, greataxes, hammers and maces, 56 weapons in all. The weapons are listed in quest order.
+**Heavy Load** is a Pursuit of Mastery quest chapter. Axes, greataxes, hammers and maces, 58 weapons in all. The weapons are listed in quest order.
 
 ## Comparison
 
@@ -29,6 +29,7 @@ Damage and speed are the tooltip values (for bows, projectile damage and draw sp
 | [[item:dungeons_and_combat:blacksmith_hammer]] | Hammer | 6 | 1.30 | 321 |
 | [[item:simplyswords:iron_greathammer]] | Greathammer | 8.3 | 0.98 | 250 |
 | [[item:simplyswords:diamond_greataxe]] | Greataxe | 11 | 1.01 | 1,561 |
+| [[item:mowziesmobs:wrought_axe]] | Greataxe | 9 | 0.90 |  |
 | [[item:wom:diamond_greataxe]] | Greataxe | 11 | 1.10 | 1,561 |
 | [[item:minecraft:netherite_axe]] | Axe | 10 | 1.00 | 2,031 |
 | [[item:dungeons_and_combat:ebony_axe]] | Axe | 11 | 1.00 | 2,821 |
@@ -64,6 +65,7 @@ Damage and speed are the tooltip values (for bows, projectile damage and draw sp
 | [[item:knavesneeds:deeperdarker/warden/greathammer]] | Greathammer | 10 | 0.94 | 2,464 |
 | [[item:simplyswords:mjolnir]] | Greathammer | 21.64 | 1.25 | 3,270 |
 | [[item:simplyswords:livyatan]] | Greataxe | 14.56 | 1.34 | 3,270 |
+| [[item:cataclysm:ceraunus]] | Greataxe | 23 | 1.00 |  |
 | [[item:simplyswords:soulpyre]] | Greataxe | 22.45 | 1.05 | 3,270 |
 | [[item:simplyswords:hearthflame]] | Greathammer | 19.4 | 1.03 | 3,270 |
 | [[item:cataclysm:meat_shredder]] | Axe | 16 | 1.40 |  |

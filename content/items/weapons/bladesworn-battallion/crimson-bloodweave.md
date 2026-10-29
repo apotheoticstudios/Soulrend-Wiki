@@ -28,7 +28,7 @@
   dungeons_and_combat jar: CrimsonBloodweaveSwordItem (tooltip only)
 -->
 
-**Crimson Bloodweave** is a sword from dungeons and combat. It is weapon 49 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Crimson Bloodweave** is a sword from dungeons and combat. It is weapon 49 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -28,7 +28,7 @@
   game-data/items.json (tooltip attributes)
 -->
 
-**Galeforce** is a bow from Marium's Soulslike Weaponry. It is weapon 31 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Galeforce** is a bow from Marium's Soulslike Weaponry. It is weapon 33 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:uchigatana, from jar:samurai_dynasty-0.0.51-1.20.1-forge.jar)
 -->
 
-**Netherite Katana (Samurai Dynasty)** is a katana from Samurai Dynasty. It is weapon 22 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Netherite Katana (Samurai Dynasty)** is a katana from Samurai Dynasty. It is weapon 24 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

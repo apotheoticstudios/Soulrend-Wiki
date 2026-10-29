@@ -27,7 +27,7 @@
   dungeons_and_combat jar: CopperGreathammerItem has no hit or use procedure
 -->
 
-**Copper Greathammer** is a hammer from dungeons and combat. It is weapon 26 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Copper Greathammer** is a hammer from dungeons and combat. It is weapon 27 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

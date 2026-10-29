@@ -26,7 +26,7 @@
   too_many_bows jar: FlameBow class, lang item.too_many_bows.flame_bow.*
 -->
 
-**Pyre's Embrace** is a bow from Too Many Bows. It is weapon 28 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Pyre's Embrace** is a bow from Too Many Bows. It is weapon 30 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

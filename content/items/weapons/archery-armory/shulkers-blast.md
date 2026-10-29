@@ -26,7 +26,7 @@
   too_many_bows jar: ShulkerBlastBow class, lang item.too_many_bows.shulker_blast_bow.*
 -->
 
-**Shulker's Blast** is a bow from Too Many Bows. It is weapon 6 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Shulker's Blast** is a bow from Too Many Bows. It is weapon 6 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

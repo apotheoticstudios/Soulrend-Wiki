@@ -26,7 +26,7 @@
   too_many_bows jar: TwinShadowsBow class, lang item.many_bows.twin_shadows.*
 -->
 
-**Twin Shadows** is a bow from Too Many Bows. It is weapon 4 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Twin Shadows** is a bow from Too Many Bows. It is weapon 4 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

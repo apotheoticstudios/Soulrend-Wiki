@@ -28,7 +28,7 @@
   iceandfire jar: item class lang dragon_sword_fire.hurt1, hurt2
 -->
 
-**Flamed Dragon Bone Sword** is a sword from Ice and Fire. It is weapon 25 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Flamed Dragon Bone Sword** is a sword from Ice and Fire. It is weapon 25 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

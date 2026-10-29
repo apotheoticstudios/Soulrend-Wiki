@@ -26,7 +26,7 @@
   too_many_bows jar: SpectralWhisperBow class, lang item.too_many_bows.spectral_whisper.*, enchantment.too_many_bows.spectral.desc
 -->
 
-**Spectral Whisper** is a bow from Too Many Bows. It is weapon 19 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Spectral Whisper** is a bow from Too Many Bows. It is weapon 19 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

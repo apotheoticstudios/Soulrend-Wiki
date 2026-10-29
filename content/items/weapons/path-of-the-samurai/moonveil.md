@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (moonveil_bleed_post_hit 25, wave_damage 8, vertical_damage 12, ability_cooldown 30)
 -->
 
-**Moonveil** is a katana from Marium's Soulslike Weaponry. It is weapon 10 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Moonveil** is a katana from Marium's Soulslike Weaponry. It is weapon 10 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

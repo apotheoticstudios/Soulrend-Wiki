@@ -26,7 +26,7 @@
   game-data/items.json (name and tooltip)
 -->
 
-**Wooden Bow** is a bow from Minecraft. It is weapon 14 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Wooden Bow** is a bow from Minecraft. It is weapon 14 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

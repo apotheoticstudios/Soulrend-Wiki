@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:greataxe, from jar:Simplyswords-Epicfied-pre3.0.jar)
 -->
 
-**Diamond Greataxe (Simply Swords)** is a greataxe from Simply Swords. It is weapon 11 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Diamond Greataxe (Simply Swords)** is a greataxe from Simply Swords. It is weapon 11 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

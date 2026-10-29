@@ -26,7 +26,7 @@
   too_many_bows jar: SolarBow class, lang item.many_bows.solar_bow.*
 -->
 
-**Solar Flare** is a bow from Too Many Bows. It is weapon 30 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Solar Flare** is a bow from Too Many Bows. It is weapon 32 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -28,7 +28,7 @@
   config/simplyswords_main/unique_effects.json5 (hivemindCooldown 60)
 -->
 
-**Hiveheart** is a greathammer from Simply Swords. It is weapon 51 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Hiveheart** is a greathammer from Simply Swords. It is weapon 53 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

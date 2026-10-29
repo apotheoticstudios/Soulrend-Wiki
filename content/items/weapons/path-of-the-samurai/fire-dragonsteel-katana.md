@@ -27,7 +27,7 @@
   dungeons_and_combat jar: DragonsteelFireKatanaItem (hurtEnemy), FireOnHitProcedure
 -->
 
-**Fire Dragonsteel Katana** is a katana from dungeons and combat. It is weapon 23 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Fire Dragonsteel Katana** is a katana from dungeons and combat. It is weapon 25 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

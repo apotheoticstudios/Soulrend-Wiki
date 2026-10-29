@@ -28,7 +28,7 @@
   config/simplyswords_main/unique_effects.json5 (frostFuryChance 15, frostFuryRadius 3, frostFuryDamage 18, frostFuryDuration 80, frostFuryCooldown 380)
 -->
 
-**Frostfall** is a greathammer from Simply Swords. It is weapon 53 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Frostfall** is a greathammer from Simply Swords. It is weapon 55 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

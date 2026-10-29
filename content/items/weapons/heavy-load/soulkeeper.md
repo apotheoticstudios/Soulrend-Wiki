@@ -28,7 +28,7 @@
   config/simplyswords_main/unique_effects.json5 (soulMeldChance 75, soulMeldRadius 5)
 -->
 
-**Soulkeeper** is a greathammer from Simply Swords. It is weapon 52 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Soulkeeper** is a greathammer from Simply Swords. It is weapon 54 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

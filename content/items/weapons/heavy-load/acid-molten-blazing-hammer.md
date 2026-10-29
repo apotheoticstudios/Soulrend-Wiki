@@ -27,7 +27,7 @@
   dungeons_and_combat jar: AcidMoltenBlazingGreathammerItem (hurtEnemy, use), FireOnHitProcedure, FlameStrenghtAbilityProcedure
 -->
 
-**Acid Molten Blazing Hammer** is a hammer from dungeons and combat. It is weapon 39 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Acid Molten Blazing Hammer** is a hammer from dungeons and combat. It is weapon 40 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

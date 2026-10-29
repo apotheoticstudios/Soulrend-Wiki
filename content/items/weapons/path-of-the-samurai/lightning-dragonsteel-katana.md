@@ -27,7 +27,7 @@
   dungeons_and_combat jar: DragonsteelLightningKatanaItem (hurtEnemy), LightningEdgeProcedure, ConductiveEffectExpiresProcedure
 -->
 
-**Lightning Dragonsteel Katana** is a katana from dungeons and combat. It is weapon 24 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Lightning Dragonsteel Katana** is a katana from dungeons and combat. It is weapon 26 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

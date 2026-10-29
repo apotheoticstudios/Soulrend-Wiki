@@ -29,7 +29,7 @@
   cataclysm jar: lang item.cataclysm.infernal_forge.desc*
 -->
 
-**Infernal Forge** is a greathammer from cataclysm. It is weapon 54 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Infernal Forge** is a greathammer from cataclysm. It is weapon 56 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -26,7 +26,7 @@
   too_many_bows jar: ArcaneBow class, lang item.many_bows.arcane_bow.*
 -->
 
-**Arcane Bow** is a bow from Too Many Bows. It is weapon 22 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Arcane Bow** is a bow from Too Many Bows. It is weapon 24 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

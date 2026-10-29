@@ -28,7 +28,7 @@
   irons_spellbooks jar: lang spell.irons_spellbooks.counterspell.guide, tooltip.irons_spellbooks.can_be_imbued
 -->
 
-**Spellbreaker** is a sword from Iron's Spells 'n Spellbooks. It is weapon 34 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Spellbreaker** is a sword from Iron's Spells 'n Spellbooks. It is weapon 34 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

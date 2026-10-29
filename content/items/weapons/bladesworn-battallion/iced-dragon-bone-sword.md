@@ -28,7 +28,7 @@
   iceandfire jar: item class lang dragon_sword_ice.hurt1, hurt2
 -->
 
-**Iced Dragon Bone Sword** is a sword from Ice and Fire. It is weapon 26 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Iced Dragon Bone Sword** is a sword from Ice and Fire. It is weapon 26 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

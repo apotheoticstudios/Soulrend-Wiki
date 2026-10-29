@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (tonitrus_stormveil_effect_duration 400, tonitrus_ability_cooldown 80)
 -->
 
-**Tonitrus** is a hammer from Marium's Soulslike Weaponry. It is weapon 50 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Tonitrus** is a hammer from Marium's Soulslike Weaponry. It is weapon 52 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

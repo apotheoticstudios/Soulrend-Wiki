@@ -10,7 +10,7 @@
   game-data/items.json, game-data/item-stats.json (stats from the tooltip)
 -->
 
-**Path of the Samurai** is a Pursuit of Mastery quest chapter. Katanas and tachi, 38 weapons in all. The weapons are listed in quest order.
+**Path of the Samurai** is a Pursuit of Mastery quest chapter. Katanas and tachi, 43 weapons in all. The weapons are listed in quest order.
 
 ## Comparison
 
@@ -34,6 +34,8 @@ Damage and speed are the tooltip values (for bows, projectile damage and draw sp
 | [[item:samurai_dynasty:katana]] | Katana | 7 | 2.00 | 1,561 |
 | [[item:epicfight:uchigatana]] | Katana | 7 | 2.00 | 1,625 |
 | [[item:knavesneeds:deeperdarker/warden/katana]] | Katana | 6.7 | 1.85 | 2,464 |
+| [[item:efn:air_tachi]] | Katana | 19 | 1.20 | 2,031 |
+| [[item:efn:co_tachi]] | Katana | 19 | 1.20 | 2,031 |
 | [[item:dungeons_and_combat:long_katana]] | Katana | 6 | 2.00 | 310 |
 | [[item:cdmoveset:s_netherite_tachi]] | Katana | 9 | 1.20 | 2,031 |
 | [[item:simplyswords:netherite_katana]] | Katana | 9.9 | 1.69 | 2,031 |
@@ -52,6 +54,9 @@ Damage and speed are the tooltip values (for bows, projectile damage and draw sp
 | [[item:samurai_dynasty:katana_kitsune]] | Katana | 8 | 2.00 | 2,561 |
 | [[item:wom:satsujin]] | Katana | 12 | 2.20 | 1,666 |
 | [[item:simplyswords:whisperwind]] | Katana | 17.34 | 1.73 | 3,270 |
+| [[item:efn:kusabimaru]] | Katana | 10 | 1.20 | 2,031 |
+| [[item:efn:hf_murasama]] | Katana | 11 | 1.20 | 2,031 |
 | [[item:efn:yamato_dmc_in_sheath]] (+1) | Katana | 5 | 1.00 |  |
 | [[item:cataclysm:zweiender]] | Katana | 30 | 1.60 | 6,666 |
+| [[item:efn:hf_blade]] | Katana | 14 | 1.20 | 2,031 |
 | [[item:cataclysm:final_fractal]] | Katana | 7 | 1.33 | 6,666 |

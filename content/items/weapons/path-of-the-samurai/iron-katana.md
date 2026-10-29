@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:katana, from jar:Simplyswords-Epicfied-pre3.0.jar)
 -->
 
-**Iron Katana** is a katana from Simply Swords. It is weapon 9 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Iron Katana** is a katana from Simply Swords. It is weapon 9 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -27,7 +27,7 @@
   dungeons_and_combat jar: LongKatanaItem has no hit or use procedure
 -->
 
-**Oni Slayer Katana** is a katana from dungeons and combat. It is weapon 17 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Oni Slayer Katana** is a katana from dungeons and combat. It is weapon 19 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

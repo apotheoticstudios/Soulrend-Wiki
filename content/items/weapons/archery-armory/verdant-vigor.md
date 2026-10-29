@@ -26,7 +26,7 @@
   too_many_bows jar: VerdantVigorBow class, lang item.many_bows.verdant_vigor.*
 -->
 
-**Verdant Vigor** is a bow from Too Many Bows. It is weapon 23 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Verdant Vigor** is a bow from Too Many Bows. It is weapon 25 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -28,7 +28,7 @@
   simply_swords_overhaul jar: MixinWhisperwindSword, lang tooltip.simply_swords_overhaul.whisperwinditem*
 -->
 
-**Whisperwind** is a katana from Simply Swords. It is weapon 34 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Whisperwind** is a katana from Simply Swords. It is weapon 36 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

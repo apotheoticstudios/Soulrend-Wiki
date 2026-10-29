@@ -27,7 +27,7 @@
   game-data/items.json (tooltip)
 -->
 
-**Troll's Axe** is a greataxe from Ice and Fire. It is weapon 20 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Troll's Axe** is a greataxe from Ice and Fire. It is weapon 21 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

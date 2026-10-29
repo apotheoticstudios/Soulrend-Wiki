@@ -27,7 +27,7 @@
   cataclysm jar: lang item.cataclysm.meat_shredder.desc
 -->
 
-**Meat Shredder** is an axe from cataclysm. It is weapon 49 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Meat Shredder** is an axe from cataclysm. It is weapon 51 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Stats
 

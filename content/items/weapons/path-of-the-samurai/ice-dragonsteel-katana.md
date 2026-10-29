@@ -27,7 +27,7 @@
   dungeons_and_combat jar: DragonsteelIceKatanaItem (hurtEnemy), FrozeenHitProcedure
 -->
 
-**Ice Dragonsteel Katana** is a katana from dungeons and combat. It is weapon 30 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Ice Dragonsteel Katana** is a katana from dungeons and combat. It is weapon 32 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

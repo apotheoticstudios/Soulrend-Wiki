@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:axe, from the export)
 -->
 
-**Warden Axe** is an axe from Deeper and Darker. It is weapon 24 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Warden Axe** is an axe from Deeper and Darker. It is weapon 25 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

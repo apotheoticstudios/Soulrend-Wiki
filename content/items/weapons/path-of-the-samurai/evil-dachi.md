@@ -27,7 +27,7 @@
   womplus jar: packs/wom_override/data/wom/capabilities/weapons/evil_tachi.json
 -->
 
-**Evil Ôdachi** is a katana from Weapons of miracle. It is weapon 28 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Evil Ôdachi** is a katana from Weapons of miracle. It is weapon 30 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

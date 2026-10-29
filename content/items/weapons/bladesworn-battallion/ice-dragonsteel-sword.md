@@ -27,7 +27,7 @@
   game-data/items.json (tooltip)
 -->
 
-**Ice Dragonsteel Sword** is a sword from Ice and Fire. It is weapon 36 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Ice Dragonsteel Sword** is a sword from Ice and Fire. It is weapon 36 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

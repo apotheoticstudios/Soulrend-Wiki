@@ -26,7 +26,7 @@
   too_many_bows jar: SentinelsWrathBow class, lang item.too_many_bows.sentinels_wrath.*
 -->
 
-**Sentinel's Wrath** is a bow from Too Many Bows. It is weapon 10 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Sentinel's Wrath** is a bow from Too Many Bows. It is weapon 10 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

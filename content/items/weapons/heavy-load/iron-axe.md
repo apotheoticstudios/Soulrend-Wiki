@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:axe, from jar:epic-fight-20.14.17-mc1.20.1-forge.jar)
 -->
 
-**Iron Axe** is an axe from Minecraft. It is weapon 2 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Iron Axe** is an axe from Minecraft. It is weapon 2 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -26,7 +26,7 @@
   too_many_bows jar: registered as a plain ModBowItem with no tooltip text of its own
 -->
 
-**Aether's Call** is a bow from Too Many Bows. It is weapon 8 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Aether's Call** is a bow from Too Many Bows. It is weapon 8 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

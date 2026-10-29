@@ -27,7 +27,7 @@
   config/soulsweapons/soulsweapons.json (kraken_slayer_bow_use_animation SPEAR, kraken_slayer_bonus_true_damage 4)
 -->
 
-**Kraken Slayer Spear Bow** is a bow from Marium's Soulslike Weaponry. It is weapon 2 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Kraken Slayer Spear Bow** is a bow from Marium's Soulslike Weaponry. It is weapon 2 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

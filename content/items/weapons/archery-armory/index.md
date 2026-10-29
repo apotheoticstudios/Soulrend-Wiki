@@ -10,7 +10,7 @@
   game-data/items.json, game-data/item-stats.json (stats from the tooltip)
 -->
 
-**Archery Armory (Weapons)** is a Pursuit of Mastery quest chapter. Bows and crossbows, 33 weapons in all. The weapons are listed in quest order.
+**Archery Armory (Weapons)** is a Pursuit of Mastery quest chapter. Bows and crossbows, 35 weapons in all. The weapons are listed in quest order.
 
 ## Comparison
 
@@ -39,6 +39,8 @@ Damage and speed are the tooltip values (for bows, projectile damage and draw sp
 | [[item:too_many_bows:spectral_whisper]] | Bow | +15 |  | 500 |
 | [[item:too_many_bows:dark_bow]] | Bow | +18 |  | 500 |
 | [[item:too_many_bows:dusk_reaper]] | Bow | +15 |  | 950 |
+| [[item:cataclysm:cursed_bow]] | Bow | +12 | +240% |  |
+| [[item:cataclysm:wrath_of_the_desert]] | Bow | +14 | +280% |  |
 | [[item:too_many_bows:arcane_bow]] | Bow | +18 | +120% | 500 |
 | [[item:too_many_bows:verdant_vigor]] | Bow | +3 |  | 950 |
 | [[item:too_many_bows:necro_flame_bow]] | Bow | +3 |  | 500 |

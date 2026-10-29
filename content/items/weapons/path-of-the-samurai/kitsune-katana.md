@@ -27,7 +27,7 @@
   samurai_dynasty jar: KatanaKitsune item class (tooltip strings)
 -->
 
-**Kitsune Katana** is a katana from Samurai Dynasty. It is weapon 32 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Kitsune Katana** is a katana from Samurai Dynasty. It is weapon 34 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

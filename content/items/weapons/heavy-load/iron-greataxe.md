@@ -27,7 +27,7 @@
   womplus jar: packs/wom_override/data/wom/capabilities/weapons/iron_greataxe.json (type womplus:greataxe)
 -->
 
-**Iron Greataxe** is a greataxe from Weapons of miracle. It is weapon 6 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Iron Greataxe** is a greataxe from Weapons of miracle. It is weapon 6 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

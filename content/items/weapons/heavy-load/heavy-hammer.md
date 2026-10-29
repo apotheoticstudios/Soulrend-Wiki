@@ -27,7 +27,7 @@
   dungeons_and_combat jar: HeavyHammerItem has no hit or use procedure
 -->
 
-**Heavy Hammer** is a greathammer from dungeons and combat. It is weapon 5 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Heavy Hammer** is a greathammer from dungeons and combat. It is weapon 5 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

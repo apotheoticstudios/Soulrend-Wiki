@@ -26,7 +26,7 @@
   too_many_bows jar: FrostbiteBow class, lang item.many_bows.frostbite_bow.*
 -->
 
-**Frostbite** is a bow from Too Many Bows. It is weapon 26 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Frostbite** is a bow from Too Many Bows. It is weapon 28 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

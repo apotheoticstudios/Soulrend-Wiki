@@ -27,7 +27,7 @@
   aquaculture jar: lang aquaculture.neptunium_sword.tooltip.*
 -->
 
-**Neptunium Sword** is a sword from Aquaculture 2. It is weapon 23 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Neptunium Sword** is a sword from Aquaculture 2. It is weapon 23 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

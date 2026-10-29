@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (darkin_blade_ability_damage 12, ability_cooldown 150)
 -->
 
-**The Darkin Blade** is a sword from Marium's Soulslike Weaponry. It is weapon 46 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**The Darkin Blade** is a sword from Marium's Soulslike Weaponry. It is weapon 46 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

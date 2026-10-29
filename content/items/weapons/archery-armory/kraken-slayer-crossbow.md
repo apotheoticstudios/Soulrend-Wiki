@@ -27,7 +27,7 @@
   config/soulsweapons/soulsweapons.json (kraken_slayer_bonus_true_damage 4, kraken_slayer_player_true_damage_taken_modifier 0.4)
 -->
 
-**Kraken Slayer Crossbow** is a bow from Marium's Soulslike Weaponry. It is weapon 9 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Kraken Slayer Crossbow** is a bow from Marium's Soulslike Weaponry. It is weapon 9 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

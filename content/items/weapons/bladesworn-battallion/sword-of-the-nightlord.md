@@ -27,7 +27,7 @@
   soulsweapons jar: NightlordsSword class, lang tooltip.soulsweapons.potency.*
 -->
 
-**Sword of the Nightlord** is a sword from Marium's Soulslike Weaponry. It is weapon 32 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Sword of the Nightlord** is a sword from Marium's Soulslike Weaponry. It is weapon 32 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

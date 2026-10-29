@@ -26,7 +26,7 @@
   too_many_bows jar: BurntRelicBow class, lang item.too_many_bows.burnt_relic.*
 -->
 
-**Burnt Relic** is a bow from Too Many Bows. It is weapon 7 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Burnt Relic** is a bow from Too Many Bows. It is weapon 7 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

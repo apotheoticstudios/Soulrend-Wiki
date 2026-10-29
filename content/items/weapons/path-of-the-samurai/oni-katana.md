@@ -27,7 +27,7 @@
   samurai_dynasty jar: KatanaOni item class (tooltip strings)
 -->
 
-**Oni Katana** is a katana from Samurai Dynasty. It is weapon 31 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Oni Katana** is a katana from Samurai Dynasty. It is weapon 33 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

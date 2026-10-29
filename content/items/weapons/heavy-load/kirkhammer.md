@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (kirkhammer_posture_loss 40)
 -->
 
-**Kirkhammer** is a hammer from Marium's Soulslike Weaponry. It is weapon 38 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Kirkhammer** is a hammer from Marium's Soulslike Weaponry. It is weapon 39 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

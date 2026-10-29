@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:netherite_greataxe, from jar:Simplyswords-Epicfied-pre3.0.jar)
 -->
 
-**Netherite Greataxe (Simply Swords)** is a greataxe from Simply Swords. It is weapon 19 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Netherite Greataxe (Simply Swords)** is a greataxe from Simply Swords. It is weapon 20 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

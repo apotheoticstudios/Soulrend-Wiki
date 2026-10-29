@@ -28,7 +28,7 @@
   wom jar: lang item.wom.herrscher.tooltip, skill.wom.regierung.tooltip; GesetzCapability (Herrscher guard animations when Herrscher is in the main hand)
 -->
 
-**Herrscher** is a sword from Weapons of miracle. It is weapon 33 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Herrscher** is a sword from Weapons of miracle. It is weapon 33 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Stats
 

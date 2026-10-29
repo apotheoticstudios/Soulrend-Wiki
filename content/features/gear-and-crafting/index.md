@@ -21,6 +21,5 @@
 - [[features/gear-and-crafting/shriving-stones|Shriving Stones]] — Unlock locked spells on 35 items.
 - [[features/gear-and-crafting/dragon-armor-upgrades|Dragon Armor Upgrades]] — Upgrade dragon armor from scale to dragonsteel.
 - [[features/gear-and-crafting/empowered-remnants|Empowered Remnants]] — Nightfall relic weapons smelt into Empowered Remnants.
-- [[features/gear-and-crafting/sword-souls|Sword Souls]] — 48 Sword Soul tokens, one per relic weapon.
 - [[features/gear-and-crafting/loot-changes|Loot Changes]] — Wizard armor, familiar trinkets and crafted items are removed from loot.
 - [[features/gear-and-crafting/removed-items|Removed Items]] — Items removed or hidden by Item Obliterator and KubeJS.

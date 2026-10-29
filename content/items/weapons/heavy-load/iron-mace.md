@@ -27,7 +27,7 @@
   dungeons_and_combat jar: IronMaceItem has no hit or use procedure
 -->
 
-**Iron Mace** is a hammer from dungeons and combat. It is weapon 15 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Iron Mace** is a hammer from dungeons and combat. It is weapon 16 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

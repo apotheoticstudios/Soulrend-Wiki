@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (holy_moonlight_greatsword_righteous_undead_bonus_damage 2, charge_added_post_hit 3)
 -->
 
-**Holy Moonlight Greatsword** is a sword from Marium's Soulslike Weaponry. It is weapon 20 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Holy Moonlight Greatsword** is a sword from Marium's Soulslike Weaponry. It is weapon 20 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

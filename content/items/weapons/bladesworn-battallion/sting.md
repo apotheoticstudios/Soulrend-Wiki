@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (sting_bonus_arthropod_damage 4)
 -->
 
-**Sting** is a sword from Marium's Soulslike Weaponry. It is weapon 8 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Sting** is a sword from Marium's Soulslike Weaponry. It is weapon 8 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

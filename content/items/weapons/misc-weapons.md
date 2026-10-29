@@ -12,7 +12,6 @@
     "Stymphalian Bird Dagger",
     "Naga Fang Dagger",
     "Spear",
-    "Axe of a Thousand Metals",
     "Wakizashi",
     "Netherite Wakizashi",
     "Bone Dagger",
@@ -24,9 +23,6 @@
     "cataclysm:azure_sea_shield",
     "cataclysm:black_steel_axe",
     "cataclysm:black_steel_sword",
-    "cataclysm:ceraunus",
-    "cataclysm:cursed_bow",
-    "cataclysm:wrath_of_the_desert",
     "cataclysm_weaponery:ignitium_sword",
     "create:cardboard_sword",
     "deeperdarker:resonarium_sword",
@@ -97,12 +93,6 @@
     "epicfight:iron_longsword",
     "epicfight:netherite_longsword",
     "epicfight_dd:golden_battlestaff",
-    "efn:air_tachi",
-    "efn:co_tachi",
-    "efn:hf_blade",
-    "efn:hf_murasama",
-    "efn:kusabimaru",
-    "efn:sword_of_pioneer",
     "cdmoveset:s_diamond_longsword",
     "cdmoveset:s_diamond_sword",
     "cdmoveset:s_iron_longsword",
@@ -140,7 +130,6 @@
     "minecraft:wooden_axe",
     "mowziesmobs:naga_fang_dagger",
     "mowziesmobs:spear",
-    "mowziesmobs:wrought_axe",
     "refm:gold_rapier",
     "samurai_dynasty:wakizashi",
     "samurai_dynasty:wakizashi_netherite",
@@ -202,7 +191,7 @@
   Overview notes: game-data/items.json tooltips; dungeons_and_combat item classes and procedures; soulsweapons, cataclysm, p1nero_ec, efn, iceandfire, mowziesmobs and simplyswords lang files; config/soulsweapons/soulsweapons.json (incl. enable_shield_parry, shield_parry_cooldown 40)
 -->
 
-**Misc Weapons** covers weapons no quest mentions (177 items), grouped by mod.
+**Misc Weapons** covers weapons no quest mentions (167 items), grouped by mod.
 
 [[item:dungeons_and_combat:amethyst_dragon_shield]], [[item:dungeons_and_combat:blue_dragon_shield]], [[item:dungeons_and_combat:copper_dragon_shield]], [[item:dungeons_and_combat:electric_dragon_shield]], [[item:dungeons_and_combat:green_dragon_shield]], [[item:dungeons_and_combat:red_dragon_shield]], [[item:dungeons_and_combat:silver_dragon_shield]] and [[item:dungeons_and_combat:white_dragon_shield]] have their own entry on another page.
 
@@ -214,9 +203,6 @@
 | [[item:cataclysm:azure_sea_shield]] | Shield |  |  | 514 | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:cataclysm:black_steel_axe]] | Axe | 9 | 0.90 | 750 | crafting, 1 loot table | Epic Fight axe, innate skill The Guillotine. |
 | [[item:cataclysm:black_steel_sword]] | Sword | 6 | 1.60 | 750 | crafting, 1 loot table | Epic Fight sword, innate skill Sweeping Edge. |
-| [[item:cataclysm:ceraunus]] | Greataxe | 23 | 1.00 |  | crafting | P1nero's Epic Cataclysm skill points (from perfect dodges and parries): 1 throws it forward, 2 sends a fan-shaped wave, 3 leaps and releases lightning and waves. Epic Fight sword with an innate skill of its own. |
-| [[item:cataclysm:cursed_bow]] | Bow | +12 | +240% |  | crafting | Fires 3 Phantom Arrows; special arrows fire two shots. Epic Fight: ranged, no melee combo. |
-| [[item:cataclysm:wrath_of_the_desert]] | Bow | +14 | +280% |  | crafting | P1nero's Epic Cataclysm skill points (from perfect dodges and parries): 1 fires three sandstorms, 2 three cursed sandstorms, 3 (4 points) sandstorms and falling Ancient Desert Steles. Epic Fight: ranged, no melee combo. |
 
 ## Cataclysm Weaponery
 
@@ -326,17 +312,6 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [[item:epicfight_dd:golden_battlestaff]] | Battlestaff | 4 | 1.80 | 680 | crafting | Has Looting II built in. Epic Fight spear, innate skill Skull Rupture. |
 
-## EpicFight Nightfall
-
-| Weapon | Type | Damage | Speed | Durability | Obtained from | Overview |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:efn:air_tachi]] | Katana | 19 | 1.20 |  | crafting | Its skill, Bloodlust, trades steady health drain for blood-powered slashes. Epic Fight tachi, innate skill BLOODRUST. |
-| [[item:efn:co_tachi]] | Katana | 19 | 1.20 |  | crafting | Its skill, Bloodlust, trades steady health drain for blood-powered slashes. Epic Fight tachi, innate skill BLOODRUST. |
-| [[item:efn:hf_blade]] | Katana | 14 | 1.20 |  | crafting | Its tooltip says only "Let's Dance!"; its abilities come from its Nightfall skill. Epic Fight tachi with an innate skill of its own. |
-| [[item:efn:hf_murasama]] | Katana | 11 | 1.20 |  | crafting | Its skill, Rodrigues Shinkage-ryu, is a full combo system with sheathed attacks and a Blade Mode. Epic Fight tachi, innate skill Rodrigues Shinkage-ryu. |
-| [[item:efn:kusabimaru]] | Katana | 10 | 1.20 |  | crafting | Its skill, Ashina: Dragon Flash on the ground, Sakura Dance in the air, Shadow Rush on a dash, Ichimonji: Double while sneaking. Epic Fight uchigatana, innate skill Ashina. |
-| [[item:efn:sword_of_pioneer]] | Sword | 20 | 1.60 |  | crafting | Its skill, Breaching Combo: rapid slashes, then a hilt strike that breaks defenses. Epic Fight uchigatana, innate skill Active Skill-Breaching Combo. |
-
 ## EpicFight-Resurrection
 
 | Weapon | Type | Damage | Speed | Durability | Obtained from | Overview |
@@ -403,7 +378,6 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [[item:mowziesmobs:naga_fang_dagger]] | Dagger | 3 | 2.00 | 131 |  | Poisons targets and deals double damage from behind. Epic Fight dagger, innate skill Tsunami. |
 | [[item:mowziesmobs:spear]] | Spear | 5 | 1.60 | 131 | crafting | Reaches 1.5 blocks farther and has a 1-in-3 chance to kill animals under 30 health instantly. Epic Fight spear, innate skill Grasping Spire. |
-| [[item:mowziesmobs:wrought_axe]] | Greataxe | 9 | 0.90 |  | crafting, 1 loot table | Never breaks. Right-click attacks in a wide arc; sneak and right-click slams the ground for a shockwave. Epic Fight greatsword, innate skill Accusatio. |
 
 ## Rapier For EpicFightMod
 

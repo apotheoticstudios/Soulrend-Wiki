@@ -28,7 +28,7 @@
   dungeons_and_combat jar: RottenHammerItem (tooltip only)
 -->
 
-**Rotten Hammer** is a greathammer from dungeons and combat. It is weapon 1 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Rotten Hammer** is a greathammer from dungeons and combat. It is weapon 1 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

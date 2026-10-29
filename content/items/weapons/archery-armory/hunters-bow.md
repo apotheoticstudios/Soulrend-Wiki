@@ -26,7 +26,7 @@
   too_many_bows jar: HunterBow class, lang item.too_many_bows.hunter_bow.*
 -->
 
-**Hunter's Bow** is a bow from Too Many Bows. It is weapon 13 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Hunter's Bow** is a bow from Too Many Bows. It is weapon 13 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

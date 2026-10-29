@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:sword, from jar:epic-fight-20.14.17-mc1.20.1-forge.jar)
 -->
 
-**Iron Sword** is a sword from Minecraft. It is weapon 5 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Iron Sword** is a sword from Minecraft. It is weapon 5 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

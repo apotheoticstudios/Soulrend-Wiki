@@ -27,7 +27,7 @@
   womplus jar: packs/wom_override/data/wom/capabilities/weapons/netherite_greataxe.json (type womplus:greataxe)
 -->
 
-**Netherite Greataxe (Weapons of miracle)** is a greataxe from Weapons of miracle. It is weapon 21 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Netherite Greataxe (Weapons of miracle)** is a greataxe from Weapons of miracle. It is weapon 22 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

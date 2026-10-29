@@ -27,7 +27,7 @@
   dungeons_and_combat jar: WoodenMaceItem has no hit or use procedure
 -->
 
-**Wooden Club** is a hammer from dungeons and combat. It is weapon 3 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Wooden Club** is a hammer from dungeons and combat. It is weapon 3 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

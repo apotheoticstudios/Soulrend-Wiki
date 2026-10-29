@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (mjolnir_smash_damage 20, lightning_smash_cooldown 200, riptide_cooldown 300, projectile_damage 26, rain_bonus_damage 5)
 -->
 
-**Mjölnir** is a hammer from Marium's Soulslike Weaponry. It is weapon 55 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Mjölnir** is a hammer from Marium's Soulslike Weaponry. It is weapon 57 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

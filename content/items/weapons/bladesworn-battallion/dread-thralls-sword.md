@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:sword, from paxi:soulrend_ef_capabilities)
 -->
 
-**Dread Thrall's Sword** is a sword from Ice and Fire. It is weapon 4 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Dread Thrall's Sword** is a sword from Ice and Fire. It is weapon 4 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -28,7 +28,7 @@
   cataclysm jar: lang item.cataclysm.final_fractal.desc, item.cataclysm.wip.desc
 -->
 
-**Final Fractal** is a katana from cataclysm. It is weapon 37 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Final Fractal** is a katana from cataclysm. It is weapon 42 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

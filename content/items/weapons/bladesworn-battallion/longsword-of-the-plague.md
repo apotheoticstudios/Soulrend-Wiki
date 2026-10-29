@@ -29,7 +29,7 @@
   Simplyswords-Epicfied jar: lang simplyswords_epicfied.toxic_longsword.*
 -->
 
-**Longsword of the Plague** is a sword from Simply Swords. It is weapon 42 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Longsword of the Plague** is a sword from Simply Swords. It is weapon 42 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

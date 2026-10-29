@@ -26,7 +26,7 @@
   too_many_bows jar: EtherealHunterBow class, lang item.many_bows.ethereal_hunter.*
 -->
 
-**Ethereal Hunter** is a bow from Too Many Bows. It is weapon 17 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Ethereal Hunter** is a bow from Too Many Bows. It is weapon 17 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

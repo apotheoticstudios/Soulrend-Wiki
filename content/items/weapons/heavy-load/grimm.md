@@ -27,7 +27,7 @@
   epicfight_dd jar: lang tooltip.epicfight_dd.grimm
 -->
 
-**Grimm** is a greataxe from EpicFight - Dawnday. It is weapon 42 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Grimm** is a greataxe from EpicFight - Dawnday. It is weapon 43 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

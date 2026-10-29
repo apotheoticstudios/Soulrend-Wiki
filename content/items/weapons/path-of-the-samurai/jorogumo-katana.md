@@ -27,7 +27,7 @@
   samurai_dynasty jar: KatanaJorogumo item class (tooltip strings)
 -->
 
-**Jorogumo Katana** is a katana from Samurai Dynasty. It is weapon 26 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Jorogumo Katana** is a katana from Samurai Dynasty. It is weapon 28 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -28,7 +28,7 @@
   iceandfire jar: lang item.iceandfire.ghost_sword.desc_0, desc_1
 -->
 
-**Phantasmal Blade** is a sword from Ice and Fire. It is weapon 28 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Phantasmal Blade** is a sword from Ice and Fire. It is weapon 28 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

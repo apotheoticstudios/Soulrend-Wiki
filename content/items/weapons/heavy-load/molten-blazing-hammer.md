@@ -27,7 +27,7 @@
   dungeons_and_combat jar: MoltenBlazingGreathammerItem (hurtEnemy, use), FireOnHitProcedure, FlameStrenghtAbilityProcedure
 -->
 
-**Molten Blazing Hammer** is a hammer from dungeons and combat. It is weapon 40 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Molten Blazing Hammer** is a hammer from dungeons and combat. It is weapon 41 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -26,7 +26,7 @@
   too_many_bows jar: registered as a plain ModBowItem with no tooltip text of its own
 -->
 
-**Demons Grasp** is a bow from Too Many Bows. It is weapon 11 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Demons Grasp** is a bow from Too Many Bows. It is weapon 11 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

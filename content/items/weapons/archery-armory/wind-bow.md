@@ -26,7 +26,7 @@
   too_many_bows jar: WindBow class, lang item.too_many_bows.wind_bow.*
 -->
 
-**Wind Bow** is a bow from Too Many Bows. It is weapon 25 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Wind Bow** is a bow from Too Many Bows. It is weapon 27 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

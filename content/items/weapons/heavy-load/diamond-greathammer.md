@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:greathammer, from jar:Simplyswords-Epicfied-pre3.0.jar)
 -->
 
-**Diamond Greathammer** is a greathammer from Simply Swords. It is weapon 17 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Diamond Greathammer** is a greathammer from Simply Swords. It is weapon 18 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

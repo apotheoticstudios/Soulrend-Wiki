@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:axe, from paxi:soulrend_ef_capabilities)
 -->
 
-**Dragon Bone Axe** is an axe from Ice and Fire. It is weapon 8 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Dragon Bone Axe** is an axe from Ice and Fire. It is weapon 8 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

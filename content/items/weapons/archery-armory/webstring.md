@@ -26,7 +26,7 @@
   too_many_bows jar: WebstringVolleyBow class, lang item.too_many_bows.webstring_volley.*
 -->
 
-**Webstring** is a bow from Too Many Bows. It is weapon 1 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Webstring** is a bow from Too Many Bows. It is weapon 1 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -27,7 +27,7 @@
   game-data/items.json (tooltip)
 -->
 
-**Troll's Hammer** is a greathammer from Ice and Fire. It is weapon 30 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Troll's Hammer** is a greathammer from Ice and Fire. It is weapon 31 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -26,7 +26,7 @@
   too_many_bows jar: DragonsBreathBow class, lang item.many_bows.dragons_breath_bow.*
 -->
 
-**Dragons Breath** is a bow from Too Many Bows. It is weapon 3 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Dragons Breath** is a bow from Too Many Bows. It is weapon 3 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

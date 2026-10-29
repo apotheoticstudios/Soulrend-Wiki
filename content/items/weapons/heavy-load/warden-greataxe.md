@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:runic_greataxe, from paxi:soulrend_ef_capabilities)
 -->
 
-**Warden Greataxe** is a greataxe from Knaves' Needs. It is weapon 32 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Warden Greataxe** is a greataxe from Knaves' Needs. It is weapon 33 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

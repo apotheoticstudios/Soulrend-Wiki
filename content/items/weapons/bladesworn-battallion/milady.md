@@ -27,7 +27,7 @@
   epicfight_dd jar: lang tooltip.epicfight_dd.milady_passive, milady_lore
 -->
 
-**Milady** is a sword from EpicFight - Dawnday. It is weapon 29 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Milady** is a sword from EpicFight - Dawnday. It is weapon 29 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

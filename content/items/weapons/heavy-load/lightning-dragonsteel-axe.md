@@ -27,7 +27,7 @@
   game-data/items.json (tooltip)
 -->
 
-**Lightning Dragonsteel Axe** is an axe from Ice and Fire. It is weapon 37 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Lightning Dragonsteel Axe** is an axe from Ice and Fire. It is weapon 38 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

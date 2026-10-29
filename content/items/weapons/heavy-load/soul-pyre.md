@@ -29,7 +29,7 @@
   config/simply_swords_overhaul-common.toml (enableSoulPyreChanges true)
 -->
 
-**Soul Pyre** is a greataxe from Simply Swords. It is weapon 47 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Soul Pyre** is a greataxe from Simply Swords. It is weapon 49 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:runic_greathammer, from paxi:soulrend_ef_capabilities)
 -->
 
-**Warden Greathammer** is a greathammer from Knaves' Needs. It is weapon 44 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Warden Greathammer** is a greathammer from Knaves' Needs. It is weapon 45 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

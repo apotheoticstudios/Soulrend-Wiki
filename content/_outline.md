@@ -485,7 +485,6 @@ Mechanics that Soulrend adds or changes.
     - [[features/gear-and-crafting/shriving-stones|Shriving Stones]] — Unlock locked spells on 35 items.
     - [[features/gear-and-crafting/dragon-armor-upgrades|Dragon Armor Upgrades]] — Upgrade dragon armor from scale to dragonsteel.
     - [[features/gear-and-crafting/empowered-remnants|Empowered Remnants]] — Nightfall relic weapons smelt into Empowered Remnants.
-    - [[features/gear-and-crafting/sword-souls|Sword Souls]] — 48 Sword Soul tokens, one per relic weapon.
     - [[features/gear-and-crafting/loot-changes|Loot Changes]] — Wizard armor, familiar trinkets and crafted items are removed from loot.
     - [[features/gear-and-crafting/removed-items|Removed Items]] — Items removed or hidden by Item Obliterator and KubeJS.
   - [[features/magic|Magic Features]]
@@ -598,7 +597,6 @@ Frequently asked questions.
     - [[faq/combat-and-gear/why-doesnt-my-off-hand-work-with-this-weapon|Why doesn't my off-hand work with this weapon?]] — Two-handed weapons cancel dual-wield bonuses.
     - [[faq/combat-and-gear/why-cant-i-burst-down-a-boss|Why can't I burst down a boss?]] — Bosses have damage limits per second.
     - [[faq/combat-and-gear/how-does-lifesteal-work|How does lifesteal work?]]
-    - [[faq/combat-and-gear/what-are-sword-souls-for|What are Sword Souls for?]]
     - [[faq/combat-and-gear/do-upgrades-keep-my-enchantments|Do upgrades keep my enchantments?]]
   - [[faq/skills-and-levelling|Skills & Levelling FAQ]]
     - [[faq/skills-and-levelling/how-do-i-earn-skill-points|How do I earn skill points?]] — By dealing damage.

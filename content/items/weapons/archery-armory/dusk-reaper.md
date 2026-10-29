@@ -26,7 +26,7 @@
   too_many_bows jar: DuskReaperBow class, lang item.many_bows.dusk_reaper.*
 -->
 
-**Dusk Reaper** is a bow from Too Many Bows. It is weapon 21 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Dusk Reaper** is a bow from Too Many Bows. It is weapon 21 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

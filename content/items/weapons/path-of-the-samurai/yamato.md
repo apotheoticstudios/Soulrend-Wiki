@@ -28,7 +28,7 @@
   config/efn-common.toml (yamatoRewardEnabled true, yamatoRewardKillThreshold 100)
 -->
 
-**YAMATO** is a katana from EpicFight Nightfall. It is weapon 35 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter. This page covers [[item:efn:yamato_dmc_in_sheath]] and [[item:efn:yamato_dmc4_in_sheath]].
+**YAMATO** is a katana from EpicFight Nightfall. It is weapon 39 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter. This page covers [[item:efn:yamato_dmc_in_sheath]] and [[item:efn:yamato_dmc4_in_sheath]].
 
 ## YAMATO (Yamato Dmc In Sheath)
 

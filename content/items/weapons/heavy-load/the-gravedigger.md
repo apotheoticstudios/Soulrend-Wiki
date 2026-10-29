@@ -28,7 +28,7 @@
   dungeons_and_combat jar: TheGravediggerGreataxeItem (tooltip only)
 -->
 
-**The Gravedigger** is a greataxe from dungeons and combat. It is weapon 18 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**The Gravedigger** is a greataxe from dungeons and combat. It is weapon 19 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight_dd:steelaxe, from jar:EpicfightDd-20.14.1.19.2.jar)
 -->
 
-**Steel Axe** is a greataxe from EpicFight - Dawnday. It is weapon 23 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Steel Axe** is a greataxe from EpicFight - Dawnday. It is weapon 24 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

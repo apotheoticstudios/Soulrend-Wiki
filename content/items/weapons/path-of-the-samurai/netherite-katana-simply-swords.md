@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:netherite_katana, from jar:Simplyswords-Epicfied-pre3.0.jar)
 -->
 
-**Netherite Katana (Simply Swords)** is a katana from Simply Swords. It is weapon 19 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Netherite Katana (Simply Swords)** is a katana from Simply Swords. It is weapon 21 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

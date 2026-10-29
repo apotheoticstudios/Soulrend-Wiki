@@ -26,7 +26,7 @@
   too_many_bows jar: AncientSageBow class, lang item.many_bows.ancient_sage_bow.*
 -->
 
-**Ancient Sage Bow** is a bow from Too Many Bows. It is weapon 5 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Ancient Sage Bow** is a bow from Too Many Bows. It is weapon 5 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

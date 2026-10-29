@@ -27,7 +27,7 @@
   epicfight_dd jar: lang tooltip.epicfight_dd.vitreus
 -->
 
-**Vitreus** is a sword from EpicFight - Dawnday. It is weapon 39 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Vitreus** is a sword from EpicFight - Dawnday. It is weapon 39 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

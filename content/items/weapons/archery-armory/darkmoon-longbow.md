@@ -27,7 +27,7 @@
   config/soulsweapons/soulsweapons.json (darkmoon_longbow_ability_damage 13, ability_cooldown_ticks 150, ability_min_cooldown_ticks 60)
 -->
 
-**Darkmoon Longbow** is a bow from Marium's Soulslike Weaponry. It is weapon 18 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Darkmoon Longbow** is a bow from Marium's Soulslike Weaponry. It is weapon 18 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

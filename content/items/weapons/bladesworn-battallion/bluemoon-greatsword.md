@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (bluemoon_greatsword_projectile_damage 18, charge_needed 8, charge_added_post_hit 1)
 -->
 
-**Bluemoon Greatsword** is a sword from Marium's Soulslike Weaponry. It is weapon 40 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Bluemoon Greatsword** is a sword from Marium's Soulslike Weaponry. It is weapon 40 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

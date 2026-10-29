@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:sword, from the export)
 -->
 
-**Warden Sword** is a sword from Deeper and Darker. It is weapon 24 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Warden Sword** is a sword from Deeper and Darker. It is weapon 24 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -5824,12 +5824,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Archmage Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Blood Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Blood Spell Power"
+   "§fWhen equipped, Archmage Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:armor_plate_tier_1": {
@@ -5959,12 +5954,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Bard Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Sound Spell Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Sound Spell Power"
+   "§fWhen equipped, Bard Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:broken_shield": {
@@ -5990,12 +5980,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Cleric Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Holy Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Holy Spell Power"
+   "§fWhen equipped, Cleric Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:crystal_berry": {
@@ -6017,12 +6002,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Dragoon Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Ender Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Ender Spell Power"
+   "§fWhen equipped, Dragoon Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:druid_shard": {
@@ -6035,30 +6015,16 @@
   "name": "Heart of Ender",
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eWhen a tamed Familiar's health falls bellow 25%, it gains the ability to evade 2 hits every 5 seconds.",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§915§r§9%§r§9 §r§9Cast Time Reduction"
-  ]
+  "tooltip": []
  },
  "alshanex_familiars:familiar_spellbook": {
   "name": "Tome of Familiar Alignment",
   "rarity": "uncommon",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§710§r§7 Spell Slots",
-   "§7§oWhen equipped, this spellbook connects you with your tamed familiars, allowing you to share your magic attributes with them.",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§9200§r§9 §r§9Max Mana",
-   "§9+§r§912§r§9%§r§9 §r§9Cast Time Reduction",
-   "§9+§r§98§r§9%§r§9 §r§9Spell Power"
+   "§7§oWhen equipped, this spellbook connects you with your tamed familiars, allowing you to share your magic attributes with them."
   ]
  },
  "alshanex_familiars:familiar_storage": {
@@ -6078,12 +6044,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Druid Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Nature Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Nature Spell Power"
+   "§fWhen equipped, Druid Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:frostling_shard": {
@@ -6097,27 +6058,14 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Frostling Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Ice Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Ice Spell Power"
+   "§fWhen equipped, Frostling Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:healing_curio": {
   "name": "Holy Water Grail",
   "rarity": "uncommon",
   "mod": "Alshanex Familiars Mod",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eFamiliars tamed by the wearer will recover health over time at the cost of mana.",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§95§r§9%§r§9 §r§9Mana Regeneration"
-  ]
+  "tooltip": []
  },
  "alshanex_familiars:hunter_shard": {
   "name": "Hunter Shard",
@@ -6130,12 +6078,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Hunter Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Aqua Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Aqua Spell Power"
+   "§fWhen equipped, Hunter Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:illusionist_shard": {
@@ -6149,27 +6092,14 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Illusionist Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Evocation Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Evocation Spell Power"
+   "§fWhen equipped, Illusionist Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:invisibility_curio": {
   "name": "Invisibility Robes",
   "rarity": "uncommon",
   "mod": "Alshanex Familiars Mod",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eWhen a tamed Familiar's health falls bellow 25%, it gains the True Invisibility effect.",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§950§r§9 §r§9Max Mana"
-  ]
+  "tooltip": []
  },
  "alshanex_familiars:life_fruit_tier_1": {
   "name": "Life Fruit",
@@ -6223,12 +6153,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Mage Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Lightning Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Lightning Spell Power"
+   "§fWhen equipped, Mage Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:magic_power_tier_1": {
@@ -6328,11 +6253,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Necromancer Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§915§r§9%§r§9 §r§9Summon Damage"
+   "§fWhen equipped, Necromancer Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:pandora_box": {
@@ -6340,7 +6261,6 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
    "§7Allows you to summon/unsummon multiple Familiars at once",
    "",
    "§cNo Familiars selected"
@@ -6393,13 +6313,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Plague Doctor Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Sound Spell Power",
-   "§9+§r§910§r§9%§r§9 §r§9Geo Spell Power",
-   "§9+§r§910§r§9%§r§9 §r§9Spell Resistance"
+   "§fWhen equipped, Plague Doctor Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:poison_vial": {
@@ -6435,12 +6349,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Scorcher Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Fire Magic Resistance",
-   "§9+§r§910§r§9%§r§9 §r§9Fire Spell Power"
+   "§fWhen equipped, Scorcher Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:shrinking_station": {
@@ -6460,13 +6369,8 @@
   "rarity": "uncommon",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
-   "§710§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§932§r§9%§r§9 §r§9Sound Spell Power",
-   "§9+§r§9400§r§9 §r§9Max Mana"
+   "§710§r§7 Spell Slots"
   ]
  },
  "alshanex_familiars:sound_upgrade_orb": {
@@ -6489,15 +6393,7 @@
   "name": "Statue of Willpower",
   "rarity": "rare",
   "mod": "Alshanex Familiars Mod",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eWhen a tamed Familiar's health falls bellow 50%, it gains the Oakskin effect.",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§95§r§9%§r§9 §r§9Spell Resistance"
-  ]
+  "tooltip": []
  },
  "alshanex_familiars:strange_mushroom": {
   "name": "Strange Mushroom",
@@ -6522,12 +6418,7 @@
   "rarity": "epic",
   "mod": "Alshanex Familiars Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFamiliar Trinket",
-   "§fWhen equipped, Summoner Familiars cast spells at a higher level",
-   "",
-   "§6When equipped as Familiar Trinket:",
-   "§9+§r§910§r§9%§r§9 §r§9Eldritch Magic Resistance",
-   "§9+§r§95§r§9%§r§9 §r§9Eldritch Spell Power"
+   "§fWhen equipped, Summoner Familiars cast spells at a higher level"
   ]
  },
  "alshanex_familiars:tiny_totem": {
@@ -7291,9 +7182,7 @@
   "name": "Mythical Band",
   "rarity": "uncommon",
   "mod": "Apotheotic Additions",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing"
-  ]
+  "tooltip": []
  },
  "apotheotic_additions:mythicapple": {
   "name": "Mythic Apple",
@@ -10688,9 +10577,7 @@
   "name": "Aptrgangr Head",
   "rarity": "uncommon",
   "mod": "cataclysm",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eHead"
-  ]
+  "tooltip": []
  },
  "cataclysm:aptrgangr_spawn_egg": {
   "name": "Aptrgangr Spawn Egg",
@@ -11028,7 +10915,6 @@
   "rarity": "epic",
   "mod": "cataclysm",
   "tooltip": [
-   "§6Slot:§r§6 §r§eHands",
    "§2On hit, there is a chance to apply Blazing Brand to the target"
   ]
  },
@@ -11193,13 +11079,7 @@
   "name": "Chitin Claw",
   "rarity": "epic",
   "mod": "cataclysm",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eHands",
-   "",
-   "§6When on hands:",
-   "§9+§r§90.5§r§9 §r§9Entity Reach",
-   "§9+§r§90.75§r§9 §r§9Block Reach"
-  ]
+  "tooltip": []
  },
  "cataclysm:chorus_fence": {
   "name": "Chorus Fence",
@@ -11628,9 +11508,7 @@
   "name": "Draugr Head",
   "rarity": "uncommon",
   "mod": "cataclysm",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eHead"
-  ]
+  "tooltip": []
  },
  "cataclysm:draugr_spawn_egg": {
   "name": "Draugr Spawn Egg",
@@ -12015,9 +11893,7 @@
   "name": "Kobolediator Skull",
   "rarity": "uncommon",
   "mod": "cataclysm",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eHead"
-  ]
+  "tooltip": []
  },
  "cataclysm:kobolediator_spawn_egg": {
   "name": "Kobolediator Spawn Egg",
@@ -12536,7 +12412,6 @@
   "rarity": "common",
   "mod": "cataclysm",
   "tooltip": [
-   "§6Slot:§r§6 §r§eHands",
    "§2Block the looting of Koboleton"
   ]
  },
@@ -16860,7 +16735,6 @@
   "rarity": "common",
   "mod": "Create",
   "tooltip": [
-   "§6Slot:§r§6 §r§eHead",
    "§8Hold [§r§7Shift§r§8] for Summary"
   ]
  },
@@ -19917,19 +19791,13 @@
   "rarity": "uncommon",
   "mod": "dacxirons",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§712§r§7 Spell Slots",
    "",
    "§6Press [§r§6V§r§6] to cast",
    "",
    "§7Inscribed Spells:",
-   " §r§#8888fe[§r§#8888feSunleia Beam§r§#8888fe §r§#8888fe6§r§#8888fe]",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§915§r§9%§r§9 §r§9Cooldown Reduction",
-   "§9+§r§924§r§9%§r§9 §r§9Holy Spell Power",
-   "§9+§r§9300§r§9 §r§9Max Mana"
+   " §r§#8888fe[§r§#8888feSunleia Beam§r§#8888fe §r§#8888fe6§r§#8888fe]"
   ]
  },
  "dacxirons:divine_mold": {
@@ -20157,12 +20025,7 @@
   "name": "Wither Ring",
   "rarity": "common",
   "mod": "dacxirons",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eYour spells wither enemies"
-  ]
+  "tooltip": []
  },
  "dacxirons:wither_rune": {
   "name": "Wither Rune",
@@ -24494,7 +24357,6 @@
   "rarity": "rare",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
    "§7When Equipped:",
    " §9Immunity to all negative effects"
   ]
@@ -24504,7 +24366,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eHands",
    "§7When Equipped:",
    " §9Bleeding Immunity"
   ]
@@ -25123,7 +24984,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBelt",
    "§7When Equipped:",
    "§9Jump boost II"
   ]
@@ -25685,7 +25545,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBelt",
    "§7When Equipped:",
    " §9Increased maximum health, armor and knockback resistance"
   ]
@@ -28480,7 +28339,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
    "§7When Equipped:",
    " §9Attack Damage Bonus"
   ]
@@ -28609,7 +28467,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§7When Equipped:",
    "§9When Crouching you will get Levitation"
   ]
@@ -28619,7 +28476,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
    "§7When Equipped:",
    " §9Attacks will leave the Broken Armor effect"
   ]
@@ -28693,7 +28549,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eHands",
    "§7When Equipped:",
    " §9Enemies in flames will give you Strength"
   ]
@@ -29068,7 +28923,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
    "§7When Equipped:",
    " §9Fire Resistance"
   ]
@@ -29141,7 +28995,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eFeet",
    "§7When Equipped:",
    " §9Movement Speed Bonus"
   ]
@@ -29151,7 +29004,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§7When Equipped:",
    " §9Get Hunter Fury Effect:",
    "§7This effect will increase your attack speed and leave the \"Glowing\" effect on your enemies"
@@ -29544,7 +29396,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
    "§7When Equipped:",
    " §9Attack Speed Bonus"
   ]
@@ -30483,7 +30334,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
    "§7When Equipped:",
    " §9Attacking will burn the target"
   ]
@@ -30953,7 +30803,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
    "§7When Equipped:",
    " §9Extinguishes flames of all types"
   ]
@@ -31308,7 +31157,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
    "§7When Equipped:",
    " §9Heart Bonus"
   ]
@@ -31318,7 +31166,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
    "§7When Equipped:",
    " §9Gain Strength by fighting Undead types"
   ]
@@ -31981,7 +31828,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eHands",
    "§7When Equipped:",
    " §9Block Reach Bonus"
   ]
@@ -32643,7 +32489,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eHands",
    "§7When Equipped:",
    "§9Additional Armor Toughness"
   ]
@@ -32886,7 +32731,6 @@
   "rarity": "epic",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eHands",
    "§7When Equipped:",
    " §9Attacking will give you Haste II"
   ]
@@ -33017,7 +32861,6 @@
   "rarity": "uncommon",
   "mod": "dungeons and combat",
   "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
    "§7When Equipped:",
    " §9There will be a chance to heal yourself when attacking"
   ]
@@ -58235,7 +58078,7 @@
   "rarity": "common",
   "mod": "Fallen Gems & Affixes",
   "tooltip": [
-   "§7Rarity Material (§r§fabledrarity.null§r§7)"
+   "§7Rarity Material (§r§fabledFabled§r§7)"
   ]
  },
  "fallen_gems_affixes:fabled_reforging_table": {
@@ -58286,7 +58129,8 @@
   "rarity": "uncommon",
   "mod": "Fallen Gems & Affixes",
   "tooltip": [
-   "§7Elevates all Tiered Socket slots to the next rarity"
+   "§7Elevates all Tiered Socket slots to the next rarity",
+   "§8Cannot exceed: §r§8Empty Ancient Socket"
   ]
  },
  "fallen_gems_affixes:sigil_of_erasure": {
@@ -62713,7 +62557,7 @@
   "mod": "FTB Quests",
   "tooltip": [
    "§8§oGUI is still work in progress",
-   "§cOnly works in Editing Mode!"
+   "§7Rename in anvil to set the Quest ID"
   ]
  },
  "ftbquests:book": {
@@ -62749,9 +62593,7 @@
   "name": "Loot Crate",
   "rarity": "uncommon",
   "mod": "FTB Quests",
-  "tooltip": [
-   "§cERROR: unknown loot crate '§r§c'!"
-  ]
+  "tooltip": []
  },
  "ftbquests:missing_item": {
   "name": "Missing Item",
@@ -65753,32 +65595,20 @@
   "rarity": "uncommon",
   "mod": "GTBC's Geomancy Plus",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§710§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§920§r§9%§r§9 §r§9Geo Spell Power",
-   "§9+§r§9250§r§9 §r§9Max Mana"
+   "§710§r§7 Spell Slots"
   ]
  },
  "gtbcs_geomancy_plus:bracelet_of_inversion": {
   "name": "Bracelet Of Inversion",
   "rarity": "epic",
   "mod": "GTBC's Geomancy Plus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBracelet§r§e, §r§eTalent",
-   "",
-   "§6When worn as bracelet:",
-   "§aSpell Talent: Weeping Cluster",
-   "§9Crouch-cast to invert Weeping Cluster's behavior. Now it absorbs the damage you take instead of damage you deal, causing you to take no damage. However, the cluster's maximum absorb limit is 70% reduced."
-  ]
+  "tooltip": []
  },
  "gtbcs_geomancy_plus:codex_of_shattered_horizons": {
   "name": "Codex Of Shattered Horizons",
   "rarity": "uncommon",
   "mod": "GTBC's Geomancy Plus",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§712§r§7 Spell Slots",
    "§c+1 level to §r§#7b7456Pillar Of The Resounding Earth",
@@ -65786,12 +65616,7 @@
    "§6Press [§r§6V§r§6] to cast",
    "",
    "§7Inscribed Spells:",
-   " §r§#8888fe[§r§#8888feGeo Conductor§r§#8888fe §r§#8888fe3§r§#8888fe]",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§924§r§9%§r§9 §r§9Geo Spell Power",
-   "§9+§r§910§r§9%§r§9 §r§9Cooldown Reduction",
-   "§9+§r§9300§r§9 §r§9Max Mana"
+   " §r§#8888fe[§r§#8888feGeo Conductor§r§#8888fe §r§#8888fe3§r§#8888fe]"
   ]
  },
  "gtbcs_geomancy_plus:dummy_scroll_geo": {
@@ -65805,13 +65630,8 @@
   "rarity": "epic",
   "mod": "GTBC's Geomancy Plus",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "Right-click to absorb the power of a Geo spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Sound Spell Power",
-   "§9+§r§915§r§9%§r§9 §r§9Geo Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "gtbcs_geomancy_plus:geo_grandmaster_spawn_egg": {
@@ -65854,13 +65674,7 @@
   "name": "Ring Of The Resounding Earth",
   "rarity": "epic",
   "mod": "GTBC's Geomancy Plus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eTalent§r§e, §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§aSpell Talent: Pillar Of The Resounding Earth",
-   "§9Allows Pillar of the Resounding Earth to resonate with the caster. When the Pillar emits shock waves, identical shock waves are also released from you, dealing damage, shredding Armor and all Spell Resistances"
-  ]
+  "tooltip": []
  },
  "gtbcs_geomancy_plus:the_stonecaller": {
   "name": "The Stonecaller",
@@ -68057,665 +67871,499 @@
   "name": "Black Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:black_feathered_wings": {
   "name": "Black Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:black_light_wings": {
   "name": "Black Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:black_mechanical_feathered_wings": {
   "name": "Black Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:black_mechanical_leather_wings": {
   "name": "Black Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:blue_dragon_wings": {
   "name": "Blue Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:blue_feathered_wings": {
   "name": "Blue Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:blue_light_wings": {
   "name": "Blue Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:blue_mechanical_feathered_wings": {
   "name": "Blue Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:blue_mechanical_leather_wings": {
   "name": "Blue Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:brown_dragon_wings": {
   "name": "Brown Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:brown_feathered_wings": {
   "name": "Brown Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:brown_light_wings": {
   "name": "Brown Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:brown_mechanical_feathered_wings": {
   "name": "Brown Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:brown_mechanical_leather_wings": {
   "name": "Brown Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:cyan_dragon_wings": {
   "name": "Cyan Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:cyan_feathered_wings": {
   "name": "Cyan Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:cyan_light_wings": {
   "name": "Cyan Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:cyan_mechanical_feathered_wings": {
   "name": "Cyan Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:cyan_mechanical_leather_wings": {
   "name": "Cyan Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:discords_wings": {
   "name": "Discord's Wings",
   "rarity": "epic",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:flandres_wings": {
   "name": "Flandre's Wings",
   "rarity": "epic",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:gray_dragon_wings": {
   "name": "Gray Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:gray_feathered_wings": {
   "name": "Gray Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:gray_light_wings": {
   "name": "Gray Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:gray_mechanical_feathered_wings": {
   "name": "Gray Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:gray_mechanical_leather_wings": {
   "name": "Gray Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:green_dragon_wings": {
   "name": "Green Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:green_feathered_wings": {
   "name": "Green Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:green_light_wings": {
   "name": "Green Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:green_mechanical_feathered_wings": {
   "name": "Green Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:green_mechanical_leather_wings": {
   "name": "Green Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_blue_dragon_wings": {
   "name": "Light Blue Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_blue_feathered_wings": {
   "name": "Light Blue Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_blue_light_wings": {
   "name": "Light Blue Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_blue_mechanical_feathered_wings": {
   "name": "Light Blue Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_blue_mechanical_leather_wings": {
   "name": "Light Blue Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_gray_dragon_wings": {
   "name": "Light Gray Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_gray_feathered_wings": {
   "name": "Light Gray Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_gray_light_wings": {
   "name": "Light Gray Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_gray_mechanical_feathered_wings": {
   "name": "Light Gray Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:light_gray_mechanical_leather_wings": {
   "name": "Light Gray Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:lime_dragon_wings": {
   "name": "Lime Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:lime_feathered_wings": {
   "name": "Lime Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:lime_light_wings": {
   "name": "Lime Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:lime_mechanical_feathered_wings": {
   "name": "Lime Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:lime_mechanical_leather_wings": {
   "name": "Lime Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:magenta_dragon_wings": {
   "name": "Magenta Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:magenta_feathered_wings": {
   "name": "Magenta Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:magenta_light_wings": {
   "name": "Magenta Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:magenta_mechanical_feathered_wings": {
   "name": "Magenta Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:magenta_mechanical_leather_wings": {
   "name": "Magenta Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:orange_dragon_wings": {
   "name": "Orange Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:orange_feathered_wings": {
   "name": "Orange Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:orange_light_wings": {
   "name": "Orange Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:orange_mechanical_feathered_wings": {
   "name": "Orange Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:orange_mechanical_leather_wings": {
   "name": "Orange Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:pink_dragon_wings": {
   "name": "Pink Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:pink_feathered_wings": {
   "name": "Pink Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:pink_light_wings": {
   "name": "Pink Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:pink_mechanical_feathered_wings": {
   "name": "Pink Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:pink_mechanical_leather_wings": {
   "name": "Pink Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:purple_dragon_wings": {
   "name": "Purple Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:purple_feathered_wings": {
   "name": "Purple Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:purple_light_wings": {
   "name": "Purple Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:purple_mechanical_feathered_wings": {
   "name": "Purple Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:purple_mechanical_leather_wings": {
   "name": "Purple Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:red_dragon_wings": {
   "name": "Red Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:red_feathered_wings": {
   "name": "Red Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:red_light_wings": {
   "name": "Red Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:red_mechanical_feathered_wings": {
   "name": "Red Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:red_mechanical_leather_wings": {
   "name": "Red Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:white_dragon_wings": {
   "name": "White Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:white_feathered_wings": {
   "name": "White Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:white_light_wings": {
   "name": "White Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:white_mechanical_feathered_wings": {
   "name": "White Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:white_mechanical_leather_wings": {
   "name": "White Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:yellow_dragon_wings": {
   "name": "Yellow Dragon Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:yellow_feathered_wings": {
   "name": "Yellow Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:yellow_light_wings": {
   "name": "Yellow Light Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:yellow_mechanical_feathered_wings": {
   "name": "Yellow Mechanical Feathered Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:yellow_mechanical_leather_wings": {
   "name": "Yellow Mechanical Leather Wings",
   "rarity": "rare",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "icarus:zanzas_wings": {
   "name": "Zanza's Wings",
   "rarity": "epic",
   "mod": "Icarus",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "ice_and_fire_spellbooks:crimson_dragon_priest_staff": {
   "name": "Infernal Dragon Priest Staff",
@@ -68756,12 +68404,7 @@
   "rarity": "uncommon",
   "mod": "Ice and Fire: Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§712§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§9400§r§9 §r§9Max Mana",
-   "§9+§r§932§r§9%§r§9 §r§9Spell Power"
+   "§712§r§7 Spell Slots"
   ]
  },
  "ice_and_fire_spellbooks:fire_dragon_priest_boots": {
@@ -75285,7 +74928,6 @@
   "mod": "Immersive Weathering",
   "tooltip": [
    "§f64§8/64§f ",
-   "§6Slot:§r§6 §r§eHead",
    "",
    "§7When on Head:"
   ]
@@ -76793,7 +76435,6 @@
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
    "§7§oUnattuned"
   ]
  },
@@ -76834,12 +76475,7 @@
   "name": "Amethyst Resonance Charm",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
-   "",
-   "§6When around neck:",
-   "§9+§r§915§r§9%§r§9 §r§9Mana Regeneration"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:ancient_knowledge_fragment": {
   "name": "Ancient Knowledge Fragment",
@@ -77017,14 +76653,7 @@
   "name": "Signet of the Betrayer",
   "rarity": "irons_spellbooks_cinderous",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   " §r§5Passive Ability (§r§d5s§r§5 cooldown):",
-   "§d §r§dDeal extra damage to creatures based on their maximum mana",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§910§r§9%§r§9 §r§9Eldritch Spell Power"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:blank_rune": {
   "name": "Blank Runestone",
@@ -77037,12 +76666,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§710§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§916§r§9%§r§9 §r§9Fire Spell Power",
-   "§9+§r§9200§r§9 §r§9Max Mana"
+   "§710§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:blood_rune": {
@@ -77137,12 +76761,7 @@
   "name": "Ring of Expediency",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§915§r§9%§r§9 §r§9Cast Time Reduction"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:chained_book": {
   "name": "Chained Book",
@@ -77202,34 +76821,19 @@
   "name": "Amulet of Concentration",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
-   "",
-   "§6When around neck:",
-   "§e §r§eLong Casts become uninterruptible"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:conjurers_talisman": {
   "name": "Conjurer's Talisman",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
-   "",
-   "§6When around neck:",
-   "§9+§r§915§r§9%§r§9 §r§9Summon Damage"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:cooldown_ring": {
   "name": "Ring of Recovery",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§915§r§9%§r§9 §r§9Cooldown Reduction"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:cooldown_rune": {
   "name": "Recovery Rune",
@@ -77252,12 +76856,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§75§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§950§r§9 §r§9Max Mana",
-   "§9+§r§94§r§9%§r§9 §r§9Spell Power"
+   "§75§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:cryomancer_boots": {
@@ -77401,14 +77000,8 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§710§r§7 Spell Slots",
-   "§e+1 level to §r§4Blood Slash§r§e, §r§4Blood Step",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§924§r§9%§r§9 §r§9Blood Spell Power",
-   "§9+§r§9300§r§9 §r§9Max Mana",
-   "§9+§r§910§r§9%§r§9 §r§9Spell Resistance"
+   "§e+1 level to §r§4Blood Slash§r§e, §r§4Blood Step"
   ]
  },
  "irons_spellbooks:dead_king_corpse_spawn_egg": {
@@ -77452,12 +77045,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§710§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§9200§r§9 §r§9Max Mana",
-   "§9+§r§916§r§9%§r§9 §r§9Spell Power"
+   "§710§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:disc_fragment_flame_still_burns": {
@@ -77491,13 +77079,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§712§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§918§r§9%§r§9 §r§9Eldritch Spell Power",
-   "§9+§r§924§r§9%§r§9 §r§9Ender Spell Power",
-   "§9+§r§9300§r§9 §r§9Max Mana"
+   "§712§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:druidic_spell_book": {
@@ -77505,12 +77087,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§710§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§9250§r§9 §r§9Max Mana",
-   "§9+§r§920§r§9%§r§9 §r§9Nature Spell Power"
+   "§710§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:eldritch_manuscript": {
@@ -77590,12 +77167,7 @@
   "name": "Emerald Stoneplate Ring",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eSlain creatures drop +25% experience"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:ender_rune": {
   "name": "Ender Rune",
@@ -77659,7 +77231,6 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§710§r§7 Spell Slots",
    "",
@@ -77668,11 +77239,7 @@
    "§7Inscribed Spells:",
    " §r§#8888fe[§r§#8888feFang Strike§r§#8888fe §r§#8888fe6§r§#8888fe]",
    " §r§#8888fe[§r§#8888feFang Ward§r§#8888fe §r§#8888fe4§r§#8888fe]",
-   " §r§#8888fe[§r§#8888feSummon Vex§r§#8888fe §r§#8888fe4§r§#8888fe]",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§920§r§9%§r§9 §r§9Evocation Spell Power",
-   "§9+§r§9250§r§9 §r§9Max Mana"
+   " §r§#8888fe[§r§#8888feSummon Vex§r§#8888fe §r§#8888fe4§r§#8888fe]"
   ]
  },
  "irons_spellbooks:fire_ale": {
@@ -77707,12 +77274,7 @@
   "name": "Fireward Ring",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eGrants fire immunity"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:frosted_helve": {
   "name": "Frosted Helve",
@@ -77724,12 +77286,7 @@
   "name": "Frostward Ring",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eGrants freezing immunity"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:frozen_bone": {
   "name": "Frozen Bone",
@@ -77783,12 +77340,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§78§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§9150§r§9 §r§9Max Mana",
-   "§9+§r§912§r§9%§r§9 §r§9Spell Power"
+   "§78§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:graybeard_staff": {
@@ -77811,12 +77363,7 @@
   "name": "Greater Conjurer's Talisman",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
-   "",
-   "§6When around neck:",
-   "§9+§r§915§r§9%§r§9 §r§9Summon Damage"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:greater_evasion_elixir": {
   "name": "Greater Evasion Elixir",
@@ -77860,12 +77407,7 @@
   "name": "Heavy Chain",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
-   "",
-   "§6When around neck:",
-   "§9+§r§915§r§9%§r§9 §r§9Spell Resistance"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:hellrazor": {
   "name": "Hellrazor",
@@ -77949,12 +77491,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§712§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§920§r§9%§r§9 §r§9Ice Spell Power",
-   "§9+§r§9250§r§9 §r§9Max Mana"
+   "§712§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:ice_spider_egg": {
@@ -78045,24 +77582,14 @@
   "name": "Ring of Invisibility",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§7§o §r§7§oI would say read the fine print, but I can't see it"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:iron_spell_book": {
   "name": "Ironbound Tome",
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§76§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§9100§r§9 §r§9Max Mana",
-   "§9+§r§98§r§9%§r§9 §r§9Spell Power"
+   "§76§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:keeper_flamberge": {
@@ -78103,7 +77630,6 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§712§r§7 Spell Slots"
   ]
  },
@@ -78173,13 +77699,7 @@
   "name": "Ring of the Lurker",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   " §r§5Passive Ability (§r§d15s§r§5 cooldown):",
-   "§d §r§dYour first attack while invisible deals +§r§d50§r§d%§r§d damage"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:magehunter": {
   "name": "Magehunter",
@@ -78208,12 +77728,7 @@
   "name": "Ring of Mana",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§9100§r§9 §r§9Max Mana"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:mana_upgrade_orb": {
   "name": "Mana Upgrade Orb",
@@ -78325,7 +77840,6 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§710§r§7 Spell Slots",
    "§e+§r§e2§r§e levels to §r§4Raise Dead",
@@ -78336,11 +77850,7 @@
    " §r§#8888fe[§r§#8888feBlood Slash§r§#8888fe §r§#8888fe5§r§#8888fe]",
    " §r§#8888fe[§r§#8888feBlood Step§r§#8888fe §r§#8888fe5§r§#8888fe]",
    " §r§#8888fe[§r§#8888feRay of Siphoning§r§#8888fe §r§#8888fe5§r§#8888fe]",
-   " §r§#8888fe[§r§#8888feBlaze Storm§r§#8888fe §r§#8888fe5§r§#8888fe]",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§920§r§9%§r§9 §r§9Blood Spell Power",
-   "§9+§r§9250§r§9 §r§9Max Mana"
+   " §r§#8888fe[§r§#8888feBlaze Storm§r§#8888fe §r§#8888fe5§r§#8888fe]"
   ]
  },
  "irons_spellbooks:nether_brick_pillar": {
@@ -78423,13 +77933,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§712§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§920§r§9%§r§9 §r§9Cooldown Reduction",
-   "§9+§r§9250§r§9 §r§9Max Mana",
-   "§9+§r§920§r§9%§r§9 §r§9Spell Power"
+   "§712§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:netherward_tincture": {
@@ -78550,12 +78054,7 @@
   "name": "Poisonward Ring",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eGrants poison immunity"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:portal_frame": {
   "name": "Portal Frame",
@@ -78822,13 +78321,7 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§78§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§9150§r§9 §r§9Max Mana",
-   "§9+§r§912§r§9%§r§9 §r§9Nature Spell Power",
-   "§c-§r§c15§r§c%§r§c §r§cSpell Resistance"
+   "§78§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:ruined_book": {
@@ -78926,12 +78419,7 @@
   "name": "Silver Ring",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§925§r§9 §r§9Max Mana"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:speed_boots": {
   "name": "Boots of Speed",
@@ -78998,10 +78486,7 @@
   "name": "Amulet of Teleportation",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§7§oA cracked pearl, hung on a chain",
-   "§6Slot:§r§6 §r§eNecklace"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:timeless_slurry": {
   "name": "Timeless Slurry",
@@ -79075,25 +78560,14 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§710§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§910§r§9%§r§9 §r§9Cast Time Reduction",
-   "§9+§r§920§r§9%§r§9 §r§9Holy Spell Power",
-   "§9+§r§9250§r§9 §r§9Max Mana"
+   "§710§r§7 Spell Slots"
   ]
  },
  "irons_spellbooks:visibility_ring": {
   "name": "Ring of Visibility",
   "rarity": "common",
   "mod": "Iron's Spells 'n Spellbooks",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§e §r§eAllows visible creatures to be seen"
-  ]
+  "tooltip": []
  },
  "irons_spellbooks:wandering_magician_boots": {
   "name": "Wandering Magician Shoes",
@@ -79170,7 +78644,6 @@
   "rarity": "uncommon",
   "mod": "Iron's Spells 'n Spellbooks",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§70§r§7 Spell Slots"
   ]
  },
@@ -91771,9 +91244,7 @@
   "name": "Lantern",
   "rarity": "common",
   "mod": "Minecraft",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBelt"
-  ]
+  "tooltip": []
  },
  "minecraft:lapis_block": {
   "name": "Block of Lapis Lazuli",
@@ -94730,9 +94201,7 @@
   "name": "Soul Lantern",
   "rarity": "common",
   "mod": "Minecraft",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBelt"
-  ]
+  "tooltip": []
  },
  "minecraft:soul_sand": {
   "name": "Soul Sand",
@@ -105577,17 +105046,13 @@
   "name": "Paper Lantern",
   "rarity": "common",
   "mod": "Quark",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBelt"
-  ]
+  "tooltip": []
  },
  "quark:paper_lantern_sakura": {
   "name": "Decorated Paper Lantern",
   "rarity": "common",
   "mod": "Quark",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBelt"
-  ]
+  "tooltip": []
  },
  "quark:paper_wall": {
   "name": "Paper Wall",
@@ -109367,7 +108832,6 @@
   "rarity": "common",
   "mod": "Samurai Dynasty",
   "tooltip": [
-   "§6Slot:§r§6 §r§eMask",
    "§8Hold [§7Shift§8] for Summary"
   ]
  },
@@ -109886,7 +109350,6 @@
   "rarity": "common",
   "mod": "Samurai Dynasty",
   "tooltip": [
-   "§6Slot:§r§6 §r§eMask",
    "§8Hold [§7Shift§8] for Summary"
   ]
  },
@@ -119512,9 +118975,7 @@
   "name": "Key",
   "rarity": "common",
   "mod": "Supplementaries",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBelt"
-  ]
+  "tooltip": []
  },
  "supplementaries:lapis_bricks": {
   "name": "Lapis Bricks",
@@ -119855,9 +119316,7 @@
   "name": "Quiver",
   "rarity": "rare",
   "mod": "Supplementaries",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBelt"
-  ]
+  "tooltip": []
  },
  "supplementaries:raked_gravel": {
   "name": "Raked Gravel",
@@ -120274,7 +119733,6 @@
   "rarity": "common",
   "mod": "Tom's Simple Storage Mod",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBelt",
    "§7§oHold SHIFT for more info.",
    "Press the §r§a[§r§aNot Bound§r§a]§r key to open"
   ]
@@ -120658,15 +120116,11 @@
   "rarity": "rare",
   "mod": "Too Many Bows",
   "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
    "§7A cold pendant that never warms against the skin.",
    "§8Some say it \"finds\" the gap in armor before you do.",
    "",
    "§9Grants a chance for bow shots to critically strike.",
-   "§8Equip in a necklace slot.",
-   "",
-   "§6When around neck:",
-   "§9+§r§90.08§r§9 §r§9Bow Crit Chance"
+   "§8Equip in a necklace slot."
   ]
  },
  "too_many_bows:demons_grasp": {
@@ -120789,7 +120243,6 @@
   "rarity": "uncommon",
   "mod": "Too Many Bows",
   "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace",
    "§7A worn talisman wrapped in waxed cord.",
    "§8It doesn't make the bow stronger—only steadier in the hands.",
    "",
@@ -120937,15 +120390,11 @@
   "rarity": "uncommon",
   "mod": "Too Many Bows",
   "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
    "§7A quiet vow, etched in silver.",
    "§8The bowstring remembers who holds it steady.",
    "",
    "§9Increases bow damage by +§r§915§r§9%",
-   "§8Equip in a ring slot.",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§90.15§r§9 §r§9Bow Damage"
+   "§8Equip in a ring slot."
   ]
  },
  "too_many_bows:shulker_blast": {
@@ -121026,15 +120475,11 @@
   "rarity": "rare",
   "mod": "Too Many Bows",
   "tooltip": [
-   "§6Slot:§r§6 §r§eRing",
    "§7A signet stolen from the stormcourt.",
    "§8When the wind turns, so does your fate.",
    "",
    "§9Increases bow damage by +§r§930§r§9%",
-   "§8Equip in a ring slot.",
-   "",
-   "§6When worn as ring:",
-   "§9+§r§90.3§r§9 §r§9Bow Damage"
+   "§8Equip in a ring slot."
   ]
  },
  "too_many_bows:tidal_bow": {
@@ -121190,7 +120635,6 @@
   "rarity": "rare",
   "mod": "Too Many Bows",
   "tooltip": [
-   "§6Slot:§r§6 §r§eglove",
    "§8One Handed",
    "§7Lightweight leather reinforced with etched filaments.",
    "§8The string answers faster than the mind can react.",
@@ -121200,10 +120644,7 @@
    "",
    "§7Epic Fight Attributes:",
    " §rHit §r1§r Enemies per Swing",
-   "§8[§r§8Left Shift§r§8] to see Innate skill",
-   "",
-   "§6glove",
-   "§9+§r§90.75§r§9 §r§9Bow Draw Speed"
+   "§8[§r§8Left Shift§r§8] to see Innate skill"
   ]
  },
  "travelersbackpack:backpack_tank": {
@@ -121217,7 +120658,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Backpack obtainable in Mine shafts and Dungeons",
    "§9Hold <Shift> for Special Ability Description"
   ]
@@ -121227,7 +120667,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121261,7 +120700,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121278,7 +120716,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121295,7 +120732,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121304,7 +120740,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121313,7 +120748,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121321,16 +120755,13 @@
   "name": "Coal Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:cow": {
   "name": "Cow Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121348,7 +120779,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121365,7 +120795,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121382,7 +120811,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121391,7 +120819,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121399,16 +120826,13 @@
   "name": "End Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:enderman": {
   "name": "Enderman Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121426,7 +120850,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121444,7 +120867,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121453,7 +120875,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121486,7 +120907,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121494,9 +120914,7 @@
   "name": "Horse Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:hose": {
   "name": "Hose",
@@ -121515,7 +120933,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121524,7 +120941,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Backpack obtainable in Armorer villager's chests"
   ]
  },
@@ -121550,7 +120966,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121591,7 +121006,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121609,7 +121023,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121617,16 +121030,13 @@
   "name": "Nether Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:netherite": {
   "name": "Netherite Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121643,7 +121053,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121668,9 +121077,7 @@
   "name": "Pig Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:pink_sleeping_bag": {
   "name": "Pink Sleeping bag",
@@ -121685,7 +121092,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121702,7 +121108,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121719,7 +121124,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121736,25 +121140,19 @@
   "name": "Sandstone Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:sheep": {
   "name": "Sheep Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:skeleton": {
   "name": "Skeleton Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:smoker_upgrade": {
   "name": "Smoker Upgrade",
@@ -121769,16 +121167,13 @@
   "name": "Snow Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:spider": {
   "name": "Spider Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121787,7 +121182,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121796,7 +121190,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121804,9 +121197,7 @@
   "name": "Standard Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:tanks_upgrade": {
   "name": "Tanks Upgrade",
@@ -121822,7 +121213,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Can only be acquired by buying it from a Librarian villager"
   ]
  },
@@ -121840,7 +121230,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121857,7 +121246,6 @@
   "rarity": "common",
   "mod": "Traveler's Backpack",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBack",
    "§9Hold <Shift> for Special Ability Description"
   ]
  },
@@ -121865,9 +121253,7 @@
   "name": "Wolf Traveler's Backpack",
   "rarity": "common",
   "mod": "Traveler's Backpack",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBack"
-  ]
+  "tooltip": []
  },
  "travelersbackpack:yellow_sleeping_bag": {
   "name": "Yellow Sleeping bag",
@@ -122158,25 +121544,13 @@
   "name": "Aetherial Despair Ring",
   "rarity": "traveloptics:cursed",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eTalent§r§e, §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§aSpell Talent: Despair",
-   "§9Axe Blades of Despair gain vertical trajectory and moves 50% faster"
-  ]
+  "tooltip": []
  },
  "traveloptics:amulet_of_spectral_shift": {
   "name": "Amulet Of Spectral Shift",
   "rarity": "traveloptics:eldritch",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace§r§e, §r§eTalent",
-   "",
-   "§6When around neck:",
-   "§aSpell Talent: Spectral Blink",
-   "§9Spectral Blink teleports targeted entity to your location while crouching"
-  ]
+  "tooltip": []
  },
  "traveloptics:ancient_experiment_log_seventeen": {
   "name": "Ancient Experiment Log #17-B",
@@ -122195,12 +121569,8 @@
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to absorb the power of an Aqua spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Aqua Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:aqua_grandmaster_spawn_egg": {
@@ -122242,7 +121612,6 @@
   "rarity": "uncommon",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§712§r§7 Spell Slots",
    "§c+1 level to §r§dCursed Minefield",
@@ -122251,50 +121620,29 @@
    "",
    "§7Inscribed Spells:",
    " §r§#8888fe[§r§#8888fe§kShadowed Miasma§r§#8888fe §r§#8888fe3§r§#8888fe]",
-   " §r§#8888fe[§r§#8888feOrbital Void§r§#8888fe §r§#8888fe5§r§#8888fe]",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§928§r§9%§r§9 §r§9Eldritch Spell Power",
-   "§9+§r§921§r§9%§r§9 §r§9Ender Spell Power",
-   "§9+§r§9350§r§9 §r§9Max Mana"
+   " §r§#8888fe[§r§#8888feOrbital Void§r§#8888fe §r§#8888fe5§r§#8888fe]"
   ]
  },
  "traveloptics:azure_ignition_bracelet": {
   "name": "Azure Ignition Bracelet",
   "rarity": "traveloptics:ignis",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBracelet§r§e, §r§eTalent",
-   "",
-   "§6When worn as bracelet:",
-   "§aSpell Talent: Any spell related to Ignis",
-   "§9Permanently ignites Ignis-themed spells with soul fire increasing it's damage"
-  ]
+  "tooltip": []
  },
  "traveloptics:blood_echo": {
   "name": "Blood Echo",
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to imbue with a Blood spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Blood Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:bottled_raincloud": {
   "name": "Bottled Raincloud",
   "rarity": "traveloptics:toxic",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eTalent§r§e, §r§eCharm",
-   "",
-   "§6When worn as charm:",
-   "§aSpell Talent: Rainfall",
-   "§9Rainfall now becomes acid rain, removing beneficial effects from enemies and applying the corroded effect to all entities within. +2s Duration."
-  ]
+  "tooltip": []
  },
  "traveloptics:celestial_spellweave_ingot": {
   "name": "Celestial Spellweave Ingot",
@@ -122445,7 +121793,6 @@
   "rarity": "uncommon",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§712§r§7 Spell Slots",
    "§c+1 level to §r§6Burning Judgment",
@@ -122454,12 +121801,7 @@
    "",
    "§7Inscribed Spells:",
    " §r§#8888fe[§r§#8888feFlaming Strike§r§#8888fe §r§#8888fe6§r§#8888fe]",
-   " §r§#8888fe[§r§#8888feMeteor Storm§r§#8888fe §r§#8888fe6§r§#8888fe]",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§910§r§9%§r§9 §r§9Cooldown Reduction",
-   "§9+§r§924§r§9%§r§9 §r§9Fire Spell Power",
-   "§9+§r§9300§r§9 §r§9Max Mana"
+   " §r§#8888fe[§r§#8888feMeteor Storm§r§#8888fe §r§#8888fe6§r§#8888fe]"
   ]
  },
  "traveloptics:codex_of_the_crushing_depths": {
@@ -122467,7 +121809,6 @@
   "rarity": "uncommon",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§712§r§7 Spell Slots",
    "§c+1 level to §r§#57acddVortex Of The Deep",
@@ -122475,25 +121816,14 @@
    "§6Press [§r§6V§r§6] to cast",
    "",
    "§7Inscribed Spells:",
-   " §r§#8888fe[§r§#8888feAqua Missiles§r§#8888fe §r§#8888fe6§r§#8888fe]",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§910§r§9%§r§9 §r§9Cooldown Reduction",
-   "§9+§r§9250§r§9 §r§9Max Mana",
-   "§9+§r§920§r§9%§r§9 §r§9Aqua Spell Power"
+   " §r§#8888fe[§r§#8888feAqua Missiles§r§#8888fe §r§#8888fe6§r§#8888fe]"
   ]
  },
  "traveloptics:collar_of_the_turning_tide": {
   "name": "Collar Of The Turning Tides",
   "rarity": "traveloptics:aquatic",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace§r§e, §r§eTalent",
-   "",
-   "§6When around neck:",
-   "§aSpell Talent: Tsunami",
-   "§9Tsunami waves return along its original path, hitting entities a second time and applying additional Wet duration of 10s. Both waves deal 33% reduced damage"
-  ]
+  "tooltip": []
  },
  "traveloptics:cradle_of_will": {
   "name": "Cradle Of Will",
@@ -122524,13 +121854,7 @@
   "name": "Cryostorm Bracelet",
   "rarity": "traveloptics:frosted",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBracelet§r§e, §r§eTalent",
-   "",
-   "§6When worn as bracelet:",
-   "§aEnables Elemental Interaction: Aqua, Ice",
-   "§9If an entity is affected by Wet, dealing ice magic damage to it triggers Cryostorm, summoning a blizzard that deals continuous damage and slows nearby entities for 5s. Damage scales with the Wet effect’s amplifier and Ice Spell Power. Can only occur once every 8s"
-  ]
+  "tooltip": []
  },
  "traveloptics:cursed_wraithblade": {
   "name": "Cursed Wraithblade",
@@ -122922,12 +122246,8 @@
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to awaken an Eldritch spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Eldritch Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:eldritch_spellweave_ingot": {
@@ -122953,11 +122273,6 @@
   "rarity": "traveloptics:mechanized",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eBelt",
-   "",
-   "§6When worn as belt:",
-   "§aArmor Augment: Mechanized Exoskeleton",
-   "§9Mechanized Exoskeleton armor uses Plasma Power Cells instead of Tesla Bulbs, recharging to full. Laser cannons consume 50% less fuel while airborne",
    "§8Crafting Item"
   ]
  },
@@ -122975,25 +122290,15 @@
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to imbue with a Ender spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Ender Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:energy_unbound_necklace": {
   "name": "Energy Unbound Necklace",
   "rarity": "traveloptics:mechanized",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace§r§e, §r§eTalent",
-   "",
-   "§6When around neck:",
-   "§aSpell Talent: Death Laser",
-   "§9Grants the caster freedom to look around while casting Death Laser and allows movement at 80% reduced speed"
-  ]
+  "tooltip": []
  },
  "traveloptics:enraged_dead_king_spawn_egg": {
   "name": "Enraged Dead King Spawn Egg",
@@ -123006,12 +122311,8 @@
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to call forth an Evocation spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Evocation Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:evokated_spellweave_ingot": {
@@ -123055,25 +122356,15 @@
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to imbue with a Fire spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Fire Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:firestorm_ring": {
   "name": "Firestorm Ring",
   "rarity": "traveloptics:monstrous",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eTalent§r§e, §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§aSpell Talent: Meteor Storm",
-   "§9Transforms meteors from Meteor Storm into flare bombs that explode and create flame jets. The spell can no longer directly target an entity"
-  ]
+  "tooltip": []
  },
  "traveloptics:flame_tempered_handguard": {
   "name": "Flame-Tempered Handguard",
@@ -123653,26 +122944,14 @@
   "rarity": "uncommon",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§710§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§915§r§9%§r§9 §r§9Mana Regeneration",
-   "§9+§r§9250§r§9 §r§9Max Mana",
-   "§9+§r§920§r§9%§r§9 §r§9Aqua Spell Power"
+   "§710§r§7 Spell Slots"
   ]
  },
  "traveloptics:guided_currents_ring": {
   "name": "Guided Currents Ring",
   "rarity": "traveloptics:aquatic",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eTalent§r§e, §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§aSpell Talent: Aqua Missiles",
-   "§9Aqua Missiles no longer auto-target nearby enemies. Instead, they now seek only the target you are aiming at, giving precise control over who is hit. Also increases the missiles’ seeking distance by 25%"
-  ]
+  "tooltip": []
  },
  "traveloptics:harbingers_wrath": {
   "name": "Harbinger's Wrath",
@@ -123811,12 +123090,8 @@
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to imbue with a Holy spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Holy Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:hullbreaker_scales": {
@@ -123839,25 +123114,15 @@
   "name": "Hydrocharge Bracelet",
   "rarity": "traveloptics:aquatic",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBracelet§r§e, §r§eTalent",
-   "",
-   "§6When worn as bracelet:",
-   "§aEnables Elemental Interaction: Aqua, Lightning",
-   "§9If an entity is affected by Wet, dealing lightning magic damage to it triggers Hydrocharge, causing it to take bonus damage and chain lightning to 2 additional entities. Damage scales with the Wet effect’s amplifier and Lightning spell power. Can only occur once every 1.5s"
-  ]
+  "tooltip": []
  },
  "traveloptics:ice_echo": {
   "name": "Ice Echo",
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to imbue with an Ice spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Ice Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:infernal_devastator": {
@@ -124021,12 +123286,8 @@
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to charge it with a Lightning spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Lightning Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:lightning_spellweave_ingot": {
@@ -124309,12 +123570,8 @@
   "rarity": "epic",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eCharm",
    "§eRight-click §2to imbue with a Nature spell!",
-   "§bRequires Experience Points!",
-   "",
-   "§6When worn as charm:",
-   "§9+§r§915§r§9%§r§9 §r§9Nature Spell Power"
+   "§bRequires Experience Points!"
   ]
  },
  "traveloptics:neodymium_infused_mechanized_catalyst": {
@@ -124329,13 +123586,7 @@
   "name": "Nightstalker's Band",
   "rarity": "traveloptics:eldritch",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBracelet§r§e, §r§eTalent",
-   "",
-   "§6When worn as bracelet:",
-   "§aSpell Talent: Reversal",
-   "§9Reversal can now be cast without a weapon. Reflecting a projectile grants the Assassin effect for 5sec, boosting movement speed and greatly enhancing attack damage. The effect ends upon striking an entity"
-  ]
+  "tooltip": []
  },
  "traveloptics:obsidian_bookshelf": {
   "name": "Obsidian Bookshelf",
@@ -124374,12 +123625,7 @@
   "name": "Pocket Black Hole",
   "rarity": "traveloptics:void",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eBelt",
-   "",
-   "§6When worn as belt:",
-   "§9A miniature black hole that draws in experience orbs naturally"
-  ]
+  "tooltip": []
  },
  "traveloptics:primordial_crest_armor_boots": {
   "name": "Primordial Crest Boots",
@@ -124597,13 +123843,7 @@
   "name": "Ring Of Salted Depths",
   "rarity": "traveloptics:aquatic",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eTalent§r§e, §r§eRing",
-   "",
-   "§6When worn as ring:",
-   "§aSpell Talent: Overflow",
-   "§9Transforms the Overflow pool into brine water while keeping all of its normal effects. Casting a lightning spell while inside the pool electrifies it, dealing lightning magic damage to all entities within for its entire duration, scaling with Aqua and Lightning spell power. The electrified pool can also trigger Hydrocharge on its own if Hydrocharge is enabled from any source"
-  ]
+  "tooltip": []
  },
  "traveloptics:sanctified_spell_slot_upgrade": {
   "name": "Sanctified Spell Slot Improvement",
@@ -124777,14 +124017,7 @@
   "name": "Sigil of the Spider Sorcerer",
   "rarity": "traveloptics:natural",
   "mod": "T.O Magic 'n Extras",
-  "tooltip": [
-   "§6Slot:§r§6 §r§eNecklace§r§e, §r§eTalent",
-   "",
-   "§6When around neck:",
-   "§aSpell Talent: Aspect Of The Spider",
-   "§9Aspect of the Spider spell now allows you to climb walls",
-   "§9Casting Aspect of the Spider and striking an enemy grants a 50% chance to poison them for 3sec"
-  ]
+  "tooltip": []
  },
  "traveloptics:spectral_spell_slot_upgrade": {
   "name": "Spectral Spell Slot Improvement",
@@ -125092,7 +124325,6 @@
   "rarity": "uncommon",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
    "§#e04324Unique§r§7 Spell Book",
    "§712§r§7 Spell Slots",
    "§c+1 level to §r§#d0f9ffDespair",
@@ -125100,12 +124332,7 @@
    "§6Press [§r§6V§r§6] to cast",
    "",
    "§7Inscribed Spells:",
-   " §r§#8888fe[§r§#8888feHalberd Horizon§r§#8888fe §r§#8888fe6§r§#8888fe]",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§910§r§9%§r§9 §r§9Cooldown Reduction",
-   "§9+§r§924§r§9%§r§9 §r§9Ice Spell Power",
-   "§9+§r§9300§r§9 §r§9Max Mana"
+   " §r§#8888fe[§r§#8888feHalberd Horizon§r§#8888fe §r§#8888fe6§r§#8888fe]"
   ]
  },
  "traveloptics:the_diamantic_archive": {
@@ -125113,12 +124340,7 @@
   "rarity": "uncommon",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§712§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§924§r§9%§r§9 §r§9Lightning Spell Power",
-   "§9+§r§9300§r§9 §r§9Max Mana"
+   "§712§r§7 Spell Slots"
   ]
  },
  "traveloptics:the_nightwarden_spawn_egg": {
@@ -125485,13 +124707,7 @@
   "rarity": "uncommon",
   "mod": "T.O Magic 'n Extras",
   "tooltip": [
-   "§6Slot:§r§6 §r§eSpell Book",
-   "§712§r§7 Spell Slots",
-   "",
-   "§6When equipped as Spell Book:",
-   "§9+§r§910§r§9%§r§9 §r§9Cooldown Reduction",
-   "§9+§r§9300§r§9 §r§9Max Mana",
-   "§9+§r§924§r§9%§r§9 §r§9Nature Spell Power"
+   "§712§r§7 Spell Slots"
   ]
  },
  "traveloptics:tremor_core": {

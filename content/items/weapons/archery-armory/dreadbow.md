@@ -25,7 +25,7 @@
   alexscaves jar: lang enchantment.alexscaves.relentless_darkness.desc
 -->
 
-**Dreadbow** is a bow from Alex's Caves. It is weapon 15 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Dreadbow** is a bow from Alex's Caves. It is weapon 15 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

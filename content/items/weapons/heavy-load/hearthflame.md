@@ -28,7 +28,7 @@
   config/simplyswords_main/unique_effects.json5 (volcanicFuryChance 25, volcanicFuryCooldown 300)
 -->
 
-**Hearthflame** is a greathammer from Simply Swords. It is weapon 48 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Hearthflame** is a greathammer from Simply Swords. It is weapon 50 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Stats
 

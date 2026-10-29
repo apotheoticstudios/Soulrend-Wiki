@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (leviathan_axe_projectile_damage 28)
 -->
 
-**Leviathan Axe** is an axe from Marium's Soulslike Weaponry. It is weapon 34 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Leviathan Axe** is an axe from Marium's Soulslike Weaponry. It is weapon 35 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

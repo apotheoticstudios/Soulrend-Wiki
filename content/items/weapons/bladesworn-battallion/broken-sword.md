@@ -27,7 +27,7 @@
   dungeons_and_combat jar: BrokenSwordItem has no hit or use procedure
 -->
 
-**Broken Sword** is a sword from dungeons and combat. It is weapon 2 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Broken Sword** is a sword from dungeons and combat. It is weapon 2 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

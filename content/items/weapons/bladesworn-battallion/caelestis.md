@@ -29,7 +29,7 @@
   config/simplyswords_main/unique_effects.json5 (astralShiftChance 5, astralShiftDuration 100, astralShiftCooldown 420, astralShiftDamageMax 300)
 -->
 
-**Caelestis** is a sword from Simply Swords. It is weapon 43 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Caelestis** is a sword from Simply Swords. It is weapon 43 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

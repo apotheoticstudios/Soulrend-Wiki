@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:iceandfire_longsword, from paxi:soulrend_ef_capabilities)
 -->
 
-**Blade of the Dreaded Queen** is a sword from Ice and Fire. It is weapon 47 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Blade of the Dreaded Queen** is a sword from Ice and Fire. It is weapon 47 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Stats
 

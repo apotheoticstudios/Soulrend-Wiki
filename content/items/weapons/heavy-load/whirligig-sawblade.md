@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (whirligig_sawblade_ability_damage 5, use_time 100, bleed_effect_duration 160, cooldown 100)
 -->
 
-**Whirligig Sawblade** is a greataxe from Marium's Soulslike Weaponry. It is weapon 22 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Whirligig Sawblade** is a greataxe from Marium's Soulslike Weaponry. It is weapon 23 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -27,7 +27,7 @@
   samurai_dynasty jar: KatanaAkaname item class (tooltip strings)
 -->
 
-**Akaname Katana** is a katana from Samurai Dynasty. It is weapon 25 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Akaname Katana** is a katana from Samurai Dynasty. It is weapon 27 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

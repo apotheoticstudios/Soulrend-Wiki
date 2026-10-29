@@ -28,7 +28,7 @@
   epicfightx jar: lang skill.epicfight.katana_skill.tooltip
 -->
 
-**Katana (EpicFight-Resurrection)** is a katana from EpicFight-Resurrection. It is weapon 20 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Katana (EpicFight-Resurrection)** is a katana from EpicFight-Resurrection. It is weapon 22 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

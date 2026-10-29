@@ -27,7 +27,7 @@
   dungeons_and_combat jar: OathSwordItem (use), OathSwordRightclickedProcedure
 -->
 
-**Oath** is a sword from dungeons and combat. It is weapon 22 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Oath** is a sword from dungeons and combat. It is weapon 22 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

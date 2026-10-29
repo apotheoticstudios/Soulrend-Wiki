@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:runic_katana, from paxi:soulrend_ef_capabilities)
 -->
 
-**Warden Katana** is a katana from Knaves' Needs. It is weapon 16 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Warden Katana** is a katana from Knaves' Needs. It is weapon 16 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

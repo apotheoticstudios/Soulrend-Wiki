@@ -27,7 +27,7 @@
   game-data/items.json (tooltip attributes)
 -->
 
-**Arc Of The Heavens** is a bow from Too Many Bows. It is weapon 29 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Arc Of The Heavens** is a bow from Too Many Bows. It is weapon 31 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

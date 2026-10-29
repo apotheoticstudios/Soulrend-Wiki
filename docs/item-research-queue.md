@@ -14,10 +14,9 @@ The port read only the dumps in `game-data/` (items, item-stats, gems, spells, l
 
 ## Page title collided with an existing page and was qualified
 
-3 entries.
+2 entries.
 
 - `Archery Armory` — items/weapons/archery-armory vs progression/side-chapters/pursuit-of-mastery.md
-- `Sword Souls` — items/weapons/sword-souls vs features/gear-and-crafting/sword-souls.md
 - `The Watcher` — items/weapons/blood-bath/the-watcher vs bosses/optional-and-world/cataclysm-minibosses.md
 
 ## Epic Fight skill with no text in any lang file
@@ -68,7 +67,7 @@ Weapon pages now show each skill's name and tooltip through the `moveset` embed 
 
 Apotheosis's basic shelves and the slot tomes are crafted with recipes registered in code (Placebo's RecipeHelper), which exports made before 2026-10-25 missed. `wiki_export.js` now rebuilds them from the live recipe manager; re-export, sync and remove those entries.
 
-453 entries.
+405 entries.
 
 - `alexscaves:gingerbread_boots` — items/armor/misc-armor/alexs-caves-armor
 - `alexscaves:gingerbread_chestplate` — items/armor/misc-armor/alexs-caves-armor
@@ -180,54 +179,6 @@ Apotheosis's basic shelves and the slot tomes are crafted with recipes registere
 - `irons_spellbooks:lurker_ring` — items/curios-and-accessories/rings
 - `irons_spellbooks:mana_ring` — items/curios-and-accessories/rings
 - `irons_spellbooks:tarnished_helmet` — items/armor/misc-armor/other-armor
-- `kubejs:air_tachi_soul` — items/weapons/sword-souls
-- `kubejs:arcanethyst_soul` — items/weapons/sword-souls
-- `kubejs:bramblethorn_soul` — items/weapons/sword-souls
-- `kubejs:brimstone_claymore_soul` — items/weapons/sword-souls
-- `kubejs:broadblade_soul` — items/weapons/sword-souls
-- `kubejs:caelestis_soul` — items/weapons/sword-souls
-- `kubejs:crescent_moon_soul` — items/weapons/sword-souls
-- `kubejs:crimson_moon_soul` — items/weapons/sword-souls
-- `kubejs:dormant_relic_soul` — items/weapons/sword-souls
-- `kubejs:emberlash_soul` — items/weapons/sword-souls
-- `kubejs:enigma_soul` — items/weapons/sword-souls
-- `kubejs:exsiliumgladius_soul` — items/weapons/sword-souls
-- `kubejs:fire_exsiliumgladius_soul` — items/weapons/sword-souls
-- `kubejs:flamewind_soul` — items/weapons/sword-souls
-- `kubejs:frostfall_soul` — items/weapons/sword-souls
-- `kubejs:hearthflame_soul` — items/weapons/sword-souls
-- `kubejs:hiveheart_soul` — items/weapons/sword-souls
-- `kubejs:icewhisper_soul` — items/weapons/sword-souls
-- `kubejs:livyatan_soul` — items/weapons/sword-souls
-- `kubejs:magiblade_soul` — items/weapons/sword-souls
-- `kubejs:magiscythe_soul` — items/weapons/sword-souls
-- `kubejs:magispear_soul` — items/weapons/sword-souls
-- `kubejs:meen_spear_soul` — items/weapons/sword-souls
-- `kubejs:mjolnir_soul` — items/weapons/sword-souls
-- `kubejs:molten_edge_soul` — items/weapons/sword-souls
-- `kubejs:nf_shortsword_2_soul` — items/weapons/sword-souls
-- `kubejs:nf_shortsword_soul` — items/weapons/sword-souls
-- `kubejs:ribboncleaver_soul` — items/weapons/sword-souls
-- `kubejs:ruinsgreatsword_soul` — items/weapons/sword-souls
-- `kubejs:shadowsting_soul` — items/weapons/sword-souls
-- `kubejs:slumbering_lichblade_soul` — items/weapons/sword-souls
-- `kubejs:soulkeeper_soul` — items/weapons/sword-souls
-- `kubejs:soulpyre_soul` — items/weapons/sword-souls
-- `kubejs:soulrender_soul` — items/weapons/sword-souls
-- `kubejs:soulstealer_soul` — items/weapons/sword-souls
-- `kubejs:stars_edge_soul` — items/weapons/sword-souls
-- `kubejs:stormbringer_soul` — items/weapons/sword-souls
-- `kubejs:storms_edge_soul` — items/weapons/sword-souls
-- `kubejs:sword_of_pioneer_soul` — items/weapons/sword-souls
-- `kubejs:tempest_soul` — items/weapons/sword-souls
-- `kubejs:thunderbrand_soul` — items/weapons/sword-souls
-- `kubejs:toxic_longsword_soul` — items/weapons/sword-souls
-- `kubejs:twisted_blade_soul` — items/weapons/sword-souls
-- `kubejs:watcher_claymore_soul` — items/weapons/sword-souls
-- `kubejs:watching_warglaive_soul` — items/weapons/sword-souls
-- `kubejs:waxweaver_soul` — items/weapons/sword-souls
-- `kubejs:whisperwind_soul` — items/weapons/sword-souls
-- `kubejs:wickpiercer_soul` — items/weapons/sword-souls
 - `magistuarmory:bronze_shortsword` — items/weapons/epic-knights-weapons
 - `magistuarmory:copper_shortsword` — items/weapons/epic-knights-weapons
 - `magistuarmory:crown_decoration` — items/armor/epic-knights-armor

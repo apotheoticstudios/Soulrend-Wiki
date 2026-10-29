@@ -26,7 +26,7 @@
   too_many_bows jar: AstralBow class, lang item.too_many_bows.astral_bow.*, enchantment.too_many_bows.ricochet.desc
 -->
 
-**Astral Bound** is a bow from Too Many Bows. It is weapon 16 of 33 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
+**Astral Bound** is a bow from Too Many Bows. It is weapon 16 of 35 in [[items/weapons/archery-armory|Archery Armory (Weapons)]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

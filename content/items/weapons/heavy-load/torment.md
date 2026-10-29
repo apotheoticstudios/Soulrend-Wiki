@@ -27,7 +27,7 @@
   wom jar: lang item.wom.tormented_mind.tooltip
 -->
 
-**Torment** is a greataxe from Weapons of miracle. It is weapon 33 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Torment** is a greataxe from Weapons of miracle. It is weapon 34 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

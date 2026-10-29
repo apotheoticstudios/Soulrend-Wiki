@@ -28,7 +28,7 @@
   config/simplyswords_main/unique_effects.json5 (frostShatterChance 15, frostShatterRadius 3, frostShatterDamage 18, frostShatterDuration 80)
 -->
 
-**Livyatan** is a greataxe from Simply Swords. It is weapon 46 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Livyatan** is a greataxe from Simply Swords. It is weapon 47 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

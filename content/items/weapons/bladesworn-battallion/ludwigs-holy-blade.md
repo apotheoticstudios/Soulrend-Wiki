@@ -27,7 +27,7 @@
   soulsweapons jar: HolyGreatsword class, lang tooltip.soulsweapons.righteous.*
 -->
 
-**Ludwig's Holy Blade** is a sword from Marium's Soulslike Weaponry. It is weapon 13 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Ludwig's Holy Blade** is a sword from Marium's Soulslike Weaponry. It is weapon 13 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type simplyswords:greathammer, from jar:Simplyswords-Epicfied-pre3.0.jar)
 -->
 
-**Iron Greathammer** is a greathammer from Simply Swords. It is weapon 10 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Iron Greathammer** is a greathammer from Simply Swords. It is weapon 10 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

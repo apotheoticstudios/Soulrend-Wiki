@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (skofnung_stone_additional_empowered_strikes 8, skofnung_empowered_bleed_effect_duration 200)
 -->
 
-**Skofnung** is a sword from Marium's Soulslike Weaponry. It is weapon 21 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Skofnung** is a sword from Marium's Soulslike Weaponry. It is weapon 21 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -28,7 +28,7 @@
   config/simplyswords_main/unique_effects.json5 (stormChance 15, stormRadius 10, stormDuration 200, stormCooldown 700)
 -->
 
-**Mjolnir** is a greathammer from Simply Swords. It is weapon 45 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Mjolnir** is a greathammer from Simply Swords. It is weapon 46 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (moonlight_greatsword_projectile_damage 8)
 -->
 
-**Moonlight Greatsword** is a sword from Marium's Soulslike Weaponry. It is weapon 12 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Moonlight Greatsword** is a sword from Marium's Soulslike Weaponry. It is weapon 12 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

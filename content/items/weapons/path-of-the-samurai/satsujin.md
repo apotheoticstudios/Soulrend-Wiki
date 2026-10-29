@@ -27,7 +27,7 @@
   wom jar: lang item.wom.satsujin.tooltip
 -->
 
-**Satsujin** is a katana from Weapons of miracle. It is weapon 33 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Satsujin** is a katana from Weapons of miracle. It is weapon 35 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

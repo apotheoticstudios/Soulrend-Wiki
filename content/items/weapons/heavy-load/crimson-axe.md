@@ -27,7 +27,7 @@
   dungeons_and_combat jar: CrimsonAxeItem (hurtEnemy), BleedingOnHitProcedure, BleedingOnEffectActiveTickProcedure
 -->
 
-**Crimson Axe** is an axe from dungeons and combat. It is weapon 25 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Crimson Axe** is an axe from dungeons and combat. It is weapon 26 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

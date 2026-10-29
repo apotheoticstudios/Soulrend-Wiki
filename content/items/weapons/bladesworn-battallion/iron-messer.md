@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight_dd:messer, from jar:EpicfightDd-20.14.1.19.2.jar)
 -->
 
-**Iron Messer** is a sword from EpicFight - Dawnday. It is weapon 6 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Iron Messer** is a sword from EpicFight - Dawnday. It is weapon 6 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

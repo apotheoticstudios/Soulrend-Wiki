@@ -28,7 +28,7 @@
   cataclysm jar: lang item.cataclysm.void_forge.desc*
 -->
 
-**Void Forge** is a greathammer from cataclysm. It is weapon 56 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Void Forge** is a greathammer from cataclysm. It is weapon 58 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Stats
 

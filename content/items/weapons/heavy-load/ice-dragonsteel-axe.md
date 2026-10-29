@@ -27,7 +27,7 @@
   game-data/items.json (tooltip)
 -->
 
-**Ice Dragonsteel Axe** is an axe from Ice and Fire. It is weapon 35 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Ice Dragonsteel Axe** is an axe from Ice and Fire. It is weapon 36 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

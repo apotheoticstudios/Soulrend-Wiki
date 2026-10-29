@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (frostmourne_summoned_allies_cap 50)
 -->
 
-**Frostmourne** is a sword from Marium's Soulslike Weaponry. It is weapon 38 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Frostmourne** is a sword from Marium's Soulslike Weaponry. It is weapon 38 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

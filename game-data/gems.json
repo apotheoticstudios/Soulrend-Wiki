@@ -1824,8 +1824,8 @@
     "§6• §r§6Chestplates§r§6: §r§a+§r§a1§r§a §r§alevel§r§a to §r§4Berserker's Fury",
     "§6• §r§6Mining Tools§r§6: §r§a+§r§a1§r§a §r§alevel§r§a to §r§aEfficiency",
     "§6• §r§6Helmets§r§6: §r§9+§r§950§r§9%§r§9 §r§9Fire Damage",
-    "§6• §r§6Staffs§r§6: §r§9+§r§93§r§9%§r§9 §r§9Fire Spell Power",
-    "§6• §r§6Boots§r§6: §r§9+§r§915§r§9%§r§9 §r§9Max Mana"
+    "§6• §r§6Boots§r§6: §r§9+§r§915§r§9%§r§9 §r§9Max Mana",
+    "§6• §r§6Staffs§r§6: §r§9+§r§93§r§9%§r§9 §r§9Fire Spell Power"
    ],
    "apotheosis:epic": [
     "§#c73912Unique",
@@ -1840,8 +1840,8 @@
     "§6• §r§6Chestplates§r§6: §r§a+§r§a1§r§a §r§alevel§r§a to §r§4Berserker's Fury",
     "§6• §r§6Mining Tools§r§6: §r§a+§r§a2§r§a §r§alevels§r§a to §r§aEfficiency",
     "§6• §r§6Helmets§r§6: §r§9+§r§962.5§r§9%§r§9 §r§9Fire Damage",
-    "§6• §r§6Staffs§r§6: §r§9+§r§96§r§9%§r§9 §r§9Fire Spell Power",
-    "§6• §r§6Boots§r§6: §r§9+§r§920§r§9%§r§9 §r§9Max Mana"
+    "§6• §r§6Boots§r§6: §r§9+§r§920§r§9%§r§9 §r§9Max Mana",
+    "§6• §r§6Staffs§r§6: §r§9+§r§96§r§9%§r§9 §r§9Fire Spell Power"
    ],
    "apotheosis:mythic": [
     "§#c73912Unique",
@@ -1857,8 +1857,8 @@
     "§6• §r§6Chestplates§r§6: §r§a+§r§a2§r§a §r§alevels§r§a to §r§4Berserker's Fury",
     "§6• §r§6Mining Tools§r§6: §r§a+§r§a3§r§a §r§alevels§r§a to §r§aEfficiency",
     "§6• §r§6Helmets§r§6: §r§9+§r§975§r§9%§r§9 §r§9Fire Damage",
-    "§6• §r§6Staffs§r§6: §r§9+§r§910§r§9%§r§9 §r§9Fire Spell Power",
-    "§6• §r§6Boots§r§6: §r§9+§r§925§r§9%§r§9 §r§9Max Mana"
+    "§6• §r§6Boots§r§6: §r§9+§r§925§r§9%§r§9 §r§9Max Mana",
+    "§6• §r§6Staffs§r§6: §r§9+§r§910§r§9%§r§9 §r§9Fire Spell Power"
    ],
    "apotheosis:ancient": [
     "§#c73912Unique",
@@ -1874,8 +1874,8 @@
     "§6• §r§6Chestplates§r§6: §r§a+§r§a2§r§a §r§alevels§r§a to §r§4Berserker's Fury",
     "§6• §r§6Mining Tools§r§6: §r§a+§r§a4§r§a §r§alevels§r§a to §r§aEfficiency",
     "§6• §r§6Helmets§r§6: §r§9+§r§990§r§9%§r§9 §r§9Fire Damage",
-    "§6• §r§6Staffs§r§6: §r§9+§r§915§r§9%§r§9 §r§9Fire Spell Power",
-    "§6• §r§6Boots§r§6: §r§9+§r§930§r§9%§r§9 §r§9Max Mana"
+    "§6• §r§6Boots§r§6: §r§9+§r§930§r§9%§r§9 §r§9Max Mana",
+    "§6• §r§6Staffs§r§6: §r§9+§r§915§r§9%§r§9 §r§9Fire Spell Power"
    ]
   }
  },
@@ -4353,8 +4353,8 @@
     "§6• §r§6Helmets§r§6: §r§9+§r§910§r§9%§r§9 §r§9Holy Magic Resistance",
     "§6• §r§6Leggings§r§6: §r§eOn spell heal, grant §r§cGuided§r§c (§r§c00:03§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]",
     "§6• §r§6Chestplates§r§6: §r§eGain §r§9Hastened§r§e §r§e[§r§e∞§r§e]",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§91§r§9 §r§9Nullflare",
-    "§6• §r§6Light Weapons§r§6: §r§9+§r§91§r§9 §r§9Divine Smite"
+    "§6• §r§6Light Weapons§r§6: §r§9+§r§91§r§9 §r§9Divine Smite",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§91§r§9 §r§9Nullflare"
    ],
    "apotheosis:epic": [
     "§#c73912Unique",
@@ -4369,8 +4369,8 @@
     "§6• §r§6Helmets§r§6: §r§9+§r§912.5§r§9%§r§9 §r§9Holy Magic Resistance",
     "§6• §r§6Leggings§r§6: §r§eOn spell heal, grant §r§cGuided§r§c §r§cII§r§c (§r§c00:07§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]",
     "§6• §r§6Chestplates§r§6: §r§eGain §r§9Hastened§r§9 §r§9II§r§e §r§e[§r§e∞§r§e]",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§92§r§9 §r§9Nullflare",
-    "§6• §r§6Light Weapons§r§6: §r§9+§r§92§r§9 §r§9Divine Smite"
+    "§6• §r§6Light Weapons§r§6: §r§9+§r§92§r§9 §r§9Divine Smite",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§92§r§9 §r§9Nullflare"
    ],
    "apotheosis:mythic": [
     "§#c73912Unique",
@@ -4385,8 +4385,8 @@
     "§6• §r§6Helmets§r§6: §r§9+§r§915§r§9%§r§9 §r§9Holy Magic Resistance",
     "§6• §r§6Leggings§r§6: §r§eOn spell heal, grant §r§cGuided§r§c §r§cIII§r§c (§r§c00:10§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]",
     "§6• §r§6Chestplates§r§6: §r§eGain §r§9Hastened§r§9 §r§9III§r§e §r§e[§r§e∞§r§e]",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§93§r§9 §r§9Nullflare",
-    "§6• §r§6Light Weapons§r§6: §r§9+§r§93§r§9 §r§9Divine Smite"
+    "§6• §r§6Light Weapons§r§6: §r§9+§r§93§r§9 §r§9Divine Smite",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§93§r§9 §r§9Nullflare"
    ],
    "apotheosis:ancient": [
     "§#c73912Unique",
@@ -4401,8 +4401,8 @@
     "§6• §r§6Helmets§r§6: §r§9+§r§920§r§9%§r§9 §r§9Holy Magic Resistance",
     "§6• §r§6Leggings§r§6: §r§eOn spell heal, grant §r§cGuided§r§c §r§cIV§r§c (§r§c00:14§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]",
     "§6• §r§6Chestplates§r§6: §r§eGain §r§9Hastened§r§9 §r§9IV§r§e §r§e[§r§e∞§r§e]",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§94§r§9 §r§9Nullflare",
-    "§6• §r§6Light Weapons§r§6: §r§9+§r§94§r§9 §r§9Divine Smite"
+    "§6• §r§6Light Weapons§r§6: §r§9+§r§94§r§9 §r§9Divine Smite",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§94§r§9 §r§9Nullflare"
    ]
   }
  },
@@ -4426,8 +4426,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§92.5§r§9%§r§9 §r§9Fire Spell Power",
     "§6• §r§6Helmets§r§6: §r§eOn spell heal, gain §r§9Fire Resistance§r§9 (§r§900:07§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
     "§6• §r§6Boots§r§6: §r§9+§r§910§r§9%§r§9 §r§9Fire Magic Resistance",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§91§r§9 §r§9Flaming Strike",
-    "§6• §r§6Leggings§r§6: §r§eWhen attacked, inflict §r§cCorroded§r§c (§r§c00:03§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Leggings§r§6: §r§eWhen attacked, inflict §r§cCorroded§r§c (§r§c00:03§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§91§r§9 §r§9Flaming Strike"
    ],
    "apotheosis:epic": [
     "§#c73912Unique",
@@ -4440,8 +4440,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§95§r§9%§r§9 §r§9Fire Spell Power",
     "§6• §r§6Helmets§r§6: §r§eOn spell heal, gain §r§9Fire Resistance§r§9 §r§9II§r§9 (§r§900:10§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
     "§6• §r§6Boots§r§6: §r§9+§r§912.5§r§9%§r§9 §r§9Fire Magic Resistance",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§92§r§9 §r§9Flaming Strike",
-    "§6• §r§6Leggings§r§6: §r§eWhen attacked, inflict §r§cCorroded§r§c §r§cII§r§c (§r§c00:07§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Leggings§r§6: §r§eWhen attacked, inflict §r§cCorroded§r§c §r§cII§r§c (§r§c00:07§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§92§r§9 §r§9Flaming Strike"
    ],
    "apotheosis:mythic": [
     "§#c73912Unique",
@@ -4454,8 +4454,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§97.5§r§9%§r§9 §r§9Fire Spell Power",
     "§6• §r§6Helmets§r§6: §r§eOn spell heal, gain §r§9Fire Resistance§r§9 §r§9III§r§9 (§r§900:13§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
     "§6• §r§6Boots§r§6: §r§9+§r§915§r§9%§r§9 §r§9Fire Magic Resistance",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§93§r§9 §r§9Flaming Strike",
-    "§6• §r§6Leggings§r§6: §r§eWhen attacked, inflict §r§cCorroded§r§c §r§cIII§r§c (§r§c00:10§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Leggings§r§6: §r§eWhen attacked, inflict §r§cCorroded§r§c §r§cIII§r§c (§r§c00:10§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§93§r§9 §r§9Flaming Strike"
    ],
    "apotheosis:ancient": [
     "§#c73912Unique",
@@ -4468,8 +4468,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§910§r§9%§r§9 §r§9Fire Spell Power",
     "§6• §r§6Helmets§r§6: §r§eOn spell heal, gain §r§9Fire Resistance§r§9 §r§9IV§r§9 (§r§900:16§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
     "§6• §r§6Boots§r§6: §r§9+§r§920§r§9%§r§9 §r§9Fire Magic Resistance",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§94§r§9 §r§9Flaming Strike",
-    "§6• §r§6Leggings§r§6: §r§eWhen attacked, inflict §r§cCorroded§r§c §r§cIV§r§c (§r§c00:14§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Leggings§r§6: §r§eWhen attacked, inflict §r§cCorroded§r§c §r§cIV§r§c (§r§c00:14§r§c)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§94§r§9 §r§9Flaming Strike"
    ]
   }
  },
@@ -4556,8 +4556,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§92.5§r§9%§r§9 §r§9Blood Spell Power",
     "§6• §r§6Boots§r§6: §r§9+§r§910§r§9%§r§9 §r§9Blood Magic Resistance",
     "§6• §r§6Helmets§r§6: §r§9+§r§91§r§9 §r§9Devour",
-    "§6• §r§6Leggings§r§6: §r§eWhen attacked, gain §r§9Assassin§r§9 (§r§900:03§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
-    "§6• §r§6Light Weapons§r§6: §r§eOn spell damage, gain §r§9Vigor Siphon§r§9 (§r§900:07§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Light Weapons§r§6: §r§eOn spell damage, gain §r§9Vigor Siphon§r§9 (§r§900:07§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Leggings§r§6: §r§eWhen attacked, gain §r§9Assassin§r§9 (§r§900:03§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
    ],
    "apotheosis:epic": [
     "§#c73912Unique",
@@ -4570,8 +4570,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§95§r§9%§r§9 §r§9Blood Spell Power",
     "§6• §r§6Boots§r§6: §r§9+§r§912.5§r§9%§r§9 §r§9Blood Magic Resistance",
     "§6• §r§6Helmets§r§6: §r§9+§r§92§r§9 §r§9Devour",
-    "§6• §r§6Leggings§r§6: §r§eWhen attacked, gain §r§9Assassin§r§9 §r§9II§r§9 (§r§900:07§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
-    "§6• §r§6Light Weapons§r§6: §r§eOn spell damage, gain §r§9Vigor Siphon§r§9 §r§9II§r§9 (§r§900:10§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Light Weapons§r§6: §r§eOn spell damage, gain §r§9Vigor Siphon§r§9 §r§9II§r§9 (§r§900:10§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Leggings§r§6: §r§eWhen attacked, gain §r§9Assassin§r§9 §r§9II§r§9 (§r§900:07§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
    ],
    "apotheosis:mythic": [
     "§#c73912Unique",
@@ -4584,8 +4584,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§97.5§r§9%§r§9 §r§9Blood Spell Power",
     "§6• §r§6Boots§r§6: §r§9+§r§915§r§9%§r§9 §r§9Blood Magic Resistance",
     "§6• §r§6Helmets§r§6: §r§9+§r§93§r§9 §r§9Devour",
-    "§6• §r§6Leggings§r§6: §r§eWhen attacked, gain §r§9Assassin§r§9 §r§9III§r§9 (§r§900:10§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
-    "§6• §r§6Light Weapons§r§6: §r§eOn spell damage, gain §r§9Vigor Siphon§r§9 §r§9III§r§9 (§r§900:13§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Light Weapons§r§6: §r§eOn spell damage, gain §r§9Vigor Siphon§r§9 §r§9III§r§9 (§r§900:13§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Leggings§r§6: §r§eWhen attacked, gain §r§9Assassin§r§9 §r§9III§r§9 (§r§900:10§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
    ],
    "apotheosis:ancient": [
     "§#c73912Unique",
@@ -4598,8 +4598,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§910§r§9%§r§9 §r§9Blood Spell Power",
     "§6• §r§6Boots§r§6: §r§9+§r§920§r§9%§r§9 §r§9Blood Magic Resistance",
     "§6• §r§6Helmets§r§6: §r§9+§r§94§r§9 §r§9Devour",
-    "§6• §r§6Leggings§r§6: §r§eWhen attacked, gain §r§9Assassin§r§9 §r§9IV§r§9 (§r§900:14§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
-    "§6• §r§6Light Weapons§r§6: §r§eOn spell damage, gain §r§9Vigor Siphon§r§9 §r§9IV§r§9 (§r§900:16§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Light Weapons§r§6: §r§eOn spell damage, gain §r§9Vigor Siphon§r§9 §r§9IV§r§9 (§r§900:16§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Leggings§r§6: §r§eWhen attacked, gain §r§9Assassin§r§9 §r§9IV§r§9 (§r§900:14§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
    ]
   }
  },
@@ -4866,8 +4866,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§92.5§r§9%§r§9 §r§9Ender Spell Power",
     "§6• §r§6Chestplates§r§6: §r§9+§r§910§r§9%§r§9 §r§9Ender Magic Resistance",
     "§6• §r§6Helmets§r§6: §r§eOn spell damage, gain §r§9Evasion§r§9 (§r§900:07§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§91§r§9 §r§9Echoing Strikes",
-    "§6• §r§6Boots§r§6: §r§eWhen attacked, gain §r§9Astral Sense [Entity]§r§9 (§r§900:07§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Boots§r§6: §r§eWhen attacked, gain §r§9Astral Sense [Entity]§r§9 (§r§900:07§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§91§r§9 §r§9Echoing Strikes"
    ],
    "apotheosis:epic": [
     "§#c73912Unique",
@@ -4880,8 +4880,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§95§r§9%§r§9 §r§9Ender Spell Power",
     "§6• §r§6Chestplates§r§6: §r§9+§r§912.5§r§9%§r§9 §r§9Ender Magic Resistance",
     "§6• §r§6Helmets§r§6: §r§eOn spell damage, gain §r§9Evasion§r§9 §r§9II§r§9 (§r§900:10§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§91§r§9 §r§9Echoing Strikes",
-    "§6• §r§6Boots§r§6: §r§eWhen attacked, gain §r§9Astral Sense [Entity]§r§9 §r§9II§r§9 (§r§900:10§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Boots§r§6: §r§eWhen attacked, gain §r§9Astral Sense [Entity]§r§9 §r§9II§r§9 (§r§900:10§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§91§r§9 §r§9Echoing Strikes"
    ],
    "apotheosis:mythic": [
     "§#c73912Unique",
@@ -4894,8 +4894,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§97.5§r§9%§r§9 §r§9Ender Spell Power",
     "§6• §r§6Chestplates§r§6: §r§9+§r§915§r§9%§r§9 §r§9Ender Magic Resistance",
     "§6• §r§6Helmets§r§6: §r§eOn spell damage, gain §r§9Evasion§r§9 §r§9III§r§9 (§r§900:13§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§92§r§9 §r§9Echoing Strikes",
-    "§6• §r§6Boots§r§6: §r§eWhen attacked, gain §r§9Astral Sense [Entity]§r§9 §r§9III§r§9 (§r§900:13§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Boots§r§6: §r§eWhen attacked, gain §r§9Astral Sense [Entity]§r§9 §r§9III§r§9 (§r§900:13§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§92§r§9 §r§9Echoing Strikes"
    ],
    "apotheosis:ancient": [
     "§#c73912Unique",
@@ -4908,8 +4908,8 @@
     "§6• §r§6Staffs§r§6: §r§9+§r§910§r§9%§r§9 §r§9Ender Spell Power",
     "§6• §r§6Chestplates§r§6: §r§9+§r§920§r§9%§r§9 §r§9Ender Magic Resistance",
     "§6• §r§6Helmets§r§6: §r§eOn spell damage, gain §r§9Evasion§r§9 §r§9IV§r§9 (§r§900:16§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
-    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§92§r§9 §r§9Echoing Strikes",
-    "§6• §r§6Boots§r§6: §r§eWhen attacked, gain §r§9Astral Sense [Entity]§r§9 §r§9III§r§9 (§r§900:16§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]"
+    "§6• §r§6Boots§r§6: §r§eWhen attacked, gain §r§9Astral Sense [Entity]§r§9 §r§9III§r§9 (§r§900:16§r§9)§r§e §r§e[⌛ §r§e00:25§r§e]",
+    "§6• §r§6Heavy Weapons§r§6: §r§9+§r§92§r§9 §r§9Echoing Strikes"
    ]
   }
  },

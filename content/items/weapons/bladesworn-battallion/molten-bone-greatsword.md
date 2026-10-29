@@ -27,7 +27,7 @@
   dungeons_and_combat jar: MoltenBoneGreatswordItem has no hit or use procedure
 -->
 
-**Molten Bone Greatsword** is a sword from dungeons and combat. It is weapon 14 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Molten Bone Greatsword** is a sword from dungeons and combat. It is weapon 14 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

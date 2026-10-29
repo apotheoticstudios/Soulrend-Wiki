@@ -26,7 +26,7 @@
   game-data/movesets.json (Epic Fight type epicfight:iceandfire_longsword, from paxi:soulrend_ef_capabilities)
 -->
 
-**Dragon Bone Sword** is a sword from Ice and Fire. It is weapon 16 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Dragon Bone Sword** is a sword from Ice and Fire. It is weapon 16 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

@@ -28,7 +28,7 @@
   config/soulsweapons/soulsweapons.json (dragonbane_dragons_scourge_bonus 20, chain_lightning_damage_per_level 6)
 -->
 
-**Dragonbane** is a katana from Marium's Soulslike Weaponry. It is weapon 21 of 37 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
+**Dragonbane** is a katana from Marium's Soulslike Weaponry. It is weapon 23 of 42 in [[items/weapons/path-of-the-samurai|Path of the Samurai]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

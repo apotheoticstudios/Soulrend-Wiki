@@ -27,7 +27,7 @@
   womplus jar: packs/wom_override/data/wom/capabilities/weapons/diamond_greataxe.json (type womplus:greataxe)
 -->
 
-**Diamond Greataxe (Weapons of miracle)** is a greataxe from Weapons of miracle. It is weapon 12 of 56 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
+**Diamond Greataxe (Weapons of miracle)** is a greataxe from Weapons of miracle. It is weapon 13 of 58 in [[items/weapons/heavy-load|Heavy Load]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 

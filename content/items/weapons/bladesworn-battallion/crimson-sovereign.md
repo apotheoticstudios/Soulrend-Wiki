@@ -28,7 +28,7 @@
   dungeons_and_combat jar: CrimsonSovereignSwordItem (tooltip only)
 -->
 
-**Crimson Sovereign** is a sword from dungeons and combat. It is weapon 48 of 49 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
+**Crimson Sovereign** is a sword from dungeons and combat. It is weapon 48 of 50 in [[items/weapons/bladesworn-battallion|Bladesworn Battallion]], a Pursuit of Mastery quest chapter.
 
 ## Obtaining
 
