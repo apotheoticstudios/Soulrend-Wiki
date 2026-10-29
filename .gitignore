@@ -6,3 +6,4 @@ dist-dev.tmp/
 .DS_Store
 .env
 .cache/
+.wrangler/
