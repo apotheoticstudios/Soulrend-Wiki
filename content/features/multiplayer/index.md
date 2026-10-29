@@ -4,15 +4,16 @@
   "navTitle": "Multiplayer",
   "category": "Features",
   "order": 8,
+  "summary": "Playing Soulrend with others: shared quest teams, land claims and the official servers.",
   "icon": "minecraft:bell"
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  see each page's sources
+-->
+**Multiplayer Features** covers playing Soulrend with other people. Quest progress can be shared through a team, land can be claimed so other players and explosions can't touch it, and Craft Down Under runs official servers in three regions with one shared character.
 
 ## In this section
 
-- [[features/multiplayer/soulrend-realms|Soulrend Realms]] — Official AU, EU and US servers with one shared character.
-- [[features/multiplayer/factions-and-sieges|Factions & Sieges]] — Valarian Conquest factions, castles and soldiers.
-- [[features/multiplayer/teams-and-claims|Teams & Claims]] — FTB Teams and Open Parties and Claims.
+- [[features/multiplayer/teams-and-claims|Teams & Claims]]: FTB Teams parties for shared quests, and Open Parties and Claims for protecting land.
+- [[features/multiplayer/soulrend-realms|Official Servers]]: the AU, EU and US servers, how to join them and how to switch region.

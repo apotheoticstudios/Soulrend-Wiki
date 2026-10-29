@@ -33,7 +33,7 @@
 
 ## Location
 
-The Tree of Light (`souls_like_bosses:tree_of_light`) generates only in the Dead Ocean biome of the Past, at most once per 100 × 100 chunk area, which makes it very rare. The Past is reached with the [[item:kubejs:emblem_of_the_past]] (see [[features/mobs-and-world/the-past|The Past]]).
+The Tree of Light (`souls_like_bosses:tree_of_light`) generates only in the Dead Ocean biome of the Past, at most once per 100 × 100 chunk area, which makes it very rare. The Past is reached with the [[item:kubejs:emblem_of_the_past]] (see [[progression/act-v-duties/visit-the-past#The Past|The Past]]).
 
 No Past soldiers spawn within 96 blocks of the Nightlord.
 

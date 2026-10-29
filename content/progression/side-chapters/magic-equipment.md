@@ -71,7 +71,7 @@ An Empty Upgrade Orb (after the Arcane Ingot, Cinder Essence and Mithril Ingot) 
 
 ### Familiars
 
-**Alshanex's Familliars** explains that familiars are tamed with Arcane Essence and told to stay with a Stick. It opens four structure quests (Hunter Campsite, Graveyard, Origin Island, End Laboratory), a Bottled Familiar Soul and fourteen familiar shards, and the Shrinkinator, which crafts familiar equipment: Life Fruits, Plating, Magic Power and Magic Resist Essences, and the Tiny Totem. See [[features/magic/familiars|Familiars]].
+**Alshanex's Familliars** explains that familiars are tamed with Arcane Essence and told to stay with a Stick. It opens four structure quests (Hunter Campsite, Graveyard, Origin Island, End Laboratory), a Bottled Familiar Soul and fourteen familiar shards, and the Shrinkinator, which crafts familiar equipment: Life Fruits, Plating, Magic Power and Magic Resist Essences, and the Tiny Totem. See [[items/magic/familiars|Familiars (Items)]].
 
 ## Rewards
 

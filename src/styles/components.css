@@ -196,6 +196,27 @@ span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
 .model-pick:hover { border-color: var(--accent); }
 .model-pick[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
 
+/* Attack viewer in moveset embeds (attack-viewer.js): a style row, then each style's moves in groups. */
+.embed-attacks { margin: 1em 0 1.2em; }
+.attack-moves { column-gap: 12px; }
+.attack-moves[hidden] { display: none; }
+.attack-group { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.attack-group .model-axis { min-width: 0; margin-right: 2px; }
+.attack-type {
+  margin-left: 6px;
+  max-width: min(100%, 28em);
+  padding: 3px 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  color: var(--fg);
+  font-family: var(--font-ui);
+  font-size: 12px;
+}
+.moveset-type { margin: 0.4em 0; }
+.moveset-type > summary { cursor: pointer; font-family: var(--font-ui); }
+.moveset-type > summary code { margin-left: 4px; font-size: 0.85em; color: var(--muted); }
+
 /* Skill tree maps (src/client/skilltree.js). Always dark, like the game's skill tree screen. */
 .embed-skilltree { margin: 1.5em 0; }
 .skilltree-stage {
@@ -337,7 +358,11 @@ html:has(.model-dialog[open]) { overflow: hidden; }
 }
 .recipe-gui { position: relative; width: calc(var(--gw) * var(--u)); height: calc(var(--gh) * var(--u)); }
 .recipe-info { margin: 0 !important; font-size: 13px; opacity: 0.85; }
-.recipe-none, .recipe-more { color: var(--muted); font-family: var(--font-ui); font-size: 14px; }
+.recipe-none, .recipe-more > summary { color: var(--muted); font-family: var(--font-ui); font-size: 14px; }
+.recipe-more { margin: -0.4em 0 1.2em; }
+.recipe-more > summary { width: fit-content; margin-bottom: 0.8em; cursor: pointer; }
+.recipe-more > summary:hover { color: var(--fg); }
+.recipe-more[open] .more-closed, .recipe-more:not([open]) .more-open { display: none; }
 
 .recipe-slot {
   position: absolute;

@@ -34,7 +34,7 @@
 
 ## Location
 
-Arterius waits at the Gate of Disaster (`nightfall_invade:gate_of_disaster`), which Soulrend places only in the Dead Wasteland biome of the Past, at most once per 70 × 70 chunk area. The Past is reached with the [[item:kubejs:emblem_of_the_past]] (see [[features/mobs-and-world/the-past|The Past]]).
+Arterius waits at the Gate of Disaster (`nightfall_invade:gate_of_disaster`), which Soulrend places only in the Dead Wasteland biome of the Past, at most once per 70 × 70 chunk area. The Past is reached with the [[item:kubejs:emblem_of_the_past]] (see [[progression/act-v-duties/visit-the-past#The Past|The Past]]).
 
 No Past soldiers spawn within 96 blocks of Arterius.
 

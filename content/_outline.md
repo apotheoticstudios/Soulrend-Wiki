@@ -466,27 +466,16 @@ Mechanics that Soulrend adds or changes.
 
 - [[features|Features]]
   - [[features/character|Character Features]]
-    - [[features/character/inventory-tabs|Inventory Tabs]] — Inventory, Levelling, Origins, Skill Tree, Quests and Combat Skills tabs.
-    - [[features/character/origin-selector|Origin Selector]] — Paged Race → Class → Path picker with class tabs and Random.
+    - [[features/character/inventory-tabs|Inventory Tabs]] — Inventory, Levelling, Skill Tree, Quests and Combat Skills tabs.
+    - [[features/character/origin-selector|Origin Selector]] — Paged Race → Class picker with class tabs and Random.
   - [[features/combat|Combat Features]]
-    - [[features/combat/epic-fight-combat|Epic Fight Combat]] — The core combat system, movesets and skills.
-    - [[features/combat/combat-skill-books|Combat Skill Books (Feature)]] — About 55 skill book recipes.
     - [[features/combat/two-handed-weapons|Two-Handed Weapons]] — Off-hand items give no dual-wield bonus next to a two-handed weapon.
     - [[features/combat/lifesteal|Lifesteal]] — Heals relative to max HP on a log curve, capped at 15% per hit.
     - [[features/combat/mounted-combat|Mounted Combat]] — The Mounted effect while riding.
-    - [[features/combat/estus-and-crimson-flasks|Estus & Crimson Flasks]] — Estus heals 25% of max HP; Crimson heals 75%.
-    - [[features/combat/boss-damage-limits|Boss Damage Limits]] — Bosses can lose at most a set % of HP per second (Cataclysm 5%, Nightwarden 4%, others 20%).
+    - [[features/combat/boss-damage-limits|Boss Damage Limits]] — Bosses can lose at most a set % of HP per second.
     - [[features/combat/companion-protection|Companion Protection]] — Your summons and companions cannot hurt you or your team.
-  - [[features/mobs-and-world|Mobs & World Features]]
-    - [[leveling/mob-levels|Mob Levels]] — moved to the Leveling section.
-    - [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]] — Each Cataclysm eye teleports you to its boss dimension.
-    - [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]] — Craftable keys open the cave dimensions.
-    - [[features/mobs-and-world/the-past|The Past]] — The Act V dimension: soldier reskins, Elden dragons, buffed bosses.
-    - [[features/mobs-and-world/maze-mother-ambush|Maze Mother Ambush]] — An anglerfish becomes the Maze Mother at midnight.
-    - [[features/mobs-and-world/shriek-worm-and-stalkers|Shriek Worm & Stalkers]] — Shriek Worm boss bar and range rule; Stalkers only in the Otherside.
-    - [[features/mobs-and-world/lich-summoning|Lich Summoning]] — Sculk Transmitter on the Graveyard altar summons the Lich.
-    - [[features/mobs-and-world/forlorn-armor-drops|Forlorn Armor Drops]] — Forlorn don't drop their armor.
-    - [[features/mobs-and-world/chorus-fruit-and-end-stone|Chorus Fruit & End Stone]] — Chorus Fruit recipe; chorus fruit turns stone into end stone.
+    - Epic Fight Combat, Combat Skill Books and Estus & Crimson Flasks — moved 2026-10-28 to the Epic Fight section and [[items/consumables/healing|Healing]].
+  - Mobs & World Features — removed 2026-10-28; its topics live on the boss, enemy, item and quest pages (Cataclysm Eyes, Cave Dimension Keys, Visit the Past, Mother of the Maze, Shriek Worm, Stalker, Corrupted Champion, Forlorn and Withered Demon). Mob Levels moved to the Leveling section.
   - [[features/gear-and-crafting|Gear & Crafting Features]]
     - [[features/gear-and-crafting/equipment-upgrades|Equipment Upgrades]] — Upgrade recipes keep enchantments and data.
     - [[features/gear-and-crafting/scrapping|Scrapping]] — Break items back into materials.
@@ -500,28 +489,38 @@ Mechanics that Soulrend adds or changes.
     - [[features/gear-and-crafting/loot-changes|Loot Changes]] — Wizard armor, familiar trinkets and crafted items are removed from loot.
     - [[features/gear-and-crafting/removed-items|Removed Items]] — Items removed or hidden by Item Obliterator and KubeJS.
   - [[features/magic|Magic Features]]
-    - [[features/magic/spell-schools|Spell Schools]] — 12 schools of magic and their spell power.
-    - [[features/magic/cannibalism-spell|Cannibalism Spell]] — Eldritch spell that drops you to 1 HP and gives Raw Human Flesh.
-    - [[features/magic/familiars|Familiars (Feature)]] — Alshanex's Familiars companions.
-    - [[features/magic/spell-upgrades|Spell Upgrades]] — Per-spell upgrade and innate attributes.
-  - [[features/dragons|Dragons Features]]
-    - [[features/dragons/reusable-summoning-crystals|Reusable Summoning Crystals]] — Recall your own loaded dragon; 10 s cooldown; sneak-click to unbind.
-    - [[features/dragons/dragon-radars|Dragon Radars]] — Find dragons with radars.
+    - [[features/magic/casting-spells|Casting Spells]] — Spellbooks, imbued weapons and single-use scrolls; spell wheel vs quick casting.
+    - [[features/magic/mana|Mana]] — Max mana, the slowed regeneration and how to raise both.
+  - Dragons Features — removed 2026-10-28; summoning crystals are on [[items/dragons/summoning-crystals|Summoning Crystals]], radars on [[items/dragons/dragon-utility|Dragon Utility]] and the Act II dragon pages.
   - [[features/travel-and-storage|Travel & Storage Features]]
-    - [[features/travel-and-storage/waystones-and-warp-items|Waystones & Warp Items (Feature)]] — Waystones, warp stones and warp scrolls.
-    - [[features/travel-and-storage/backpacks|Backpacks (Feature)]] — Traveler's Backpacks and upgrades.
-    - [[features/travel-and-storage/toms-storage-network|Tom's Storage Network]] — Storage terminal and connectors.
+    - [[features/travel-and-storage/waystones|Waystones Guide]] — Finding, crafting and using waystones and warp items.
+    - [[features/travel-and-storage/storage-practices|Storage Practices]] — Upgrading chests in place, choosing containers, waterlogging chests.
+    - [[features/travel-and-storage/toms-storage-network|Tom's Storage Network]] — Step-by-step Tom's Simple Storage guide.
+    - [[features/travel-and-storage/backpacks|Backpacks (Feature)]] — Making, wearing and upgrading a Traveler's Backpack.
     - [[features/travel-and-storage/corpses|Corpses]] — Your items stay in a corpse on death.
   - [[features/multiplayer|Multiplayer Features]]
-    - [[features/multiplayer/soulrend-realms|Soulrend Realms]] — Official AU, EU and US servers with one shared character.
-    - [[features/multiplayer/factions-and-sieges|Factions & Sieges]] — Valarian Conquest factions, castles and soldiers.
     - [[features/multiplayer/teams-and-claims|Teams & Claims]] — FTB Teams and Open Parties and Claims.
+    - [[features/multiplayer/soulrend-realms|Official Servers]] — Official AU, EU and US servers with one shared character.
   - [[features/settings-and-performance|Settings & Performance Features]]
-    - [[features/settings-and-performance/graphics-presets|Graphics Presets]] — Potato to Ultra in one Video Settings tab.
+    - [[features/settings-and-performance/graphics-presets|Graphics Presets]] — Potato to Ultra in one Video Settings page.
     - [[features/settings-and-performance/first-launch-setup|First-Launch Setup]] — Picks a starting preset and offers better Java arguments.
     - [[features/settings-and-performance/pre-generation|Pre-generation]] — Generates terrain while you pick your origin.
   - [[features/commands|Commands Features]]
-    - [[features/commands/soulrend-command|/soulrend]] — `/soulrend silent` and `/soulrend debug dump inventory|spells`.
+    - [[features/commands/soulrend-command|/soulrend]] — Levels, skill points, `silent` and debug dumps.
+    - [[features/commands/origin-command|/origin]] — Read, set, randomize or re-pick an origin.
+    - [[features/commands/skilltree-command|/skilltree]] — Skill points, tree resets and granted skills.
+    - [[features/commands/other-commands|Other Commands]] — Parties, claims, teams, /fsoclient and operator tools.
+
+## Epic Fight
+
+Epic Fight combat, its own sidebar category (2026-10-28).
+
+- [[epic-fight|Epic Fight Combat]]
+  - [[epic-fight/innate-skills|Innate Skills]] — 160 hidden stubs under `epic-fight/innate-skills/`, generated from `game-data/movesets.json`.
+  - [[epic-fight/weapon-types|Weapon Types]] — 55 hidden stubs (one per weapon category) under `epic-fight/weapon-types/`.
+  - [[epic-fight/skill-books|Skill Books (Epic Fight)]] — links the 53 item pages under `items/skill-books/`.
+  - [[epic-fight/dodging-and-parrying|Dodging & Parrying]]
+  - [[epic-fight/weight-and-stuns|Weight & Stuns]]
 
 ## Mods
 

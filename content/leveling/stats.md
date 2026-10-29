@@ -34,7 +34,7 @@ All bonuses are flat additions. Percentages are added to stats that start at 100
 
 ## Spending points
 
-Points are spent in the **Stats** menu of the Levelling screen (a tab in the inventory). The + and − buttons queue changes and the **Level Up** button applies them.
+Points are spent in the Character panel of the Levelling screen (a tab in the inventory, see [[features/character/inventory-tabs|Inventory Tabs]]). The + and − buttons queue changes and the **Level Up** button applies them.
 
 - A stat can't go above 30.
 - **Respeccing is free.** The − button takes a point out of any stat above 0 and returns it, so points can be moved between stats at any time.

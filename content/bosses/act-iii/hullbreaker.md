@@ -34,7 +34,7 @@
 
 ## Location
 
-The Hullbreaker spawns naturally in the water of the Abyssal Chasm, one at a time. The [[item:alex_caves_dimensions:abyssal_chasm_key]] key teleports the player to the Abyssal Chasm (see [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]]).
+The Hullbreaker spawns naturally in the water of the Abyssal Chasm, one at a time. The [[item:alex_caves_dimensions:abyssal_chasm_key]] key teleports the player to the Abyssal Chasm (see [[items/progression-keys/cave-dimension-keys|Cave Dimension Keys]]).
 
 ## Stats
 

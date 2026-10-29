@@ -38,7 +38,7 @@ Wither skeletons spawn rarely in the Dead Wasteland biome of the Past (spawn wei
 - no spawn if more than 3 other Past soldiers are within 24 blocks;
 - no spawn within 96 blocks of [[Arterius, the Last Watcher]], [[Ó Brolacháin, the Scarlet Hunter]] or [[The Nightlord]].
 
-The Past is reached with the [[item:kubejs:emblem_of_the_past]] (see [[features/mobs-and-world/the-past|The Past]]).
+The Past is reached with the [[item:kubejs:emblem_of_the_past]] (see [[progression/act-v-duties/visit-the-past#The Past|The Past]]).
 
 ## Stats
 

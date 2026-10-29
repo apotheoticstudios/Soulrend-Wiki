@@ -37,7 +37,7 @@ Unlike the other bosses of the chapter, Magnetron is a regular spawning mob with
 
 ## Spawning
 
-Magnetrons spawn naturally as hostile mobs in the Magnetic Caves, one at a time. The [[item:alex_caves_dimensions:magnetic_caves_key]] key teleports the player there (see [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]]).
+Magnetrons spawn naturally as hostile mobs in the Magnetic Caves, one at a time. The [[item:alex_caves_dimensions:magnetic_caves_key]] key teleports the player there (see [[items/progression-keys/cave-dimension-keys|Cave Dimension Keys]]).
 
 ## Stats
 

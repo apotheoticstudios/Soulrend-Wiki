@@ -51,7 +51,7 @@
 | Lightning Radar | Lightning Dragon | [[item:dragonradarmod:lightning_radar]] | 2 electric Dragon Scales, 1 XP level |
 | Master Radar | All four radars | [[item:dragonradarmod:master_radar]] | [[item:fantasy_armor:dragonslayer_helmet]] (one socket), 2 XP levels |
 
-Each radar finds dragons of its type; the Master Radar finds any type. See [[features/dragons/dragon-radars|Dragon Radars]].
+Each radar finds dragons of its type; the Master Radar finds any type. See [[items/dragons/dragon-utility#Using a radar|Dragon Utility]] for how the radars work.
 
 ### Eggs and forges
 

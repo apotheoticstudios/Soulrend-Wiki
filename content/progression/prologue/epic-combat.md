@@ -45,7 +45,7 @@ Four [[item:epicfight:skillbook]]s, one of each:
 | Soul-like Dodge | EpicFight Nightfall (`efn:efn_dodge`) |
 | Step | Epic Fight (`epicfight:step`) |
 
-Right-click a skill book to learn its skill. See [[features/combat/combat-skill-books|Combat Skill Books]] for the skill slots.
+Right-click a skill book to learn its skill. See [[epic-fight/skill-books|Skill Books (Epic Fight)]] for the skill slots and [[epic-fight/dodging-and-parrying|Dodging & Parrying]] for how each skill plays.
 
 ## Walkthrough
 

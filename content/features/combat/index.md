@@ -4,20 +4,19 @@
   "navTitle": "Combat",
   "category": "Features",
   "order": 2,
+  "summary": "Soulrend's combat rules outside Epic Fight: two-handed weapons, lifesteal, mounted bonuses, boss damage limits and companion protection.",
   "icon": "epicfight:iron_longsword"
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  see each page's sources
+-->
+**Combat Features** covers the rules Soulrend adds to fighting outside Epic Fight's own system. Movesets, innate skills, skill books, dodging and stamina have their own section: see [[epic-fight|Epic Fight]]. Healing flasks are on [[items/consumables/healing|Healing]].
 
 ## In this section
 
-- [[features/combat/epic-fight-combat|Epic Fight Combat]] — The core combat system, movesets and skills.
-- [[features/combat/combat-skill-books|Combat Skill Books (Feature)]] — About 55 skill book recipes.
-- [[features/combat/two-handed-weapons|Two-Handed Weapons]] — Off-hand items give no dual-wield bonus next to a two-handed weapon.
-- [[features/combat/lifesteal|Lifesteal]] — Heals relative to max HP on a log curve, capped at 15% per hit.
-- [[features/combat/mounted-combat|Mounted Combat]] — The Mounted effect while riding.
-- [[features/combat/estus-and-crimson-flasks|Estus & Crimson Flasks]] — Estus heals 25% of max HP; Crimson heals 75%.
-- [[features/combat/boss-damage-limits|Boss Damage Limits]] — Bosses can lose at most a set % of HP per second (Cataclysm 5%, Nightwarden 4%, others 20%).
-- [[features/combat/companion-protection|Companion Protection]] — Your summons and companions cannot hurt you or your team.
+- [[features/combat/two-handed-weapons|Two-Handed Weapons]]: 350 weapons that turn off dual-wielding bonuses while held.
+- [[features/combat/lifesteal|Lifesteal]]: Soulrend's own lifesteal attribute, which heals a share of your max HP per hit.
+- [[features/combat/mounted-combat|Mounted Combat]]: the Mounted effect and the Ranger bonuses that use it.
+- [[features/combat/boss-damage-limits|Boss Damage Limits]]: how much health each boss can lose per second.
+- [[features/combat/companion-protection|Companion Protection]]: why your pets and summons can't hurt you or your team.

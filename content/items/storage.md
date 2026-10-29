@@ -385,6 +385,8 @@
 
 **Storage Items** are the pack's chests, barrels, drawers and item networks, from five mods. They don't affect progression; this page explains how each system works, and the tables below list every item with its tooltip.
 
+Two guides go with this page: [[features/travel-and-storage/storage-practices|Storage Practices]] (upgrading chests in place, choosing containers and waterlogging chests against explosions) and [[features/travel-and-storage/toms-storage-network|Tom's Storage Network]] (building a searchable storage system step by step).
+
 ## Usage
 
 ### Sophisticated Storage
@@ -416,7 +418,7 @@ A drawer block holds large amounts of one item per slot: a full 1×1 drawer hold
 
 ### Tom's Simple Storage
 
-An **Inventory Connector** joins every touching inventory into one network (up to 16 blocks away, with **Trims** filling gaps). A **Storage Terminal** placed on the network shows every item in it; the **Crafting Terminal** adds a crafting grid. **Inventory Cables** with Cable Connectors reach farther inventories. The **Wireless Terminal** works within 16 blocks of a terminal; the **Advanced Wireless Terminal** binds to a terminal (shift-right-click) and works within 64 blocks, or from anywhere in the dimension when the terminal sits on a beacon. The Inventory Hopper imports or exports filtered items, and the Level Emitter gives a redstone signal based on contents.
+See [[features/travel-and-storage/toms-storage-network|Tom's Storage Network]] for a step-by-step guide. An **Inventory Connector** joins every touching inventory into one network (up to 16 blocks away, with **Trims** filling gaps). A **Storage Terminal** placed on the network shows every item in it; the **Crafting Terminal** adds a crafting grid. **Inventory Cables** with Cable Connectors reach farther inventories. The **Wireless Terminal** works within 16 blocks of a terminal; the **Advanced Wireless Terminal** binds to a terminal (shift-right-click) and works within 64 blocks, from anywhere in the dimension with a level 1 beacon within 8 blocks of the bound terminal, and from other dimensions with a level 4 beacon. The Inventory Hopper imports or exports filtered items, and the Level Emitter gives a redstone signal based on contents.
 
 ### Iron Chests: Restocked
 

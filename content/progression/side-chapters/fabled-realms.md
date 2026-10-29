@@ -79,7 +79,7 @@ Opened by **The End** checkmark in [[progression/act-iv-beyond-reality|Act IV]].
 
 ## The Caverns
 
-Opened by **The Caverns** checkmark in [[progression/act-iii-into-the-flames|Act III]]. Alex's Caves biomes are separate dimensions in Soulrend, each entered with a key item (see [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]]). For each one, the chapter asks for the key, the visit and the boss:
+Opened by **The Caverns** checkmark in [[progression/act-iii-into-the-flames|Act III]]. Alex's Caves biomes are separate dimensions in Soulrend, each entered with a key item (see [[items/progression-keys/cave-dimension-keys|Cave Dimension Keys]]). For each one, the chapter asks for the key, the visit and the boss:
 
 | Key | Dimension | Boss | Boss rewards |
 | --- | --- | --- | --- |

@@ -43,7 +43,7 @@ At level 250 it is far above any player's level, and Soulrend limits it to losin
 
 ## Location
 
-Maledictus lives in the Frosted Prison (`cataclysm:frosted_prison`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Eternal Frosthold** (`cataclysm_dimension:cataclysm_eternal_frosthold`). Shift-right-clicking with an [[item:cataclysm:cursed_eye]] teleports the player there. See [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]].
+Maledictus lives in the Frosted Prison (`cataclysm:frosted_prison`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Eternal Frosthold** (`cataclysm_dimension:cataclysm_eternal_frosthold`). Shift-right-clicking with an [[item:cataclysm:cursed_eye]] teleports the player there. See [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]].
 
 {{recipes cataclysm:cursed_eye}}
 

@@ -71,7 +71,7 @@
 
 ### Traveler's Backpacks
 
-Every Traveler's Backpack is worn in the Curios back slot (or placed as a block) and holds the same storage; the designs differ only in their abilities. Soulrend uses the mod's default server settings:
+Every Traveler's Backpack is worn in the Curios back slot (or placed as a block) and holds the same storage; the designs differ only in their abilities. [[features/travel-and-storage/backpacks|Backpacks (Feature)]] walks through making, wearing and keeping one. Soulrend uses the mod's default server settings:
 
 | Tier | Slots | Upgrade slots | Tool slots |
 | --- | --- | --- | --- |

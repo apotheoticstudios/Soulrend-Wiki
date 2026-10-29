@@ -57,4 +57,4 @@ These quests ask for an enchanted book from EpicFight Nightfall that gives a wea
 
 The YAMATO itself is a reward of [[progression/act-v-duties/defeat-the-scarlet-hunter|Defeat The Scarlet Hunter]] in Act V.
 
-See [[features/combat/combat-skill-books|Combat Skill Books]] and [[features/combat/epic-fight-combat|Epic Fight Combat]].
+See [[epic-fight/skill-books|Skill Books (Epic Fight)]] and the [[epic-fight|Epic Fight]] section.

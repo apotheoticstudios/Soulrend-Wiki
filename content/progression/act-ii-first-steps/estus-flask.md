@@ -39,7 +39,7 @@ Click the checkmark task, **Estus Flask**.
 
 - 3 [[item:dungeons_and_combat:estus_flask]]
 
-Drinking an Estus Flask heals 25% of maximum health. See [[features/combat/estus-and-crimson-flasks|Estus and Crimson Flasks]].
+Drinking an Estus Flask heals 25% of maximum health. See [[items/consumables/healing|Healing]] for both flasks.
 
 ## Huge Estus Flask
 

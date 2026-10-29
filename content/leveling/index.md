@@ -36,12 +36,12 @@ The Prologue quest [[progression/prologue/leveling-up|Leveling Up]] introduces t
 
 ## The Levelling screen
 
-The Levelling screen is a tab in the inventory, next to the Origins, Skill Tree, Quests and Combat Skills tabs. It shows the player's level, rank, progress toward the next level ("Progress *damage* / *requirement*") and the skill points earned so far. Its menus are:
+The Levelling screen is a tab in the inventory, next to the Skill Tree, Quests and Combat Skills tabs (see [[features/character/inventory-tabs|Inventory Tabs]]). Its left panel shows the player's level, rank, progress toward the next level ("Progress *damage* / *requirement*"), the skill points earned so far, and the six [[leveling/stats|stats]] with the buttons that spend attribute points. The right panel has four menus:
 
-- **Attributes:** the player's current attribute values, grouped into sections (Core, Combat, Defense, Vigor, Resist, Spell, Utility and others).
-- **Stats:** where attribute points are spent. See [[leveling/stats|Stats]].
+- **Attributes:** the player's current attribute values, grouped into sections (Core, Combat, Defense, Vigor, Resist, Spell and Utility).
 - **Titles:** where a title is chosen. See [[leveling/titles-and-ranks|Titles & Ranks]].
-- **Skills**, **Perks**, **Origins** and **Factions**.
+- **Factions:** the player's Valarian Conquest citizenship.
+- **Origins:** the player's race and class and their powers.
 
 ## Details
 

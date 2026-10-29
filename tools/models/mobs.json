@@ -22,6 +22,49 @@
       "$why": "G's ReDraco is the last pack Soulrend loads over the dragons (after Excalibur's Ice and Fire pack); used on the dragons only"
     }
   ],
+  "$attacks": {
+    "$comment": "The Epic Fight attack viewer in {{moveset}} embeds: npm run attacks builds it, npm run skin -- <png> swaps the player's skin. See tools/make-attacks.mjs.",
+    "skin": "assets/john_soulrend/skin.png",
+    "$skin": "slim (Alex) arms are detected from the skin's transparent arm columns; set \"slim\": true or false to override",
+    "mesh": {
+      "wide": "epicfight:animmodels/entity/biped.json",
+      "slim": "epicfight:animmodels/entity/biped_slim_arm.json"
+    },
+    "dummy": {
+      "layer": "net/mehvahdjukaar/dummmmmmy/client/TargetDummyModel.createMesh",
+      "args": [
+        0,
+        64
+      ],
+      "setup": "net/mehvahdjukaar/dummmmmmy/client/TargetDummyModel",
+      "texture": "dummmmmmy:textures/entity/dummy.png",
+      "size": [
+        0.6,
+        2.0
+      ],
+      "damage": 7,
+      "config": "config/dummmmmmy-client.toml",
+      "$why": "MmmMmmMmmMmm's target dummy, as DummmmmmyClient registers its body layer (createMesh(0, 64)); size from its EntityType (sized(0.6, 2)). The hit wobble is its own prepareMobModel/setupAnim, driven by TargetDummyEntity's shake for a hit of `damage` (an iron sword's 7, as a stand-in) at the client config's animation_intensity"
+    },
+    "horse": {
+      "layer": "net/minecraft/client/model/geom/LayerDefinitions.createRoots",
+      "key": "minecraft:horse#main",
+      "setup": "net/minecraft/client/model/HorseModel",
+      "texture": "minecraft:textures/entity/horse/horse_brown.png",
+      "width": 1.3964844,
+      "rider": 0.85,
+      "pose": "epicfight:biped/living/mount",
+      "mask": "epicfight:animmodels/joint_mask/biped/upper_joints.json",
+      "$why": "Mounted attacks ride a saddled brown horse (HorseModel.setupAnim with a saddled, ridden horse). rider: the player's feet above the ground, Entity.getPassengersRidingOffset (0.75 × the horse's 1.6 height) plus Player.getMyRidingOffset (-0.35). A mounted attack moves only the joints of Epic Fight's upper_joints mask; the rest keep the riding pose (Animations.BIPED_MOUNT)"
+    },
+    "maxDummies": 5,
+    "clearance": 1.2,
+    "$clearance": "how far (blocks) a dummy stands at least from the player, so the two models don't overlap; attacks that reach no further get dummies just past the player's hitbox",
+    "everyItem": true,
+    "$everyItem": "true builds every weapon's own model (about 1,300 files, 19 MB) so item pages show that weapon; false keeps one per weapon type",
+    "items": {},
+    "$items": "weapon type → the item held in its viewer, when the automatic pick (the type's own mod first, then vanilla, then the rest, skipping items drawn by code) isn't the best one"
+  },
   "alexscaves:atlatitan": {
     "boxes": "com/github/alexmodguy/alexscaves/client/model/AtlatitanModel",
     "texture": "alexscaves:textures/entity/atlatitan.png",

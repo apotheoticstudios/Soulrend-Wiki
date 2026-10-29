@@ -21,21 +21,9 @@ export function writeGlb(model) {
   const layers = model.layers ?? [{ texture: model.texture, emissive: model.emissive, parts: model.parts ?? [], meshes: model.meshes }];
   const animated = new Set((model.animations ?? []).flatMap(a => a.tracks.map(t => t.part)));
 
-  // Part tree → node tree with per-material geometry in each node's own space.
-  const toNode = (part, layerIndex) => {
-    if (part.hidden) return null;
-    if (part.layer !== undefined) layerIndex = part.layer;
-    const node = { name: part.name, ...transform(part.pos, part.rot, part.scale), geo: new Map(), children: [] };
-    if (part.cubes?.length) addGeometry(node, layerIndex, cubesToMesh(part.cubes, layers[layerIndex].texture));
-    for (const child of part.children ?? []) {
-      const c = toNode(child, layerIndex);
-      if (c) node.children.push(c);
-    }
-    return node;
-  };
   const root = { name: 'root', translation: [0, 1.5, 0], geo: new Map(), children: [] };
   for (const [i, layer] of layers.entries()) for (const part of layer.parts ?? []) {
-    const node = toNode(part, i);
+    const node = partNode(part, i, layers);
     if (node) root.children.push(node);
   }
   flatten(root, animated);
@@ -198,6 +186,38 @@ export function writeGlb(model) {
   at += 8;
   for (const chunk of chunks) { out.set(chunk, at); at += chunk.length; }
   return out;
+}
+
+// Part tree → node tree with per-material geometry in each node's own space.
+function partNode(part, layerIndex, layers) {
+  if (part.hidden) return null;
+  if (part.layer !== undefined) layerIndex = part.layer;
+  const node = { name: part.name, ...transform(part.pos, part.rot, part.scale), geo: new Map(), children: [] };
+  if (part.cubes?.length) addGeometry(node, layerIndex, cubesToMesh(part.cubes, layers[layerIndex].texture));
+  for (const child of part.children ?? []) {
+    const c = partNode(child, layerIndex, layers);
+    if (c) node.children.push(c);
+  }
+  return node;
+}
+
+// Every part baked into one mesh in this file's glTF space (blocks, Y up, front +Z, Java y = 24 at 0), for
+// callers that place the geometry themselves (held GeckoLib items, tools/lib/attacks/item.mjs).
+export function bakeParts(parts, texture) {
+  const root = { name: 'root', translation: [0, 1.5, 0], geo: new Map(), children: [] };
+  for (const part of parts) {
+    const node = partNode(part, 0, [{ texture }]);
+    if (node) root.children.push(node);
+  }
+  flatten(root, new Set());
+  const m = matrix(root);
+  const g = root.geo.get(0) ?? { positions: [], uvs: [], indices: [] };
+  const positions = [];
+  for (let i = 0; i < g.positions.length; i += 3) {
+    const [x, y, z] = [g.positions[i], g.positions[i + 1], g.positions[i + 2]];
+    positions.push(m[0] * x + m[4] * y + m[8] * z + m[12], m[1] * x + m[5] * y + m[9] * z + m[13], m[2] * x + m[6] * y + m[10] * z + m[14]);
+  }
+  return { positions, uvs: g.uvs, indices: g.indices };
 }
 
 function addGeometry(node, material, g) {

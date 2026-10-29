@@ -43,7 +43,7 @@ At level 250 it is far above any player's level, and Soulrend limits it to losin
 
 ## Location
 
-Ancient Remnant lives in the Cursed Pyramid (`cataclysm:cursed_pyramid`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Pharaoh's Bane** (`cataclysm_dimension:cataclysm_pharaohs_bane`). Shift-right-clicking with an [[item:cataclysm:desert_eye]] teleports the player there. See [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]].
+Ancient Remnant lives in the Cursed Pyramid (`cataclysm:cursed_pyramid`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Pharaoh's Bane** (`cataclysm_dimension:cataclysm_pharaohs_bane`). Shift-right-clicking with an [[item:cataclysm:desert_eye]] teleports the player there. See [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]].
 
 {{recipes cataclysm:desert_eye}}
 

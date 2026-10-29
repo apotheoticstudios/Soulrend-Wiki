@@ -36,7 +36,7 @@
 
 ## Location
 
-The Luxtructosaurus is summoned at a **Volcanic Core** in the Primordial Caves by using an [[item:alexscaves:ominous_catalyst]] on it. The [[item:alex_caves_dimensions:primordial_caves_key]] key teleports the player to the Primordial Caves (see [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]]).
+The Luxtructosaurus is summoned at a **Volcanic Core** in the Primordial Caves by using an [[item:alexscaves:ominous_catalyst]] on it. The [[item:alex_caves_dimensions:primordial_caves_key]] key teleports the player to the Primordial Caves (see [[items/progression-keys/cave-dimension-keys|Cave Dimension Keys]]).
 
 {{recipes alexscaves:ominous_catalyst}}
 

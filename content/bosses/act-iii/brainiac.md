@@ -36,7 +36,7 @@ Unlike the other bosses of the chapter, Brainiac is a regular spawning mob with 
 
 ## Spawning
 
-Brainiacs spawn naturally as hostile mobs in the Toxic Caves, in groups of 1–2. The [[item:alex_caves_dimensions:toxic_caves_key]] key teleports the player there (see [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]]).
+Brainiacs spawn naturally as hostile mobs in the Toxic Caves, in groups of 1–2. The [[item:alex_caves_dimensions:toxic_caves_key]] key teleports the player there (see [[items/progression-keys/cave-dimension-keys|Cave Dimension Keys]]).
 
 ## Stats
 

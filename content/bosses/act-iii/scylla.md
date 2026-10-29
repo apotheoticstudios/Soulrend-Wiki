@@ -43,7 +43,7 @@ At level 250 it is far above any player's level, and Soulrend limits it to losin
 
 ## Location
 
-Scylla lives in the Acropolis (`cataclysm:acropolis`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Sanctum Fallen** (`cataclysm_dimension:cataclysm_sanctum_fallen`). Shift-right-clicking with an [[item:cataclysm:storm_eye]] teleports the player there. See [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]].
+Scylla lives in the Acropolis (`cataclysm:acropolis`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Sanctum Fallen** (`cataclysm_dimension:cataclysm_sanctum_fallen`). Shift-right-clicking with an [[item:cataclysm:storm_eye]] teleports the player there. See [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]].
 
 {{recipes cataclysm:storm_eye}}
 

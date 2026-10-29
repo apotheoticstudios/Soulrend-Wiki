@@ -66,14 +66,16 @@ export function javaModels({ classPath, rename }) {
     const root = mesh.$f.root;
     if (!root?.$f) throw new Error(`${spec.method} returned no mesh`);
     const parts = partChildren(root);
-    if (spec.setup) setupPose(spec.setup, root, parts);
-    return { texWidth, texHeight, parts };
+    const frames = spec.setup ? setupPose(spec.setup, root, parts, spec.frames) : undefined;
+    return { texWidth, texHeight, parts, ...(frames ? { frames } : {}) };
   }
 
   // Bakes the layer into ModelParts, builds the model class around them and runs its setupAnim for an
   // idle entity, then copies the resulting poses and visibility back. This is how vanilla poses spider
   // legs or crosses an illager's arms; the static layer alone leaves them at zero.
-  function setupPose(cls, rootDef, parts) {
+  // With frames ([{ natives }]), it also runs prepareMobModel and setupAnim once per frame with those
+  // natives in place (an entity's animation state, say) and returns each frame's poses by part name.
+  function setupPose(cls, rootDef, parts, frames) {
     const bake = def => {
       const pose = def.$f.partPose?.$f ?? {};
       const part = jvm.newObject('net/minecraft/client/model/geom/ModelPart');
@@ -108,6 +110,32 @@ export function javaModels({ classPath, rename }) {
       }
     };
     copy(parts, root);
+    if (!frames) return undefined;
+    const prepare = (() => {
+      for (let c = cls; c; c = jvm.klass(c)?.superName) {
+        const key = [...(jvm.klass(c)?.byKey.keys() ?? [])].find(key => /^prepareMobModel\(L[^;]+;FFF\)V$/.test(key) && !key.includes('LivingEntity;') && !key.includes('/Entity;'));
+        if (key) return key.slice('prepareMobModel'.length);
+      }
+      return null;
+    })();
+    return frames.map(frame => {
+      const saved = {};
+      for (const [k, fn] of Object.entries(frame.natives ?? {})) { saved[k] = jvm.natives[k]; jvm.natives[k] = fn; }
+      jvm.steps = 0;
+      if (prepare) run(() => jvm.invoke(cls, 'prepareMobModel', prepare, defaultArgs(prepare, [undefined, 0, 0, 1]), model));
+      run(() => jvm.invoke(cls, 'setupAnim', setup, defaultArgs(setup), model));
+      for (const [k, fn] of Object.entries(saved)) { if (fn) jvm.natives[k] = fn; else delete jvm.natives[k]; }
+      const poses = {};
+      const snap = baked => {
+        for (const [name, b] of baked.$f.children.$map) {
+          const f = b.$f;
+          poses[name] = { pos: [f.x, f.y, f.z], rot: [f.xRot, f.yRot, f.zRot], visible: !!f.visible };
+          snap(b);
+        }
+      };
+      snap(root);
+      return poses;
+    });
   }
 
   function findSetupAnim(cls) {

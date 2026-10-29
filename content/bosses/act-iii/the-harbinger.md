@@ -43,7 +43,7 @@ At level 250 it is far above any player's level, and Soulrend limits it to losin
 
 ## Location
 
-The Harbinger lives in the Ancient Factory (`cataclysm:ancient_factory`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Forge of Aeons** (`cataclysm_dimension:cataclysm_forge_of_aeons`). Shift-right-clicking with an [[item:cataclysm:mech_eye]] teleports the player there. See [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]].
+The Harbinger lives in the Ancient Factory (`cataclysm:ancient_factory`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Forge of Aeons** (`cataclysm_dimension:cataclysm_forge_of_aeons`). Shift-right-clicking with an [[item:cataclysm:mech_eye]] teleports the player there. See [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]].
 
 {{recipes cataclysm:mech_eye}}
 

@@ -49,6 +49,8 @@
   mods/waystones-forge-1.20.1-14.1.21.jar lang (scroll binding, warp plate shard messages)
   config/waystones-common.toml (blocksPerXpLevel 1000, minimum/maximum base XP cost 1, dimensionalWarpXpCost 1, warpStoneCooldown 300, warpStoneUseTime 32, inventoryButton "", worldGenStyle BIOME, frequency 25, overworld/nether/end, spawnInVillages)
   config/explorerscompass-common.toml (maxRadius 10000, allowTeleport, displayCoordinates), config/naturescompass-common.toml
+  mods/waystones-forge-1.20.1-14.1.21.jar PlayerWaystoneManager.getExperienceLevelCost (the dimensional cost replaces the distance cost)
+  kubejs/server_scripts/recipes/misc_utility.js (recipes for all five stone waystones and the mossy one)
   docs/instance-guide.md (leaving the Past with a waystone item, confirmed by the pack author)
 -->
 
@@ -58,9 +60,9 @@
 
 ### Waystones
 
-A **Waystone** is a teleport point. Right-clicking one activates it; from then on any activated waystone can teleport its user to any other. Waystones also generate in the world (in the Overworld, the Nether and the End, and in villages), in plain, mossy, sandy, deepslate, blackstone and end stone styles. The plain and sandy ones have Soulrend recipes built around a Warp Stone; the deepslate, blackstone and end stone ones only generate.
+A **Waystone** is a teleport point. Right-clicking one activates it; from then on any activated waystone can teleport its user to any other. Waystones also generate in the world (in the Overworld, the Nether and the End, and in villages), in plain, mossy, sandy, deepslate, blackstone and end stone styles. All six have Soulrend recipes: the plain, sandy, deepslate, blackstone and end stone ones are built around a Warp Stone, and the mossy one is a plain Waystone with Vines. [[features/travel-and-storage/waystones|Waystones Guide]] explains how to find, craft and use them.
 
-- **Cost:** each teleport costs 1 XP level, plus 1 more to change dimension (Soulrend's config sets both the minimum and maximum base cost to 1 level).
+- **Cost:** every teleport costs exactly 1 XP level. Soulrend's config sets both the minimum and maximum distance cost to 1 level, and the cost of changing dimension, which replaces the distance cost, is also 1.
 - **Sharestones** connect only to Sharestones of the same color, and the **Portstone** can teleport to waystones but can't be teleported to.
 - **The inventory warp button is turned off** in Soulrend, so teleporting needs a waystone or an item.
 

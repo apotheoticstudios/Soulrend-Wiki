@@ -12,8 +12,11 @@ initCycling();
 initSearch();
 
 // three.js is large, so it's only fetched on pages that actually have a model.
-if (document.querySelector('.model-stage')) {
+if (document.querySelector('.model-stage[data-model]')) {
   import('./model-viewer.js').then(m => m.initModels());
+}
+if (document.querySelector('.attack-stage')) {
+  import('./attack-viewer.js').then(m => m.initAttacks());
 }
 if (document.querySelector('.skilltree-stage')) {
   import('./skilltree.js').then(m => m.initSkillTrees());

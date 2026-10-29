@@ -39,7 +39,7 @@ Table rewards are explained on [[progression/reward-tables|Quest Reward Tables]]
 - [[Arterius, the Last Watcher]]
 - [[bosses/act-v/decaying-king-past|Decaying King (Past)]], for the Galactic Core
 
-See [[bosses/act-v|Act V Bosses]] and [[features/mobs-and-world/the-past|The Past]].
+See [[bosses/act-v|Act V Bosses]] and [[progression/act-v-duties/visit-the-past#The Past|The Past]].
 
 ## After Act V
 

@@ -26,9 +26,13 @@ function query(kind) {
         h.warn(`No exported recipes ${what}`);
         return `<p class="recipe-none">No known recipes.</p>\n`;
       }
-      const shown = recipes.slice(0, limit).map(r => renderRecipe(r, h)).join('');
-      const more = recipes.length > limit ? `<p class="recipe-more">…and ${recipes.length - limit} more.</p>` : '';
-      return `<div class="recipe-group">${shown}</div>${more}\n`;
+      const group = list => `<div class="recipe-group">${list.map(r => renderRecipe(r, h)).join('')}</div>`;
+      const rest = recipes.slice(limit);
+      // Recipes past the limit are still rendered, folded behind a toggle that works without JS.
+      const more = rest.length
+        ? `<details class="recipe-more"><summary><span class="more-closed">…and ${rest.length} more</span><span class="more-open">Show fewer</span></summary>${group(rest)}</details>`
+        : '';
+      return `${group(recipes.slice(0, limit))}${more}\n`;
     },
   };
 }

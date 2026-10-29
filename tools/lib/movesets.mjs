@@ -181,6 +181,12 @@ export function extractMovesets({ instance, itemStats = {}, warn = console.warn 
       source = 'export';
     }
     const item = { type, ...(source ? { source } : {}), ...(ef?.style ? { style: ef.style } : {}) };
+    // Max strikes per style and the hit collider, for the attack viewer (tools/make-attacks.mjs).
+    if (pick && type === pick.json.type) {
+      const strikes = Object.fromEntries(Object.entries(pick.json.attributes ?? {}).filter(([, a]) => a?.max_strikes !== undefined).map(([style, a]) => [style, a.max_strikes]));
+      if (Object.keys(strikes).length) item.maxStrikes = strikes;
+      if (pick.json.collider) item.collider = jsonCollider(pick.json.collider);
+    }
     if (ef && !matches(types[type], ef)) {
       counts.mismatched.push(`${id} (${type})`);
       // The game's answer wins for the default style's innate skill.
@@ -270,9 +276,16 @@ function fromJson(json, source) {
     styles,
     rules,
     ...(json.passive_skill ? { passive: json.passive_skill } : {}),
+    ...(json.collider ? { collider: jsonCollider(json.collider) } : {}),
     offhand: json.usable_in_offhand ?? null,
     ...(json.offhand_item_compatible_predicate?.length ? { dualWith: json.offhand_item_compatible_predicate.flatMap(p => p.category ?? []) } : {}),
   };
+}
+
+// { number, size, center } → the attack viewer's collider shape (blocks, in the joint's space).
+function jsonCollider(c) {
+  const count = c.number ?? 1;
+  return { type: count > 1 ? 'multi' : 'obb', ...(count > 1 ? { count } : {}), size: c.size ?? [0, 0, 0], center: c.center ?? [0, 0, 0] };
 }
 
 function jsonCondition(c) {
@@ -369,6 +382,11 @@ function replayBuilder(cls, method, env) {
         if (styleId && motion?.name === 'BLOCK' && anims[0]) {
           for (const s of styleId === 'common' ? Object.keys(type.styles).concat('common') : [styleId]) (type.styles[s] ??= {}).guard ??= anims[0];
         }
+        break;
+      }
+      case 'collider': {
+        const preset = statics.find(p => /Collider/.test(p.desc));
+        if (preset) type.collider = `preset:${preset.name}`;
         break;
       }
       case 'canBePlacedOffhand': type.offhand = pending.filter(p => p.op === 'push').at(-1)?.value === 1; break;

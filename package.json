@@ -8,7 +8,9 @@
     "sync-game": "node tools/sync-game.mjs",
     "install-kubejs": "node tools/install-kubejs.mjs",
     "font": "node tools/make-font.mjs",
-    "models": "node tools/make-models.mjs"
+    "models": "node tools/make-models.mjs",
+    "attacks": "node tools/make-attacks.mjs",
+    "skin": "node tools/set-skin.mjs"
   },
   "devDependencies": {
     "ajv": "^8.20.0",

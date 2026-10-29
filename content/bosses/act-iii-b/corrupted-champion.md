@@ -39,7 +39,7 @@
 
 The Lich Prison (`graveyard:lich_prison`) generates in Deep Frozen Oceans, Frozen Oceans and Deep Oceans. It holds the [[item:graveyard:altar]].
 
-Using a [[item:deeperdarker:sculk_transmitter]] on the Altar summons the Corrupted Champion above it, with the message "The dead stir...". The transmitter is used up. Only one can be summoned at a time: the Altar refuses while another Corrupted Champion is within 50 blocks. See [[features/mobs-and-world/lich-summoning|Lich Summoning]].
+Using a [[item:deeperdarker:sculk_transmitter]] on the Altar summons the Corrupted Champion above it, with the message "The dead stir...". The transmitter is used up. Only one can be summoned at a time: the Altar refuses while another Corrupted Champion is within 50 blocks.
 
 ## Stats
 

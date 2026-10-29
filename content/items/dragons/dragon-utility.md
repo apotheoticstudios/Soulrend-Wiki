@@ -33,6 +33,7 @@
   mods/iceandfire-2.1.13-1.20.1-beta-5.jar lang (jei_desc, advancements), EntityDragonBase.interact (corpse: Glass Bottle gives blood; skull and heart by death stage; dragon meal, sickly dragon meal)
   config/iceandfire-common.toml ("Dragon Egg Hatch Time" = 7200, "Dragon Flute Distance" = 4, "Dragons Drop Skull/Heart/Blood" = true, dragonsteel base stats)
   game-data/items.json (dragonradarmod tooltips: activation process, Stage 4-5 dragons)
+  mods/dragonradarmod-2.2.0.jar LightningRadarScreen and its Fire/Ice counterparts (DRAGONS FOUND list, Filter: Stages / Genders, Sort, Search Settings radius slider 100-15000 default 7500, "Limited Mode | Stage 1-3 Only", Teleport button), LightningRadarHud (X/Y/Z of the tracked dragon), ServerDiskDragonScanner.scanDragons (reads saved entities, skips Health <= 0, Tamed and Owner), DragonScanner$TeleportRequestPacket (teleports only if the player is in creative), DragonKillHandler (purification messages)
 -->
 
 **Dragon Utility** covers the items for keeping tamed dragons, plus the Dragon Radar mod's trackers for finding wild ones.
@@ -44,6 +45,16 @@
 - **Dragon Horn:** stores a dragon inside it, so it can be carried and released elsewhere.
 - **Dragon Command Staff:** sets a tamed dragon's mode: Wandering, Following, Staying or Sleeping.
 - **Dragon radars** track wild dragons. The Fire, Ice and Lightning Radars each track their own element. Merging all three into a **Dormant Radar** at an anvil, then holding it in the off hand while killing stage 4–5 dragons, purifies it into the **Master Radar**, which tracks every dragon. The Master Radar also goes into the Dragonmancer's Oathbook.
+
+### Using a radar
+
+Using a radar opens its search screen, which lists the wild dragons around the player with their stage, gender and position ("DRAGONS FOUND"). Picking one from the list makes the radar's on-screen display point toward it and show its coordinates.
+
+- **Search radius:** set with a slider in Search Settings, from 100 to 15,000 blocks (7,500 by default). The search also finds dragons in chunks that aren't loaded.
+- **Filters and sorting:** filter by stage and gender, and sort the list by distance.
+- **Wild dragons only.** Tamed and owned dragons, and dead ones, aren't listed.
+- **The element radars are limited to stages 1–3** ("Limited Mode | Stage 1-3 Only"). Only the Master Radar finds stage 4–5 dragons, the ones that drop the most.
+- **Teleport** on the list only works in creative mode.
 
 The [[progression/side-chapters/dragonslayer|Dragonslayer]] chapter has quests for the radars and for hatching an egg. To teleport a tamed dragon to you, see [[items/dragons/summoning-crystals|Summoning Crystals]].
 

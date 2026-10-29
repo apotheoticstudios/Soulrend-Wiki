@@ -75,7 +75,7 @@ Table rewards ("Rare Loot", "Chipped Gems" and so on) are explained on [[progres
 
 1. Find a Dread Citadel with an Explorer's Compass. The quest subtitle, "Prepare before visit...", warns that it is dangerous.
 2. Take an Ancient Sapphire from the Citadel, then claim the Top-Left Shard.
-3. Summoning Crystals are optional. They call back a tamed dragon (see [[features/dragons/reusable-summoning-crystals|Reusable Summoning Crystals]]). Soulrend makes the fire and lightning crystals from the dragon's blood, an Ender Pearl, a Diamond and an Ancient Sapphire:
+3. Summoning Crystals are optional. They call back a tamed dragon (see [[items/dragons/summoning-crystals|Summoning Crystals]]). Soulrend makes the fire and lightning crystals from the dragon's blood, an Ender Pearl, a Diamond and an Ancient Sapphire:
 
    ```recipe
    { "station": "crafting_table", "grid": ["AB", "CD"], "key": { "A": "iceandfire:fire_dragon_blood", "B": "minecraft:ender_pearl", "C": "minecraft:diamond", "D": "iceandfire:sapphire_gem" }, "output": "iceandfire:summoning_crystal_fire" }

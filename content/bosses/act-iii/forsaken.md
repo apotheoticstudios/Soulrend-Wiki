@@ -35,7 +35,7 @@
 
 ## Location
 
-The Forsaken waits on the bridges of the Forlorn Hollows. Soulrend reaches the Forlorn Hollows through a dimension: the [[item:alex_caves_dimensions:forlorn_hollows_key]] key teleports the player there (see [[features/mobs-and-world/alexs-caves-dimensions|Alex's Caves Dimensions]]).
+The Forsaken waits on the bridges of the Forlorn Hollows. Soulrend reaches the Forlorn Hollows through a dimension: the [[item:alex_caves_dimensions:forlorn_hollows_key]] key teleports the player there (see [[items/progression-keys/cave-dimension-keys|Cave Dimension Keys]]).
 
 ## Stats
 

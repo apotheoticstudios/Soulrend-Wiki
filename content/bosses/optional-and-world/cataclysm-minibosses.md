@@ -60,7 +60,7 @@ Cataclysm's config multiplies most of their base health and attack damage by 1.2
 | [[item:cataclysm:ignited_revenant_spawn_egg]] | Burning Arena ([[Ignis]]), Nether Fortresses | 5,827.2 HP | 150.5 | 38.3 |
 | [[item:cataclysm:the_watcher_spawn_egg]] | Ancient Factory ([[The Harbinger]]) | 1,517.5 HP | 104.5 | 15.9 |
 
-Each structure sits in the dimension of its Sin, reached with that Sin's eye (see [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]]). Ignited Revenants also spawn in Better Fortresses' Nether Fortresses.
+Each structure sits in the dimension of its Sin, reached with that Sin's eye (see [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]]). Ignited Revenants also spawn in Better Fortresses' Nether Fortresses.
 
 ## Drops
 

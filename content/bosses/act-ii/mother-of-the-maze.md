@@ -32,7 +32,7 @@
 
 ## Location
 
-Soulrend replaces the Maze Mother's spawning with a midnight ambush (see [[features/mobs-and-world/maze-mother-ambush|Maze Mother Ambush]]):
+Soulrend replaces the Maze Mother's spawning with a midnight ambush:
 
 - Every night at midnight (day time 18000, for 5 s), the game checks each player in the Overworld.
 - If no Mother of the Maze is within 256 blocks of the player, an Anglerfish swimming within 256 blocks turns into one.

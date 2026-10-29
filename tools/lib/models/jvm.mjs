@@ -169,9 +169,10 @@ export class Jvm {
   callLambda(fn, args) {
     const { owner, name, desc } = fn.$lambda;
     const all = [...fn.$captured, ...args];
+    // A constructor reference (Foo::new) builds a new object; it isn't an instance call on its first argument.
+    if (name === '<init>') { const obj = this.instantiate(owner); this.invoke(owner, '<init>', desc.replace(/\)L[^;]+;$/, ')V'), all, obj, true); return obj; }
     const target = this.klass(owner)?.byKey.get(this.rename(name) + desc);
     if (target && !(target.access & 8)) return this.invoke(owner, this.rename(name), desc, all.slice(1), all[0]);
-    if (name === '<init>') { const obj = this.instantiate(owner); this.invoke(owner, '<init>', desc.replace(/\)L[^;]+;$/, ')V'), all, obj, true); return obj; }
     return this.invoke(owner, this.rename(name), desc, all);
   }
 

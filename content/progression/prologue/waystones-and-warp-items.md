@@ -66,4 +66,4 @@ The **Waystone**, **Warp Stone** and **Warp Scroll** quests are three separate P
 > [!TIP]
 > All eight Cataclysm dimension quests in Act III reward a Warp Scroll, which helps get home after a boss fight.
 
-See [[features/travel-and-storage/waystones-and-warp-items|Waystones & Warp Items (Feature)]] for how the network works.
+See the [[features/travel-and-storage/waystones|Waystones Guide]] for how the network works and where waystones generate.

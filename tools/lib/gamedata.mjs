@@ -9,6 +9,7 @@ import { jsonErrorLine } from './diagnostics.mjs';
 //   movesets.json { types, items, skills, labels, mods }   Epic Fight movesets (tools/lib/movesets.mjs)
 //   skilltrees.json { trees, frames, screen } + skilltrees/   Passive Skill Tree layouts (tools/lib/skilltrees.mjs)
 //   mobs.json     { "ns:entity": { name, model, animated? } }   3D models (tools/make-models.mjs)
+//   attacks.json  { player, dummy, horse, animations, types, skills }   attack viewer (tools/make-attacks.mjs)
 //   icons/<ns>/<path>.png
 export function loadGameData(root, diag) {
   const dir = path.join(root, 'game-data');
@@ -32,6 +33,7 @@ export function loadGameData(root, diag) {
     movesets: read('movesets.json'),
     skillTrees: read('skilltrees.json'),
     mobs: new Map(Object.entries(read('mobs.json') ?? {})),
+    attacks: read('attacks.json'),
     skillTreeDir: path.join(dir, 'skilltrees'),
     source: read('source.json'),
     glyphs: read('glyphs.json') ?? {},

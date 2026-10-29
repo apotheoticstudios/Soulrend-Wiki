@@ -61,12 +61,39 @@ export function openInstance(instance = path.join(CURSEFORGE, 'Instances/Soulren
     }
     return null;
   };
+  // Reads many resources with one pass over each jar (resource() inflates a jar per file), into the
+  // cache; evict() drops them again. Pack overrides are left to resource().
+  const prefetch = ids => {
+    const byJar = new Map();
+    for (const id of ids) {
+      const [ns, rel] = id.includes(':') ? id.split(':') : ['minecraft', id];
+      const file = `assets/${ns}/${rel}`;
+      if (overrides.some(p => p.names.has(file))) continue;
+      const jar = [...(byNamespace.get(ns) ?? [])].find(j => entries.get(j).has(file));
+      if (!jar || cache.has(`${jar}!${file}`)) continue;
+      if (!byJar.has(jar)) byJar.set(jar, new Set());
+      byJar.get(jar).add(file);
+    }
+    for (const [jar, files] of byJar) {
+      const got = unzipSync(fs.readFileSync(jar), { filter: e => files.has(e.name) });
+      for (const [file, bytes] of Object.entries(got)) cache.set(`${jar}!${file}`, bytes);
+    }
+  };
+  const evict = ids => {
+    for (const id of ids) {
+      const [ns, rel] = id.includes(':') ? id.split(':') : ['minecraft', id];
+      for (const jar of byNamespace.get(ns) ?? []) cache.delete(`${jar}!assets/${ns}/${rel}`);
+    }
+  };
+  // Every assets file in any namespace whose path matches, as "ns:path".
+  const listAll = re => [...new Set([...entries.values()].flatMap(names => [...names].filter(n => n.startsWith('assets/') && re.test(n))))]
+    .map(n => n.replace(/^assets\/([^/]+)\//, '$1:'));
   // Every file under assets/<ns>/ matching a pattern, for discovery.
   const list = (ns, re) => [...(byNamespace.get(ns) ?? [])].flatMap(jar => [...entries.get(jar)].filter(n => n.startsWith(`assets/${ns}/`) && re.test(n)).map(n => `${ns}:${n.slice(`assets/${ns}/`.length)}`));
 
   let mappings, classes;
   return {
-    instance, mods, resource, list,
+    instance, mods, resource, list, listAll, prefetch, evict,
     jarsFor: ns => [...(byNamespace.get(ns) ?? [])],
     get mappings() {
       mappings ??= readMappings(path.join(libraries, `net/minecraft/client/${MC}/client-${MC}-mappings.txt`),

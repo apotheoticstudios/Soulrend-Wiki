@@ -43,7 +43,7 @@ At level 250 it is far above any player's level, and Soulrend limits it to losin
 
 ## Location
 
-Ignis lives in the Burning Arena (`cataclysm:burning_arena`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Inferno's Maw** (`cataclysm_dimension:cataclysm_infernos_maw`). Shift-right-clicking with an [[item:cataclysm:flame_eye]] teleports the player there. See [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]].
+Ignis lives in the Burning Arena (`cataclysm:burning_arena`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Inferno's Maw** (`cataclysm_dimension:cataclysm_infernos_maw`). Shift-right-clicking with an [[item:cataclysm:flame_eye]] teleports the player there. See [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]].
 
 {{recipes cataclysm:flame_eye}}
 

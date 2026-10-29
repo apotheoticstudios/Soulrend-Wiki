@@ -2,8 +2,9 @@
 
 .search-dialog {
   width: min(640px, calc(100vw - 32px));
-  max-height: min(72vh, 640px);
-  margin: 10vh auto auto;
+  height: min(80vh, 760px);
+  max-height: none;
+  margin: 8vh auto auto;
   padding: 0;
   overflow: hidden;
   background: var(--surface);

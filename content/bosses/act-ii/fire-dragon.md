@@ -50,7 +50,7 @@ Fire Dragons generate with the world in hot Overworld biomes (except jungles, ba
 - **Roosts** on the surface hold a stage 3 dragon, 52–59 days old.
 - **Caves** underground hold a sleeping stage 4 or 5 dragon, 75–124 days old, on piles of gold. Cave dragons don't age.
 
-A [[item:dragonradarmod:fire_radar]] finds the location of Fire Dragons.
+A [[item:dragonradarmod:fire_radar]] lists wild Fire Dragons of stages 1–3 within up to 15,000 blocks and points toward one; stage 4–5 dragons only show on the Master Radar (see [[items/dragons/dragon-utility#Using a radar|Dragon Utility]]).
 
 ## Stats
 

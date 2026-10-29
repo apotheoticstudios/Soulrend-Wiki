@@ -11,6 +11,15 @@ This page lists bugs observed in Soulrend. Each entry says what happens, where i
 
 ## Open
 
+### Some weapon types name animations that don't exist
+- **Seen:** 2026-10-28, while building the wiki's attack viewer: Epic Fight weapon types in `config/paxi/datapacks/soulrend_ef_capabilities/data/epicfight/capabilities/weapons/types/` (`harbinger.json`, `ignisshield.json`, `maledictus_bow.json`) and `data/soulrend_weapon_types/capabilities/`, Weapons of Traveloptics 1.3.1 and Simply Swords Epicfied pre3.0, checked against every animation the Epic Fight add-ons register and ship.
+- **What happens:** these weapon types list animations that no installed mod has, so that step of the moveset has nothing to play:
+  - `wom:biped/skill/ruine_counterattack` (not in Weapons of Miracles 2.0.171): the Harbinger type's combo (Void and Wither Assault Shoulder Weapon), the dash of the Ignis shield type (Bulwark of the Flame) and the Maledictus bow type, and the Mechanized Wraithblade's dash.
+  - `wom:biped/skill/ruine_block`: the two-handed guard of Soulrend's longsword type (Crimson Long Sword, Diamond Claymore, Netherite Zweihander and others) and heavy weapon type, and of the Thorns of Oblivion.
+  - `cdmoveset:biped/new/spear/spear_twohand_auto5` (Resurrection only has two-handed spear attacks 1 and 2): the last hit of the Magiscythe's two-handed combo.
+  Not yet confirmed in game.
+- **Workaround:** none known.
+
 ### Revenant squads above tier 0 are out of reach
 - **Seen:** 2026-10-27, `mods/soulrend_origins-1.2-1.20.1.jar` (`OriginMath.revenantTier`, `Revenant.summon` and its `SQUADS` table), read against `game-data/attributes.json` (Evocation Spell Power defaults to 1.0) and the Revenance badge text in `config/paxi/resourcepacks/soulrend_lang/assets/medievalorigins/lang/en_us.json`.
 - **What happens:** the squad tier is Evocation Spell Power divided by 4, rounded down, minus 1. Tier 1 needs 8.0 (800%) and the full squad with Kamath needs 20.0, so in practice every Revenant raises tier 0: one Zombie and one Skeleton archer. The in-game text promises "up to 8 summons". The other Soulrend origins step their abilities every +0.25 spell power, so the divisor looks unintended. Not yet confirmed in game.
@@ -83,6 +92,16 @@ This page lists bugs observed in Soulrend. Each entry says what happens, where i
 ### 23 titles can never be unlocked
 - **Seen:** 2026-10-27, Soulrend Core 2.7: `SoulrendTitles.IDS` lists 41 titles, and the lang file gives each a requirement, but `SoulrendTitles.isUnlocked` only has rules for Titleless, Rookie, the twelve stat titles, the three Mob Killer titles and Administrator. Every other id returns false.
 - **What happens:** Tank, Great Tank, Miner, Great Miner, DragonSlayer, PlayerKiller, Hero, Villain, the three Fisherman and three Enchanter titles, Survivor, Dealer Maker, Boat Driver, Cart Driver, Horse Rider, Pig Rider, Strider Rider, Infernal Traveler and End Traveler show requirements on the Titles menu but stay Locked whatever the player does. Tank and Miner refer to "Defense" and "Building" stats that don't exist. Separately, Great Warrior's text says Constitution 16 while the check needs 30. Not yet confirmed in game.
+- **Workaround:** none known.
+
+### Graphics preset descriptions don't match what the presets set
+- **Seen:** 2026-10-28, Feelix's Soulrend Optimizations 0.1.1: the preset descriptions in its lang file (`feelixs_soulrend_optimizations.preset.*.desc`) read against `config/feelixs_soulrend_optimizations/presets.cfg`.
+- **What happens:** the descriptions in Video Settings give render distances of 6, 8, 10, 14 and 16 for Potato to Ultra, but `presets.cfg` sets 6, 10, 14, 16 and 22. Medium's description also says "no entity shadows", while the config turns entity shadows on for Medium. The config's own header says the descriptions don't follow edits to it.
+- **Workaround:** none needed; the presets apply the config's values. [[features/settings-and-performance/graphics-presets|Graphics Presets]] lists them.
+
+### Lifesteal attribute has no source
+- **Seen:** 2026-10-28, `kubejs/startup_scripts/lifesteal.js` registers `kubejs:lifesteal` and `kubejs/server_scripts/minor_features/lifesteal.js` heals from it, but no item, skill tree node, origin power, gem or config in `config/`, `kubejs/` or `config/paxi/` grants it, and no exported item has it (`game-data/item-stats.json`).
+- **What happens:** Soulrend's [[features/combat/lifesteal|Lifesteal]] formula never runs in normal play. The Levelling screen's "Lifesteal" row shows Apothic Attributes' `attributeslib:life_steal`, a different attribute, which adds to the confusion.
 - **Workaround:** none known.
 
 <!-- Entry template:

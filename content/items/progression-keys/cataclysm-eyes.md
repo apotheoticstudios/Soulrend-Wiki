@@ -30,6 +30,7 @@
   game-data/items.json (names, tooltips), game-data/loot-tables.json, game-data/recipes.json
   config/cataclysm_dimension/cataclysm_dimension.json (enable_teleport_eye, slow_fall_when_enter_dimensions, random_spread_in_dimension)
   config/ftbquests/quests/chapters/act_iii__into_the_flames.snbt (eight "Eye of ..." quests, subtitle "Craftable"), act_4.snbt ("Free The End" gives an Eye of Storm)
+  kubejs/server_scripts/progression/cataclysm.js (Chorus Fruit from Ender Pearl + Apple; right-clicking minecraft:stone with chorus fruit makes minecraft:end_stone and consumes one fruit)
   content/progression/act-iii-into-the-flames/the-eight-sins.md (eye, dimension and boss for each line)
 -->
 
@@ -144,6 +145,10 @@ It is crafted (see below).
 ### Crafting
 
 {{recipes cataclysm:void_eye}}
+
+The recipe needs End Stone Bricks, which are made from End Stone, and the Eye of Void comes before the End opens. Soulrend makes End Stone in the Overworld: right-clicking a Stone block with a [[item:minecraft:chorus_fruit]] turns it into [[item:minecraft:end_stone]] and uses up the fruit. Chorus Fruit itself has a Soulrend recipe:
+
+{{recipes minecraft:chorus_fruit}}
 
 ## Eye of Curse
 

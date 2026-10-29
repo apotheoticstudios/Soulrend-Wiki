@@ -43,7 +43,7 @@ At level 250 it is far above any player's level, and Soulrend limits it to losin
 
 ## Location
 
-Netherite Monstrosity lives in the Soul Black Smith (`cataclysm:soul_black_smith`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Soulforge Anvil** (`cataclysm_dimension:cataclysm_souls_anvil`). Shift-right-clicking with an [[item:cataclysm:monstrous_eye]] teleports the player there. See [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]].
+Netherite Monstrosity lives in the Soul Black Smith (`cataclysm:soul_black_smith`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Soulforge Anvil** (`cataclysm_dimension:cataclysm_souls_anvil`). Shift-right-clicking with an [[item:cataclysm:monstrous_eye]] teleports the player there. See [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]].
 
 {{recipes cataclysm:monstrous_eye}}
 

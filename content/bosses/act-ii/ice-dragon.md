@@ -50,7 +50,7 @@ Ice Dragons generate with the world in cold Overworld biomes:
 - **Roosts** on the surface hold a stage 3 dragon, 52–59 days old.
 - **Caves** underground hold a sleeping stage 4 or 5 dragon, 75–124 days old, on piles of gold. Cave dragons don't age.
 
-A [[item:dragonradarmod:ice_radar]] finds the location of Ice Dragons.
+A [[item:dragonradarmod:ice_radar]] lists wild Ice Dragons of stages 1–3 within up to 15,000 blocks and points toward one; stage 4–5 dragons only show on the Master Radar (see [[items/dragons/dragon-utility#Using a radar|Dragon Utility]]).
 
 ## Stats
 

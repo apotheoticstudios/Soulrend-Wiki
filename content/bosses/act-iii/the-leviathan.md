@@ -43,7 +43,7 @@ At level 250 it is far above any player's level, and Soulrend limits it to losin
 
 ## Location
 
-The Leviathan lives in the Sunken City (`cataclysm:sunken_city`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Abyssal Depths** (`cataclysm_dimension:cataclysm_abyssal_depths`). Shift-right-clicking with an [[item:cataclysm:abyss_eye]] teleports the player there. See [[features/mobs-and-world/cataclysm-dimensions|Cataclysm Dimensions]].
+The Leviathan lives in the Sunken City (`cataclysm:sunken_city`). In Soulrend, Cataclysm Dimensions moves this structure into its own dimension, the **Abyssal Depths** (`cataclysm_dimension:cataclysm_abyssal_depths`). Shift-right-clicking with an [[item:cataclysm:abyss_eye]] teleports the player there. See [[items/progression-keys/cataclysm-eyes|Cataclysm Eyes]].
 
 {{recipes cataclysm:abyss_eye}}
 
