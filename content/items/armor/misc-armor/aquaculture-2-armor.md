@@ -14,7 +14,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   aquaculture jar: lang aquaculture.neptunium_*.tooltip.*
 -->
@@ -36,11 +36,11 @@ The Stun Armor and Weight columns are Epic Fight stats. In Epic Fight's words, "
 
 ## Aquaculture 2
 
-| Piece | Slot | Armor | Armor Toughness | Swim Speed | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:aquaculture:neptunium_helmet]] | Helmet | +3 | +2 | +50% | +1.12 | +7.5 | 385 |
-| [[item:aquaculture:neptunium_chestplate]] | Chestplate | +8 | +2 | +50% | +3 | +20 | 560 |
-| [[item:aquaculture:neptunium_leggings]] | Leggings | +6 | +2 | +50% | +2.25 | +15 | 525 |
-| [[item:aquaculture:neptunium_boots]] | Boots | +3 | +2 | +50% | +1.12 | +7.5 | 455 |
-| **Full set** |  | **+20** | **+8** | **+200%** | **+7.49** | **+50** |  |
+| Piece | Slot | Armor | Armor Toughness | Swim Speed | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:aquaculture:neptunium_helmet]] | Helmet | +3 | +2 | +50% | +1.12 | +7.5 |
+| [[item:aquaculture:neptunium_chestplate]] | Chestplate | +8 | +2 | +50% | +3 | +20 |
+| [[item:aquaculture:neptunium_leggings]] | Leggings | +6 | +2 | +50% | +2.25 | +15 |
+| [[item:aquaculture:neptunium_boots]] | Boots | +3 | +2 | +50% | +1.12 | +7.5 |
+| **Full set** |  | **+20** | **+8** | **+200%** | **+7.49** | **+50** |
 

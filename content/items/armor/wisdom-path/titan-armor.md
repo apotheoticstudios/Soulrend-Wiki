@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
@@ -39,13 +39,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Attack Damage | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:titan_helmet]] | Helmet | +2.5 | +1 | +10% | +0.2 | +2% | +1.25 | +10 | 350 |
-| [[item:dungeons_and_combat:titan_chestplate]] | Chestplate | +7 | +1 | +10% | +0.2 | +2% | +1.75 | +12 | 450 |
-| [[item:dungeons_and_combat:titan_leggings]] | Leggings | +6 | +1 | +10% | +0.2 | +2% | +1.75 | +12 | 400 |
-| [[item:dungeons_and_combat:titan_boots]] | Boots | +3 | +1 | +10% | +0.2 | +2% | +1.25 | +10 | 350 |
-| **Full set** |  | **+18.5** | **+4** | **+40%** | **+0.8** | **+8%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Attack Damage | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:titan_helmet]] | Helmet | +2.5 | +1 | +10% | +0.2 | +2% | +1.25 | +10 |
+| [[item:dungeons_and_combat:titan_chestplate]] | Chestplate | +7 | +1 | +10% | +0.2 | +2% | +1.75 | +12 |
+| [[item:dungeons_and_combat:titan_leggings]] | Leggings | +6 | +1 | +10% | +0.2 | +2% | +1.75 | +12 |
+| [[item:dungeons_and_combat:titan_boots]] | Boots | +3 | +1 | +10% | +0.2 | +2% | +1.25 | +10 |
+| **Full set** |  | **+18.5** | **+4** | **+40%** | **+0.8** | **+8%** | **+6** | **+44** |
 
 ## Usage
 

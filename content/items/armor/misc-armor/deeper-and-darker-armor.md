@@ -22,7 +22,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   deeperdarker jar: lang item.deeperdarker.soul_elytra.*
 -->
@@ -40,11 +40,11 @@ The Stun Armor and Weight columns are Epic Fight stats. In Epic Fight's words, "
 
 ## Deeper and Darker
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:deeperdarker:resonarium_helmet]] | Helmet | +3 | +1 | +1.12 | +7.5 | 330 |
-| [[item:deeperdarker:resonarium_chestplate]] | Chestplate | +7 | +1 | +2.62 | +17.5 | 480 |
-| [[item:deeperdarker:soul_elytra]] | Chestplate | +3 |  |  |  | 956 |
-| [[item:deeperdarker:resonarium_leggings]] | Leggings | +6 | +1 | +2.25 | +15 | 450 |
-| [[item:deeperdarker:resonarium_boots]] | Boots | +2 | +1 | +0.75 | +5 | 390 |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:deeperdarker:resonarium_helmet]] | Helmet | +3 | +1 | +1.12 | +7.5 |
+| [[item:deeperdarker:resonarium_chestplate]] | Chestplate | +7 | +1 | +2.62 | +17.5 |
+| [[item:deeperdarker:soul_elytra]] | Chestplate | +3 |  |  |  |
+| [[item:deeperdarker:resonarium_leggings]] | Leggings | +6 | +1 | +2.25 | +15 |
+| [[item:deeperdarker:resonarium_boots]] | Boots | +2 | +1 | +0.75 | +5 |
 

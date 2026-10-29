@@ -9,8 +9,7 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "23"],
-      ["Attack speed", "1.60"],
-      ["Durability", "2,800"]
+      ["Attack speed", "1.60"]
     ]
   },
   "items": ["cataclysm:void_forge"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight:netherite_monstrosity, from paxi:soulrend_ef_capabilities)
@@ -40,7 +39,6 @@
 | Targets per swing | 6 |
 | Armor Negation | 5% |
 | Entity Reach | 3 |
-| Durability | 2,800 |
 | Enchantability | 16 |
 | Fire resistant | Yes |
 

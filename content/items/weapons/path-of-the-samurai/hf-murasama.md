@@ -10,15 +10,14 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.20"],
-      ["Durability", "2,031"]
+      ["Attack speed", "1.20"]
     ]
   },
   "items": ["efn:hf_murasama"]
 }
 ---
 <!-- sources:
-  game-data/items.json (name, rarity, tooltip), game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/items.json (name, rarity, tooltip), game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/recipes.json (soulrend:equipment/katanas/efn/hf_murasama_from_{kusabimaru,satsujin}, hf_murasama_blade, hf_murasama_sheath, minecraft:kjs/efn_hf_ingot)
   game-data/movesets.json (Epic Fight type efn:murasama, from jar:EpicFight Nightfall-3.4.2-all.jar)
   config/ftbquests/quests/chapters/path_of_the_samurai.snbt (task efn:hf_murasama, quest 257B73C1A0F5BB4C)
@@ -53,7 +52,6 @@ The blade and sheath are both crafted in a crafting table, and both need [[item:
 | Targets per swing | 9 |
 | Armor Negation | 80% |
 | Entity Reach | 3 |
-| Durability | 2,031 |
 | Enchantability | 30 |
 | Fire resistant | Yes |
 
@@ -89,4 +87,4 @@ In Epic Fight it is a tachi. Its default Two Handed style has a three-hit basic 
 | Quest | Task | Reward |
 | --- | --- | --- |
 | Path of the Samurai: HF-MURASAMA | Have it in your inventory | None |
-| [[progression/act-v-duties/defeat-arterius|Defeat The Last Watcher Arterius]] | Kill Arterius | 50 XP levels, a roll on Perfect Gems, HF-MURASAMA |
+| [[progression/act-v-duties/defeat-arterius\|Defeat The Last Watcher Arterius]] | Kill Arterius | 50 XP levels, a roll on Perfect Gems, HF-MURASAMA |

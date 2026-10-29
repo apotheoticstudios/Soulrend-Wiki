@@ -22,7 +22,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -35,13 +35,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:dragonsteel_ice_helmet]] | Helmet | +8 | +7 | +5% | +1.25 | +10 | 1,760 |
-| [[item:iceandfire:dragonsteel_ice_chestplate]] | Chestplate | +14 | +7 | +5% | +1.75 | +12 | 2,560 |
-| [[item:iceandfire:dragonsteel_ice_leggings]] | Leggings | +14 | +7 | +5% | +1.75 | +12 | 2,400 |
-| [[item:iceandfire:dragonsteel_ice_boots]] | Boots | +8 | +7 | +5% | +1.25 | +10 | 2,080 |
-| **Full set** |  | **+44** | **+28** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:dragonsteel_ice_helmet]] | Helmet | +8 | +7 | +5% | +1.25 | +10 |
+| [[item:iceandfire:dragonsteel_ice_chestplate]] | Chestplate | +14 | +7 | +5% | +1.75 | +12 |
+| [[item:iceandfire:dragonsteel_ice_leggings]] | Leggings | +14 | +7 | +5% | +1.75 | +12 |
+| [[item:iceandfire:dragonsteel_ice_boots]] | Boots | +8 | +7 | +5% | +1.25 | +10 |
+| **Full set** |  | **+44** | **+28** | **+20%** | **+6** | **+44** |
 
 ## Usage
 

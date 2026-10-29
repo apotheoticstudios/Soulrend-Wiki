@@ -26,7 +26,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
@@ -37,13 +37,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Blood Spell Power | Max Mana | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:irons_spellbooks:cultist_helmet]] | Helmet | +3 | +10% | +125 | +5% | +1.13 | +4.5 | 418 |
-| [[item:irons_spellbooks:cultist_chestplate]] | Chestplate | +8 | +10% | +125 | +5% | +1.63 | +6.5 | 608 |
-| [[item:irons_spellbooks:cultist_leggings]] | Leggings | +6 | +10% | +125 | +5% | +1.38 | +5.5 | 570 |
-| [[item:irons_spellbooks:cultist_boots]] | Boots | +3 | +10% | +125 | +5% | +1.13 | +4.5 | 494 |
-| **Full set** |  | **+20** | **+40%** | **+500** | **+20%** | **+5.27** | **+21** |  |
+| Piece | Slot | Armor | Blood Spell Power | Max Mana | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:irons_spellbooks:cultist_helmet]] | Helmet | +3 | +10% | +125 | +5% | +1.13 | +4.5 |
+| [[item:irons_spellbooks:cultist_chestplate]] | Chestplate | +8 | +10% | +125 | +5% | +1.63 | +6.5 |
+| [[item:irons_spellbooks:cultist_leggings]] | Leggings | +6 | +10% | +125 | +5% | +1.38 | +5.5 |
+| [[item:irons_spellbooks:cultist_boots]] | Boots | +3 | +10% | +125 | +5% | +1.13 | +4.5 |
+| **Full set** |  | **+20** | **+40%** | **+500** | **+20%** | **+5.27** | **+21** |
 
 ## Usage
 

@@ -72,7 +72,7 @@ Several Skulls spawn armed and armored, which raises their damage and armor abov
 
 | Mob | Spawns with |
 | --- | --- |
-| Skull Deserter | Full [[items/armor/strength-path/deserter-armor|Deserter Armor]] and a [[item:dungeons_and_combat:deserter_steel_sword]] |
+| Skull Deserter | Full [[items/armor/strength-path/deserter-armor\|Deserter Armor]] and a [[item:dungeons_and_combat:deserter_steel_sword]] |
 | Prisoner Skull | [[item:dungeons_and_combat:prisoner_helmet]] |
 | Royal Skull | Full Royal Steel armor ([[item:dungeons_and_combat:royal_steel_helmet]]) and a [[item:dungeons_and_combat:royal_steel_sword]] |
 | Counselor Skull | [[item:dungeons_and_combat:counselor_chestplate]], Counselor leggings and a [[item:dungeons_and_combat:cursed_steel_dagger]] |

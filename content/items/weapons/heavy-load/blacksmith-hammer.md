@@ -9,8 +9,7 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.30"],
-      ["Durability", "321"]
+      ["Attack speed", "1.30"]
     ]
   },
   "items": ["dungeons_and_combat:blacksmith_hammer"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type soulrend_weapon_types:hammer, from paxi:soulrend_ef_capabilities)
@@ -49,7 +48,6 @@ It can also be crafted (see [[#Crafting]]).
 | Targets per swing | 3 |
 | Armor Negation | 5% |
 | Entity Reach | 3 |
-| Durability | 321 |
 | Enchantability | 8 |
 
 ## Usage

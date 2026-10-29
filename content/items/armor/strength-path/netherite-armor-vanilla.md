@@ -22,7 +22,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
@@ -33,13 +33,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Max Health | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:minecraft:netherite_helmet]] | Helmet | +7 | +4.5 | +15% | +5 | +0.75 | +12 | 407 |
-| [[item:minecraft:netherite_chestplate]] | Chestplate | +12 | +5.5 | +15% | +5 | +2.25 | +18 | 592 |
-| [[item:minecraft:netherite_leggings]] | Leggings | +11 | +4.5 | +15% | +5 | +2.25 | +18 | 555 |
-| [[item:minecraft:netherite_boots]] | Boots | +7 | +4.5 | +15% | +5 | +0.75 | +12 | 481 |
-| **Full set** |  | **+37** | **+19** | **+60%** | **+20** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Max Health | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:minecraft:netherite_helmet]] | Helmet | +7 | +4.5 | +15% | +5 | +0.75 | +12 |
+| [[item:minecraft:netherite_chestplate]] | Chestplate | +12 | +5.5 | +15% | +5 | +2.25 | +18 |
+| [[item:minecraft:netherite_leggings]] | Leggings | +11 | +4.5 | +15% | +5 | +2.25 | +18 |
+| [[item:minecraft:netherite_boots]] | Boots | +7 | +4.5 | +15% | +5 | +0.75 | +12 |
+| **Full set** |  | **+37** | **+19** | **+60%** | **+20** | **+6** | **+60** |
 
 ## Usage
 

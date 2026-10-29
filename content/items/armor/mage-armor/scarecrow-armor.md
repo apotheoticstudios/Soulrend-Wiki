@@ -27,7 +27,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
@@ -38,13 +38,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Max Mana | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:irons_spellbooks:pumpkin_helmet]] | Helmet | +3 | +75 | +0.85 | +3.6 | 363 |
-| [[item:irons_spellbooks:pumpkin_chestplate]] | Chestplate | +8 | +75 | +1.35 | +5.6 | 528 |
-| [[item:irons_spellbooks:pumpkin_leggings]] | Leggings | +6 | +75 | +1.1 | +4.6 | 495 |
-| [[item:irons_spellbooks:pumpkin_boots]] | Boots | +3 | +75 | +0.85 | +3.6 | 429 |
-| **Full set** |  | **+20** | **+300** | **+4.15** | **+17.4** |  |
+| Piece | Slot | Armor | Max Mana | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:irons_spellbooks:pumpkin_helmet]] | Helmet | +3 | +75 | +0.85 | +3.6 |
+| [[item:irons_spellbooks:pumpkin_chestplate]] | Chestplate | +8 | +75 | +1.35 | +5.6 |
+| [[item:irons_spellbooks:pumpkin_leggings]] | Leggings | +6 | +75 | +1.1 | +4.6 |
+| [[item:irons_spellbooks:pumpkin_boots]] | Boots | +3 | +75 | +0.85 | +3.6 |
+| **Full set** |  | **+20** | **+300** | **+4.15** | **+17.4** |
 
 ## Usage
 

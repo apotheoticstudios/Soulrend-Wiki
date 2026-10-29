@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Max Health | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:steel_helmet]] | Helmet | +2.5 | +2 | +10% | +1 | +0.75 | +12 | 350 |
-| [[item:dungeons_and_combat:steel_chestplate]] | Chestplate | +7.5 | +2 | +10% | +2 | +2.25 | +18 | 450 |
-| [[item:dungeons_and_combat:steel_leggings]] | Leggings | +6.5 | +2 | +10% | +2 | +2.25 | +18 | 400 |
-| [[item:dungeons_and_combat:steel_boots]] | Boots | +2.5 | +2 | +10% | +1 | +0.75 | +12 | 350 |
-| **Full set** |  | **+19** | **+8** | **+40%** | **+6** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Max Health | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:steel_helmet]] | Helmet | +2.5 | +2 | +10% | +1 | +0.75 | +12 |
+| [[item:dungeons_and_combat:steel_chestplate]] | Chestplate | +7.5 | +2 | +10% | +2 | +2.25 | +18 |
+| [[item:dungeons_and_combat:steel_leggings]] | Leggings | +6.5 | +2 | +10% | +2 | +2.25 | +18 |
+| [[item:dungeons_and_combat:steel_boots]] | Boots | +2.5 | +2 | +10% | +1 | +0.75 | +12 |
+| **Full set** |  | **+19** | **+8** | **+40%** | **+6** | **+6** | **+60** |
 
 ## Usage
 

@@ -76,7 +76,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   iceandfire jar: lang item.iceandfire.sea_serpent_armor.desc_*, troll_leather_armor_*.desc, air_pods.desc
 -->
@@ -96,139 +96,139 @@ The Stun Armor and Weight columns are Epic Fight stats. In Epic Fight's words, "
 
 ## Ice and Fire
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:iceandfire:blindfold]] | Helmet | +1 | +0.38 | +2.5 |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
 | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:blindfold]] | Helmet | +1 | +0.38 | +2.5 | 55 |
+| [[item:iceandfire:deathworm_red_helmet]] | Helmet | +2 | +1.5 | +1.27 | +7 |
+| [[item:iceandfire:deathworm_red_chestplate]] | Chestplate | +5 | +1.5 | +3.6 | +20 |
+| [[item:iceandfire:deathworm_red_leggings]] | Leggings | +7 | +1.5 | +2.87 | +16 |
+| [[item:iceandfire:deathworm_red_boots]] | Boots | +3 | +1.5 | +1.13 | +6.5 |
+| **Full set** |  | **+17** | **+6** | **+8.87** | **+49.5** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:deathworm_red_helmet]] | Helmet | +2 | +1.5 | +1.27 | +7 | 165 |
-| [[item:iceandfire:deathworm_red_chestplate]] | Chestplate | +5 | +1.5 | +3.6 | +20 | 240 |
-| [[item:iceandfire:deathworm_red_leggings]] | Leggings | +7 | +1.5 | +2.87 | +16 | 225 |
-| [[item:iceandfire:deathworm_red_boots]] | Boots | +3 | +1.5 | +1.13 | +6.5 | 195 |
-| **Full set** |  | **+17** | **+6** | **+8.87** | **+49.5** |  |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:deathworm_white_helmet]] | Helmet | +2 | +1.5 | +1.27 | +7 | 165 |
-| [[item:iceandfire:deathworm_white_chestplate]] | Chestplate | +5 | +1.5 | +3.6 | +20 | 240 |
-| [[item:iceandfire:deathworm_white_leggings]] | Leggings | +7 | +1.5 | +2.87 | +16 | 225 |
-| [[item:iceandfire:deathworm_white_boots]] | Boots | +3 | +1.5 | +1.13 | +6.5 | 195 |
-| **Full set** |  | **+17** | **+6** | **+8.87** | **+49.5** |  |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:deathworm_yellow_helmet]] | Helmet | +2 | +1.5 | +1.27 | +7 | 165 |
-| [[item:iceandfire:deathworm_yellow_chestplate]] | Chestplate | +5 | +1.5 | +3.6 | +20 | 240 |
-| [[item:iceandfire:deathworm_yellow_leggings]] | Leggings | +7 | +1.5 | +2.87 | +16 | 225 |
-| [[item:iceandfire:deathworm_yellow_boots]] | Boots | +3 | +1.5 | +1.13 | +6.5 | 195 |
-| **Full set** |  | **+17** | **+6** | **+8.87** | **+49.5** |  |
-
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
 | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:earplugs]] | Helmet | +1 | +0.38 | +2.5 | 55 |
+| [[item:iceandfire:deathworm_white_helmet]] | Helmet | +2 | +1.5 | +1.27 | +7 |
+| [[item:iceandfire:deathworm_white_chestplate]] | Chestplate | +5 | +1.5 | +3.6 | +20 |
+| [[item:iceandfire:deathworm_white_leggings]] | Leggings | +7 | +1.5 | +2.87 | +16 |
+| [[item:iceandfire:deathworm_white_boots]] | Boots | +3 | +1.5 | +1.13 | +6.5 |
+| **Full set** |  | **+17** | **+6** | **+8.87** | **+49.5** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:forest_troll_leather_helmet]] | Helmet | +2 | +1 | +1.25 | +4 | 220 |
-| [[item:iceandfire:forest_troll_leather_chestplate]] | Chestplate | +5 | +1 | +1.75 | +6 | 320 |
-| [[item:iceandfire:forest_troll_leather_leggings]] | Leggings | +7 | +1 | +1.5 | +5 | 300 |
-| [[item:iceandfire:forest_troll_leather_boots]] | Boots | +3 | +1 | +1 | +3.5 | 260 |
-| **Full set** |  | **+17** | **+4** | **+5.5** | **+18.5** |  |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:frost_troll_leather_helmet]] | Helmet | +2 | +1 | +1.25 | +4 | 220 |
-| [[item:iceandfire:frost_troll_leather_chestplate]] | Chestplate | +5 | +1 | +1.75 | +6 | 320 |
-| [[item:iceandfire:frost_troll_leather_leggings]] | Leggings | +7 | +1 | +1.5 | +5 | 300 |
-| [[item:iceandfire:frost_troll_leather_boots]] | Boots | +3 | +1 | +1 | +3.5 | 260 |
-| **Full set** |  | **+17** | **+4** | **+5.5** | **+18.5** |  |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:mountain_troll_leather_helmet]] | Helmet | +2 | +1 | +1.25 | +4 | 220 |
-| [[item:iceandfire:mountain_troll_leather_chestplate]] | Chestplate | +5 | +1 | +1.75 | +6 | 320 |
-| [[item:iceandfire:mountain_troll_leather_leggings]] | Leggings | +7 | +1 | +1.5 | +5 | 300 |
-| [[item:iceandfire:mountain_troll_leather_boots]] | Boots | +3 | +1 | +1 | +3.5 | 260 |
-| **Full set** |  | **+17** | **+4** | **+5.5** | **+18.5** |  |
-
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
 | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:myrmex_desert_helmet]] | Helmet | +3 | +1.1 | +8 | 220 |
-| [[item:iceandfire:myrmex_desert_chestplate]] | Chestplate | +5 | +3.2 | +22 | 320 |
-| [[item:iceandfire:myrmex_desert_leggings]] | Leggings | +8 | +2.64 | +17 | 300 |
-| [[item:iceandfire:myrmex_desert_boots]] | Boots | +4 | +1.05 | +7 | 260 |
-| **Full set** |  | **+20** | **+7.99** | **+54** |  |
+| [[item:iceandfire:deathworm_yellow_helmet]] | Helmet | +2 | +1.5 | +1.27 | +7 |
+| [[item:iceandfire:deathworm_yellow_chestplate]] | Chestplate | +5 | +1.5 | +3.6 | +20 |
+| [[item:iceandfire:deathworm_yellow_leggings]] | Leggings | +7 | +1.5 | +2.87 | +16 |
+| [[item:iceandfire:deathworm_yellow_boots]] | Boots | +3 | +1.5 | +1.13 | +6.5 |
+| **Full set** |  | **+17** | **+6** | **+8.87** | **+49.5** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:iceandfire:earplugs]] | Helmet | +1 | +0.38 | +2.5 |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
 | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:myrmex_jungle_helmet]] | Helmet | +3 | +1.1 | +8 | 220 |
-| [[item:iceandfire:myrmex_jungle_chestplate]] | Chestplate | +5 | +3.2 | +22 | 320 |
-| [[item:iceandfire:myrmex_jungle_leggings]] | Leggings | +8 | +2.64 | +17 | 300 |
-| [[item:iceandfire:myrmex_jungle_boots]] | Boots | +4 | +1.05 | +7 | 260 |
-| **Full set** |  | **+20** | **+7.99** | **+54** |  |
+| [[item:iceandfire:forest_troll_leather_helmet]] | Helmet | +2 | +1 | +1.25 | +4 |
+| [[item:iceandfire:forest_troll_leather_chestplate]] | Chestplate | +5 | +1 | +1.75 | +6 |
+| [[item:iceandfire:forest_troll_leather_leggings]] | Leggings | +7 | +1 | +1.5 | +5 |
+| [[item:iceandfire:forest_troll_leather_boots]] | Boots | +3 | +1 | +1 | +3.5 |
+| **Full set** |  | **+17** | **+4** | **+5.5** | **+18.5** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
 | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:sheep_helmet]] | Helmet | +1 | +0.38 | +1.5 | 55 |
-| [[item:iceandfire:sheep_chestplate]] | Chestplate | +3 | +1.13 | +4.5 | 80 |
-| [[item:iceandfire:sheep_leggings]] | Leggings | +2 | +0.75 | +3 | 75 |
-| [[item:iceandfire:sheep_boots]] | Boots | +1 | +0.38 | +1.5 | 65 |
-| **Full set** |  | **+7** | **+2.64** | **+10.5** |  |
+| [[item:iceandfire:frost_troll_leather_helmet]] | Helmet | +2 | +1 | +1.25 | +4 |
+| [[item:iceandfire:frost_troll_leather_chestplate]] | Chestplate | +5 | +1 | +1.75 | +6 |
+| [[item:iceandfire:frost_troll_leather_leggings]] | Leggings | +7 | +1 | +1.5 | +5 |
+| [[item:iceandfire:frost_troll_leather_boots]] | Boots | +3 | +1 | +1 | +3.5 |
+| **Full set** |  | **+17** | **+4** | **+5.5** | **+18.5** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:tide_blue_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 | 330 |
-| [[item:iceandfire:tide_blue_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 | 480 |
-| [[item:iceandfire:tide_blue_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 | 450 |
-| [[item:iceandfire:tide_blue_boots]] | Boots | +4 | +2.5 | +2.36 | +10 | 390 |
-| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:mountain_troll_leather_helmet]] | Helmet | +2 | +1 | +1.25 | +4 |
+| [[item:iceandfire:mountain_troll_leather_chestplate]] | Chestplate | +5 | +1 | +1.75 | +6 |
+| [[item:iceandfire:mountain_troll_leather_leggings]] | Leggings | +7 | +1 | +1.5 | +5 |
+| [[item:iceandfire:mountain_troll_leather_boots]] | Boots | +3 | +1 | +1 | +3.5 |
+| **Full set** |  | **+17** | **+4** | **+5.5** | **+18.5** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:tide_bronze_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 | 330 |
-| [[item:iceandfire:tide_bronze_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 | 480 |
-| [[item:iceandfire:tide_bronze_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 | 450 |
-| [[item:iceandfire:tide_bronze_boots]] | Boots | +4 | +2.5 | +2.36 | +10 | 390 |
-| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:iceandfire:myrmex_desert_helmet]] | Helmet | +3 | +1.1 | +8 |
+| [[item:iceandfire:myrmex_desert_chestplate]] | Chestplate | +5 | +3.2 | +22 |
+| [[item:iceandfire:myrmex_desert_leggings]] | Leggings | +8 | +2.64 | +17 |
+| [[item:iceandfire:myrmex_desert_boots]] | Boots | +4 | +1.05 | +7 |
+| **Full set** |  | **+20** | **+7.99** | **+54** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:tide_deepblue_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 | 330 |
-| [[item:iceandfire:tide_deepblue_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 | 480 |
-| [[item:iceandfire:tide_deepblue_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 | 450 |
-| [[item:iceandfire:tide_deepblue_boots]] | Boots | +4 | +2.5 | +2.36 | +10 | 390 |
-| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:iceandfire:myrmex_jungle_helmet]] | Helmet | +3 | +1.1 | +8 |
+| [[item:iceandfire:myrmex_jungle_chestplate]] | Chestplate | +5 | +3.2 | +22 |
+| [[item:iceandfire:myrmex_jungle_leggings]] | Leggings | +8 | +2.64 | +17 |
+| [[item:iceandfire:myrmex_jungle_boots]] | Boots | +4 | +1.05 | +7 |
+| **Full set** |  | **+20** | **+7.99** | **+54** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:tide_green_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 | 330 |
-| [[item:iceandfire:tide_green_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 | 480 |
-| [[item:iceandfire:tide_green_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 | 450 |
-| [[item:iceandfire:tide_green_boots]] | Boots | +4 | +2.5 | +2.36 | +10 | 390 |
-| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:iceandfire:sheep_helmet]] | Helmet | +1 | +0.38 | +1.5 |
+| [[item:iceandfire:sheep_chestplate]] | Chestplate | +3 | +1.13 | +4.5 |
+| [[item:iceandfire:sheep_leggings]] | Leggings | +2 | +0.75 | +3 |
+| [[item:iceandfire:sheep_boots]] | Boots | +1 | +0.38 | +1.5 |
+| **Full set** |  | **+7** | **+2.64** | **+10.5** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:tide_purple_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 | 330 |
-| [[item:iceandfire:tide_purple_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 | 480 |
-| [[item:iceandfire:tide_purple_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 | 450 |
-| [[item:iceandfire:tide_purple_boots]] | Boots | +4 | +2.5 | +2.36 | +10 | 390 |
-| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:tide_blue_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 |
+| [[item:iceandfire:tide_blue_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 |
+| [[item:iceandfire:tide_blue_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 |
+| [[item:iceandfire:tide_blue_boots]] | Boots | +4 | +2.5 | +2.36 | +10 |
+| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:tide_red_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 | 330 |
-| [[item:iceandfire:tide_red_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 | 480 |
-| [[item:iceandfire:tide_red_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 | 450 |
-| [[item:iceandfire:tide_red_boots]] | Boots | +4 | +2.5 | +2.36 | +10 | 390 |
-| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:tide_bronze_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 |
+| [[item:iceandfire:tide_bronze_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 |
+| [[item:iceandfire:tide_bronze_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 |
+| [[item:iceandfire:tide_bronze_boots]] | Boots | +4 | +2.5 | +2.36 | +10 |
+| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:tide_teal_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 | 330 |
-| [[item:iceandfire:tide_teal_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 | 480 |
-| [[item:iceandfire:tide_teal_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 | 450 |
-| [[item:iceandfire:tide_teal_boots]] | Boots | +4 | +2.5 | +2.36 | +10 | 390 |
-| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:tide_deepblue_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 |
+| [[item:iceandfire:tide_deepblue_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 |
+| [[item:iceandfire:tide_deepblue_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 |
+| [[item:iceandfire:tide_deepblue_boots]] | Boots | +4 | +2.5 | +2.36 | +10 |
+| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:tide_green_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 |
+| [[item:iceandfire:tide_green_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 |
+| [[item:iceandfire:tide_green_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 |
+| [[item:iceandfire:tide_green_boots]] | Boots | +4 | +2.5 | +2.36 | +10 |
+| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:tide_purple_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 |
+| [[item:iceandfire:tide_purple_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 |
+| [[item:iceandfire:tide_purple_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 |
+| [[item:iceandfire:tide_purple_boots]] | Boots | +4 | +2.5 | +2.36 | +10 |
+| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:tide_red_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 |
+| [[item:iceandfire:tide_red_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 |
+| [[item:iceandfire:tide_red_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 |
+| [[item:iceandfire:tide_red_boots]] | Boots | +4 | +2.5 | +2.36 | +10 |
+| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:tide_teal_helmet]] | Helmet | +4 | +2.5 | +2.36 | +10 |
+| [[item:iceandfire:tide_teal_chestplate]] | Chestplate | +8 | +2.5 | +4.95 | +20 |
+| [[item:iceandfire:tide_teal_leggings]] | Leggings | +7 | +2.5 | +6.6 | +26.7 |
+| [[item:iceandfire:tide_teal_boots]] | Boots | +4 | +2.5 | +2.36 | +10 |
+| **Full set** |  | **+23** | **+10** | **+16.27** | **+66.7** |
 

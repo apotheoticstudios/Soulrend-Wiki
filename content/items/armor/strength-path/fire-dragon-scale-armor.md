@@ -34,7 +34,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltips)
@@ -49,43 +49,43 @@ Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
 ### Dragon Scale (`iceandfire:armor_bronze`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_bronze_helmet]] | Helmet | +6 | +4 | +0.75 | +12 | 396 |
-| [[item:iceandfire:armor_bronze_chestplate]] | Chestplate | +9 | +4 | +2.25 | +18 | 576 |
-| [[item:iceandfire:armor_bronze_leggings]] | Leggings | +9 | +4 | +2.25 | +18 | 540 |
-| [[item:iceandfire:armor_bronze_boots]] | Boots | +6 | +4 | +0.75 | +12 | 468 |
-| **Full set** |  | **+30** | **+16** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_bronze_helmet]] | Helmet | +6 | +4 | +0.75 | +12 |
+| [[item:iceandfire:armor_bronze_chestplate]] | Chestplate | +9 | +4 | +2.25 | +18 |
+| [[item:iceandfire:armor_bronze_leggings]] | Leggings | +9 | +4 | +2.25 | +18 |
+| [[item:iceandfire:armor_bronze_boots]] | Boots | +6 | +4 | +0.75 | +12 |
+| **Full set** |  | **+30** | **+16** | **+6** | **+60** |
 
 ### Dragon Scale (`iceandfire:armor_gray`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_gray_helmet]] | Helmet | +6 | +4 | +0.75 | +12 | 396 |
-| [[item:iceandfire:armor_gray_chestplate]] | Chestplate | +9 | +4 | +2.25 | +18 | 576 |
-| [[item:iceandfire:armor_gray_leggings]] | Leggings | +9 | +4 | +2.25 | +18 | 540 |
-| [[item:iceandfire:armor_gray_boots]] | Boots | +6 | +4 | +0.75 | +12 | 468 |
-| **Full set** |  | **+30** | **+16** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_gray_helmet]] | Helmet | +6 | +4 | +0.75 | +12 |
+| [[item:iceandfire:armor_gray_chestplate]] | Chestplate | +9 | +4 | +2.25 | +18 |
+| [[item:iceandfire:armor_gray_leggings]] | Leggings | +9 | +4 | +2.25 | +18 |
+| [[item:iceandfire:armor_gray_boots]] | Boots | +6 | +4 | +0.75 | +12 |
+| **Full set** |  | **+30** | **+16** | **+6** | **+60** |
 
 ### Dragon Scale (`iceandfire:armor_green`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_green_helmet]] | Helmet | +6 | +4 | +0.75 | +12 | 396 |
-| [[item:iceandfire:armor_green_chestplate]] | Chestplate | +9 | +4 | +2.25 | +18 | 576 |
-| [[item:iceandfire:armor_green_leggings]] | Leggings | +9 | +4 | +2.25 | +18 | 540 |
-| [[item:iceandfire:armor_green_boots]] | Boots | +6 | +4 | +0.75 | +12 | 468 |
-| **Full set** |  | **+30** | **+16** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_green_helmet]] | Helmet | +6 | +4 | +0.75 | +12 |
+| [[item:iceandfire:armor_green_chestplate]] | Chestplate | +9 | +4 | +2.25 | +18 |
+| [[item:iceandfire:armor_green_leggings]] | Leggings | +9 | +4 | +2.25 | +18 |
+| [[item:iceandfire:armor_green_boots]] | Boots | +6 | +4 | +0.75 | +12 |
+| **Full set** |  | **+30** | **+16** | **+6** | **+60** |
 
 ### Dragon Scale (`iceandfire:armor_red`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_red_helmet]] | Helmet | +6 | +4 | +0.75 | +12 | 396 |
-| [[item:iceandfire:armor_red_chestplate]] | Chestplate | +9 | +4 | +2.25 | +18 | 576 |
-| [[item:iceandfire:armor_red_leggings]] | Leggings | +9 | +4 | +2.25 | +18 | 540 |
-| [[item:iceandfire:armor_red_boots]] | Boots | +6 | +4 | +0.75 | +12 | 468 |
-| **Full set** |  | **+30** | **+16** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_red_helmet]] | Helmet | +6 | +4 | +0.75 | +12 |
+| [[item:iceandfire:armor_red_chestplate]] | Chestplate | +9 | +4 | +2.25 | +18 |
+| [[item:iceandfire:armor_red_leggings]] | Leggings | +9 | +4 | +2.25 | +18 |
+| [[item:iceandfire:armor_red_boots]] | Boots | +6 | +4 | +0.75 | +12 |
+| **Full set** |  | **+30** | **+16** | **+6** | **+60** |
 
 ## Usage
 

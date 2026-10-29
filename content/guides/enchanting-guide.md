@@ -238,8 +238,8 @@ These are Soulrend's values, from its Apotheosis datapack and the addons. A shel
 | [[item:apotheotic_additions:occult_thornshelf]] | +4.5 | 35 | +2.25% | +5% | | +1 |
 | [[item:apotheotic_additions:hollowed_barrel_shelf]] | +1.5 | 17.5 | +1.5% | | | |
 | [[item:apotheotic_additions:nuclear_barrel_shelf]] | +3 | 35 | +35% | | | −1 |
-| [[item:apotheosis:sightshelf]] / [[item:apotheosis:sightshelf_t2|Masterful]] | | | | | | +1 / +2 |
-| [[item:apotheosis:rectifier]] / [[item:apotheosis:rectifier_t2|T2]] / [[item:apotheosis:rectifier_t3|T3]] | | | | | +10% / +15% / +25% | |
+| [[item:apotheosis:sightshelf]] / [[item:apotheosis:sightshelf_t2\|Masterful]] | | | | | | +1 / +2 |
+| [[item:apotheosis:rectifier]] / [[item:apotheosis:rectifier_t2\|T2]] / [[item:apotheosis:rectifier_t3\|T3]] | | | | | +10% / +15% / +25% | |
 | [[item:apotheosis:treasure_shelf]] | | | −10% | +10% | | |
 | [[item:apotheosis:filtering_shelf]] | +0.5 per book | 30 | | +1% per book | | |
 

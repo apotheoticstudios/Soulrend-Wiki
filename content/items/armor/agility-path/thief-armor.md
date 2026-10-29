@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   fantasy_armor jar: lang item.fantasy_armor.thief_*.tooltip
@@ -40,13 +40,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Attack Speed | Luck | Speed | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:fantasy_armor:thief_helmet]] | Helmet | +2 |  | +10% | +0.1 | +1 | +1.5% | +2.75 | +8 | 320 |
-| [[item:fantasy_armor:thief_chestplate]] | Chestplate | +5 | +1 | +10% | +0.1 |  | +2.5% | +3.25 | +12 | 420 |
-| [[item:fantasy_armor:thief_leggings]] | Leggings | +4 | +1 | +10% | +0.1 |  | +1.5% | +3.25 | +12 | 360 |
-| [[item:fantasy_armor:thief_boots]] | Boots | +2 |  | +10% | +0.1 |  | +1.5% | +2.75 | +8 | 320 |
-| **Full set** |  | **+13** | **+2** | **+40%** | **+0.4** | **+1** | **+7%** | **+12** | **+40** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Attack Speed | Luck | Speed | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:fantasy_armor:thief_helmet]] | Helmet | +2 |  | +10% | +0.1 | +1 | +1.5% | +2.75 | +8 |
+| [[item:fantasy_armor:thief_chestplate]] | Chestplate | +5 | +1 | +10% | +0.1 |  | +2.5% | +3.25 | +12 |
+| [[item:fantasy_armor:thief_leggings]] | Leggings | +4 | +1 | +10% | +0.1 |  | +1.5% | +3.25 | +12 |
+| [[item:fantasy_armor:thief_boots]] | Boots | +2 |  | +10% | +0.1 |  | +1.5% | +2.75 | +8 |
+| **Full set** |  | **+13** | **+2** | **+40%** | **+0.4** | **+1** | **+7%** | **+12** | **+40** |
 
 ## Usage
 

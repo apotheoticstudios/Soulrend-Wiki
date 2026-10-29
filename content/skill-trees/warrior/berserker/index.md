@@ -23,10 +23,10 @@ The Berserker node gives:
 
 | Branch | Points to hub | Hub effect | Nodes |
 | --- | --- | --- | --- |
-| [[skill-trees/warrior/berserker/agile\|Agile]] | 6 | +10% Impact with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand | 9 |
+| [[skill-trees/warrior/berserker/agile\|Agile]] | 6 | +10% Impact with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand | 9 |
 | [[skill-trees/warrior/berserker/bloodthirsty\|Bloodthirsty]] | 6 | +10% Max Health | 9 |
-| [[skill-trees/warrior/berserker/shred\|Shred]] | 6 | +20% Attack Damage with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand | 9 |
-| [[skill-trees/warrior/berserker/resilient\|Resilient]] | 6 | ×1.3 Crit Damage with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand | 9 |
+| [[skill-trees/warrior/berserker/shred\|Shred]] | 6 | +20% Attack Damage with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand | 9 |
+| [[skill-trees/warrior/berserker/resilient\|Resilient]] | 6 | ×1.3 Crit Damage with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand | 9 |
 
 ## Keystones
 

@@ -94,7 +94,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
 
@@ -110,232 +110,232 @@ The Stun Armor and Weight columns are Epic Fight stats. In Epic Fight's words, "
 
 ## Valarian Conquest
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:bandit_mask_gray_helmet]] | Helmet | +2 | +0.75 | +5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:bandit_mask_gray_helmet]] | Helmet | +2 | +0.75 | +5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:bandit_mask_helmet]] | Helmet | +2 | +0.75 | +5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:bandit_mask_helmet]] | Helmet | +2 | +0.75 | +5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:barathians_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
-| [[item:valarian_conquest:barathians_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:barathians_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:barathians_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+20** | **+7.49** | **+50** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:barathians_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 |
+| [[item:valarian_conquest:barathians_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:barathians_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:barathians_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+20** | **+7.49** | **+50** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:barathians_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:barathians_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:barathians_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:barathians_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:barathians_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:barathians_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:barathians_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:barathians_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:barbute_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:barbute_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:bascinet_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:bascinet_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:bohemian_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
-| [[item:valarian_conquest:bohemian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:bohemian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:bohemian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+20** | **+7.49** | **+50** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:bohemian_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 |
+| [[item:valarian_conquest:bohemian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:bohemian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:bohemian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+20** | **+7.49** | **+50** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:bohemian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:bohemian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:bohemian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:bohemian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:bohemian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:bohemian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:bohemian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:bohemian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:burgundian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:burgundian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:burgundian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+17** | **+6.37** | **+42.5** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:burgundian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:burgundian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:burgundian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+17** | **+6.37** | **+42.5** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:burgundian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:burgundian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:burgundian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:burgundian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:burgundian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:burgundian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:burgundian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:burgundian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:chainmail_armor_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:chainmail_armor_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:chainmail_armor_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+17** | **+6.37** | **+42.5** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:chainmail_armor_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:chainmail_armor_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:chainmail_armor_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+17** | **+6.37** | **+42.5** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:chainmail_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:chainmail_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:hospitaller_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
-| [[item:valarian_conquest:hospitaller_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:hospitaller_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:hospitaller_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+20** | **+7.49** | **+50** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:hospitaller_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 |
+| [[item:valarian_conquest:hospitaller_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:hospitaller_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:hospitaller_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+20** | **+7.49** | **+50** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:hospitaller_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:hospitaller_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:hospitaller_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:hospitaller_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:hospitaller_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:hospitaller_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:hospitaller_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:hospitaller_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:kalota_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:kalota_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:kettle_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:kettle_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:leather_armor_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:leather_armor_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:leather_armor_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+17** | **+6.37** | **+42.5** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:leather_armor_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:leather_armor_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:leather_armor_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+17** | **+6.37** | **+42.5** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:lord_coronet_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:lord_coronet_helmet]] | Helmet | +3 | +1.12 | +7.5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:nasal_helm_2_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:nasal_helm_2_helmet]] | Helmet | +3 | +1.12 | +7.5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:nasal_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:nasal_helm_helmet]] | Helmet | +3 | +1.12 | +7.5 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:neutral_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:neutral_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:neutral_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+17** | **+6.37** | **+42.5** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:neutral_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:neutral_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:neutral_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+17** | **+6.37** | **+42.5** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:neutral_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:neutral_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:neutral_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:neutral_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:orleanian_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
-| [[item:valarian_conquest:orleanian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:orleanian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:orleanian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+20** | **+7.49** | **+50** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:orleanian_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 |
+| [[item:valarian_conquest:orleanian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:orleanian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:orleanian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+20** | **+7.49** | **+50** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:orleanian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:orleanian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:orleanian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:orleanian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:orleanian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:orleanian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:orleanian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:orleanian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:templar_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 | 165 |
-| [[item:valarian_conquest:templar_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:templar_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:templar_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+20** | **+7.49** | **+50** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:templar_armor_1_helmet]] | Helmet | +3 | +1.12 | +7.5 |
+| [[item:valarian_conquest:templar_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:templar_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:templar_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+20** | **+7.49** | **+50** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:templar_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:templar_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:templar_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:templar_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:templar_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:templar_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:templar_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:templar_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:templar_armor_4_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:templar_armor_4_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:templar_armor_4_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:templar_armor_4_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:valarian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:valarian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:valarian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+17** | **+6.37** | **+42.5** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:valarian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:valarian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:valarian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+17** | **+6.37** | **+42.5** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:valarian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:valarian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:valarian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:valarian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:valarian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:valarian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:valarian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:valarian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:visgothian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:visgothian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| [[item:valarian_conquest:visgothian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 | 195 |
-| **Full set** |  | **+17** | **+6.37** | **+42.5** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:visgothian_armor_1_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:visgothian_armor_1_leggings]] | Leggings | +6 | +2.25 | +15 |
+| [[item:valarian_conquest:visgothian_armor_1_boots]] | Boots | +3 | +1.12 | +7.5 |
+| **Full set** |  | **+17** | **+6.37** | **+42.5** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:visgothian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:visgothian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:visgothian_armor_2_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:visgothian_armor_2_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:valarian_conquest:visgothian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 | 240 |
-| [[item:valarian_conquest:visgothian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 | 225 |
-| **Full set** |  | **+14** | **+5.25** | **+35** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:valarian_conquest:visgothian_armor_3_chestplate]] | Chestplate | +8 | +3 | +20 |
+| [[item:valarian_conquest:visgothian_armor_3_leggings]] | Leggings | +6 | +2.25 | +15 |
+| **Full set** |  | **+14** | **+5.25** | **+35** |

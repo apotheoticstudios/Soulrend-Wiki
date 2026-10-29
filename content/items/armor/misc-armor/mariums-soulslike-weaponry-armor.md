@@ -26,7 +26,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   soulsweapons jar: Arkenplate, EnhancedArkenplate, ChaosCrown, ChaosRobes, Hallowheart, EnhancedHallowheart classes; lang tooltip.soulsweapons.unbreakable*, aftershock*, mirror*, effect_reversal*, cleansing_artifact*, corrupt_ground*, unceasing*, infectious*, fire_immune*, exalt*
   config/soulsweapons/soulsweapons.json (arkenplate_shockwave_damage 6, arkenplate_shockwave_cooldown 200, arkenplate_mirror_trigger_percent 0.5, chaos_crown_flip_effect_cooldown 300)
@@ -52,12 +52,12 @@ The Stun Armor and Weight columns are Epic Fight stats. In Epic Fight's words, "
 
 ## Marium's Soulslike Weaponry
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Luck | Stun Armor | Weight | Bleed Buildup Resistance | Bleed Damage Resistance | Posture Loss Buildup Resistance | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:soulsweapons:chaos_crown]] | Helmet | +1 |  |  | +1 | +0.8 | +4 |  |  |  | 400 |
-| [[item:soulsweapons:chaos_helmet]] | Helmet | +5 | +4 | +20% | +1 | +2.5 | +10 | +60 | +40 |  | 500 |
-| [[item:soulsweapons:arkenplate]] | Chestplate | +10 | +4 | +20% |  | +6.5 | +25 | +100 | +60 |  | 700 |
-| [[item:soulsweapons:chaos_robes]] | Chestplate | +4 |  |  |  | +1 | +4 |  |  |  | 600 |
-| [[item:soulsweapons:enhanced_arkenplate]] | Chestplate | +10 | +4 | +20% |  | +7 | +28 | +100 | +60 |  | 700 |
-| [[item:soulsweapons:enhanced_withered_chest]] | Chestplate | +10 | +4 | +20% |  | +7 | +28 | +40 |  | +25 | 700 |
-| [[item:soulsweapons:withered_chest]] | Chestplate | +10 | +4 | +20% |  | +6.5 | +25 | +40 |  | +25 | 700 |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Luck | Stun Armor | Weight | Bleed Buildup Resistance | Bleed Damage Resistance | Posture Loss Buildup Resistance |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:soulsweapons:chaos_crown]] | Helmet | +1 |  |  | +1 | +0.8 | +4 |  |  |  |
+| [[item:soulsweapons:chaos_helmet]] | Helmet | +5 | +4 | +20% | +1 | +2.5 | +10 | +60 | +40 |  |
+| [[item:soulsweapons:arkenplate]] | Chestplate | +10 | +4 | +20% |  | +6.5 | +25 | +100 | +60 |  |
+| [[item:soulsweapons:chaos_robes]] | Chestplate | +4 |  |  |  | +1 | +4 |  |  |  |
+| [[item:soulsweapons:enhanced_arkenplate]] | Chestplate | +10 | +4 | +20% |  | +7 | +28 | +100 | +60 |  |
+| [[item:soulsweapons:enhanced_withered_chest]] | Chestplate | +10 | +4 | +20% |  | +7 | +28 | +40 |  | +25 |
+| [[item:soulsweapons:withered_chest]] | Chestplate | +10 | +4 | +20% |  | +6.5 | +25 | +40 |  | +25 |

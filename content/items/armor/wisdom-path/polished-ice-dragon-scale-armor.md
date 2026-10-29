@@ -58,7 +58,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltips)
@@ -73,67 +73,67 @@ Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
 ### Blue Dragon (`dungeons_and_combat:blue_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:blue_dragon_helmet]] | Helmet | +7 | +5 | +5% | +1.25 | +10 | 363 |
-| [[item:dungeons_and_combat:blue_dragon_chestplate]] | Chestplate | +10 | +5 | +5% | +1.75 | +12 | 528 |
-| [[item:dungeons_and_combat:blue_dragon_leggings]] | Leggings | +10 | +5 | +5% | +1.75 | +12 | 495 |
-| [[item:dungeons_and_combat:blue_dragon_boots]] | Boots | +7 | +5 | +5% | +1.25 | +10 | 429 |
-| **Full set** |  | **+34** | **+20** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:blue_dragon_helmet]] | Helmet | +7 | +5 | +5% | +1.25 | +10 |
+| [[item:dungeons_and_combat:blue_dragon_chestplate]] | Chestplate | +10 | +5 | +5% | +1.75 | +12 |
+| [[item:dungeons_and_combat:blue_dragon_leggings]] | Leggings | +10 | +5 | +5% | +1.75 | +12 |
+| [[item:dungeons_and_combat:blue_dragon_boots]] | Boots | +7 | +5 | +5% | +1.25 | +10 |
+| **Full set** |  | **+34** | **+20** | **+20%** | **+6** | **+44** |
 
 ### Sapphire Dragon (`dungeons_and_combat:sapphire_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:sapphire_dragon_helmet]] | Helmet | +7 | +5 | +5% | +1.25 | +10 | 363 |
-| [[item:dungeons_and_combat:sapphire_dragon_chestplate]] | Chestplate | +10 | +5 | +5% | +1.75 | +12 | 528 |
-| [[item:dungeons_and_combat:sapphire_dragon_leggings]] | Leggings | +10 | +5 | +5% | +1.75 | +12 | 495 |
-| [[item:dungeons_and_combat:sapphire_dragon_boots]] | Boots | +7 | +5 | +5% | +1.25 | +10 | 429 |
-| **Full set** |  | **+34** | **+20** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:sapphire_dragon_helmet]] | Helmet | +7 | +5 | +5% | +1.25 | +10 |
+| [[item:dungeons_and_combat:sapphire_dragon_chestplate]] | Chestplate | +10 | +5 | +5% | +1.75 | +12 |
+| [[item:dungeons_and_combat:sapphire_dragon_leggings]] | Leggings | +10 | +5 | +5% | +1.75 | +12 |
+| [[item:dungeons_and_combat:sapphire_dragon_boots]] | Boots | +7 | +5 | +5% | +1.25 | +10 |
+| **Full set** |  | **+34** | **+20** | **+20%** | **+6** | **+44** |
 
 ### Silver Dragon (`dungeons_and_combat:silver_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:silver_dragon_helmet]] | Helmet | +7 | +5 | +5% | +1.25 | +10 | 363 |
-| [[item:dungeons_and_combat:silver_dragon_chestplate]] | Chestplate | +10 | +5 | +5% | +1.75 | +12 | 528 |
-| [[item:dungeons_and_combat:silver_dragon_leggings]] | Leggings | +10 | +5 | +5% | +1.75 | +12 | 495 |
-| [[item:dungeons_and_combat:silver_dragon_boots]] | Boots | +7 | +5 | +5% | +1.25 | +10 | 429 |
-| **Full set** |  | **+34** | **+20** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:silver_dragon_helmet]] | Helmet | +7 | +5 | +5% | +1.25 | +10 |
+| [[item:dungeons_and_combat:silver_dragon_chestplate]] | Chestplate | +10 | +5 | +5% | +1.75 | +12 |
+| [[item:dungeons_and_combat:silver_dragon_leggings]] | Leggings | +10 | +5 | +5% | +1.75 | +12 |
+| [[item:dungeons_and_combat:silver_dragon_boots]] | Boots | +7 | +5 | +5% | +1.25 | +10 |
+| **Full set** |  | **+34** | **+20** | **+20%** | **+6** | **+44** |
 
 ### White Dragon (`dungeons_and_combat:white_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:white_dragon_helmet]] | Helmet | +7 | +5 | +5% | +1.25 | +10 | 363 |
-| [[item:dungeons_and_combat:white_dragon_chestplate]] | Chestplate | +10 | +5 | +5% | +1.75 | +12 | 528 |
-| [[item:dungeons_and_combat:white_dragon_leggings]] | Leggings | +10 | +5 | +5% | +1.75 | +12 | 495 |
-| [[item:dungeons_and_combat:white_dragon_boots]] | Boots | +7 | +5 | +5% | +1.25 | +10 | 429 |
-| **Full set** |  | **+34** | **+20** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:white_dragon_helmet]] | Helmet | +7 | +5 | +5% | +1.25 | +10 |
+| [[item:dungeons_and_combat:white_dragon_chestplate]] | Chestplate | +10 | +5 | +5% | +1.75 | +12 |
+| [[item:dungeons_and_combat:white_dragon_leggings]] | Leggings | +10 | +5 | +5% | +1.75 | +12 |
+| [[item:dungeons_and_combat:white_dragon_boots]] | Boots | +7 | +5 | +5% | +1.25 | +10 |
+| **Full set** |  | **+34** | **+20** | **+20%** | **+6** | **+44** |
 
 ### Blue Dragon Shield (`dungeons_and_combat:blue_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:blue_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:blue_dragon_shield]] | Piece | 1 |
 
 ### Amethyst Dragon Shield (`dungeons_and_combat:sapphire_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:sapphire_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:sapphire_dragon_shield]] | Piece | 1 |
 
 ### Silver Dragon Shield (`dungeons_and_combat:silver_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:silver_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:silver_dragon_shield]] | Piece | 1 |
 
 ### White Dragon Shield (`dungeons_and_combat:white_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:white_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:white_dragon_shield]] | Piece | 1 |
 
 ## Usage
 

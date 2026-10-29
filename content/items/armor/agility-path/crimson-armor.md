@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Blood Spell Power | Crit Damage | Speed | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:crimson_helmet]] | Helmet | +7 | +5 | +15% | +5% | +9% | +4.5% | +2.75 | +8 | 693 |
-| [[item:dungeons_and_combat:crimson_chestplate]] | Chestplate | +11 | +5 | +15% | +5% | +9% | +4.5% | +3.25 | +12 | 1,008 |
-| [[item:dungeons_and_combat:crimson_leggings]] | Leggings | +10 | +5 | +15% | +5% | +9% | +4.5% | +3.25 | +12 | 945 |
-| [[item:dungeons_and_combat:crimson_boots]] | Boots | +7 | +5 | +15% | +5% | +9% | +4.5% | +2.75 | +8 | 819 |
-| **Full set** |  | **+35** | **+20** | **+60%** | **+20%** | **+36%** | **+18%** | **+12** | **+40** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Blood Spell Power | Crit Damage | Speed | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:crimson_helmet]] | Helmet | +7 | +5 | +15% | +5% | +9% | +4.5% | +2.75 | +8 |
+| [[item:dungeons_and_combat:crimson_chestplate]] | Chestplate | +11 | +5 | +15% | +5% | +9% | +4.5% | +3.25 | +12 |
+| [[item:dungeons_and_combat:crimson_leggings]] | Leggings | +10 | +5 | +15% | +5% | +9% | +4.5% | +3.25 | +12 |
+| [[item:dungeons_and_combat:crimson_boots]] | Boots | +7 | +5 | +15% | +5% | +9% | +4.5% | +2.75 | +8 |
+| **Full set** |  | **+35** | **+20** | **+60%** | **+20%** | **+36%** | **+18%** | **+12** | **+40** |
 
 ## Usage
 

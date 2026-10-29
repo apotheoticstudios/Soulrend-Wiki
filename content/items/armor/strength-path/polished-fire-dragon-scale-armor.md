@@ -65,7 +65,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltips)
@@ -79,77 +79,77 @@ Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
 ### Black Dragon (`dungeons_and_combat:black_dragon_electric`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:black_dragon_electric_helmet]] | Helmet | +7 | +5 | +2.75 | +8 | 363 |
-| [[item:dungeons_and_combat:black_dragon_electric_chestplate]] | Chestplate | +10 | +5 | +3.25 | +12 | 528 |
-| [[item:dungeons_and_combat:black_dragon_electric_leggings]] | Leggings | +10 | +5 | +3.25 | +12 | 495 |
-| [[item:dungeons_and_combat:black_dragon_electric_boots]] | Boots | +7 | +5 | +2.75 | +8 | 429 |
-| **Full set** |  | **+34** | **+20** | **+12** | **+40** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:black_dragon_electric_helmet]] | Helmet | +7 | +5 | +2.75 | +8 |
+| [[item:dungeons_and_combat:black_dragon_electric_chestplate]] | Chestplate | +10 | +5 | +3.25 | +12 |
+| [[item:dungeons_and_combat:black_dragon_electric_leggings]] | Leggings | +10 | +5 | +3.25 | +12 |
+| [[item:dungeons_and_combat:black_dragon_electric_boots]] | Boots | +7 | +5 | +2.75 | +8 |
+| **Full set** |  | **+34** | **+20** | **+12** | **+40** |
 
 ### Grey Dragon (`dungeons_and_combat:black_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:black_dragon_helmet]] | Helmet | +7 | +5 | +0.75 | +12 | 363 |
-| [[item:dungeons_and_combat:black_dragon_chestplate]] | Chestplate | +10 | +5 | +2.25 | +18 | 528 |
-| [[item:dungeons_and_combat:black_dragon_leggings]] | Leggings | +10 | +5 | +2.25 | +18 | 495 |
-| [[item:dungeons_and_combat:black_dragon_boots]] | Boots | +7 | +5 | +0.75 | +12 | 429 |
-| **Full set** |  | **+34** | **+20** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:black_dragon_helmet]] | Helmet | +7 | +5 | +0.75 | +12 |
+| [[item:dungeons_and_combat:black_dragon_chestplate]] | Chestplate | +10 | +5 | +2.25 | +18 |
+| [[item:dungeons_and_combat:black_dragon_leggings]] | Leggings | +10 | +5 | +2.25 | +18 |
+| [[item:dungeons_and_combat:black_dragon_boots]] | Boots | +7 | +5 | +0.75 | +12 |
+| **Full set** |  | **+34** | **+20** | **+6** | **+60** |
 
 ### Bronze Dragon (`dungeons_and_combat:bronze_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:bronze_dragon_helmet]] | Helmet | +7 | +5 | +0.75 | +12 | 363 |
-| [[item:dungeons_and_combat:bronze_dragon_chestplate]] | Chestplate | +10 | +5 | +2.25 | +18 | 528 |
-| [[item:dungeons_and_combat:bronze_dragon_leggings]] | Leggings | +10 | +5 | +2.25 | +18 | 495 |
-| [[item:dungeons_and_combat:bronze_dragon_boots]] | Boots | +7 | +5 | +0.75 | +12 | 429 |
-| **Full set** |  | **+34** | **+20** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:bronze_dragon_helmet]] | Helmet | +7 | +5 | +0.75 | +12 |
+| [[item:dungeons_and_combat:bronze_dragon_chestplate]] | Chestplate | +10 | +5 | +2.25 | +18 |
+| [[item:dungeons_and_combat:bronze_dragon_leggings]] | Leggings | +10 | +5 | +2.25 | +18 |
+| [[item:dungeons_and_combat:bronze_dragon_boots]] | Boots | +7 | +5 | +0.75 | +12 |
+| **Full set** |  | **+34** | **+20** | **+6** | **+60** |
 
 ### Emerald Dragon (`dungeons_and_combat:green_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:green_dragon_helmet]] | Helmet | +7 | +5 | +0.75 | +12 | 363 |
-| [[item:dungeons_and_combat:green_dragon_chestplate]] | Chestplate | +10 | +5 | +2.25 | +18 | 528 |
-| [[item:dungeons_and_combat:green_dragon_leggings]] | Leggings | +10 | +5 | +2.25 | +18 | 495 |
-| [[item:dungeons_and_combat:green_dragon_boots]] | Boots | +7 | +5 | +0.75 | +12 | 429 |
-| **Full set** |  | **+34** | **+20** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:green_dragon_helmet]] | Helmet | +7 | +5 | +0.75 | +12 |
+| [[item:dungeons_and_combat:green_dragon_chestplate]] | Chestplate | +10 | +5 | +2.25 | +18 |
+| [[item:dungeons_and_combat:green_dragon_leggings]] | Leggings | +10 | +5 | +2.25 | +18 |
+| [[item:dungeons_and_combat:green_dragon_boots]] | Boots | +7 | +5 | +0.75 | +12 |
+| **Full set** |  | **+34** | **+20** | **+6** | **+60** |
 
 ### Red Dragon (`dungeons_and_combat:red_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:red_dragon_helmet]] | Helmet | +7 | +5 | +0.75 | +12 | 363 |
-| [[item:dungeons_and_combat:red_dragon_chestplate]] | Chestplate | +10 | +5 | +2.25 | +18 | 528 |
-| [[item:dungeons_and_combat:red_dragon_leggings]] | Leggings | +10 | +5 | +2.25 | +18 | 495 |
-| [[item:dungeons_and_combat:red_dragon_boots]] | Boots | +7 | +5 | +0.75 | +12 | 429 |
-| **Full set** |  | **+34** | **+20** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:red_dragon_helmet]] | Helmet | +7 | +5 | +0.75 | +12 |
+| [[item:dungeons_and_combat:red_dragon_chestplate]] | Chestplate | +10 | +5 | +2.25 | +18 |
+| [[item:dungeons_and_combat:red_dragon_leggings]] | Leggings | +10 | +5 | +2.25 | +18 |
+| [[item:dungeons_and_combat:red_dragon_boots]] | Boots | +7 | +5 | +0.75 | +12 |
+| **Full set** |  | **+34** | **+20** | **+6** | **+60** |
 
 ### White Dragon Shield (`dungeons_and_combat:black_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:black_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:black_dragon_shield]] | Piece | 1 |
 
 ### Red Dragon Shield (`dungeons_and_combat:bronze_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:bronze_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:bronze_dragon_shield]] | Piece | 1 |
 
 ### Green Dragon Shield (`dungeons_and_combat:green_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:green_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:green_dragon_shield]] | Piece | 1 |
 
 ### Red Dragon Shield (`dungeons_and_combat:red_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:red_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:red_dragon_shield]] | Piece | 1 |
 
 ## Usage
 

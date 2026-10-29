@@ -27,7 +27,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   fantasy_armor jar: lang item.fantasy_armor.wandering_wizard_*.tooltip
@@ -39,13 +39,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Knockback Resistance | Eldritch Spell Power | Max Mana | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:fantasy_armor:wandering_wizard_helmet]] | Helmet | +3 |  | +10% | +125 | +5% | +1.12 | +7.5 | 407 |
-| [[item:fantasy_armor:wandering_wizard_chestplate]] | Chestplate | +8 |  | +10% | +125 | +5% | +3 | +20 | 592 |
-| [[item:fantasy_armor:wandering_wizard_leggings]] | Leggings | +6 | +10% | +10% | +125 | +5% | +2.25 | +15 | 555 |
-| [[item:fantasy_armor:wandering_wizard_boots]] | Boots | +3 | +10% | +10% | +125 | +5% | +1.12 | +7.5 | 481 |
-| **Full set** |  | **+20** | **+20%** | **+40%** | **+500** | **+20%** | **+7.49** | **+50** |  |
+| Piece | Slot | Armor | Knockback Resistance | Eldritch Spell Power | Max Mana | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:fantasy_armor:wandering_wizard_helmet]] | Helmet | +3 |  | +10% | +125 | +5% | +1.12 | +7.5 |
+| [[item:fantasy_armor:wandering_wizard_chestplate]] | Chestplate | +8 |  | +10% | +125 | +5% | +3 | +20 |
+| [[item:fantasy_armor:wandering_wizard_leggings]] | Leggings | +6 | +10% | +10% | +125 | +5% | +2.25 | +15 |
+| [[item:fantasy_armor:wandering_wizard_boots]] | Boots | +3 | +10% | +10% | +125 | +5% | +1.12 | +7.5 |
+| **Full set** |  | **+20** | **+20%** | **+40%** | **+500** | **+20%** | **+7.49** | **+50** |
 
 ## Usage
 

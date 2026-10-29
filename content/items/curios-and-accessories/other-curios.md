@@ -158,7 +158,7 @@ These curios use hand, head, mask, charm, bracelet, talent and familiar-trinket 
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:immersive_weathering:flower_crown]] | Immersive Weathering | Slot: Head; 64 durability | crafting |
+| [[item:immersive_weathering:flower_crown]] | Immersive Weathering | Slot: Head | crafting |
 
 ## Samurai Dynasty
 

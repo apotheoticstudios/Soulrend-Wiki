@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
@@ -39,13 +39,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Attack Damage | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:bounty_hunter_helmet]] | Helmet | +3.5 | +1.5 | +0.3 | +3% | +1.25 | +10 | 400 |
-| [[item:dungeons_and_combat:bounty_hunter_chestplate]] | Chestplate | +8 | +2 | +0.3 | +3% | +1.75 | +12 | 600 |
-| [[item:dungeons_and_combat:bounty_hunter_leggings]] | Leggings | +7 | +1.5 | +0.3 | +3% | +1.75 | +12 | 490 |
-| [[item:dungeons_and_combat:bounty_hunter_boots]] | Boots | +3.5 | +1.5 | +0.3 | +3% | +1.25 | +10 | 400 |
-| **Full set** |  | **+22** | **+6.5** | **+1.2** | **+12%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Attack Damage | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:bounty_hunter_helmet]] | Helmet | +3.5 | +1.5 | +0.3 | +3% | +1.25 | +10 |
+| [[item:dungeons_and_combat:bounty_hunter_chestplate]] | Chestplate | +8 | +2 | +0.3 | +3% | +1.75 | +12 |
+| [[item:dungeons_and_combat:bounty_hunter_leggings]] | Leggings | +7 | +1.5 | +0.3 | +3% | +1.75 | +12 |
+| [[item:dungeons_and_combat:bounty_hunter_boots]] | Boots | +3.5 | +1.5 | +0.3 | +3% | +1.25 | +10 |
+| **Full set** |  | **+22** | **+6.5** | **+1.2** | **+12%** | **+6** | **+44** |
 
 ## Usage
 

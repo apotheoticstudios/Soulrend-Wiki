@@ -528,7 +528,7 @@ Item Vaults placed next to each other merge into one larger vault that holds 54 
 | [[item:sophisticatedstorage:netherite_chest]] | Sophisticated Storage |  | crafting |
 | [[item:sophisticatedstorage:netherite_shulker_box]] | Sophisticated Storage | Press <Left Shift> to View Contents | crafting |
 | [[item:sophisticatedstorage:oak_storage_connector]] | Sophisticated Storage | Bridges gaps between storage blocks in a storage multiblock. | crafting |
-| [[item:sophisticatedstorage:packing_tape]] | Sophisticated Storage | Remaining uses: 8; 8 durability | crafting |
+| [[item:sophisticatedstorage:packing_tape]] | Sophisticated Storage | Remaining uses: 8 | crafting |
 | [[item:sophisticatedstorage:paintbrush]] | Sophisticated Storage | Applies decoration to storage blocks in world Set decoration it applies in decoration table | crafting |
 | [[item:sophisticatedstorage:pickup_upgrade]] | Sophisticated Storage | Makes storage pickup items | crafting |
 | [[item:sophisticatedstorage:pump_upgrade]] | Sophisticated Storage | Pumps fluids between Tank upgrade and adjacent blocks |  |
@@ -567,7 +567,7 @@ Item Vaults placed next to each other merge into one larger vault that holds 54 
 | [[item:sophisticatedstorage:storage_link]] | Sophisticated Storage | Connects separate multiblock of storages to controller Use Storage Tool to link to controller | crafting |
 | [[item:sophisticatedstorage:storage_output]] | Sophisticated Storage | When placed in storage multiblock allows to pipe items out of it | crafting |
 | [[item:sophisticatedstorage:storage_tool]] | Sophisticated Storage | Links, locks, hides counts/tiers/locks/overlays on storages Use <Sneak + Scroll> to Change Mode | crafting |
-| [[item:sophisticatedstorage:super_packing_tape]] | Sophisticated Storage | Remaining uses: 32; 32 durability | crafting |
+| [[item:sophisticatedstorage:super_packing_tape]] | Sophisticated Storage | Remaining uses: 32 | crafting |
 | [[item:sophisticatedstorage:survival_infinity_upgrade]] | Sophisticated Storage | Makes all items in storage infinite All players can set infinite items and break storage |  |
 | [[item:sophisticatedstorage:upgrade_base]] | Sophisticated Storage |  | crafting |
 | [[item:sophisticatedstorage:void_upgrade]] | Sophisticated Storage | Voids items selected in filter | crafting |
@@ -771,7 +771,7 @@ Item Vaults placed next to each other merge into one larger vault that holds 54 
 | [[item:toms_storage:ts.item_filter]] | Tom's Simple Storage Mod | Hold SHIFT for more info. | crafting |
 | [[item:toms_storage:ts.level_emitter]] | Tom's Simple Storage Mod | Hold SHIFT for more info. | crafting |
 | [[item:toms_storage:ts.open_crate]] | Tom's Simple Storage Mod | Hold SHIFT for more info. | crafting |
-| [[item:toms_storage:ts.paint_kit]] | Tom's Simple Storage Mod | Hold SHIFT for more info.; 100 durability | crafting |
+| [[item:toms_storage:ts.paint_kit]] | Tom's Simple Storage Mod | Hold SHIFT for more info. | crafting |
 | [[item:toms_storage:ts.painted_trim]] | Tom's Simple Storage Mod | Can be painted Hold SHIFT for more info. |  |
 | [[item:toms_storage:ts.polymorphic_item_filter]] | Tom's Simple Storage Mod | Hold SHIFT for more info. | crafting |
 | [[item:toms_storage:ts.storage_terminal]] | Tom's Simple Storage Mod | Hold SHIFT for more info. Works on Create Contraptions | crafting |
@@ -801,7 +801,7 @@ Item Vaults placed next to each other merge into one larger vault that holds 54 
 | [[item:ironchests:iron_barrel]] | Iron Chests: Restocked |  | crafting |
 | [[item:ironchests:iron_chest]] | Iron Chests: Restocked |  | crafting |
 | [[item:ironchests:iron_chest_upgrade]] | Iron Chests: Restocked |  | crafting |
-| [[item:ironchests:iron_dolly]] | Iron Chests: Restocked | 15 durability | crafting |
+| [[item:ironchests:iron_dolly]] | Iron Chests: Restocked | — | crafting |
 | [[item:ironchests:key]] | Iron Chests: Restocked |  | crafting |
 | [[item:ironchests:key_ring]] | Iron Chests: Restocked |  | crafting |
 | [[item:ironchests:lock]] | Iron Chests: Restocked |  | crafting |

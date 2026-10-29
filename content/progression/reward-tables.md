@@ -157,8 +157,8 @@ These are only used by the [[progression/side-chapters/sky-arena|Sky Arena]] Ice
 
 | Table | Contents | Used by |
 | --- | --- | --- |
-| Lucky | Emeralds (1 to 16, 97.4%) or Blocks of Emerald (1 to 8, 2.6%) | Valarian Castle quest in [[progression/side-chapters/factions|Factions]], two backpacks in [[progression/side-chapters/backpacks|Backpacks]] |
-| ORE | 16 Raw Iron, 16 Raw Gold and 16 Raw Zinc, all three | The Wrought Chamber in [[progression/side-chapters/fallen-myths|Fallen Myths]] |
+| Lucky | Emeralds (1 to 16, 97.4%) or Blocks of Emerald (1 to 8, 2.6%) | Valarian Castle quest in [[progression/side-chapters/factions\|Factions]], two backpacks in [[progression/side-chapters/backpacks\|Backpacks]] |
+| ORE | 16 Raw Iron, 16 Raw Gold and 16 Raw Zinc, all three | The Wrought Chamber in [[progression/side-chapters/fallen-myths\|Fallen Myths]] |
 
 ## Related
 

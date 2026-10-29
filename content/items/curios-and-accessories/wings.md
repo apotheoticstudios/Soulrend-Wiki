@@ -97,7 +97,7 @@
   game-data/items.json (names, tooltips)
   game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
-  config/icarus.jsonc (armor_slows, max_slowed_multiplier 3.0, exhaustion_amount 0.05, required_food_amount 6.001, can_slow_fall false, wings_durability 0, max_height_above_world 64, can_loop_de_loop)
+  config/icarus.jsonc (armor_slows, max_slowed_multiplier 3.0, exhaustion_amount 0.05, required_food_amount 6.001, can_slow_fall false, max_height_above_world 64, can_loop_de_loop)
   icarus jar: lang message.icarus.status.*, effect.icarus.flightless
 -->
 
@@ -112,7 +112,6 @@ Wings go in the Curios back slot.
 - Armor slows flight, by up to 3 times.
 - Flying costs hunger (0.05 exhaustion), and the wearer needs more than 6 hunger points to take off; an empty stomach stops flight.
 - Sneaking does not slow the fall.
-- Wings have no durability.
 - Flight is capped 64 blocks above the build limit.
 - Loop-de-loops are allowed.
 - Some dimensions forbid flying, and the Flightless effect stops it.

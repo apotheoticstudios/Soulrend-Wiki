@@ -42,7 +42,7 @@ Besides its dragons and the monsters that [[progression/act-ii-first-steps|Act I
 | Death Worm | Hot, dry, sandy biomes that aren't badlands | Weight 30; comes in red, tan and white, and in giant sizes |
 | Stymphalian Bird | Swamps | Flies in flocks |
 | Amphithere | Jungles | Weight 50; flying serpent |
-| Myrmex | Hives under deserts (Desert Myrmex) and jungles (Jungle Myrmex) | Rare hives, up to 80 Myrmex each, ruled by a [[bosses/optional-and-world/myrmex-queen|Myrmex Queen]] |
+| Myrmex | Hives under deserts (Desert Myrmex) and jungles (Jungle Myrmex) | Rare hives, up to 80 Myrmex each, ruled by a [[bosses/optional-and-world/myrmex-queen\|Myrmex Queen]] |
 
 Cockatrices and Hippocampi are disabled by You Shall Not Spawn.
 

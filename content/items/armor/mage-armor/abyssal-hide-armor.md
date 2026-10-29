@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Armor Pierce | Eldritch Spell Power | Ender Spell Power | Max Mana | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:traveloptics:abyssal_hide_armor_hat]] | Helmet | +6 | +4 | +5% | +0.05 | +10% | +10% | +150 | +5% | +15 | +12 |  |
-| [[item:traveloptics:abyssal_hide_armor_robe]] | Chestplate | +11 | +4 | +5% | +0.05 | +10% | +10% | +150 | +5% | +25 | +18 |  |
-| [[item:traveloptics:abyssal_hide_armor_leggings]] | Leggings | +9 | +4 | +5% | +0.05 | +10% | +10% | +150 | +5% | +20 | +15 |  |
-| [[item:traveloptics:abyssal_hide_armor_boots]] | Boots | +6 | +4 | +5% | +0.05 | +10% | +10% | +150 | +5% | +5 | +8 |  |
-| **Full set** |  | **+32** | **+16** | **+20%** | **+0.2** | **+40%** | **+40%** | **+600** | **+20%** | **+65** | **+53** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Armor Pierce | Eldritch Spell Power | Ender Spell Power | Max Mana | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:traveloptics:abyssal_hide_armor_hat]] | Helmet | +6 | +4 | +5% | +0.05 | +10% | +10% | +150 | +5% | +15 | +12 |
+| [[item:traveloptics:abyssal_hide_armor_robe]] | Chestplate | +11 | +4 | +5% | +0.05 | +10% | +10% | +150 | +5% | +25 | +18 |
+| [[item:traveloptics:abyssal_hide_armor_leggings]] | Leggings | +9 | +4 | +5% | +0.05 | +10% | +10% | +150 | +5% | +20 | +15 |
+| [[item:traveloptics:abyssal_hide_armor_boots]] | Boots | +6 | +4 | +5% | +0.05 | +10% | +10% | +150 | +5% | +5 | +8 |
+| **Full set** |  | **+32** | **+16** | **+20%** | **+0.2** | **+40%** | **+40%** | **+600** | **+20%** | **+65** | **+53** |
 
 ## Usage
 

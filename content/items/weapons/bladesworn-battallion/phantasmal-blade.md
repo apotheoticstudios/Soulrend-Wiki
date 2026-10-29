@@ -9,8 +9,7 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "11"],
-      ["Attack speed", "3.00"],
-      ["Durability", "3,000"]
+      ["Attack speed", "3.00"]
     ]
   },
   "items": ["iceandfire:ghost_sword"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight:sword, from paxi:soulrend_ef_capabilities)
@@ -46,7 +45,6 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | Targets per swing | 10 | 12 |
 | Armor Negation | 100% | 100% |
 | Entity Reach | 3 | 3 |
-| Durability | 3,000 |  |
 | Enchantability | 25 |  |
 
 ## Usage

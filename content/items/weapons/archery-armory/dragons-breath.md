@@ -8,8 +8,7 @@
       ["Type", "Bow"],
       ["Handling", "Ranged"],
       ["Rarity", "Epic"],
-      ["Projectile damage", "+10"],
-      ["Durability", "500"]
+      ["Projectile damage", "+10"]
     ]
   },
   "items": ["too_many_bows:dragons_breath"]
@@ -19,7 +18,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight:bow, from the export)
@@ -40,7 +39,6 @@ It is crafted (see [[#Crafting]]).
 | Draw Speed | +200% |
 | Projectile Damage | +10 |
 | Targets per swing | 1 |
-| Durability | 500 |
 | Enchantability | 1 |
 
 ## Usage

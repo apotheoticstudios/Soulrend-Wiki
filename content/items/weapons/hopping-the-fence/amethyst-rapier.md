@@ -8,8 +8,7 @@
       ["Type", "Rapier"],
       ["Rarity", "Epic"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.90"],
-      ["Durability", "2,031"]
+      ["Attack speed", "1.90"]
     ]
   },
   "items": ["irons_spellbooks:amethyst_rapier"]
@@ -19,7 +18,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type refm:amethyst_rapier, from paxi:soulrend_ef_capabilities)
@@ -43,7 +42,6 @@ It is crafted (see [[#Crafting]]).
 | Targets per swing | 2 |
 | Armor Negation | 24% |
 | Entity Reach | 3 |
-| Durability | 2,031 |
 | Enchantability | 16 |
 
 ## Usage

@@ -55,7 +55,7 @@ Neither has a level setting, so their level matches the Soulrend level of the ne
 
 | Mob | Drops |
 | --- | --- |
-| Invading Forlorn | Nothing: Soulrend's KubeJS script stops Forlorn from dropping the [[items/armor/agility-path/forlorn-armor|Forlorn Armor]] they wear, and they have no loot table |
+| Invading Forlorn | Nothing: Soulrend's KubeJS script stops Forlorn from dropping the [[items/armor/agility-path/forlorn-armor\|Forlorn Armor]] they wear, and they have no loot table |
 | Withered Demon | 0–1 [[item:soulsweapons:demon_heart]] on a player kill; Looting adds 0–1 |
 
 > [!NOTE]

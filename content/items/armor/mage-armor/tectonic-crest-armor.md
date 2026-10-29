@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Fire Spell Power | Geo Spell Power | Max Mana | Nature Spell Power | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:traveloptics:tectonic_crest_armor_helmet]] | Helmet | +6 | +4 | +15% | +10% | +10% | +150 | +10% | +5% | +20 | +8 |  |
-| [[item:traveloptics:tectonic_crest_armor_chestplate]] | Chestplate | +11 | +4 | +15% | +10% | +10% | +150 | +10% | +5% | +35 | +30 |  |
-| [[item:traveloptics:tectonic_crest_armor_leggings]] | Leggings | +9 | +4 | +15% | +10% | +10% | +150 | +10% | +5% | +27.5 | +20 |  |
-| [[item:traveloptics:tectonic_crest_armor_boots]] | Boots | +6 | +4 | +15% | +10% | +10% | +150 | +10% | +5% | +15 | +9 |  |
-| **Full set** |  | **+32** | **+16** | **+60%** | **+40%** | **+40%** | **+600** | **+40%** | **+20%** | **+97.5** | **+67** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Fire Spell Power | Geo Spell Power | Max Mana | Nature Spell Power | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:traveloptics:tectonic_crest_armor_helmet]] | Helmet | +6 | +4 | +15% | +10% | +10% | +150 | +10% | +5% | +20 | +8 |
+| [[item:traveloptics:tectonic_crest_armor_chestplate]] | Chestplate | +11 | +4 | +15% | +10% | +10% | +150 | +10% | +5% | +35 | +30 |
+| [[item:traveloptics:tectonic_crest_armor_leggings]] | Leggings | +9 | +4 | +15% | +10% | +10% | +150 | +10% | +5% | +27.5 | +20 |
+| [[item:traveloptics:tectonic_crest_armor_boots]] | Boots | +6 | +4 | +15% | +10% | +10% | +150 | +10% | +5% | +15 | +9 |
+| **Full set** |  | **+32** | **+16** | **+60%** | **+40%** | **+40%** | **+600** | **+40%** | **+20%** | **+97.5** | **+67** |
 
 ## Usage
 

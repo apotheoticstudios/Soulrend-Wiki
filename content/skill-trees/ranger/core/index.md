@@ -29,7 +29,7 @@ Each spoke is a path of Minor nodes that ends in a hub; three leaves branch off 
 | --- | --- | --- | --- |
 | [[skill-trees/ranger/core/arrow-damage\|Arrow Damage]] | 10 | +10% Arrow Damage (total) while crouching | 13 |
 | [[skill-trees/ranger/core/bounty\|Bounty]] | 10 | +50% experience from mobs | 13 |
-| [[skill-trees/ranger/core/endurance\|Endurance]] | 10 | +50% Arrow Damage while riding (the [[features/combat/mounted-combat|Mounted]] effect) | 13 |
+| [[skill-trees/ranger/core/endurance\|Endurance]] | 10 | +50% Arrow Damage while riding (the [[features/combat/mounted-combat\|Mounted]] effect) | 13 |
 | [[skill-trees/ranger/core/lightweight\|Lightweight]] | 10 | −10 Weight | 13 |
 | [[skill-trees/ranger/core/arrow-retrieval\|Arrow Retrieval]] | 10 | 25% chance to retrieve fired arrows | 13 |
 | [[skill-trees/ranger/core/evasion\|Evasion]] | 10 | +10% Dodge Chance | 13 |

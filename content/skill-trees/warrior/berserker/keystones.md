@@ -18,6 +18,6 @@ The **Berserker subclass keystones** are three nodes, of which a player can take
 
 | Keystone | Effect |
 | --- | --- |
-| **Samurai** | +1 Impact per 10% missing health, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand; ×1.05 Dodge Chance per 20% missing health, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand; +1% Dodge Chance |
+| **Samurai** | +1 Impact per 10% missing health, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand; ×1.05 Dodge Chance per 20% missing health, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand; +1% Dodge Chance |
 | **Bloodthirster** | ×1.1 Crit Damage per 10% missing health, while below 80% health; ×1.1 Crit Chance per 20% missing health, while below 80% health |
-| **Mauradar** | +10 Max Health per 100 Attack Damage, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand; +0.2 Armor per 100 Attack Damage, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
+| **Mauradar** | +10 Max Health per 100 Attack Damage, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand; +0.2 Armor per 100 Attack Damage, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |

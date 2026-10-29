@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Aqua Spell Power | Lightning Spell Power | Max Mana | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:traveloptics:riptide_sovereign_hat]] | Helmet | +6 | +4 | +5% | +10% | +5% | +150 | +5% | +15 | +12.5 |  |
-| [[item:traveloptics:riptide_sovereign_fincloak]] | Chestplate | +11 | +4 | +5% | +10% | +5% | +150 | +5% | +40 | +18 |  |
-| [[item:traveloptics:riptide_sovereign_leggings]] | Leggings | +9 | +4 | +5% | +10% | +5% | +150 | +5% | +25 | +14 |  |
-| [[item:traveloptics:riptide_sovereign_boots]] | Boots | +6 | +4 | +5% | +10% | +5% | +150 | +5% | +15 | +4 |  |
-| **Full set** |  | **+32** | **+16** | **+20%** | **+40%** | **+20%** | **+600** | **+20%** | **+95** | **+48.5** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Aqua Spell Power | Lightning Spell Power | Max Mana | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:traveloptics:riptide_sovereign_hat]] | Helmet | +6 | +4 | +5% | +10% | +5% | +150 | +5% | +15 | +12.5 |
+| [[item:traveloptics:riptide_sovereign_fincloak]] | Chestplate | +11 | +4 | +5% | +10% | +5% | +150 | +5% | +40 | +18 |
+| [[item:traveloptics:riptide_sovereign_leggings]] | Leggings | +9 | +4 | +5% | +10% | +5% | +150 | +5% | +25 | +14 |
+| [[item:traveloptics:riptide_sovereign_boots]] | Boots | +6 | +4 | +5% | +10% | +5% | +150 | +5% | +15 | +4 |
+| **Full set** |  | **+32** | **+16** | **+20%** | **+40%** | **+20%** | **+600** | **+20%** | **+95** | **+48.5** |
 
 ## Usage
 

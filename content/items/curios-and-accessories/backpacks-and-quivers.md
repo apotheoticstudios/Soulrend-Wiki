@@ -117,7 +117,7 @@ The Coal, End, Horse, Nether, Pig, Sandstone, Sheep, Skeleton, Snow, Standard, W
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:valarian_conquest:quiver_chestplate]] | Valarian Conquest | 240 durability |  |
+| [[item:valarian_conquest:quiver_chestplate]] | Valarian Conquest | — |  |
 
 ## Traveler's Backpack
 

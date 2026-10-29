@@ -6,8 +6,7 @@
     "item": "iceandfire:lich_staff",
     "rows": [
       ["Type", "Magic weapon"],
-      ["Rarity", "Common"],
-      ["Durability", "100"]
+      ["Rarity", "Common"]
     ]
   },
   "items": ["iceandfire:lich_staff"]
@@ -17,7 +16,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
 -->
@@ -33,7 +32,6 @@ It is crafted (see [[#Crafting]]).
 | Stat | Value |
 | --- | --- |
 | Blood Spell Power | +15% |
-| Durability | 100 |
 | Enchantability | 1 |
 
 ## Usage

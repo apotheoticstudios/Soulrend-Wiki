@@ -68,7 +68,7 @@ A **Waystone** is a teleport point. Right-clicking one activates it; from then o
 
 ### Warp items
 
-- **Warp Stone:** opens the waystone menu from anywhere. Using it takes about 1.5 s, and it then has a 5-minute cooldown (100 durability).
+- **Warp Stone:** opens the waystone menu from anywhere. Using it takes about 1.5 s, and it then has a 5-minute cooldown.
 - **Warp Scroll**, **Bound Scroll** and **Return Scroll:** scrolls that teleport their user; a bound scroll shows its waystone in the tooltip ("Bound to: …"). Several quests give Warp Scrolls, for example entering each Eight Sins dimension.
 - **Warp Plate:** a block that teleports to another Warp Plate. A plate is linked by the **Attuned Shard** inside it; shards are made on a plate (flint with Warp Dust, or the Crumbling Attuned Shard from an Ender Pearl and amethyst).
 - A waystone item is also the way out of the [[progression/act-v-duties/visit-the-past|Past]].
@@ -118,7 +118,7 @@ A **Waystone** is a teleport point. Right-clicking one activates it; from then o
 | [[item:waystones:warp_dust]] | Waystones |  | crafting |
 | [[item:waystones:warp_plate]] | Waystones |  | crafting |
 | [[item:waystones:warp_scroll]] | Waystones |  | crafting |
-| [[item:waystones:warp_stone]] | Waystones | 100 durability | crafting |
+| [[item:waystones:warp_stone]] | Waystones |  | crafting |
 
 ## Explorer's and Nature's compasses
 

@@ -10,15 +10,14 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "14"],
-      ["Attack speed", "1.20"],
-      ["Durability", "2,031"]
+      ["Attack speed", "1.20"]
     ]
   },
   "items": ["efn:hf_blade"]
 }
 ---
 <!-- sources:
-  game-data/items.json (name, rarity, tooltip), game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/items.json (name, rarity, tooltip), game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/recipes.json (soulrend:equipment/katanas/efn/hf_blade, minecraft:kjs/efn_hf_ingot, efn:hf_ingot_b; soulrend:equipment/katanas/cataclysm/final_fractal_from_hf_blade)
   game-data/movesets.json (Epic Fight type efn:hf_blade, from jar:EpicFight Nightfall-3.4.2-all.jar)
   config/ftbquests/quests/chapters/path_of_the_samurai.snbt (task efn:hf_blade, quest 45D2912FEA827210)
@@ -44,7 +43,6 @@ High-frequency Alloy-Re is made at a Smithing Table too, from a High-frequency A
 | Targets per swing | 9 |
 | Armor Negation | 50% |
 | Entity Reach | 3 |
-| Durability | 2,031 |
 | Enchantability | 30 |
 | Fire resistant | Yes |
 

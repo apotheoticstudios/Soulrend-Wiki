@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   efn jar: lang item.efn.duskfire_armor.description1
@@ -40,13 +40,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Max Health | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:efn:duskfire_helmet]] | Helmet | +12 | +9 | +20% | +15 | +0.75 | +12 |  |
-| [[item:efn:duskfire_chestplate]] | Chestplate | +15 | +9 | +20% | +15 | +2.25 | +18 |  |
-| [[item:efn:duskfire_leggings]] | Leggings | +13 | +9 | +20% | +15 | +2.25 | +18 |  |
-| [[item:efn:duskfire_boots]] | Boots | +10 | +9 | +20% | +15 | +0.75 | +12 |  |
-| **Full set** |  | **+50** | **+36** | **+80%** | **+60** | **+6** | **+60** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Max Health | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:efn:duskfire_helmet]] | Helmet | +12 | +9 | +20% | +15 | +0.75 | +12 |
+| [[item:efn:duskfire_chestplate]] | Chestplate | +15 | +9 | +20% | +15 | +2.25 | +18 |
+| [[item:efn:duskfire_leggings]] | Leggings | +13 | +9 | +20% | +15 | +2.25 | +18 |
+| [[item:efn:duskfire_boots]] | Boots | +10 | +9 | +20% | +15 | +0.75 | +12 |
+| **Full set** |  | **+50** | **+36** | **+80%** | **+60** | **+6** | **+60** |
 
 ## Usage
 

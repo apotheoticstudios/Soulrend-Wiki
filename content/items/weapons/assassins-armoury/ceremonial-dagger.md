@@ -9,8 +9,7 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "14"],
-      ["Attack speed", "2.40"],
-      ["Durability", "561"]
+      ["Attack speed", "2.40"]
     ]
   },
   "items": ["dungeons_and_combat:ceremonial_dagger"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight:dagger, from paxi:soulrend_ef_capabilities)
@@ -43,7 +42,6 @@ It is crafted (see [[#Crafting]]).
 | Targets per swing | 2 |
 | Armor Negation | 25% |
 | Entity Reach | 3 |
-| Durability | 561 |
 | Enchantability | 8 |
 
 ## Usage

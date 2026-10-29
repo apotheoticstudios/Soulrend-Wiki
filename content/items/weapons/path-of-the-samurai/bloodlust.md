@@ -10,15 +10,14 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "19"],
-      ["Attack speed", "1.20"],
-      ["Durability", "2,031"]
+      ["Attack speed", "1.20"]
     ]
   },
   "items": ["efn:air_tachi"]
 }
 ---
 <!-- sources:
-  game-data/items.json (name, rarity, tooltip), game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/items.json (name, rarity, tooltip), game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/recipes.json (soulrend:equipment/katanas/efn/air_tachi)
   game-data/movesets.json (Epic Fight type efn:bloodlust, from jar:EpicFight Nightfall-3.4.2-all.jar)
   config/ftbquests/quests/chapters/path_of_the_samurai.snbt (task efn:air_tachi, quest 162878576AB5A9C2)
@@ -45,7 +44,6 @@ Crimson Ingots are smelted from [[item:soulsweapons:demon_chunk]]. Fleshy Cloth 
 | Targets per swing | 6 |
 | Armor Negation | 30% |
 | Entity Reach | 3 |
-| Durability | 2,031 |
 | Enchantability | 30 |
 | Fire resistant | Yes |
 

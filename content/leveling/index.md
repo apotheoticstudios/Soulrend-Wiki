@@ -27,10 +27,10 @@ The Soulrend level also sets how strong mobs are: most new mobs take the level o
 
 | Step | What happens |
 | --- | --- |
-| Deal damage | Damage to mobs adds to the level progress. See [[leveling/earning-levels|Earning Levels]] for what counts. |
+| Deal damage | Damage to mobs adds to the level progress. See [[leveling/earning-levels\|Earning Levels]] for what counts. |
 | Level up | When the progress reaches the level's requirement, the player gains a level. Extra damage carries over to the next level. |
 | Rewards | 1 skill point every level, up to 200. 1 attribute point every level up to 180. |
-| Spend | Skill points go into the [[skill-trees|skill trees]] (O key). Attribute points go into the six stats on the Levelling screen. |
+| Spend | Skill points go into the [[skill-trees\|skill trees]] (O key). Attribute points go into the six stats on the Levelling screen. |
 
 The Prologue quest [[progression/prologue/leveling-up|Leveling Up]] introduces the system.
 

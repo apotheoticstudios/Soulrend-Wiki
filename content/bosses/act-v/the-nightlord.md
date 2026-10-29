@@ -22,7 +22,7 @@
   kubejs/server_scripts/dimension/past.js (CONFIG.PAST.BOSSES: "The Nightlord" in dark purple, "Lives in the Tree of Light, which only generates in the Past"; max health base 12,000, attack damage base 2,000, health set to 12,000 on spawn; no soldiers within 96 blocks)
   mods/souls_like_bosses-1.0.3.jar NightLordEntity.createAttributes (500 max health, 8 attack damage, 10 armor, 0.25 movement speed, 50 follow range); applyConfigAttributes; NightLordPhaseChangeGoal; NightLordAttacks (light, heavy, gael, abyss and their teleport variants, jump back, heavy backflip, scream, lightning catch, lightning jump, lightning smash, giant lightning bolt, "kamehameha" beam; "aw_" awakened versions)
   mods/souls_like_bosses-1.0.3.jar NightLordEntity.dropDarkMoonGreatsword (on death: Dark Moon Greatsword with Unbreaking III, Sharpness V, Mending)
-  config/souls_like_bosses-common.toml (health, damage, armor and speed multipliers 1.0; 5 attacks per combo; Dark Moon Greatsword: 12 damage, 2,031 durability, 120-tick cooldown, 3 charges, 7 wave damage)
+  config/souls_like_bosses-common.toml (health, damage, armor and speed multipliers 1.0; 5 attacks per combo; Dark Moon Greatsword: 12 damage, 120-tick cooldown, 3 charges, 7 wave damage)
   config/paxi/datapacks/soulrend_worldgen/data/souls_like_bosses/worldgen/structure/tree_of_light.json (biome soulrend:dead_ocean, start y -30) and the jar's structure_set (spacing 100, separation 99)
   config/soulrend_core/boss_damage.toml (not listed)
   config/ftbquests (no quest kills souls_like_bosses:nightlord)
@@ -72,4 +72,4 @@ The Nightlord strings up to 5 attacks into each combo, and it has a phase change
 | --- | --- | --- |
 | [[item:souls_like_bosses:dark_moon_greatsword]] | 1 | Always, with Unbreaking III, Sharpness V and Mending |
 
-The Dark Moon Greatsword deals 12 damage, has 2,031 durability, and holds 3 charges of a wave attack (7 damage, 6 s cooldown).
+The Dark Moon Greatsword deals 12 damage, and holds 3 charges of a wave attack (7 damage, 6 s cooldown).

@@ -9,8 +9,7 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "2.00"],
-      ["Durability", "1,625"]
+      ["Attack speed", "2.00"]
     ]
   },
   "items": ["cdmoveset:katana"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type cdmoveset:katana, from jar:EpicFight-Resurrection-forge1.20.1-0.20.12.2.jar)
@@ -43,7 +42,6 @@ It is crafted (see [[#Crafting]]).
 | Impact | 3 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |
-| Durability | 1,625 |
 | Enchantability | 22 |
 
 ## Usage

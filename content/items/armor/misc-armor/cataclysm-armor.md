@@ -22,7 +22,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   cataclysm jar: lang item.cataclysm.bloom_stone_pauldrons.desc, monstrous_helm*.desc
 -->
@@ -41,11 +41,11 @@ The Stun Armor and Weight columns are Epic Fight stats. In Epic Fight's words, "
 
 ## cataclysm
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:cataclysm:bone_reptile_helmet]] | Helmet | +6 | +3 | +20% | +50 | +7 | 385 |
-| [[item:cataclysm:monstrous_helm]] | Helmet | +3 | +3 | +10% | +50 | +10.5 | 407 |
-| [[item:cataclysm:bloom_stone_pauldrons]] | Chestplate | +8 | +2 | +10% | +50 | +28 | 480 |
-| [[item:cataclysm:bone_reptile_chestplate]] | Chestplate | +11 | +3 | +20% | +50 | +7 | 560 |
-| [[item:cataclysm:ignitium_elytra_chestplate]] | Chestplate | +11 | +4 | +15% | +25 | +27 | 720 |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:cataclysm:bone_reptile_helmet]] | Helmet | +6 | +3 | +20% | +50 | +7 |
+| [[item:cataclysm:monstrous_helm]] | Helmet | +3 | +3 | +10% | +50 | +10.5 |
+| [[item:cataclysm:bloom_stone_pauldrons]] | Chestplate | +8 | +2 | +10% | +50 | +28 |
+| [[item:cataclysm:bone_reptile_chestplate]] | Chestplate | +11 | +3 | +20% | +50 | +7 |
+| [[item:cataclysm:ignitium_elytra_chestplate]] | Chestplate | +11 | +4 | +15% | +25 | +27 |
 

@@ -45,9 +45,9 @@ level = min(max(floor, player level) + random bonus, cap)
 
 | Setting | Effect | Example |
 | --- | --- | --- |
-| **Floor** | The mob is never below this level, but it still follows players above it. 48 mobs have only a floor. | The [[bosses/act-iii/wither|Wither]] is at least level 150. |
-| **Fixed level** | Floor and cap are the same, so the player's level doesn't matter. 22 mobs are fixed. | [[bosses/act-ii/frostmaw|Frostmaw]] is always level 60. |
-| **Random bonus** | Adds 0 to the bonus value on top of the floor, up to the cap. 5 mobs have one. | The [[bosses/act-iii/forsaken|Forsaken]] is level 400 to 440. |
+| **Floor** | The mob is never below this level, but it still follows players above it. 48 mobs have only a floor. | The [[bosses/act-iii/wither\|Wither]] is at least level 150. |
+| **Fixed level** | Floor and cap are the same, so the player's level doesn't matter. 22 mobs are fixed. | [[bosses/act-ii/frostmaw\|Frostmaw]] is always level 60. |
+| **Random bonus** | Adds 0 to the bonus value on top of the floor, up to the cap. 5 mobs have one. | The [[bosses/act-iii/forsaken\|Forsaken]] is level 400 to 440. |
 
 The player's level stops at 200, but these settings don't. Some fixed bosses are far above it, such as the [[bosses/act-iv/ender-dragon|Ender Dragon]] at level 467. Each boss page states its level setting.
 

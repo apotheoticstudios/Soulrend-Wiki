@@ -61,7 +61,7 @@ Necklaces go in a Curios necklace slot. Effects beyond the attributes in the tab
 - **Ammit Fang Necklace:** attacks leave the Broken Armor effect. **Ernos Fang Necklace:** an attack damage bonus. **Klauen Necklace:** an attack speed bonus. **Nullfire Amulet:** puts out flames of every kind. **Vampiric Necklace:** a chance to heal when attacking. (Dungeons and Combat)
 - **Amulet of Concentration:** long casts can't be interrupted.
 - **Amulet of Teleportation:** gives Evasion for 3 s after teleporting, but only to a wearer with at least 125% Ender Spell Power (+25% over the base). Below that, its tooltip shows only a flavor line ("A cracked pearl, hung on a chain"), and if worn it unequips itself and drops to the ground nearby.
-- **Dead Eyes Pendant:** a chance for bow shots to crit. **Fletchers Talisman:** bows lose durability more slowly.
+- **Dead Eyes Pendant:** a chance for bow shots to crit.
 - **Greater Conjurer's Talisman:** summon spells that time out don't go on cooldown. Its tooltip doesn't show this (see [[bugs|Known Bugs]]).
 
 **Spell talents** change one spell each:
@@ -93,7 +93,7 @@ The **Amethyst Resonance Charm**, the plain **Conjurer's Talisman** and the **He
 | [[item:traveloptics:energy_unbound_necklace]] | T.O Magic 'n Extras | Slot: Necklace, Talent; Spell Talent: Death Laser; Grants the caster freedom to look around while casting Death Laser and allows movement at 80% reduced speed | crafting |
 | [[item:traveloptics:sigil_of_the_spider_sorcerer]] | T.O Magic 'n Extras | Slot: Necklace, Talent; Spell Talent: Aspect Of The Spider; Aspect of the Spider spell now allows you to climb walls; Casting Aspect of the Spider and striking an enemy grants a 50% chance to poison them for 3sec | crafting |
 | [[item:too_many_bows:dead_eyes_pendant]] | Too Many Bows | Slot: Necklace; A cold pendant that never warms against the skin. Some say it "finds" the gap in armor before you do. Grants a chance for bow shots to critically strike. Equip…; +0.08 Bow Crit Chance |  |
-| [[item:too_many_bows:fletchers_talisman]] | Too Many Bows | Slot: Necklace; A worn talisman wrapped in waxed cord. It doesn't make the bow stronger—only steadier in the hands. Reduces bow durability loss. Equip in a necklace slot. |  |
+| [[item:too_many_bows:fletchers_talisman]] | Too Many Bows | Slot: Necklace; A worn talisman wrapped in waxed cord. It doesn't make the bow stronger—only steadier in the hands. Equip in a necklace slot. |  |
 
 ## Dungeons and Combat
 
@@ -381,5 +381,5 @@ Its tooltip says:
 
 - A worn talisman wrapped in waxed cord.
 - It doesn't make the bow stronger—only steadier in the hands.
-- Reduces bow durability loss.
+-
 - Equip in a necklace slot.

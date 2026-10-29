@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
@@ -39,13 +39,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Crit Damage | Speed | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:samurai_dynasty:netherite_samurai_helmet]] | Helmet | +4 | +3 | +10% | +8% | +3.25% | +2.75 | +8 | 495 |
-| [[item:samurai_dynasty:netherite_samurai_chestplate]] | Chestplate | +8 | +3 | +10% | +8% | +3.25% | +3.25 | +12 | 720 |
-| [[item:samurai_dynasty:netherite_samurai_leggings]] | Leggings | +7 | +6 | +20% | +8% | +3.25% | +3.25 | +12 | 600 |
-| [[item:samurai_dynasty:netherite_samurai_boots]] | Boots | +4 | +3 | +10% | +8% | +3.25% | +2.75 | +8 | 585 |
-| **Full set** |  | **+23** | **+15** | **+50%** | **+32%** | **+13%** | **+12** | **+40** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Crit Damage | Speed | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:samurai_dynasty:netherite_samurai_helmet]] | Helmet | +4 | +3 | +10% | +8% | +3.25% | +2.75 | +8 |
+| [[item:samurai_dynasty:netherite_samurai_chestplate]] | Chestplate | +8 | +3 | +10% | +8% | +3.25% | +3.25 | +12 |
+| [[item:samurai_dynasty:netherite_samurai_leggings]] | Leggings | +7 | +6 | +20% | +8% | +3.25% | +3.25 | +12 |
+| [[item:samurai_dynasty:netherite_samurai_boots]] | Boots | +4 | +3 | +10% | +8% | +3.25% | +2.75 | +8 |
+| **Full set** |  | **+23** | **+15** | **+50%** | **+32%** | **+13%** | **+12** | **+40** |
 
 ## Usage
 

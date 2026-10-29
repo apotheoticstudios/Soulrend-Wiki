@@ -68,5 +68,5 @@ Epic Fight treats it as a ranged weapon, so it has no melee combo.
 
 | Quest | Task | Rewards |
 | --- | --- | --- |
-| Archery Armory: Wrath of the Desert | Have it in your inventory | 25 XP levels, a roll on [[progression/reward-tables#Gem tables|Perfect Gems]] |
-| Act III, Wrath of the Desert (see [[progression/act-iii-into-the-flames/the-eight-sins|The Eight Sins]]) | Have it in your inventory | 5 XP levels, a roll on [[progression/reward-tables#Gem tables|Chipped Gems]] |
+| Archery Armory: Wrath of the Desert | Have it in your inventory | 25 XP levels, a roll on [[progression/reward-tables#Gem tables\|Perfect Gems]] |
+| Act III, Wrath of the Desert (see [[progression/act-iii-into-the-flames/the-eight-sins\|The Eight Sins]]) | Have it in your inventory | 5 XP levels, a roll on [[progression/reward-tables#Gem tables\|Chipped Gems]] |

@@ -24,10 +24,10 @@ The Points column counts the points spent in this branch to reach a node, starti
 | Node | Points | Effect |
 | --- | --- | --- |
 | Path ×5 | 1–5 | +5% Impact (each) |
-| **Hub** | 6 | +10% Impact with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
-| Leaf | 7 | +5% Speed per 20% missing health, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
-| Leaf | 7 | 15% chance to inflict Sundering for 5 s (stacks up to 2 times) on melee hit, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
-| Leaf | 7 | +1% Attack Speed per 20% missing health, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
+| **Hub** | 6 | +10% Impact with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
+| Leaf | 7 | +5% Speed per 20% missing health, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
+| Leaf | 7 | 15% chance to inflict Sundering for 5 s (stacks up to 2 times) on melee hit, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
+| Leaf | 7 | +1% Attack Speed per 20% missing health, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
 
 ## Totals
 

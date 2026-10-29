@@ -10,15 +10,14 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.20"],
-      ["Durability", "2,031"]
+      ["Attack speed", "1.20"]
     ]
   },
   "items": ["efn:kusabimaru"]
 }
 ---
 <!-- sources:
-  game-data/items.json (name, rarity, tooltip), game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/items.json (name, rarity, tooltip), game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/recipes.json (soulrend:equipment/katanas/efn/kusabimaru_from_*; soulrend:equipment/katanas/efn/hf_murasama_from_kusabimaru)
   game-data/movesets.json (Epic Fight type efn:kusabimaru, from jar:EpicFight Nightfall-3.4.2-all.jar; collider KUSABIMARU_ENHANCE_COLLIDER)
   config/ftbquests/quests/chapters/path_of_the_samurai.snbt (task efn:kusabimaru, quest 159E0E9224415781)
@@ -54,7 +53,6 @@ The alloy is crafted from diamonds, netherite ingots, witherite ingots and an In
 | Targets per swing | 6 |
 | Armor Negation | 30% |
 | Entity Reach | 3 |
-| Durability | 2,031 |
 | Enchantability | 30 |
 | Fire resistant | Yes |
 

@@ -9,8 +9,7 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.40"],
-      ["Durability", "2,061"]
+      ["Attack speed", "1.40"]
     ]
   },
   "items": ["epicfight_dd:war_sickle"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight_dd:war_sickle, from jar:EpicfightDd-20.14.1.19.2.jar)
@@ -41,7 +40,6 @@ It is crafted (see [[#Crafting]]).
 | Impact | 2.3 |
 | Targets per swing | 7 |
 | Entity Reach | 3 |
-| Durability | 2,061 |
 | Enchantability | 15 |
 
 ## Usage

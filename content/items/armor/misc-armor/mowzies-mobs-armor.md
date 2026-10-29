@@ -10,7 +10,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   mowziesmobs jar: lang item.mowziesmobs.wrought_helmet.text.0
 -->
@@ -27,7 +27,7 @@ The Stun Armor and Weight columns are Epic Fight stats. In Epic Fight's words, "
 
 ## Mowzie's Mobs
 
-| Piece | Slot | Armor | Knockback Resistance | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:mowziesmobs:wrought_helmet]] | Helmet | +2 | +10% | +0.75 | +5 |  |
+| Piece | Slot | Armor | Knockback Resistance | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:mowziesmobs:wrought_helmet]] | Helmet | +2 | +10% | +0.75 | +5 |
 

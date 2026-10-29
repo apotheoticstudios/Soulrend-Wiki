@@ -28,10 +28,10 @@ The trees open with the O key or the skill tree tab in the inventory. The Prolog
 
 | Tree | Nodes | Focus |
 | --- | --- | --- |
-| [[skill-trees/warrior|Warrior]] | 164 | Melee: health, armor and attack damage. Subclasses: Templar (heavy armor) and Berserker (aggression). |
-| [[skill-trees/ranger|Ranger]] | 164 | Archery: arrow damage, draw speed, mobility and loot. Subclasses: Sharpshooter and Hexshot. |
-| [[skill-trees/rogue|Rogue]] | 164 | Agility: armor negation, stealth, stamina and critical hits. Subclasses: Assassin and Skirmisher. |
-| [[skill-trees/mage|Mage]] | 493 | Spellcasting: mana, spell power and cooldowns, plus twelve school nodes, one per spell school. |
+| [[skill-trees/warrior\|Warrior]] | 164 | Melee: health, armor and attack damage. Subclasses: Templar (heavy armor) and Berserker (aggression). |
+| [[skill-trees/ranger\|Ranger]] | 164 | Archery: arrow damage, draw speed, mobility and loot. Subclasses: Sharpshooter and Hexshot. |
+| [[skill-trees/rogue\|Rogue]] | 164 | Agility: armor negation, stealth, stamina and critical hits. Subclasses: Assassin and Skirmisher. |
+| [[skill-trees/mage\|Mage]] | 493 | Spellcasting: mana, spell power and cooldowns, plus twelve school nodes, one per spell school. |
 
 All four trees share one pool of skill points, so a character can spend points in more than one tree. The mod's own Alchemist, Cook and Hunter trees are emptied and don't appear.
 

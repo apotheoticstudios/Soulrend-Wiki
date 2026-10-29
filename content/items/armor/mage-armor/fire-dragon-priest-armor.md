@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
@@ -39,13 +39,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Fire Spell Power | Max Mana | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:ice_and_fire_spellbooks:fire_dragon_priest_helmet]] | Helmet | +6 | +6 | +10% | +10% | +150 | +5% | +2.25 | +15 | 429 |
-| [[item:ice_and_fire_spellbooks:fire_dragon_priest_chestplate]] | Chestplate | +12 | +6 | +10% | +10% | +150 | +5% | +4.5 | +30 | 624 |
-| [[item:ice_and_fire_spellbooks:fire_dragon_priest_leggings]] | Leggings | +9 | +6 | +10% | +10% | +150 | +5% | +3.38 | +22.5 | 585 |
-| [[item:ice_and_fire_spellbooks:fire_dragon_priest_boots]] | Boots | +6 | +6 | +10% | +10% | +150 | +5% | +2.25 | +15 | 507 |
-| **Full set** |  | **+33** | **+24** | **+40%** | **+40%** | **+600** | **+20%** | **+12.38** | **+82.5** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Fire Spell Power | Max Mana | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:ice_and_fire_spellbooks:fire_dragon_priest_helmet]] | Helmet | +6 | +6 | +10% | +10% | +150 | +5% | +2.25 | +15 |
+| [[item:ice_and_fire_spellbooks:fire_dragon_priest_chestplate]] | Chestplate | +12 | +6 | +10% | +10% | +150 | +5% | +4.5 | +30 |
+| [[item:ice_and_fire_spellbooks:fire_dragon_priest_leggings]] | Leggings | +9 | +6 | +10% | +10% | +150 | +5% | +3.38 | +22.5 |
+| [[item:ice_and_fire_spellbooks:fire_dragon_priest_boots]] | Boots | +6 | +6 | +10% | +10% | +150 | +5% | +2.25 | +15 |
+| **Full set** |  | **+33** | **+24** | **+40%** | **+40%** | **+600** | **+20%** | **+12.38** | **+82.5** |
 
 ## Usage
 

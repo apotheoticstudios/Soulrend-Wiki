@@ -10,8 +10,7 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Uncommon"],
       ["Attack damage", "9"],
-      ["Attack speed", "0.90"],
-      ["Durability", "Never breaks"]
+      ["Attack speed", "0.90"]
     ]
   },
   "items": ["mowziesmobs:wrought_axe"]
@@ -42,7 +41,6 @@ The Ferrous Wroughtnaut always drops one when a player kills it, together with i
 | Targets per swing | 6 |
 | Armor Negation | 15% |
 | Entity Reach | 3 |
-| Durability | Never breaks |
 | Enchantability | 14 |
 
 ## Usage

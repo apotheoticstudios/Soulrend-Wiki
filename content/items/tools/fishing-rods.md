@@ -41,7 +41,7 @@
 }
 ---
 <!-- sources:
-  first pass from the game-data dumps (durability, obtaining, crafting); Usage researched 2026-10-27
+  first pass from the game-data dumps (obtaining, crafting); Usage researched 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
   game-data/tags.json (alexscaves:candy_cane_hook is in #soulrend:deleted_items, so it is left out)
@@ -56,27 +56,27 @@ Aquaculture rods take a **hook**, a **line** and a **bobber**, which change how 
 
 | Hook | Effect |
 | --- | --- |
-| [[item:aquaculture:iron_hook]] | Durable: 20% chance not to use durability |
-| [[item:aquaculture:diamond_hook]] | Super Durable: 50% chance not to use durability |
+| [[item:aquaculture:iron_hook]] | Durable: no effect (items no longer break) |
+| [[item:aquaculture:diamond_hook]] | Super Durable: no effect (items no longer break) |
 | [[item:aquaculture:gold_hook]] | Lucky: increased luck |
-| [[item:aquaculture:nether_star_hook]] | Otherworldly: 50% chance not to use durability, and increased luck |
+| [[item:aquaculture:nether_star_hook]] | Otherworldly: increased luck |
 | [[item:aquaculture:light_hook]] | Light: casts further |
 | [[item:aquaculture:heavy_hook]] | Heavy: casts shorter |
 | [[item:aquaculture:double_hook]] | Double Barb: a chance to catch two things |
 | [[item:aquaculture:redstone_hook]] | Enticing: more time to reel in a fish |
 | [[item:aquaculture:note_hook]] | Alert: plays a sound when a fish approaches |
 
-The **Neptunium Fishing Rod** has Neptune's Song: fish are more likely to bite. A rod with more durability (Iron 125, Gold 55, Diamond 450, Neptunium 1,000) lasts longer than the vanilla rod's 64.
+The **Neptunium Fishing Rod** has Neptune's Song: fish are more likely to bite.
 
 ## Overview
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:aquaculture:diamond_fishing_rod]] | Aquaculture 2 | 450 durability | crafting |
-| [[item:aquaculture:gold_fishing_rod]] | Aquaculture 2 | 55 durability | crafting |
-| [[item:aquaculture:iron_fishing_rod]] | Aquaculture 2 | 125 durability | crafting |
-| [[item:aquaculture:neptunium_fishing_rod]] | Aquaculture 2 | Neptune's Song [SHIFT]; 1,000 durability | crafting, 1 loot table |
-| [[item:minecraft:fishing_rod]] | Minecraft | 64 durability | crafting, 30 loot tables |
+| [[item:aquaculture:diamond_fishing_rod]] | Aquaculture 2 | — | crafting |
+| [[item:aquaculture:gold_fishing_rod]] | Aquaculture 2 | — | crafting |
+| [[item:aquaculture:iron_fishing_rod]] | Aquaculture 2 | — | crafting |
+| [[item:aquaculture:neptunium_fishing_rod]] | Aquaculture 2 | Neptune's Song [SHIFT] | crafting, 1 loot table |
+| [[item:minecraft:fishing_rod]] | Minecraft | — | crafting, 30 loot tables |
 | [[item:aquaculture:diamond_hook]] | Aquaculture 2 | Super Durable [SHIFT] | crafting |
 | [[item:aquaculture:double_hook]] | Aquaculture 2 | Double Barb [SHIFT] | crafting |
 | [[item:aquaculture:gold_hook]] | Aquaculture 2 | Lucky [SHIFT] | crafting |

@@ -9,8 +9,7 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "16"],
-      ["Attack speed", "1.40"],
-      ["Durability", "3,021"]
+      ["Attack speed", "1.40"]
     ]
   },
   "items": ["dungeons_and_combat:crimson_sovereign_sword"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight:sword, from the export)
@@ -42,7 +41,6 @@ It is crafted (see [[#Crafting]]).
 | Attack Speed | 1.40 |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
-| Durability | 3,021 |
 | Enchantability | 10 |
 | Fire resistant | Yes |
 

@@ -9,8 +9,7 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6.5"],
-      ["Attack speed", "3.00"],
-      ["Durability", "1,321"]
+      ["Attack speed", "3.00"]
     ]
   },
   "items": ["dungeons_and_combat:sandstone_fist"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type soulrend_weapon_types:fist, from paxi:soulrend_ef_capabilities)
@@ -42,7 +41,6 @@ It is crafted (see [[#Crafting]]).
 | Impact | 1.2 |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
-| Durability | 1,321 |
 | Enchantability | 30 |
 
 ## Usage

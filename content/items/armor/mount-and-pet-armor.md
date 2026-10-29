@@ -47,7 +47,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/items.json (tooltips: Head, Neck, Body, Tail)
 -->
 
@@ -55,148 +55,148 @@
 
 ## Dragon armor
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_copper_body]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_copper_body]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_copper_head]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_copper_head]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_copper_neck]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_copper_neck]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_copper_tail]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_copper_tail]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_diamond_body]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_diamond_body]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_diamond_head]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_diamond_head]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_diamond_neck]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_diamond_neck]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_diamond_tail]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_diamond_tail]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_fire_body]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_fire_body]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_fire_head]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_fire_head]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_fire_neck]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_fire_neck]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_fire_tail]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_fire_tail]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_ice_body]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_ice_body]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_ice_head]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_ice_head]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_ice_neck]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_ice_neck]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_ice_tail]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_ice_tail]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_lightning_body]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_lightning_body]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_lightning_head]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_lightning_head]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_lightning_neck]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_lightning_neck]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_dragonsteel_lightning_tail]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_dragonsteel_lightning_tail]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_gold_body]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_gold_body]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_gold_head]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_gold_head]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_gold_neck]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_gold_neck]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_gold_tail]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_gold_tail]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_iron_body]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_iron_body]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_iron_head]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_iron_head]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_iron_neck]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_iron_neck]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_iron_tail]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_iron_tail]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_silver_body]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_silver_body]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_silver_head]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_silver_head]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_silver_neck]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_silver_neck]] | Piece |
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:dragonarmor_silver_tail]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:dragonarmor_silver_tail]] | Piece |
 
 ## Hippogryph armor
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:iceandfire:diamond_hippogryph_armor]] | Piece |  |
-| [[item:iceandfire:gold_hippogryph_armor]] | Piece |  |
-| [[item:iceandfire:iron_hippogryph_armor]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:iceandfire:diamond_hippogryph_armor]] | Piece |
+| [[item:iceandfire:gold_hippogryph_armor]] | Piece |
+| [[item:iceandfire:iron_hippogryph_armor]] | Piece |
 
 ## Horse barding
 
-| Piece | Slot | Durability |
-| --- | --- | --- |
-| [[item:magistuarmory:barding]] | Piece |  |
-| [[item:magistuarmory:chainmail_horse_armor]] | Piece |  |
+| Piece | Slot |
+| --- | --- |
+| [[item:magistuarmory:barding]] | Piece |
+| [[item:magistuarmory:chainmail_horse_armor]] | Piece |
 
 ## Usage
 

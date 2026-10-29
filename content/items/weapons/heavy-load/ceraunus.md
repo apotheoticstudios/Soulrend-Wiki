@@ -69,5 +69,5 @@ In Epic Fight it is a sword. Its default Two Handed style has a three-hit basic 
 
 | Quest | Task | Rewards |
 | --- | --- | --- |
-| Act III, Ceraunus (see [[progression/act-iii-into-the-flames/the-eight-sins|The Eight Sins]]) | Have it in your inventory | 5 XP levels, a roll on [[progression/reward-tables#Gem tables|Chipped Gems]] |
+| Act III, Ceraunus (see [[progression/act-iii-into-the-flames/the-eight-sins\|The Eight Sins]]) | Have it in your inventory | 5 XP levels, a roll on [[progression/reward-tables#Gem tables\|Chipped Gems]] |
 | Heavy Load: Ceraunus | Have it in your inventory | None |

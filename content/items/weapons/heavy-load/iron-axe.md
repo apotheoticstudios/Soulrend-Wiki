@@ -9,8 +9,7 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "0.90"],
-      ["Durability", "250"]
+      ["Attack speed", "0.90"]
     ]
   },
   "items": ["minecraft:iron_axe"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight:axe, from jar:epic-fight-20.14.17-mc1.20.1-forge.jar)
@@ -59,7 +58,6 @@ It can also be crafted (see [[#Crafting]]).
 | Targets per swing | 1 |
 | Armor Negation | 20% |
 | Entity Reach | 3 |
-| Durability | 250 |
 | Enchantability | 14 |
 
 ## Usage

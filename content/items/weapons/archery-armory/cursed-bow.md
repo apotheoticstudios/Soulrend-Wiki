@@ -62,5 +62,5 @@ Epic Fight treats it as a ranged weapon, so it has no melee combo.
 
 | Quest | Task | Rewards |
 | --- | --- | --- |
-| Archery Armory: Cursed Bow | Have it in your inventory | 15 XP levels, a roll on [[progression/reward-tables#Gem tables|Flawed Gems]] |
-| Act III, Cursed Bow (see [[progression/act-iii-into-the-flames/the-eight-sins|The Eight Sins]]) | Have it in your inventory | 5 XP levels, a roll on [[progression/reward-tables#Gem tables|Chipped Gems]] |
+| Archery Armory: Cursed Bow | Have it in your inventory | 15 XP levels, a roll on [[progression/reward-tables#Gem tables\|Flawed Gems]] |
+| Act III, Cursed Bow (see [[progression/act-iii-into-the-flames/the-eight-sins\|The Eight Sins]]) | Have it in your inventory | 5 XP levels, a roll on [[progression/reward-tables#Gem tables\|Chipped Gems]] |

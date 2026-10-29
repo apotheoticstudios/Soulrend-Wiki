@@ -9,8 +9,7 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7.26"],
-      ["Attack speed", "1.70"],
-      ["Durability", "2,031"]
+      ["Attack speed", "1.70"]
     ]
   },
   "items": ["magistuarmory:netherite_shortsword"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight:sword, from paxi:soulrend_ef_capabilities)
@@ -42,7 +41,6 @@ It is crafted (see [[#Crafting]]).
 | Targets per swing | 2 |
 | Armor Negation | 10% |
 | Entity Reach | 3 |
-| Durability | 2,031 |
 | Enchantability | 15 |
 | Fire resistant | Yes |
 

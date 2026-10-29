@@ -9,8 +9,7 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "17.66"],
-      ["Attack speed", "0.99"],
-      ["Durability", "3,270"]
+      ["Attack speed", "0.99"]
     ]
   },
   "items": ["simplyswords:caelestis"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type simplyswords:caelestis, from jar:Simplyswords-Epicfied-pre3.0.jar)
@@ -47,7 +46,6 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | Targets per swing | 16 | 66 |
 | Armor Negation | 66.6% | 66.6% |
 | Entity Reach | 3 | 3 |
-| Durability | 3,270 |  |
 | Enchantability | 30 |  |
 | Fire resistant | Yes |  |
 

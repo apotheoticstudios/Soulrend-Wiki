@@ -42,7 +42,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (tooltips)
-  game-data/item-stats.json (armor slot, durability)
+  game-data/item-stats.json (armor slot)
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   alexsmobs jar: lang item.alexsmobs.*.desc
 -->
@@ -69,63 +69,63 @@ The Stun Armor and Weight columns are Epic Fight stats. In Epic Fight's words, "
 
 ## Alex's Mobs
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:centipede_leggings]] | Leggings | +6 | +0.5 | +2.25 | +15 | 320 |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Swim Speed | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:crocodile_chestplate]] | Chestplate | +5 | +1 | +1.88 | +100% | +12.5 | 330 |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:emu_leggings]] | Leggings | +4 | +0.5 | +1.5 | +10 | 144 |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:fedora]] | Helmet | +2 | +0.5 | +0.75 | +5 | 130 |
-
-| Piece | Slot | Armor | Stun Armor | Swim Speed | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:flying_fish_boots]] | Boots | +1 | +0.38 | +50% | +2.5 | 99 |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:frontier_cap]] | Helmet | +3 | +2.5 | +1.12 | +7.5 | 221 |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:froststalker_helmet]] | Helmet | +3 | +0.5 | +1.12 | +7.5 | 117 |
-
-| Piece | Slot | Armor | Armor Toughness | Attack Knockback | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:moose_headgear]] | Helmet | +3 | +0.5 | +2 | +1.12 | +7.5 | 247 |
-
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
 | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:novelty_hat]] | Helmet | +2 | +0.75 | +5 | 130 |
+| [[item:alexsmobs:centipede_leggings]] | Leggings | +6 | +0.5 | +2.25 | +15 |
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:roadrunner_boots]] | Boots | +3 | +1.12 | +7.5 | 198 |
-
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Swim Speed | Weight |
 | --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:rocky_chestplate]] | Chestplate | +5 | +0.5 | +1.88 | +12.5 | 300 |
+| [[item:alexsmobs:crocodile_chestplate]] | Chestplate | +5 | +1 | +1.88 | +100% | +12.5 |
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:sombrero]] | Helmet | +2 | +0.5 | +0.75 | +5 | 182 |
-
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:spiked_turtle_shell]] | Helmet | +3 | +1 | +20% | +1.12 | +7.5 | 455 |
-
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
 | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:tarantula_hawk_elytra]] | Chestplate | +3 | +1.12 | +7.5 | 800 |
+| [[item:alexsmobs:emu_leggings]] | Leggings | +4 | +0.5 | +1.5 | +10 |
 
-| Piece | Slot | Armor | Block Reach | Entity Reach | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:alexsmobs:unsettling_kimono]] | Chestplate | +3 | +2 | +2 | +1.12 | +7.5 | 120 |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:fedora]] | Helmet | +2 | +0.5 | +0.75 | +5 |
+
+| Piece | Slot | Armor | Stun Armor | Swim Speed | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:flying_fish_boots]] | Boots | +1 | +0.38 | +50% | +2.5 |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:frontier_cap]] | Helmet | +3 | +2.5 | +1.12 | +7.5 |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:froststalker_helmet]] | Helmet | +3 | +0.5 | +1.12 | +7.5 |
+
+| Piece | Slot | Armor | Armor Toughness | Attack Knockback | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:moose_headgear]] | Helmet | +3 | +0.5 | +2 | +1.12 | +7.5 |
+
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:alexsmobs:novelty_hat]] | Helmet | +2 | +0.75 | +5 |
+
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:alexsmobs:roadrunner_boots]] | Boots | +3 | +1.12 | +7.5 |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:rocky_chestplate]] | Chestplate | +5 | +0.5 | +1.88 | +12.5 |
+
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:sombrero]] | Helmet | +2 | +0.5 | +0.75 | +5 |
+
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:spiked_turtle_shell]] | Helmet | +3 | +1 | +20% | +1.12 | +7.5 |
+
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:alexsmobs:tarantula_hawk_elytra]] | Chestplate | +3 | +1.12 | +7.5 |
+
+| Piece | Slot | Armor | Block Reach | Entity Reach | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:alexsmobs:unsettling_kimono]] | Chestplate | +3 | +2 | +2 | +1.12 | +7.5 |
 

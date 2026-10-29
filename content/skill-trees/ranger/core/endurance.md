@@ -23,11 +23,11 @@ The Points column counts the points spent in this branch to reach a node, starti
 
 | Node | Points | Effect |
 | --- | --- | --- |
-| Path ×9 | 1–9 | +4% Arrow Damage while riding (the [[features/combat/mounted-combat|Mounted]] effect) (each) |
-| **Hub** | 10 | +50% Arrow Damage while riding (the [[features/combat/mounted-combat|Mounted]] effect) |
+| Path ×9 | 1–9 | +4% Arrow Damage while riding (the [[features/combat/mounted-combat\|Mounted]] effect) (each) |
+| **Hub** | 10 | +50% Arrow Damage while riding (the [[features/combat/mounted-combat\|Mounted]] effect) |
 | Leaf | 11 | +15% incoming healing with a ranged weapon in hand |
 | Leaf | 11 | +8% Dodge Chance with a ranged weapon in hand |
-| Leaf | 11 | +20% Stamina Regen while riding (the [[features/combat/mounted-combat|Mounted]] effect) |
+| Leaf | 11 | +20% Stamina Regen while riding (the [[features/combat/mounted-combat\|Mounted]] effect) |
 
 ## Totals
 

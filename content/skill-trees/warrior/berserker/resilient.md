@@ -24,10 +24,10 @@ The Points column counts the points spent in this branch to reach a node, starti
 | Node | Points | Effect |
 | --- | --- | --- |
 | Path ×5 | 1–5 | ×1.03 Crit Chance with a melee weapon in hand (each) |
-| **Hub** | 6 | ×1.3 Crit Damage with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
-| Leaf | 7 | ×1.05 Crit Damage per 10% missing health, with a [[features/combat/two-handed-weapons|two-handed weapon]] equipped |
-| Leaf | 7 | ×1.03 Crit Chance per 5% missing health, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
-| Leaf | 7 | +10% Attack Speed per 40% missing health, with a [[features/combat/two-handed-weapons|two-handed weapon]] equipped |
+| **Hub** | 6 | ×1.3 Crit Damage with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
+| Leaf | 7 | ×1.05 Crit Damage per 10% missing health, with a [[features/combat/two-handed-weapons\|two-handed weapon]] equipped |
+| Leaf | 7 | ×1.03 Crit Chance per 5% missing health, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
+| Leaf | 7 | +10% Attack Speed per 40% missing health, with a [[features/combat/two-handed-weapons\|two-handed weapon]] equipped |
 
 ## Totals
 

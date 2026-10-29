@@ -49,7 +49,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltips)
@@ -64,51 +64,51 @@ Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
 ### Amethyst Dragon (`dungeons_and_combat:amethyst_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:amethyst_dragon_helmet]] | Helmet | +7 | +5 | +2.75 | +8 | 363 |
-| [[item:dungeons_and_combat:amethyst_dragon_chestplate]] | Chestplate | +10 | +5 | +3.25 | +12 | 528 |
-| [[item:dungeons_and_combat:amethyst_dragon_leggings]] | Leggings | +10 | +5 | +3.25 | +12 | 495 |
-| [[item:dungeons_and_combat:amethyst_dragon_boots]] | Boots | +7 | +5 | +2.75 | +8 | 429 |
-| **Full set** |  | **+34** | **+20** | **+12** | **+40** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:amethyst_dragon_helmet]] | Helmet | +7 | +5 | +2.75 | +8 |
+| [[item:dungeons_and_combat:amethyst_dragon_chestplate]] | Chestplate | +10 | +5 | +3.25 | +12 |
+| [[item:dungeons_and_combat:amethyst_dragon_leggings]] | Leggings | +10 | +5 | +3.25 | +12 |
+| [[item:dungeons_and_combat:amethyst_dragon_boots]] | Boots | +7 | +5 | +2.75 | +8 |
+| **Full set** |  | **+34** | **+20** | **+12** | **+40** |
 
 ### Copper Dragon (`dungeons_and_combat:copper_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:copper_dragon_helmet]] | Helmet | +7 | +5 | +2.75 | +8 | 363 |
-| [[item:dungeons_and_combat:copper_dragon_chestplate]] | Chestplate | +10 | +5 | +3.25 | +12 | 528 |
-| [[item:dungeons_and_combat:copper_dragon_leggings]] | Leggings | +10 | +5 | +3.25 | +12 | 495 |
-| [[item:dungeons_and_combat:copper_dragon_boots]] | Boots | +7 | +5 | +2.75 | +8 | 429 |
-| **Full set** |  | **+34** | **+20** | **+12** | **+40** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:copper_dragon_helmet]] | Helmet | +7 | +5 | +2.75 | +8 |
+| [[item:dungeons_and_combat:copper_dragon_chestplate]] | Chestplate | +10 | +5 | +3.25 | +12 |
+| [[item:dungeons_and_combat:copper_dragon_leggings]] | Leggings | +10 | +5 | +3.25 | +12 |
+| [[item:dungeons_and_combat:copper_dragon_boots]] | Boots | +7 | +5 | +2.75 | +8 |
+| **Full set** |  | **+34** | **+20** | **+12** | **+40** |
 
 ### Electric Dragon (`dungeons_and_combat:electric_dragon`)
 
-| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:electric_dragon_helmet]] | Helmet | +7 | +5 | +2.75 | +8 | 363 |
-| [[item:dungeons_and_combat:electric_dragon_chestplate]] | Chestplate | +10 | +5 | +3.25 | +12 | 528 |
-| [[item:dungeons_and_combat:electric_dragon_leggings]] | Leggings | +10 | +5 | +3.25 | +12 | 495 |
-| [[item:dungeons_and_combat:electric_dragon_boots]] | Boots | +7 | +5 | +2.75 | +8 | 429 |
-| **Full set** |  | **+34** | **+20** | **+12** | **+40** |  |
+| Piece | Slot | Armor | Armor Toughness | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:electric_dragon_helmet]] | Helmet | +7 | +5 | +2.75 | +8 |
+| [[item:dungeons_and_combat:electric_dragon_chestplate]] | Chestplate | +10 | +5 | +3.25 | +12 |
+| [[item:dungeons_and_combat:electric_dragon_leggings]] | Leggings | +10 | +5 | +3.25 | +12 |
+| [[item:dungeons_and_combat:electric_dragon_boots]] | Boots | +7 | +5 | +2.75 | +8 |
+| **Full set** |  | **+34** | **+20** | **+12** | **+40** |
 
 ### Amethyst Dragon Shield (`dungeons_and_combat:amethyst_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:amethyst_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:amethyst_dragon_shield]] | Piece | 1 |
 
 ### Copper Dragon Shield (`dungeons_and_combat:copper_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:copper_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:copper_dragon_shield]] | Piece | 1 |
 
 ### Electric Blue Dragon Shield (`dungeons_and_combat:electric_dragon_shield`)
 
-| Piece | Slot | Targets per swing | Durability |
-| --- | --- | --- | --- |
-| [[item:dungeons_and_combat:electric_dragon_shield]] | Piece | 1 | 1,000 |
+| Piece | Slot | Targets per swing |
+| --- | --- | --- |
+| [[item:dungeons_and_combat:electric_dragon_shield]] | Piece | 1 |
 
 ## Usage
 

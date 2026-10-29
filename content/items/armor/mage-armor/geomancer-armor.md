@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltips)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Geo Spell Power | Max Mana | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:mowziesmobs:geomancer_beads]] | Helmet | +2 | +1 | +10% | +125 | +5% | +0.75 | +5 | 363 |
-| [[item:mowziesmobs:geomancer_robe]] | Chestplate | +7 | +1 | +10% | +125 | +5% | +2.62 | +17.5 | 528 |
-| [[item:mowziesmobs:geomancer_belt]] | Leggings | +6 | +1 | +10% | +125 | +5% | +2.25 | +15 | 495 |
-| [[item:mowziesmobs:geomancer_sandals]] | Boots | +2 | +1 | +10% | +125 | +5% | +0.75 | +5 | 429 |
-| **Full set** |  | **+17** | **+4** | **+40%** | **+500** | **+20%** | **+6.37** | **+42.5** |  |
+| Piece | Slot | Armor | Armor Toughness | Geo Spell Power | Max Mana | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:mowziesmobs:geomancer_beads]] | Helmet | +2 | +1 | +10% | +125 | +5% | +0.75 | +5 |
+| [[item:mowziesmobs:geomancer_robe]] | Chestplate | +7 | +1 | +10% | +125 | +5% | +2.62 | +17.5 |
+| [[item:mowziesmobs:geomancer_belt]] | Leggings | +6 | +1 | +10% | +125 | +5% | +2.25 | +15 |
+| [[item:mowziesmobs:geomancer_sandals]] | Boots | +2 | +1 | +10% | +125 | +5% | +0.75 | +5 |
+| **Full set** |  | **+17** | **+4** | **+40%** | **+500** | **+20%** | **+6.37** | **+42.5** |
 
 ## Usage
 

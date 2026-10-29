@@ -11,7 +11,7 @@
 <!-- sources: mods/*.jar (mods.toml), minecraftinstance.json (CurseForge links), CurseForge summaries; pack role from docs/instance-guide.md -->
 These mods have no gameplay of their own. They fix bugs in Minecraft or in other mods, or lift limits that Soulrend's higher numbers would otherwise hit.
 
-- **Armor Damage Limit** ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/armor-damage-limit)) — caps the durability lost from a single hit at a percentage of the armor's maximum, so one huge hit can't destroy a piece of gear.
+- **Armor Damage Limit** ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/armor-damage-limit)) — caps the damage a single hit can deal to armor, so one huge hit can't destroy a piece of gear.
 - **AttributeFix** ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/attributefix)) — removes vanilla's arbitrary caps on attributes such as health and attack damage. Soulrend's leveling and gear push stats well past vanilla's limits, so this keeps them working.
 - **Boat Break Fix** ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/boat-break-fix)) — stops boats from breaking when you fall onto them from certain heights.
 - **Colorwheel Patcher** ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/colorwheel-patcher)) — automatically patches supported shaderpacks to work with Colorwheel.

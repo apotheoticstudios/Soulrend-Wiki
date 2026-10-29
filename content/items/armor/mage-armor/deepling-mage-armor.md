@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Aqua Spell Power | Max Mana | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:traveloptics:deepling_mage_armor_helmet]] | Helmet | +3 | +1.5 | +10% | +125 | +5% | +10 | +8 | 418 |
-| [[item:traveloptics:deepling_mage_armor_robe]] | Chestplate | +8 | +1.5 | +10% | +125 | +5% | +20 | +22 | 608 |
-| [[item:traveloptics:deepling_mage_armor_leggings]] | Leggings | +6 | +1.5 | +10% | +125 | +5% | +12.5 | +12 | 570 |
-| [[item:traveloptics:deepling_mage_armor_boots]] | Boots | +3 | +1.5 | +10% | +125 | +5% | +5 | +6.5 | 494 |
-| **Full set** |  | **+20** | **+6** | **+40%** | **+500** | **+20%** | **+47.5** | **+48.5** |  |
+| Piece | Slot | Armor | Armor Toughness | Aqua Spell Power | Max Mana | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:traveloptics:deepling_mage_armor_helmet]] | Helmet | +3 | +1.5 | +10% | +125 | +5% | +10 | +8 |
+| [[item:traveloptics:deepling_mage_armor_robe]] | Chestplate | +8 | +1.5 | +10% | +125 | +5% | +20 | +22 |
+| [[item:traveloptics:deepling_mage_armor_leggings]] | Leggings | +6 | +1.5 | +10% | +125 | +5% | +12.5 | +12 |
+| [[item:traveloptics:deepling_mage_armor_boots]] | Boots | +3 | +1.5 | +10% | +125 | +5% | +5 | +6.5 |
+| **Full set** |  | **+20** | **+6** | **+40%** | **+500** | **+20%** | **+47.5** | **+48.5** |
 
 ## Usage
 

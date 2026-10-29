@@ -8,8 +8,7 @@
       ["Type", "Bow"],
       ["Handling", "Ranged"],
       ["Rarity", "Rare"],
-      ["Projectile damage", "+12"],
-      ["Durability", "950"]
+      ["Projectile damage", "+12"]
     ]
   },
   "items": ["too_many_bows:webstring"]
@@ -19,7 +18,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type epicfight:bow, from the export)
@@ -40,7 +39,6 @@ It is crafted (see [[#Crafting]]).
 | Draw Speed | +240% |
 | Projectile Damage | +12 |
 | Targets per swing | 1 |
-| Durability | 950 |
 | Enchantability | 15 |
 
 ## Usage

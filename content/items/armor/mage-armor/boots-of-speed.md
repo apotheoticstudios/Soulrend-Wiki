@@ -16,7 +16,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
 -->
@@ -27,9 +27,9 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Casting Movement Speed | Speed | Max Mana | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:irons_spellbooks:speed_boots]] | Boots | +3 | +60% | +25% | +150 | +10% | +1.12 | +7.5 | 520 |
+| Piece | Slot | Armor | Casting Movement Speed | Speed | Max Mana | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:irons_spellbooks:speed_boots]] | Boots | +3 | +60% | +25% | +150 | +10% | +1.12 | +7.5 |
 
 ## Usage
 

@@ -44,7 +44,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltips)
@@ -59,53 +59,53 @@ Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
 ### Dragon Scale (`iceandfire:armor_blue`)
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_blue_helmet]] | Helmet | +6 | +4 | +5% | +1.25 | +10 | 396 |
-| [[item:iceandfire:armor_blue_chestplate]] | Chestplate | +9 | +4 | +5% | +1.75 | +12 | 576 |
-| [[item:iceandfire:armor_blue_leggings]] | Leggings | +9 | +4 | +5% | +1.75 | +12 | 540 |
-| [[item:iceandfire:armor_blue_boots]] | Boots | +6 | +4 | +5% | +1.25 | +10 | 468 |
-| **Full set** |  | **+30** | **+16** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_blue_helmet]] | Helmet | +6 | +4 | +5% | +1.25 | +10 |
+| [[item:iceandfire:armor_blue_chestplate]] | Chestplate | +9 | +4 | +5% | +1.75 | +12 |
+| [[item:iceandfire:armor_blue_leggings]] | Leggings | +9 | +4 | +5% | +1.75 | +12 |
+| [[item:iceandfire:armor_blue_boots]] | Boots | +6 | +4 | +5% | +1.25 | +10 |
+| **Full set** |  | **+30** | **+16** | **+20%** | **+6** | **+44** |
 
 ### Dragon Scale (`iceandfire:armor_sapphire`)
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_sapphire_helmet]] | Helmet | +6 | +4 | +5% | +1.25 | +10 | 396 |
-| [[item:iceandfire:armor_sapphire_chestplate]] | Chestplate | +9 | +4 | +5% | +1.75 | +12 | 576 |
-| [[item:iceandfire:armor_sapphire_leggings]] | Leggings | +9 | +4 | +5% | +1.75 | +12 | 540 |
-| [[item:iceandfire:armor_sapphire_boots]] | Boots | +6 | +4 | +5% | +1.25 | +10 | 468 |
-| **Full set** |  | **+30** | **+16** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_sapphire_helmet]] | Helmet | +6 | +4 | +5% | +1.25 | +10 |
+| [[item:iceandfire:armor_sapphire_chestplate]] | Chestplate | +9 | +4 | +5% | +1.75 | +12 |
+| [[item:iceandfire:armor_sapphire_leggings]] | Leggings | +9 | +4 | +5% | +1.75 | +12 |
+| [[item:iceandfire:armor_sapphire_boots]] | Boots | +6 | +4 | +5% | +1.25 | +10 |
+| **Full set** |  | **+30** | **+16** | **+20%** | **+6** | **+44** |
 
 ### Dragon Scale (`iceandfire:armor_silver`)
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_silver_helmet]] | Helmet | +6 | +4 | +5% | +1.25 | +10 | 396 |
-| [[item:iceandfire:armor_silver_chestplate]] | Chestplate | +9 | +4 | +5% | +1.75 | +12 | 576 |
-| [[item:iceandfire:armor_silver_leggings]] | Leggings | +9 | +4 | +5% | +1.75 | +12 | 540 |
-| [[item:iceandfire:armor_silver_boots]] | Boots | +6 | +4 | +5% | +1.25 | +10 | 468 |
-| **Full set** |  | **+30** | **+16** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_silver_helmet]] | Helmet | +6 | +4 | +5% | +1.25 | +10 |
+| [[item:iceandfire:armor_silver_chestplate]] | Chestplate | +9 | +4 | +5% | +1.75 | +12 |
+| [[item:iceandfire:armor_silver_leggings]] | Leggings | +9 | +4 | +5% | +1.75 | +12 |
+| [[item:iceandfire:armor_silver_boots]] | Boots | +6 | +4 | +5% | +1.25 | +10 |
+| **Full set** |  | **+30** | **+16** | **+20%** | **+6** | **+44** |
 
 ### Holy Dragonsilver (`iceandfire:armor_silver_metal`)
 
-| Piece | Slot | Armor | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_silver_metal_helmet]] | Helmet | +1 | +0.9 | +5 | 165 |
-| [[item:iceandfire:armor_silver_metal_chestplate]] | Chestplate | +4 | +2.5 | +14 | 240 |
-| [[item:iceandfire:armor_silver_metal_leggings]] | Leggings | +5 | +2.05 | +11.5 | 225 |
-| [[item:iceandfire:armor_silver_metal_boots]] | Boots | +2 | +0.7 | +4 | 195 |
-| **Full set** |  | **+12** | **+6.15** | **+34.5** |  |
+| Piece | Slot | Armor | Stun Armor | Weight |
+| --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_silver_metal_helmet]] | Helmet | +1 | +0.9 | +5 |
+| [[item:iceandfire:armor_silver_metal_chestplate]] | Chestplate | +4 | +2.5 | +14 |
+| [[item:iceandfire:armor_silver_metal_leggings]] | Leggings | +5 | +2.05 | +11.5 |
+| [[item:iceandfire:armor_silver_metal_boots]] | Boots | +2 | +0.7 | +4 |
+| **Full set** |  | **+12** | **+6.15** | **+34.5** |
 
 ### Dragon Scale (`iceandfire:armor_white`)
 
-| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:armor_white_helmet]] | Helmet | +6 | +4 | +5% | +1.25 | +10 | 396 |
-| [[item:iceandfire:armor_white_chestplate]] | Chestplate | +9 | +4 | +5% | +1.75 | +12 | 576 |
-| [[item:iceandfire:armor_white_leggings]] | Leggings | +9 | +4 | +5% | +1.75 | +12 | 540 |
-| [[item:iceandfire:armor_white_boots]] | Boots | +6 | +4 | +5% | +1.25 | +10 | 468 |
-| **Full set** |  | **+30** | **+16** | **+20%** | **+6** | **+44** |  |
+| Piece | Slot | Armor | Armor Toughness | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[item:iceandfire:armor_white_helmet]] | Helmet | +6 | +4 | +5% | +1.25 | +10 |
+| [[item:iceandfire:armor_white_chestplate]] | Chestplate | +9 | +4 | +5% | +1.75 | +12 |
+| [[item:iceandfire:armor_white_leggings]] | Leggings | +9 | +4 | +5% | +1.75 | +12 |
+| [[item:iceandfire:armor_white_boots]] | Boots | +6 | +4 | +5% | +1.25 | +10 |
+| **Full set** |  | **+30** | **+16** | **+20%** | **+6** | **+44** |
 
 ## Usage
 

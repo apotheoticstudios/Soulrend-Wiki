@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Geo Spell Power | Max Mana | Nature Spell Power | Spell Power | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:traveloptics:primordial_crest_armor_helmet]] | Helmet | +4 | +1.5 | +10% | +125 | +10% | +5% | +15 | +11 | 440 |
-| [[item:traveloptics:primordial_crest_armor_chestplate]] | Chestplate | +8 | +1.5 | +10% | +125 | +10% | +5% | +30 | +27 | 640 |
-| [[item:traveloptics:primordial_crest_armor_leggings]] | Leggings | +6 | +1.5 | +10% | +125 | +10% | +5% | +25 | +18 | 600 |
-| [[item:traveloptics:primordial_crest_armor_boots]] | Boots | +4 | +1.5 | +10% | +125 | +10% | +5% | +12 | +8 | 520 |
-| **Full set** |  | **+22** | **+6** | **+40%** | **+500** | **+40%** | **+20%** | **+82** | **+64** |  |
+| Piece | Slot | Armor | Armor Toughness | Geo Spell Power | Max Mana | Nature Spell Power | Spell Power | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:traveloptics:primordial_crest_armor_helmet]] | Helmet | +4 | +1.5 | +10% | +125 | +10% | +5% | +15 | +11 |
+| [[item:traveloptics:primordial_crest_armor_chestplate]] | Chestplate | +8 | +1.5 | +10% | +125 | +10% | +5% | +30 | +27 |
+| [[item:traveloptics:primordial_crest_armor_leggings]] | Leggings | +6 | +1.5 | +10% | +125 | +10% | +5% | +25 | +18 |
+| [[item:traveloptics:primordial_crest_armor_boots]] | Boots | +4 | +1.5 | +10% | +125 | +10% | +5% | +12 | +8 |
+| **Full set** |  | **+22** | **+6** | **+40%** | **+500** | **+40%** | **+20%** | **+82** | **+64** |
 
 ## Usage
 

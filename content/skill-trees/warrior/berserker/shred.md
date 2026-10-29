@@ -24,10 +24,10 @@ The Points column counts the points spent in this branch to reach a node, starti
 | Node | Points | Effect |
 | --- | --- | --- |
 | Path ×5 | 1–5 | +2.5% Attack Damage (each) |
-| **Hub** | 6 | +20% Attack Damage with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
-| Leaf | 7 | 10% chance to inflict Posture Break for 3 s on hit, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
-| Leaf | 7 | 5% chance to inflict Broken Armor I for 5 s on hit, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
-| Leaf | 7 | +30% Attack Damage with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
+| **Hub** | 6 | +20% Attack Damage with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
+| Leaf | 7 | 10% chance to inflict Posture Break for 3 s on hit, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
+| Leaf | 7 | 5% chance to inflict Broken Armor I for 5 s on hit, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
+| Leaf | 7 | +30% Attack Damage with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
 
 ## Totals
 

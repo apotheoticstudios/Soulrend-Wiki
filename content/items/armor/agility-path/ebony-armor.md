@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Crit Damage | Speed | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:ebony_helmet]] | Helmet | +5 | +4 | +10% | +8% | +3.75% | +2.75 | +8 | 462 |
-| [[item:dungeons_and_combat:ebony_chestplate]] | Chestplate | +10 | +4 | +10% | +8% | +3.75% | +3.25 | +12 | 672 |
-| [[item:dungeons_and_combat:ebony_leggings]] | Leggings | +8 | +4 | +10% | +8% | +3.75% | +3.25 | +12 | 630 |
-| [[item:dungeons_and_combat:ebony_boots]] | Boots | +5 | +4 | +10% | +8% | +3.75% | +2.75 | +8 | 546 |
-| **Full set** |  | **+28** | **+16** | **+40%** | **+32%** | **+15%** | **+12** | **+40** |  |
+| Piece | Slot | Armor | Armor Toughness | Knockback Resistance | Crit Damage | Speed | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:dungeons_and_combat:ebony_helmet]] | Helmet | +5 | +4 | +10% | +8% | +3.75% | +2.75 | +8 |
+| [[item:dungeons_and_combat:ebony_chestplate]] | Chestplate | +10 | +4 | +10% | +8% | +3.75% | +3.25 | +12 |
+| [[item:dungeons_and_combat:ebony_leggings]] | Leggings | +8 | +4 | +10% | +8% | +3.75% | +3.25 | +12 |
+| [[item:dungeons_and_combat:ebony_boots]] | Boots | +5 | +4 | +10% | +8% | +3.75% | +2.75 | +8 |
+| **Full set** |  | **+28** | **+16** | **+40%** | **+32%** | **+15%** | **+12** | **+40** |
 
 ## Usage
 

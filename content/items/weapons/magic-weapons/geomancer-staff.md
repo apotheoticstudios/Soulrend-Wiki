@@ -8,8 +8,7 @@
       ["Type", "Magic weapon"],
       ["Rarity", "Rare"],
       ["Attack damage", "3"],
-      ["Attack speed", "1"],
-      ["Durability", "200"]
+      ["Attack speed", "1"]
     ]
   },
   "items": ["mowziesmobs:sculptor_staff"]
@@ -19,7 +18,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/items.json (tooltip)
@@ -48,7 +47,6 @@ It can also be crafted (see [[#Crafting]]).
 | Entity Reach | 3 |
 | Geo Spell Power | +10% |
 | Geo Spell Power | +15% |
-| Durability | 200 |
 | Enchantability | 5 |
 
 ## Usage

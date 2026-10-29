@@ -25,9 +25,9 @@ The Points column counts the points spent in this branch to reach a node, starti
 | --- | --- | --- |
 | Path ×5 | 1–5 | +5% Max Health (each) |
 | **Hub** | 6 | +10% Max Health |
-| Leaf | 7 | 20% chance to inflict Bleed for 7.5 s on melee hit, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
+| Leaf | 7 | 20% chance to inflict Bleed for 7.5 s on melee hit, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
 | Leaf | 7 | +20% Max Health |
-| Leaf | 7 | 10% chance to inflict Slowness for 5 s on melee hit, with a [[features/combat/two-handed-weapons|two-handed weapon]] in hand |
+| Leaf | 7 | 10% chance to inflict Slowness for 5 s on melee hit, with a [[features/combat/two-handed-weapons\|two-handed weapon]] in hand |
 
 ## Totals
 

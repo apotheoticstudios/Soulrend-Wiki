@@ -9,8 +9,7 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.75"],
-      ["Durability", "1,582"]
+      ["Attack speed", "1.75"]
     ]
   },
   "items": ["wom:herrscher"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type wom:herrscher, from paxi:soulrend_ef_capabilities)
@@ -39,7 +38,6 @@
 | Impact | 1.3 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |
-| Durability | 1,582 |
 | Enchantability | 22 |
 
 ## Usage

@@ -9,8 +9,7 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.20"],
-      ["Durability", "2,031"]
+      ["Attack speed", "1.20"]
     ]
   },
   "items": ["wom:evil_tachi"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type womplus:evil_tachi_reift, from pack:womplus-20.14.1.3.1.jar/wom_override)
@@ -43,7 +42,6 @@ It is crafted (see [[#Crafting]]).
 | Targets per swing | 7 |
 | Armor Negation | 10% |
 | Entity Reach | 3 |
-| Durability | 2,031 |
 | Enchantability | 15 |
 
 ## Usage

@@ -39,7 +39,7 @@ The **Dragon Guards** are the skeleton soldiers that Bosses'Rise posts in its bo
 | --- | --- |
 | Dragon Guard | Placed on the lower and middle floors of the Dragon Tower (Meadows, Stony Peaks, Jagged Peaks) |
 | Pile Of Bones | Placed throughout the Dragon Tower and the Underworld Arena |
-| Soul Skeleton | Replaces normal hostile spawns inside the Underworld Arena (weight 2, groups of 1–3), next to [[bosses/optional-and-world/wither-knight|Wither Knights]] (weight 1) |
+| Soul Skeleton | Replaces normal hostile spawns inside the Underworld Arena (weight 2, groups of 1–3), next to [[bosses/optional-and-world/wither-knight\|Wither Knights]] (weight 1) |
 
 Bosses'Rise also registers the **Flaming Dragon Guard** and the **Flaming Skeleton Shooter**, but nothing in Soulrend spawns them: they have spawn eggs only.
 

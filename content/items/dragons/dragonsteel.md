@@ -36,7 +36,7 @@
 - **Making it:** see [[items/dragons/dragonforges|Dragonforges]]. One iron ingot and one blood of the forge's element make one ingot in 50 s of dragon breath.
 - **Ingots** make dragonsteel tools, the long swords and Soulrend's Dragon Steel Claymores.
 - **Blocks** (nine ingots) are what the armor uses: they upgrade armor into the Dragonsteel sets at a Smithing Table, make dragonsteel dragon armor and shields, and go into several Soulrend upgrades.
-- Ice and Fire's config sets dragonsteel's base stats: 25 attack for the sword, 12 armor for the chestplate, 6 armor toughness and 8,000 durability. Soulrend's Molten Ingot upgrades Dragonsteel armor further (see [[items/materials/act-iii-materials|Act III Materials]]).
+- Ice and Fire's config sets dragonsteel's base stats: 25 attack for the sword, 12 armor for the chestplate and 6 armor toughness. Soulrend's Molten Ingot upgrades Dragonsteel armor further (see [[items/materials/act-iii-materials|Act III Materials]]).
 
 ## Overview
 

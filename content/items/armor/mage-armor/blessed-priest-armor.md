@@ -28,7 +28,7 @@
   first pass from the game-data dumps (stats, obtaining, crafting); Usage and Epic Fight researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (names, tooltips)
-  game-data/item-stats.json (durability)
+  game-data/item-stats.json
   game-data/loot-tables.json, game-data/recipes.json
   game-data/item-stats.json (epicfight:weight and epicfight:stun_armor modifiers, set by config/the_config_of_alexandria); epicfight jar: lang epicfight.tip.weight, epicfight.tip.stun_armor
   game-data/items.json (tooltip)
@@ -41,13 +41,13 @@
 
 Values are the tooltip modifiers of each piece. The full-set row adds them up.
 
-| Piece | Slot | Armor | Armor Toughness | Holy Spell Power | Max Mana | Stun Armor | Weight | Durability |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[item:dacxirons:blessed_priest_hood]] | Helmet | +3 | +2 | +20% | +125 | +1.12 | +7.5 | 660 |
-| [[item:dacxirons:blessed_priest_robe]] | Chestplate | +8 | +2 | +20% | +125 | +3 | +20 | 960 |
-| [[item:dacxirons:blessed_priest_leggings]] | Leggings | +6 | +2 | +20% | +125 | +2.25 | +15 | 900 |
-| [[item:dacxirons:blessed_priest_boots]] | Boots | +3 | +2 | +20% | +125 | +1.12 | +7.5 | 780 |
-| **Full set** |  | **+20** | **+8** | **+80%** | **+500** | **+7.49** | **+50** |  |
+| Piece | Slot | Armor | Armor Toughness | Holy Spell Power | Max Mana | Stun Armor | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[item:dacxirons:blessed_priest_hood]] | Helmet | +3 | +2 | +20% | +125 | +1.12 | +7.5 |
+| [[item:dacxirons:blessed_priest_robe]] | Chestplate | +8 | +2 | +20% | +125 | +3 | +20 |
+| [[item:dacxirons:blessed_priest_leggings]] | Leggings | +6 | +2 | +20% | +125 | +2.25 | +15 |
+| [[item:dacxirons:blessed_priest_boots]] | Boots | +3 | +2 | +20% | +125 | +1.12 | +7.5 |
+| **Full set** |  | **+20** | **+8** | **+80%** | **+500** | **+7.49** | **+50** |
 
 ## Usage
 

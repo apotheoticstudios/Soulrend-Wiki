@@ -9,8 +9,7 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "16"],
-      ["Attack speed", "1.60"],
-      ["Durability", "2,548"]
+      ["Attack speed", "1.60"]
     ]
   },
   "items": ["soulsweapons:excalibur"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type ba_tweaks:longsword, from paxi:soulrend_ef_capabilities)
@@ -43,7 +42,6 @@ It is crafted (see [[#Crafting]]).
 | Impact | 1.7 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |
-| Durability | 2,548 |
 | Enchantability | 10 |
 | Fire resistant | Yes |
 
@@ -51,7 +49,7 @@ It is crafted (see [[#Crafting]]).
 
 It has three abilities, listed in the tooltip under Left Alt:
 
-- **Life Guard:** part of the damage the wielder takes (30% in Soulrend) damages the sword instead. When the wielder would take lethal damage while holding it, there is a chance to negate all of it and cause an explosion around them, which costs the sword extra durability.
+- **Life Guard:** part of the damage the wielder takes (30% in Soulrend) damages the sword instead. When the wielder would take lethal damage while holding it, there is a chance to negate all of it and cause an explosion around them.
 - **Sonic Boom:** using it fires a Sonic Boom (10 damage) at the last target hit if it is within 40 blocks, otherwise at the nearest entity within 16 blocks. Cooldown 5 s, which enchantments can lower to 2 s.
 - **Lightbringer:** while it is held, the wielder is immune to Darkness and Blindness and gets Speed, Night Vision and Strength instead.
 

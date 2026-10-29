@@ -9,8 +9,7 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "19"],
-      ["Attack speed", "1.30"],
-      ["Durability", "2,800"]
+      ["Attack speed", "1.30"]
     ]
   },
   "items": ["cataclysm:infernal_forge"]
@@ -20,7 +19,7 @@
   first pass from the game-data dumps (Obtaining, Stats, Crafting); Usage and Moveset researched 2026-10-25
   content/_items-outline.md (page list, groups and quest order)
   game-data/items.json (name, rarity, tooltip)
-  game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/loot-tables.json (drops)
   game-data/recipes.json (crafting)
   game-data/movesets.json (Epic Fight type p1nero_ec:infernal_forge, from jar:p1nero_ec-20.14.0.7.jar)
@@ -49,7 +48,6 @@ One loot table drops it:
 | Targets per swing | 4 |
 | Armor Negation | 10% |
 | Entity Reach | 3 |
-| Durability | 2,800 |
 | Enchantability | 25 |
 | Fire resistant | Yes |
 

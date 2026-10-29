@@ -10,15 +10,14 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "20"],
-      ["Attack speed", "1.60"],
-      ["Durability", "2,031"]
+      ["Attack speed", "1.60"]
     ]
   },
   "items": ["efn:sword_of_pioneer"]
 }
 ---
 <!-- sources:
-  game-data/items.json (name [Vanguard Sword], rarity, tooltip), game-data/item-stats.json (durability, enchantability, Epic Fight styles)
+  game-data/items.json (name [Vanguard Sword], rarity, tooltip), game-data/item-stats.json (enchantability, Epic Fight styles)
   game-data/recipes.json (soulrend:equipment/swords/efn/sword_of_pioneer_from_{crimson_bloodweave_sword,crimson_sovereign_sword}; minecraft:kjs/simplyswords_empowered_remnant_*)
   game-data/movesets.json (Epic Fight type efn:pioneer, from jar:EpicFight Nightfall-3.4.2-all.jar)
   config/ftbquests/quests/chapters/path_of_the_blade.snbt (task efn:sword_of_pioneer, quest 1A00000000000029, description quoted)
@@ -44,7 +43,6 @@ The undead Rotten Knights of the Past carry one ([[enemies/act-v/rotten-soldiers
 | Targets per swing | 4 |
 | Armor Negation | 20% |
 | Entity Reach | 3 |
-| Durability | 2,031 |
 | Enchantability | 30 |
 | Fire resistant | Yes |
 

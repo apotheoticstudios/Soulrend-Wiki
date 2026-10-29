@@ -7,7 +7,7 @@
 }
 ---
 <!-- sources:
-  first pass from the game-data dumps (durability, obtaining, crafting); Usage written 2026-10-27
+  first pass from the game-data dumps (obtaining, crafting); Usage written 2026-10-27
   content/_items-outline.md (page list, groups and quest order)
   game-data/loot-index.json (u_sea binomial rolls)
 -->
@@ -22,8 +22,8 @@ Both work as in vanilla Minecraft: **shears** shear sheep and collect leaves, vi
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:shears]] | Minecraft | 238 durability | crafting, 27 loot tables |
-| [[item:minecraft:flint_and_steel]] | Minecraft | 64 durability | crafting, 50 loot tables |
+| [[item:minecraft:shears]] | Minecraft |  | crafting, 27 loot tables |
+| [[item:minecraft:flint_and_steel]] | Minecraft |  | crafting, 50 loot tables |
 
 ## Shears
 
