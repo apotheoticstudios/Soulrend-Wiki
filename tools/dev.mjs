@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'dist-dev');
 const PORT = Number(process.env.PORT ?? 4321);
-const WATCH = ['content', 'site', 'src', 'assets', 'game-data', 'tools'];
+const WATCH = ['content', 'site', 'src', 'assets', 'dev-tools', 'game-data', 'tools'];
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
   '.mjs': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.png': 'image/png',

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Mod Planner</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+  main { max-width: 1120px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 24px; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 4px; max-width: 70ch; }
+  .meta { color: var(--faint); font-size: 13px; margin: 0; }
+  h2 { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin: 36px 0 10px; }
+  .roles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; border-top: 1px solid var(--border); }
+  .role { display: grid; grid-template-columns: 1fr auto; gap: 2px 16px; align-items: baseline; padding: 12px 4px; border-bottom: 1px solid var(--border); color: var(--text); text-decoration: none; border-radius: 4px; }
+  .role:hover { background: var(--panel); }
+  .role b { font-size: 15px; }
+  .role:hover b { color: var(--accent-text); }
+  .role span { grid-column: 1; color: var(--muted); font-size: 13px; }
+  .role .num { grid-row: 1; grid-column: 2; color: var(--muted); font-size: 13px; }
+  .addons { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 24px; border-top: 1px solid var(--border); }
+  .addon { display: flex; justify-content: space-between; gap: 10px; padding: 8px 4px; border-bottom: 1px solid var(--border); color: var(--text); text-decoration: none; border-radius: 4px; }
+  .addon:hover { background: var(--panel); color: var(--accent-text); }
+  .addon span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .addon .num { color: var(--muted); font-size: 13px; }
+  .loading { color: var(--muted); padding: 24px 0; }
+  @media (max-width: 900px) { .addons { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 640px) {
+    .roles { grid-template-columns: 1fr; }
+    .top .search, .top .label { display: none; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg>Mod Planner</a>
+  <div class="actions">
+    <button class="btn" id="shortlist" type="button"><svg class="icon" aria-hidden="true"><use href="#i-bookmark"/></svg><span class="label">Shortlist</span> <span class="badge">0</span></button>
+  </div>
+</header>
+<main>
+  <h1>Plan a modpack</h1>
+  <p class="lead">CurseForge's Minecraft mods, grouped by the part they play in a pack. Pick a role or a base mod, set your version and loader, and keep or reject mods into a shortlist that checks what they need.</p>
+  <p class="meta" id="meta"></p>
+  <h2>Roles</h2>
+  <nav class="roles" id="roles" aria-label="Roles"><p class="loading">Loading…</p></nav>
+  <h2>Addons by base mod</h2>
+  <nav class="addons" id="addons" aria-label="Addons by base mod"></nav>
+</main>
+<script type="module">
+import { el, bindShortlistButton } from './shared.js';
+
+bindShortlistButton(document.getElementById('shortlist'));
+const n = v => v.toLocaleString('en');
+try {
+  const res = await fetch('mods/data/index.json');
+  if (!res.ok) throw new Error(res.status);
+  const index = await res.json();
+  document.getElementById('meta').textContent =
+    `${n(index.total)} mods with ${n(index.minDownloads)}+ downloads · data from ${index.generated.slice(0, 10)}`;
+  document.getElementById('roles').replaceChildren(...index.roles.map(r =>
+    el('a', { className: 'role', href: `mods/?r=${r.slug}` },
+      el('b', { textContent: r.name }), el('span', { className: 'num', textContent: n(r.count) }), el('span', { textContent: r.blurb }))));
+  document.getElementById('addons').replaceChildren(...index.addons.map(a =>
+    el('a', { className: 'addon', href: `mods/?a=${a.slug}`, title: `Mods that require ${a.name}` },
+      el('span', { textContent: a.name }), el('span', { className: 'num', textContent: n(a.count) }))));
+} catch {
+  document.getElementById('roles').replaceChildren(el('p', { className: 'loading', textContent: 'No mod data yet. Run npm run mods to download it.' }));
+}
+</script>
+</body>
+</html>

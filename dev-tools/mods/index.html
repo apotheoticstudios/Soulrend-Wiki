@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Mod Planner</title>
+<link rel="stylesheet" href="../shared.css">
+<link rel="stylesheet" href="planner.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../"><svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg>Mod Planner</a>
+  <label class="search">
+    <span class="sr-only">Search mods</span>
+    <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+    <input id="q" type="search" placeholder="Search name, summary or author" autocomplete="off">
+    <kbd>/</kbd>
+  </label>
+  <div class="actions">
+    <button class="btn" id="packBtn" type="button"><svg class="icon" aria-hidden="true"><use href="#i-package"/></svg><span class="label" id="packLabel">Load pack</span></button>
+    <button class="btn" id="shortlist" type="button"><svg class="icon" aria-hidden="true"><use href="#i-bookmark"/></svg><span class="label">Shortlist</span> <span class="badge">0</span></button>
+  </div>
+  <input type="file" id="file" accept=".json,application/json" hidden>
+</header>
+
+<div class="layout">
+  <aside class="side" id="side" aria-label="Browse and filter">
+    <nav aria-label="Roles">
+      <h2>Roles</h2>
+      <ul class="nav" id="roles"></ul>
+    </nav>
+    <nav aria-label="Addons by base mod">
+      <h2>Addons for</h2>
+      <ul class="nav" id="addons"></ul>
+      <details class="more" id="moreAddons"><summary>All base mods</summary><ul class="nav" id="addonsMore"></ul></details>
+    </nav>
+    <section class="filters" aria-label="Filters">
+      <div class="filters-head"><h2>Filters</h2><button class="btn ghost small" id="reset" type="button">Reset</button></div>
+      <label class="field">Minecraft version <select id="version"><option value="">Any version</option></select></label>
+      <fieldset class="field">
+        <legend>Loader</legend>
+        <div class="segmented" id="loader">
+          <label><input type="radio" name="loader" value=""><span>Any</span></label>
+          <label><input type="radio" name="loader" value="1"><span>Forge</span></label>
+          <label><input type="radio" name="loader" value="6"><span>NeoForge</span></label>
+          <label><input type="radio" name="loader" value="4"><span>Fabric</span></label>
+          <label><input type="radio" name="loader" value="5"><span>Quilt</span></label>
+        </div>
+      </fieldset>
+      <label class="field">Depends on
+        <input id="dep" type="text" list="deps" placeholder="Any mod" autocomplete="off">
+        <datalist id="deps"></datalist>
+      </label>
+      <div class="field" id="typesField"><span class="field-label" id="typesLabel">Type</span><ul class="tags" id="types"></ul></div>
+      <details class="more" id="alsoField"><summary>Also tagged</summary><ul class="tags" id="also"></ul></details>
+      <label class="check" id="libsField"><input type="checkbox" id="showLibs"> Show libraries</label>
+      <label class="check" id="otherField" title="Mods tagged with this role whose main CurseForge category belongs to another role"><input type="checkbox" id="showOther"> Include mods mainly in other roles</label>
+    </section>
+  </aside>
+
+  <main class="main" id="main">
+    <div class="head">
+      <h1 id="title">Loading…</h1>
+      <p id="blurb"></p>
+    </div>
+    <div class="toolbar">
+      <button class="btn" id="filtersBtn" type="button" aria-controls="side" aria-expanded="false"><svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg>Filters</button>
+      <p class="count" id="count" aria-live="polite"></p>
+      <div class="pack-toggles" id="packToggles" hidden>
+        <label class="check"><input type="checkbox" id="hideConflicts"> Hide conflicts</label>
+        <label class="check"><input type="checkbox" id="hideOwned"> Hide mods in pack</label>
+      </div>
+      <label class="inline">Show <select id="show">
+        <option value="unrejected">All but rejected</option><option value="all">Everything</option>
+        <option value="keep">Kept only</option><option value="unmarked">Unmarked only</option>
+      </select></label>
+      <label class="inline">Sort <select id="sort">
+        <option value="dl">Most downloaded</option><option value="u">Recently updated</option>
+        <option value="r">Newest</option><option value="n">Name</option>
+      </select></label>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="list" id="list" role="list"></div>
+    <button class="btn more-btn" id="more" type="button" hidden></button>
+  </main>
+</div>
+<div class="drop" id="drop" hidden><div><svg class="icon" aria-hidden="true"><use href="#i-upload"/></svg><span>Drop a <b>minecraftinstance.json</b> or <b>manifest.json</b> to check mods against that pack</span></div></div>
+<script type="module" src="planner.js"></script>
+</body>
+</html>

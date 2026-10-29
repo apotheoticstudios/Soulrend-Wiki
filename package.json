@@ -10,7 +10,8 @@
     "font": "node tools/make-font.mjs",
     "models": "node tools/make-models.mjs",
     "attacks": "node tools/make-attacks.mjs",
-    "skin": "node tools/set-skin.mjs"
+    "skin": "node tools/set-skin.mjs",
+    "mods": "node --env-file-if-exists=.env tools/curseforge-mods.mjs"
   },
   "devDependencies": {
     "ajv": "^8.20.0",

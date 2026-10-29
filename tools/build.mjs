@@ -107,6 +107,8 @@ export async function build({ dev = false, out = path.join(ROOT, 'dist') } = {})
   if (site.url) writeSitemap(tmp, site, rendered);
   // Like draft pages, assets in "_" folders (test models, work in progress) only ship in dev builds.
   copyDir(path.join(ROOT, 'assets'), path.join(tmp, 'assets'), rel => dev || !rel.split(path.sep).some(s => s.startsWith('_')));
+  // Standalone tools ship as-is under /dev-tools/, outside the wiki's pages.
+  copyDir(path.join(ROOT, 'dev-tools'), path.join(tmp, 'dev-tools'));
 
   fs.rmSync(out, { recursive: true, force: true });
   fs.renameSync(tmp, out);

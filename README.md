@@ -11,6 +11,7 @@ npm run font         # rebuild the pixel font from tools/font/glyphs.txt
 npm run models       # rebuild the mob 3D models in assets/models/ from the modpack instance
 npm run attacks      # rebuild the Epic Fight attack viewer (player, dummies, weapons, animations)
 npm run skin -- <skin.png>   # swap the attack viewer's player skin
+npm run mods         # refresh the Mod Planner's CurseForge data (needs CURSEFORGE_API_KEY in .env)
 ```
 
 `npm run dev` also prints an address you can open on a phone on the same Wi-Fi. Build errors show up in the terminal (as `file:line`, clickable in VS Code) and as a red box on the page.
@@ -26,6 +27,8 @@ npm run skin -- <skin.png>   # swap the attack viewer's player skin
 | `site/stations/` | Recipe diagram layouts (crafting table, furnace, …). |
 | `site/schemas/` | JSON Schemas. VS Code uses them for autocomplete in the JSON files above. |
 | `game-data/` | Item names, icons, recipes and tags from the modpack (written by `npm run sync-game`), the list of mob models (`mobs.json`, written by `npm run models`) and the attack viewer's data (`attacks.json`, written by `npm run attacks`). |
+| `game-data/` | Item names, icons, recipes and tags from the modpack (written by `npm run sync-game`), and the list of mob models (`mobs.json`, written by `npm run models`). |
+| `dev-tools/` | Standalone tools served at `/dev-tools/`, copied into the build as they are, separate from the wiki. |
 | `src/` | The renderer (`render/`), browser scripts (`client/`), styles and the generated font. |
 | `tools/` | Build, dev server, game-data sync, font converter, and the in-game KubeJS export scripts. |
 | `docs/` | Notes for editors. [`docs/style-guide.md`](docs/style-guide.md) is how to write a page (voice, sources, templates). [`docs/instance-guide.md`](docs/instance-guide.md) says where to find quests, origins, skill trees, bosses and pack mechanics in the modpack instance. |
@@ -250,6 +253,20 @@ Nothing is hand-placed. The animations, attack phases and hitboxes come from eac
 **Changing the skin:** `npm run skin -- path/to/skin.png` copies a 64×64 Minecraft skin over `assets/john_soulrend/skin.png` and rebuilds only the player (a second). Slim (Alex) arms are detected from the skin; add `--slim` or `--wide` to choose, `--auto` to go back to detecting. `npm run skin` with no file rebuilds the player from the current skin.
 
 Other models can be exported from Blockbench as glTF (`File → Export → Export glTF Model`, binary `.glb`), put in `assets/`, and embedded with `{{model path.glb}}`. three.js only downloads on pages that have a model.
+
+## Dev tools
+
+`dev-tools/` holds standalone pages served at `/dev-tools/`. The build copies them as they are, so they don't use the wiki's layout, sidebar or search.
+
+**Mod Planner** (`/dev-tools/`) is a CurseForge-style browser for planning modpacks. The overview lists 14 modpack roles (World & Exploration, Creatures, Adventure & Combat, Magic, Tech & Automation, …) and the 30 most depended-on base mods. The planner (`/dev-tools/mods/?r=<role>` or `?a=<base mod>`) shows one at a time.
+
+- **Roles** are unions of CurseForge categories, set in `ROLES` in `tools/curseforge-mods.mjs`. A mod's main role comes from its primary CurseForge category. Mods that are only tagged with a role appear there when "Include mods mainly in other roles" is on. Libraries are hidden unless asked for.
+- **Addons for** pages list every mod that requires a base mod (Create, Farmer's Delight, Cobblemon, Iron's Spells, …). The "Depends on" filter does the same inside any role.
+- **Filters:** version, loader, type tags (click to require, again to exclude) and search. Version and loader carry over between pages.
+- **Pack check:** load or drop a `minecraftinstance.json` or modpack `manifest.json`. Each row then says whether the mod is already in the pack, conflicts with it (declared incompatibilities only), or needs mods you don't have. Requirements follow the selected loader.
+- **Shortlist:** Keep and Reject marks are saved in the browser and shared by every page. The Shortlist sheet groups kept mods by role, lists missing requirements and declared conflicts, and copies the list.
+
+The data is one `dev-tools/mods/data/<role>.json` per role, `addons-<slug>.json` per base mod and `index.json`, written by `npm run mods` (`tools/curseforge-mods.mjs`). The script needs a CurseForge API key in a `.env` file (`CURSEFORGE_API_KEY='…'`, git-ignored). The first run scans every CurseForge project id (about half an hour) and caches every Minecraft mod in `.cache/curseforge-mods.json` (git-ignored). Later runs refresh the cached mods and scan only new ids (a few minutes). `-- --full` rescans everything, and `-- --write` only rewrites the data files from the cache. Mods under 1,000 downloads are left out. When CurseForge adds a category, the script warns that it is in no role; add it to `ROLES`.
 
 ## Deploying
 

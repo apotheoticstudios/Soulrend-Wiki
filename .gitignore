@@ -4,3 +4,10 @@ dist.tmp/
 dist-dev/
 dist-dev.tmp/
 .DS_Store
+.env
+.cache/
+.wrangler/
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/questions/
+.impeccable/hook.cache.json

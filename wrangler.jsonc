@@ -1,0 +1,9 @@
+// Cloudflare Worker that serves soulrend.wiki. Cloudflare's Git build runs `npm run build`, then `npx wrangler deploy` uploads dist/.
+{
+  "name": "soulrend-wiki",
+  "compatibility_date": "2026-10-23",
+  "assets": {
+    "directory": "dist",
+    "not_found_handling": "404-page"
+  }
+}
