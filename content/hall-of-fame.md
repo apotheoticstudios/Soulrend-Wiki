@@ -18,28 +18,11 @@ Every player below has completed [[progression/act-v-duties/blessing-of-mortuses
 
 ## Joining
 
-When you complete Blessing of Mortusest without cheating, a message in chat offers **[Feature me on the Soulrend Wiki]**. Click it to add your name and head here. Nothing is sent until you click. If you missed the message, type `/soulrend halloffame`. If your playthrough can't join, the command says why.
+When you complete Blessing of Mortusest without cheating, a message in chat offers **[Feature me on the Soulrend Wiki]**. Click it to add your name and head here. The game asks once more before anything is sent. If you missed the message, type `/soulrend halloffame`. If your playthrough can't join, the command says why.
 
 - Mojang confirms that you own the account, so nobody else can add you, and the name and skin shown here come from Mojang. Offline (non-premium) accounts can't be featured.
 - Running the command again later updates your name and skin. Your place in the list stays the same.
 
 ## No cheats
 
-Soulrend Core watches each character from their first minute in a world until they complete the final quest. Any of these rules the playthrough out for good:
-
-- **Op commands**: typing any command a player without operator permissions couldn't run, such as `/give`, `/gamemode`, `/tp`, `/time`, `/effect` or `/ftbquests change_progress`. A player another operator targets with such a command is ruled out too, unless it only punishes or moderates them (`/kick`, `/kill`, `/clear`, `/damage`, `/gamemode` back to survival). Commands that fail to parse or are left unfinished don't count.
-- **Creative or spectator mode**, however you get there: a creative world, `/gamemode`, F3+F4, F3+N or opening to LAN in creative.
-- **JEI cheat mode** item spawning.
-- **FTB Quests editing mode**.
-
-Some things don't count against you:
-
-- Having cheats *allowed* in the world, or being an operator, as long as you never use them.
-- Commands that mods, quests and origin powers run for you.
-- Anything you do after completing the final quest.
-
-Two more conditions:
-
-- The character must be tracked from the start. A character that already had playtime in the world when the server or game got this version of Soulrend Core can't join, because its earlier play can't be checked.
-- You must be online when your team completes the final quest.
-- When you click the chat link, the game asks once more before anything is sent.
+Only playthroughs finished without cheats can join. If you cheat at any point before completing the final quest, that playthrough is disqualified for good.
