@@ -1,9 +1,17 @@
 // Cloudflare Worker that serves soulrend.wiki. Cloudflare's Git build runs `npm run build`, then `npx wrangler deploy` uploads dist/.
+// Pages are static; worker/index.js answers /api/* (the Hall of Fame) and hands every other request back to ASSETS.
 {
   "name": "soulrend-wiki",
+  "main": "worker/index.js",
   "compatibility_date": "2026-10-23",
   "assets": {
     "directory": "dist",
-    "not_found_handling": "404-page"
-  }
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  // soulrend-wiki-hall-of-fame, created by the first deploy. The id lets `wrangler kv … --binding HALL_OF_FAME` find it.
+  "kv_namespaces": [{ "binding": "HALL_OF_FAME", "id": "e60d4e81f8d94fef9e16c454296e4a02" }],
+  // Hall of Fame submissions per IP per minute.
+  "ratelimits": [{ "name": "SUBMIT_LIMIT", "namespace_id": "1001", "simple": { "limit": 5, "period": 60 } }]
 }

@@ -31,7 +31,8 @@
     { "label": "Mods", "category": "Mods", "collapsed": true },
     { "label": "FAQ", "category": "FAQ", "collapsed": true },
     { "label": "Changelog", "category": "Changelog", "collapsed": true },
-    { "label": "Known Bugs", "items": ["bugs"] }
+    { "label": "Known Bugs", "items": ["bugs"] },
+    { "label": "Hall of Fame", "items": ["hall-of-fame"] }
   ],
   "footer": "Soulrend Wiki · Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft."
 }

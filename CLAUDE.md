@@ -20,7 +20,7 @@ A hand-built static wiki for **Soulrend**, the user's Forge 1.20.1 modpack (abou
 - **The wiki's pixel font is original**: a Times-style pixel serif hand-drawn in `tools/font/glyphs.txt`, on Excalibur's metrics (8px em, 7px caps, 5px x-height) but sharing no glyphs with it or with Times. Don't regenerate it from the Excalibur pack or trace any other font.
 - **Editors are trusted**: raw HTML is allowed in Markdown, and there's no sanitizer.
 - **Pages follow `docs/style-guide.md`**: neutral encyclopedic voice for new players, American spelling (in-game names verbatim), sourced numbers only, stats scaled to the mob's level, no spoiler gating.
-- **Hosting: a Cloudflare Worker** connected to the GitHub repo (`apotheoticstudios/Soulrend-Wiki`) serves `https://soulrend.wiki/`, which is `site.url`. Its build settings live in the Cloudflare dashboard, not this repo. Still keep output host-agnostic (relative links, no server rewrites). Change `site.url` if the address ever changes.
+- **Hosting: a Cloudflare Worker** connected to the GitHub repo (`apotheoticstudios/Soulrend-Wiki`) serves `https://soulrend.wiki/`, which is `site.url`. Its build settings live in the Cloudflare dashboard, not this repo. Still keep output host-agnostic (relative links, no server rewrites). The only server code is `worker/index.js`, the Hall of Fame API (2026-10-30, see README's Deploying). Cloudflare also runs it for any URL with no file, so it must hand those back to `env.ASSETS` or the 404 page is lost. Change `site.url` if the address ever changes.
 
 ### Open items (as of 2026-10-28)
 

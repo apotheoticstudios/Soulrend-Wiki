@@ -508,3 +508,34 @@ a.recipe-slot:hover::after, span.recipe-slot:not(.empty):hover::after {
 @media (--mobile) {
   .prose .home-acts { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* Hall of Fame ({{halloffame}}, src/client/hall-of-fame.js draws each 8×8 head). */
+.prose .hof-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 0 0 1.2em;
+  padding: 0;
+  list-style: none;
+}
+.prose .hof-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  padding: 14px 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.hof-head {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 4px;
+  background: var(--border);
+  image-rendering: pixelated;
+}
+.hof-meta { color: var(--muted); font-size: 13px; }
