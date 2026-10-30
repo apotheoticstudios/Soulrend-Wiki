@@ -33,7 +33,7 @@
   calc: L300: health 400 × (1 + 0.3 × 299) = 36,280; attack 30 × (1 + 0.1 × 299) = 927; armor 14 × (1 + 0.011 × 299) = 60.0
         L310: health 400 × 93.7 = 37,480; attack 30 × 31.9 = 957; armor 14 × 4.399 = 61.6
 -->
-**Corrupted Champion** is the lich of The Graveyard mod, sealed in the Lich Prison under the ocean. It is the final boss of the optional [[progression/act-iii-b-deeper-and-darker|Act III-b]], and Soulrend summons it with a Sculk Transmitter from the Deeper and Darker mod. At level 300 or more, it is far above any player's level.
+**Corrupted Champion** is the lich of The Graveyard mod, sealed in the Lich Prison high in the sky above the ocean. It is the final boss of the optional [[progression/act-iii-b-deeper-and-darker|Act III-b]], and Soulrend summons it with a Sculk Transmitter from the Deeper and Darker mod. At level 300 or more, it is far above any player's level.
 
 ## Location
 

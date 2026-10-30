@@ -63,7 +63,7 @@ The main quest line, act by act.
     - [[progression/act-iii-b-deeper-and-darker/deeper-and-darker|Deeper and Darker]] — Optional act from Act II's The Otherside.
     - [[progression/act-iii-b-deeper-and-darker/ancient-temple|Ancient Temple]] — Otherside structure with the Sculk Transmitter.
     - [[progression/act-iii-b-deeper-and-darker/sculk-transmitter|Sculk Transmitter]] — The summoning item.
-    - [[progression/act-iii-b-deeper-and-darker/lich-prison|Lich Prison]] — Under cold and deep oceans.
+    - [[progression/act-iii-b-deeper-and-darker/lich-prison|Lich Prison]] — High in the sky above cold and deep oceans.
     - [[progression/act-iii-b-deeper-and-darker/defeat-corrupted-champion|Defeat Corrupted Champion]] — Use the transmitter on the altar.
     - [[progression/act-iii-b-deeper-and-darker/bone-staffs|Bone Staffs]] — Five staffs, one per kill.
     - [[progression/act-iii-b-deeper-and-darker/deeper-and-darker-completed|Deeper and Darker Completed]] — A Perfect Gem.
