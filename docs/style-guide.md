@@ -123,6 +123,7 @@ Some pinned levels are far above 200 (the Ender Dragon is level 467), because th
 - Use `[[item:…]]` for items (icon, name, tooltip), and page links for bosses, quests, mechanics and places.
 - Link by title when it's unique (`[[Frostmaw]]`), and by path when it's qualified or when you want different text.
 - Link to sections with `#`: `[[Frostmaw#Drops]]`, `[[#Drops]]`.
+- **Inside table cells, escape the pipe of a labeled link:** `[[items/armor/foo\|Foo]]`. An unescaped `|` ends the cell, so the link breaks and shows as raw `[[…` text. Outside tables, write it plainly.
 - Linking to a hidden stub is fine. The link starts working fully once the stub is written.
 - Don't link inside headings or the first bolded subject.
 
