@@ -104,14 +104,15 @@ function skinTransform(skin, hand) {
   return mulAll(translation(joint.translation ?? [0, 0, 0]), rotationX(r[0] * RAD), rotationY(r[1] * RAD), rotationZ(r[2] * RAD), scaling(joint.scale ?? [1, 1, 1]));
 }
 
-// ItemTransform.apply: translate, rotationXYZ, scale; the left hand mirrors X.
+// ItemTransform.apply: translate, rotationXYZ, scale; the left hand always mirrors X, even a model's own
+// thirdperson_lefthand (handheld's [0, 90, -55] becomes the right hand's [0, -90, 55]).
 function displayMatrix(display, hand) {
   const t = (hand === 'off' ? display.thirdperson_lefthand : null) ?? display.thirdperson_righthand ?? display.thirdperson ?? {};
   const clamp = (v, lim) => Math.max(-lim, Math.min(lim, v));
   let [tx, ty, tz] = (t.translation ?? [0, 0, 0]).map(v => clamp(v, 80) / 16);
   let [rx, ry, rz] = t.rotation ?? [0, 0, 0];
   const s = (t.scale ?? [1, 1, 1]).map(v => clamp(v, 4));
-  if (hand === 'off' && !display.thirdperson_lefthand) { tx = -tx; ry = -ry; rz = -rz; }
+  if (hand === 'off') { tx = -tx; ry = -ry; rz = -rz; }
   return mulAll(translation([tx, ty, tz]), rotationX(rx * RAD), rotationY(ry * RAD), rotationZ(rz * RAD), scaling(s));
 }
 
