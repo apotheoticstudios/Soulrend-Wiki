@@ -105,7 +105,7 @@ The Coal, End, Horse, Nether, Pig, Sandstone, Sheep, Skeleton, Snow, Standard, W
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:hunter_cape]] | dungeons and combat | Slot: Back; This effect will increase your attack speed and leave the "Glowing" effect on your enemies | crafting |
+| [[item:dungeons_and_combat:hunter_cape]] | dungeons and combat | Slot: Back; This effect will increase your attack speed and leave the "Glowing" effect on your enemies | [[craft:dungeons_and_combat:hunter_cape]] |
 
 ## Supplementaries
 
@@ -124,46 +124,46 @@ The Coal, End, Horse, Nether, Pig, Sandstone, Sheep, Skeleton, Snow, Standard, W
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:travelersbackpack:bat]] | Traveler's Backpack | Slot: Back; Backpack obtainable in Mine shafts and Dungeons Hold <Shift> for Special Ability Description |  |
-| [[item:travelersbackpack:bee]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:blaze]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:bookshelf]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:cactus]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:cake]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:chicken]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:coal]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:cow]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:creeper]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:diamond]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:dragon]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:emerald]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:end]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:enderman]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:fox]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:ghast]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:gold]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:hay]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:horse]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:iron]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
+| [[item:travelersbackpack:bee]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:bee]] |
+| [[item:travelersbackpack:blaze]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:blaze]] |
+| [[item:travelersbackpack:bookshelf]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:bookshelf]] |
+| [[item:travelersbackpack:cactus]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:cactus]] |
+| [[item:travelersbackpack:cake]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:cake]] |
+| [[item:travelersbackpack:chicken]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:chicken]] |
+| [[item:travelersbackpack:coal]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:coal]] |
+| [[item:travelersbackpack:cow]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:cow]] |
+| [[item:travelersbackpack:creeper]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:creeper]] |
+| [[item:travelersbackpack:diamond]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:diamond]] |
+| [[item:travelersbackpack:dragon]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:dragon]] |
+| [[item:travelersbackpack:emerald]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:emerald]] |
+| [[item:travelersbackpack:end]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:end]] |
+| [[item:travelersbackpack:enderman]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:enderman]] |
+| [[item:travelersbackpack:fox]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:fox]] |
+| [[item:travelersbackpack:ghast]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:ghast]] |
+| [[item:travelersbackpack:gold]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:gold]] |
+| [[item:travelersbackpack:hay]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:hay]] |
+| [[item:travelersbackpack:horse]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:horse]] |
+| [[item:travelersbackpack:iron]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:iron]] |
 | [[item:travelersbackpack:iron_golem]] | Traveler's Backpack | Slot: Back; Backpack obtainable in Armorer villager's chests |  |
-| [[item:travelersbackpack:lapis]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:magma_cube]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:melon]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:nether]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:netherite]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:ocelot]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:pig]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:pumpkin]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:quartz]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:redstone]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:sandstone]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:sheep]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:skeleton]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:snow]] | Traveler's Backpack | Slot: Back | crafting |
-| [[item:travelersbackpack:spider]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:sponge]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:squid]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:standard]] | Traveler's Backpack | Slot: Back | crafting |
+| [[item:travelersbackpack:lapis]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:lapis]] |
+| [[item:travelersbackpack:magma_cube]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:magma_cube]] |
+| [[item:travelersbackpack:melon]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:melon]] |
+| [[item:travelersbackpack:nether]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:nether]] |
+| [[item:travelersbackpack:netherite]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:netherite]] |
+| [[item:travelersbackpack:ocelot]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:ocelot]] |
+| [[item:travelersbackpack:pig]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:pig]] |
+| [[item:travelersbackpack:pumpkin]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:pumpkin]] |
+| [[item:travelersbackpack:quartz]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:quartz]] |
+| [[item:travelersbackpack:redstone]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:redstone]] |
+| [[item:travelersbackpack:sandstone]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:sandstone]] |
+| [[item:travelersbackpack:sheep]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:sheep]] |
+| [[item:travelersbackpack:skeleton]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:skeleton]] |
+| [[item:travelersbackpack:snow]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:snow]] |
+| [[item:travelersbackpack:spider]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:spider]] |
+| [[item:travelersbackpack:sponge]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:sponge]] |
+| [[item:travelersbackpack:squid]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:squid]] |
+| [[item:travelersbackpack:standard]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:standard]] |
 | [[item:travelersbackpack:villager]] | Traveler's Backpack | Slot: Back; Can only be acquired by buying it from a Librarian villager |  |
-| [[item:travelersbackpack:warden]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:wither]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | crafting |
-| [[item:travelersbackpack:wolf]] | Traveler's Backpack | Slot: Back | crafting |
+| [[item:travelersbackpack:warden]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:warden]] |
+| [[item:travelersbackpack:wither]] | Traveler's Backpack | Slot: Back; Hold <Shift> for Special Ability Description | [[craft:travelersbackpack:wither]] |
+| [[item:travelersbackpack:wolf]] | Traveler's Backpack | Slot: Back | [[craft:travelersbackpack:wolf]] |

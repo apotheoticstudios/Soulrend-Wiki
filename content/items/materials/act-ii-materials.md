@@ -82,25 +82,25 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:titanium_ingot]] | dungeons and combat |  | crafting, [[loot:dungeons_and_combat:titanium_ingot]] |
-| [[item:iceandfire:sapphire_gem]] | Ice and Fire |  | crafting, [[loot:iceandfire:sapphire_gem]] |
+| [[item:dungeons_and_combat:titanium_ingot]] | dungeons and combat |  | [[craft:dungeons_and_combat:titanium_ingot]], [[loot:dungeons_and_combat:titanium_ingot]] |
+| [[item:iceandfire:sapphire_gem]] | Ice and Fire |  | [[craft:iceandfire:sapphire_gem]], [[loot:iceandfire:sapphire_gem]] |
 | [[item:iceandfire:troll_leather_forest]] | Ice and Fire |  | [[loot:iceandfire:troll_leather_forest]] |
 | [[item:iceandfire:troll_leather_frost]] | Ice and Fire |  | [[loot:iceandfire:troll_leather_frost]] |
 | [[item:iceandfire:troll_leather_mountain]] | Ice and Fire |  | [[loot:iceandfire:troll_leather_mountain]] |
 | [[item:iceandfire:deathworm_chitin_yellow]] | Ice and Fire |  | [[loot:iceandfire:deathworm_chitin_yellow]] |
 | [[item:iceandfire:deathworm_chitin_white]] | Ice and Fire |  | [[loot:iceandfire:deathworm_chitin_white]] |
 | [[item:iceandfire:deathworm_chitin_red]] | Ice and Fire |  | [[loot:iceandfire:deathworm_chitin_red]] |
-| [[item:iceandfire:sea_serpent_scales_blue]] | Ice and Fire | Blue | crafting, [[loot:iceandfire:sea_serpent_scales_blue]] |
-| [[item:iceandfire:sea_serpent_scales_bronze]] | Ice and Fire | Bronze | crafting |
-| [[item:iceandfire:sea_serpent_scales_deepblue]] | Ice and Fire | Deep Blue | crafting |
-| [[item:iceandfire:sea_serpent_scales_green]] | Ice and Fire | Green | crafting |
-| [[item:iceandfire:sea_serpent_scales_purple]] | Ice and Fire | Purple | crafting |
-| [[item:iceandfire:sea_serpent_scales_red]] | Ice and Fire | Red | crafting |
-| [[item:iceandfire:sea_serpent_scales_teal]] | Ice and Fire | Teal | crafting |
-| [[item:irons_spellbooks:mithril_ingot]] | Iron's Spells 'n Spellbooks |  | crafting |
+| [[item:iceandfire:sea_serpent_scales_blue]] | Ice and Fire | Blue | [[craft:iceandfire:sea_serpent_scales_blue]], [[loot:iceandfire:sea_serpent_scales_blue]] |
+| [[item:iceandfire:sea_serpent_scales_bronze]] | Ice and Fire | Bronze | [[craft:iceandfire:sea_serpent_scales_bronze]] |
+| [[item:iceandfire:sea_serpent_scales_deepblue]] | Ice and Fire | Deep Blue | [[craft:iceandfire:sea_serpent_scales_deepblue]] |
+| [[item:iceandfire:sea_serpent_scales_green]] | Ice and Fire | Green | [[craft:iceandfire:sea_serpent_scales_green]] |
+| [[item:iceandfire:sea_serpent_scales_purple]] | Ice and Fire | Purple | [[craft:iceandfire:sea_serpent_scales_purple]] |
+| [[item:iceandfire:sea_serpent_scales_red]] | Ice and Fire | Red | [[craft:iceandfire:sea_serpent_scales_red]] |
+| [[item:iceandfire:sea_serpent_scales_teal]] | Ice and Fire | Teal | [[craft:iceandfire:sea_serpent_scales_teal]] |
+| [[item:irons_spellbooks:mithril_ingot]] | Iron's Spells 'n Spellbooks |  | [[craft:irons_spellbooks:mithril_ingot]] |
 | [[item:irons_spellbooks:mithril_ore]] | Iron's Spells 'n Spellbooks |  |  |
-| [[item:irons_spellbooks:mithril_scrap]] | Iron's Spells 'n Spellbooks |  | crafting, [[loot:irons_spellbooks:mithril_scrap]] |
-| [[item:irons_spellbooks:mithril_weave]] | Iron's Spells 'n Spellbooks |  | crafting |
+| [[item:irons_spellbooks:mithril_scrap]] | Iron's Spells 'n Spellbooks |  | [[craft:irons_spellbooks:mithril_scrap]], [[loot:irons_spellbooks:mithril_scrap]] |
+| [[item:irons_spellbooks:mithril_weave]] | Iron's Spells 'n Spellbooks |  | [[craft:irons_spellbooks:mithril_weave]] |
 | [[item:astral_calamity_extras:cryonic_ingot]] | Astral Calamity Extras | A cold metal that can be created by combining the ancient ice artifact and steel. |  |
 | [[item:astral_calamity_extras:subliminal_ingot]] | Astral Calamity Extras | A material so cold that it freezes anything that is touching it. |  |
 | [[item:astral_calamity_extras:tidal_ingot]] | Astral Calamity Extras | A material rarely created in the deep pressure of the abyss. |  |

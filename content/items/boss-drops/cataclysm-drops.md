@@ -66,12 +66,12 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:cataclysm:ancient_metal_ingot]] | cataclysm |  | crafting, [[loot:cataclysm:ancient_metal_ingot]] |
-| [[item:cataclysm:cursium_ingot]] | cataclysm |  | crafting, [[loot:cataclysm:cursium_ingot]] |
+| [[item:cataclysm:ancient_metal_ingot]] | cataclysm |  | [[craft:cataclysm:ancient_metal_ingot]], [[loot:cataclysm:ancient_metal_ingot]] |
+| [[item:cataclysm:cursium_ingot]] | cataclysm |  | [[craft:cataclysm:cursium_ingot]], [[loot:cataclysm:cursium_ingot]] |
 | [[item:cataclysm:enderite_ingot]] | cataclysm |  |  |
-| [[item:cataclysm:ignitium_ingot]] | cataclysm |  | crafting, [[loot:cataclysm:ignitium_ingot]] |
-| [[item:cataclysm:witherite_ingot]] | cataclysm |  | crafting |
-| [[item:cataclysm:burning_ashes]] | cataclysm |  | crafting, [[loot:cataclysm:burning_ashes]] |
+| [[item:cataclysm:ignitium_ingot]] | cataclysm |  | [[craft:cataclysm:ignitium_ingot]], [[loot:cataclysm:ignitium_ingot]] |
+| [[item:cataclysm:witherite_ingot]] | cataclysm |  | [[craft:cataclysm:witherite_ingot]] |
+| [[item:cataclysm:burning_ashes]] | cataclysm |  | [[craft:cataclysm:burning_ashes]], [[loot:cataclysm:burning_ashes]] |
 | [[item:cataclysm:music_disc_ancient_remnant]] | cataclysm | Yuri_O - The Dryest Beast | [[loot:cataclysm:music_disc_ancient_remnant]] |
 | [[item:cataclysm:music_disc_ender_guardian]] | cataclysm | Yuri_O - Defender of the Outer Realm | [[loot:cataclysm:music_disc_ender_guardian]] |
 | [[item:cataclysm:music_disc_ignis]] | cataclysm | Yuri_O - Light My Fire | [[loot:cataclysm:music_disc_ignis]] |

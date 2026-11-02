@@ -71,7 +71,7 @@ Every Apotheosis rarity has a rarity material. Materials pay for working on gear
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:apotheosis:common_material]] | Apotheosis | Rarity Material (Common) | crafting, [[loot:apotheosis:common_material]] |
+| [[item:apotheosis:common_material]] | Apotheosis | Rarity Material (Common) | [[craft:apotheosis:common_material]], [[loot:apotheosis:common_material]] |
 | [[item:apotheosis:uncommon_material]] | Apotheosis | Rarity Material (Uncommon) | [[loot:apotheosis:uncommon_material]] |
 | [[item:apotheosis:rare_material]] | Apotheosis | Rarity Material (Rare) |  |
 | [[item:apotheosis:epic_material]] | Apotheosis | Rarity Material (Epic) |  |

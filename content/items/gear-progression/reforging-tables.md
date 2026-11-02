@@ -83,11 +83,11 @@ The [[progression/side-chapters/reforging|Reforging]] quest chapter walks throug
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:apotheosis:simple_reforging_table]] | Apotheosis | Uses Sigils of Rebirth and Rarity Materials to reforge items Max Rarity: Rare | crafting, [[loot:apotheosis:simple_reforging_table]] |
-| [[item:apotheosis:reforging_table]] | Apotheosis | Uses Sigils of Rebirth and Rarity Materials to reforge items Max Rarity: Mythic | crafting |
-| [[item:ancientreforging:ancient_reforging_table]] | Ancient Reforging | Uses Gem Dust and Rarity Materials to reroll affixes Max Rarity: Ancient | crafting |
+| [[item:apotheosis:simple_reforging_table]] | Apotheosis | Uses Sigils of Rebirth and Rarity Materials to reforge items Max Rarity: Rare | [[craft:apotheosis:simple_reforging_table]], [[loot:apotheosis:simple_reforging_table]] |
+| [[item:apotheosis:reforging_table]] | Apotheosis | Uses Sigils of Rebirth and Rarity Materials to reforge items Max Rarity: Mythic | [[craft:apotheosis:reforging_table]] |
+| [[item:ancientreforging:ancient_reforging_table]] | Ancient Reforging | Uses Gem Dust and Rarity Materials to reroll affixes Max Rarity: Ancient | [[craft:ancientreforging:ancient_reforging_table]] |
 | [[item:esotericreforging:esoteric_reforging_table]] | Esoteric Reforging | Uses Gem Dust and Rarity Materials to reroll affixes Max Rarity: Esoteric |  |
-| [[item:fallen_gems_affixes:fabled_reforging_table]] | Fallen Gems & Affixes | Sets the reforged item's rarity to Fabled and adds a Set Affix to it Rarity: Fabled | crafting |
+| [[item:fallen_gems_affixes:fabled_reforging_table]] | Fallen Gems & Affixes | Sets the reforged item's rarity to Fabled and adds a Set Affix to it Rarity: Fabled | [[craft:fallen_gems_affixes:fabled_reforging_table]] |
 
 ## Simple Reforging Table
 

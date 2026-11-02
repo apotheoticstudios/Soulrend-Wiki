@@ -33,10 +33,10 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:irons_spellbooks:inscription_table]] | Iron's Spells 'n Spellbooks |  | crafting |
-| [[item:irons_spellbooks:scroll_forge]] | Iron's Spells 'n Spellbooks |  | crafting |
-| [[item:irons_spellbooks:arcane_anvil]] | Iron's Spells 'n Spellbooks |  | crafting |
-| [[item:irons_spellbooks:alchemist_cauldron]] | Iron's Spells 'n Spellbooks |  | crafting |
+| [[item:irons_spellbooks:inscription_table]] | Iron's Spells 'n Spellbooks |  | [[craft:irons_spellbooks:inscription_table]] |
+| [[item:irons_spellbooks:scroll_forge]] | Iron's Spells 'n Spellbooks |  | [[craft:irons_spellbooks:scroll_forge]] |
+| [[item:irons_spellbooks:arcane_anvil]] | Iron's Spells 'n Spellbooks |  | [[craft:irons_spellbooks:arcane_anvil]] |
+| [[item:irons_spellbooks:alchemist_cauldron]] | Iron's Spells 'n Spellbooks |  | [[craft:irons_spellbooks:alchemist_cauldron]] |
 
 ## Inscription Table
 

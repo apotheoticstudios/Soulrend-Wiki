@@ -116,43 +116,43 @@ The **Gilded Aerogel Skyshelf** and **Infused Skyshelf** need the Aether mod, wh
 | [[item:apotheosis:beeshelf]] | Apotheosis | - Eterna: -15.00; - Quanta: +100.00% |  |
 | [[item:apotheosis:blazing_hellshelf]] | Apotheosis | - Eterna: +4.00 (Max 30.00); - Quanta: +5.00%; - Enchanting Clues: -1 |  |
 | [[item:apotheosis:crystal_seashelf]] | Apotheosis | - Eterna: +2.00 (Max 30.00); - Quanta: +4.00%; - Arcana: +2.00% |  |
-| [[item:apotheosis:deepshelf]] | Apotheosis | - Eterna: +2.50 (Max 35.00); - Quanta: +5.00%; - Arcana: +5.00% | crafting |
+| [[item:apotheosis:deepshelf]] | Apotheosis | - Eterna: +2.50 (Max 35.00); - Quanta: +5.00%; - Arcana: +5.00% | [[craft:apotheosis:deepshelf]] |
 | [[item:apotheosis:dormant_deepshelf]] | Apotheosis | - Eterna: +1.00 (Max 15.00) |  |
 | [[item:apotheosis:draconic_endshelf]] | Apotheosis | - Eterna: +10.00 (Max 50.00) |  |
-| [[item:apotheosis:echoing_deepshelf]] | Apotheosis | - Eterna: +2.50 (Max 37.50); - Arcana: +15.00% | crafting |
-| [[item:apotheosis:echoing_sculkshelf]] | Apotheosis | - Eterna: +5.00 (Max 40.00); - Quanta: +5.00%; - Arcana: +15.00%; - Enchanting Clues: +1 | crafting |
-| [[item:apotheosis:ender_library]] | Apotheosis | Level Capacity: XXXI | crafting |
-| [[item:apotheosis:endshelf]] | Apotheosis | - Eterna: +2.50 (Max 45.00); - Quanta: +5.00%; - Arcana: +5.00% | crafting |
-| [[item:apotheosis:filtering_shelf]] | Apotheosis | Insert enchanted books to prevent them from appearing in the table. | crafting |
+| [[item:apotheosis:echoing_deepshelf]] | Apotheosis | - Eterna: +2.50 (Max 37.50); - Arcana: +15.00% | [[craft:apotheosis:echoing_deepshelf]] |
+| [[item:apotheosis:echoing_sculkshelf]] | Apotheosis | - Eterna: +5.00 (Max 40.00); - Quanta: +5.00%; - Arcana: +15.00%; - Enchanting Clues: +1 | [[craft:apotheosis:echoing_sculkshelf]] |
+| [[item:apotheosis:ender_library]] | Apotheosis | Level Capacity: XXXI | [[craft:apotheosis:ender_library]] |
+| [[item:apotheosis:endshelf]] | Apotheosis | - Eterna: +2.50 (Max 45.00); - Quanta: +5.00%; - Arcana: +5.00% | [[craft:apotheosis:endshelf]] |
+| [[item:apotheosis:filtering_shelf]] | Apotheosis | Insert enchanted books to prevent them from appearing in the table. | [[craft:apotheosis:filtering_shelf]] |
 | [[item:apotheosis:glowing_hellshelf]] | Apotheosis | - Eterna: +2.00 (Max 30.00); - Quanta: +2.00%; - Arcana: +4.00% |  |
 | [[item:apotheosis:heart_seashelf]] | Apotheosis | - Eterna: +3.00 (Max 30.00); - Arcana: +10.00%; - Rectification: -5.00% |  |
 | [[item:apotheosis:hellshelf]] | Apotheosis | - Eterna: +1.50 (Max 22.50); - Quanta: +3.00% |  |
-| [[item:apotheosis:infused_hellshelf]] | Apotheosis | - Eterna: +1.75 (Max 27.00); - Quanta: +1.75% | crafting |
-| [[item:apotheosis:infused_seashelf]] | Apotheosis | - Eterna: +1.75 (Max 27.00); - Arcana: +1.75% | crafting |
-| [[item:apotheosis:library]] | Apotheosis | Level Capacity: XVI | crafting |
+| [[item:apotheosis:infused_hellshelf]] | Apotheosis | - Eterna: +1.75 (Max 27.00); - Quanta: +1.75% | [[craft:apotheosis:infused_hellshelf]] |
+| [[item:apotheosis:infused_seashelf]] | Apotheosis | - Eterna: +1.75 (Max 27.00); - Arcana: +1.75% | [[craft:apotheosis:infused_seashelf]] |
+| [[item:apotheosis:library]] | Apotheosis | Level Capacity: XVI | [[craft:apotheosis:library]] |
 | [[item:apotheosis:melonshelf]] | Apotheosis | - Eterna: -1.00; - Quanta: -10.00% |  |
 | [[item:apotheosis:pearl_endshelf]] | Apotheosis | - Eterna: +5.00 (Max 45.00); - Quanta: +7.50%; - Arcana: +7.50% |  |
-| [[item:apotheosis:rectifier]] | Apotheosis | - Rectification: +10.00% | crafting |
-| [[item:apotheosis:rectifier_t2]] | Apotheosis | - Rectification: +15.00% | crafting |
-| [[item:apotheosis:rectifier_t3]] | Apotheosis | - Rectification: +25.00% | crafting |
+| [[item:apotheosis:rectifier]] | Apotheosis | - Rectification: +10.00% | [[craft:apotheosis:rectifier]] |
+| [[item:apotheosis:rectifier_t2]] | Apotheosis | - Rectification: +15.00% | [[craft:apotheosis:rectifier_t2]] |
+| [[item:apotheosis:rectifier_t3]] | Apotheosis | - Rectification: +25.00% | [[craft:apotheosis:rectifier_t3]] |
 | [[item:apotheosis:seashelf]] | Apotheosis | - Eterna: +1.50 (Max 22.50); - Arcana: +2.00% |  |
-| [[item:apotheosis:sightshelf]] | Apotheosis | - Enchanting Clues: +1 | crafting |
-| [[item:apotheosis:sightshelf_t2]] | Apotheosis | - Enchanting Clues: +2 | crafting |
-| [[item:apotheosis:soul_touched_deepshelf]] | Apotheosis | - Eterna: +2.50 (Max 37.50); - Quanta: +15.00% | crafting |
-| [[item:apotheosis:soul_touched_sculkshelf]] | Apotheosis | - Eterna: +5.00 (Max 40.00); - Quanta: +15.00%; - Arcana: +5.00%; - Rectification: +5.00% | crafting |
-| [[item:apotheosis:stoneshelf]] | Apotheosis | - Eterna: -1.50; - Arcana: -7.50% | crafting |
-| [[item:apotheosis:treasure_shelf]] | Apotheosis | - Quanta: -10.00%; - Arcana: +10.00%; - Allows Treasure Enchantments | crafting |
+| [[item:apotheosis:sightshelf]] | Apotheosis | - Enchanting Clues: +1 | [[craft:apotheosis:sightshelf]] |
+| [[item:apotheosis:sightshelf_t2]] | Apotheosis | - Enchanting Clues: +2 | [[craft:apotheosis:sightshelf_t2]] |
+| [[item:apotheosis:soul_touched_deepshelf]] | Apotheosis | - Eterna: +2.50 (Max 37.50); - Quanta: +15.00% | [[craft:apotheosis:soul_touched_deepshelf]] |
+| [[item:apotheosis:soul_touched_sculkshelf]] | Apotheosis | - Eterna: +5.00 (Max 40.00); - Quanta: +15.00%; - Arcana: +5.00%; - Rectification: +5.00% | [[craft:apotheosis:soul_touched_sculkshelf]] |
+| [[item:apotheosis:stoneshelf]] | Apotheosis | - Eterna: -1.50; - Arcana: -7.50% | [[craft:apotheosis:stoneshelf]] |
+| [[item:apotheosis:treasure_shelf]] | Apotheosis | - Quanta: -10.00%; - Arcana: +10.00%; - Allows Treasure Enchantments | [[craft:apotheosis:treasure_shelf]] |
 | [[item:apotheotic_additions:gilded_aerogel_skyshelf]] | Apotheotic Additions |  |  |
-| [[item:apotheotic_additions:hollowed_barrel_shelf]] | Apotheotic Additions | - Eterna: +1.50 (Max 17.50); - Quanta: +1.50% | crafting |
+| [[item:apotheotic_additions:hollowed_barrel_shelf]] | Apotheotic Additions | - Eterna: +1.50 (Max 17.50); - Quanta: +1.50% | [[craft:apotheotic_additions:hollowed_barrel_shelf]] |
 | [[item:apotheotic_additions:infused_skyshelf]] | Apotheotic Additions |  |  |
-| [[item:apotheotic_additions:infused_thornshelf]] | Apotheotic Additions | - Eterna: +2.25 (Max 30.00); - Quanta: +2.00% | crafting |
+| [[item:apotheotic_additions:infused_thornshelf]] | Apotheotic Additions | - Eterna: +2.25 (Max 30.00); - Quanta: +2.00% | [[craft:apotheotic_additions:infused_thornshelf]] |
 | [[item:apotheotic_additions:nuclear_barrel_shelf]] | Apotheotic Additions | - Eterna: +3.00 (Max 35.00); - Quanta: +35.00%; - Enchanting Clues: -1 | crafting |
-| [[item:apotheotic_additions:occult_thornshelf]] | Apotheotic Additions | - Eterna: +4.50 (Max 35.00); - Quanta: +2.25%; - Arcana: +5.00%; - Enchanting Clues: +1 | crafting |
-| [[item:apotheotic_additions:sacrificial_shelf]] | Apotheotic Additions | - Eterna: +7.50 (Max 50.00); - Quanta: +7.50%; - Arcana: -10.00%; - Enchanting Clues: -2 | crafting |
-| [[item:apotheotic_additions:terra_shelf]] | Apotheotic Additions | - Eterna: -5.00; - Quanta: +100.00%; - Arcana: +2.50% | crafting |
-| [[item:apotheotic_additions:thornshelf]] | Apotheotic Additions | - Eterna: +2.00 (Max 17.50); - Quanta: +1.00% | crafting |
-| [[item:apotheotic_additions:void_shelf]] | Apotheotic Additions | - Eterna: +6.00 (Max 50.00); - Quanta: +6.00%; - Arcana: +20.00%; - Enchanting Clues: +2 | crafting |
-| [[item:apotheotic_additions:wavebinders_shelf]] | Apotheotic Additions | - Eterna: +5.00 (Max 50.00); - Quanta: -1.00%; - Arcana: +15.00%; - Rectification: -10.00% | crafting |
+| [[item:apotheotic_additions:occult_thornshelf]] | Apotheotic Additions | - Eterna: +4.50 (Max 35.00); - Quanta: +2.25%; - Arcana: +5.00%; - Enchanting Clues: +1 | [[craft:apotheotic_additions:occult_thornshelf]] |
+| [[item:apotheotic_additions:sacrificial_shelf]] | Apotheotic Additions | - Eterna: +7.50 (Max 50.00); - Quanta: +7.50%; - Arcana: -10.00%; - Enchanting Clues: -2 | [[craft:apotheotic_additions:sacrificial_shelf]] |
+| [[item:apotheotic_additions:terra_shelf]] | Apotheotic Additions | - Eterna: -5.00; - Quanta: +100.00%; - Arcana: +2.50% | [[craft:apotheotic_additions:terra_shelf]] |
+| [[item:apotheotic_additions:thornshelf]] | Apotheotic Additions | - Eterna: +2.00 (Max 17.50); - Quanta: +1.00% | [[craft:apotheotic_additions:thornshelf]] |
+| [[item:apotheotic_additions:void_shelf]] | Apotheotic Additions | - Eterna: +6.00 (Max 50.00); - Quanta: +6.00%; - Arcana: +20.00%; - Enchanting Clues: +2 | [[craft:apotheotic_additions:void_shelf]] |
+| [[item:apotheotic_additions:wavebinders_shelf]] | Apotheotic Additions | - Eterna: +5.00 (Max 50.00); - Quanta: -1.00%; - Arcana: +15.00%; - Rectification: -10.00% | [[craft:apotheotic_additions:wavebinders_shelf]] |
 
 ## Enchanting tomes
 
@@ -161,10 +161,10 @@ The **Gilded Aerogel Skyshelf** and **Infused Skyshelf** need the Aether mod, wh
 | [[item:apotheosis:boots_tome]] | Apotheosis | Accepts boot enchantments |  |
 | [[item:apotheosis:bow_tome]] | Apotheosis | Accepts bow enchantments. |  |
 | [[item:apotheosis:chestplate_tome]] | Apotheosis | Accepts chestplate enchantments. |  |
-| [[item:apotheosis:extraction_tome]] | Apotheosis | Extracts all of the enchantments from an item. Does not destroy the item. | crafting |
+| [[item:apotheosis:extraction_tome]] | Apotheosis | Extracts all of the enchantments from an item. Does not destroy the item. | [[craft:apotheosis:extraction_tome]] |
 | [[item:apotheosis:fishing_tome]] | Apotheosis | Accepts fishing pole enchantments. |  |
 | [[item:apotheosis:helmet_tome]] | Apotheosis | Accepts helmet enchantments. |  |
-| [[item:apotheosis:improved_scrap_tome]] | Apotheosis | Extracts all of the enchantments from an item. Destroys the item in the process. | crafting |
+| [[item:apotheosis:improved_scrap_tome]] | Apotheosis | Extracts all of the enchantments from an item. Destroys the item in the process. | [[craft:apotheosis:improved_scrap_tome]] |
 | [[item:apotheosis:leggings_tome]] | Apotheosis | Accepts legplate enchantments. |  |
 | [[item:apotheosis:other_tome]] | Apotheosis | Accepts miscellaneous enchantments. |  |
 | [[item:apotheosis:pickaxe_tome]] | Apotheosis | Accepts pickaxe enchantments. |  |

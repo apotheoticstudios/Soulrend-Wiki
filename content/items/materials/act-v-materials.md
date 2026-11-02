@@ -34,8 +34,8 @@
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:astral_calamity_extras:universium_ingot]] | Astral Calamity Extras | A material created within the birth of the universe... |  |
-| [[item:astral_calamity_extras:nightmare_ingot]] | Astral Calamity Extras | A material that spreads terror and fear. | crafting |
-| [[item:astral_calamity_extras:astral_ingot]] | Astral Calamity Extras |  | crafting |
+| [[item:astral_calamity_extras:nightmare_ingot]] | Astral Calamity Extras | A material that spreads terror and fear. | [[craft:astral_calamity_extras:nightmare_ingot]] |
+| [[item:astral_calamity_extras:astral_ingot]] | Astral Calamity Extras |  | [[craft:astral_calamity_extras:astral_ingot]] |
 
 ## Universium Ingot
 

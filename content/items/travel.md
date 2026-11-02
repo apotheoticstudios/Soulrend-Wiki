@@ -82,47 +82,47 @@ A **Waystone** is a teleport point. Right-clicking one activates it; from then o
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:waystones:black_sharestone]] | Waystones | Teleport to any other Black Sharestone | crafting |
+| [[item:waystones:black_sharestone]] | Waystones | Teleport to any other Black Sharestone | [[craft:waystones:black_sharestone]] |
 | [[item:waystones:blackstone_waystone]] | Waystones |  |  |
-| [[item:waystones:blue_sharestone]] | Waystones | Teleport to any other Blue Sharestone | crafting |
-| [[item:waystones:brown_sharestone]] | Waystones | Teleport to any other Brown Sharestone | crafting |
-| [[item:waystones:cyan_sharestone]] | Waystones | Teleport to any other Cyan Sharestone | crafting |
+| [[item:waystones:blue_sharestone]] | Waystones | Teleport to any other Blue Sharestone | [[craft:waystones:blue_sharestone]] |
+| [[item:waystones:brown_sharestone]] | Waystones | Teleport to any other Brown Sharestone | [[craft:waystones:brown_sharestone]] |
+| [[item:waystones:cyan_sharestone]] | Waystones | Teleport to any other Cyan Sharestone | [[craft:waystones:cyan_sharestone]] |
 | [[item:waystones:deepslate_waystone]] | Waystones |  |  |
 | [[item:waystones:end_stone_waystone]] | Waystones |  |  |
-| [[item:waystones:gray_sharestone]] | Waystones | Teleport to any other Gray Sharestone | crafting |
-| [[item:waystones:green_sharestone]] | Waystones | Teleport to any other Green Sharestone | crafting |
-| [[item:waystones:light_blue_sharestone]] | Waystones | Teleport to any other Light Blue Sharestone | crafting |
-| [[item:waystones:light_gray_sharestone]] | Waystones | Teleport to any other Light Gray Sharestone | crafting |
-| [[item:waystones:lime_sharestone]] | Waystones | Teleport to any other Lime Sharestone | crafting |
-| [[item:waystones:magenta_sharestone]] | Waystones | Teleport to any other Magenta Sharestone | crafting |
-| [[item:waystones:mossy_waystone]] | Waystones |  | crafting |
-| [[item:waystones:orange_sharestone]] | Waystones | Teleport to any other Orange Sharestone | crafting |
-| [[item:waystones:pink_sharestone]] | Waystones | Teleport to any other Pink Sharestone | crafting |
-| [[item:waystones:portstone]] | Waystones | Can not be teleported to. | crafting |
-| [[item:waystones:purple_sharestone]] | Waystones | Teleport to any other Purple Sharestone | crafting |
-| [[item:waystones:red_sharestone]] | Waystones | Teleport to any other Red Sharestone | crafting |
+| [[item:waystones:gray_sharestone]] | Waystones | Teleport to any other Gray Sharestone | [[craft:waystones:gray_sharestone]] |
+| [[item:waystones:green_sharestone]] | Waystones | Teleport to any other Green Sharestone | [[craft:waystones:green_sharestone]] |
+| [[item:waystones:light_blue_sharestone]] | Waystones | Teleport to any other Light Blue Sharestone | [[craft:waystones:light_blue_sharestone]] |
+| [[item:waystones:light_gray_sharestone]] | Waystones | Teleport to any other Light Gray Sharestone | [[craft:waystones:light_gray_sharestone]] |
+| [[item:waystones:lime_sharestone]] | Waystones | Teleport to any other Lime Sharestone | [[craft:waystones:lime_sharestone]] |
+| [[item:waystones:magenta_sharestone]] | Waystones | Teleport to any other Magenta Sharestone | [[craft:waystones:magenta_sharestone]] |
+| [[item:waystones:mossy_waystone]] | Waystones |  | [[craft:waystones:mossy_waystone]] |
+| [[item:waystones:orange_sharestone]] | Waystones | Teleport to any other Orange Sharestone | [[craft:waystones:orange_sharestone]] |
+| [[item:waystones:pink_sharestone]] | Waystones | Teleport to any other Pink Sharestone | [[craft:waystones:pink_sharestone]] |
+| [[item:waystones:portstone]] | Waystones | Can not be teleported to. | [[craft:waystones:portstone]] |
+| [[item:waystones:purple_sharestone]] | Waystones | Teleport to any other Purple Sharestone | [[craft:waystones:purple_sharestone]] |
+| [[item:waystones:red_sharestone]] | Waystones | Teleport to any other Red Sharestone | [[craft:waystones:red_sharestone]] |
 | [[item:waystones:sandy_waystone]] | Waystones |  |  |
-| [[item:waystones:sharestone]] | Waystones | Teleport to any other colorless Sharestone | crafting |
+| [[item:waystones:sharestone]] | Waystones | Teleport to any other colorless Sharestone | [[craft:waystones:sharestone]] |
 | [[item:waystones:waystone]] | Waystones |  |  |
-| [[item:waystones:white_sharestone]] | Waystones | Teleport to any other White Sharestone | crafting |
-| [[item:waystones:yellow_sharestone]] | Waystones | Teleport to any other Yellow Sharestone | crafting |
+| [[item:waystones:white_sharestone]] | Waystones | Teleport to any other White Sharestone | [[craft:waystones:white_sharestone]] |
+| [[item:waystones:yellow_sharestone]] | Waystones | Teleport to any other Yellow Sharestone | [[craft:waystones:yellow_sharestone]] |
 
 ## Warp stones and scrolls
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:waystones:attuned_shard]] | Waystones | This shard has lost its attunement. |  |
-| [[item:waystones:bound_scroll]] | Waystones | Bound to: None | crafting |
+| [[item:waystones:bound_scroll]] | Waystones | Bound to: None | [[craft:waystones:bound_scroll]] |
 | [[item:waystones:crumbling_attuned_shard]] | Waystones | This shard has lost its attunement. |  |
-| [[item:waystones:return_scroll]] | Waystones | Bound to: None | crafting |
-| [[item:waystones:warp_dust]] | Waystones |  | crafting |
-| [[item:waystones:warp_plate]] | Waystones |  | crafting |
-| [[item:waystones:warp_scroll]] | Waystones |  | crafting |
-| [[item:waystones:warp_stone]] | Waystones |  | crafting |
+| [[item:waystones:return_scroll]] | Waystones | Bound to: None | [[craft:waystones:return_scroll]] |
+| [[item:waystones:warp_dust]] | Waystones |  | [[craft:waystones:warp_dust]] |
+| [[item:waystones:warp_plate]] | Waystones |  | [[craft:waystones:warp_plate]] |
+| [[item:waystones:warp_scroll]] | Waystones |  | [[craft:waystones:warp_scroll]] |
+| [[item:waystones:warp_stone]] | Waystones |  | [[craft:waystones:warp_stone]] |
 
 ## Explorer's and Nature's compasses
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:explorerscompass:explorerscompass]] | Explorer's Compass |  | crafting |
-| [[item:naturescompass:naturescompass]] | Nature's Compass |  | crafting |
+| [[item:explorerscompass:explorerscompass]] | Explorer's Compass |  | [[craft:explorerscompass:explorerscompass]] |
+| [[item:naturescompass:naturescompass]] | Nature's Compass |  | [[craft:naturescompass:naturescompass]] |

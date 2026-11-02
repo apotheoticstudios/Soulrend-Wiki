@@ -71,13 +71,15 @@ export async function build({ dev = false, out = path.join(ROOT, 'dist') } = {})
   fs.rmSync(tmp, { recursive: true, force: true });
 
   // Before packing: writing these places their icons in the atlas.
-  const lootFiles = ctx.loot.files();
+  const dataFiles = new Map();
+  for (const [file, json] of ctx.loot.files()) dataFiles.set(`loot/${file}`, json);
+  for (const [file, json] of ctx.crafts.files()) dataFiles.set(`craft/${file}`, json);
   const atlasPng = atlas.pack();
   const atlasFile = atlasPng ? `atlas.${hash(atlasPng)}.png` : null;
   if (atlasPng) writeFile(path.join(tmp, '_app', atlasFile), atlasPng);
   const searchFile = `_app/search.${hash(searchJson)}.json`;
   writeFile(path.join(tmp, searchFile), searchJson);
-  const app = writeApp(tmp, site, themes, atlasFile, game, lootFiles);
+  const app = writeApp(tmp, site, themes, atlasFile, game, dataFiles);
   if (dev) writeFile(path.join(tmp, '__dev', 'loot-labels.json'), JSON.stringify(ctx.loot.report(), null, 1));
 
   // Link previews (Discord, social sites) need a standalone absolute image URL, so only with site.url.
@@ -128,7 +130,7 @@ export async function build({ dev = false, out = path.join(ROOT, 'dist') } = {})
 
 // Styles, client scripts, fonts and libraries go in _app/<hash>/; the hash changes whenever any of them
 // do, so browsers can cache them forever.
-function writeApp(out, site, themes, atlasFile, game, lootFiles) {
+function writeApp(out, site, themes, atlasFile, game, dataFiles) {
   let css = layoutCss(site.layout);
   css += STYLE_FILES.map(f => fs.readFileSync(path.join(ROOT, 'src/styles', f), 'utf8')).join('\n');
   css += `\n/* ---- themes (generated from site/themes) ---- */\n${themeCss(themes)}`;
@@ -140,7 +142,7 @@ function writeApp(out, site, themes, atlasFile, game, lootFiles) {
   const sources = [...walk(path.join(ROOT, 'src/client')), ...walk(path.join(ROOT, 'src/shared')), ...walk(path.join(ROOT, 'src/fonts')), ...walk(game.glyphDir),
     ...walk(game.skillTreeDir), ...(game.skillTrees ? [path.join(ROOT, 'game-data/skilltrees.json')] : [])];
   const versions = ['minisearch', 'three'].map(name => readJson(path.join(ROOT, 'node_modules', name, 'package.json')).version);
-  const app = `_app/${hash(css, hashFiles(sources), versions.join(), ...lootFiles.values())}`;
+  const app = `_app/${hash(css, hashFiles(sources), versions.join(), ...dataFiles.values())}`;
   const dir = path.join(out, app);
 
   writeFile(path.join(dir, 'wiki.css'), css);
@@ -152,8 +154,8 @@ function writeApp(out, site, themes, atlasFile, game, lootFiles) {
     const { trees, frames, screen } = game.skillTrees;
     for (const [id, tree] of Object.entries(trees)) writeFile(path.join(dir, 'skilltrees', `${id}.json`), JSON.stringify({ ...tree, frames, screen }));
   }
-  // One JSON per item with a [[loot:…]] trigger, fetched by src/client/loot-viewer.js.
-  for (const [file, json] of lootFiles) writeFile(path.join(dir, 'loot', file), json);
+  // One JSON per item with a [[loot:…]] or [[craft:…]] trigger, fetched by the viewers in src/client/.
+  for (const [file, json] of dataFiles) writeFile(path.join(dir, file), json);
   for (const [from, to] of VENDOR) copyFile(path.join(ROOT, 'node_modules', from), path.join(dir, to));
   return app;
 }

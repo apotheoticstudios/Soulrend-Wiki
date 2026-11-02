@@ -42,12 +42,12 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:iceandfire:dragonsteel_fire_block]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragonsteel_fire_ingot]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragonsteel_ice_block]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragonsteel_ice_ingot]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragonsteel_lightning_block]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragonsteel_lightning_ingot]] | Ice and Fire |  | crafting |
+| [[item:iceandfire:dragonsteel_fire_block]] | Ice and Fire |  | [[craft:iceandfire:dragonsteel_fire_block]] |
+| [[item:iceandfire:dragonsteel_fire_ingot]] | Ice and Fire |  | [[craft:iceandfire:dragonsteel_fire_ingot]] |
+| [[item:iceandfire:dragonsteel_ice_block]] | Ice and Fire |  | [[craft:iceandfire:dragonsteel_ice_block]] |
+| [[item:iceandfire:dragonsteel_ice_ingot]] | Ice and Fire |  | [[craft:iceandfire:dragonsteel_ice_ingot]] |
+| [[item:iceandfire:dragonsteel_lightning_block]] | Ice and Fire |  | [[craft:iceandfire:dragonsteel_lightning_block]] |
+| [[item:iceandfire:dragonsteel_lightning_ingot]] | Ice and Fire |  | [[craft:iceandfire:dragonsteel_lightning_ingot]] |
 
 ## Block of Fire Dragonsteel
 

@@ -89,6 +89,10 @@ async function showPreview(target, x, y) {
 }
 
 function place(x, y) {
+  placeNearCursor(preview, x, y);
+}
+
+export function placeNearCursor(preview, x, y) {
   const { width, height } = preview.getBoundingClientRect();
   let left = x + 14;
   let top = y - height - 6;

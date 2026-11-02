@@ -72,19 +72,19 @@ Familiars are small spellcasting companions from Alshanex's Familiars. They are 
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:alshanex_familiars:archmage_shard]] | Alshanex Familiars Mod |  | crafting |
+| [[item:alshanex_familiars:archmage_shard]] | Alshanex Familiars Mod |  | [[craft:alshanex_familiars:archmage_shard]] |
 | [[item:alshanex_familiars:bard_shard]] | Alshanex Familiars Mod |  |  |
 | [[item:alshanex_familiars:cleric_shard]] | Alshanex Familiars Mod |  |  |
 | [[item:alshanex_familiars:dragon_warrior_shard]] | Alshanex Familiars Mod |  |  |
-| [[item:alshanex_familiars:druid_shard]] | Alshanex Familiars Mod |  | crafting |
-| [[item:alshanex_familiars:frostling_shard]] | Alshanex Familiars Mod |  | crafting |
-| [[item:alshanex_familiars:hunter_shard]] | Alshanex Familiars Mod |  | crafting |
+| [[item:alshanex_familiars:druid_shard]] | Alshanex Familiars Mod |  | [[craft:alshanex_familiars:druid_shard]] |
+| [[item:alshanex_familiars:frostling_shard]] | Alshanex Familiars Mod |  | [[craft:alshanex_familiars:frostling_shard]] |
+| [[item:alshanex_familiars:hunter_shard]] | Alshanex Familiars Mod |  | [[craft:alshanex_familiars:hunter_shard]] |
 | [[item:alshanex_familiars:illusionist_shard]] | Alshanex Familiars Mod |  |  |
-| [[item:alshanex_familiars:lightning_mage_shard]] | Alshanex Familiars Mod |  | crafting |
+| [[item:alshanex_familiars:lightning_mage_shard]] | Alshanex Familiars Mod |  | [[craft:alshanex_familiars:lightning_mage_shard]] |
 | [[item:alshanex_familiars:necromancer_shard]] | Alshanex Familiars Mod |  |  |
 | [[item:alshanex_familiars:plague_shard]] | Alshanex Familiars Mod |  |  |
 | [[item:alshanex_familiars:scorcher_shard]] | Alshanex Familiars Mod |  |  |
-| [[item:alshanex_familiars:summoner_shard]] | Alshanex Familiars Mod |  | crafting |
+| [[item:alshanex_familiars:summoner_shard]] | Alshanex Familiars Mod |  | [[craft:alshanex_familiars:summoner_shard]] |
 
 ## Familiar trinkets
 
@@ -100,7 +100,7 @@ Familiars are small spellcasting companions from Alshanex's Familiars. They are 
 | [[item:alshanex_familiars:illusionist_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Illusionist Familiars cast spells at a higher level; +10% Evocation Magic Resistance; +10% Evocation Spell Power | [[loot:alshanex_familiars:illusionist_trinket]] |
 | [[item:alshanex_familiars:mage_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Mage Familiars cast spells at a higher level; +10% Lightning Magic Resistance; +10% Lightning Spell Power | [[loot:alshanex_familiars:mage_trinket]] |
 | [[item:alshanex_familiars:necromancer_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Necromancer Familiars cast spells at a higher level; +15% Summon Damage | [[loot:alshanex_familiars:necromancer_trinket]] |
-| [[item:alshanex_familiars:pandora_box]] | Alshanex Familiars Mod | Slot: Familiar Trinket; Allows you to summon/unsummon multiple Familiars at once No Familiars selected | crafting |
+| [[item:alshanex_familiars:pandora_box]] | Alshanex Familiars Mod | Slot: Familiar Trinket; Allows you to summon/unsummon multiple Familiars at once No Familiars selected | [[craft:alshanex_familiars:pandora_box]] |
 | [[item:alshanex_familiars:plague_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Plague Doctor Familiars cast spells at a higher level; +10% Sound Spell Power; +10% Geo Spell Power; +10% Spell Resistance | [[loot:alshanex_familiars:plague_trinket]] |
 | [[item:alshanex_familiars:scorcher_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Scorcher Familiars cast spells at a higher level; +10% Fire Magic Resistance; +10% Fire Spell Power | [[loot:alshanex_familiars:scorcher_trinket]] |
 | [[item:alshanex_familiars:summoner_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Summoner Familiars cast spells at a higher level; +10% Eldritch Magic Resistance; +5% Eldritch Spell Power | [[loot:alshanex_familiars:summoner_trinket]] |

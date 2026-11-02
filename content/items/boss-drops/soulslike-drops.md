@@ -82,10 +82,10 @@ The **Ctrl** text on these items is lore only. The **Alt** text on the Essence o
 | [[item:soulsweapons:lord_soul_rose]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_rose]] |
 | [[item:soulsweapons:lord_soul_void]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_void]] |
 | [[item:soulsweapons:lord_soul_white]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_white]] |
-| [[item:soulsweapons:lost_soul]] | Marium's Soulslike Weaponry |  | crafting, [[loot:soulsweapons:lost_soul]] |
+| [[item:soulsweapons:lost_soul]] | Marium's Soulslike Weaponry |  | [[craft:soulsweapons:lost_soul]], [[loot:soulsweapons:lost_soul]] |
 | [[item:soulsweapons:essence_of_eventide]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:essence_of_eventide]] |
 | [[item:soulsweapons:essence_of_luminescence]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:essence_of_luminescence]] |
-| [[item:soulsweapons:chaos_orb]] | Marium's Soulslike Weaponry | All the colors of light and dark pass through this orb. Throw it into the sky to summon deities of night and day. | crafting |
+| [[item:soulsweapons:chaos_orb]] | Marium's Soulslike Weaponry | All the colors of light and dark pass through this orb. Throw it into the sky to summon deities of night and day. | [[craft:soulsweapons:chaos_orb]] |
 | [[item:soulsweapons:shard_of_uncertainty]] | Marium's Soulslike Weaponry |  |  |
 | [[item:soulsweapons:arkenstone]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:arkenstone]] |
 

@@ -94,13 +94,13 @@ The rarity apples are plain food: an apple surrounded by eight rarity materials 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:apotheotic_additions:apotheotic_coin]] | Apotheotic Additions |  | [[loot:apotheotic_additions:apotheotic_coin]] |
-| [[item:apotheotic_additions:ascended_coin]] | Apotheotic Additions |  | crafting |
-| [[item:apotheotic_additions:infused_coin]] | Apotheotic Additions |  | crafting |
-| [[item:apotheotic_additions:commonapple]] | Apotheotic Additions | 6 hunger, 0.3 saturation | crafting |
-| [[item:apotheotic_additions:uncommonapple]] | Apotheotic Additions | 8 hunger, 0.4 saturation | crafting |
-| [[item:apotheotic_additions:rareapple]] | Apotheotic Additions | 10 hunger, 0.6 saturation | crafting |
-| [[item:apotheotic_additions:epicapple]] | Apotheotic Additions | 12 hunger, 0.8 saturation | crafting |
-| [[item:apotheotic_additions:mythicapple]] | Apotheotic Additions | 14 hunger, 1 saturation | crafting |
+| [[item:apotheotic_additions:ascended_coin]] | Apotheotic Additions |  | [[craft:apotheotic_additions:ascended_coin]] |
+| [[item:apotheotic_additions:infused_coin]] | Apotheotic Additions |  | [[craft:apotheotic_additions:infused_coin]] |
+| [[item:apotheotic_additions:commonapple]] | Apotheotic Additions | 6 hunger, 0.3 saturation | [[craft:apotheotic_additions:commonapple]] |
+| [[item:apotheotic_additions:uncommonapple]] | Apotheotic Additions | 8 hunger, 0.4 saturation | [[craft:apotheotic_additions:uncommonapple]] |
+| [[item:apotheotic_additions:rareapple]] | Apotheotic Additions | 10 hunger, 0.6 saturation | [[craft:apotheotic_additions:rareapple]] |
+| [[item:apotheotic_additions:epicapple]] | Apotheotic Additions | 12 hunger, 0.8 saturation | [[craft:apotheotic_additions:epicapple]] |
+| [[item:apotheotic_additions:mythicapple]] | Apotheotic Additions | 14 hunger, 1 saturation | [[craft:apotheotic_additions:mythicapple]] |
 
 ## Apotheotic coins
 

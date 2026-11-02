@@ -7,6 +7,11 @@ let tip = null;
 let current = null;
 let lastPointer = 'mouse';
 
+// Viewers that load recipes later bring their items' tooltip data with them.
+export function addTooltipItems(data) {
+  Object.assign(items, data);
+}
+
 export function initTooltips() {
   const data = document.getElementById('page-items');
   if (!data) return;
@@ -64,6 +69,9 @@ function show(target, x, y) {
   const info = items[target.dataset.item];
   if (!info) return hide();
   current = target;
+  // A modal dialog sits in the top layer, above anything outside it.
+  const host = target.closest('dialog') ?? document.body;
+  if (tip.parentElement !== host) host.append(tip);
   const touch = lastPointer !== 'mouse';
   const name = `<div class="tt-name" style="color:${RARITY_COLORS[info.r] ?? RARITY_COLORS.common}">${mcTextToHtml(info.n)}</div>`;
   const lines = info.t.map(line => `<div class="tt-line">${mcTextToHtml(line) || '&nbsp;'}</div>`).join('');

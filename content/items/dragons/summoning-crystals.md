@@ -36,7 +36,7 @@
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:iceandfire:summoning_crystal_fire]] | Ice and Fire | Right click on a dragon to bind it Use when bound to teleport dragon |  |
-| [[item:iceandfire:summoning_crystal_ice]] | Ice and Fire | Right click on a dragon to bind it Use when bound to teleport dragon | crafting |
+| [[item:iceandfire:summoning_crystal_ice]] | Ice and Fire | Right click on a dragon to bind it Use when bound to teleport dragon | [[craft:iceandfire:summoning_crystal_ice]] |
 | [[item:iceandfire:summoning_crystal_lightning]] | Ice and Fire | Right click on a dragon to bind it Use when bound to teleport dragon |  |
 
 ## Fire Dragon Summoning Crystal

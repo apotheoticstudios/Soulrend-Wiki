@@ -67,17 +67,17 @@
 | --- | --- | --- | --- |
 | [[item:dungeons_and_combat:estus_flask]] | dungeons and combat | 0 hunger, 0 saturation | [[loot:dungeons_and_combat:estus_flask]] |
 | [[item:dungeons_and_combat:crimson_flask]] | dungeons and combat | 0 hunger, 0 saturation |  |
-| [[item:dungeons_and_combat:blessed_bandages]] | dungeons and combat | Slot: Hands; Bleeding Immunity | crafting |
-| [[item:irons_spellbooks:evasion_elixir]] | Iron's Spells 'n Spellbooks | Evasion II (01:00); Allows 2 Hits to be Evaded | crafting, [[loot:irons_spellbooks:evasion_elixir]] |
-| [[item:irons_spellbooks:greater_evasion_elixir]] | Iron's Spells 'n Spellbooks | Evasion IV (01:00); Allows 4 Hits to be Evaded | crafting, [[loot:irons_spellbooks:greater_evasion_elixir]] |
-| [[item:irons_spellbooks:greater_healing_potion]] | Iron's Spells 'n Spellbooks | Instant Health III | crafting, [[loot:irons_spellbooks:greater_healing_potion]] |
-| [[item:irons_spellbooks:greater_invisibility_elixir]] | Iron's Spells 'n Spellbooks | True Invisibility (00:40) | crafting, [[loot:irons_spellbooks:greater_invisibility_elixir]] |
-| [[item:irons_spellbooks:greater_oakskin_elixir]] | Iron's Spells 'n Spellbooks | Oakskin VI (01:30); +40% Damage Reduction | crafting, [[loot:irons_spellbooks:greater_oakskin_elixir]] |
-| [[item:irons_spellbooks:invisibility_elixir]] | Iron's Spells 'n Spellbooks | True Invisibility (00:15) | crafting, [[loot:irons_spellbooks:invisibility_elixir]] |
-| [[item:irons_spellbooks:oakskin_elixir]] | Iron's Spells 'n Spellbooks | Oakskin II (00:45); +20% Damage Reduction | crafting, [[loot:irons_spellbooks:oakskin_elixir]] |
-| [[item:alshanex_familiars:life_fruit_tier_1]] | Alshanex Familiars Mod | Type: Health Bonus: 10% Tier Limit: 50% Tier: 1 | crafting |
-| [[item:alshanex_familiars:life_fruit_tier_2]] | Alshanex Familiars Mod | Type: Health Bonus: 25% Tier Limit: 100% Tier: 2 | crafting |
-| [[item:alshanex_familiars:life_fruit_tier_3]] | Alshanex Familiars Mod | Type: Health Bonus: 50% Tier Limit: 150% Tier: 3 | crafting |
+| [[item:dungeons_and_combat:blessed_bandages]] | dungeons and combat | Slot: Hands; Bleeding Immunity | [[craft:dungeons_and_combat:blessed_bandages]] |
+| [[item:irons_spellbooks:evasion_elixir]] | Iron's Spells 'n Spellbooks | Evasion II (01:00); Allows 2 Hits to be Evaded | [[craft:irons_spellbooks:evasion_elixir]], [[loot:irons_spellbooks:evasion_elixir]] |
+| [[item:irons_spellbooks:greater_evasion_elixir]] | Iron's Spells 'n Spellbooks | Evasion IV (01:00); Allows 4 Hits to be Evaded | [[craft:irons_spellbooks:greater_evasion_elixir]], [[loot:irons_spellbooks:greater_evasion_elixir]] |
+| [[item:irons_spellbooks:greater_healing_potion]] | Iron's Spells 'n Spellbooks | Instant Health III | [[craft:irons_spellbooks:greater_healing_potion]], [[loot:irons_spellbooks:greater_healing_potion]] |
+| [[item:irons_spellbooks:greater_invisibility_elixir]] | Iron's Spells 'n Spellbooks | True Invisibility (00:40) | [[craft:irons_spellbooks:greater_invisibility_elixir]], [[loot:irons_spellbooks:greater_invisibility_elixir]] |
+| [[item:irons_spellbooks:greater_oakskin_elixir]] | Iron's Spells 'n Spellbooks | Oakskin VI (01:30); +40% Damage Reduction | [[craft:irons_spellbooks:greater_oakskin_elixir]], [[loot:irons_spellbooks:greater_oakskin_elixir]] |
+| [[item:irons_spellbooks:invisibility_elixir]] | Iron's Spells 'n Spellbooks | True Invisibility (00:15) | [[craft:irons_spellbooks:invisibility_elixir]], [[loot:irons_spellbooks:invisibility_elixir]] |
+| [[item:irons_spellbooks:oakskin_elixir]] | Iron's Spells 'n Spellbooks | Oakskin II (00:45); +20% Damage Reduction | [[craft:irons_spellbooks:oakskin_elixir]], [[loot:irons_spellbooks:oakskin_elixir]] |
+| [[item:alshanex_familiars:life_fruit_tier_1]] | Alshanex Familiars Mod | Type: Health Bonus: 10% Tier Limit: 50% Tier: 1 | [[craft:alshanex_familiars:life_fruit_tier_1]] |
+| [[item:alshanex_familiars:life_fruit_tier_2]] | Alshanex Familiars Mod | Type: Health Bonus: 25% Tier Limit: 100% Tier: 2 | [[craft:alshanex_familiars:life_fruit_tier_2]] |
+| [[item:alshanex_familiars:life_fruit_tier_3]] | Alshanex Familiars Mod | Type: Health Bonus: 50% Tier Limit: 150% Tier: 3 | [[craft:alshanex_familiars:life_fruit_tier_3]] |
 
 ## Estus Flask
 

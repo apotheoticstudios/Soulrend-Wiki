@@ -51,15 +51,15 @@ The [[progression/side-chapters/dragonslayer|Dragonslayer]] chapter has a quest 
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:iceandfire:dragonforge_fire_brick]] | Ice and Fire |  | crafting |
+| [[item:iceandfire:dragonforge_fire_brick]] | Ice and Fire |  | [[craft:iceandfire:dragonforge_fire_brick]] |
 | [[item:iceandfire:dragonforge_fire_core]] | Ice and Fire |  |  |
-| [[item:iceandfire:dragonforge_fire_input]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragonforge_ice_brick]] | Ice and Fire |  | crafting |
+| [[item:iceandfire:dragonforge_fire_input]] | Ice and Fire |  | [[craft:iceandfire:dragonforge_fire_input]] |
+| [[item:iceandfire:dragonforge_ice_brick]] | Ice and Fire |  | [[craft:iceandfire:dragonforge_ice_brick]] |
 | [[item:iceandfire:dragonforge_ice_core]] | Ice and Fire |  |  |
-| [[item:iceandfire:dragonforge_ice_input]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragonforge_lightning_brick]] | Ice and Fire |  | crafting |
+| [[item:iceandfire:dragonforge_ice_input]] | Ice and Fire |  | [[craft:iceandfire:dragonforge_ice_input]] |
+| [[item:iceandfire:dragonforge_lightning_brick]] | Ice and Fire |  | [[craft:iceandfire:dragonforge_lightning_brick]] |
 | [[item:iceandfire:dragonforge_lightning_core]] | Ice and Fire |  |  |
-| [[item:iceandfire:dragonforge_lightning_input]] | Ice and Fire |  | crafting |
+| [[item:iceandfire:dragonforge_lightning_input]] | Ice and Fire |  | [[craft:iceandfire:dragonforge_lightning_input]] |
 
 ## Dragonforge Fire Brick
 

@@ -105,14 +105,14 @@ The **Mythical Band**, **Ring of Expediency**, **Ring of Recovery**, **Ring of M
 | --- | --- | --- | --- |
 | [[item:alshanex_familiars:evasion_curio]] | Alshanex Familiars Mod | Slot: Ring; When a tamed Familiar's health falls bellow 25%, it gains the ability to evade 2 hits every 5 seconds.; +15% Cast Time Reduction | [[loot:alshanex_familiars:evasion_curio]] |
 | [[item:alshanex_familiars:healing_curio]] | Alshanex Familiars Mod | Slot: Ring; Familiars tamed by the wearer will recover health over time at the cost of mana.; +5% Mana Regeneration | [[loot:alshanex_familiars:healing_curio]] |
-| [[item:alshanex_familiars:invisibility_curio]] | Alshanex Familiars Mod | Slot: Ring; When a tamed Familiar's health falls bellow 25%, it gains the True Invisibility effect.; +50 Max Mana | crafting |
-| [[item:alshanex_familiars:statue_curio]] | Alshanex Familiars Mod | Slot: Ring; When a tamed Familiar's health falls bellow 50%, it gains the Oakskin effect.; +5% Spell Resistance | crafting, [[loot:alshanex_familiars:statue_curio]] |
+| [[item:alshanex_familiars:invisibility_curio]] | Alshanex Familiars Mod | Slot: Ring; When a tamed Familiar's health falls bellow 25%, it gains the True Invisibility effect.; +50 Max Mana | [[craft:alshanex_familiars:invisibility_curio]] |
+| [[item:alshanex_familiars:statue_curio]] | Alshanex Familiars Mod | Slot: Ring; When a tamed Familiar's health falls bellow 50%, it gains the Oakskin effect.; +5% Spell Resistance | [[craft:alshanex_familiars:statue_curio]], [[loot:alshanex_familiars:statue_curio]] |
 
 ## Apotheotic Additions
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:apotheotic_additions:mythicalband]] | Apotheotic Additions | Slot: Ring | crafting |
+| [[item:apotheotic_additions:mythicalband]] | Apotheotic Additions | Slot: Ring | [[craft:apotheotic_additions:mythicalband]] |
 
 ## Dacxirons
 
@@ -124,9 +124,9 @@ The **Mythical Band**, **Ring of Expediency**, **Ring of Recovery**, **Ring of M
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:hell_ring]] | dungeons and combat | Slot: Ring; Fire Resistance | crafting |
+| [[item:dungeons_and_combat:hell_ring]] | dungeons and combat | Slot: Ring; Fire Resistance | [[craft:dungeons_and_combat:hell_ring]] |
 | [[item:dungeons_and_combat:molten_ring]] | dungeons and combat | Slot: Ring; Attacking will burn the target | [[loot:dungeons_and_combat:molten_ring]] |
-| [[item:dungeons_and_combat:ring_of_life]] | dungeons and combat | Slot: Ring; Heart Bonus | crafting, [[loot:dungeons_and_combat:ring_of_life]] |
+| [[item:dungeons_and_combat:ring_of_life]] | dungeons and combat | Slot: Ring; Heart Bonus | [[craft:dungeons_and_combat:ring_of_life]], [[loot:dungeons_and_combat:ring_of_life]] |
 | [[item:dungeons_and_combat:ring_of_the_eternal_resting]] | dungeons and combat | Slot: Ring; Gain Strength by fighting Undead types | [[loot:dungeons_and_combat:ring_of_the_eternal_resting]] |
 
 ## GTBC's Geomancy Plus
@@ -139,28 +139,28 @@ The **Mythical Band**, **Ring of Expediency**, **Ring of Recovery**, **Ring of M
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:irons_spellbooks:affinity_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Unattuned | crafting, [[loot:irons_spellbooks:affinity_ring]] |
+| [[item:irons_spellbooks:affinity_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Unattuned | [[craft:irons_spellbooks:affinity_ring]], [[loot:irons_spellbooks:affinity_ring]] |
 | [[item:irons_spellbooks:betrayer_signet]] | Iron's Spells 'n Spellbooks | Slot: Ring; Deal extra damage to creatures based on their maximum mana; +10% Eldritch Spell Power | [[loot:irons_spellbooks:betrayer_signet]] |
 | [[item:irons_spellbooks:cast_time_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; +15% Cast Time Reduction | [[loot:irons_spellbooks:cast_time_ring]] |
-| [[item:irons_spellbooks:cooldown_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; +15% Cooldown Reduction | crafting, [[loot:irons_spellbooks:cooldown_ring]] |
+| [[item:irons_spellbooks:cooldown_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; +15% Cooldown Reduction | [[craft:irons_spellbooks:cooldown_ring]], [[loot:irons_spellbooks:cooldown_ring]] |
 | [[item:irons_spellbooks:emerald_stoneplate_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Slain creatures drop +25% experience | [[loot:irons_spellbooks:emerald_stoneplate_ring]] |
-| [[item:irons_spellbooks:fireward_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Grants fire immunity | crafting, [[loot:irons_spellbooks:fireward_ring]] |
-| [[item:irons_spellbooks:frostward_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Grants freezing immunity | crafting, [[loot:irons_spellbooks:frostward_ring]] |
+| [[item:irons_spellbooks:fireward_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Grants fire immunity | [[craft:irons_spellbooks:fireward_ring]], [[loot:irons_spellbooks:fireward_ring]] |
+| [[item:irons_spellbooks:frostward_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Grants freezing immunity | [[craft:irons_spellbooks:frostward_ring]], [[loot:irons_spellbooks:frostward_ring]] |
 | [[item:irons_spellbooks:invisibility_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; I would say read the fine print, but I can't see it | [[loot:irons_spellbooks:invisibility_ring]] |
 | [[item:irons_spellbooks:lurker_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Your first attack while invisible deals +50% damage |  |
 | [[item:irons_spellbooks:mana_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; +100 Max Mana |  |
-| [[item:irons_spellbooks:poisonward_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Grants poison immunity | crafting, [[loot:irons_spellbooks:poisonward_ring]] |
+| [[item:irons_spellbooks:poisonward_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Grants poison immunity | [[craft:irons_spellbooks:poisonward_ring]], [[loot:irons_spellbooks:poisonward_ring]] |
 | [[item:irons_spellbooks:silver_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; +25 Max Mana | [[loot:irons_spellbooks:silver_ring]] |
-| [[item:irons_spellbooks:visibility_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Allows visible creatures to be seen | crafting, [[loot:irons_spellbooks:visibility_ring]] |
+| [[item:irons_spellbooks:visibility_ring]] | Iron's Spells 'n Spellbooks | Slot: Ring; Allows visible creatures to be seen | [[craft:irons_spellbooks:visibility_ring]], [[loot:irons_spellbooks:visibility_ring]] |
 
 ## T.O Magic 'n Extras
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:traveloptics:aetherial_despair_ring]] | T.O Magic 'n Extras | Slot: Talent, Ring; Spell Talent: Despair; Axe Blades of Despair gain vertical trajectory and moves 50% faster | crafting, [[loot:traveloptics:aetherial_despair_ring]] |
-| [[item:traveloptics:firestorm_ring]] | T.O Magic 'n Extras | Slot: Talent, Ring; Spell Talent: Meteor Storm; Transforms meteors from Meteor Storm into flare bombs that explode and create flame jets. The spell can no longer directly target an entity | crafting |
-| [[item:traveloptics:guided_currents_ring]] | T.O Magic 'n Extras | Slot: Talent, Ring; Spell Talent: Aqua Missiles; Aqua Missiles no longer auto-target nearby enemies. Instead, they now seek only the target you are aiming at, giving precise control over who is hit. Also increases the missiles’ seeking distance by 25% | crafting |
-| [[item:traveloptics:salted_depths_ring]] | T.O Magic 'n Extras | Slot: Talent, Ring; Spell Talent: Overflow; Transforms the Overflow pool into brine water while keeping all of its normal effects. Casting a lightning spell while inside the pool electrifies it, dealing lightning magic damage to all entities within for its entire duration, scaling with Aqua and Lightning spell power. The electrified pool can also trigger Hydrocharge on its own if Hydrocharge is enabled from any source | crafting |
+| [[item:traveloptics:aetherial_despair_ring]] | T.O Magic 'n Extras | Slot: Talent, Ring; Spell Talent: Despair; Axe Blades of Despair gain vertical trajectory and moves 50% faster | [[craft:traveloptics:aetherial_despair_ring]], [[loot:traveloptics:aetherial_despair_ring]] |
+| [[item:traveloptics:firestorm_ring]] | T.O Magic 'n Extras | Slot: Talent, Ring; Spell Talent: Meteor Storm; Transforms meteors from Meteor Storm into flare bombs that explode and create flame jets. The spell can no longer directly target an entity | [[craft:traveloptics:firestorm_ring]] |
+| [[item:traveloptics:guided_currents_ring]] | T.O Magic 'n Extras | Slot: Talent, Ring; Spell Talent: Aqua Missiles; Aqua Missiles no longer auto-target nearby enemies. Instead, they now seek only the target you are aiming at, giving precise control over who is hit. Also increases the missiles’ seeking distance by 25% | [[craft:traveloptics:guided_currents_ring]] |
+| [[item:traveloptics:salted_depths_ring]] | T.O Magic 'n Extras | Slot: Talent, Ring; Spell Talent: Overflow; Transforms the Overflow pool into brine water while keeping all of its normal effects. Casting a lightning spell while inside the pool electrifies it, dealing lightning magic damage to all entities within for its entire duration, scaling with Aqua and Lightning spell power. The electrified pool can also trigger Hydrocharge on its own if Hydrocharge is enabled from any source | [[craft:traveloptics:salted_depths_ring]] |
 
 ## Too Many Bows
 

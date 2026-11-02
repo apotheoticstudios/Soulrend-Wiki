@@ -42,7 +42,7 @@
 | [[item:minecraft:dragon_breath]] | Minecraft |  | [[loot:minecraft:dragon_breath]] |
 | [[item:efn:duskfire_ingot]] | EpicFight Nightfall |  | [[loot:efn:duskfire_ingot]] |
 | [[item:efn:hf_ingot]] | EpicFight Nightfall |  |  |
-| [[item:efn:hf_ingot_b]] | EpicFight Nightfall |  | crafting |
+| [[item:efn:hf_ingot_b]] | EpicFight Nightfall |  | [[craft:efn:hf_ingot_b]] |
 
 ## End Materials
 

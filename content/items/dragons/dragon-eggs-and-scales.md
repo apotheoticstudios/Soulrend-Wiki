@@ -88,27 +88,27 @@ An egg in the right place hatches after 6 min (Soulrend's config), and the drago
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:iceandfire:dragonscale_amythest]] | Ice and Fire | Amethyst | crafting |
-| [[item:iceandfire:dragonscale_black]] | Ice and Fire | Black | crafting |
-| [[item:iceandfire:dragonscale_blue]] | Ice and Fire | Blue | crafting |
-| [[item:iceandfire:dragonscale_bronze]] | Ice and Fire | Bronze | crafting |
-| [[item:iceandfire:dragonscale_copper]] | Ice and Fire | Copper | crafting |
-| [[item:iceandfire:dragonscale_electric]] | Ice and Fire | Electric Blue | crafting |
-| [[item:iceandfire:dragonscale_gray]] | Ice and Fire | Gray | crafting |
-| [[item:iceandfire:dragonscale_green]] | Ice and Fire | Emerald | crafting |
-| [[item:iceandfire:dragonscale_red]] | Ice and Fire | Red | crafting |
-| [[item:iceandfire:dragonscale_sapphire]] | Ice and Fire | Sapphire | crafting |
-| [[item:iceandfire:dragonscale_silver]] | Ice and Fire | Silver | crafting |
-| [[item:iceandfire:dragonscale_white]] | Ice and Fire | White | crafting |
-| [[item:iceandfire:dragonscales_amythest]] | Ice and Fire | Amethyst | crafting |
-| [[item:iceandfire:dragonscales_black]] | Ice and Fire | Black | crafting |
-| [[item:iceandfire:dragonscales_blue]] | Ice and Fire | Blue | crafting, [[loot:iceandfire:dragonscales_blue]] |
-| [[item:iceandfire:dragonscales_bronze]] | Ice and Fire | Bronze | crafting |
-| [[item:iceandfire:dragonscales_copper]] | Ice and Fire | Copper | crafting |
-| [[item:iceandfire:dragonscales_electric]] | Ice and Fire | Electric Blue | crafting, [[loot:iceandfire:dragonscales_electric]] |
-| [[item:iceandfire:dragonscales_gray]] | Ice and Fire | Gray | crafting |
-| [[item:iceandfire:dragonscales_green]] | Ice and Fire | Emerald | crafting |
-| [[item:iceandfire:dragonscales_red]] | Ice and Fire | Red | crafting, [[loot:iceandfire:dragonscales_red]] |
-| [[item:iceandfire:dragonscales_sapphire]] | Ice and Fire | Sapphire | crafting |
-| [[item:iceandfire:dragonscales_silver]] | Ice and Fire | Silver | crafting |
-| [[item:iceandfire:dragonscales_white]] | Ice and Fire | White | crafting |
+| [[item:iceandfire:dragonscale_amythest]] | Ice and Fire | Amethyst | [[craft:iceandfire:dragonscale_amythest]] |
+| [[item:iceandfire:dragonscale_black]] | Ice and Fire | Black | [[craft:iceandfire:dragonscale_black]] |
+| [[item:iceandfire:dragonscale_blue]] | Ice and Fire | Blue | [[craft:iceandfire:dragonscale_blue]] |
+| [[item:iceandfire:dragonscale_bronze]] | Ice and Fire | Bronze | [[craft:iceandfire:dragonscale_bronze]] |
+| [[item:iceandfire:dragonscale_copper]] | Ice and Fire | Copper | [[craft:iceandfire:dragonscale_copper]] |
+| [[item:iceandfire:dragonscale_electric]] | Ice and Fire | Electric Blue | [[craft:iceandfire:dragonscale_electric]] |
+| [[item:iceandfire:dragonscale_gray]] | Ice and Fire | Gray | [[craft:iceandfire:dragonscale_gray]] |
+| [[item:iceandfire:dragonscale_green]] | Ice and Fire | Emerald | [[craft:iceandfire:dragonscale_green]] |
+| [[item:iceandfire:dragonscale_red]] | Ice and Fire | Red | [[craft:iceandfire:dragonscale_red]] |
+| [[item:iceandfire:dragonscale_sapphire]] | Ice and Fire | Sapphire | [[craft:iceandfire:dragonscale_sapphire]] |
+| [[item:iceandfire:dragonscale_silver]] | Ice and Fire | Silver | [[craft:iceandfire:dragonscale_silver]] |
+| [[item:iceandfire:dragonscale_white]] | Ice and Fire | White | [[craft:iceandfire:dragonscale_white]] |
+| [[item:iceandfire:dragonscales_amythest]] | Ice and Fire | Amethyst | [[craft:iceandfire:dragonscales_amythest]] |
+| [[item:iceandfire:dragonscales_black]] | Ice and Fire | Black | [[craft:iceandfire:dragonscales_black]] |
+| [[item:iceandfire:dragonscales_blue]] | Ice and Fire | Blue | [[craft:iceandfire:dragonscales_blue]], [[loot:iceandfire:dragonscales_blue]] |
+| [[item:iceandfire:dragonscales_bronze]] | Ice and Fire | Bronze | [[craft:iceandfire:dragonscales_bronze]] |
+| [[item:iceandfire:dragonscales_copper]] | Ice and Fire | Copper | [[craft:iceandfire:dragonscales_copper]] |
+| [[item:iceandfire:dragonscales_electric]] | Ice and Fire | Electric Blue | [[craft:iceandfire:dragonscales_electric]], [[loot:iceandfire:dragonscales_electric]] |
+| [[item:iceandfire:dragonscales_gray]] | Ice and Fire | Gray | [[craft:iceandfire:dragonscales_gray]] |
+| [[item:iceandfire:dragonscales_green]] | Ice and Fire | Emerald | [[craft:iceandfire:dragonscales_green]] |
+| [[item:iceandfire:dragonscales_red]] | Ice and Fire | Red | [[craft:iceandfire:dragonscales_red]], [[loot:iceandfire:dragonscales_red]] |
+| [[item:iceandfire:dragonscales_sapphire]] | Ice and Fire | Sapphire | [[craft:iceandfire:dragonscales_sapphire]] |
+| [[item:iceandfire:dragonscales_silver]] | Ice and Fire | Silver | [[craft:iceandfire:dragonscales_silver]] |
+| [[item:iceandfire:dragonscales_white]] | Ice and Fire | White | [[craft:iceandfire:dragonscales_white]] |

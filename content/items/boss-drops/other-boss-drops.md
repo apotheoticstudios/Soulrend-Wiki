@@ -90,9 +90,9 @@
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:aquamirae:rune_of_the_storm]] | Aquamirae | Attachable to a sword at the Smithing Table. | [[loot:aquamirae:rune_of_the_storm]] |
-| [[item:aquamirae:divider]] | Aquamirae | Sea Wolf Weapon Hold Shift; 9 Attack Damage; 1.40 Attack Speed; 1 Impact; 2 Targets per swing; 20% Armor Negation; 3 Entity Reach | crafting |
+| [[item:aquamirae:divider]] | Aquamirae | Sea Wolf Weapon Hold Shift; 9 Attack Damage; 1.40 Attack Speed; 1 Impact; 2 Targets per swing; 20% Armor Negation; 3 Entity Reach | [[craft:aquamirae:divider]] |
 | [[item:aquamirae:frozen_key]] | Aquamirae | Opens a chest hidden in the depths of the Ice Maze. | [[loot:aquamirae:frozen_key]] |
-| [[item:aquamirae:abyssal_amethyst]] | Aquamirae |  | crafting, [[loot:aquamirae:abyssal_amethyst]] |
+| [[item:aquamirae:abyssal_amethyst]] | Aquamirae |  | [[craft:aquamirae:abyssal_amethyst]], [[loot:aquamirae:abyssal_amethyst]] |
 | [[item:mowziesmobs:sol_visage]] | Mowzie's Mobs | Never breaks Equip, then right-click while holding another mask to summon minions Right-click a minion to return it to its mask; +2 Armor; +0.75 Stun Armor; +5 Weight | [[loot:mowziesmobs:sol_visage]] |
 | [[item:mowziesmobs:earthrend_gauntlet]] | Mowzie's Mobs | Boulder Lift Right-click earthen ground to lift a boulder Punch boulder to fire it as projectile Charge right-click to lift bigger boulders Tunnel Right-click …; 6 Attack Damage; 1.2 Attack Speed; 3 Entity Reach; +20% Geo Spell Power | [[loot:mowziesmobs:earthrend_gauntlet]] |
 | [[item:mowziesmobs:ice_crystal]] | Mowzie's Mobs | Hold right-click to channel an icy whirlwind Recharges while in inventory | [[loot:mowziesmobs:ice_crystal]] |

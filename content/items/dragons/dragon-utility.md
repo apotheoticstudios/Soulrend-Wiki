@@ -62,14 +62,14 @@ The [[progression/side-chapters/dragonslayer|Dragonslayer]] chapter has quests f
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:iceandfire:dragon_meal]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragon_flute]] | Ice and Fire |  | crafting, [[loot:iceandfire:dragon_flute]] |
-| [[item:iceandfire:dragon_horn]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragon_stick]] | Ice and Fire |  | crafting |
-| [[item:dragonradarmod:dormant_radar]] | Dragon Radar Mod | ⚙ ACTIVATION PROCESS Once merged, equip in offhand and slay Stage 4-5 dragons to purify.; Fire Radar: ✘; Ice Radar: ✘; Lightning Radar: ✘ | crafting |
-| [[item:dragonradarmod:fire_radar]] | Dragon Radar Mod | Tracks Fire Dragons Merge with Dormant Radar in anvil to begin purification process | crafting |
-| [[item:dragonradarmod:ice_radar]] | Dragon Radar Mod | Tracks Ice Dragons Merge with Dormant Radar in anvil to begin purification process | crafting |
-| [[item:dragonradarmod:lightning_radar]] | Dragon Radar Mod | Tracks Lightning Dragons Merge with Dormant Radar in anvil to begin purification process | crafting |
+| [[item:iceandfire:dragon_meal]] | Ice and Fire |  | [[craft:iceandfire:dragon_meal]] |
+| [[item:iceandfire:dragon_flute]] | Ice and Fire |  | [[craft:iceandfire:dragon_flute]], [[loot:iceandfire:dragon_flute]] |
+| [[item:iceandfire:dragon_horn]] | Ice and Fire |  | [[craft:iceandfire:dragon_horn]] |
+| [[item:iceandfire:dragon_stick]] | Ice and Fire |  | [[craft:iceandfire:dragon_stick]] |
+| [[item:dragonradarmod:dormant_radar]] | Dragon Radar Mod | ⚙ ACTIVATION PROCESS Once merged, equip in offhand and slay Stage 4-5 dragons to purify.; Fire Radar: ✘; Ice Radar: ✘; Lightning Radar: ✘ | [[craft:dragonradarmod:dormant_radar]] |
+| [[item:dragonradarmod:fire_radar]] | Dragon Radar Mod | Tracks Fire Dragons Merge with Dormant Radar in anvil to begin purification process | [[craft:dragonradarmod:fire_radar]] |
+| [[item:dragonradarmod:ice_radar]] | Dragon Radar Mod | Tracks Ice Dragons Merge with Dormant Radar in anvil to begin purification process | [[craft:dragonradarmod:ice_radar]] |
+| [[item:dragonradarmod:lightning_radar]] | Dragon Radar Mod | Tracks Lightning Dragons Merge with Dormant Radar in anvil to begin purification process | [[craft:dragonradarmod:lightning_radar]] |
 | [[item:dragonradarmod:master_radar]] | Dragon Radar Mod | Ultimate Dragon Radar Tracks ALL Dragons Created by purifying a fully merged Dormant Radar |  |
 
 ## Dragon Meal

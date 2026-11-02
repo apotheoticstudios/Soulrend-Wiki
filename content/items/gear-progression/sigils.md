@@ -61,19 +61,19 @@ The [[progression/side-chapters/reforging|Reforging]] quest chapter introduces m
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:apotheosis:sigil_of_socketing]] | Apotheosis | Adds one socket to an item | crafting, [[loot:apotheosis:sigil_of_socketing]] |
-| [[item:apotheosis:sigil_of_withdrawal]] | Apotheosis | Removes all socketed gems from an item | crafting |
-| [[item:apotheosis:sigil_of_enhancement]] | Apotheosis | Used to fuel the Augmentation Table | crafting |
-| [[item:apotheosis:sigil_of_rebirth]] | Apotheosis | Used to fuel the Reforging Table | crafting |
-| [[item:apotheosis:sigil_of_unnaming]] | Apotheosis | Removes the affixed name from an item | crafting, [[loot:apotheosis:sigil_of_unnaming]] |
-| [[item:apotheotic_additions:gemboundsigil]] | Apotheotic Additions | Used to craft boss jewels | crafting |
-| [[item:fallen_gems_affixes:sigil_of_ascension]] | Fallen Gems & Affixes | Converts a Socket slot into an Augment slot Only untiered sockets can get converted | crafting |
-| [[item:fallen_gems_affixes:sigil_of_confluence]] | Fallen Gems & Affixes | Combine two identical items in a Smithing Table: affixes and unique gems from the addition item are merged into the base item Shared affixes are combined into … | crafting |
-| [[item:fallen_gems_affixes:sigil_of_elevation]] | Fallen Gems & Affixes | Elevates all Tiered Socket slots to the next rarity | crafting |
-| [[item:fallen_gems_affixes:sigil_of_erasure]] | Fallen Gems & Affixes | Removes all scroll-applied affixes from an item | crafting |
-| [[item:fallen_gems_affixes:sigil_of_prismatic_conversion]] | Fallen Gems & Affixes | Unifies all sockets into a single Catalyst Socket Gem power scales with the number of consumed sockets. Requires all sockets to be empty. | crafting |
-| [[item:fallen_gems_affixes:sigil_of_severance]] | Fallen Gems & Affixes | Removes all socketed augments from an item | crafting |
-| [[item:fallen_gems_affixes:sigil_of_transmutation]] | Fallen Gems & Affixes | Transfers affixes, sockets and gems between gear. Base gear must not have any affix / augment / sockets. Source gear must have the same LootCategory with base … | crafting |
+| [[item:apotheosis:sigil_of_socketing]] | Apotheosis | Adds one socket to an item | [[craft:apotheosis:sigil_of_socketing]], [[loot:apotheosis:sigil_of_socketing]] |
+| [[item:apotheosis:sigil_of_withdrawal]] | Apotheosis | Removes all socketed gems from an item | [[craft:apotheosis:sigil_of_withdrawal]] |
+| [[item:apotheosis:sigil_of_enhancement]] | Apotheosis | Used to fuel the Augmentation Table | [[craft:apotheosis:sigil_of_enhancement]] |
+| [[item:apotheosis:sigil_of_rebirth]] | Apotheosis | Used to fuel the Reforging Table | [[craft:apotheosis:sigil_of_rebirth]] |
+| [[item:apotheosis:sigil_of_unnaming]] | Apotheosis | Removes the affixed name from an item | [[craft:apotheosis:sigil_of_unnaming]], [[loot:apotheosis:sigil_of_unnaming]] |
+| [[item:apotheotic_additions:gemboundsigil]] | Apotheotic Additions | Used to craft boss jewels | [[craft:apotheotic_additions:gemboundsigil]] |
+| [[item:fallen_gems_affixes:sigil_of_ascension]] | Fallen Gems & Affixes | Converts a Socket slot into an Augment slot Only untiered sockets can get converted | [[craft:fallen_gems_affixes:sigil_of_ascension]] |
+| [[item:fallen_gems_affixes:sigil_of_confluence]] | Fallen Gems & Affixes | Combine two identical items in a Smithing Table: affixes and unique gems from the addition item are merged into the base item Shared affixes are combined into … | [[craft:fallen_gems_affixes:sigil_of_confluence]] |
+| [[item:fallen_gems_affixes:sigil_of_elevation]] | Fallen Gems & Affixes | Elevates all Tiered Socket slots to the next rarity | [[craft:fallen_gems_affixes:sigil_of_elevation]] |
+| [[item:fallen_gems_affixes:sigil_of_erasure]] | Fallen Gems & Affixes | Removes all scroll-applied affixes from an item | [[craft:fallen_gems_affixes:sigil_of_erasure]] |
+| [[item:fallen_gems_affixes:sigil_of_prismatic_conversion]] | Fallen Gems & Affixes | Unifies all sockets into a single Catalyst Socket Gem power scales with the number of consumed sockets. Requires all sockets to be empty. | [[craft:fallen_gems_affixes:sigil_of_prismatic_conversion]] |
+| [[item:fallen_gems_affixes:sigil_of_severance]] | Fallen Gems & Affixes | Removes all socketed augments from an item | [[craft:fallen_gems_affixes:sigil_of_severance]] |
+| [[item:fallen_gems_affixes:sigil_of_transmutation]] | Fallen Gems & Affixes | Transfers affixes, sockets and gems between gear. Base gear must not have any affix / augment / sockets. Source gear must have the same LootCategory with base … | [[craft:fallen_gems_affixes:sigil_of_transmutation]] |
 
 ## Sigil of Socketing
 

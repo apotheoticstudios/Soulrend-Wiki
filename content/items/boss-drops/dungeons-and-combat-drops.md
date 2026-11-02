@@ -50,16 +50,16 @@
 | [[item:dungeons_and_combat:sunleia_hand]] | dungeons and combat | Slot: Hands; Attacking will give you Haste II |  |
 | [[item:dungeons_and_combat:champion_belt]] | dungeons and combat | Slot: Belt; Increased maximum health, armor and knockback resistance | [[loot:dungeons_and_combat:champion_belt]] |
 | [[item:dungeons_and_combat:armor_plate]] | dungeons and combat |  | [[loot:dungeons_and_combat:armor_plate]] |
-| [[item:dungeons_and_combat:steel_shoulder]] | dungeons and combat | Slot: Hands; Additional Armor Toughness | crafting |
+| [[item:dungeons_and_combat:steel_shoulder]] | dungeons and combat | Slot: Hands; Additional Armor Toughness | [[craft:dungeons_and_combat:steel_shoulder]] |
 | [[item:dungeons_and_combat:cursed_silk]] | dungeons and combat |  | [[loot:dungeons_and_combat:cursed_silk]] |
-| [[item:dungeons_and_combat:cursed_lamp]] | dungeons and combat | Applies Weakness II on hit | crafting |
+| [[item:dungeons_and_combat:cursed_lamp]] | dungeons and combat | Applies Weakness II on hit | [[craft:dungeons_and_combat:cursed_lamp]] |
 | [[item:dungeons_and_combat:ernos_fang]] | dungeons and combat |  | [[loot:dungeons_and_combat:ernos_fang]] |
 | [[item:dungeons_and_combat:ernos_fang_necklace]] | dungeons and combat | Slot: Necklace; Attack Damage Bonus |  |
 | [[item:dungeons_and_combat:ammit_fang]] | dungeons and combat |  | [[loot:dungeons_and_combat:ammit_fang]] |
 | [[item:dungeons_and_combat:fang_necklace]] | dungeons and combat | Slot: Necklace; Attacks will leave the Broken Armor effect |  |
 | [[item:dungeons_and_combat:horuso_feather]] | dungeons and combat |  | [[loot:dungeons_and_combat:horuso_feather]] |
 | [[item:dungeons_and_combat:klauen_necklace]] | dungeons and combat | Slot: Necklace; Attack Speed Bonus |  |
-| [[item:dungeons_and_combat:blessed_beetle]] | dungeons and combat | This will illuminate the light of Sunleia | crafting |
+| [[item:dungeons_and_combat:blessed_beetle]] | dungeons and combat | This will illuminate the light of Sunleia | [[craft:dungeons_and_combat:blessed_beetle]] |
 
 [[item:dungeons_and_combat:sunleia_hand]], [[item:dungeons_and_combat:champion_belt]], [[item:dungeons_and_combat:steel_shoulder]], [[item:dungeons_and_combat:ernos_fang_necklace]], [[item:dungeons_and_combat:fang_necklace]], [[item:dungeons_and_combat:klauen_necklace]] and [[item:dungeons_and_combat:blessed_beetle]] have their own entry on another page.
 

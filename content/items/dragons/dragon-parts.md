@@ -74,7 +74,7 @@
 | [[item:iceandfire:dragon_skull_fire]] | Ice and Fire | Fire |  |
 | [[item:iceandfire:dragon_skull_ice]] | Ice and Fire | Ice |  |
 | [[item:iceandfire:dragon_skull_lightning]] | Ice and Fire | Lightning |  |
-| [[item:iceandfire:dragonbone]] | Ice and Fire |  | crafting, [[loot:iceandfire:dragonbone]] |
+| [[item:iceandfire:dragonbone]] | Ice and Fire |  | [[craft:iceandfire:dragonbone]], [[loot:iceandfire:dragonbone]] |
 | [[item:iceandfire:witherbone]] | Ice and Fire |  | [[loot:iceandfire:witherbone]] |
 
 ## Dragon blood

@@ -22,8 +22,8 @@ Both work as in vanilla Minecraft: **shears** shear sheep and collect leaves, vi
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:shears]] | Minecraft |  | crafting, [[loot:minecraft:shears]] |
-| [[item:minecraft:flint_and_steel]] | Minecraft |  | crafting, [[loot:minecraft:flint_and_steel]] |
+| [[item:minecraft:shears]] | Minecraft |  | [[craft:minecraft:shears]], [[loot:minecraft:shears]] |
+| [[item:minecraft:flint_and_steel]] | Minecraft |  | [[craft:minecraft:flint_and_steel]], [[loot:minecraft:flint_and_steel]] |
 
 ## Shears
 

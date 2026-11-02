@@ -21,8 +21,11 @@ if (document.querySelector('.forge-stage')) {
 if (document.querySelector('.attack-stage')) {
   import('./attack-viewer.js').then(m => m.initAttacks());
 }
-if (document.querySelector('.loot-link')) {
+if (document.querySelector('[data-loot]')) {
   import('./loot-viewer.js').then(m => m.initLootViewer());
+}
+if (document.querySelector('[data-craft]')) {
+  import('./craft-viewer.js').then(m => m.initCraftViewer());
 }
 if (document.querySelector('.hof')) {
   import('./hall-of-fame.js').then(m => m.initHallOfFame());

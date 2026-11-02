@@ -123,6 +123,7 @@ Some pinned levels are far above 200 (the Ender Dragon is level 467), because th
 - Use `[[item:…]]` for items (icon, name, tooltip), and page links for bosses, quests, mechanics and places.
 - Link by title when it's unique (`[[Frostmaw]]`), and by path when it's qualified or when you want different text.
 - Link to sections with `#`: `[[Frostmaw#Drops]]`, `[[#Drops]]`.
+- In "Obtained from" cells, write `[[craft:…]]` rather than a bare "crafting". It opens the item's recipes. If no recipe exists, the build warns and it stays plain text.
 - Use `[[loot:…]]` instead of writing "N loot tables" by hand. The count is computed and opens the loot viewer.
 - **Inside table cells, escape the pipe of a labeled link:** `[[items/armor/foo\|Foo]]`. An unescaped `|` ends the cell, so the link breaks and shows as raw `[[…` text. Outside tables, write it plainly.
 - Linking to a hidden stub is fine. The link starts working fully once the stub is written.

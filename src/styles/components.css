@@ -422,6 +422,14 @@ html:has(.loot-dialog[open]) { overflow: hidden; }
 .loot-empty { flex: 1; margin: 0; padding: 24px 16px; color: var(--muted); text-align: center; }
 .loot-note { margin: 0; padding: 8px 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
 
+/* Recipe viewer: the "crafting" trigger's hover preview and dialog share the loot viewer's styles */
+.craft-preview { max-width: min(560px, calc(100vw - 16px)); font-family: var(--font-ui); }
+.craft-preview .recipe-group { margin: 4px 0 0; }
+.craft-dialog { height: fit-content; }
+.craft-dialog .loot-panel { height: auto; max-height: min(760px, calc(100dvh - 32px)); }
+.craft-rows { flex: 1; min-height: 0; padding: 16px; overflow-y: auto; }
+.craft-rows .recipe-group { margin: 0; }
+
 /* Recipe diagrams. --u is one Minecraft GUI pixel; slots are 18u, item icons 16u (= the 32px export). */
 .recipe-group { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; margin: 0 0 1.2em; }
 .recipe {

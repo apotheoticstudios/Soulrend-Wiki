@@ -92,83 +92,83 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:string]] | Minecraft |  | crafting, [[loot:minecraft:string]] |
-| [[item:minecraft:leather]] | Minecraft |  | crafting, [[loot:minecraft:leather]] |
-| [[item:minecraft:rabbit_hide]] | Minecraft |  | crafting, [[loot:minecraft:rabbit_hide]] |
+| [[item:minecraft:string]] | Minecraft |  | [[craft:minecraft:string]], [[loot:minecraft:string]] |
+| [[item:minecraft:leather]] | Minecraft |  | [[craft:minecraft:leather]], [[loot:minecraft:leather]] |
+| [[item:minecraft:rabbit_hide]] | Minecraft |  | [[craft:minecraft:rabbit_hide]], [[loot:minecraft:rabbit_hide]] |
 | [[item:minecraft:rabbit_foot]] | Minecraft |  | [[loot:minecraft:rabbit_foot]] |
-| [[item:minecraft:feather]] | Minecraft |  | crafting, [[loot:minecraft:feather]] |
-| [[item:minecraft:bone]] | Minecraft |  | crafting, [[loot:minecraft:bone]] |
-| [[item:minecraft:bone_meal]] | Minecraft |  | crafting, [[loot:minecraft:bone_meal]] |
-| [[item:minecraft:gunpowder]] | Minecraft | Placeable | crafting, [[loot:minecraft:gunpowder]] |
+| [[item:minecraft:feather]] | Minecraft |  | [[craft:minecraft:feather]], [[loot:minecraft:feather]] |
+| [[item:minecraft:bone]] | Minecraft |  | [[craft:minecraft:bone]], [[loot:minecraft:bone]] |
+| [[item:minecraft:bone_meal]] | Minecraft |  | [[craft:minecraft:bone_meal]], [[loot:minecraft:bone_meal]] |
+| [[item:minecraft:gunpowder]] | Minecraft | Placeable | [[craft:minecraft:gunpowder]], [[loot:minecraft:gunpowder]] |
 | [[item:minecraft:spider_eye]] | Minecraft | 2 hunger, 0.8 saturation | [[loot:minecraft:spider_eye]] |
-| [[item:minecraft:fermented_spider_eye]] | Minecraft |  | crafting, [[loot:minecraft:fermented_spider_eye]] |
-| [[item:minecraft:slime_ball]] | Minecraft | Can be thrown | crafting, [[loot:minecraft:slime_ball]] |
-| [[item:minecraft:ender_pearl]] | Minecraft |  | crafting, [[loot:minecraft:ender_pearl]] |
-| [[item:minecraft:ender_eye]] | Minecraft |  | crafting, [[loot:minecraft:ender_eye]] |
-| [[item:minecraft:blaze_rod]] | Minecraft | Placeable | crafting, [[loot:minecraft:blaze_rod]] |
-| [[item:minecraft:blaze_powder]] | Minecraft |  | crafting, [[loot:minecraft:blaze_powder]] |
-| [[item:minecraft:magma_cream]] | Minecraft |  | crafting, [[loot:minecraft:magma_cream]] |
+| [[item:minecraft:fermented_spider_eye]] | Minecraft |  | [[craft:minecraft:fermented_spider_eye]], [[loot:minecraft:fermented_spider_eye]] |
+| [[item:minecraft:slime_ball]] | Minecraft | Can be thrown | [[craft:minecraft:slime_ball]], [[loot:minecraft:slime_ball]] |
+| [[item:minecraft:ender_pearl]] | Minecraft |  | [[craft:minecraft:ender_pearl]], [[loot:minecraft:ender_pearl]] |
+| [[item:minecraft:ender_eye]] | Minecraft |  | [[craft:minecraft:ender_eye]], [[loot:minecraft:ender_eye]] |
+| [[item:minecraft:blaze_rod]] | Minecraft | Placeable | [[craft:minecraft:blaze_rod]], [[loot:minecraft:blaze_rod]] |
+| [[item:minecraft:blaze_powder]] | Minecraft |  | [[craft:minecraft:blaze_powder]], [[loot:minecraft:blaze_powder]] |
+| [[item:minecraft:magma_cream]] | Minecraft |  | [[craft:minecraft:magma_cream]], [[loot:minecraft:magma_cream]] |
 | [[item:minecraft:ghast_tear]] | Minecraft |  | [[loot:minecraft:ghast_tear]] |
 | [[item:minecraft:phantom_membrane]] | Minecraft |  | [[loot:minecraft:phantom_membrane]] |
-| [[item:minecraft:prismarine_shard]] | Minecraft |  | crafting, [[loot:minecraft:prismarine_shard]] |
-| [[item:minecraft:prismarine_crystals]] | Minecraft |  | crafting, [[loot:minecraft:prismarine_crystals]] |
+| [[item:minecraft:prismarine_shard]] | Minecraft |  | [[craft:minecraft:prismarine_shard]], [[loot:minecraft:prismarine_shard]] |
+| [[item:minecraft:prismarine_crystals]] | Minecraft |  | [[craft:minecraft:prismarine_crystals]], [[loot:minecraft:prismarine_crystals]] |
 | [[item:minecraft:ink_sac]] | Minecraft |  | [[loot:minecraft:ink_sac]] |
-| [[item:minecraft:glow_ink_sac]] | Minecraft |  | crafting, [[loot:minecraft:glow_ink_sac]] |
-| [[item:minecraft:scute]] | Minecraft |  | crafting, [[loot:minecraft:scute]] |
+| [[item:minecraft:glow_ink_sac]] | Minecraft |  | [[craft:minecraft:glow_ink_sac]], [[loot:minecraft:glow_ink_sac]] |
+| [[item:minecraft:scute]] | Minecraft |  | [[craft:minecraft:scute]], [[loot:minecraft:scute]] |
 | [[item:minecraft:honeycomb]] | Minecraft |  | [[loot:minecraft:honeycomb]] |
 
 ## Vanilla gems and minerals
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:coal]] | Minecraft |  | crafting, [[loot:minecraft:coal]] |
-| [[item:minecraft:charcoal]] | Minecraft |  | crafting, [[loot:minecraft:charcoal]] |
-| [[item:minecraft:diamond]] | Minecraft |  | crafting, [[loot:minecraft:diamond]] |
-| [[item:minecraft:emerald]] | Minecraft |  | crafting, [[loot:minecraft:emerald]] |
-| [[item:minecraft:lapis_lazuli]] | Minecraft |  | crafting, [[loot:minecraft:lapis_lazuli]] |
-| [[item:minecraft:redstone]] | Minecraft |  | crafting, [[loot:minecraft:redstone]] |
-| [[item:minecraft:quartz]] | Minecraft |  | crafting, [[loot:minecraft:quartz]] |
-| [[item:minecraft:amethyst_shard]] | Minecraft |  | crafting, [[loot:minecraft:amethyst_shard]] |
-| [[item:minecraft:glowstone_dust]] | Minecraft |  | crafting, [[loot:minecraft:glowstone_dust]] |
-| [[item:minecraft:echo_shard]] | Minecraft |  | crafting, [[loot:minecraft:echo_shard]] |
-| [[item:minecraft:flint]] | Minecraft |  | crafting, [[loot:minecraft:flint]] |
-| [[item:minecraft:clay_ball]] | Minecraft |  | crafting, [[loot:minecraft:clay_ball]] |
-| [[item:minecraft:brick]] | Minecraft | Can be thrown | crafting, [[loot:minecraft:brick]] |
-| [[item:minecraft:nether_brick]] | Minecraft | Can be thrown | crafting, [[loot:minecraft:nether_brick]] |
+| [[item:minecraft:coal]] | Minecraft |  | [[craft:minecraft:coal]], [[loot:minecraft:coal]] |
+| [[item:minecraft:charcoal]] | Minecraft |  | [[craft:minecraft:charcoal]], [[loot:minecraft:charcoal]] |
+| [[item:minecraft:diamond]] | Minecraft |  | [[craft:minecraft:diamond]], [[loot:minecraft:diamond]] |
+| [[item:minecraft:emerald]] | Minecraft |  | [[craft:minecraft:emerald]], [[loot:minecraft:emerald]] |
+| [[item:minecraft:lapis_lazuli]] | Minecraft |  | [[craft:minecraft:lapis_lazuli]], [[loot:minecraft:lapis_lazuli]] |
+| [[item:minecraft:redstone]] | Minecraft |  | [[craft:minecraft:redstone]], [[loot:minecraft:redstone]] |
+| [[item:minecraft:quartz]] | Minecraft |  | [[craft:minecraft:quartz]], [[loot:minecraft:quartz]] |
+| [[item:minecraft:amethyst_shard]] | Minecraft |  | [[craft:minecraft:amethyst_shard]], [[loot:minecraft:amethyst_shard]] |
+| [[item:minecraft:glowstone_dust]] | Minecraft |  | [[craft:minecraft:glowstone_dust]], [[loot:minecraft:glowstone_dust]] |
+| [[item:minecraft:echo_shard]] | Minecraft |  | [[craft:minecraft:echo_shard]], [[loot:minecraft:echo_shard]] |
+| [[item:minecraft:flint]] | Minecraft |  | [[craft:minecraft:flint]], [[loot:minecraft:flint]] |
+| [[item:minecraft:clay_ball]] | Minecraft |  | [[craft:minecraft:clay_ball]], [[loot:minecraft:clay_ball]] |
+| [[item:minecraft:brick]] | Minecraft | Can be thrown | [[craft:minecraft:brick]], [[loot:minecraft:brick]] |
+| [[item:minecraft:nether_brick]] | Minecraft | Can be thrown | [[craft:minecraft:nether_brick]], [[loot:minecraft:nether_brick]] |
 
 ## Samurai Dynasty gems
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:samurai_dynasty:aquamarine]] | Samurai Dynasty |  | crafting, [[loot:samurai_dynasty:aquamarine]] |
-| [[item:samurai_dynasty:jade]] | Samurai Dynasty |  | crafting, [[loot:samurai_dynasty:jade]] |
-| [[item:samurai_dynasty:onyx]] | Samurai Dynasty |  | crafting, [[loot:samurai_dynasty:onyx]] |
-| [[item:samurai_dynasty:ruby]] | Samurai Dynasty |  | crafting, [[loot:samurai_dynasty:ruby]] |
+| [[item:samurai_dynasty:aquamarine]] | Samurai Dynasty |  | [[craft:samurai_dynasty:aquamarine]], [[loot:samurai_dynasty:aquamarine]] |
+| [[item:samurai_dynasty:jade]] | Samurai Dynasty |  | [[craft:samurai_dynasty:jade]], [[loot:samurai_dynasty:jade]] |
+| [[item:samurai_dynasty:onyx]] | Samurai Dynasty |  | [[craft:samurai_dynasty:onyx]], [[loot:samurai_dynasty:onyx]] |
+| [[item:samurai_dynasty:ruby]] | Samurai Dynasty |  | [[craft:samurai_dynasty:ruby]], [[loot:samurai_dynasty:ruby]] |
 
 ## Silver
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:silver_ingot]] | dungeons and combat |  | crafting, [[loot:dungeons_and_combat:silver_ingot]] |
+| [[item:dungeons_and_combat:silver_ingot]] | dungeons and combat |  | [[craft:dungeons_and_combat:silver_ingot]], [[loot:dungeons_and_combat:silver_ingot]] |
 
 ## Steel
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:steel_ingot]] | dungeons and combat |  | crafting, [[loot:dungeons_and_combat:steel_ingot]] |
+| [[item:dungeons_and_combat:steel_ingot]] | dungeons and combat |  | [[craft:dungeons_and_combat:steel_ingot]], [[loot:dungeons_and_combat:steel_ingot]] |
 
 ## Vanilla ingots and ores
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:iron_ingot]] | Minecraft |  | crafting, [[loot:minecraft:iron_ingot]] |
-| [[item:minecraft:iron_nugget]] | Minecraft |  | crafting, [[loot:minecraft:iron_nugget]] |
-| [[item:minecraft:raw_iron]] | Minecraft |  | crafting, [[loot:minecraft:raw_iron]] |
-| [[item:minecraft:gold_ingot]] | Minecraft |  | crafting, [[loot:minecraft:gold_ingot]] |
-| [[item:minecraft:gold_nugget]] | Minecraft |  | crafting, [[loot:minecraft:gold_nugget]] |
-| [[item:minecraft:raw_gold]] | Minecraft |  | crafting, [[loot:minecraft:raw_gold]] |
-| [[item:minecraft:copper_ingot]] | Minecraft |  | crafting, [[loot:minecraft:copper_ingot]] |
-| [[item:minecraft:raw_copper]] | Minecraft |  | crafting, [[loot:minecraft:raw_copper]] |
+| [[item:minecraft:iron_ingot]] | Minecraft |  | [[craft:minecraft:iron_ingot]], [[loot:minecraft:iron_ingot]] |
+| [[item:minecraft:iron_nugget]] | Minecraft |  | [[craft:minecraft:iron_nugget]], [[loot:minecraft:iron_nugget]] |
+| [[item:minecraft:raw_iron]] | Minecraft |  | [[craft:minecraft:raw_iron]], [[loot:minecraft:raw_iron]] |
+| [[item:minecraft:gold_ingot]] | Minecraft |  | [[craft:minecraft:gold_ingot]], [[loot:minecraft:gold_ingot]] |
+| [[item:minecraft:gold_nugget]] | Minecraft |  | [[craft:minecraft:gold_nugget]], [[loot:minecraft:gold_nugget]] |
+| [[item:minecraft:raw_gold]] | Minecraft |  | [[craft:minecraft:raw_gold]], [[loot:minecraft:raw_gold]] |
+| [[item:minecraft:copper_ingot]] | Minecraft |  | [[craft:minecraft:copper_ingot]], [[loot:minecraft:copper_ingot]] |
+| [[item:minecraft:raw_copper]] | Minecraft |  | [[craft:minecraft:raw_copper]], [[loot:minecraft:raw_copper]] |
 
 ## Wrought Ingot
 

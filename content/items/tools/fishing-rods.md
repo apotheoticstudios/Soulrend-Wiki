@@ -72,22 +72,22 @@ The **Neptunium Fishing Rod** has Neptune's Song: fish are more likely to bite.
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:aquaculture:diamond_fishing_rod]] | Aquaculture 2 | — | crafting |
-| [[item:aquaculture:gold_fishing_rod]] | Aquaculture 2 | — | crafting |
-| [[item:aquaculture:iron_fishing_rod]] | Aquaculture 2 | — | crafting |
-| [[item:aquaculture:neptunium_fishing_rod]] | Aquaculture 2 | Neptune's Song [SHIFT] | crafting, [[loot:aquaculture:neptunium_fishing_rod]] |
-| [[item:minecraft:fishing_rod]] | Minecraft | — | crafting, [[loot:minecraft:fishing_rod]] |
-| [[item:aquaculture:diamond_hook]] | Aquaculture 2 | Super Durable [SHIFT] | crafting |
-| [[item:aquaculture:double_hook]] | Aquaculture 2 | Double Barb [SHIFT] | crafting |
-| [[item:aquaculture:gold_hook]] | Aquaculture 2 | Lucky [SHIFT] | crafting |
-| [[item:aquaculture:heavy_hook]] | Aquaculture 2 | Heavy [SHIFT] | crafting |
-| [[item:aquaculture:iron_hook]] | Aquaculture 2 | Durable [SHIFT] | crafting |
-| [[item:aquaculture:light_hook]] | Aquaculture 2 | Light [SHIFT] | crafting |
-| [[item:aquaculture:nether_star_hook]] | Aquaculture 2 | Otherworldly [SHIFT] | crafting |
-| [[item:aquaculture:note_hook]] | Aquaculture 2 | Alert [SHIFT] | crafting |
-| [[item:aquaculture:redstone_hook]] | Aquaculture 2 | Enticing [SHIFT] | crafting |
-| [[item:aquaculture:fishing_line]] | Aquaculture 2 |  | crafting |
-| [[item:aquaculture:bobber]] | Aquaculture 2 |  | crafting |
+| [[item:aquaculture:diamond_fishing_rod]] | Aquaculture 2 | — | [[craft:aquaculture:diamond_fishing_rod]] |
+| [[item:aquaculture:gold_fishing_rod]] | Aquaculture 2 | — | [[craft:aquaculture:gold_fishing_rod]] |
+| [[item:aquaculture:iron_fishing_rod]] | Aquaculture 2 | — | [[craft:aquaculture:iron_fishing_rod]] |
+| [[item:aquaculture:neptunium_fishing_rod]] | Aquaculture 2 | Neptune's Song [SHIFT] | [[craft:aquaculture:neptunium_fishing_rod]], [[loot:aquaculture:neptunium_fishing_rod]] |
+| [[item:minecraft:fishing_rod]] | Minecraft | — | [[craft:minecraft:fishing_rod]], [[loot:minecraft:fishing_rod]] |
+| [[item:aquaculture:diamond_hook]] | Aquaculture 2 | Super Durable [SHIFT] | [[craft:aquaculture:diamond_hook]] |
+| [[item:aquaculture:double_hook]] | Aquaculture 2 | Double Barb [SHIFT] | [[craft:aquaculture:double_hook]] |
+| [[item:aquaculture:gold_hook]] | Aquaculture 2 | Lucky [SHIFT] | [[craft:aquaculture:gold_hook]] |
+| [[item:aquaculture:heavy_hook]] | Aquaculture 2 | Heavy [SHIFT] | [[craft:aquaculture:heavy_hook]] |
+| [[item:aquaculture:iron_hook]] | Aquaculture 2 | Durable [SHIFT] | [[craft:aquaculture:iron_hook]] |
+| [[item:aquaculture:light_hook]] | Aquaculture 2 | Light [SHIFT] | [[craft:aquaculture:light_hook]] |
+| [[item:aquaculture:nether_star_hook]] | Aquaculture 2 | Otherworldly [SHIFT] | [[craft:aquaculture:nether_star_hook]] |
+| [[item:aquaculture:note_hook]] | Aquaculture 2 | Alert [SHIFT] | [[craft:aquaculture:note_hook]] |
+| [[item:aquaculture:redstone_hook]] | Aquaculture 2 | Enticing [SHIFT] | [[craft:aquaculture:redstone_hook]] |
+| [[item:aquaculture:fishing_line]] | Aquaculture 2 |  | [[craft:aquaculture:fishing_line]] |
+| [[item:aquaculture:bobber]] | Aquaculture 2 |  | [[craft:aquaculture:bobber]] |
 
 ## Fishing rods
 

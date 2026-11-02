@@ -4,6 +4,7 @@ import { esc, slugify } from './html.js';
 import { ITEM_ID, icon, itemRef, itemName } from './items.js';
 import { jsonErrorLine } from '../../tools/lib/diagnostics.mjs';
 import { createLootViewer } from '../../tools/lib/loot-sources.mjs';
+import { createCrafts } from './crafts.js';
 
 class EmbedError extends Error {}
 
@@ -61,8 +62,9 @@ export function createContext({ site, pages, game, atlas, stations, lootSources,
       return page ? { page, anchor, byTitle: byName.get(name.toLowerCase()) === page } : null;
     },
 
-    // Set just below; needs itemOwner above.
+    // Set just below; need the methods above.
     loot: null,
+    crafts: null,
 
     wikilink(raw, env, line) {
       const bar = raw.indexOf('|');
@@ -93,6 +95,19 @@ export function createContext({ site, pages, game, atlas, stations, lootSources,
         }
         const text = label || (extras ? `${total} source${total === 1 ? '' : 's'}` : `${tables} loot table${tables === 1 ? '' : 's'}`);
         return `<button class="loot-link" type="button" data-loot="${esc(id)}" aria-haspopup="dialog">${esc(text)}</button>`;
+      }
+
+      if (/^craft:/i.test(target)) {
+        const id = target.slice(6).trim();
+        if (!ITEM_ID.test(id)) {
+          report(env, line, `[[${raw}]]: "${id}" is not a valid item id (expected namespace:path)`);
+          return errorHtml(raw);
+        }
+        if (!ctx.crafts.count(id)) {
+          diag.warn(env.page.file, fileLine(env, line), `[[${raw}]]: no exported recipe makes ${id}`);
+          return esc(label || 'crafting');
+        }
+        return `<button class="loot-link" type="button" data-craft="${esc(id)}" aria-haspopup="dialog">${esc(label || 'crafting')}</button>`;
       }
 
       const found = ctx.resolve(target, env.page);
@@ -162,5 +177,6 @@ export function createContext({ site, pages, game, atlas, stations, lootSources,
     },
   };
   ctx.loot = createLootViewer({ game, atlas, overrides: lootSources ?? { labels: {}, extra: {} }, itemOwner: ctx.itemOwner });
+  ctx.crafts = createCrafts(ctx);
   return ctx;
 }

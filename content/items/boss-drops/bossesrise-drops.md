@@ -42,9 +42,9 @@
 | --- | --- | --- | --- |
 | [[item:block_factorys_bosses:dragon_bone]] | Bosses'Rises |  | [[loot:block_factorys_bosses:dragon_bone]] |
 | [[item:block_factorys_bosses:sandworm_dart]] | Bosses'Rises | Shoot Poisonous Dart; Consume health to recharge; (Consume poison if poisoned) | [[loot:block_factorys_bosses:sandworm_dart]] |
-| [[item:block_factorys_bosses:ancient_iron_ingot]] | Bosses'Rises |  | crafting, [[loot:block_factorys_bosses:ancient_iron_ingot]] |
+| [[item:block_factorys_bosses:ancient_iron_ingot]] | Bosses'Rises |  | [[craft:block_factorys_bosses:ancient_iron_ingot]], [[loot:block_factorys_bosses:ancient_iron_ingot]] |
 | [[item:block_factorys_bosses:dragon_shank]] | Bosses'Rises | 4 hunger, 2 saturation |  |
-| [[item:block_factorys_bosses:dragon_guard_shield]] | Bosses'Rises | +1 Armor; +2 Armor Toughness; -10% Speed; 1 Targets per swing | crafting, [[loot:block_factorys_bosses:dragon_guard_shield]] |
+| [[item:block_factorys_bosses:dragon_guard_shield]] | Bosses'Rises | +1 Armor; +2 Armor Toughness; -10% Speed; 1 Targets per swing | [[craft:block_factorys_bosses:dragon_guard_shield]], [[loot:block_factorys_bosses:dragon_guard_shield]] |
 | [[item:astral_calamity_extras:sandworm_scale]] | Astral Calamity Extras | A tough scale of the desert predator. | [[loot:astral_calamity_extras:sandworm_scale]] |
 
 [[item:block_factorys_bosses:dragon_shank]] has its own entry on another page.

@@ -57,14 +57,14 @@ All eight are crafted, and each has an Act III quest. The Eye of Flame quest men
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:cataclysm:desert_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | crafting |
-| [[item:cataclysm:storm_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | crafting |
-| [[item:cataclysm:mech_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | crafting |
-| [[item:cataclysm:flame_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | crafting |
-| [[item:cataclysm:void_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | crafting |
-| [[item:cataclysm:cursed_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | crafting |
-| [[item:cataclysm:monstrous_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | crafting |
-| [[item:cataclysm:abyss_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | crafting |
+| [[item:cataclysm:desert_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | [[craft:cataclysm:desert_eye]] |
+| [[item:cataclysm:storm_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | [[craft:cataclysm:storm_eye]] |
+| [[item:cataclysm:mech_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | [[craft:cataclysm:mech_eye]] |
+| [[item:cataclysm:flame_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | [[craft:cataclysm:flame_eye]] |
+| [[item:cataclysm:void_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | [[craft:cataclysm:void_eye]] |
+| [[item:cataclysm:cursed_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | [[craft:cataclysm:cursed_eye]] |
+| [[item:cataclysm:monstrous_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | [[craft:cataclysm:monstrous_eye]] |
+| [[item:cataclysm:abyss_eye]] | cataclysm | Right Click while pressing SHIFT to enter dimension. | [[craft:cataclysm:abyss_eye]] |
 
 ## Eye of Desert
 

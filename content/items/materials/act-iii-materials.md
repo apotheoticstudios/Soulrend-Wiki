@@ -80,16 +80,16 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:netherite_ingot]] | Minecraft |  | crafting, [[loot:minecraft:netherite_ingot]] |
-| [[item:minecraft:netherite_scrap]] | Minecraft |  | crafting, [[loot:minecraft:netherite_scrap]] |
-| [[item:minecraft:ancient_debris]] | Minecraft |  | crafting, [[loot:minecraft:ancient_debris]] |
+| [[item:minecraft:netherite_ingot]] | Minecraft |  | [[craft:minecraft:netherite_ingot]], [[loot:minecraft:netherite_ingot]] |
+| [[item:minecraft:netherite_scrap]] | Minecraft |  | [[craft:minecraft:netherite_scrap]], [[loot:minecraft:netherite_scrap]] |
+| [[item:minecraft:ancient_debris]] | Minecraft |  | [[craft:minecraft:ancient_debris]], [[loot:minecraft:ancient_debris]] |
 
 ## High Level Vanilla Materials
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:minecraft:nautilus_shell]] | Minecraft |  | [[loot:minecraft:nautilus_shell]] |
-| [[item:minecraft:heart_of_the_sea]] | Minecraft |  | crafting, [[loot:minecraft:heart_of_the_sea]] |
+| [[item:minecraft:heart_of_the_sea]] | Minecraft |  | [[craft:minecraft:heart_of_the_sea]], [[loot:minecraft:heart_of_the_sea]] |
 | [[item:minecraft:nether_star]] | Minecraft |  | [[loot:minecraft:nether_star]] |
 | [[item:minecraft:ghast_tear]] | Minecraft |  | [[loot:minecraft:ghast_tear]] |
 
@@ -97,36 +97,36 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:ebony_ingot]] | dungeons and combat |  | crafting |
+| [[item:dungeons_and_combat:ebony_ingot]] | dungeons and combat |  | [[craft:dungeons_and_combat:ebony_ingot]] |
 
 ## Crimson Ingots
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:crimson_ingot]] | dungeons and combat |  | crafting |
+| [[item:dungeons_and_combat:crimson_ingot]] | dungeons and combat |  | [[craft:dungeons_and_combat:crimson_ingot]] |
 
 ## Crimson Ingot
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:soulsweapons:crimson_ingot]] | Marium's Soulslike Weaponry |  | crafting |
+| [[item:soulsweapons:crimson_ingot]] | Marium's Soulslike Weaponry |  | [[craft:soulsweapons:crimson_ingot]] |
 
 ## Alex's Caves minerals
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:alexscaves:amber_curiosity]] | Alex's Caves |  | [[loot:alexscaves:amber_curiosity]] |
-| [[item:alexscaves:azure_neodymium_ingot]] | Alex's Caves |  | crafting, [[loot:alexscaves:azure_neodymium_ingot]] |
+| [[item:alexscaves:azure_neodymium_ingot]] | Alex's Caves |  | [[craft:alexscaves:azure_neodymium_ingot]], [[loot:alexscaves:azure_neodymium_ingot]] |
 | [[item:alexscaves:ferrouslime_ball]] | Alex's Caves |  | [[loot:alexscaves:ferrouslime_ball]] |
 | [[item:alexscaves:heavy_bone]] | Alex's Caves |  | [[loot:alexscaves:heavy_bone]] |
-| [[item:alexscaves:pearl]] | Alex's Caves |  | crafting, [[loot:alexscaves:pearl]] |
+| [[item:alexscaves:pearl]] | Alex's Caves |  | [[craft:alexscaves:pearl]], [[loot:alexscaves:pearl]] |
 | [[item:alexscaves:pure_darkness]] | Alex's Caves |  | [[loot:alexscaves:pure_darkness]] |
 | [[item:alexscaves:radon_bottle]] | Alex's Caves |  | [[loot:alexscaves:radon_bottle]] |
-| [[item:alexscaves:scarlet_neodymium_ingot]] | Alex's Caves |  | crafting, [[loot:alexscaves:scarlet_neodymium_ingot]] |
+| [[item:alexscaves:scarlet_neodymium_ingot]] | Alex's Caves |  | [[craft:alexscaves:scarlet_neodymium_ingot]], [[loot:alexscaves:scarlet_neodymium_ingot]] |
 | [[item:alexscaves:sulfur_dust]] | Alex's Caves |  | [[loot:alexscaves:sulfur_dust]] |
 | [[item:alexscaves:sweet_tooth]] | Alex's Caves |  | [[loot:alexscaves:sweet_tooth]] |
 | [[item:alexscaves:tough_hide]] | Alex's Caves |  | [[loot:alexscaves:tough_hide]] |
-| [[item:alexscaves:uranium]] | Alex's Caves |  | crafting, [[loot:alexscaves:uranium]] |
+| [[item:alexscaves:uranium]] | Alex's Caves |  | [[craft:alexscaves:uranium]], [[loot:alexscaves:uranium]] |
 
 ## Gilded Ingot
 
