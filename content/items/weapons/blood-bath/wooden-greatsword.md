@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "12"],
-      ["Attack speed", "1.15"]
+      ["Attack speed", "1.15"],
+      ["Average DPS", "[[dps:epicfight:wooden_greatsword]]"]
     ]
   },
   "items": ["epicfight:wooden_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 1.15 |
+| Average DPS | [[dps:epicfight:wooden_greatsword]] |
 | Impact | 3.3 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

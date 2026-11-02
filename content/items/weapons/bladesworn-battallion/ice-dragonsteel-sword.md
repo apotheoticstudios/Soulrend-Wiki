@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "25"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:iceandfire:dragonsteel_ice_sword]]"]
     ]
   },
   "items": ["iceandfire:dragonsteel_ice_sword"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 25 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:iceandfire:dragonsteel_ice_sword]] |
 | Impact | 3.3 |
 | Targets per swing | 6 |
 | Armor Negation | 45% |

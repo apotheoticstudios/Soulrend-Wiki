@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "21.6"],
-      ["Attack speed", "1.36"]
+      ["Attack speed", "1.36"],
+      ["Average DPS", "[[dps:simplyswords:stormbringer]]"]
     ]
   },
   "items": ["simplyswords:stormbringer"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 21.6 |
 | Attack Speed | 1.36 |
+| Average DPS | [[dps:simplyswords:stormbringer]] |
 | Impact | 2.5 |
 | Targets per swing | 4 |
 | Armor Negation | 5.5% |

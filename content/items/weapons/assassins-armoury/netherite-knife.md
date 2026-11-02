@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "2.10"]
+      ["Attack speed", "2.10"],
+      ["Average DPS", "[[dps:epicfight_dd:netherite_knife]]"]
     ]
   },
   "items": ["epicfight_dd:netherite_knife"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 2.10 |
+| Average DPS | [[dps:epicfight_dd:netherite_knife]] |
 | Impact | 1.4 |
 | Targets per swing | 5 |
 | Armor Negation | 18% |

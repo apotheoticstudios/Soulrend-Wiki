@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "23"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:cataclysm:ceraunus]]"]
     ]
   },
   "items": ["cataclysm:ceraunus"]
@@ -36,6 +37,7 @@ It is made at a [[item:cataclysm:mechanical_fusion_anvil]] by fusing a [[item:si
 | --- | --- |
 | Attack Damage | 23 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:cataclysm:ceraunus]] |
 | Impact | 5 |
 | Targets per swing | 4 |
 | Armor Negation | 10% |

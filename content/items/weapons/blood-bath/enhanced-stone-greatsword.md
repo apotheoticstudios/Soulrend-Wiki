@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "14"],
-      ["Attack speed", "1.05"]
+      ["Attack speed", "1.05"],
+      ["Average DPS", "[[dps:cdmoveset:s_stone_greatsword]]"]
     ]
   },
   "items": ["cdmoveset:s_stone_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 14 |
 | Attack Speed | 1.05 |
+| Average DPS | [[dps:cdmoveset:s_stone_greatsword]] |
 | Impact | 4.7 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

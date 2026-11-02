@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.55"]
+      ["Attack speed", "1.55"],
+      ["Average DPS", "[[dps:epicfight_dd:iron_light_greatsword]]"]
     ]
   },
   "items": ["epicfight_dd:iron_light_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.55 |
+| Average DPS | [[dps:epicfight_dd:iron_light_greatsword]] |
 | Impact | 1.3 |
 | Targets per swing | 6 |
 | Entity Reach | 3 |

@@ -97,6 +97,18 @@ export function createContext({ site, pages, game, atlas, stations, lootSources,
         return `<button class="loot-link" type="button" data-loot="${esc(id)}" aria-haspopup="dialog">${esc(text)}</button>`;
       }
 
+      if (/^dps:/i.test(target)) {
+        const id = target.slice(4).trim();
+        if (!ITEM_ID.test(id)) {
+          report(env, line, `[[${raw}]]: "${id}" is not a valid item id (expected namespace:path)`);
+          return errorHtml(raw);
+        }
+        const d = game.dps[id];
+        if (!d) return '—';
+        const title = `${d.hits.length} hits in ${d.cycle} s: ${d.hits.join(', ')}`;
+        return `<span class="dps" title="${esc(title)}">${d.dps.toFixed(1)}</span>`;
+      }
+
       if (/^craft:/i.test(target)) {
         const id = target.slice(6).trim();
         if (!ITEM_ID.test(id)) {

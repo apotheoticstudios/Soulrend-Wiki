@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.80"]
+      ["Attack speed", "1.80"],
+      ["Average DPS", "[[dps:epicfight_dd:vitreus]]"]
     ]
   },
   "items": ["epicfight_dd:vitreus"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.80 |
+| Average DPS | [[dps:epicfight_dd:vitreus]] |
 | Impact | 2.1 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

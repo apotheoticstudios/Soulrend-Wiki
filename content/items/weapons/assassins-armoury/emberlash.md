@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "17.66"],
-      ["Attack speed", "1.59"]
+      ["Attack speed", "1.59"],
+      ["Average DPS", "[[dps:simplyswords:emberlash]]"]
     ]
   },
   "items": ["simplyswords:emberlash"]
@@ -36,6 +37,7 @@
 | --- | --- |
 | Attack Damage | 17.66 |
 | Attack Speed | 1.59 |
+| Average DPS | [[dps:simplyswords:emberlash]] |
 | Impact | 1.9 |
 | Targets per swing | 5 |
 | Armor Negation | 6.9% |

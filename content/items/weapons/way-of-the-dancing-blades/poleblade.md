@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "4"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:epicfight_dd:poleblade]]"]
     ]
   },
   "items": ["epicfight_dd:poleblade"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 4 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:epicfight_dd:poleblade]] |
 | Impact | 0.82 |
 | Targets per swing | 9 |
 | Entity Reach | 3 |

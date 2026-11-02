@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Traveloptics:aquatic"],
       ["Attack damage", "15"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:traveloptics:trident_of_the_eternal_maelstrom]]"]
     ]
   },
   "items": [
@@ -48,6 +49,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:traveloptics:trident_of_the_eternal_maelstrom]] |
 | Impact | 2.2 |
 | Targets per swing | 7 |
 | Armor Negation | 15% |
@@ -70,6 +72,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:traveloptics:trident_of_the_eternal_maelstrom_level_one]] |
 | Impact | 2.4 |
 | Targets per swing | 7 |
 | Armor Negation | 15% |
@@ -92,6 +95,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:traveloptics:trident_of_the_eternal_maelstrom_level_three]] |
 | Impact | 2.8 |
 | Targets per swing | 7 |
 | Armor Negation | 25% |
@@ -114,6 +118,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:traveloptics:trident_of_the_eternal_maelstrom_level_two]] |
 | Impact | 2.6 |
 | Targets per swing | 7 |
 | Armor Negation | 20% |

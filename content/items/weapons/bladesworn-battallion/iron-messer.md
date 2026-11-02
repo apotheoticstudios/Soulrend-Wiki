@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "1.90"]
+      ["Attack speed", "1.90"],
+      ["Average DPS", "[[dps:epicfight_dd:iron_messer]]"]
     ]
   },
   "items": ["epicfight_dd:iron_messer"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 1.90 |
+| Average DPS | [[dps:epicfight_dd:iron_messer]] |
 | Impact | 1.5 |
 | Targets per swing | 6 |
 | Armor Negation | 5% |

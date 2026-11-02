@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "11.5"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:dungeons_and_combat:cryolite_greatsword]]"]
     ]
   },
   "items": ["dungeons_and_combat:cryolite_greatsword", "dungeons_and_combat:molten_cryolite_greatsword"]
@@ -41,6 +42,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11.5 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:dungeons_and_combat:cryolite_greatsword]] |
 | Impact | 4.5 |
 | Targets per swing | 5 |
 | Armor Negation | 10% |
@@ -61,6 +63,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11.5 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:dungeons_and_combat:molten_cryolite_greatsword]] |
 | Impact | 4.5 |
 | Targets per swing | 5 |
 | Armor Negation | 10% |

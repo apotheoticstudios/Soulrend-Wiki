@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "21"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:soulsweapons:soul_reaper]]"]
     ]
   },
   "items": ["soulsweapons:soul_reaper"]
@@ -45,6 +46,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 21 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:soulsweapons:soul_reaper]] |
 | Impact | 3 |
 | Targets per swing | 10 |
 | Armor Negation | 20% |

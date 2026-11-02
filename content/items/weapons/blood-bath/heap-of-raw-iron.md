@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.10"]
+      ["Attack speed", "1.10"],
+      ["Average DPS", "[[dps:soulsweapons:guts_sword]]"]
     ]
   },
   "items": ["soulsweapons:guts_sword"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.10 |
+| Average DPS | [[dps:soulsweapons:guts_sword]] |
 | Impact | 3 |
 | Targets per swing | 10 |
 | Armor Negation | 20% |

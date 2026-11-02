@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:diamond_tachi]]"]
     ]
   },
   "items": ["epicfight:diamond_tachi"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:diamond_tachi]] |
 | Impact | 2.8 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

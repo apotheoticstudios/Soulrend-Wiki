@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9.6"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:dungeons_and_combat:molten_bone_greatsword]]"]
     ]
   },
   "items": ["dungeons_and_combat:molten_bone_greatsword"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9.6 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:dungeons_and_combat:molten_bone_greatsword]] |
 | Impact | 2.5 |
 | Targets per swing | 5 |
 | Armor Negation | 10% |

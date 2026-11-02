@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "2.20"]
+      ["Attack speed", "2.20"],
+      ["Average DPS", "[[dps:epicfight_dd:iron_sickle]]"]
     ]
   },
   "items": ["epicfight_dd:iron_sickle"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 2.20 |
+| Average DPS | [[dps:epicfight_dd:iron_sickle]] |
 | Impact | 1 |
 | Targets per swing | 4 |
 | Armor Negation | 10% |

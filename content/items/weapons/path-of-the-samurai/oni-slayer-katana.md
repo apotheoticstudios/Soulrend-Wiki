@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:dungeons_and_combat:long_katana]]"]
     ]
   },
   "items": ["dungeons_and_combat:long_katana"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:dungeons_and_combat:long_katana]] |
 | Impact | 1.1 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

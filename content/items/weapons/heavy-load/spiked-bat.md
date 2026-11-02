@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:epicfight_dd:nailbat]]"]
     ]
   },
   "items": ["epicfight_dd:nailbat"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:epicfight_dd:nailbat]] |
 | Impact | 3 |
 | Targets per swing | 6 |
 | Armor Negation | 10% |

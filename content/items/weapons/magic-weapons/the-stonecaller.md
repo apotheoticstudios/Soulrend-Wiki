@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:gtbcs_geomancy_plus:the_stonecaller]]"]
     ]
   },
   "items": ["gtbcs_geomancy_plus:the_stonecaller"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:gtbcs_geomancy_plus:the_stonecaller]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Cooldown Reduction | +10% |

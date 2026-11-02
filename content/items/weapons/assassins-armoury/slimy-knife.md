@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "15"],
-      ["Attack speed", "2.10"]
+      ["Attack speed", "2.10"],
+      ["Average DPS", "[[dps:dungeons_and_combat:slimy_knife]]"]
     ]
   },
   "items": ["dungeons_and_combat:slimy_knife"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 2.10 |
+| Average DPS | [[dps:dungeons_and_combat:slimy_knife]] |
 | Impact | 1.3 |
 | Targets per swing | 2 |
 | Armor Negation | 25% |

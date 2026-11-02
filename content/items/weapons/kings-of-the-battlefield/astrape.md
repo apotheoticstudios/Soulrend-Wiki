@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "15"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:cataclysm:astrape]]"]
     ]
   },
   "items": ["cataclysm:astrape"]
@@ -40,6 +41,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:cataclysm:astrape]] |
 | Targets per swing | 5 |
 | Armor Negation | 30% |
 | Entity Reach | 4 |

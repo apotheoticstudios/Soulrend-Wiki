@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "11.5"],
-      ["Attack speed", "2.75"]
+      ["Attack speed", "2.75"],
+      ["Average DPS", "[[dps:dungeons_and_combat:blessed_gold_sickle]]"]
     ]
   },
   "items": ["dungeons_and_combat:blessed_gold_sickle"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11.5 |
 | Attack Speed | 2.75 |
+| Average DPS | [[dps:dungeons_and_combat:blessed_gold_sickle]] |
 | Impact | 1.8 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

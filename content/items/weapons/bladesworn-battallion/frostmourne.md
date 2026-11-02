@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:soulsweapons:frostmourne]]"]
     ]
   },
   "items": ["soulsweapons:frostmourne"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:soulsweapons:frostmourne]] |
 | Impact | 1.3 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

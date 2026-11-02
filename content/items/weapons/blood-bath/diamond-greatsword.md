@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "15"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:epicfight:diamond_greatsword]]"]
     ]
   },
   "items": ["epicfight:diamond_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:epicfight:diamond_greatsword]] |
 | Impact | 4.5 |
 | Targets per swing | 5 |
 | Armor Negation | 10% |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:epicfight_dd:diamond_halberd]]"]
     ]
   },
   "items": ["epicfight_dd:diamond_halberd"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:epicfight_dd:diamond_halberd]] |
 | Impact | 2 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

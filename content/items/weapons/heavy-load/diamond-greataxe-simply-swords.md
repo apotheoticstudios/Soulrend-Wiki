@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.01"]
+      ["Attack speed", "1.01"],
+      ["Average DPS", "[[dps:simplyswords:diamond_greataxe]]"]
     ]
   },
   "items": ["simplyswords:diamond_greataxe"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.01 |
+| Average DPS | [[dps:simplyswords:diamond_greataxe]] |
 | Impact | 3.3 |
 | Targets per swing | 5 |
 | Armor Negation | 15% |

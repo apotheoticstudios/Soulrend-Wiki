@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:dungeons_and_combat:stone_spear]]"]
     ]
   },
   "items": ["dungeons_and_combat:stone_spear"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:dungeons_and_combat:stone_spear]] |
 | Impact | 2.4 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

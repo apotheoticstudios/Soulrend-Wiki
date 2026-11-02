@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "13"],
-      ["Attack speed", "1.90"]
+      ["Attack speed", "1.90"],
+      ["Average DPS", "[[dps:wom:antitheus]]"]
     ]
   },
   "items": ["wom:antitheus"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 13 |
 | Attack Speed | 1.90 |
+| Average DPS | [[dps:wom:antitheus]] |
 | Impact | 2.6 |
 | Targets per swing | 7 |
 | Armor Negation | 20% |

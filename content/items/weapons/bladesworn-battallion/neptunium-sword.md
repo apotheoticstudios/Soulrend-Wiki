@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7.5"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:aquaculture:neptunium_sword]]"]
     ]
   },
   "items": ["aquaculture:neptunium_sword"]
@@ -44,6 +45,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7.5 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:aquaculture:neptunium_sword]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 14 |

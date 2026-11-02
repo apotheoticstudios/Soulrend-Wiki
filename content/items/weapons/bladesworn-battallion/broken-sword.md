@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5.5"],
-      ["Attack speed", "2.60"]
+      ["Attack speed", "2.60"],
+      ["Average DPS", "[[dps:dungeons_and_combat:broken_sword]]"]
     ]
   },
   "items": ["dungeons_and_combat:broken_sword"]
@@ -44,6 +45,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5.5 |
 | Attack Speed | 2.60 |
+| Average DPS | [[dps:dungeons_and_combat:broken_sword]] |
 | Impact | 1.3 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

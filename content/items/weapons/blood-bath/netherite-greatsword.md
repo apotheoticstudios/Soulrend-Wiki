@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "16"],
-      ["Attack speed", "0.95"]
+      ["Attack speed", "0.95"],
+      ["Average DPS", "[[dps:epicfight:netherite_greatsword]]"]
     ]
   },
   "items": ["epicfight:netherite_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 16 |
 | Attack Speed | 0.95 |
+| Average DPS | [[dps:epicfight:netherite_greatsword]] |
 | Impact | 4.9 |
 | Targets per swing | 5 |
 | Armor Negation | 20% |

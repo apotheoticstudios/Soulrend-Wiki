@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "14"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:wom:tormented_mind]]"]
     ]
   },
   "items": ["wom:tormented_mind"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 14 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:wom:tormented_mind]] |
 | Impact | 3.3 |
 | Targets per swing | 5 |
 | Armor Negation | 35% |

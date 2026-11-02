@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "14.65"],
-      ["Attack speed", "1.31"]
+      ["Attack speed", "1.31"],
+      ["Average DPS", "[[dps:simplyswords:runic_glaive]]"]
     ]
   },
   "items": ["simplyswords:runic_glaive"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 14.65 |
 | Attack Speed | 1.31 |
+| Average DPS | [[dps:simplyswords:runic_glaive]] |
 | Impact | 2.5 |
 | Targets per swing | 5 |
 | Armor Negation | 33.3% |

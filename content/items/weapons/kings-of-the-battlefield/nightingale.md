@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:epicfight_dd:nightingale]]"]
     ]
   },
   "items": ["epicfight_dd:nightingale"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:epicfight_dd:nightingale]] |
 | Impact | 2.3 |
 | Targets per swing | 5 |
 | Armor Negation | 12% |

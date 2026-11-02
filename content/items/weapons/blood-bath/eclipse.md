@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:epicfight_dd:eclipse]]"]
     ]
   },
   "items": ["epicfight_dd:eclipse"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:epicfight_dd:eclipse]] |
 | Impact | 1.5 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

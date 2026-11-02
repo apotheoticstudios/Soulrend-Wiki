@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "2"],
-      ["Attack speed", "1.75"]
+      ["Attack speed", "1.75"],
+      ["Average DPS", "[[dps:wom:wooden_staff]]"]
     ]
   },
   "items": ["wom:wooden_staff"]
@@ -39,6 +40,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 2 | 2 |
 | Attack Speed | 1.75 | 1.75 |
+| Average DPS | [[dps:wom:wooden_staff]] |
 | Targets per swing | 1 | 3 |
 | Entity Reach | 3 | 3 |
 | Enchantability | 5 |  |

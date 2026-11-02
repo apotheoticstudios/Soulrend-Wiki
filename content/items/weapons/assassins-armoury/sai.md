@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "4"],
-      ["Attack speed", "2.50"]
+      ["Attack speed", "2.50"],
+      ["Average DPS", "[[dps:samurai_dynasty:sai]]"]
     ]
   },
   "items": ["samurai_dynasty:sai"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 4 |
 | Attack Speed | 2.50 |
+| Average DPS | [[dps:samurai_dynasty:sai]] |
 | Impact | 1.2 |
 | Targets per swing | 1 |
 | Entity Reach | 3 |

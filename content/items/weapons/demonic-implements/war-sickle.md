@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:epicfight_dd:war_sickle]]"]
     ]
   },
   "items": ["epicfight_dd:war_sickle"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:epicfight_dd:war_sickle]] |
 | Impact | 2.3 |
 | Targets per swing | 7 |
 | Entity Reach | 3 |

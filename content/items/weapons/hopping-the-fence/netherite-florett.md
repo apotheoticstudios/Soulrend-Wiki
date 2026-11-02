@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.85"]
+      ["Attack speed", "1.85"],
+      ["Average DPS", "[[dps:epicfight_dd:netherite_florett]]"]
     ]
   },
   "items": ["epicfight_dd:netherite_florett"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.85 |
+| Average DPS | [[dps:epicfight_dd:netherite_florett]] |
 | Impact | 2.3 |
 | Targets per swing | 6 |
 | Armor Negation | 15% |

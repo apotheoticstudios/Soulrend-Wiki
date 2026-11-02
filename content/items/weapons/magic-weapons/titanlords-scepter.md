@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Traveloptics:toxic"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:traveloptics:titanlord_scepter]]"]
     ]
   },
   "items": [
@@ -45,6 +46,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:traveloptics:titanlord_scepter]] |
 | Impact | 1.8 |
 | Targets per swing | 4 |
 | Armor Negation | 5% |
@@ -67,6 +69,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:traveloptics:titanlord_scepter_retro]] |
 | Impact | 1.8 |
 | Targets per swing | 4 |
 | Armor Negation | 5% |
@@ -89,6 +92,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:traveloptics:titanlord_scepter_tectonic]] |
 | Impact | 1.8 |
 | Targets per swing | 4 |
 | Armor Negation | 5% |

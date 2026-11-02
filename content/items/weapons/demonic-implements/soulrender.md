@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "14.6"],
-      ["Attack speed", "1.42"]
+      ["Attack speed", "1.42"],
+      ["Average DPS", "[[dps:simplyswords:soulrender]]"]
     ]
   },
   "items": ["simplyswords:soulrender"]
@@ -40,6 +41,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 14.6 |
 | Attack Speed | 1.42 |
+| Average DPS | [[dps:simplyswords:soulrender]] |
 | Impact | 2.5 |
 | Targets per swing | 6 |
 | Armor Negation | 66.6% |

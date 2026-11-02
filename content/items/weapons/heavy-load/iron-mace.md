@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6.4"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:dungeons_and_combat:iron_mace]]"]
     ]
   },
   "items": ["dungeons_and_combat:iron_mace"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6.4 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:dungeons_and_combat:iron_mace]] |
 | Impact | 1.5 |
 | Targets per swing | 3 |
 | Armor Negation | 5% |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:stone_spear]]"]
     ]
   },
   "items": ["epicfight:stone_spear"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:stone_spear]] |
 | Impact | 1.8 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

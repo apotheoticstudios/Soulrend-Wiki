@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "3.00"]
+      ["Attack speed", "3.00"],
+      ["Average DPS", "[[dps:immersive_weathering:ice_sickle]]"]
     ]
   },
   "items": ["immersive_weathering:ice_sickle"]
@@ -43,6 +44,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 3.00 |
+| Average DPS | [[dps:immersive_weathering:ice_sickle]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 10 |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:iceandfire:dragonbone_sword_lightning]]"]
     ]
   },
   "items": ["iceandfire:dragonbone_sword_lightning"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:iceandfire:dragonbone_sword_lightning]] |
 | Impact | 2.7 |
 | Targets per swing | 5 |
 | Armor Negation | 20% |

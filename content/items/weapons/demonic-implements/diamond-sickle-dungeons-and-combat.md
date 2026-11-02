@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5.5"],
-      ["Attack speed", "2.50"]
+      ["Attack speed", "2.50"],
+      ["Average DPS", "[[dps:dungeons_and_combat:diamond_sickle]]"]
     ]
   },
   "items": ["dungeons_and_combat:diamond_sickle"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5.5 |
 | Attack Speed | 2.50 |
+| Average DPS | [[dps:dungeons_and_combat:diamond_sickle]] |
 | Impact | 1.1 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

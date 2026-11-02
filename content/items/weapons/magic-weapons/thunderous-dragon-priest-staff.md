@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "8"],
-      ["Attack speed", "2.75"]
+      ["Attack speed", "2.75"],
+      ["Average DPS", "[[dps:ice_and_fire_spellbooks:thunderous_dragon_priest_staff]]"]
     ]
   },
   "items": ["ice_and_fire_spellbooks:thunderous_dragon_priest_staff"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 2.75 |
+| Average DPS | [[dps:ice_and_fire_spellbooks:thunderous_dragon_priest_staff]] |
 | Impact | 1.8 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

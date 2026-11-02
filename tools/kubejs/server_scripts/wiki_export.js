@@ -128,17 +128,20 @@ function wikiWriteRecipes(server) {
     let live = {}
     let late = {}
     let lateFailed = 0
-    server.getRecipeManager().getRecipes().forEach(recipe => {
-        let id = String(recipe.getId())
-        live[id] = true
-        if (wikiPendingRecipes[id]) return
-        try {
-            let json = wikiSerializeLive(recipe, server)
-            if (json) late[id] = json
-            else lateFailed++
-        } catch (error) {
-            lateFailed++
-        }
+    // getRecipes() resolves to the manager's per-type map here (type -> id -> recipe), so walk it by entry.
+    wikiEachEntry(server.getRecipeManager().getRecipes(), (type, byId) => {
+        wikiEachEntry(byId, (location, recipe) => {
+            let id = String(location)
+            live[id] = true
+            if (wikiPendingRecipes[id]) return
+            try {
+                let json = wikiSerializeLive(recipe, server)
+                if (json) late[id] = json
+                else lateFailed++
+            } catch (error) {
+                lateFailed++
+            }
+        })
     })
     let recipes = {}
     let removed = []

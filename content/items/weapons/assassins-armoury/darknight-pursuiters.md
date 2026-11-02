@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "5"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:epicfight_awaken:darknight_pursuiters]]"]
     ]
   },
   "items": ["epicfight_awaken:darknight_pursuiters"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:epicfight_awaken:darknight_pursuiters]] |
 | Impact | 2.5 |
 | Targets per swing | 11 |
 | Armor Negation | 20% |

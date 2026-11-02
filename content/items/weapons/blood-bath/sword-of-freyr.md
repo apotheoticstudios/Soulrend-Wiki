@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:freyr_sword]]"]
     ]
   },
   "items": ["soulsweapons:freyr_sword"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:freyr_sword]] |
 | Impact | 2.5 |
 | Targets per swing | 6 |
 | Armor Negation | 50% |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:samurai_dynasty:katana]]"]
     ]
   },
   "items": ["samurai_dynasty:katana"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:samurai_dynasty:katana]] |
 | Impact | 1.2 |
 | Targets per swing | 1 |
 | Entity Reach | 3 |

@@ -8,7 +8,8 @@
       ["Type", "Greatsword"],
       ["Rarity", "Epic"],
       ["Attack damage", "18"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:efn:broadblade]]"]
     ]
   },
   "items": ["efn:broadblade"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 18 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:efn:broadblade]] |
 | Impact | 3.5 |
 | Targets per swing | 6 |
 | Armor Negation | 30% |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "20.3"],
-      ["Attack speed", "1.35"]
+      ["Attack speed", "1.35"],
+      ["Average DPS", "[[dps:simplyswords:watching_warglaive]]"]
     ]
   },
   "items": ["simplyswords:watching_warglaive"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 20.3 |
 | Attack Speed | 1.35 |
+| Average DPS | [[dps:simplyswords:watching_warglaive]] |
 | Impact | 1.8 |
 | Targets per swing | 4 |
 | Armor Negation | 6.6% |

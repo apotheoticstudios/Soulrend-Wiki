@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:soulsweapons:lich_bane]]"]
     ]
   },
   "items": ["soulsweapons:lich_bane"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:soulsweapons:lich_bane]] |
 | Impact | 1.3 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

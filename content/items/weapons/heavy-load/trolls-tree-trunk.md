@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "17"],
-      ["Attack speed", "0.50"]
+      ["Attack speed", "0.50"],
+      ["Average DPS", "[[dps:iceandfire:troll_weapon_trunk]]"]
     ]
   },
   "items": ["iceandfire:troll_weapon_trunk"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 17 |
 | Attack Speed | 0.50 |
+| Average DPS | [[dps:iceandfire:troll_weapon_trunk]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 1 |

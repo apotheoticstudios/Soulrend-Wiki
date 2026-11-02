@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:epicfight_dd:iudex_gundyr_halberd]]"]
     ]
   },
   "items": ["epicfight_dd:iudex_gundyr_halberd"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:epicfight_dd:iudex_gundyr_halberd]] |
 | Impact | 3 |
 | Targets per swing | 7 |
 | Armor Negation | 20% |

@@ -11,6 +11,7 @@
     "models": "node tools/make-models.mjs",
     "forge": "node tools/make-dragonforge.mjs",
     "attacks": "node tools/make-attacks.mjs",
+    "dps": "node tools/make-dps.mjs",
     "skin": "node tools/set-skin.mjs",
     "mods": "node --env-file-if-exists=.env tools/curseforge-mods.mjs"
   },

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "1.95"]
+      ["Attack speed", "1.95"],
+      ["Average DPS", "[[dps:epicfight_dd:iron_florett]]"]
     ]
   },
   "items": ["epicfight_dd:iron_florett"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 1.95 |
+| Average DPS | [[dps:epicfight_dd:iron_florett]] |
 | Impact | 1.5 |
 | Targets per swing | 4 |
 | Armor Negation | 5% |

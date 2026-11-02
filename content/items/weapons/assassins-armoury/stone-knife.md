@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "3.5"],
-      ["Attack speed", "2.40"]
+      ["Attack speed", "2.40"],
+      ["Average DPS", "[[dps:dungeons_and_combat:stone_knife]]"]
     ]
   },
   "items": ["dungeons_and_combat:stone_knife"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 3.5 |
 | Attack Speed | 2.40 |
+| Average DPS | [[dps:dungeons_and_combat:stone_knife]] |
 | Impact | 1.3 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

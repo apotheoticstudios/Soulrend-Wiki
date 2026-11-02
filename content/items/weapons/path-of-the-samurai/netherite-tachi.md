@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:netherite_tachi]]"]
     ]
   },
   "items": ["epicfight:netherite_tachi"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:netherite_tachi]] |
 | Impact | 3.1 |
 | Targets per swing | 3 |
 | Armor Negation | 10% |

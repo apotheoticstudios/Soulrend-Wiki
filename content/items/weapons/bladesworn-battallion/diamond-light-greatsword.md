@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:epicfight_dd:diamond_light_greatsword]]"]
     ]
   },
   "items": ["epicfight_dd:diamond_light_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:epicfight_dd:diamond_light_greatsword]] |
 | Impact | 1.7 |
 | Targets per swing | 6 |
 | Entity Reach | 3 |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Traveloptics:void"],
       ["Attack damage", "22"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:traveloptics:stellothorn]]"]
     ]
   },
   "items": [
@@ -49,6 +50,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 22 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:traveloptics:stellothorn]] |
 | Impact | 2.1 |
 | Targets per swing | 10 |
 | Armor Negation | 20% |
@@ -71,6 +73,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 22 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:traveloptics:stellothorn_level_one]] |
 | Impact | 2.1 |
 | Targets per swing | 10 |
 | Armor Negation | 20% |
@@ -93,6 +96,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 22 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:traveloptics:stellothorn_level_three]] |
 | Impact | 2.3 |
 | Targets per swing | 10 |
 | Armor Negation | 30% |
@@ -115,6 +119,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 22 |
 | Attack Speed | 1.35 |
+| Average DPS | [[dps:traveloptics:stellothorn_level_two]] |
 | Impact | 2.2 |
 | Targets per swing | 10 |
 | Armor Negation | 25% |

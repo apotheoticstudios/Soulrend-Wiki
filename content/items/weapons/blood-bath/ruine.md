@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "12"],
-      ["Attack speed", "1.55"]
+      ["Attack speed", "1.55"],
+      ["Average DPS", "[[dps:wom:ruine]]"]
     ]
   },
   "items": ["wom:ruine"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 1.55 |
+| Average DPS | [[dps:wom:ruine]] |
 | Impact | 1.9 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

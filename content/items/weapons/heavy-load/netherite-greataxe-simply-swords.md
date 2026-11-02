@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "13.8"],
-      ["Attack speed", "1.04"]
+      ["Attack speed", "1.04"],
+      ["Average DPS", "[[dps:simplyswords:netherite_greataxe]]"]
     ]
   },
   "items": ["simplyswords:netherite_greataxe"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 13.8 |
 | Attack Speed | 1.04 |
+| Average DPS | [[dps:simplyswords:netherite_greataxe]] |
 | Impact | 3.9 |
 | Targets per swing | 6 |
 | Armor Negation | 20% |

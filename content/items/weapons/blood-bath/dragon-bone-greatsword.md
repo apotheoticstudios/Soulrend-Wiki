@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:dungeons_and_combat:dragon_greatsword_bone]]"]
     ]
   },
   "items": ["dungeons_and_combat:dragon_greatsword_bone"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:dungeons_and_combat:dragon_greatsword_bone]] |
 | Impact | 4.5 |
 | Targets per swing | 5 |
 | Armor Negation | 10% |

@@ -10,7 +10,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "14"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:efn:hf_blade]]"]
     ]
   },
   "items": ["efn:hf_blade"]
@@ -39,6 +40,7 @@ High-frequency Alloy-Re is made at a Smithing Table too, from a High-frequency A
 | --- | --- |
 | Attack Damage | 14 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:efn:hf_blade]] |
 | Impact | 2.5 |
 | Targets per swing | 9 |
 | Armor Negation | 50% |

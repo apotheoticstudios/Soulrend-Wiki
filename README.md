@@ -83,6 +83,7 @@ The header between the `---` lines is strict JSON (no comments, no trailing comm
 | `[[guides/getting-started\|the guide]]` | Link by path, with custom text. |
 | `[[Getting Started#Learning magic]]`, `[[#Usage]]` | Link to a section. |
 | `[[item:minecraft:diamond]]` | Icon, name and tooltip, linked to the page that lists the item in `items`. |
+| `[[dps:minecraft:iron_sword]]` | The weapon's average DPS over its basic combo (`game-data/dps.json`, from `npm run dps`), or a dash when it has none. The hover text lists each hit's damage. |
 | `[[craft:minecraft:torch]]` | The word "crafting" (or `[[craft:id\|other text]]`). Hovering previews the first recipe and clicking lists every recipe that makes the item. |
 | `[[loot:minecraft:diamond]]` | "382 loot tables", counted at build time. Hovering previews the likeliest sources and clicking lists them all with their chances. Source names and icons are automatic; correct them, or add drops that aren't in loot tables, in `site/loot-sources.json`. A dev build lists the automatic names in `dist-dev/__dev/loot-labels.json`. |
 | `[link](/assets/maps/world.png)` | Paths starting with `/` are site-relative. |
@@ -255,6 +256,8 @@ The `moveset` embed starts with a viewer that plays every attack of a weapon typ
 Nothing is hand-placed. The animations, attack phases and hitboxes come from each Epic Fight add-on's own registration code (replayed in the bytecode interpreter), SEpicfied's `data_driven/` JSON and clip files that declare their own phases; the dummies' positions and hit times come from sweeping those hitboxes over each phase's hit window, with the weapon's max strikes deciding how many dummies there are. The settings are under `"$attacks"` in `tools/models/mobs.json`: the skin, the dummy and horse models, the most dummies per attack, how far they stand from the player, and which item a weapon type holds when the automatic pick is wrong (`"items"`).
 
 **Changing the skin:** `npm run skin -- path/to/skin.png` copies a 64×64 Minecraft skin over `assets/john_soulrend/skin.png` and rebuilds only the player (a second). Slim (Alex) arms are detected from the skin; add `--slim` or `--wide` to choose, `--auto` to go back to detecting. `npm run skin` with no file rebuilds the player from the current skin.
+
+**DPS:** `npm run dps` (`tools/make-dps.mjs`, about 5 s) writes `game-data/dps.json`. Per weapon it takes the tooltip's Attack Damage and Attack Speed, the default style's "Auto N" animations from `attacks.json`, and each animation's phases from the replayed registry. Hit damage is Attack Damage through the phase's `DAMAGE_MODIFIER`; playback speed is Epic Fight's `1 + (attackSpeed / BASIS_ATTACK_SPEED - 1) × ATTACK_SPEED_FACTOR` (Epic Fight Extra's animations use its per-weapon basis, capped at 1.5); the next input is accepted at the last phase's `recovery`. DPS is the looped combo's total damage over that time, against one unarmored target, without crits, enchantments or `EXTRA_DAMAGE`. Rerun it after `sync-game` or `attacks`.
 
 Other models can be exported from Blockbench as glTF (`File → Export → Export glTF Model`, binary `.glb`), put in `assets/`, and embedded with `{{model path.glb}}`. three.js only downloads on pages that have a model.
 

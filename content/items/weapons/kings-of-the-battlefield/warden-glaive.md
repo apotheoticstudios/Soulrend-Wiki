@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "7.8"],
-      ["Attack speed", "1.31"]
+      ["Attack speed", "1.31"],
+      ["Average DPS", "[[dps:knavesneeds:deeperdarker/warden/glaive]]"]
     ]
   },
   "items": ["knavesneeds:deeperdarker/warden/glaive"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7.8 |
 | Attack Speed | 1.31 |
+| Average DPS | [[dps:knavesneeds:deeperdarker/warden/glaive]] |
 | Impact | 2.6 |
 | Targets per swing | 5 |
 | Armor Negation | 33.3% |

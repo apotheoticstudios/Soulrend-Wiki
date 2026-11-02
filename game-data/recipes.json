@@ -11152,6 +11152,55 @@
    "count": 1
   }
  },
+ "apotheosis:beeshelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:beeshelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:honeycomb"
+   },
+   "B": {
+    "item": "minecraft:beehive"
+   },
+   "C": {
+    "item": "minecraft:honey_block"
+   },
+   "D": {
+    "tag": "forge:bookshelves"
+   }
+  },
+  "pattern": [
+   "ABA",
+   "CDC",
+   "ABA"
+  ]
+ },
+ "apotheosis:blazing_hellshelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:blazing_hellshelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:fire_charge"
+   },
+   "B": {
+    "item": "apotheosis:infused_hellshelf"
+   },
+   "C": {
+    "item": "minecraft:blaze_powder"
+   }
+  },
+  "pattern": [
+   " A ",
+   "ABA",
+   "CCC"
+  ]
+ },
  "apotheosis:book": {
   "type": "minecraft:crafting_shapeless",
   "conditions": [
@@ -11174,6 +11223,68 @@
    "nbt": "{\"patchouli:book\": \"apotheosis:apoth_chronicle\"}",
    "count": 1
   }
+ },
+ "apotheosis:boots_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:boots_tome",
+   "count": 4
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:book"
+   },
+   "B": {
+    "item": "minecraft:blaze_rod"
+   }
+  },
+  "pattern": [
+   "A A",
+   "ABA"
+  ]
+ },
+ "apotheosis:bow_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:bow_tome",
+   "count": 3
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:stick"
+   },
+   "B": {
+    "item": "minecraft:book"
+   },
+   "C": {
+    "item": "minecraft:blaze_rod"
+   }
+  },
+  "pattern": [
+   " AB",
+   "C B",
+   " AB"
+  ]
+ },
+ "apotheosis:chestplate_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:chestplate_tome",
+   "count": 8
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:book"
+   },
+   "B": {
+    "item": "minecraft:blaze_rod"
+   }
+  },
+  "pattern": [
+   "ABA",
+   "AAA",
+   "AAA"
+  ]
  },
  "apotheosis:cobweb": {
   "type": "minecraft:crafting_shaped",
@@ -11201,6 +11312,49 @@
    "item": "minecraft:cobweb",
    "count": 1
   }
+ },
+ "apotheosis:crystal_seashelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:crystal_seashelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:prismarine_crystals"
+   },
+   "B": {
+    "item": "apotheosis:infused_seashelf"
+   }
+  },
+  "pattern": [
+   " A ",
+   " B ",
+   "A A"
+  ]
+ },
+ "apotheosis:draconic_endshelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:draconic_endshelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:dragon_head"
+   },
+   "B": {
+    "tag": "forge:ender_pearls"
+   },
+   "C": {
+    "item": "apotheosis:endshelf"
+   }
+  },
+  "pattern": [
+   " A ",
+   "BCB",
+   "BBB"
+  ]
  },
  "apotheosis:echoing_deepshelf": {
   "type": "minecraft:crafting_shaped",
@@ -11631,6 +11785,29 @@
    "count": 1
   }
  },
+ "apotheosis:fishing_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:fishing_tome",
+   "count": 2
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:blaze_rod"
+   },
+   "B": {
+    "item": "minecraft:stick"
+   },
+   "C": {
+    "item": "minecraft:book"
+   }
+  },
+  "pattern": [
+   "  A",
+   " BC",
+   "B C"
+  ]
+ },
  "apotheosis:fletching/arrow": {
   "type": "apotheosis:fletching",
   "conditions": [
@@ -11859,6 +12036,96 @@
    "count": 8
   }
  },
+ "apotheosis:glowing_hellshelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:glowing_hellshelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:glowstone"
+   },
+   "B": {
+    "item": "apotheosis:infused_hellshelf"
+   }
+  },
+  "pattern": [
+   " A ",
+   " B ",
+   "A A"
+  ]
+ },
+ "apotheosis:heart_seashelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:heart_seashelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:heart_of_the_sea"
+   },
+   "B": {
+    "item": "minecraft:prismarine_shard"
+   },
+   "C": {
+    "item": "apotheosis:infused_seashelf"
+   }
+  },
+  "pattern": [
+   " A ",
+   "BCB",
+   "BBB"
+  ]
+ },
+ "apotheosis:hellshelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:hellshelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:nether_bricks"
+   },
+   "B": {
+    "item": "minecraft:blaze_rod"
+   },
+   "C": {
+    "tag": "forge:bookshelves"
+   },
+   "D": {
+    "type": "forge:partial_nbt",
+    "item": "minecraft:potion",
+    "nbt": "{Potion:\"minecraft:regeneration\"}"
+   }
+  },
+  "pattern": [
+   "AAA",
+   "BCD",
+   "AAA"
+  ]
+ },
+ "apotheosis:helmet_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:helmet_tome",
+   "count": 5
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:book"
+   },
+   "B": {
+    "item": "minecraft:blaze_rod"
+   }
+  },
+  "pattern": [
+   "AAA",
+   "ABA"
+  ]
+ },
  "apotheosis:inert_trident": {
   "type": "minecraft:crafting_shaped",
   "conditions": [
@@ -11909,6 +12176,26 @@
    "count": 1
   }
  },
+ "apotheosis:leggings_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:leggings_tome",
+   "count": 7
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:book"
+   },
+   "B": {
+    "item": "minecraft:blaze_rod"
+   }
+  },
+  "pattern": [
+   "A A",
+   "ABA",
+   "AAA"
+  ]
+ },
  "apotheosis:library": {
   "type": "minecraft:crafting_shaped",
   "conditions": [
@@ -11938,6 +12225,125 @@
    "item": "apotheosis:library",
    "count": 1
   }
+ },
+ "apotheosis:melonshelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:melonshelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:melon"
+   },
+   "B": {
+    "item": "minecraft:glistering_melon_slice"
+   },
+   "C": {
+    "tag": "forge:bookshelves"
+   }
+  },
+  "pattern": [
+   "AAA",
+   "BCB",
+   "AAA"
+  ]
+ },
+ "apotheosis:other_tome": {
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+   "item": "apotheosis:other_tome",
+   "count": 6
+  },
+  "ingredients": [
+   {
+    "item": "minecraft:book"
+   },
+   {
+    "item": "minecraft:book"
+   },
+   {
+    "item": "minecraft:book"
+   },
+   {
+    "item": "minecraft:book"
+   },
+   {
+    "item": "minecraft:book"
+   },
+   {
+    "item": "minecraft:book"
+   },
+   {
+    "item": "minecraft:blaze_rod"
+   }
+  ]
+ },
+ "apotheosis:pearl_endshelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:pearl_endshelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:end_rod"
+   },
+   "B": {
+    "tag": "forge:ender_pearls"
+   },
+   "C": {
+    "item": "apotheosis:endshelf"
+   }
+  },
+  "pattern": [
+   "A A",
+   "BCB",
+   "A A"
+  ]
+ },
+ "apotheosis:pickaxe_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:pickaxe_tome",
+   "count": 3
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:book"
+   },
+   "B": {
+    "item": "minecraft:blaze_rod"
+   },
+   "C": {
+    "item": "minecraft:stick"
+   }
+  },
+  "pattern": [
+   "AAA",
+   " B ",
+   " C "
+  ]
+ },
+ "apotheosis:prismatic_web": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:prismatic_web",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:prismarine_shard"
+   },
+   "B": {
+    "item": "minecraft:cobweb"
+   }
+  },
+  "pattern": [
+   " A ",
+   "ABA",
+   " A "
+  ]
  },
  "apotheosis:pufferfish": {
   "type": "minecraft:crafting_shaped",
@@ -12545,6 +12951,54 @@
    }
   ]
  },
+ "apotheosis:scrap_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:scrap_tome",
+   "count": 8
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:book"
+   },
+   "B": {
+    "item": "minecraft:anvil"
+   }
+  },
+  "pattern": [
+   "AAA",
+   "ABA",
+   "AAA"
+  ]
+ },
+ "apotheosis:seashelf": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:seashelf",
+   "count": 1
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:prismarine_bricks"
+   },
+   "B": {
+    "type": "forge:partial_nbt",
+    "item": "minecraft:potion",
+    "nbt": "{Potion:\"minecraft:water\"}"
+   },
+   "C": {
+    "tag": "forge:bookshelves"
+   },
+   "D": {
+    "item": "minecraft:pufferfish"
+   }
+  },
+  "pattern": [
+   "AAA",
+   "BCD",
+   "AAA"
+  ]
+ },
  "apotheosis:sightshelf": {
   "type": "minecraft:crafting_shaped",
   "conditions": [
@@ -12937,6 +13391,26 @@
    "item": "apotheosis:treasure_shelf",
    "count": 1
   }
+ },
+ "apotheosis:weapon_tome": {
+  "type": "minecraft:crafting_shaped",
+  "result": {
+   "item": "apotheosis:weapon_tome",
+   "count": 2
+  },
+  "key": {
+   "A": {
+    "item": "minecraft:book"
+   },
+   "B": {
+    "item": "minecraft:blaze_powder"
+   }
+  },
+  "pattern": [
+   "A",
+   "A",
+   "B"
+  ]
  },
  "apotheotic_additions:alexs_mods/rocky_shell_crushing": {
   "conditions": [
@@ -24562,25 +25036,6 @@
   "results": [
    {
     "item": "minecraft:redstone",
-    "count": 1
-   }
-  ]
- },
- "create_custom_recipes:mixing_witherrose": {
-  "type": "create:mixing",
-  "ingredients": [
-   {
-    "item": "minecraft:poppy"
-   },
-   {
-    "fluid": "create_enchantment_industry:ink",
-    "nbt": {},
-    "amount": 250
-   }
-  ],
-  "results": [
-   {
-    "item": "minecraft:wither_rose",
     "count": 1
    }
   ]
@@ -60387,21 +60842,6 @@
    "count": 6
   }
  },
- "dungeons_and_combat:crystal_shield_recipe": {
-  "type": "minecraft:smithing_transform",
-  "template": {
-   "item": "tohiro_ores:crystal_smithing_template"
-  },
-  "base": {
-   "item": "dungeons_and_combat:wulfrum_shield"
-  },
-  "addition": {
-   "item": "tohiro_ores:crystal_ingot"
-  },
-  "result": {
-   "item": "dungeons_and_combat:crystal_shield"
-  }
- },
  "dungeons_and_combat:cursed_blazing_shield_recipe": {
   "type": "minecraft:smithing_transform",
   "template": {
@@ -61858,21 +62298,6 @@
    "item": "dungeons_and_combat:molten_blazing_hammer"
   }
  },
- "dungeons_and_combat:light_upgrade_blazing_halberd": {
-  "type": "minecraft:smithing_transform",
-  "template": {
-   "item": "dungeons_and_combat:light_smithing_template"
-  },
-  "base": {
-   "item": "dungeons_and_combat:deleted_mod_element"
-  },
-  "addition": {
-   "item": "dungeons_and_combat:blazing_ingot"
-  },
-  "result": {
-   "item": "dungeons_and_combat:deleted_mod_element"
-  }
- },
  "dungeons_and_combat:light_upgrade_blessed_gold_axe": {
   "type": "minecraft:smithing_transform",
   "template": {
@@ -61961,21 +62386,6 @@
   },
   "result": {
    "item": "dungeons_and_combat:long_sickle"
-  }
- },
- "dungeons_and_combat:light_upgrade_molten_bone_greatsword": {
-  "type": "minecraft:smithing_transform",
-  "template": {
-   "item": "dungeons_and_combat:light_smithing_template"
-  },
-  "base": {
-   "item": "dungeons_and_combat:molten_bone_greatsword"
-  },
-  "addition": {
-   "item": "dungeons_and_combat:molten_bone"
-  },
-  "result": {
-   "item": "dungeons_and_combat:deleted_mod_element"
   }
  },
  "dungeons_and_combat:light_upgrade_molten_cryolite_greatsword": {
@@ -70799,26 +71209,6 @@
    "count": 1
   }
  },
- "epicfight_dd:iron_plate": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   " D ",
-   "DSD",
-   " D "
-  ],
-  "key": {
-   "S": {
-    "tag": "forge:ingots/iron"
-   },
-   "D": {
-    "tag": "forge:nuggets/iron"
-   },
-   "result": {
-    "item": "epicfight_dd:metal_plate",
-    "count": 1
-   }
-  }
- },
  "epicfight_dd:nail": {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -74239,25 +74629,6 @@
   },
   "show_notification": true
  },
- "everycomp:fd/cataclysm/cutting/chorus_log": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "cataclysm:chorus_stem"
-   }
-  ],
-  "result": [
-   {},
-   {
-    "item": "farmersdelight:tree_bark"
-   }
-  ],
-  "sound": "minecraft:item.axe.strip",
-  "tool": {
-   "type": "farmersdelight:tool_action",
-   "action": "axe_strip"
-  }
- },
  "everycomp:fd/cinderscapes/scorched_cabinet": {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
@@ -74457,44 +74828,6 @@
   },
   "show_notification": true
  },
- "everycomp:fd/dungeons_and_combat/cutting/elden_oak_log": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "dungeons_and_combat:elden_oak_log"
-   }
-  ],
-  "result": [
-   {},
-   {
-    "item": "farmersdelight:tree_bark"
-   }
-  ],
-  "sound": "minecraft:item.axe.strip",
-  "tool": {
-   "type": "farmersdelight:tool_action",
-   "action": "axe_strip"
-  }
- },
- "everycomp:fd/dungeons_and_combat/cutting/elden_oak_wood": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "dungeons_and_combat:elden_oak_wood"
-   }
-  ],
-  "result": [
-   {},
-   {
-    "item": "farmersdelight:tree_bark"
-   }
-  ],
-  "sound": "minecraft:item.axe.strip",
-  "tool": {
-   "type": "farmersdelight:tool_action",
-   "action": "axe_strip"
-  }
- },
  "everycomp:fd/endlessbiomes/cutting/penumbra_log": {
   "type": "farmersdelight:cutting",
   "ingredients": [
@@ -74646,25 +74979,6 @@
    "item": "everycomp:fd/endlessbiomes/twisted_cabinet"
   },
   "show_notification": true
- },
- "everycomp:fd/iceandfire/cutting/dreadwood_log": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "iceandfire:dreadwood_log"
-   }
-  ],
-  "result": [
-   {},
-   {
-    "item": "farmersdelight:tree_bark"
-   }
-  ],
-  "sound": "minecraft:item.axe.strip",
-  "tool": {
-   "type": "farmersdelight:tool_action",
-   "action": "axe_strip"
-  }
  },
  "everycomp:fd/natures_spirit/aspen_cabinet": {
   "type": "minecraft:crafting_shaped",
@@ -114770,15 +115084,6 @@
    "item": "explorerscompass:explorerscompass"
   }
  },
- "fallen_gems_affixes:augment_recipe": {
-  "type": "fallen_gems_affixes:add_augment"
- },
- "fallen_gems_affixes:confluence_recipe": {
-  "type": "fallen_gems_affixes:confluence"
- },
- "fallen_gems_affixes:elevation_recipe": {
-  "type": "fallen_gems_affixes:elevation"
- },
  "fallen_gems_affixes:enchanting/ender_gem_case": {
   "type": "apotheosis:enchanting",
   "conditions": [
@@ -114883,9 +115188,6 @@
    "count": 1
   }
  },
- "fallen_gems_affixes:erasure_recipe": {
-  "type": "fallen_gems_affixes:erasure"
- },
  "fallen_gems_affixes:fabled_reforging": {
   "type": "fallen_gems_affixes:fabled_reforging",
   "material_cost": 5,
@@ -114946,9 +115248,6 @@
    "item": "fallen_gems_affixes:gem_case",
    "count": 1
   }
- },
- "fallen_gems_affixes:prismatic_conversion_recipe": {
-  "type": "fallen_gems_affixes:prismatic_conversion"
  },
  "fallen_gems_affixes:reinforced_gem_slate": {
   "type": "minecraft:crafting_shaped",
@@ -115105,9 +115404,6 @@
    }
   ]
  },
- "fallen_gems_affixes:severance_recipe": {
-  "type": "fallen_gems_affixes:severance"
- },
  "fallen_gems_affixes:sigil_of_confluence": {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -115220,9 +115516,6 @@
  },
  "fallen_gems_affixes:socket_conversion": {
   "type": "fallen_gems_affixes:socket_conversion"
- },
- "fallen_gems_affixes:transmutation_recipe": {
-  "type": "fallen_gems_affixes:transmutation"
  },
  "fantasy_armor:chess_board_knight_boots": {
   "type": "minecraft:smithing_transform",
@@ -118659,129 +118952,6 @@
   "tool": {
    "tag": "forge:tools/knives"
   }
- },
- "farmersdelight:cutting/azure_door": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "outer_end:azure_door"
-   }
-  ],
-  "tool": {
-   "type": "farmersdelight:tool",
-   "tool": "axe"
-  },
-  "result": [
-   {
-    "item": "outer_end:azure_planks"
-   }
-  ],
-  "conditions": [
-   {
-    "type": "forge:mod_loaded",
-    "modid": "outer_end"
-   }
-  ]
- },
- "farmersdelight:cutting/azure_pith": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "outer_end:azure_pith"
-   }
-  ],
-  "tool": {
-   "type": "farmersdelight:tool",
-   "tool": "axe"
-  },
-  "result": [
-   {
-    "item": "farmersdelight:tree_bark"
-   },
-   {
-    "item": "outer_end:azure_stripped_pith"
-   }
-  ],
-  "sound": "minecraft:item.axe.strip",
-  "conditions": [
-   {
-    "type": "forge:mod_loaded",
-    "modid": "outer_end"
-   }
-  ]
- },
- "farmersdelight:cutting/azure_sign": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "outer_end:azure_sign"
-   }
-  ],
-  "tool": {
-   "type": "farmersdelight:tool",
-   "tool": "axe"
-  },
-  "result": [
-   {
-    "item": "outer_end:azure_planks"
-   }
-  ],
-  "conditions": [
-   {
-    "type": "forge:mod_loaded",
-    "modid": "outer_end"
-   }
-  ]
- },
- "farmersdelight:cutting/azure_stem": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "outer_end:azure_stem"
-   }
-  ],
-  "tool": {
-   "type": "farmersdelight:tool",
-   "tool": "axe"
-  },
-  "result": [
-   {
-    "item": "farmersdelight:tree_bark"
-   },
-   {
-    "item": "outer_end:azure_stripped_stem"
-   }
-  ],
-  "sound": "minecraft:item.axe.strip",
-  "conditions": [
-   {
-    "type": "forge:mod_loaded",
-    "modid": "outer_end"
-   }
-  ]
- },
- "farmersdelight:cutting/azure_trapdoor": {
-  "type": "farmersdelight:cutting",
-  "ingredients": [
-   {
-    "item": "outer_end:azure_trapdoor"
-   }
-  ],
-  "tool": {
-   "type": "farmersdelight:tool",
-   "tool": "axe"
-  },
-  "result": [
-   {
-    "item": "outer_end:azure_planks"
-   }
-  ],
-  "conditions": [
-   {
-    "type": "forge:mod_loaded",
-    "modid": "outer_end"
-   }
-  ]
  },
  "farmersdelight:cutting/bamboo_block": {
   "type": "farmersdelight:cutting",
@@ -203228,23 +203398,6 @@
    "count": 4
   }
  },
- "outer_end:azure_post": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:azure_pith"
-   }
-  },
-  "result": {
-   "item": "outer_end:azure_post",
-   "count": 8
-  }
- },
  "outer_end:azure_pressure_plate": {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -203375,23 +203528,6 @@
    "count": 3
   }
  },
- "outer_end:azure_vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:azure_slab"
-   }
-  },
-  "result": {
-   "item": "outer_end:azure_vertical_slab",
-   "count": 3
-  }
- },
  "outer_end:azure_vertical_to_planks": {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -203406,19 +203542,6 @@
   },
   "result": {
    "item": "outer_end:azure_planks",
-   "count": 3
-  }
- },
- "outer_end:azure_vertical_to_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   " ",
-   " ",
-   " "
-  ],
-  "key": {},
-  "result": {
-   "item": "outer_end:azure_slab",
    "count": 3
   }
  },
@@ -203876,23 +203999,6 @@
   "result": "outer_end:himmel_stairs",
   "count": 1
  },
- "outer_end:himmel_vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:himmel_slab"
-   }
-  },
-  "result": {
-   "item": "outer_end:himmel_vertical_slab",
-   "count": 3
-  }
- },
  "outer_end:himmel_vertical_slab_stonecutting": {
   "type": "minecraft:stonecutting",
   "ingredient": {
@@ -203900,19 +204006,6 @@
   },
   "result": "outer_end:himmel_vertical_slab",
   "count": 2
- },
- "outer_end:himmel_vertical_to_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   " ",
-   " ",
-   " "
-  ],
-  "key": {},
-  "result": {
-   "item": "outer_end:himmel_slab",
-   "count": 3
-  }
  },
  "outer_end:mint_boots": {
   "type": "minecraft:smithing_transform",
@@ -204357,23 +204450,6 @@
    "item": "minecraft:slime_ball"
   }
  },
- "outer_end:stripped_azure_post": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:azure_stripped_pith"
-   }
-  },
-  "result": {
-   "item": "outer_end:stripped_azure_post",
-   "count": 8
-  }
- },
  "outer_end:violite/bricks/chiseled_from_violite_bricks_stonecutting": {
   "type": "minecraft:stonecutting",
   "ingredient": {
@@ -204460,19 +204536,6 @@
    "count": 6
   }
  },
- "outer_end:violite/bricks/slab_from_vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   " ",
-   " ",
-   " "
-  ],
-  "key": {},
-  "result": {
-   "item": "outer_end:violite_brick_slab",
-   "count": 3
-  }
- },
  "outer_end:violite/bricks/slab_from_violite_stonecutting": {
   "type": "minecraft:stonecutting",
   "ingredient": {
@@ -204521,23 +204584,6 @@
   },
   "result": "outer_end:violite_brick_stairs",
   "count": 1
- },
- "outer_end:violite/bricks/vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:violite_brick_slab"
-   }
-  },
-  "result": {
-   "item": "outer_end:violite_brick_vertical_slab",
-   "count": 3
-  }
  },
  "outer_end:violite/bricks/vertical_slab_stonecutting": {
   "type": "minecraft:stonecutting",
@@ -204620,19 +204666,6 @@
    "count": 6
   }
  },
- "outer_end:violite/mossy_bricks/slab_from_vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   " ",
-   " ",
-   " "
-  ],
-  "key": {},
-  "result": {
-   "item": "outer_end:mossy_violite_brick_slab",
-   "count": 3
-  }
- },
  "outer_end:violite/mossy_bricks/slab_stonecutting": {
   "type": "minecraft:stonecutting",
   "ingredient": {
@@ -204665,23 +204698,6 @@
   },
   "result": "outer_end:mossy_violite_brick_stairs",
   "count": 1
- },
- "outer_end:violite/mossy_bricks/vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:mossy_violite_brick_slab"
-   }
-  },
-  "result": {
-   "item": "outer_end:mossy_violite_brick_vertical_slab",
-   "count": 3
-  }
  },
  "outer_end:violite/mossy_bricks/vertical_slab_stonecutting": {
   "type": "minecraft:stonecutting",
@@ -204730,19 +204746,6 @@
    "count": 6
   }
  },
- "outer_end:violite/mossy_tiles/slab_from_vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   " ",
-   " ",
-   " "
-  ],
-  "key": {},
-  "result": {
-   "item": "outer_end:mossy_violite_tile_slab",
-   "count": 3
-  }
- },
  "outer_end:violite/mossy_tiles/slab_stonecutting": {
   "type": "minecraft:stonecutting",
   "ingredient": {
@@ -204775,23 +204778,6 @@
   },
   "result": "outer_end:mossy_violite_tile_stairs",
   "count": 1
- },
- "outer_end:violite/mossy_tiles/vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:mossy_violite_tile_slab"
-   }
-  },
-  "result": {
-   "item": "outer_end:mossy_violite_tile_vertical_slab",
-   "count": 3
-  }
  },
  "outer_end:violite/mossy_tiles/vertical_slab_stonecutting": {
   "type": "minecraft:stonecutting",
@@ -204844,19 +204830,6 @@
    "count": 6
   }
  },
- "outer_end:violite/slab_from_vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   " ",
-   " ",
-   " "
-  ],
-  "key": {},
-  "result": {
-   "item": "outer_end:violite_slab",
-   "count": 3
-  }
- },
  "outer_end:violite/slab_stonecutting": {
   "type": "minecraft:stonecutting",
   "ingredient": {
@@ -204903,19 +204876,6 @@
   "result": {
    "item": "outer_end:violite_tile_slab",
    "count": 6
-  }
- },
- "outer_end:violite/tiles/slab_from_vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   " ",
-   " ",
-   " "
-  ],
-  "key": {},
-  "result": {
-   "item": "outer_end:violite_tile_slab",
-   "count": 3
   }
  },
  "outer_end:violite/tiles/slab_from_violite_stonecutting": {
@@ -204967,23 +204927,6 @@
   "result": "outer_end:violite_tile_stairs",
   "count": 1
  },
- "outer_end:violite/tiles/vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:violite_tile_slab"
-   }
-  },
-  "result": {
-   "item": "outer_end:violite_tile_vertical_slab",
-   "count": 3
-  }
- },
  "outer_end:violite/tiles/vertical_slab_from_violite_stonecutting": {
   "type": "minecraft:stonecutting",
   "ingredient": {
@@ -204999,23 +204942,6 @@
   },
   "result": "outer_end:violite_tile_vertical_slab",
   "count": 2
- },
- "outer_end:violite/vertical_slab": {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-   "#",
-   "#",
-   "#"
-  ],
-  "key": {
-   "#": {
-    "item": "outer_end:violite_slab"
-   }
-  },
-  "result": {
-   "item": "outer_end:violite_vertical_slab",
-   "count": 3
-  }
  },
  "outer_end:violite/vertical_slab_stonecutting": {
   "type": "minecraft:stonecutting",
@@ -239102,66 +239028,6 @@
   ],
   "result": {
    "item": "samurai_dynasty:kunai"
-  }
- },
- "samurai_dynasty:mask_amethyst_samurai_helmet": {
-  "type": "minecraft:crafting_shapeless",
-  "category": "equipment",
-  "ingredients": [
-   {
-    "item": "samurai_dynasty:amethyst_samurai_helmet"
-   },
-   {
-    "item": "samurai_dynasty:oni_mask"
-   }
-  ],
-  "result": {
-   "item": "samurai_dynasty:mask_amethyst_samurai_helmet"
-  }
- },
- "samurai_dynasty:mask_netherite_samurai_helmet": {
-  "type": "minecraft:crafting_shapeless",
-  "category": "equipment",
-  "ingredients": [
-   {
-    "item": "samurai_dynasty:netherite_samurai_helmet"
-   },
-   {
-    "item": "samurai_dynasty:oni_mask"
-   }
-  ],
-  "result": {
-   "item": "samurai_dynasty:mask_netherite_samurai_helmet"
-  }
- },
- "samurai_dynasty:mask_quartz_samurai_helmet": {
-  "type": "minecraft:crafting_shapeless",
-  "category": "equipment",
-  "ingredients": [
-   {
-    "item": "samurai_dynasty:quartz_samurai_helmet"
-   },
-   {
-    "item": "samurai_dynasty:oni_mask"
-   }
-  ],
-  "result": {
-   "item": "samurai_dynasty:mask_quartz_samurai_helmet"
-  }
- },
- "samurai_dynasty:mask_straw_hat": {
-  "type": "minecraft:crafting_shapeless",
-  "category": "equipment",
-  "ingredients": [
-   {
-    "item": "samurai_dynasty:straw_hat"
-   },
-   {
-    "item": "samurai_dynasty:oni_mask"
-   }
-  ],
-  "result": {
-   "item": "samurai_dynasty:mask_straw_hat"
   }
  },
  "samurai_dynasty:nagamaki": {

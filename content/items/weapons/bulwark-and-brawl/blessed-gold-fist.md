@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "3.00"]
+      ["Attack speed", "3.00"],
+      ["Average DPS", "[[dps:dungeons_and_combat:blessed_gold_fist]]"]
     ]
   },
   "items": ["dungeons_and_combat:blessed_gold_fist"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 3.00 |
+| Average DPS | [[dps:dungeons_and_combat:blessed_gold_fist]] |
 | Impact | 1.2 |
 | Targets per swing | 1 |
 | Entity Reach | 3 |

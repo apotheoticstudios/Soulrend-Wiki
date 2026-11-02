@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:diamond_spear]]"]
     ]
   },
   "items": ["epicfight:diamond_spear"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:diamond_spear]] |
 | Impact | 2.4 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

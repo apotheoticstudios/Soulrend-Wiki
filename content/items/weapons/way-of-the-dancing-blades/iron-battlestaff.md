@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:epicfight_dd:iron_battlestaff]]"]
     ]
   },
   "items": ["epicfight_dd:iron_battlestaff"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:epicfight_dd:iron_battlestaff]] |
 | Impact | 1.5 |
 | Targets per swing | 6 |
 | Entity Reach | 3 |

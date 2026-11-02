@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "12"],
-      ["Attack speed", "0.70"]
+      ["Attack speed", "0.70"],
+      ["Average DPS", "[[dps:block_factorys_bosses:large_sword]]"]
     ]
   },
   "items": ["block_factorys_bosses:large_sword"]
@@ -45,6 +46,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 0.70 |
+| Average DPS | [[dps:block_factorys_bosses:large_sword]] |
 | Targets per swing | 1 |
 | Entity Reach | 4.5 |
 | Enchantability | 2 |

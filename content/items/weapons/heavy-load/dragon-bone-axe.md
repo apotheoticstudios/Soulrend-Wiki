@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:iceandfire:dragonbone_axe]]"]
     ]
   },
   "items": ["iceandfire:dragonbone_axe"]
@@ -39,6 +40,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 10 | 10 |
 | Attack Speed | 1.00 | 1 |
+| Average DPS | [[dps:iceandfire:dragonbone_axe]] |
 | Impact | 2.28 | 2.1 |
 | Targets per swing | 2 | 1 |
 | Armor Negation | 36% | 30% |

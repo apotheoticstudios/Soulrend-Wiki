@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:wom:napoleon]]"]
     ]
   },
   "items": ["wom:napoleon"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:wom:napoleon]] |
 | Impact | 2.7 |
 | Targets per swing | 6 |
 | Entity Reach | 3 |

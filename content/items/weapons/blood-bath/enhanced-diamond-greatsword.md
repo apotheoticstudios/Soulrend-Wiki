@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "16"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:cdmoveset:s_diamond_greatsword]]"]
     ]
   },
   "items": ["cdmoveset:s_diamond_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 16 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:cdmoveset:s_diamond_greatsword]] |
 | Impact | 3 |
 | Targets per swing | 5 |
 | Armor Negation | 15% |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "7"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:epicfight:uchigatana]]"]
     ]
   },
   "items": ["epicfight:uchigatana"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:epicfight:uchigatana]] |
 | Impact | 1.1 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

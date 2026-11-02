@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:glaive_of_hodir]]"]
     ]
   },
   "items": ["soulsweapons:glaive_of_hodir"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:glaive_of_hodir]] |
 | Impact | 1.7 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "21.6"],
-      ["Attack speed", "1.14"]
+      ["Attack speed", "1.14"],
+      ["Average DPS", "[[dps:simplyswords:watcher_claymore]]"]
     ]
   },
   "items": ["simplyswords:watcher_claymore"]
@@ -40,6 +41,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 21.6 |
 | Attack Speed | 1.14 |
+| Average DPS | [[dps:simplyswords:watcher_claymore]] |
 | Impact | 3.1 |
 | Targets per swing | 6 |
 | Armor Negation | 12% |

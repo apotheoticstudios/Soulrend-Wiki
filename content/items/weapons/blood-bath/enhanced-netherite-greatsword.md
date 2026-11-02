@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "17"],
-      ["Attack speed", "0.95"]
+      ["Attack speed", "0.95"],
+      ["Average DPS", "[[dps:cdmoveset:s_netherite_greatsword]]"]
     ]
   },
   "items": ["cdmoveset:s_netherite_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 17 |
 | Attack Speed | 0.95 |
+| Average DPS | [[dps:cdmoveset:s_netherite_greatsword]] |
 | Impact | 5 |
 | Targets per swing | 6 |
 | Armor Negation | 25% |

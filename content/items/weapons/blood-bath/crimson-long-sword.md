@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "31"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:dungeons_and_combat:crimson_long_sword]]"]
     ]
   },
   "items": ["dungeons_and_combat:crimson_long_sword"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 31 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:dungeons_and_combat:crimson_long_sword]] |
 | Impact | 4.5 |
 | Targets per swing | 4 |
 | Armor Negation | 35% |

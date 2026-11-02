@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:epicfight_dd:scythe]]"]
     ]
   },
   "items": ["epicfight_dd:scythe"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:epicfight_dd:scythe]] |
 | Impact | 1.5 |
 | Targets per swing | 8 |
 | Armor Negation | 30% |

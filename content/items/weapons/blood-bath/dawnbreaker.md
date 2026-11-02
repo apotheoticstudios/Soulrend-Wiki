@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:dawnbreaker]]"]
     ]
   },
   "items": ["soulsweapons:dawnbreaker"]
@@ -45,6 +46,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:dawnbreaker]] |
 | Impact | 1.7 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "2.40"]
+      ["Attack speed", "2.40"],
+      ["Average DPS", "[[dps:dungeons_and_combat:titanium_sickle]]"]
     ]
   },
   "items": ["dungeons_and_combat:titanium_sickle"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 2.40 |
+| Average DPS | [[dps:dungeons_and_combat:titanium_sickle]] |
 | Impact | 1.3 |
 | Targets per swing | 2 |
 | Armor Negation | 10% |

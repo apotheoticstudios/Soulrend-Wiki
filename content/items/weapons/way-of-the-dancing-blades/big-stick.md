@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "4"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:epicfight_dd:wooden_battlestaff]]"]
     ]
   },
   "items": ["epicfight_dd:wooden_battlestaff"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 4 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:epicfight_dd:wooden_battlestaff]] |
 | Impact | 1.3 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

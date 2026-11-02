@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:stone_tachi]]"]
     ]
   },
   "items": ["epicfight:stone_tachi"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:stone_tachi]] |
 | Impact | 1.9 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

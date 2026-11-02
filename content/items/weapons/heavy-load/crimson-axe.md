@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "15"],
-      ["Attack speed", "0.80"]
+      ["Attack speed", "0.80"],
+      ["Average DPS", "[[dps:dungeons_and_combat:crimson_axe]]"]
     ]
   },
   "items": ["dungeons_and_combat:crimson_axe"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 0.80 |
+| Average DPS | [[dps:dungeons_and_combat:crimson_axe]] |
 | Impact | 2.4 |
 | Targets per swing | 1 |
 | Armor Negation | 40% |

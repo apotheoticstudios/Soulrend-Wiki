@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.80"]
+      ["Attack speed", "1.80"],
+      ["Average DPS", "[[dps:irons_spellbooks:spellbreaker]]"]
     ]
   },
   "items": ["irons_spellbooks:spellbreaker"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.80 |
+| Average DPS | [[dps:irons_spellbooks:spellbreaker]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Cooldown Reduction | +15% |

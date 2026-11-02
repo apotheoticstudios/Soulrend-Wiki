@@ -8,7 +8,8 @@
       ["Type", "Spear"],
       ["Rarity", "Epic"],
       ["Attack damage", "19"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:efn:crescent_moon]]"]
     ]
   },
   "items": ["efn:crescent_moon"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 19 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:efn:crescent_moon]] |
 | Impact | 3 |
 | Targets per swing | 3 |
 | Armor Negation | 50% |

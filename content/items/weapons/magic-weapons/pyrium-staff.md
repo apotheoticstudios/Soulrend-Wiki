@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Irons_spellbooks_cinderous"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:irons_spellbooks:pyrium_staff]]"]
     ]
   },
   "items": ["irons_spellbooks:pyrium_staff"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:irons_spellbooks:pyrium_staff]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Cast Time Reduction | +10% |

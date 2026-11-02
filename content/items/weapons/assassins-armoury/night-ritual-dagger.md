@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "5"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:epicfight_dd:night_ritus_dagger]]"]
     ]
   },
   "items": ["epicfight_dd:night_ritus_dagger"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:epicfight_dd:night_ritus_dagger]] |
 | Impact | 0.5 |
 | Targets per swing | 5 |
 | Armor Negation | 20% |

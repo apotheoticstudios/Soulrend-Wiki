@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "15"],
-      ["Attack speed", "1.10"]
+      ["Attack speed", "1.10"],
+      ["Average DPS", "[[dps:wom:solar]]"]
     ]
   },
   "items": ["wom:solar"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15 |
 | Attack Speed | 1.10 |
+| Average DPS | [[dps:wom:solar]] |
 | Impact | 3.3 |
 | Targets per swing | 12 |
 | Armor Negation | 20% |

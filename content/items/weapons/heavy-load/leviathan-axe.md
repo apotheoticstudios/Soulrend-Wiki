@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "18"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:soulsweapons:leviathan_axe]]"]
     ]
   },
   "items": ["soulsweapons:leviathan_axe"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 18 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:soulsweapons:leviathan_axe]] |
 | Impact | 1.5 |
 | Targets per swing | 3 |
 | Armor Negation | 5% |

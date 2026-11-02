@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6.1"],
-      ["Attack speed", "1.32"]
+      ["Attack speed", "1.32"],
+      ["Average DPS", "[[dps:simplyswords:iron_spear]]"]
     ]
   },
   "items": ["simplyswords:iron_spear"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6.1 |
 | Attack Speed | 1.32 |
+| Average DPS | [[dps:simplyswords:iron_spear]] |
 | Impact | 2.1 |
 | Targets per swing | 3 |
 | Armor Negation | 11% |

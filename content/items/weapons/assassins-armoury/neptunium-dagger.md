@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "2.50"]
+      ["Attack speed", "2.50"],
+      ["Average DPS", "[[dps:dungeons_and_combat:neptunium_dagger]]"]
     ]
   },
   "items": ["dungeons_and_combat:neptunium_dagger"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 2.50 |
+| Average DPS | [[dps:dungeons_and_combat:neptunium_dagger]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 12 |

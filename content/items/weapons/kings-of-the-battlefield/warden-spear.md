@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8.1"],
-      ["Attack speed", "1.36"]
+      ["Attack speed", "1.36"],
+      ["Average DPS", "[[dps:knavesneeds:deeperdarker/warden/spear]]"]
     ]
   },
   "items": ["knavesneeds:deeperdarker/warden/spear"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8.1 |
 | Attack Speed | 1.36 |
+| Average DPS | [[dps:knavesneeds:deeperdarker/warden/spear]] |
 | Impact | 2.4 |
 | Targets per swing | 4 |
 | Armor Negation | 16.9% |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.90"]
+      ["Attack speed", "1.90"],
+      ["Average DPS", "[[dps:epicfight_dd:blood_ritus_dagger]]"]
     ]
   },
   "items": ["epicfight_dd:blood_ritus_dagger"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.90 |
+| Average DPS | [[dps:epicfight_dd:blood_ritus_dagger]] |
 | Impact | 1.3 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

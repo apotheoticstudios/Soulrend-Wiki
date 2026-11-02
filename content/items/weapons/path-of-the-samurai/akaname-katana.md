@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:samurai_dynasty:katana_akaname]]"]
     ]
   },
   "items": ["samurai_dynasty:katana_akaname"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:samurai_dynasty:katana_akaname]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 25 |

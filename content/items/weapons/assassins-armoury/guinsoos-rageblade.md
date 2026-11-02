@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:rageblade]]"]
     ]
   },
   "items": ["soulsweapons:rageblade"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:rageblade]] |
 | Impact | 1.6 |
 | Targets per swing | 3 |
 | Armor Negation | 14% |

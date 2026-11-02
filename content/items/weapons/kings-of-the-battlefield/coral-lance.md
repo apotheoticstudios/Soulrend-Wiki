@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Mythic"],
       ["Attack damage", "14"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:aquamirae:coral_lance]]"]
     ]
   },
   "items": ["aquamirae:coral_lance"]
@@ -35,6 +36,7 @@
 | --- | --- |
 | Attack Damage | 14 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:aquamirae:coral_lance]] |
 | Impact | 2.5 |
 | Targets per swing | 4 |
 | Armor Negation | 20% |

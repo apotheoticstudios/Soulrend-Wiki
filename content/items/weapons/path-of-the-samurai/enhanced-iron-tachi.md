@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:cdmoveset:s_iron_tachi]]"]
     ]
   },
   "items": ["cdmoveset:s_iron_tachi"]
@@ -39,6 +40,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 8 | 8 |
 | Attack Speed | 1.20 | 1.2 |
+| Average DPS | [[dps:cdmoveset:s_iron_tachi]] |
 | Targets per swing | 1 | 4 |
 | Entity Reach | 3 | 3 |
 | Enchantability | 10 |  |

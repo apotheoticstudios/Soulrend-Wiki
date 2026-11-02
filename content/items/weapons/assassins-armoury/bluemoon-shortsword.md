@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:soulsweapons:bluemoon_shortsword]]"]
     ]
   },
   "items": ["soulsweapons:bluemoon_shortsword"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:soulsweapons:bluemoon_shortsword]] |
 | Impact | 1.6 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

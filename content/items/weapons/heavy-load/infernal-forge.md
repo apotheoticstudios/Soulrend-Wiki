@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "19"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:cataclysm:infernal_forge]]"]
     ]
   },
   "items": ["cataclysm:infernal_forge"]
@@ -44,6 +45,7 @@ One loot table drops it:
 | --- | --- |
 | Attack Damage | 19 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:cataclysm:infernal_forge]] |
 | Impact | 5 |
 | Targets per swing | 4 |
 | Armor Negation | 10% |

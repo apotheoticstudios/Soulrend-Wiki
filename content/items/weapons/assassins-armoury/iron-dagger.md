@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "4"],
-      ["Attack speed", "2.40"]
+      ["Attack speed", "2.40"],
+      ["Average DPS", "[[dps:epicfight:iron_dagger]]"]
     ]
   },
   "items": ["epicfight:iron_dagger"]
@@ -39,6 +40,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 4 | 4 |
 | Attack Speed | 2.40 | 2.4 |
+| Average DPS | [[dps:epicfight:iron_dagger]] |
 | Impact | 1.2 | 1.2 |
 | Targets per swing | 1 | 2 |
 | Armor Negation | 10% | 10% |

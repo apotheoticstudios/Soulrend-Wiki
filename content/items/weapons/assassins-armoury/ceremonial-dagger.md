@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "14"],
-      ["Attack speed", "2.40"]
+      ["Attack speed", "2.40"],
+      ["Average DPS", "[[dps:dungeons_and_combat:ceremonial_dagger]]"]
     ]
   },
   "items": ["dungeons_and_combat:ceremonial_dagger"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 14 |
 | Attack Speed | 2.40 |
+| Average DPS | [[dps:dungeons_and_combat:ceremonial_dagger]] |
 | Impact | 1.3 |
 | Targets per swing | 2 |
 | Armor Negation | 25% |

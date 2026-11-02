@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:epicfight_dd:bat]]"]
     ]
   },
   "items": ["epicfight_dd:bat"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:epicfight_dd:bat]] |
 | Impact | 1.5 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

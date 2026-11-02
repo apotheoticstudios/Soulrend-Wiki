@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:sting]]"]
     ]
   },
   "items": ["soulsweapons:sting"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:sting]] |
 | Impact | 1.6 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

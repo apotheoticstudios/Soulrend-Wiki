@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "18.5"],
-      ["Attack speed", "0.80"]
+      ["Attack speed", "0.80"],
+      ["Average DPS", "[[dps:aquamirae:whisper_of_the_abyss]]"]
     ]
   },
   "items": ["aquamirae:whisper_of_the_abyss"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 18.5 |
 | Attack Speed | 0.80 |
+| Average DPS | [[dps:aquamirae:whisper_of_the_abyss]] |
 | Impact | 2.5 |
 | Targets per swing | 4 |
 | Armor Negation | 30% |

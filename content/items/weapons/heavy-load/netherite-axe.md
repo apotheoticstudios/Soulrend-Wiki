@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:minecraft:netherite_axe]]"]
     ]
   },
   "items": ["minecraft:netherite_axe"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:minecraft:netherite_axe]] |
 | Impact | 2.4 |
 | Targets per swing | 1 |
 | Armor Negation | 40% |

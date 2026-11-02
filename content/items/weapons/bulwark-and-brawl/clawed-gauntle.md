@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "6"],
-      ["Attack speed", "3.75"]
+      ["Attack speed", "3.75"],
+      ["Average DPS", "[[dps:wom:jabberwocky]]"]
     ]
   },
   "items": ["wom:jabberwocky"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 3.75 |
+| Average DPS | [[dps:wom:jabberwocky]] |
 | Impact | 1.5 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

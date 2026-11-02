@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.10"]
+      ["Attack speed", "1.10"],
+      ["Average DPS", "[[dps:wom:diamond_greataxe]]"]
     ]
   },
   "items": ["wom:diamond_greataxe"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.10 |
+| Average DPS | [[dps:wom:diamond_greataxe]] |
 | Impact | 3.7 |
 | Targets per swing | 4 |
 | Armor Negation | 15% |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "16"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:dungeons_and_combat:crimson_bloodweave_sword]]"]
     ]
   },
   "items": ["dungeons_and_combat:crimson_bloodweave_sword"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 16 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:dungeons_and_combat:crimson_bloodweave_sword]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 10 |

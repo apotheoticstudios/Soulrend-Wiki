@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "2.15"]
+      ["Attack speed", "2.15"],
+      ["Average DPS", "[[dps:epicfight_dd:diamond_sickle]]"]
     ]
   },
   "items": ["epicfight_dd:diamond_sickle"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 2.15 |
+| Average DPS | [[dps:epicfight_dd:diamond_sickle]] |
 | Impact | 1.5 |
 | Targets per swing | 5 |
 | Armor Negation | 18% |

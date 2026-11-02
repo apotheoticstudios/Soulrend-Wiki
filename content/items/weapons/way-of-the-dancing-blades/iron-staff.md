@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "4"],
-      ["Attack speed", "1.35"]
+      ["Attack speed", "1.35"],
+      ["Average DPS", "[[dps:wom:iron_staff]]"]
     ]
   },
   "items": ["wom:iron_staff"]
@@ -39,6 +40,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 4 | 4 |
 | Attack Speed | 1.35 | 1.35 |
+| Average DPS | [[dps:wom:iron_staff]] |
 | Targets per swing | 1 | 3 |
 | Entity Reach | 3 | 3 |
 | Enchantability | 5 |  |

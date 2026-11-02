@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "12"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:shadow_assassin_scythe]]"]
     ]
   },
   "items": ["soulsweapons:shadow_assassin_scythe"]
@@ -35,6 +36,7 @@
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:shadow_assassin_scythe]] |
 | Impact | 1.6 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

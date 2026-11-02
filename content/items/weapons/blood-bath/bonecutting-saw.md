@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight_dd:bonecutting_saw]]"]
     ]
   },
   "items": ["epicfight_dd:bonecutting_saw"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight_dd:bonecutting_saw]] |
 | Impact | 3.3 |
 | Targets per swing | 5 |
 | Armor Negation | 15% |

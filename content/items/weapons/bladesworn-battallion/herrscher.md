@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.75"]
+      ["Attack speed", "1.75"],
+      ["Average DPS", "[[dps:wom:herrscher]]"]
     ]
   },
   "items": ["wom:herrscher"]
@@ -35,6 +36,7 @@
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.75 |
+| Average DPS | [[dps:wom:herrscher]] |
 | Impact | 1.3 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

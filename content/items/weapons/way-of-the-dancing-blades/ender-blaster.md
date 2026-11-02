@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "12"],
-      ["Attack speed", "3.45"]
+      ["Attack speed", "3.45"],
+      ["Average DPS", "[[dps:wom:ender_blaster]]"]
     ]
   },
   "items": ["wom:ender_blaster"]
@@ -34,6 +35,7 @@
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 3.45 |
+| Average DPS | [[dps:wom:ender_blaster]] |
 | Impact | 1.9 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

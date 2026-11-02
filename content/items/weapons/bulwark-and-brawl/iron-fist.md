@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "4"],
-      ["Attack speed", "2.30"]
+      ["Attack speed", "2.30"],
+      ["Average DPS", "[[dps:epicfight_dd:iron_fist]]"]
     ]
   },
   "items": ["epicfight_dd:iron_fist"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 4 |
 | Attack Speed | 2.30 |
+| Average DPS | [[dps:epicfight_dd:iron_fist]] |
 | Impact | 2.2 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

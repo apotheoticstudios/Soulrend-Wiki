@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "30"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:iceandfire:dragonsteel_ice_axe]]"]
     ]
   },
   "items": ["iceandfire:dragonsteel_ice_axe"]
@@ -40,6 +41,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 30 | 30 |
 | Attack Speed | 1.00 | 1 |
+| Average DPS | [[dps:iceandfire:dragonsteel_ice_axe]] |
 | Impact | 3.6 | 2.4 |
 | Targets per swing | 4 | 1 |
 | Armor Negation | 80% | 40% |

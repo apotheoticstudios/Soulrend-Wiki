@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "12"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:wom:moonless]]"]
     ]
   },
   "items": ["wom:moonless"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:wom:moonless]] |
 | Impact | 1.7 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

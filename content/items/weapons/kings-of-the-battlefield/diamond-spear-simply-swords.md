@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8.1"],
-      ["Attack speed", "1.28"]
+      ["Attack speed", "1.28"],
+      ["Average DPS", "[[dps:simplyswords:diamond_spear]]"]
     ]
   },
   "items": ["simplyswords:diamond_spear"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8.1 |
 | Attack Speed | 1.28 |
+| Average DPS | [[dps:simplyswords:diamond_spear]] |
 | Impact | 2.5 |
 | Targets per swing | 3 |
 | Armor Negation | 13% |

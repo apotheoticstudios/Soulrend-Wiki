@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:iron_tachi]]"]
     ]
   },
   "items": ["epicfight:iron_tachi"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:iron_tachi]] |
 | Impact | 2.5 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

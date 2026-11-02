@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:deeperdarker:warden_sword]]"]
     ]
   },
   "items": ["deeperdarker:warden_sword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:deeperdarker:warden_sword]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 18 |

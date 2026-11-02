@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.90"]
+      ["Attack speed", "1.90"],
+      ["Average DPS", "[[dps:epicfight_dd:netherite_messer]]"]
     ]
   },
   "items": ["epicfight_dd:netherite_messer"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.90 |
+| Average DPS | [[dps:epicfight_dd:netherite_messer]] |
 | Impact | 2.5 |
 | Targets per swing | 9 |
 | Armor Negation | 10% |

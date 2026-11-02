@@ -8,7 +8,8 @@
       ["Type", "Rapier"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:refm:diamond_rapier]]"]
     ]
   },
   "items": ["refm:diamond_rapier"]
@@ -36,6 +37,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:refm:diamond_rapier]] |
 | Impact | 1.8 |
 | Targets per swing | 2 |
 | Armor Negation | 18% |

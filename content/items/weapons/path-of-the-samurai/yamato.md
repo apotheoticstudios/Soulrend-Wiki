@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "5"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:efn:yamato_dmc_in_sheath]]"]
     ]
   },
   "items": ["efn:yamato_dmc_in_sheath", "efn:yamato_dmc4_in_sheath"]
@@ -42,6 +43,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:efn:yamato_dmc_in_sheath]] |
 | Impact | 2.5 |
 | Targets per swing | 6 |
 | Armor Negation | 100% |
@@ -62,6 +64,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:efn:yamato_dmc4_in_sheath]] |
 | Impact | 2.5 |
 | Targets per swing | 6 |
 | Armor Negation | 100% |

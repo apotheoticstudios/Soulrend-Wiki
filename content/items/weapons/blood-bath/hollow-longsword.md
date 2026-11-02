@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:wom:hollow_longsword]]"]
     ]
   },
   "items": ["wom:hollow_longsword"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:wom:hollow_longsword]] |
 | Impact | 1.4 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

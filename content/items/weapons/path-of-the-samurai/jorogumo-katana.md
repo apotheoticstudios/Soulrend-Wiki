@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:samurai_dynasty:katana_jorogumo]]"]
     ]
   },
   "items": ["samurai_dynasty:katana_jorogumo"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:samurai_dynasty:katana_jorogumo]] |
 | Impact | 1.2 |
 | Targets per swing | 1 |
 | Entity Reach | 3 |

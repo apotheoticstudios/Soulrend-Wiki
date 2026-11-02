@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Traveloptics:abyssal"],
       ["Attack damage", "22"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:traveloptics:abyssal_tidecaller]]"]
     ]
   },
   "items": [
@@ -50,6 +51,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 22 | 22 |
 | Attack Speed | 1.40 | 1.4 |
+| Average DPS | [[dps:traveloptics:abyssal_tidecaller]] |
 | Impact | 2.3 | 2.4 |
 | Targets per swing | 5 | 6 |
 | Armor Negation | 10% | 15% |
@@ -74,6 +76,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 22 | 22 |
 | Attack Speed | 1.40 | 1.4 |
+| Average DPS | [[dps:traveloptics:abyssal_tidecaller_level_one]] |
 | Impact | 2.5 | 2.6 |
 | Targets per swing | 5 | 6 |
 | Armor Negation | 10% | 15% |
@@ -98,6 +101,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 22 | 22 |
 | Attack Speed | 1.40 | 1.4 |
+| Average DPS | [[dps:traveloptics:abyssal_tidecaller_level_three]] |
 | Impact | 2.9 | 3 |
 | Targets per swing | 5 | 6 |
 | Armor Negation | 20% | 25% |
@@ -122,6 +126,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 22 | 22 |
 | Attack Speed | 1.40 | 1.4 |
+| Average DPS | [[dps:traveloptics:abyssal_tidecaller_level_two]] |
 | Impact | 2.7 | 2.8 |
 | Targets per swing | 5 | 6 |
 | Armor Negation | 15% | 20% |

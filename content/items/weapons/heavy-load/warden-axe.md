@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:deeperdarker:warden_axe]]"]
     ]
   },
   "items": ["deeperdarker:warden_axe"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:deeperdarker:warden_axe]] |
 | Impact | 2.7 |
 | Targets per swing | 1 |
 | Armor Negation | 50% |

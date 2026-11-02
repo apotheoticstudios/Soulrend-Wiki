@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:netherite_spear]]"]
     ]
   },
   "items": ["epicfight:netherite_spear"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:netherite_spear]] |
 | Impact | 2.9 |
 | Targets per swing | 4 |
 | Armor Negation | 10% |

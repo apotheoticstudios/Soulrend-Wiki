@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "16.5"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:efn:crimson_moon]]"]
     ]
   },
   "items": ["efn:crimson_moon"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 16.5 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:efn:crimson_moon]] |
 | Impact | 3 |
 | Targets per swing | 3 |
 | Armor Negation | 30% |

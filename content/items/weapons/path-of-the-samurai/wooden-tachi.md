@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:wooden_tachi]]"]
     ]
   },
   "items": ["epicfight:wooden_tachi"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:wooden_tachi]] |
 | Impact | 1.6 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

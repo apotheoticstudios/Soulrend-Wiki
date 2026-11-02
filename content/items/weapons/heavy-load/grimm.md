@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:epicfight_dd:grimm]]"]
     ]
   },
   "items": ["epicfight_dd:grimm"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:epicfight_dd:grimm]] |
 | Impact | 3 |
 | Targets per swing | 4 |
 | Armor Negation | 15% |

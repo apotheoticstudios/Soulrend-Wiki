@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "2.40"]
+      ["Attack speed", "2.40"],
+      ["Average DPS", "[[dps:dungeons_and_combat:cursed_steel_dagger]]"]
     ]
   },
   "items": ["dungeons_and_combat:cursed_steel_dagger"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 2.40 |
+| Average DPS | [[dps:dungeons_and_combat:cursed_steel_dagger]] |
 | Impact | 1.3 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7.26"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:magistuarmory:netherite_shortsword]]"]
     ]
   },
   "items": ["magistuarmory:netherite_shortsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7.26 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:magistuarmory:netherite_shortsword]] |
 | Impact | 1.8 |
 | Targets per swing | 2 |
 | Armor Negation | 10% |

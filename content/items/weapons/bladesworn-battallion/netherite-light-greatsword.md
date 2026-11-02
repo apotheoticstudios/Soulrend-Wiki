@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.45"]
+      ["Attack speed", "1.45"],
+      ["Average DPS", "[[dps:epicfight_dd:netherite_light_greatsword]]"]
     ]
   },
   "items": ["epicfight_dd:netherite_light_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.45 |
+| Average DPS | [[dps:epicfight_dd:netherite_light_greatsword]] |
 | Impact | 2 |
 | Targets per swing | 7 |
 | Armor Negation | 15% |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:epicfight_dd:milady]]"]
     ]
   },
   "items": ["epicfight_dd:milady"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:epicfight_dd:milady]] |
 | Impact | 1.8 |
 | Targets per swing | 8 |
 | Entity Reach | 3 |

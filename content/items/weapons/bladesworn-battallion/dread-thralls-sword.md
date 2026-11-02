@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:iceandfire:dread_sword]]"]
     ]
   },
   "items": ["iceandfire:dread_sword"]
@@ -45,6 +46,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 5 | 5 |
 | Attack Speed | 1.60 | 1.6 |
+| Average DPS | [[dps:iceandfire:dread_sword]] |
 | Impact | 1.76 | 1.76 |
 | Targets per swing | 2 | 4 |
 | Armor Negation | 13% | 13% |

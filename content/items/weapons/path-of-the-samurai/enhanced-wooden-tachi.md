@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:cdmoveset:s_wooden_tachi]]"]
     ]
   },
   "items": ["cdmoveset:s_wooden_tachi"]
@@ -39,6 +40,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 6 | 6 |
 | Attack Speed | 1.20 | 1.2 |
+| Average DPS | [[dps:cdmoveset:s_wooden_tachi]] |
 | Targets per swing | 1 | 4 |
 | Entity Reach | 3 | 3 |
 | Enchantability | 5 |  |

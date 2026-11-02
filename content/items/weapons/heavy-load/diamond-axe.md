@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:minecraft:diamond_axe]]"]
     ]
   },
   "items": ["minecraft:diamond_axe"]
@@ -54,6 +55,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:minecraft:diamond_axe]] |
 | Impact | 2.1 |
 | Targets per swing | 1 |
 | Armor Negation | 30% |

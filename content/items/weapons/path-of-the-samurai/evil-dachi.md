@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:wom:evil_tachi]]"]
     ]
   },
   "items": ["wom:evil_tachi"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:wom:evil_tachi]] |
 | Impact | 2.1 |
 | Targets per swing | 7 |
 | Armor Negation | 10% |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Uncommon"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:irons_spellbooks:keeper_flamberge]]"]
     ]
   },
   "items": ["irons_spellbooks:keeper_flamberge"]
@@ -44,6 +45,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:irons_spellbooks:keeper_flamberge]] |
 | Impact | 4.5 |
 | Targets per swing | 5 |
 | Armor Negation | 20% |

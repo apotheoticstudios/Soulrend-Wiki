@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "2.40"]
+      ["Attack speed", "2.40"],
+      ["Average DPS", "[[dps:epicfight_dd:hookclaws]]"]
     ]
   },
   "items": ["epicfight_dd:hookclaws"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 2.40 |
+| Average DPS | [[dps:epicfight_dd:hookclaws]] |
 | Impact | 1.2 |
 | Targets per swing | 6 |
 | Armor Negation | 26% |

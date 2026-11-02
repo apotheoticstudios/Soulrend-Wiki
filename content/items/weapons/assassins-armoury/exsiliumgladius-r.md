@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "13"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:efn:exsiliumgladius]]"]
     ]
   },
   "items": ["efn:exsiliumgladius"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 13 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:efn:exsiliumgladius]] |
 | Impact | 2.5 |
 | Targets per swing | 6 |
 | Armor Negation | 40% |

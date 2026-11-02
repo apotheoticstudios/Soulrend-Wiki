@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "7"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:epicfight_dd:diamond_battlestaff]]"]
     ]
   },
   "items": ["epicfight_dd:diamond_battlestaff"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 7 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:epicfight_dd:diamond_battlestaff]] |
 | Impact | 2 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

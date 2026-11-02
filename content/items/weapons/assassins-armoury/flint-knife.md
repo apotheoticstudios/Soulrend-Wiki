@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "2.5"],
-      ["Attack speed", "2.30"]
+      ["Attack speed", "2.30"],
+      ["Average DPS", "[[dps:farmersdelight:flint_knife]]"]
     ]
   },
   "items": ["farmersdelight:flint_knife"]
@@ -43,6 +44,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 2.5 |
 | Attack Speed | 2.30 |
+| Average DPS | [[dps:farmersdelight:flint_knife]] |
 | Impact | 1.1 |
 | Targets per swing | 2 |
 | Armor Negation | 15% |

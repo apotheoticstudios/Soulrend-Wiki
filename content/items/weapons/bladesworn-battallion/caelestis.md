@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "17.66"],
-      ["Attack speed", "0.99"]
+      ["Attack speed", "0.99"],
+      ["Average DPS", "[[dps:simplyswords:caelestis]]"]
     ]
   },
   "items": ["simplyswords:caelestis"]
@@ -42,6 +43,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 17.66 | 17.66 |
 | Attack Speed | 0.99 | 1.18 |
+| Average DPS | [[dps:simplyswords:caelestis]] |
 | Impact | 2.6 | 6.6 |
 | Targets per swing | 16 | 66 |
 | Armor Negation | 66.6% | 66.6% |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:soulsweapons:tonitrus]]"]
     ]
   },
   "items": ["soulsweapons:tonitrus"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:soulsweapons:tonitrus]] |
 | Impact | 2.1 |
 | Targets per swing | 3 |
 | Armor Negation | 10% |

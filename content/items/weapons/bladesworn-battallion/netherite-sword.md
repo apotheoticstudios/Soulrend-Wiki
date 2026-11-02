@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:minecraft:netherite_sword]]"]
     ]
   },
   "items": ["minecraft:netherite_sword"]
@@ -54,6 +55,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:minecraft:netherite_sword]] |
 | Impact | 1.8 |
 | Targets per swing | 2 |
 | Armor Negation | 10% |

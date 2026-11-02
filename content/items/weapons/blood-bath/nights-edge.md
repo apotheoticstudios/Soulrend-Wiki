@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "16"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:soulsweapons:nights_edge_item]]"]
     ]
   },
   "items": ["soulsweapons:nights_edge_item"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 16 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:soulsweapons:nights_edge_item]] |
 | Impact | 1.7 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

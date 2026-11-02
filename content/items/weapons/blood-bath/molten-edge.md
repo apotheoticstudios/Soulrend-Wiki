@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "22.7"],
-      ["Attack speed", "1.28"]
+      ["Attack speed", "1.28"],
+      ["Average DPS", "[[dps:simplyswords:molten_edge]]"]
     ]
   },
   "items": ["simplyswords:molten_edge"]
@@ -36,6 +37,7 @@
 | --- | --- |
 | Attack Damage | 22.7 |
 | Attack Speed | 1.28 |
+| Average DPS | [[dps:simplyswords:molten_edge]] |
 | Impact | 3.3 |
 | Targets per swing | 6 |
 | Armor Negation | 5.5% |

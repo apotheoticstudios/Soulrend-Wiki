@@ -8,7 +8,8 @@
       ["Type", "Scythe"],
       ["Rarity", "Epic"],
       ["Attack damage", "18"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:epicfightx:eternal_night_scythe]]"]
     ]
   },
   "items": ["epicfightx:eternal_night_scythe"]
@@ -36,6 +37,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 18 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:epicfightx:eternal_night_scythe]] |
 | Impact | 4.9 |
 | Targets per swing | 6 |
 | Armor Negation | 30% |

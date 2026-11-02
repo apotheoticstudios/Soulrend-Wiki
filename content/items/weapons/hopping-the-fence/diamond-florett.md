@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.90"]
+      ["Attack speed", "1.90"],
+      ["Average DPS", "[[dps:epicfight_dd:diamond_florett]]"]
     ]
   },
   "items": ["epicfight_dd:diamond_florett"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.90 |
+| Average DPS | [[dps:epicfight_dd:diamond_florett]] |
 | Impact | 1.9 |
 | Targets per swing | 5 |
 | Armor Negation | 10% |

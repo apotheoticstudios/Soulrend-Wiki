@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:dragonbane]]"]
     ]
   },
   "items": ["soulsweapons:dragonbane"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:dragonbane]] |
 | Impact | 1.9 |
 | Targets per swing | 2 |
 | Armor Negation | 16% |

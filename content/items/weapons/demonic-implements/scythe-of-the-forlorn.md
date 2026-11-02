@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Uncommon"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.10"]
+      ["Attack speed", "1.10"],
+      ["Average DPS", "[[dps:soulsweapons:forlorn_scythe]]"]
     ]
   },
   "items": ["soulsweapons:forlorn_scythe"]
@@ -44,6 +45,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.10 |
+| Average DPS | [[dps:soulsweapons:forlorn_scythe]] |
 | Impact | 3 |
 | Targets per swing | 10 |
 | Armor Negation | 20% |

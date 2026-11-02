@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "4.5"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:dungeons_and_combat:wooden_mace]]"]
     ]
   },
   "items": ["dungeons_and_combat:wooden_mace"]
@@ -44,6 +45,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 4.5 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:dungeons_and_combat:wooden_mace]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 2 |

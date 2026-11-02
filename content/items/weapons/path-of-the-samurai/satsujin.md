@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "12"],
-      ["Attack speed", "2.20"]
+      ["Attack speed", "2.20"],
+      ["Average DPS", "[[dps:wom:satsujin]]"]
     ]
   },
   "items": ["wom:satsujin"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 2.20 |
+| Average DPS | [[dps:wom:satsujin]] |
 | Impact | 1.7 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

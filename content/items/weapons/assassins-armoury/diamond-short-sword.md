@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6.32"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:magistuarmory:diamond_shortsword]]"]
     ]
   },
   "items": ["magistuarmory:diamond_shortsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6.32 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:magistuarmory:diamond_shortsword]] |
 | Impact | 1.6 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

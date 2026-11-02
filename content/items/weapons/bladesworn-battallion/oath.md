@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:dungeons_and_combat:oath_sword]]"]
     ]
   },
   "items": ["dungeons_and_combat:oath_sword"]
@@ -44,6 +45,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:dungeons_and_combat:oath_sword]] |
 | Impact | 2.5 |
 | Targets per swing | 5 |
 | Armor Negation | 10% |

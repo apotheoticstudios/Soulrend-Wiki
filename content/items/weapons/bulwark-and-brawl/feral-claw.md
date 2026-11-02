@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:efn:nf_claw]]"]
     ]
   },
   "items": ["efn:nf_claw"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:efn:nf_claw]] |
 | Impact | 2.5 |
 | Targets per swing | 6 |
 | Armor Negation | 30% |

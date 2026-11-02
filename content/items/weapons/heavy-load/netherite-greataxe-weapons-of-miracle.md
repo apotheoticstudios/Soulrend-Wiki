@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "12"],
-      ["Attack speed", "1.05"]
+      ["Attack speed", "1.05"],
+      ["Average DPS", "[[dps:wom:netherite_greataxe]]"]
     ]
   },
   "items": ["wom:netherite_greataxe"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 1.05 |
+| Average DPS | [[dps:wom:netherite_greataxe]] |
 | Impact | 3.5 |
 | Targets per swing | 4 |
 | Armor Negation | 15% |

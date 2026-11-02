@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "25"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:iceandfire:dread_queen_sword]]"]
     ]
   },
   "items": ["iceandfire:dread_queen_sword"]
@@ -33,6 +34,7 @@
 | --- | --- |
 | Attack Damage | 25 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:iceandfire:dread_queen_sword]] |
 | Impact | 3.3 |
 | Targets per swing | 6 |
 | Armor Negation | 50% |

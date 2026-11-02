@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "13.8"],
-      ["Attack speed", "1.26"]
+      ["Attack speed", "1.26"],
+      ["Average DPS", "[[dps:simplyswords:netherite_glaive]]"]
     ]
   },
   "items": ["simplyswords:netherite_glaive"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 13.8 |
 | Attack Speed | 1.26 |
+| Average DPS | [[dps:simplyswords:netherite_glaive]] |
 | Impact | 3.6 |
 | Targets per swing | 5 |
 | Armor Negation | 22.2% |

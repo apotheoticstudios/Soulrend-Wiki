@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:dungeons_and_combat:steel_wolf_greatsword]]"]
     ]
   },
   "items": ["dungeons_and_combat:steel_wolf_greatsword"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:dungeons_and_combat:steel_wolf_greatsword]] |
 | Impact | 1.7 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

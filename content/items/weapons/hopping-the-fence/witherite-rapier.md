@@ -8,7 +8,8 @@
       ["Type", "Rapier"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:refm:witherite_rapier]]"]
     ]
   },
   "items": ["refm:witherite_rapier"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:refm:witherite_rapier]] |
 | Impact | 2.5 |
 | Targets per swing | 2 |
 | Armor Negation | 34% |

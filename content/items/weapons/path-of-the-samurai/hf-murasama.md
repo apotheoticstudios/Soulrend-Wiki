@@ -10,7 +10,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:efn:hf_murasama]]"]
     ]
   },
   "items": ["efn:hf_murasama"]
@@ -48,6 +49,7 @@ The blade and sheath are both crafted in a crafting table, and both need [[item:
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:efn:hf_murasama]] |
 | Impact | 2.5 |
 | Targets per swing | 9 |
 | Armor Negation | 80% |

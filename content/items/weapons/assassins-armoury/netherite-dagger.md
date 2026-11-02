@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "2.40"]
+      ["Attack speed", "2.40"],
+      ["Average DPS", "[[dps:epicfight:netherite_dagger]]"]
     ]
   },
   "items": ["epicfight:netherite_dagger"]
@@ -39,6 +40,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 6 | 6 |
 | Attack Speed | 2.40 | 2.4 |
+| Average DPS | [[dps:epicfight:netherite_dagger]] |
 | Impact | 1.4 | 1.4 |
 | Targets per swing | 1 | 2 |
 | Armor Negation | 10% | 10% |

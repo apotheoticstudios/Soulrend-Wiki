@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Uncommon"],
       ["Attack damage", "11"],
-      ["Attack speed", "1.40"]
+      ["Attack speed", "1.40"],
+      ["Average DPS", "[[dps:irons_spellbooks:decrepit_scythe]]"]
     ]
   },
   "items": ["irons_spellbooks:decrepit_scythe"]
@@ -43,6 +44,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 11 |
 | Attack Speed | 1.40 |
+| Average DPS | [[dps:irons_spellbooks:decrepit_scythe]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 4 |

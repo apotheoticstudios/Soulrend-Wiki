@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "11"],
-      ["Attack speed", "3.00"]
+      ["Attack speed", "3.00"],
+      ["Average DPS", "[[dps:iceandfire:ghost_sword]]"]
     ]
   },
   "items": ["iceandfire:ghost_sword"]
@@ -41,6 +42,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 11 | 11 |
 | Attack Speed | 3.00 | 3 |
+| Average DPS | [[dps:iceandfire:ghost_sword]] |
 | Impact | 1.1 | 1.1 |
 | Targets per swing | 10 | 12 |
 | Armor Negation | 100% | 100% |

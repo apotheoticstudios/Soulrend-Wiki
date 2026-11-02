@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:cdmoveset:s_netherite_tachi]]"]
     ]
   },
   "items": ["cdmoveset:s_netherite_tachi"]
@@ -39,6 +40,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 9 | 10 |
 | Attack Speed | 1.20 | 1.2 |
+| Average DPS | [[dps:cdmoveset:s_netherite_tachi]] |
 | Targets per swing | 1 | 3 |
 | Entity Reach | 3 | 3 |
 | Enchantability | 15 |  |

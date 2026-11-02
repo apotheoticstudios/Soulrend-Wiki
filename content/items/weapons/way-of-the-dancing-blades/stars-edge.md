@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "15.5"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:simplyswords:stars_edge]]"]
     ]
   },
   "items": ["simplyswords:stars_edge"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 15.5 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:simplyswords:stars_edge]] |
 | Impact | 2.3 |
 | Targets per swing | 5 |
 | Armor Negation | 6.6% |

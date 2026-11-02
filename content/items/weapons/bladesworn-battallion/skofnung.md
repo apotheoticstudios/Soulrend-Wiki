@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.70"]
+      ["Attack speed", "1.70"],
+      ["Average DPS", "[[dps:soulsweapons:skofnung]]"]
     ]
   },
   "items": ["soulsweapons:skofnung"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.70 |
+| Average DPS | [[dps:soulsweapons:skofnung]] |
 | Impact | 1.3 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "13"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:dungeons_and_combat:ebony_scythe]]"]
     ]
   },
   "items": ["dungeons_and_combat:ebony_scythe"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 13 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:dungeons_and_combat:ebony_scythe]] |
 | Impact | 2.8 |
 | Targets per swing | 3 |
 | Entity Reach | 3 |

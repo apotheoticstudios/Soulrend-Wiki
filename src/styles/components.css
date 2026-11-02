@@ -634,3 +634,5 @@ a.recipe-slot:hover::after, span.recipe-slot:not(.empty):hover::after {
   image-rendering: pixelated;
 }
 .hof-meta { color: var(--muted); font-size: 13px; }
+
+.dps { cursor: help; text-decoration: underline dotted; text-underline-offset: 2px; }

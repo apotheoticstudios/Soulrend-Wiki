@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "0.90"]
+      ["Attack speed", "0.90"],
+      ["Average DPS", "[[dps:minecraft:iron_axe]]"]
     ]
   },
   "items": ["minecraft:iron_axe"]
@@ -54,6 +55,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 0.90 |
+| Average DPS | [[dps:minecraft:iron_axe]] |
 | Impact | 1.8 |
 | Targets per swing | 1 |
 | Armor Negation | 20% |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8.5"],
-      ["Attack speed", "2.50"]
+      ["Attack speed", "2.50"],
+      ["Average DPS", "[[dps:dungeons_and_combat:molten_cryolite_sickle]]"]
     ]
   },
   "items": ["dungeons_and_combat:molten_cryolite_sickle"]
@@ -41,6 +42,7 @@ The default column is the tooltip value (Epic Fight one-hand style). The two-han
 | --- | --- | --- |
 | Attack Damage | 8.5 | 8.5 |
 | Attack Speed | 2.50 | 2.5 |
+| Average DPS | [[dps:dungeons_and_combat:molten_cryolite_sickle]] |
 | Impact | 1.3 | 1.3 |
 | Targets per swing | 1 | 2 |
 | Armor Negation | 10% | 10% |

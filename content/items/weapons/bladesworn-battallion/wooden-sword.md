@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "4"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:minecraft:wooden_sword]]"]
     ]
   },
   "items": ["minecraft:wooden_sword"]
@@ -44,6 +45,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 4 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:minecraft:wooden_sword]] |
 | Impact | 1 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

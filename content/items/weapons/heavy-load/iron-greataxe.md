@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.15"]
+      ["Attack speed", "1.15"],
+      ["Average DPS", "[[dps:wom:iron_greataxe]]"]
     ]
   },
   "items": ["wom:iron_greataxe"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.15 |
+| Average DPS | [[dps:wom:iron_greataxe]] |
 | Impact | 2.5 |
 | Targets per swing | 5 |
 | Armor Negation | 5% |

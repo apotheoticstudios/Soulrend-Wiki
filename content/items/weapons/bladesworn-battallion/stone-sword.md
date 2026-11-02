@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:minecraft:stone_sword]]"]
     ]
   },
   "items": ["minecraft:stone_sword"]
@@ -54,6 +55,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:minecraft:stone_sword]] |
 | Impact | 1.2 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5.5"],
-      ["Attack speed", "2.40"]
+      ["Attack speed", "2.40"],
+      ["Average DPS", "[[dps:dungeons_and_combat:steel_dagger]]"]
     ]
   },
   "items": ["dungeons_and_combat:steel_dagger"]
@@ -43,6 +44,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5.5 |
 | Attack Speed | 2.40 |
+| Average DPS | [[dps:dungeons_and_combat:steel_dagger]] |
 | Impact | 1.3 |
 | Targets per swing | 2 |
 | Armor Negation | 10% |

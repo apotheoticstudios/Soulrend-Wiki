@@ -82,12 +82,18 @@ export function readRegistries({ classPath, mods, loadedMods, warn = console.war
     }
     return key?.$propName ?? '?';
   };
-  natives['*.addProperty'] = (jvm, [key, value], __, self) => {
+  natives['*.addProperty'] = (jvm, args, __, self) => {
+    const [key, value] = args;
     const owner = self?.$phase ?? (self?.$class?.includes('/animation/types/') || !self?.$phase ? current : null);
     if (owner) {
       const name = propName(jvm, key);
       const props = self?.$phase ? self.$phase.props : current?.props;
       if (props) props[name] = plain(value);
+      // AttackAnimation.addProperty(phaseProperty, value[, index]) sets the phase's own property (phase 0 without an index).
+      if (!self?.$phase && current && PHASE_PROPS.has(name)) {
+        const at = typeof args[2] === 'number' ? args[2] : 0;
+        ((current.phaseProps ??= [])[at] ??= {})[name] = plain(value);
+      }
     }
     return self;
   };
@@ -217,6 +223,8 @@ export function readRegistries({ classPath, mods, loadedMods, warn = console.war
 
 // AttackAnimation$Phase(start, antic, preDelay, contact, recovery, end, [hand], joint, collider) and the
 // JointColliderPair[] forms: numbers are the times, the rest is read by kind.
+const PHASE_PROPS = new Set(['DAMAGE_MODIFIER', 'ARMOR_NEGATION_MODIFIER', 'IMPACT_MODIFIER', 'STUN_TYPE', 'MAX_STRIKES_MODIFIER', 'EXTRA_DAMAGE', 'HIT_PRIORITY', 'SOURCE_TAG']);
+
 function phaseFrom(args) {
   const times = args.filter(a => typeof a === 'number');
   const flat = args.flatMap(a => (Array.isArray(a) ? a.flatMap(p => [p?.$f?.first ?? p?.$f?.a, p?.$f?.second ?? p?.$f?.b, p]) : [a]));

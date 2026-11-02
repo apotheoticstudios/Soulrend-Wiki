@@ -8,7 +8,8 @@
       ["Type", "Rapier"],
       ["Rarity", "Epic"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.90"]
+      ["Attack speed", "1.90"],
+      ["Average DPS", "[[dps:irons_spellbooks:amethyst_rapier]]"]
     ]
   },
   "items": ["irons_spellbooks:amethyst_rapier"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.90 |
+| Average DPS | [[dps:irons_spellbooks:amethyst_rapier]] |
 | Impact | 2 |
 | Targets per swing | 2 |
 | Armor Negation | 24% |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "30"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:cataclysm:zweiender]]"]
     ]
   },
   "items": ["cataclysm:zweiender"]
@@ -35,6 +36,7 @@
 | --- | --- |
 | Attack Damage | 30 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:cataclysm:zweiender]] |
 | Impact | 4.5 |
 | Targets per swing | 5 |
 | Armor Negation | 35% |

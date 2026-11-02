@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "10"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:soulsweapons:nightlords_sword]]"]
     ]
   },
   "items": ["soulsweapons:nightlords_sword"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 10 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:soulsweapons:nightlords_sword]] |
 | Impact | 3.7 |
 | Targets per swing | 4 |
 | Armor Negation | 15% |

@@ -8,7 +8,8 @@
       ["Type", "Rapier"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:refm:netherite_rapier]]"]
     ]
   },
   "items": ["refm:netherite_rapier"]
@@ -36,6 +37,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:refm:netherite_rapier]] |
 | Impact | 2.2 |
 | Targets per swing | 2 |
 | Armor Negation | 28% |

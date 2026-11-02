@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "12"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:souls_like_bosses:dark_moon_greatsword]]"]
     ]
   },
   "items": ["souls_like_bosses:dark_moon_greatsword"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:souls_like_bosses:dark_moon_greatsword]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 15 |

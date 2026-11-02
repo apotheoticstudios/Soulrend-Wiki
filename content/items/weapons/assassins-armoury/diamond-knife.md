@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "5"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:epicfight_dd:diamond_knife]]"]
     ]
   },
   "items": ["epicfight_dd:diamond_knife"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 5 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:epicfight_dd:diamond_knife]] |
 | Impact | 1.3 |
 | Targets per swing | 5 |
 | Armor Negation | 15% |

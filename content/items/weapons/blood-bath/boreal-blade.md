@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "16"],
-      ["Attack speed", "0.90"]
+      ["Attack speed", "0.90"],
+      ["Average DPS", "[[dps:irons_spellbooks:boreal_blade]]"]
     ]
   },
   "items": ["irons_spellbooks:boreal_blade"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 16 |
 | Attack Speed | 0.90 |
+| Average DPS | [[dps:irons_spellbooks:boreal_blade]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 16 |

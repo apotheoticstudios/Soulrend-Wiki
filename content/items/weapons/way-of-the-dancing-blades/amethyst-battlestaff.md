@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.55"]
+      ["Attack speed", "1.55"],
+      ["Average DPS", "[[dps:epicfight_dd:amethyst_battlestaff]]"]
     ]
   },
   "items": ["epicfight_dd:amethyst_battlestaff"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.55 |
+| Average DPS | [[dps:epicfight_dd:amethyst_battlestaff]] |
 | Impact | 2.3 |
 | Targets per swing | 7 |
 | Entity Reach | 3 |

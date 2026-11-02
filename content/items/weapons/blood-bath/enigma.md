@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "20.1"],
-      ["Attack speed", "1.10"]
+      ["Attack speed", "1.10"],
+      ["Average DPS", "[[dps:simplyswords:enigma]]"]
     ]
   },
   "items": ["simplyswords:enigma"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 20.1 |
 | Attack Speed | 1.10 |
+| Average DPS | [[dps:simplyswords:enigma]] |
 | Impact | 3.7 |
 | Targets per swing | 7 |
 | Armor Negation | 7% |

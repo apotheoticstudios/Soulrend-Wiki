@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:epicfight_dd:netherite_halberd]]"]
     ]
   },
   "items": ["epicfight_dd:netherite_halberd"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:epicfight_dd:netherite_halberd]] |
 | Impact | 2.5 |
 | Targets per swing | 6 |
 | Armor Negation | 10% |

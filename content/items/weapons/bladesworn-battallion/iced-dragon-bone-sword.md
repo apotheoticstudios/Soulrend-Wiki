@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9.5"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:iceandfire:dragonbone_sword_ice]]"]
     ]
   },
   "items": ["iceandfire:dragonbone_sword_ice"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9.5 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:iceandfire:dragonbone_sword_ice]] |
 | Impact | 2.7 |
 | Targets per swing | 5 |
 | Armor Negation | 25% |

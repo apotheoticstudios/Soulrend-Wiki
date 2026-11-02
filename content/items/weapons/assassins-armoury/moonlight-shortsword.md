@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:moonlight_shortsword]]"]
     ]
   },
   "items": ["soulsweapons:moonlight_shortsword"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:moonlight_shortsword]] |
 | Impact | 2 |
 | Targets per swing | 2 |
 | Armor Negation | 12% |

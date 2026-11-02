@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:samurai_dynasty:katana_netherite]]"]
     ]
   },
   "items": ["samurai_dynasty:katana_netherite"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:samurai_dynasty:katana_netherite]] |
 | Impact | 1.2 |
 | Targets per swing | 1 |
 | Entity Reach | 3 |

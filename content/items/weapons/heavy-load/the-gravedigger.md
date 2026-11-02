@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:dungeons_and_combat:the_gravedigger_greataxe]]"]
     ]
   },
   "items": ["dungeons_and_combat:the_gravedigger_greataxe"]
@@ -39,6 +40,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:dungeons_and_combat:the_gravedigger_greataxe]] |
 | Impact | 1.7 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

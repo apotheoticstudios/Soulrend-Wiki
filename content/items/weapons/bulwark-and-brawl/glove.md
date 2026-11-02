@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "3"],
-      ["Attack speed", "4.00"]
+      ["Attack speed", "4.00"],
+      ["Average DPS", "[[dps:epicfight:glove]]"]
     ]
   },
   "items": ["epicfight:glove"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 3 |
 | Attack Speed | 4.00 |
+| Average DPS | [[dps:epicfight:glove]] |
 | Impact | 1.2 |
 | Targets per swing | 1 |
 | Entity Reach | 3 |

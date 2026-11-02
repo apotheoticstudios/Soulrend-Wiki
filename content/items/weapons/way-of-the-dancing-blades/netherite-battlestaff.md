@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "8"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:epicfight_dd:netherite_battlestaff]]"]
     ]
   },
   "items": ["epicfight_dd:netherite_battlestaff"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 8 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:epicfight_dd:netherite_battlestaff]] |
 | Impact | 2.5 |
 | Targets per swing | 6 |
 | Armor Negation | 10% |

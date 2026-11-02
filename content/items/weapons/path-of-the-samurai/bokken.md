@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "4"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:epicfight:bokken]]"]
     ]
   },
   "items": ["epicfight:bokken"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 4 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:epicfight:bokken]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 15 |

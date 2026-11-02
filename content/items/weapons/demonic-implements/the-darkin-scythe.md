@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:soulsweapons:darkin_scythe_pre]]"]
     ]
   },
   "items": ["soulsweapons:darkin_scythe_pre", "soulsweapons:darkin_scythe"]
@@ -40,6 +41,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:darkin_scythe_pre]] |
 | Impact | 1.6 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |
@@ -55,6 +57,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:soulsweapons:darkin_scythe]] |
 | Impact | 1.6 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

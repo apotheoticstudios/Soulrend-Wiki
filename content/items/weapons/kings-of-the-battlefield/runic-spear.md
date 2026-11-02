@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "13.1"],
-      ["Attack speed", "1.38"]
+      ["Attack speed", "1.38"],
+      ["Average DPS", "[[dps:simplyswords:runic_spear]]"]
     ]
   },
   "items": ["simplyswords:runic_spear"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 13.1 |
 | Attack Speed | 1.38 |
+| Average DPS | [[dps:simplyswords:runic_spear]] |
 | Impact | 2.6 |
 | Targets per swing | 4 |
 | Armor Negation | 16.9% |

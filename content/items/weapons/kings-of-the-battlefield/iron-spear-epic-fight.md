@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.20"]
+      ["Attack speed", "1.20"],
+      ["Average DPS", "[[dps:epicfight:iron_spear]]"]
     ]
   },
   "items": ["epicfight:iron_spear"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.20 |
+| Average DPS | [[dps:epicfight:iron_spear]] |
 | Impact | 2.1 |
 | Targets per swing | 4 |
 | Entity Reach | 3 |

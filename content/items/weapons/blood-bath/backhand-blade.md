@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:epicfight_dd:backhand_blade]]"]
     ]
   },
   "items": ["epicfight_dd:backhand_blade"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:epicfight_dd:backhand_blade]] |
 | Impact | 1.7 |
 | Targets per swing | 4 |
 | Armor Negation | 33% |

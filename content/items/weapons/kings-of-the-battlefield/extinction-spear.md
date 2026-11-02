@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Alexscaves:demonic"],
       ["Attack damage", "9"],
-      ["Attack speed", "1.00"]
+      ["Attack speed", "1.00"],
+      ["Average DPS", "[[dps:alexscaves:extinction_spear]]"]
     ]
   },
   "items": ["alexscaves:extinction_spear"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 9 |
 | Attack Speed | 1.00 |
+| Average DPS | [[dps:alexscaves:extinction_spear]] |
 | Targets per swing | 1 |
 | Entity Reach | 3 |
 | Enchantability | 1 |

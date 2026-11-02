@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.30"]
+      ["Attack speed", "1.30"],
+      ["Average DPS", "[[dps:dungeons_and_combat:blacksmith_hammer]]"]
     ]
   },
   "items": ["dungeons_and_combat:blacksmith_hammer"]
@@ -44,6 +45,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.30 |
+| Average DPS | [[dps:dungeons_and_combat:blacksmith_hammer]] |
 | Impact | 1.5 |
 | Targets per swing | 3 |
 | Armor Negation | 5% |

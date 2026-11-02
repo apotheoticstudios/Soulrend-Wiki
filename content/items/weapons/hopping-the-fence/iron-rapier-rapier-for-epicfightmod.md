@@ -8,7 +8,8 @@
       ["Type", "Rapier"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "2.00"]
+      ["Attack speed", "2.00"],
+      ["Average DPS", "[[dps:refm:iron_rapier]]"]
     ]
   },
   "items": ["refm:iron_rapier"]
@@ -36,6 +37,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 2.00 |
+| Average DPS | [[dps:refm:iron_rapier]] |
 | Impact | 1.7 |
 | Targets per swing | 2 |
 | Armor Negation | 12% |

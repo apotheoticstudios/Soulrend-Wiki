@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Rare"],
       ["Attack damage", "12"],
-      ["Attack speed", "1.50"]
+      ["Attack speed", "1.50"],
+      ["Average DPS", "[[dps:wom:agony]]"]
     ]
   },
   "items": ["wom:agony"]
@@ -38,6 +39,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 12 |
 | Attack Speed | 1.50 |
+| Average DPS | [[dps:wom:agony]] |
 | Impact | 1.4 |
 | Targets per swing | 3 |
 | Armor Negation | 15% |

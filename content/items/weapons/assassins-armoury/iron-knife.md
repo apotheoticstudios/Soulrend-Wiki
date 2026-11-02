@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "4"],
-      ["Attack speed", "1.80"]
+      ["Attack speed", "1.80"],
+      ["Average DPS", "[[dps:epicfight_dd:iron_knife]]"]
     ]
   },
   "items": ["epicfight_dd:iron_knife"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 4 |
 | Attack Speed | 1.80 |
+| Average DPS | [[dps:epicfight_dd:iron_knife]] |
 | Impact | 1.1 |
 | Targets per swing | 5 |
 | Armor Negation | 10% |

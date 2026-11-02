@@ -9,7 +9,8 @@
       ["Handling", "One Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "6"],
-      ["Attack speed", "1.60"]
+      ["Attack speed", "1.60"],
+      ["Average DPS", "[[dps:minecraft:iron_sword]]"]
     ]
   },
   "items": ["minecraft:iron_sword"]
@@ -54,6 +55,7 @@ It can also be crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 6 |
 | Attack Speed | 1.60 |
+| Average DPS | [[dps:minecraft:iron_sword]] |
 | Impact | 1.4 |
 | Targets per swing | 2 |
 | Entity Reach | 3 |

@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Common"],
       ["Attack damage", "13"],
-      ["Attack speed", "1.10"]
+      ["Attack speed", "1.10"],
+      ["Average DPS", "[[dps:cdmoveset:s_wooden_greatsword]]"]
     ]
   },
   "items": ["cdmoveset:s_wooden_greatsword"]
@@ -37,6 +38,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 13 |
 | Attack Speed | 1.10 |
+| Average DPS | [[dps:cdmoveset:s_wooden_greatsword]] |
 | Impact | 4 |
 | Targets per swing | 5 |
 | Entity Reach | 3 |

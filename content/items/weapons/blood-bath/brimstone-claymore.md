@@ -9,7 +9,8 @@
       ["Handling", "Two Handed"],
       ["Rarity", "Epic"],
       ["Attack damage", "17.7"],
-      ["Attack speed", "1.07"]
+      ["Attack speed", "1.07"],
+      ["Average DPS", "[[dps:simplyswords:brimstone_claymore]]"]
     ]
   },
   "items": ["simplyswords:brimstone_claymore"]
@@ -40,6 +41,7 @@ It is crafted (see [[#Crafting]]).
 | --- | --- |
 | Attack Damage | 17.7 |
 | Attack Speed | 1.07 |
+| Average DPS | [[dps:simplyswords:brimstone_claymore]] |
 | Impact | 2.9 |
 | Targets per swing | 12 |
 | Armor Negation | 20% |
