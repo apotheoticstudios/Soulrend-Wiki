@@ -38,8 +38,8 @@ The **Nether Seal** items open the Nether, which is sealed in Soulrend. Four Mys
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:nether_remastered:seal_piece_1]] | Nether Remastered | A strange fragment of a magical seal | 1 loot table |
-| [[item:nether_remastered:seal_crystal]] | Nether Remastered | It feels warm to the touch... | 6 loot tables |
+| [[item:nether_remastered:seal_piece_1]] | Nether Remastered | A strange fragment of a magical seal | [[loot:nether_remastered:seal_piece_1]] |
+| [[item:nether_remastered:seal_crystal]] | Nether Remastered | It feels warm to the touch... | [[loot:nether_remastered:seal_crystal]] |
 | [[item:nether_remastered:obsidian_infused_bottle]] | Nether Remastered |  | crafting |
 | [[item:nether_remastered:bottled_nether_essence]] | Nether Remastered | Something about this essence is haunting.. |  |
 | [[item:nether_remastered:seal_of_the_underworld_item]] | Nether Remastered | The holder of this seal is deemed worthy of entering The Nether | crafting |
@@ -74,7 +74,7 @@ Its tooltip says:
 
 ### Obtaining
 
-6 loot tables drop it:
+Dropped by [[loot:nether_remastered:seal_crystal]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

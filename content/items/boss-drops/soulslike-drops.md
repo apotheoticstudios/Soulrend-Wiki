@@ -74,20 +74,20 @@ The **Ctrl** text on these items is lore only. The **Alt** text on the Essence o
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:soulsweapons:lord_soul_dark]] | Marium's Soulslike Weaponry |  | 1 loot table |
-| [[item:soulsweapons:lord_soul_day_stalker]] | Marium's Soulslike Weaponry |  | 1 loot table |
-| [[item:soulsweapons:lord_soul_night_prowler]] | Marium's Soulslike Weaponry |  | 1 loot table |
+| [[item:soulsweapons:lord_soul_dark]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_dark]] |
+| [[item:soulsweapons:lord_soul_day_stalker]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_day_stalker]] |
+| [[item:soulsweapons:lord_soul_night_prowler]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_night_prowler]] |
 | [[item:soulsweapons:lord_soul_purple]] | Marium's Soulslike Weaponry |  |  |
-| [[item:soulsweapons:lord_soul_red]] | Marium's Soulslike Weaponry |  | 2 loot tables |
-| [[item:soulsweapons:lord_soul_rose]] | Marium's Soulslike Weaponry |  | 1 loot table |
-| [[item:soulsweapons:lord_soul_void]] | Marium's Soulslike Weaponry |  | 1 loot table |
-| [[item:soulsweapons:lord_soul_white]] | Marium's Soulslike Weaponry |  | 1 loot table |
-| [[item:soulsweapons:lost_soul]] | Marium's Soulslike Weaponry |  | crafting, 4 loot tables |
-| [[item:soulsweapons:essence_of_eventide]] | Marium's Soulslike Weaponry |  | 1 loot table |
-| [[item:soulsweapons:essence_of_luminescence]] | Marium's Soulslike Weaponry |  | 1 loot table |
+| [[item:soulsweapons:lord_soul_red]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_red]] |
+| [[item:soulsweapons:lord_soul_rose]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_rose]] |
+| [[item:soulsweapons:lord_soul_void]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_void]] |
+| [[item:soulsweapons:lord_soul_white]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:lord_soul_white]] |
+| [[item:soulsweapons:lost_soul]] | Marium's Soulslike Weaponry |  | crafting, [[loot:soulsweapons:lost_soul]] |
+| [[item:soulsweapons:essence_of_eventide]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:essence_of_eventide]] |
+| [[item:soulsweapons:essence_of_luminescence]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:essence_of_luminescence]] |
 | [[item:soulsweapons:chaos_orb]] | Marium's Soulslike Weaponry | All the colors of light and dark pass through this orb. Throw it into the sky to summon deities of night and day. | crafting |
 | [[item:soulsweapons:shard_of_uncertainty]] | Marium's Soulslike Weaponry |  |  |
-| [[item:soulsweapons:arkenstone]] | Marium's Soulslike Weaponry |  | 1 loot table |
+| [[item:soulsweapons:arkenstone]] | Marium's Soulslike Weaponry |  | [[loot:soulsweapons:arkenstone]] |
 
 ## Lord Soul (Lord Soul Dark)
 
@@ -171,7 +171,7 @@ The [[Ender Dragon]] drops one when it dies. Soulslike Weaponry adds the drop in
 
 ### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:soulsweapons:lord_soul_red]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -250,7 +250,7 @@ One loot table drops it:
 
 ### Obtaining
 
-4 loot tables drop it:
+Dropped by [[loot:soulsweapons:lost_soul]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

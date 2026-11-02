@@ -63,19 +63,19 @@
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:iceandfire:fire_dragon_blood]] | Ice and Fire |  |  |
-| [[item:iceandfire:ice_dragon_blood]] | Ice and Fire |  | 3 loot tables |
+| [[item:iceandfire:ice_dragon_blood]] | Ice and Fire |  | [[loot:iceandfire:ice_dragon_blood]] |
 | [[item:iceandfire:lightning_dragon_blood]] | Ice and Fire |  |  |
-| [[item:iceandfire:fire_dragon_flesh]] | Ice and Fire | 8 hunger, 0.8 saturation | 2 loot tables |
+| [[item:iceandfire:fire_dragon_flesh]] | Ice and Fire | 8 hunger, 0.8 saturation | [[loot:iceandfire:fire_dragon_flesh]] |
 | [[item:iceandfire:fire_dragon_heart]] | Ice and Fire |  |  |
-| [[item:iceandfire:ice_dragon_flesh]] | Ice and Fire | 8 hunger, 0.8 saturation | 5 loot tables |
-| [[item:iceandfire:ice_dragon_heart]] | Ice and Fire |  | 3 loot tables |
-| [[item:iceandfire:lightning_dragon_flesh]] | Ice and Fire | 8 hunger, 0.8 saturation | 2 loot tables |
+| [[item:iceandfire:ice_dragon_flesh]] | Ice and Fire | 8 hunger, 0.8 saturation | [[loot:iceandfire:ice_dragon_flesh]] |
+| [[item:iceandfire:ice_dragon_heart]] | Ice and Fire |  | [[loot:iceandfire:ice_dragon_heart]] |
+| [[item:iceandfire:lightning_dragon_flesh]] | Ice and Fire | 8 hunger, 0.8 saturation | [[loot:iceandfire:lightning_dragon_flesh]] |
 | [[item:iceandfire:lightning_dragon_heart]] | Ice and Fire |  |  |
 | [[item:iceandfire:dragon_skull_fire]] | Ice and Fire | Fire |  |
 | [[item:iceandfire:dragon_skull_ice]] | Ice and Fire | Ice |  |
 | [[item:iceandfire:dragon_skull_lightning]] | Ice and Fire | Lightning |  |
-| [[item:iceandfire:dragonbone]] | Ice and Fire |  | crafting, 8 loot tables |
-| [[item:iceandfire:witherbone]] | Ice and Fire |  | 7 loot tables |
+| [[item:iceandfire:dragonbone]] | Ice and Fire |  | crafting, [[loot:iceandfire:dragonbone]] |
+| [[item:iceandfire:witherbone]] | Ice and Fire |  | [[loot:iceandfire:witherbone]] |
 
 ## Dragon blood
 
@@ -93,7 +93,7 @@
 
 #### Obtaining
 
-3 loot tables drop it:
+Dropped by [[loot:iceandfire:ice_dragon_blood]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -123,7 +123,7 @@ Eating it restores 8 hunger and 0.8 saturation.
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:iceandfire:fire_dragon_flesh]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -150,7 +150,7 @@ Eating it restores 8 hunger and 0.8 saturation.
 
 #### Obtaining
 
-5 loot tables drop it:
+Dropped by [[loot:iceandfire:ice_dragon_flesh]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -170,7 +170,7 @@ Eating it restores 8 hunger and 0.8 saturation.
 
 #### Obtaining
 
-3 loot tables drop it:
+Dropped by [[loot:iceandfire:ice_dragon_heart]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -190,7 +190,7 @@ Eating it restores 8 hunger and 0.8 saturation.
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:iceandfire:lightning_dragon_flesh]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -253,7 +253,7 @@ Its tooltip says:
 
 ### Obtaining
 
-8 loot tables drop it:
+Dropped by [[loot:iceandfire:dragonbone]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -282,7 +282,7 @@ It can also be crafted (see below).
 
 ### Obtaining
 
-7 loot tables drop it:
+Dropped by [[loot:iceandfire:witherbone]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

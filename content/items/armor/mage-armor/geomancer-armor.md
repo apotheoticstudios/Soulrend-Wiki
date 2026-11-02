@@ -66,7 +66,7 @@ Together, its 4 pieces add **42.5 Weight** and **6.38 Stun Armor** in Epic Fight
 
 Every piece is crafted (see [[#Crafting]]).
 
-[[item:mowziesmobs:geomancer_beads]] drops from 3 loot tables:
+[[item:mowziesmobs:geomancer_beads]] drops from [[loot:mowziesmobs:geomancer_beads]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -74,7 +74,7 @@ Every piece is crafted (see [[#Crafting]]).
 | `gtbcs_geomancy_plus:chests/geomancer_tower/geomancer_treasure_storage` (chest) | 9.38% | 1 |
 | `mowziesmobs:chests/monastery_chest` (chest) | 1% per roll, 3–8 rolls | 1 |
 
-[[item:mowziesmobs:geomancer_robe]] drops from 3 loot tables:
+[[item:mowziesmobs:geomancer_robe]] drops from [[loot:mowziesmobs:geomancer_robe]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ Every piece is crafted (see [[#Crafting]]).
 | `gtbcs_geomancy_plus:chests/geomancer_tower/geomancer_treasure_storage` (chest) | 9.38% | 1 |
 | `mowziesmobs:chests/monastery_chest` (chest) | 1% per roll, 3–8 rolls | 1 |
 
-[[item:mowziesmobs:geomancer_belt]] drops from 3 loot tables:
+[[item:mowziesmobs:geomancer_belt]] drops from [[loot:mowziesmobs:geomancer_belt]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -90,7 +90,7 @@ Every piece is crafted (see [[#Crafting]]).
 | `gtbcs_geomancy_plus:chests/geomancer_tower/geomancer_treasure_storage` (chest) | 9.38% | 1 |
 | `mowziesmobs:chests/monastery_chest` (chest) | 1% per roll, 3–8 rolls | 1 |
 
-[[item:mowziesmobs:geomancer_sandals]] drops from 3 loot tables:
+[[item:mowziesmobs:geomancer_sandals]] drops from [[loot:mowziesmobs:geomancer_sandals]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

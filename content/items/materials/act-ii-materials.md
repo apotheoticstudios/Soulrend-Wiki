@@ -82,15 +82,15 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:titanium_ingot]] | dungeons and combat |  | crafting, 1 loot table |
-| [[item:iceandfire:sapphire_gem]] | Ice and Fire |  | crafting, 9 loot tables |
-| [[item:iceandfire:troll_leather_forest]] | Ice and Fire |  | 1 loot table |
-| [[item:iceandfire:troll_leather_frost]] | Ice and Fire |  | 4 loot tables |
-| [[item:iceandfire:troll_leather_mountain]] | Ice and Fire |  | 1 loot table |
-| [[item:iceandfire:deathworm_chitin_yellow]] | Ice and Fire |  | 3 loot tables |
-| [[item:iceandfire:deathworm_chitin_white]] | Ice and Fire |  | 3 loot tables |
-| [[item:iceandfire:deathworm_chitin_red]] | Ice and Fire |  | 3 loot tables |
-| [[item:iceandfire:sea_serpent_scales_blue]] | Ice and Fire | Blue | crafting, 1 loot table |
+| [[item:dungeons_and_combat:titanium_ingot]] | dungeons and combat |  | crafting, [[loot:dungeons_and_combat:titanium_ingot]] |
+| [[item:iceandfire:sapphire_gem]] | Ice and Fire |  | crafting, [[loot:iceandfire:sapphire_gem]] |
+| [[item:iceandfire:troll_leather_forest]] | Ice and Fire |  | [[loot:iceandfire:troll_leather_forest]] |
+| [[item:iceandfire:troll_leather_frost]] | Ice and Fire |  | [[loot:iceandfire:troll_leather_frost]] |
+| [[item:iceandfire:troll_leather_mountain]] | Ice and Fire |  | [[loot:iceandfire:troll_leather_mountain]] |
+| [[item:iceandfire:deathworm_chitin_yellow]] | Ice and Fire |  | [[loot:iceandfire:deathworm_chitin_yellow]] |
+| [[item:iceandfire:deathworm_chitin_white]] | Ice and Fire |  | [[loot:iceandfire:deathworm_chitin_white]] |
+| [[item:iceandfire:deathworm_chitin_red]] | Ice and Fire |  | [[loot:iceandfire:deathworm_chitin_red]] |
+| [[item:iceandfire:sea_serpent_scales_blue]] | Ice and Fire | Blue | crafting, [[loot:iceandfire:sea_serpent_scales_blue]] |
 | [[item:iceandfire:sea_serpent_scales_bronze]] | Ice and Fire | Bronze | crafting |
 | [[item:iceandfire:sea_serpent_scales_deepblue]] | Ice and Fire | Deep Blue | crafting |
 | [[item:iceandfire:sea_serpent_scales_green]] | Ice and Fire | Green | crafting |
@@ -99,7 +99,7 @@
 | [[item:iceandfire:sea_serpent_scales_teal]] | Ice and Fire | Teal | crafting |
 | [[item:irons_spellbooks:mithril_ingot]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:irons_spellbooks:mithril_ore]] | Iron's Spells 'n Spellbooks |  |  |
-| [[item:irons_spellbooks:mithril_scrap]] | Iron's Spells 'n Spellbooks |  | crafting, 2 loot tables |
+| [[item:irons_spellbooks:mithril_scrap]] | Iron's Spells 'n Spellbooks |  | crafting, [[loot:irons_spellbooks:mithril_scrap]] |
 | [[item:irons_spellbooks:mithril_weave]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:astral_calamity_extras:cryonic_ingot]] | Astral Calamity Extras | A cold metal that can be created by combining the ancient ice artifact and steel. |  |
 | [[item:astral_calamity_extras:subliminal_ingot]] | Astral Calamity Extras | A material so cold that it freezes anything that is touching it. |  |
@@ -137,7 +137,7 @@ It can also be crafted (see below).
 
 #### Obtaining
 
-9 loot tables drop it:
+Dropped by [[loot:iceandfire:sapphire_gem]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -183,7 +183,7 @@ One loot table drops it:
 
 #### Obtaining
 
-4 loot tables drop it:
+Dropped by [[loot:iceandfire:troll_leather_frost]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -218,7 +218,7 @@ One loot table drops it:
 
 #### Obtaining
 
-3 loot tables drop it:
+Dropped by [[loot:iceandfire:deathworm_chitin_yellow]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -236,7 +236,7 @@ One loot table drops it:
 
 #### Obtaining
 
-3 loot tables drop it:
+Dropped by [[loot:iceandfire:deathworm_chitin_white]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -254,7 +254,7 @@ One loot table drops it:
 
 #### Obtaining
 
-3 loot tables drop it:
+Dropped by [[loot:iceandfire:deathworm_chitin_red]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -442,7 +442,7 @@ The ore generates 7 times per chunk between y=−63 and y=−38, in veins of up 
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:irons_spellbooks:mithril_scrap]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

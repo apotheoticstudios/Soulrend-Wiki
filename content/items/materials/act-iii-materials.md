@@ -80,18 +80,18 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:netherite_ingot]] | Minecraft |  | crafting, 15 loot tables |
-| [[item:minecraft:netherite_scrap]] | Minecraft |  | crafting, 44 loot tables |
-| [[item:minecraft:ancient_debris]] | Minecraft |  | crafting, 22 loot tables |
+| [[item:minecraft:netherite_ingot]] | Minecraft |  | crafting, [[loot:minecraft:netherite_ingot]] |
+| [[item:minecraft:netherite_scrap]] | Minecraft |  | crafting, [[loot:minecraft:netherite_scrap]] |
+| [[item:minecraft:ancient_debris]] | Minecraft |  | crafting, [[loot:minecraft:ancient_debris]] |
 
 ## High Level Vanilla Materials
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:nautilus_shell]] | Minecraft |  | 17 loot tables |
-| [[item:minecraft:heart_of_the_sea]] | Minecraft |  | crafting, 5 loot tables |
-| [[item:minecraft:nether_star]] | Minecraft |  | 3 loot tables |
-| [[item:minecraft:ghast_tear]] | Minecraft |  | 13 loot tables |
+| [[item:minecraft:nautilus_shell]] | Minecraft |  | [[loot:minecraft:nautilus_shell]] |
+| [[item:minecraft:heart_of_the_sea]] | Minecraft |  | crafting, [[loot:minecraft:heart_of_the_sea]] |
+| [[item:minecraft:nether_star]] | Minecraft |  | [[loot:minecraft:nether_star]] |
+| [[item:minecraft:ghast_tear]] | Minecraft |  | [[loot:minecraft:ghast_tear]] |
 
 ## Ebony Ingots
 
@@ -115,18 +115,18 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:alexscaves:amber_curiosity]] | Alex's Caves |  | 1 loot table |
-| [[item:alexscaves:azure_neodymium_ingot]] | Alex's Caves |  | crafting, 2 loot tables |
-| [[item:alexscaves:ferrouslime_ball]] | Alex's Caves |  | 1 loot table |
-| [[item:alexscaves:heavy_bone]] | Alex's Caves |  | 3 loot tables |
-| [[item:alexscaves:pearl]] | Alex's Caves |  | crafting, 4 loot tables |
-| [[item:alexscaves:pure_darkness]] | Alex's Caves |  | 1 loot table |
-| [[item:alexscaves:radon_bottle]] | Alex's Caves |  | 1 loot table |
-| [[item:alexscaves:scarlet_neodymium_ingot]] | Alex's Caves |  | crafting, 2 loot tables |
-| [[item:alexscaves:sulfur_dust]] | Alex's Caves |  | 5 loot tables |
-| [[item:alexscaves:sweet_tooth]] | Alex's Caves |  | 1 loot table |
-| [[item:alexscaves:tough_hide]] | Alex's Caves |  | 2 loot tables |
-| [[item:alexscaves:uranium]] | Alex's Caves |  | crafting, 3 loot tables |
+| [[item:alexscaves:amber_curiosity]] | Alex's Caves |  | [[loot:alexscaves:amber_curiosity]] |
+| [[item:alexscaves:azure_neodymium_ingot]] | Alex's Caves |  | crafting, [[loot:alexscaves:azure_neodymium_ingot]] |
+| [[item:alexscaves:ferrouslime_ball]] | Alex's Caves |  | [[loot:alexscaves:ferrouslime_ball]] |
+| [[item:alexscaves:heavy_bone]] | Alex's Caves |  | [[loot:alexscaves:heavy_bone]] |
+| [[item:alexscaves:pearl]] | Alex's Caves |  | crafting, [[loot:alexscaves:pearl]] |
+| [[item:alexscaves:pure_darkness]] | Alex's Caves |  | [[loot:alexscaves:pure_darkness]] |
+| [[item:alexscaves:radon_bottle]] | Alex's Caves |  | [[loot:alexscaves:radon_bottle]] |
+| [[item:alexscaves:scarlet_neodymium_ingot]] | Alex's Caves |  | crafting, [[loot:alexscaves:scarlet_neodymium_ingot]] |
+| [[item:alexscaves:sulfur_dust]] | Alex's Caves |  | [[loot:alexscaves:sulfur_dust]] |
+| [[item:alexscaves:sweet_tooth]] | Alex's Caves |  | [[loot:alexscaves:sweet_tooth]] |
+| [[item:alexscaves:tough_hide]] | Alex's Caves |  | [[loot:alexscaves:tough_hide]] |
+| [[item:alexscaves:uranium]] | Alex's Caves |  | crafting, [[loot:alexscaves:uranium]] |
 
 ## Gilded Ingot
 

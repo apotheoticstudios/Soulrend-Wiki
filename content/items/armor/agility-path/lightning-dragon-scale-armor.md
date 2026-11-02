@@ -113,28 +113,28 @@ Together, its 20 pieces add **189.25 Weight** and **53.48 Stun Armor** in Epic F
 
 Every piece is crafted (see [[#Crafting]]).
 
-[[item:iceandfire:armor_copper_metal_helmet]] drops from 2 loot tables:
+[[item:iceandfire:armor_copper_metal_helmet]] drops from [[loot:iceandfire:armor_copper_metal_helmet]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `iceandfire:chest/lightning_dragon_female_cave` (chest) | 2.6% per roll, 1–4 rolls | 1 |
 | `iceandfire:chest/lightning_dragon_roost` (chest) | 2.6% per roll, 1–4 rolls | 1 |
 
-[[item:iceandfire:armor_copper_metal_chestplate]] drops from 2 loot tables:
+[[item:iceandfire:armor_copper_metal_chestplate]] drops from [[loot:iceandfire:armor_copper_metal_chestplate]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `iceandfire:chest/lightning_dragon_female_cave` (chest) | 2.6% per roll, 1–4 rolls | 1 |
 | `iceandfire:chest/lightning_dragon_roost` (chest) | 2.6% per roll, 1–4 rolls | 1 |
 
-[[item:iceandfire:armor_copper_metal_leggings]] drops from 2 loot tables:
+[[item:iceandfire:armor_copper_metal_leggings]] drops from [[loot:iceandfire:armor_copper_metal_leggings]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `iceandfire:chest/lightning_dragon_female_cave` (chest) | 2.6% per roll, 1–4 rolls | 1 |
 | `iceandfire:chest/lightning_dragon_roost` (chest) | 2.6% per roll, 1–4 rolls | 1 |
 
-[[item:iceandfire:armor_copper_metal_boots]] drops from 2 loot tables:
+[[item:iceandfire:armor_copper_metal_boots]] drops from [[loot:iceandfire:armor_copper_metal_boots]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

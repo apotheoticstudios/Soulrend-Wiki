@@ -81,14 +81,14 @@ The **Amethyst Resonance Charm**, the plain **Conjurer's Talisman** and the **He
 | [[item:dungeons_and_combat:fang_necklace]] | dungeons and combat | Slot: Necklace; Attacks will leave the Broken Armor effect |  |
 | [[item:dungeons_and_combat:klauen_necklace]] | dungeons and combat | Slot: Necklace; Attack Speed Bonus |  |
 | [[item:dungeons_and_combat:nullfire_amulet]] | dungeons and combat | Slot: Necklace; Extinguishes flames of all types |  |
-| [[item:dungeons_and_combat:thirsty_necklace]] | dungeons and combat | Slot: Necklace; There will be a chance to heal yourself when attacking | 1 loot table |
+| [[item:dungeons_and_combat:thirsty_necklace]] | dungeons and combat | Slot: Necklace; There will be a chance to heal yourself when attacking | [[loot:dungeons_and_combat:thirsty_necklace]] |
 | [[item:irons_spellbooks:amethyst_resonance_charm]] | Iron's Spells 'n Spellbooks | Slot: Necklace; +15% Mana Regeneration | crafting |
-| [[item:irons_spellbooks:concentration_amulet]] | Iron's Spells 'n Spellbooks | Slot: Necklace; Long Casts become uninterruptible | crafting, 1 loot table |
-| [[item:irons_spellbooks:conjurers_talisman]] | Iron's Spells 'n Spellbooks | Slot: Necklace; +15% Summon Damage | crafting, 1 loot table |
+| [[item:irons_spellbooks:concentration_amulet]] | Iron's Spells 'n Spellbooks | Slot: Necklace; Long Casts become uninterruptible | crafting, [[loot:irons_spellbooks:concentration_amulet]] |
+| [[item:irons_spellbooks:conjurers_talisman]] | Iron's Spells 'n Spellbooks | Slot: Necklace; +15% Summon Damage | crafting, [[loot:irons_spellbooks:conjurers_talisman]] |
 | [[item:irons_spellbooks:greater_conjurers_talisman]] | Iron's Spells 'n Spellbooks | Slot: Necklace; +15% Summon Damage | crafting |
-| [[item:irons_spellbooks:heavy_chain_necklace]] | Iron's Spells 'n Spellbooks | Slot: Necklace; +15% Spell Resistance | crafting, 1 loot table |
-| [[item:irons_spellbooks:teleportation_amulet]] | Iron's Spells 'n Spellbooks | Slot: Necklace; A cracked pearl, hung on a chain | 1 loot table |
-| [[item:traveloptics:amulet_of_spectral_shift]] | T.O Magic 'n Extras | Slot: Necklace, Talent; Spell Talent: Spectral Blink; Spectral Blink teleports targeted entity to your location while crouching | 1 loot table |
+| [[item:irons_spellbooks:heavy_chain_necklace]] | Iron's Spells 'n Spellbooks | Slot: Necklace; +15% Spell Resistance | crafting, [[loot:irons_spellbooks:heavy_chain_necklace]] |
+| [[item:irons_spellbooks:teleportation_amulet]] | Iron's Spells 'n Spellbooks | Slot: Necklace; A cracked pearl, hung on a chain | [[loot:irons_spellbooks:teleportation_amulet]] |
+| [[item:traveloptics:amulet_of_spectral_shift]] | T.O Magic 'n Extras | Slot: Necklace, Talent; Spell Talent: Spectral Blink; Spectral Blink teleports targeted entity to your location while crouching | [[loot:traveloptics:amulet_of_spectral_shift]] |
 | [[item:traveloptics:collar_of_the_turning_tide]] | T.O Magic 'n Extras | Slot: Necklace, Talent; Spell Talent: Tsunami; Tsunami waves return along its original path, hitting entities a second time and applying additional Wet duration of 10s. Both waves deal 33% reduced damage | crafting |
 | [[item:traveloptics:energy_unbound_necklace]] | T.O Magic 'n Extras | Slot: Necklace, Talent; Spell Talent: Death Laser; Grants the caster freedom to look around while casting Death Laser and allows movement at 80% reduced speed | crafting |
 | [[item:traveloptics:sigil_of_the_spider_sorcerer]] | T.O Magic 'n Extras | Slot: Necklace, Talent; Spell Talent: Aspect Of The Spider; Aspect of the Spider spell now allows you to climb walls; Casting Aspect of the Spider and striking an enemy grants a 50% chance to poison them for 3sec | crafting |

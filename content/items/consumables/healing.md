@@ -65,16 +65,16 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:estus_flask]] | dungeons and combat | 0 hunger, 0 saturation | 16 loot tables |
+| [[item:dungeons_and_combat:estus_flask]] | dungeons and combat | 0 hunger, 0 saturation | [[loot:dungeons_and_combat:estus_flask]] |
 | [[item:dungeons_and_combat:crimson_flask]] | dungeons and combat | 0 hunger, 0 saturation |  |
 | [[item:dungeons_and_combat:blessed_bandages]] | dungeons and combat | Slot: Hands; Bleeding Immunity | crafting |
-| [[item:irons_spellbooks:evasion_elixir]] | Iron's Spells 'n Spellbooks | Evasion II (01:00); Allows 2 Hits to be Evaded | crafting, 1 loot table |
-| [[item:irons_spellbooks:greater_evasion_elixir]] | Iron's Spells 'n Spellbooks | Evasion IV (01:00); Allows 4 Hits to be Evaded | crafting, 1 loot table |
-| [[item:irons_spellbooks:greater_healing_potion]] | Iron's Spells 'n Spellbooks | Instant Health III | crafting, 2 loot tables |
-| [[item:irons_spellbooks:greater_invisibility_elixir]] | Iron's Spells 'n Spellbooks | True Invisibility (00:40) | crafting, 1 loot table |
-| [[item:irons_spellbooks:greater_oakskin_elixir]] | Iron's Spells 'n Spellbooks | Oakskin VI (01:30); +40% Damage Reduction | crafting, 1 loot table |
-| [[item:irons_spellbooks:invisibility_elixir]] | Iron's Spells 'n Spellbooks | True Invisibility (00:15) | crafting, 2 loot tables |
-| [[item:irons_spellbooks:oakskin_elixir]] | Iron's Spells 'n Spellbooks | Oakskin II (00:45); +20% Damage Reduction | crafting, 2 loot tables |
+| [[item:irons_spellbooks:evasion_elixir]] | Iron's Spells 'n Spellbooks | Evasion II (01:00); Allows 2 Hits to be Evaded | crafting, [[loot:irons_spellbooks:evasion_elixir]] |
+| [[item:irons_spellbooks:greater_evasion_elixir]] | Iron's Spells 'n Spellbooks | Evasion IV (01:00); Allows 4 Hits to be Evaded | crafting, [[loot:irons_spellbooks:greater_evasion_elixir]] |
+| [[item:irons_spellbooks:greater_healing_potion]] | Iron's Spells 'n Spellbooks | Instant Health III | crafting, [[loot:irons_spellbooks:greater_healing_potion]] |
+| [[item:irons_spellbooks:greater_invisibility_elixir]] | Iron's Spells 'n Spellbooks | True Invisibility (00:40) | crafting, [[loot:irons_spellbooks:greater_invisibility_elixir]] |
+| [[item:irons_spellbooks:greater_oakskin_elixir]] | Iron's Spells 'n Spellbooks | Oakskin VI (01:30); +40% Damage Reduction | crafting, [[loot:irons_spellbooks:greater_oakskin_elixir]] |
+| [[item:irons_spellbooks:invisibility_elixir]] | Iron's Spells 'n Spellbooks | True Invisibility (00:15) | crafting, [[loot:irons_spellbooks:invisibility_elixir]] |
+| [[item:irons_spellbooks:oakskin_elixir]] | Iron's Spells 'n Spellbooks | Oakskin II (00:45); +20% Damage Reduction | crafting, [[loot:irons_spellbooks:oakskin_elixir]] |
 | [[item:alshanex_familiars:life_fruit_tier_1]] | Alshanex Familiars Mod | Type: Health Bonus: 10% Tier Limit: 50% Tier: 1 | crafting |
 | [[item:alshanex_familiars:life_fruit_tier_2]] | Alshanex Familiars Mod | Type: Health Bonus: 25% Tier Limit: 100% Tier: 2 | crafting |
 | [[item:alshanex_familiars:life_fruit_tier_3]] | Alshanex Familiars Mod | Type: Health Bonus: 50% Tier Limit: 150% Tier: 3 | crafting |
@@ -87,7 +87,7 @@ Drinking it heals 25% of maximum health and gives Regeneration IV for 3 s, then 
 
 ### Obtaining
 
-16 loot tables drop it (the 12 most likely are shown):
+Dropped by [[loot:dungeons_and_combat:estus_flask]] (the 12 most likely are shown):
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -210,7 +210,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:irons_spellbooks:greater_healing_potion]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -293,7 +293,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:irons_spellbooks:invisibility_elixir]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -324,7 +324,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:irons_spellbooks:oakskin_elixir]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

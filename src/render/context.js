@@ -3,6 +3,7 @@ import { embedTypes } from './embeds/index.js';
 import { esc, slugify } from './html.js';
 import { ITEM_ID, icon, itemRef, itemName } from './items.js';
 import { jsonErrorLine } from '../../tools/lib/diagnostics.mjs';
+import { createLootViewer } from '../../tools/lib/loot-sources.mjs';
 
 class EmbedError extends Error {}
 
@@ -20,7 +21,7 @@ export function rootFor(pagePath) {
 }
 
 // Site-wide rendering context: link/item resolution, embed dispatch and error reporting.
-export function createContext({ site, pages, game, atlas, stations, diag }) {
+export function createContext({ site, pages, game, atlas, stations, lootSources, diag }) {
   const md = createMarkdown(new Set(Object.keys(embedTypes)));
   const byPath = new Map(pages.map(p => [p.path, p]));
   const byName = new Map();
@@ -60,6 +61,9 @@ export function createContext({ site, pages, game, atlas, stations, diag }) {
       return page ? { page, anchor, byTitle: byName.get(name.toLowerCase()) === page } : null;
     },
 
+    // Set just below; needs itemOwner above.
+    loot: null,
+
     wikilink(raw, env, line) {
       const bar = raw.indexOf('|');
       const target = (bar < 0 ? raw : raw.slice(0, bar)).trim();
@@ -73,6 +77,22 @@ export function createContext({ site, pages, game, atlas, stations, diag }) {
         }
         if (game.present && !game.items.has(id)) diag.warn(env.page.file, fileLine(env, line), `Unknown item ${id} (not in game-data/items.json)`);
         return itemRef(id, label, ctx, env);
+      }
+
+      if (/^loot:/i.test(target)) {
+        const id = target.slice(5).trim();
+        if (!ITEM_ID.test(id)) {
+          report(env, line, `[[${raw}]]: "${id}" is not a valid item id (expected namespace:path)`);
+          return errorHtml(raw);
+        }
+        const { tables, extras } = ctx.loot.use(id);
+        const total = tables + extras;
+        if (!total) {
+          diag.warn(env.page.file, fileLine(env, line), `[[${raw}]]: no loot table drops ${id}`);
+          return esc(label || 'no loot tables');
+        }
+        const text = label || (extras ? `${total} source${total === 1 ? '' : 's'}` : `${tables} loot table${tables === 1 ? '' : 's'}`);
+        return `<button class="loot-link" type="button" data-loot="${esc(id)}" aria-haspopup="dialog">${esc(text)}</button>`;
       }
 
       const found = ctx.resolve(target, env.page);
@@ -141,5 +161,6 @@ export function createContext({ site, pages, game, atlas, stations, diag }) {
       };
     },
   };
+  ctx.loot = createLootViewer({ game, atlas, overrides: lootSources ?? { labels: {}, extra: {} }, itemOwner: ctx.itemOwner });
   return ctx;
 }

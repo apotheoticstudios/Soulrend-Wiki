@@ -56,14 +56,14 @@ Belts go in the Curios belt slot. From their tooltips and the mods that make the
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:dungeons_and_combat:bottled_fairy_dust]] | dungeons and combat | Slot: Belt; Jump boost II | crafting |
-| [[item:dungeons_and_combat:champion_belt]] | dungeons and combat | Slot: Belt; Increased maximum health, armor and knockback resistance | 1 loot table |
-| [[item:minecraft:lantern]] | Minecraft | Slot: Belt | crafting, 9 loot tables |
-| [[item:minecraft:soul_lantern]] | Minecraft | Slot: Belt | crafting, 4 loot tables |
+| [[item:dungeons_and_combat:champion_belt]] | dungeons and combat | Slot: Belt; Increased maximum health, armor and knockback resistance | [[loot:dungeons_and_combat:champion_belt]] |
+| [[item:minecraft:lantern]] | Minecraft | Slot: Belt | crafting, [[loot:minecraft:lantern]] |
+| [[item:minecraft:soul_lantern]] | Minecraft | Slot: Belt | crafting, [[loot:minecraft:soul_lantern]] |
 | [[item:quark:paper_lantern]] | Quark | Slot: Belt | crafting |
 | [[item:quark:paper_lantern_sakura]] | Quark | Slot: Belt | crafting |
-| [[item:supplementaries:key]] | Supplementaries | Slot: Belt | crafting, 2 loot tables |
+| [[item:supplementaries:key]] | Supplementaries | Slot: Belt | crafting, [[loot:supplementaries:key]] |
 | [[item:traveloptics:elytra_jetpack_component]] | T.O Magic 'n Extras | Slot: Belt; Armor Augment: Mechanized Exoskeleton; Mechanized Exoskeleton armor uses Plasma Power Cells instead of Tesla Bulbs, recharging to full. Laser cannons consume 50% less fuel while airborne; Crafting Item | crafting |
-| [[item:traveloptics:pocket_black_hole]] | T.O Magic 'n Extras | Slot: Belt; A miniature black hole that draws in experience orbs naturally | 1 loot table |
+| [[item:traveloptics:pocket_black_hole]] | T.O Magic 'n Extras | Slot: Belt; A miniature black hole that draws in experience orbs naturally | [[loot:traveloptics:pocket_black_hole]] |
 | [[item:toms_storage:ts.adv_wireless_terminal]] | Tom's Simple Storage Mod | Slot: Belt; Hold SHIFT for more info. Press the [Not Bound] key to open | crafting |
 
 ## Dungeons and Combat
@@ -108,7 +108,7 @@ One loot table drops it:
 
 #### Obtaining
 
-9 loot tables drop it:
+Dropped by [[loot:minecraft:lantern]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -138,7 +138,7 @@ It can also be crafted (see below).
 
 #### Obtaining
 
-4 loot tables drop it:
+Dropped by [[loot:minecraft:soul_lantern]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -193,7 +193,7 @@ It is crafted (see below).
 
 ### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:supplementaries:key]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

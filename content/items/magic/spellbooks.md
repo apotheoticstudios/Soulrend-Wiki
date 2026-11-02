@@ -84,17 +84,17 @@ Spellbooks are worn in the Curios **Spell Book** slot. While a book is equipped,
 | [[item:irons_spellbooks:gold_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 8 Spell Slots; +150 Max Mana; +12% Spell Power; 8 spell slots | crafting |
 | [[item:irons_spellbooks:diamond_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 10 Spell Slots; +200 Max Mana; +16% Spell Power; 10 spell slots | crafting |
 | [[item:irons_spellbooks:netherite_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 12 Spell Slots; +20% Cooldown Reduction; +250 Max Mana; +20% Spell Power; 12 spell slots | crafting |
-| [[item:irons_spellbooks:blaze_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 10 Spell Slots; +16% Fire Spell Power; +200 Max Mana; 10 spell slots | crafting, 1 loot table |
-| [[item:irons_spellbooks:necronomicon_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; Unique Spell Book 10 Spell Slots +2 levels to Raise Dead; [Blood Slash 5]; [Blood Step 5]; [Ray of Siphoning 5]; [Blaze Storm 5]; +20% Blood Spell Power; +250 Max Mana; 10 spell slots | crafting, 1 loot table |
+| [[item:irons_spellbooks:blaze_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 10 Spell Slots; +16% Fire Spell Power; +200 Max Mana; 10 spell slots | crafting, [[loot:irons_spellbooks:blaze_spell_book]] |
+| [[item:irons_spellbooks:necronomicon_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; Unique Spell Book 10 Spell Slots +2 levels to Raise Dead; [Blood Slash 5]; [Blood Step 5]; [Ray of Siphoning 5]; [Blaze Storm 5]; +20% Blood Spell Power; +250 Max Mana; 10 spell slots | crafting, [[loot:irons_spellbooks:necronomicon_spell_book]] |
 | [[item:irons_spellbooks:druidic_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 10 Spell Slots; +250 Max Mana; +20% Nature Spell Power; 10 spell slots | crafting |
-| [[item:irons_spellbooks:evoker_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; Unique Spell Book 10 Spell Slots; [Fang Strike 6]; [Fang Ward 4]; [Summon Vex 4]; +20% Evocation Spell Power; +250 Max Mana; 10 spell slots | crafting, 1 loot table |
+| [[item:irons_spellbooks:evoker_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; Unique Spell Book 10 Spell Slots; [Fang Strike 6]; [Fang Ward 4]; [Summon Vex 4]; +20% Evocation Spell Power; +250 Max Mana; 10 spell slots | crafting, [[loot:irons_spellbooks:evoker_spell_book]] |
 | [[item:irons_spellbooks:ice_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 12 Spell Slots; +20% Ice Spell Power; +250 Max Mana; 12 spell slots | crafting |
 | [[item:irons_spellbooks:dragonskin_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 12 Spell Slots; +18% Eldritch Spell Power; +24% Ender Spell Power; +300 Max Mana; 12 spell slots | crafting |
 | [[item:irons_spellbooks:cursed_doll_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 10 Spell Slots +1 level to Blood Slash, Blood Step; +24% Blood Spell Power; +300 Max Mana; +10% Spell Resistance; 10 spell slots | crafting |
-| [[item:irons_spellbooks:rotten_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 8 Spell Slots; +150 Max Mana; +12% Nature Spell Power; -15% Spell Resistance; 8 spell slots | crafting, 6 loot tables |
+| [[item:irons_spellbooks:rotten_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 8 Spell Slots; +150 Max Mana; +12% Nature Spell Power; -15% Spell Resistance; 8 spell slots | crafting, [[loot:irons_spellbooks:rotten_spell_book]] |
 | [[item:irons_spellbooks:villager_spell_book]] | Iron's Spells 'n Spellbooks | Slot: Spell Book; 10 Spell Slots; +10% Cast Time Reduction; +20% Holy Spell Power; +250 Max Mana; 10 spell slots | crafting |
 | [[item:traveloptics:codex_of_the_crushing_depths]] | T.O Magic 'n Extras | Slot: Spell Book; Unique Spell Book 12 Spell Slots +1 level to Vortex Of The Deep; [Aqua Missiles 6]; +10% Cooldown Reduction; +250 Max Mana; +20% Aqua Spell Power; 12 spell slots | crafting |
-| [[item:traveloptics:the_accused_codex]] | T.O Magic 'n Extras | Slot: Spell Book; Unique Spell Book 12 Spell Slots +1 level to Despair; [Halberd Horizon 6]; +10% Cooldown Reduction; +24% Ice Spell Power; +300 Max Mana; 12 spell slots | crafting, 1 loot table |
+| [[item:traveloptics:the_accused_codex]] | T.O Magic 'n Extras | Slot: Spell Book; Unique Spell Book 12 Spell Slots +1 level to Despair; [Halberd Horizon 6]; +10% Cooldown Reduction; +24% Ice Spell Power; +300 Max Mana; 12 spell slots | crafting, [[loot:traveloptics:the_accused_codex]] |
 | [[item:gtbcs_geomancy_plus:codex_of_shattered_horizons]] | GTBC's Geomancy Plus | Slot: Spell Book; Unique Spell Book 12 Spell Slots +1 level to Pillar Of The Resounding Earth; [Geo Conductor 3]; +24% Geo Spell Power; +10% Cooldown Reduction; +300 Max Mana; 12 spell slots | crafting |
 | [[item:ice_and_fire_spellbooks:dragonmancers_oathbook]] | Ice and Fire: Spellbooks | Slot: Spell Book; 12 Spell Slots; +400 Max Mana; +32% Spell Power; 12 spell slots | crafting |
 | [[item:alshanex_familiars:sound_spell_book]] | Alshanex Familiars Mod | Slot: Spell Book; Unique Spell Book 10 Spell Slots; +32% Sound Spell Power; +400 Max Mana; 10 spell slots | crafting |
@@ -408,7 +408,7 @@ It has 8 spell slots.
 
 ### Obtaining
 
-6 loot tables drop it:
+Dropped by [[loot:irons_spellbooks:rotten_spell_book]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

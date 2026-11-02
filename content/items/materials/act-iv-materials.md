@@ -38,9 +38,9 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:shulker_shell]] | Minecraft | +1 Armor Toughness; +20% Knockback Resistance | 10 loot tables |
-| [[item:minecraft:dragon_breath]] | Minecraft |  | 8 loot tables |
-| [[item:efn:duskfire_ingot]] | EpicFight Nightfall |  | 1 loot table |
+| [[item:minecraft:shulker_shell]] | Minecraft | +1 Armor Toughness; +20% Knockback Resistance | [[loot:minecraft:shulker_shell]] |
+| [[item:minecraft:dragon_breath]] | Minecraft |  | [[loot:minecraft:dragon_breath]] |
+| [[item:efn:duskfire_ingot]] | EpicFight Nightfall |  | [[loot:efn:duskfire_ingot]] |
 | [[item:efn:hf_ingot]] | EpicFight Nightfall |  |  |
 | [[item:efn:hf_ingot_b]] | EpicFight Nightfall |  | crafting |
 
@@ -57,7 +57,7 @@
 
 #### Obtaining
 
-10 loot tables drop it:
+Dropped by [[loot:minecraft:shulker_shell]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -82,7 +82,7 @@
 
 #### Obtaining
 
-8 loot tables drop it:
+Dropped by [[loot:minecraft:dragon_breath]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

@@ -43,9 +43,9 @@ The Friends&Foes totems work in either hand or in a Curios slot. The Totem Of Sa
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:friendsandfoes:totem_of_freezing]] | Friends&Foes | Triggers when taking damage and health falls below half of your max health. | 1 loot table |
-| [[item:friendsandfoes:totem_of_illusion]] | Friends&Foes | Triggers when taking damage and health falls below half of your max health. | 1 loot table |
-| [[item:dungeons_and_combat:totem_of_sacrifice]] | dungeons and combat |  | 1 loot table |
+| [[item:friendsandfoes:totem_of_freezing]] | Friends&Foes | Triggers when taking damage and health falls below half of your max health. | [[loot:friendsandfoes:totem_of_freezing]] |
+| [[item:friendsandfoes:totem_of_illusion]] | Friends&Foes | Triggers when taking damage and health falls below half of your max health. | [[loot:friendsandfoes:totem_of_illusion]] |
+| [[item:dungeons_and_combat:totem_of_sacrifice]] | dungeons and combat |  | [[loot:dungeons_and_combat:totem_of_sacrifice]] |
 
 ## Friends&Foes totems
 

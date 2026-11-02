@@ -22,6 +22,7 @@ import { unzipSync, strFromU8 } from 'fflate';
 import { PNG } from 'pngjs';
 import { extractMovesets } from './lib/movesets.mjs';
 import { readSkillTrees, writeSkillTrees } from './lib/skilltrees.mjs';
+import { lootIndex } from './lib/loot.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'game-data');
@@ -333,33 +334,6 @@ function findIconExport() {
   return candidates[0] ?? null;
 }
 
-// item id -> every loot-table entry that can drop it. Only data-driven tables: global loot modifiers
-// and drops made in code aren't loot tables. Weight is out of the pool's total entry weight.
-function lootIndex(tables) {
-  const index = {};
-  const countOf = functions => {
-    const fn = (functions ?? []).find(f => String(f.function).replace(/^minecraft:/, '') === 'set_count');
-    return fn ? fn.count : 1;
-  };
-  for (const [table, json] of Object.entries(tables)) {
-    // A table the game failed to serialize comes through as null.
-    (json?.pools ?? []).forEach((pool, p) => {
-      const entries = pool.entries ?? [];
-      const totalWeight = entries.reduce((sum, e) => sum + (e.weight ?? 1), 0);
-      // Items inside alternatives/group/sequence entries share the parent's weight; `within` names it.
-      const visit = (entry, weight, within) => {
-        const type = String(entry.type ?? '').replace(/^minecraft:/, '');
-        if (type === 'item' && entry.name) {
-          (index[entry.name] ??= []).push({ table, pool: p, weight, totalWeight, rolls: pool.rolls ?? 1, count: countOf(entry.functions), conditions: (entry.conditions ?? pool.conditions ?? []).length > 0, ...(within && { within }) });
-        }
-        for (const child of entry.children ?? []) visit(child, weight, within ?? type);
-      };
-      for (const entry of entries) visit(entry, entry.weight ?? 1, null);
-    });
-  }
-  return index;
-}
-
 function writeJson(name, value) {
   const sorted = Object.fromEntries(Object.entries(value).sort(([a], [b]) => a.localeCompare(b)));
   fs.writeFileSync(path.join(OUT, name), JSON.stringify(sorted, null, 1) + '\n');
@@ -525,6 +499,11 @@ writeJson('glyphs.json', glyphs);
 writeJson('items.json', items);
 writeJson('recipes.json', recipes);
 writeJson('tags.json', tags);
+// For the loot viewer's mob names; the build has no jar access.
+writeJson('entity-names.json', Object.fromEntries([...lang].flatMap(([key, value]) => {
+  const match = /^entity\.([a-z0-9_.-]+)\.([a-z0-9_]+)$/.exec(key);
+  return match ? [[`${match[1]}:${match[2]}`, value]] : [];
+})));
 const exportedData = [];
 for (const [name, target] of Object.entries(EXPORT_DATA)) {
   const data = readExport(name);

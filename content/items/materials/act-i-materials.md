@@ -92,83 +92,83 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:string]] | Minecraft |  | crafting, 210 loot tables |
-| [[item:minecraft:leather]] | Minecraft |  | crafting, 96 loot tables |
-| [[item:minecraft:rabbit_hide]] | Minecraft |  | crafting, 12 loot tables |
-| [[item:minecraft:rabbit_foot]] | Minecraft |  | 10 loot tables |
-| [[item:minecraft:feather]] | Minecraft |  | crafting, 63 loot tables |
-| [[item:minecraft:bone]] | Minecraft |  | crafting, 311 loot tables |
-| [[item:minecraft:bone_meal]] | Minecraft |  | crafting, 73 loot tables |
-| [[item:minecraft:gunpowder]] | Minecraft | Placeable | crafting, 121 loot tables |
-| [[item:minecraft:spider_eye]] | Minecraft | 2 hunger, 0.8 saturation | 27 loot tables |
-| [[item:minecraft:fermented_spider_eye]] | Minecraft |  | crafting, 24 loot tables |
-| [[item:minecraft:slime_ball]] | Minecraft | Can be thrown | crafting, 54 loot tables |
-| [[item:minecraft:ender_pearl]] | Minecraft |  | crafting, 77 loot tables |
-| [[item:minecraft:ender_eye]] | Minecraft |  | crafting, 12 loot tables |
-| [[item:minecraft:blaze_rod]] | Minecraft | Placeable | crafting, 10 loot tables |
-| [[item:minecraft:blaze_powder]] | Minecraft |  | crafting, 19 loot tables |
-| [[item:minecraft:magma_cream]] | Minecraft |  | crafting, 22 loot tables |
-| [[item:minecraft:ghast_tear]] | Minecraft |  | 13 loot tables |
-| [[item:minecraft:phantom_membrane]] | Minecraft |  | 10 loot tables |
-| [[item:minecraft:prismarine_shard]] | Minecraft |  | crafting, 18 loot tables |
-| [[item:minecraft:prismarine_crystals]] | Minecraft |  | crafting, 15 loot tables |
-| [[item:minecraft:ink_sac]] | Minecraft |  | 14 loot tables |
-| [[item:minecraft:glow_ink_sac]] | Minecraft |  | crafting, 7 loot tables |
-| [[item:minecraft:scute]] | Minecraft |  | crafting, 3 loot tables |
-| [[item:minecraft:honeycomb]] | Minecraft |  | 20 loot tables |
+| [[item:minecraft:string]] | Minecraft |  | crafting, [[loot:minecraft:string]] |
+| [[item:minecraft:leather]] | Minecraft |  | crafting, [[loot:minecraft:leather]] |
+| [[item:minecraft:rabbit_hide]] | Minecraft |  | crafting, [[loot:minecraft:rabbit_hide]] |
+| [[item:minecraft:rabbit_foot]] | Minecraft |  | [[loot:minecraft:rabbit_foot]] |
+| [[item:minecraft:feather]] | Minecraft |  | crafting, [[loot:minecraft:feather]] |
+| [[item:minecraft:bone]] | Minecraft |  | crafting, [[loot:minecraft:bone]] |
+| [[item:minecraft:bone_meal]] | Minecraft |  | crafting, [[loot:minecraft:bone_meal]] |
+| [[item:minecraft:gunpowder]] | Minecraft | Placeable | crafting, [[loot:minecraft:gunpowder]] |
+| [[item:minecraft:spider_eye]] | Minecraft | 2 hunger, 0.8 saturation | [[loot:minecraft:spider_eye]] |
+| [[item:minecraft:fermented_spider_eye]] | Minecraft |  | crafting, [[loot:minecraft:fermented_spider_eye]] |
+| [[item:minecraft:slime_ball]] | Minecraft | Can be thrown | crafting, [[loot:minecraft:slime_ball]] |
+| [[item:minecraft:ender_pearl]] | Minecraft |  | crafting, [[loot:minecraft:ender_pearl]] |
+| [[item:minecraft:ender_eye]] | Minecraft |  | crafting, [[loot:minecraft:ender_eye]] |
+| [[item:minecraft:blaze_rod]] | Minecraft | Placeable | crafting, [[loot:minecraft:blaze_rod]] |
+| [[item:minecraft:blaze_powder]] | Minecraft |  | crafting, [[loot:minecraft:blaze_powder]] |
+| [[item:minecraft:magma_cream]] | Minecraft |  | crafting, [[loot:minecraft:magma_cream]] |
+| [[item:minecraft:ghast_tear]] | Minecraft |  | [[loot:minecraft:ghast_tear]] |
+| [[item:minecraft:phantom_membrane]] | Minecraft |  | [[loot:minecraft:phantom_membrane]] |
+| [[item:minecraft:prismarine_shard]] | Minecraft |  | crafting, [[loot:minecraft:prismarine_shard]] |
+| [[item:minecraft:prismarine_crystals]] | Minecraft |  | crafting, [[loot:minecraft:prismarine_crystals]] |
+| [[item:minecraft:ink_sac]] | Minecraft |  | [[loot:minecraft:ink_sac]] |
+| [[item:minecraft:glow_ink_sac]] | Minecraft |  | crafting, [[loot:minecraft:glow_ink_sac]] |
+| [[item:minecraft:scute]] | Minecraft |  | crafting, [[loot:minecraft:scute]] |
+| [[item:minecraft:honeycomb]] | Minecraft |  | [[loot:minecraft:honeycomb]] |
 
 ## Vanilla gems and minerals
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:coal]] | Minecraft |  | crafting, 194 loot tables |
-| [[item:minecraft:charcoal]] | Minecraft |  | crafting, 52 loot tables |
-| [[item:minecraft:diamond]] | Minecraft |  | crafting, 345 loot tables |
-| [[item:minecraft:emerald]] | Minecraft |  | crafting, 405 loot tables |
-| [[item:minecraft:lapis_lazuli]] | Minecraft |  | crafting, 118 loot tables |
-| [[item:minecraft:redstone]] | Minecraft |  | crafting, 139 loot tables |
-| [[item:minecraft:quartz]] | Minecraft |  | crafting, 40 loot tables |
-| [[item:minecraft:amethyst_shard]] | Minecraft |  | crafting, 48 loot tables |
-| [[item:minecraft:glowstone_dust]] | Minecraft |  | crafting, 29 loot tables |
-| [[item:minecraft:echo_shard]] | Minecraft |  | crafting, 4 loot tables |
-| [[item:minecraft:flint]] | Minecraft |  | crafting, 68 loot tables |
-| [[item:minecraft:clay_ball]] | Minecraft |  | crafting, 51 loot tables |
-| [[item:minecraft:brick]] | Minecraft | Can be thrown | crafting, 41 loot tables |
-| [[item:minecraft:nether_brick]] | Minecraft | Can be thrown | crafting, 11 loot tables |
+| [[item:minecraft:coal]] | Minecraft |  | crafting, [[loot:minecraft:coal]] |
+| [[item:minecraft:charcoal]] | Minecraft |  | crafting, [[loot:minecraft:charcoal]] |
+| [[item:minecraft:diamond]] | Minecraft |  | crafting, [[loot:minecraft:diamond]] |
+| [[item:minecraft:emerald]] | Minecraft |  | crafting, [[loot:minecraft:emerald]] |
+| [[item:minecraft:lapis_lazuli]] | Minecraft |  | crafting, [[loot:minecraft:lapis_lazuli]] |
+| [[item:minecraft:redstone]] | Minecraft |  | crafting, [[loot:minecraft:redstone]] |
+| [[item:minecraft:quartz]] | Minecraft |  | crafting, [[loot:minecraft:quartz]] |
+| [[item:minecraft:amethyst_shard]] | Minecraft |  | crafting, [[loot:minecraft:amethyst_shard]] |
+| [[item:minecraft:glowstone_dust]] | Minecraft |  | crafting, [[loot:minecraft:glowstone_dust]] |
+| [[item:minecraft:echo_shard]] | Minecraft |  | crafting, [[loot:minecraft:echo_shard]] |
+| [[item:minecraft:flint]] | Minecraft |  | crafting, [[loot:minecraft:flint]] |
+| [[item:minecraft:clay_ball]] | Minecraft |  | crafting, [[loot:minecraft:clay_ball]] |
+| [[item:minecraft:brick]] | Minecraft | Can be thrown | crafting, [[loot:minecraft:brick]] |
+| [[item:minecraft:nether_brick]] | Minecraft | Can be thrown | crafting, [[loot:minecraft:nether_brick]] |
 
 ## Samurai Dynasty gems
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:samurai_dynasty:aquamarine]] | Samurai Dynasty |  | crafting, 2 loot tables |
-| [[item:samurai_dynasty:jade]] | Samurai Dynasty |  | crafting, 2 loot tables |
-| [[item:samurai_dynasty:onyx]] | Samurai Dynasty |  | crafting, 2 loot tables |
-| [[item:samurai_dynasty:ruby]] | Samurai Dynasty |  | crafting, 3 loot tables |
+| [[item:samurai_dynasty:aquamarine]] | Samurai Dynasty |  | crafting, [[loot:samurai_dynasty:aquamarine]] |
+| [[item:samurai_dynasty:jade]] | Samurai Dynasty |  | crafting, [[loot:samurai_dynasty:jade]] |
+| [[item:samurai_dynasty:onyx]] | Samurai Dynasty |  | crafting, [[loot:samurai_dynasty:onyx]] |
+| [[item:samurai_dynasty:ruby]] | Samurai Dynasty |  | crafting, [[loot:samurai_dynasty:ruby]] |
 
 ## Silver
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:silver_ingot]] | dungeons and combat |  | crafting, 3 loot tables |
+| [[item:dungeons_and_combat:silver_ingot]] | dungeons and combat |  | crafting, [[loot:dungeons_and_combat:silver_ingot]] |
 
 ## Steel
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:steel_ingot]] | dungeons and combat |  | crafting, 9 loot tables |
+| [[item:dungeons_and_combat:steel_ingot]] | dungeons and combat |  | crafting, [[loot:dungeons_and_combat:steel_ingot]] |
 
 ## Vanilla ingots and ores
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:iron_ingot]] | Minecraft |  | crafting, 309 loot tables |
-| [[item:minecraft:iron_nugget]] | Minecraft |  | crafting, 83 loot tables |
-| [[item:minecraft:raw_iron]] | Minecraft |  | crafting, 94 loot tables |
-| [[item:minecraft:gold_ingot]] | Minecraft |  | crafting, 329 loot tables |
-| [[item:minecraft:gold_nugget]] | Minecraft |  | crafting, 142 loot tables |
-| [[item:minecraft:raw_gold]] | Minecraft |  | crafting, 95 loot tables |
-| [[item:minecraft:copper_ingot]] | Minecraft |  | crafting, 54 loot tables |
-| [[item:minecraft:raw_copper]] | Minecraft |  | crafting, 75 loot tables |
+| [[item:minecraft:iron_ingot]] | Minecraft |  | crafting, [[loot:minecraft:iron_ingot]] |
+| [[item:minecraft:iron_nugget]] | Minecraft |  | crafting, [[loot:minecraft:iron_nugget]] |
+| [[item:minecraft:raw_iron]] | Minecraft |  | crafting, [[loot:minecraft:raw_iron]] |
+| [[item:minecraft:gold_ingot]] | Minecraft |  | crafting, [[loot:minecraft:gold_ingot]] |
+| [[item:minecraft:gold_nugget]] | Minecraft |  | crafting, [[loot:minecraft:gold_nugget]] |
+| [[item:minecraft:raw_gold]] | Minecraft |  | crafting, [[loot:minecraft:raw_gold]] |
+| [[item:minecraft:copper_ingot]] | Minecraft |  | crafting, [[loot:minecraft:copper_ingot]] |
+| [[item:minecraft:raw_copper]] | Minecraft |  | crafting, [[loot:minecraft:raw_copper]] |
 
 ## Wrought Ingot
 

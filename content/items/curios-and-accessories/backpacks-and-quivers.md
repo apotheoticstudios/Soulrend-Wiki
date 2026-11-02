@@ -111,7 +111,7 @@ The Coal, End, Horse, Nether, Pig, Sandstone, Sheep, Skeleton, Snow, Standard, W
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:supplementaries:quiver]] | Supplementaries | Slot: Belt | 11 loot tables |
+| [[item:supplementaries:quiver]] | Supplementaries | Slot: Belt | [[loot:supplementaries:quiver]] |
 
 ## Valarian Conquest
 

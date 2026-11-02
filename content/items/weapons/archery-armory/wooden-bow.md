@@ -29,7 +29,7 @@
 
 ## Obtaining
 
-45 loot tables drop it (the 12 most likely are shown):
+Dropped by [[loot:minecraft:bow]] (the 12 most likely are shown):
 
 | Source | Chance | Count |
 | --- | --- | --- |

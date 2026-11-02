@@ -104,20 +104,20 @@ These curios use hand, head, mask, charm, bracelet, talent and familiar-trinket 
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:alshanex_familiars:archmage_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Archmage Familiars cast spells at a higher level; +10% Blood Magic Resistance; +10% Blood Spell Power | 2 loot tables |
+| [[item:alshanex_familiars:archmage_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Archmage Familiars cast spells at a higher level; +10% Blood Magic Resistance; +10% Blood Spell Power | [[loot:alshanex_familiars:archmage_trinket]] |
 | [[item:alshanex_familiars:bard_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Bard Familiars cast spells at a higher level; +10% Sound Spell Resistance; +10% Sound Spell Power |  |
-| [[item:alshanex_familiars:cleric_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Cleric Familiars cast spells at a higher level; +10% Holy Magic Resistance; +10% Holy Spell Power | 2 loot tables |
-| [[item:alshanex_familiars:dragon_warrior_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Dragoon Familiars cast spells at a higher level; +10% Ender Magic Resistance; +10% Ender Spell Power | 1 loot table |
-| [[item:alshanex_familiars:forest_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Druid Familiars cast spells at a higher level; +10% Nature Magic Resistance; +10% Nature Spell Power | 1 loot table |
-| [[item:alshanex_familiars:frostling_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Frostling Familiars cast spells at a higher level; +10% Ice Magic Resistance; +10% Ice Spell Power | 1 loot table |
-| [[item:alshanex_familiars:hunter_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Hunter Familiars cast spells at a higher level; +10% Aqua Magic Resistance; +10% Aqua Spell Power | 3 loot tables |
-| [[item:alshanex_familiars:illusionist_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Illusionist Familiars cast spells at a higher level; +10% Evocation Magic Resistance; +10% Evocation Spell Power | 2 loot tables |
-| [[item:alshanex_familiars:mage_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Mage Familiars cast spells at a higher level; +10% Lightning Magic Resistance; +10% Lightning Spell Power | 2 loot tables |
-| [[item:alshanex_familiars:necromancer_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Necromancer Familiars cast spells at a higher level; +15% Summon Damage | 1 loot table |
+| [[item:alshanex_familiars:cleric_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Cleric Familiars cast spells at a higher level; +10% Holy Magic Resistance; +10% Holy Spell Power | [[loot:alshanex_familiars:cleric_trinket]] |
+| [[item:alshanex_familiars:dragon_warrior_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Dragoon Familiars cast spells at a higher level; +10% Ender Magic Resistance; +10% Ender Spell Power | [[loot:alshanex_familiars:dragon_warrior_trinket]] |
+| [[item:alshanex_familiars:forest_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Druid Familiars cast spells at a higher level; +10% Nature Magic Resistance; +10% Nature Spell Power | [[loot:alshanex_familiars:forest_trinket]] |
+| [[item:alshanex_familiars:frostling_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Frostling Familiars cast spells at a higher level; +10% Ice Magic Resistance; +10% Ice Spell Power | [[loot:alshanex_familiars:frostling_trinket]] |
+| [[item:alshanex_familiars:hunter_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Hunter Familiars cast spells at a higher level; +10% Aqua Magic Resistance; +10% Aqua Spell Power | [[loot:alshanex_familiars:hunter_trinket]] |
+| [[item:alshanex_familiars:illusionist_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Illusionist Familiars cast spells at a higher level; +10% Evocation Magic Resistance; +10% Evocation Spell Power | [[loot:alshanex_familiars:illusionist_trinket]] |
+| [[item:alshanex_familiars:mage_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Mage Familiars cast spells at a higher level; +10% Lightning Magic Resistance; +10% Lightning Spell Power | [[loot:alshanex_familiars:mage_trinket]] |
+| [[item:alshanex_familiars:necromancer_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Necromancer Familiars cast spells at a higher level; +15% Summon Damage | [[loot:alshanex_familiars:necromancer_trinket]] |
 | [[item:alshanex_familiars:pandora_box]] | Alshanex Familiars Mod | Slot: Familiar Trinket; Allows you to summon/unsummon multiple Familiars at once No Familiars selected | crafting |
-| [[item:alshanex_familiars:plague_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Plague Doctor Familiars cast spells at a higher level; +10% Sound Spell Power; +10% Geo Spell Power; +10% Spell Resistance | 2 loot tables |
-| [[item:alshanex_familiars:scorcher_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Scorcher Familiars cast spells at a higher level; +10% Fire Magic Resistance; +10% Fire Spell Power | 2 loot tables |
-| [[item:alshanex_familiars:summoner_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Summoner Familiars cast spells at a higher level; +10% Eldritch Magic Resistance; +5% Eldritch Spell Power | 3 loot tables |
+| [[item:alshanex_familiars:plague_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Plague Doctor Familiars cast spells at a higher level; +10% Sound Spell Power; +10% Geo Spell Power; +10% Spell Resistance | [[loot:alshanex_familiars:plague_trinket]] |
+| [[item:alshanex_familiars:scorcher_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Scorcher Familiars cast spells at a higher level; +10% Fire Magic Resistance; +10% Fire Spell Power | [[loot:alshanex_familiars:scorcher_trinket]] |
+| [[item:alshanex_familiars:summoner_trinket]] | Alshanex Familiars Mod | Slot: Familiar Trinket; When equipped, Summoner Familiars cast spells at a higher level; +10% Eldritch Magic Resistance; +5% Eldritch Spell Power | [[loot:alshanex_familiars:summoner_trinket]] |
 
 ## Cataclysm
 
@@ -125,16 +125,16 @@ These curios use hand, head, mask, charm, bracelet, talent and familiar-trinket 
 | --- | --- | --- | --- |
 | [[item:cataclysm:aptrgangr_head]] | cataclysm | Slot: Head |  |
 | [[item:cataclysm:blazing_grips]] | cataclysm | Slot: Hands; On hit, there is a chance to apply Blazing Brand to the target | crafting |
-| [[item:cataclysm:chitin_claw]] | cataclysm | Slot: Hands; +0.5 Entity Reach; +0.75 Block Reach | 1 loot table |
+| [[item:cataclysm:chitin_claw]] | cataclysm | Slot: Hands; +0.5 Entity Reach; +0.75 Block Reach | [[loot:cataclysm:chitin_claw]] |
 | [[item:cataclysm:draugr_head]] | cataclysm | Slot: Head |  |
-| [[item:cataclysm:kobolediator_skull]] | cataclysm | Slot: Head | 1 loot table |
+| [[item:cataclysm:kobolediator_skull]] | cataclysm | Slot: Head | [[loot:cataclysm:kobolediator_skull]] |
 | [[item:cataclysm:sticky_gloves]] | cataclysm | Slot: Hands; Block the looting of Koboleton | crafting |
 
 ## Create
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:create:goggles]] | Create | Slot: Head | crafting, 13 loot tables |
+| [[item:create:goggles]] | Create | Slot: Head | crafting, [[loot:create:goggles]] |
 
 ## Dungeons and Combat
 
@@ -143,7 +143,7 @@ These curios use hand, head, mask, charm, bracelet, talent and familiar-trinket 
 | [[item:dungeons_and_combat:blessed_bandages]] | dungeons and combat | Slot: Hands; Bleeding Immunity | crafting |
 | [[item:dungeons_and_combat:flaming_gloves]] | dungeons and combat | Slot: Hands; Enemies in flames will give you Strength | crafting |
 | [[item:dungeons_and_combat:hunter_boots]] | dungeons and combat | Slot: Feet; Movement Speed Bonus | crafting |
-| [[item:dungeons_and_combat:scorpion_claw]] | dungeons and combat | Slot: Hands; Block Reach Bonus | 1 loot table |
+| [[item:dungeons_and_combat:scorpion_claw]] | dungeons and combat | Slot: Hands; Block Reach Bonus | [[loot:dungeons_and_combat:scorpion_claw]] |
 | [[item:dungeons_and_combat:steel_shoulder]] | dungeons and combat | Slot: Hands; Additional Armor Toughness | crafting |
 | [[item:dungeons_and_combat:sunleia_hand]] | dungeons and combat | Slot: Hands; Attacking will give you Haste II |  |
 
@@ -152,7 +152,7 @@ These curios use hand, head, mask, charm, bracelet, talent and familiar-trinket 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:gtbcs_geomancy_plus:bracelet_of_inversion]] | GTBC's Geomancy Plus | Slot: Bracelet, Talent; Spell Talent: Weeping Cluster; Crouch-cast to invert Weeping Cluster's behavior. Now it absorbs the damage you take instead of damage you deal, causing you to take no damage. However, the cluster's maximum absorb limit is 70% reduced. |  |
-| [[item:gtbcs_geomancy_plus:geo_echo]] | GTBC's Geomancy Plus | Slot: Charm; Right-click to absorb the power of a Geo spell! Requires Experience Points!; +15% Sound Spell Power; +15% Geo Spell Power | crafting, 2 loot tables |
+| [[item:gtbcs_geomancy_plus:geo_echo]] | GTBC's Geomancy Plus | Slot: Charm; Right-click to absorb the power of a Geo spell! Requires Experience Points!; +15% Sound Spell Power; +15% Geo Spell Power | crafting, [[loot:gtbcs_geomancy_plus:geo_echo]] |
 
 ## Immersive Weathering
 
@@ -171,21 +171,21 @@ These curios use hand, head, mask, charm, bracelet, talent and familiar-trinket 
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:traveloptics:aqua_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to absorb the power of an Aqua spell! Requires Experience Points!; +15% Aqua Spell Power | crafting, 3 loot tables |
+| [[item:traveloptics:aqua_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to absorb the power of an Aqua spell! Requires Experience Points!; +15% Aqua Spell Power | crafting, [[loot:traveloptics:aqua_echo]] |
 | [[item:traveloptics:azure_ignition_bracelet]] | T.O Magic 'n Extras | Slot: Bracelet, Talent; Spell Talent: Any spell related to Ignis; Permanently ignites Ignis-themed spells with soul fire increasing it's damage | crafting |
-| [[item:traveloptics:blood_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Blood spell! Requires Experience Points!; +15% Blood Spell Power | crafting, 1 loot table |
+| [[item:traveloptics:blood_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Blood spell! Requires Experience Points!; +15% Blood Spell Power | crafting, [[loot:traveloptics:blood_echo]] |
 | [[item:traveloptics:bottled_raincloud]] | T.O Magic 'n Extras | Slot: Talent, Charm; Spell Talent: Rainfall; Rainfall now becomes acid rain, removing beneficial effects from enemies and applying the corroded effect to all entities within. +2s Duration. |  |
 | [[item:traveloptics:cryostorm_bracelet]] | T.O Magic 'n Extras | Slot: Bracelet, Talent; Enables Elemental Interaction: Aqua, Ice; If an entity is affected by Wet, dealing ice magic damage to it triggers Cryostorm, summoning a blizzard that deals continuous damage and slows nearby entities for 5s. Damage scales with the Wet effect’s amplifier and Ice Spell Power. Can only occur once every 8s | crafting |
-| [[item:traveloptics:eldritch_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to awaken an Eldritch spell! Requires Experience Points!; +15% Eldritch Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:ender_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Ender spell! Requires Experience Points!; +15% Ender Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:evocation_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to call forth an Evocation spell! Requires Experience Points!; +15% Evocation Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:fire_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Fire spell! Requires Experience Points!; +15% Fire Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:holy_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Holy spell! Requires Experience Points!; +15% Holy Spell Power | crafting, 1 loot table |
+| [[item:traveloptics:eldritch_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to awaken an Eldritch spell! Requires Experience Points!; +15% Eldritch Spell Power | crafting, [[loot:traveloptics:eldritch_echo]] |
+| [[item:traveloptics:ender_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Ender spell! Requires Experience Points!; +15% Ender Spell Power | crafting, [[loot:traveloptics:ender_echo]] |
+| [[item:traveloptics:evocation_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to call forth an Evocation spell! Requires Experience Points!; +15% Evocation Spell Power | crafting, [[loot:traveloptics:evocation_echo]] |
+| [[item:traveloptics:fire_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Fire spell! Requires Experience Points!; +15% Fire Spell Power | crafting, [[loot:traveloptics:fire_echo]] |
+| [[item:traveloptics:holy_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Holy spell! Requires Experience Points!; +15% Holy Spell Power | crafting, [[loot:traveloptics:holy_echo]] |
 | [[item:traveloptics:hydrocharge_bracelet]] | T.O Magic 'n Extras | Slot: Bracelet, Talent; Enables Elemental Interaction: Aqua, Lightning; If an entity is affected by Wet, dealing lightning magic damage to it triggers Hydrocharge, causing it to take bonus damage and chain lightning to 2 additional entities. Damage scales with the Wet effect’s amplifier and Lightning spell power. Can only occur once every 1.5s | crafting |
-| [[item:traveloptics:ice_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with an Ice spell! Requires Experience Points!; +15% Ice Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:lightning_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to charge it with a Lightning spell! Requires Experience Points!; +15% Lightning Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:nature_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Nature spell! Requires Experience Points!; +15% Nature Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:nightstalkers_band]] | T.O Magic 'n Extras | Slot: Bracelet, Talent; Spell Talent: Reversal; Reversal can now be cast without a weapon. Reflecting a projectile grants the Assassin effect for 5sec, boosting movement speed and greatly enhancing attack damage. The effect ends upon striking an entity | 1 loot table |
+| [[item:traveloptics:ice_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with an Ice spell! Requires Experience Points!; +15% Ice Spell Power | crafting, [[loot:traveloptics:ice_echo]] |
+| [[item:traveloptics:lightning_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to charge it with a Lightning spell! Requires Experience Points!; +15% Lightning Spell Power | crafting, [[loot:traveloptics:lightning_echo]] |
+| [[item:traveloptics:nature_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Nature spell! Requires Experience Points!; +15% Nature Spell Power | crafting, [[loot:traveloptics:nature_echo]] |
+| [[item:traveloptics:nightstalkers_band]] | T.O Magic 'n Extras | Slot: Bracelet, Talent; Spell Talent: Reversal; Reversal can now be cast without a weapon. Reflecting a projectile grants the Assassin effect for 5sec, boosting movement speed and greatly enhancing attack damage. The effect ends upon striking an entity | [[loot:traveloptics:nightstalkers_band]] |
 
 ## Too Many Bows
 

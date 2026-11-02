@@ -89,25 +89,25 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:aquamirae:rune_of_the_storm]] | Aquamirae | Attachable to a sword at the Smithing Table. | 1 loot table |
+| [[item:aquamirae:rune_of_the_storm]] | Aquamirae | Attachable to a sword at the Smithing Table. | [[loot:aquamirae:rune_of_the_storm]] |
 | [[item:aquamirae:divider]] | Aquamirae | Sea Wolf Weapon Hold Shift; 9 Attack Damage; 1.40 Attack Speed; 1 Impact; 2 Targets per swing; 20% Armor Negation; 3 Entity Reach | crafting |
-| [[item:aquamirae:frozen_key]] | Aquamirae | Opens a chest hidden in the depths of the Ice Maze. | 1 loot table |
-| [[item:aquamirae:abyssal_amethyst]] | Aquamirae |  | crafting, 1 loot table |
-| [[item:mowziesmobs:sol_visage]] | Mowzie's Mobs | Never breaks Equip, then right-click while holding another mask to summon minions Right-click a minion to return it to its mask; +2 Armor; +0.75 Stun Armor; +5 Weight | 1 loot table |
-| [[item:mowziesmobs:earthrend_gauntlet]] | Mowzie's Mobs | Boulder Lift Right-click earthen ground to lift a boulder Punch boulder to fire it as projectile Charge right-click to lift bigger boulders Tunnel Right-click …; 6 Attack Damage; 1.2 Attack Speed; 3 Entity Reach; +20% Geo Spell Power | 1 loot table |
-| [[item:mowziesmobs:ice_crystal]] | Mowzie's Mobs | Hold right-click to channel an icy whirlwind Recharges while in inventory | 1 loot table |
-| [[item:mowziesmobs:umvuthana_mask_bliss]] | Mowzie's Mobs | Grants jump boost I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | 2 loot tables |
-| [[item:mowziesmobs:umvuthana_mask_faith]] | Mowzie's Mobs | Grants health boost I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | 2 loot tables |
-| [[item:mowziesmobs:umvuthana_mask_fear]] | Mowzie's Mobs | Grants swiftness I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | 2 loot tables |
-| [[item:mowziesmobs:umvuthana_mask_fury]] | Mowzie's Mobs | Grants strength I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | 2 loot tables |
-| [[item:mowziesmobs:umvuthana_mask_misery]] | Mowzie's Mobs | Grants resistance I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | 2 loot tables |
-| [[item:mowziesmobs:umvuthana_mask_rage]] | Mowzie's Mobs | Grants haste I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | 2 loot tables |
-| [[item:iceandfire:hydra_heart]] | Ice and Fire | Legendary Weapon When in hotbar, gives increasing regeneration based on how injured the holder is | 1 loot table |
+| [[item:aquamirae:frozen_key]] | Aquamirae | Opens a chest hidden in the depths of the Ice Maze. | [[loot:aquamirae:frozen_key]] |
+| [[item:aquamirae:abyssal_amethyst]] | Aquamirae |  | crafting, [[loot:aquamirae:abyssal_amethyst]] |
+| [[item:mowziesmobs:sol_visage]] | Mowzie's Mobs | Never breaks Equip, then right-click while holding another mask to summon minions Right-click a minion to return it to its mask; +2 Armor; +0.75 Stun Armor; +5 Weight | [[loot:mowziesmobs:sol_visage]] |
+| [[item:mowziesmobs:earthrend_gauntlet]] | Mowzie's Mobs | Boulder Lift Right-click earthen ground to lift a boulder Punch boulder to fire it as projectile Charge right-click to lift bigger boulders Tunnel Right-click …; 6 Attack Damage; 1.2 Attack Speed; 3 Entity Reach; +20% Geo Spell Power | [[loot:mowziesmobs:earthrend_gauntlet]] |
+| [[item:mowziesmobs:ice_crystal]] | Mowzie's Mobs | Hold right-click to channel an icy whirlwind Recharges while in inventory | [[loot:mowziesmobs:ice_crystal]] |
+| [[item:mowziesmobs:umvuthana_mask_bliss]] | Mowzie's Mobs | Grants jump boost I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | [[loot:mowziesmobs:umvuthana_mask_bliss]] |
+| [[item:mowziesmobs:umvuthana_mask_faith]] | Mowzie's Mobs | Grants health boost I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | [[loot:mowziesmobs:umvuthana_mask_faith]] |
+| [[item:mowziesmobs:umvuthana_mask_fear]] | Mowzie's Mobs | Grants swiftness I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | [[loot:mowziesmobs:umvuthana_mask_fear]] |
+| [[item:mowziesmobs:umvuthana_mask_fury]] | Mowzie's Mobs | Grants strength I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | [[loot:mowziesmobs:umvuthana_mask_fury]] |
+| [[item:mowziesmobs:umvuthana_mask_misery]] | Mowzie's Mobs | Grants resistance I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | [[loot:mowziesmobs:umvuthana_mask_misery]] |
+| [[item:mowziesmobs:umvuthana_mask_rage]] | Mowzie's Mobs | Grants haste I wonder if...?; +1 Armor; +0.38 Stun Armor; +2.5 Weight | [[loot:mowziesmobs:umvuthana_mask_rage]] |
+| [[item:iceandfire:hydra_heart]] | Ice and Fire | Legendary Weapon When in hotbar, gives increasing regeneration based on how injured the holder is | [[loot:iceandfire:hydra_heart]] |
 | [[item:iceandfire:gorgon_head]] | Ice and Fire | Legendary Weapon |  |
-| [[item:iceandfire:cyclops_eye]] | Ice and Fire | Legendary Weapon Area of Effect Weapon Inflicts weakness to all nearby hostiles when held | 1 loot table |
-| [[item:iceandfire:siren_tear]] | Ice and Fire | Rare drop | 1 loot table |
+| [[item:iceandfire:cyclops_eye]] | Ice and Fire | Legendary Weapon Area of Effect Weapon Inflicts weakness to all nearby hostiles when held | [[loot:iceandfire:cyclops_eye]] |
+| [[item:iceandfire:siren_tear]] | Ice and Fire | Rare drop | [[loot:iceandfire:siren_tear]] |
 | [[item:deeperdarker:heart_of_the_deep]] | Deeper and Darker |  |  |
-| [[item:nightfall_invade:disaster_fragment_red]] | Nightfall Invade |  | 1 loot table |
+| [[item:nightfall_invade:disaster_fragment_red]] | Nightfall Invade |  | [[loot:nightfall_invade:disaster_fragment_red]] |
 | [[item:apotheotic_additions:esoteric_material]] | Apotheotic Additions | Rarity Material (Esoteric) |  |
 
 [[item:apotheotic_additions:esoteric_material]] has its own entry on another page.
@@ -308,7 +308,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:mowziesmobs:umvuthana_mask_bliss]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -332,7 +332,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:mowziesmobs:umvuthana_mask_faith]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -356,7 +356,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:mowziesmobs:umvuthana_mask_fear]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -380,7 +380,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:mowziesmobs:umvuthana_mask_fury]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -404,7 +404,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:mowziesmobs:umvuthana_mask_misery]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -428,7 +428,7 @@ Its tooltip says:
 
 #### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:mowziesmobs:umvuthana_mask_rage]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

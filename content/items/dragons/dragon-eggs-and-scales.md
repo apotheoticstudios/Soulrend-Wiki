@@ -73,13 +73,13 @@ An egg in the right place hatches after 6 min (Soulrend's config), and the drago
 | --- | --- | --- | --- |
 | [[item:iceandfire:dragonegg_amythest]] | Ice and Fire | Amethyst |  |
 | [[item:iceandfire:dragonegg_black]] | Ice and Fire | Black |  |
-| [[item:iceandfire:dragonegg_blue]] | Ice and Fire | Blue | 2 loot tables |
+| [[item:iceandfire:dragonegg_blue]] | Ice and Fire | Blue | [[loot:iceandfire:dragonegg_blue]] |
 | [[item:iceandfire:dragonegg_bronze]] | Ice and Fire | Bronze |  |
 | [[item:iceandfire:dragonegg_copper]] | Ice and Fire | Copper |  |
-| [[item:iceandfire:dragonegg_electric]] | Ice and Fire | Electric Blue | 1 loot table |
+| [[item:iceandfire:dragonegg_electric]] | Ice and Fire | Electric Blue | [[loot:iceandfire:dragonegg_electric]] |
 | [[item:iceandfire:dragonegg_gray]] | Ice and Fire | Gray |  |
 | [[item:iceandfire:dragonegg_green]] | Ice and Fire | Emerald |  |
-| [[item:iceandfire:dragonegg_red]] | Ice and Fire | Red | 1 loot table |
+| [[item:iceandfire:dragonegg_red]] | Ice and Fire | Red | [[loot:iceandfire:dragonegg_red]] |
 | [[item:iceandfire:dragonegg_sapphire]] | Ice and Fire | Sapphire |  |
 | [[item:iceandfire:dragonegg_silver]] | Ice and Fire | Silver |  |
 | [[item:iceandfire:dragonegg_white]] | Ice and Fire | White |  |
@@ -102,13 +102,13 @@ An egg in the right place hatches after 6 min (Soulrend's config), and the drago
 | [[item:iceandfire:dragonscale_white]] | Ice and Fire | White | crafting |
 | [[item:iceandfire:dragonscales_amythest]] | Ice and Fire | Amethyst | crafting |
 | [[item:iceandfire:dragonscales_black]] | Ice and Fire | Black | crafting |
-| [[item:iceandfire:dragonscales_blue]] | Ice and Fire | Blue | crafting, 2 loot tables |
+| [[item:iceandfire:dragonscales_blue]] | Ice and Fire | Blue | crafting, [[loot:iceandfire:dragonscales_blue]] |
 | [[item:iceandfire:dragonscales_bronze]] | Ice and Fire | Bronze | crafting |
 | [[item:iceandfire:dragonscales_copper]] | Ice and Fire | Copper | crafting |
-| [[item:iceandfire:dragonscales_electric]] | Ice and Fire | Electric Blue | crafting, 2 loot tables |
+| [[item:iceandfire:dragonscales_electric]] | Ice and Fire | Electric Blue | crafting, [[loot:iceandfire:dragonscales_electric]] |
 | [[item:iceandfire:dragonscales_gray]] | Ice and Fire | Gray | crafting |
 | [[item:iceandfire:dragonscales_green]] | Ice and Fire | Emerald | crafting |
-| [[item:iceandfire:dragonscales_red]] | Ice and Fire | Red | crafting, 2 loot tables |
+| [[item:iceandfire:dragonscales_red]] | Ice and Fire | Red | crafting, [[loot:iceandfire:dragonscales_red]] |
 | [[item:iceandfire:dragonscales_sapphire]] | Ice and Fire | Sapphire | crafting |
 | [[item:iceandfire:dragonscales_silver]] | Ice and Fire | Silver | crafting |
 | [[item:iceandfire:dragonscales_white]] | Ice and Fire | White | crafting |

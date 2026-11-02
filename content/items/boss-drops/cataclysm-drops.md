@@ -66,21 +66,21 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:cataclysm:ancient_metal_ingot]] | cataclysm |  | crafting, 4 loot tables |
-| [[item:cataclysm:cursium_ingot]] | cataclysm |  | crafting, 1 loot table |
+| [[item:cataclysm:ancient_metal_ingot]] | cataclysm |  | crafting, [[loot:cataclysm:ancient_metal_ingot]] |
+| [[item:cataclysm:cursium_ingot]] | cataclysm |  | crafting, [[loot:cataclysm:cursium_ingot]] |
 | [[item:cataclysm:enderite_ingot]] | cataclysm |  |  |
-| [[item:cataclysm:ignitium_ingot]] | cataclysm |  | crafting, 1 loot table |
+| [[item:cataclysm:ignitium_ingot]] | cataclysm |  | crafting, [[loot:cataclysm:ignitium_ingot]] |
 | [[item:cataclysm:witherite_ingot]] | cataclysm |  | crafting |
-| [[item:cataclysm:burning_ashes]] | cataclysm |  | crafting, 1 loot table |
-| [[item:cataclysm:music_disc_ancient_remnant]] | cataclysm | Yuri_O - The Dryest Beast | 1 loot table |
-| [[item:cataclysm:music_disc_ender_guardian]] | cataclysm | Yuri_O - Defender of the Outer Realm | 1 loot table |
-| [[item:cataclysm:music_disc_ignis]] | cataclysm | Yuri_O - Light My Fire | 1 loot table |
-| [[item:cataclysm:music_disc_maledictus]] | cataclysm | Rotch Gwylt - Maledictus | 1 loot table |
-| [[item:cataclysm:music_disc_netherite_monstrosity]] | cataclysm | Yuri_O - Spawn Of Hell | 1 loot table |
-| [[item:cataclysm:music_disc_scylla]] | cataclysm | Rotch Gwylt - Scylla | 1 loot table |
+| [[item:cataclysm:burning_ashes]] | cataclysm |  | crafting, [[loot:cataclysm:burning_ashes]] |
+| [[item:cataclysm:music_disc_ancient_remnant]] | cataclysm | Yuri_O - The Dryest Beast | [[loot:cataclysm:music_disc_ancient_remnant]] |
+| [[item:cataclysm:music_disc_ender_guardian]] | cataclysm | Yuri_O - Defender of the Outer Realm | [[loot:cataclysm:music_disc_ender_guardian]] |
+| [[item:cataclysm:music_disc_ignis]] | cataclysm | Yuri_O - Light My Fire | [[loot:cataclysm:music_disc_ignis]] |
+| [[item:cataclysm:music_disc_maledictus]] | cataclysm | Rotch Gwylt - Maledictus | [[loot:cataclysm:music_disc_maledictus]] |
+| [[item:cataclysm:music_disc_netherite_monstrosity]] | cataclysm | Yuri_O - Spawn Of Hell | [[loot:cataclysm:music_disc_netherite_monstrosity]] |
+| [[item:cataclysm:music_disc_scylla]] | cataclysm | Rotch Gwylt - Scylla | [[loot:cataclysm:music_disc_scylla]] |
 | [[item:cataclysm:music_disc_the_cataclysmfarer]] | cataclysm | Yuri_O - The Cataclysmfarer |  |
-| [[item:cataclysm:music_disc_the_harbinger]] | cataclysm | Yuri_O - Self-Destruction Sequence | 1 loot table |
-| [[item:cataclysm:music_disc_the_leviathan]] | cataclysm | Yuri_O - Predator of the Abyss | 1 loot table |
+| [[item:cataclysm:music_disc_the_harbinger]] | cataclysm | Yuri_O - Self-Destruction Sequence | [[loot:cataclysm:music_disc_the_harbinger]] |
+| [[item:cataclysm:music_disc_the_leviathan]] | cataclysm | Yuri_O - Predator of the Abyss | [[loot:cataclysm:music_disc_the_leviathan]] |
 | [[item:cataclysm:altar_of_abyss]] | cataclysm |  |  |
 | [[item:cataclysm:altar_of_amethyst]] | cataclysm |  |  |
 | [[item:cataclysm:altar_of_fire]] | cataclysm |  |  |
@@ -95,7 +95,7 @@
 
 #### Obtaining
 
-4 loot tables drop it:
+Dropped by [[loot:cataclysm:ancient_metal_ingot]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

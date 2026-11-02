@@ -28,7 +28,7 @@
 
 ## Obtaining
 
-3 loot tables drop it:
+Dropped by [[loot:mowziesmobs:sculptor_staff]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

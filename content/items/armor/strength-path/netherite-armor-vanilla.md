@@ -53,7 +53,7 @@ Together, its 4 pieces add **60 Weight** and **6 Stun Armor** in Epic Fight (per
 
 Every piece is crafted (see [[#Crafting]]).
 
-[[item:minecraft:netherite_helmet]] drops from 6 loot tables:
+[[item:minecraft:netherite_helmet]] drops from [[loot:minecraft:netherite_helmet]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ Every piece is crafted (see [[#Crafting]]).
 | `dungeons_arise:chests/keep_kayra/keep_kayra_library_treasure` (chest) | 1.89% | 1 |
 | `incendium:castle/stand/helmet` (selector) | 0.71% | 1 |
 
-[[item:minecraft:netherite_chestplate]] drops from 4 loot tables:
+[[item:minecraft:netherite_chestplate]] drops from [[loot:minecraft:netherite_chestplate]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -73,14 +73,14 @@ Every piece is crafted (see [[#Crafting]]).
 | `dungeons_arise:chests/shiraz_palace/shiraz_palace_normal` (chest) | 12.5% per roll, 2–3 rolls | 1 |
 | `incendium:castle/stand/chestplate` (selector) | 0.71% | 1 |
 
-[[item:minecraft:netherite_leggings]] drops from 2 loot tables:
+[[item:minecraft:netherite_leggings]] drops from [[loot:minecraft:netherite_leggings]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `incendium:castle/stand/leggings` (selector) | 0.71% | 1 |
 | `dungeons_arise:chests/keep_kayra/keep_kayra_garden_treasure` (chest) | 0.44% | 1 |
 
-[[item:minecraft:netherite_boots]] drops from 7 loot tables:
+[[item:minecraft:netherite_boots]] drops from [[loot:minecraft:netherite_boots]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

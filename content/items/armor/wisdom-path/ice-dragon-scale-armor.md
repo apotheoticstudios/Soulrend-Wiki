@@ -119,28 +119,28 @@ Together, its 20 pieces add **210.5 Weight** and **30.15 Stun Armor** in Epic Fi
 
 Every piece is crafted (see [[#Crafting]]).
 
-[[item:iceandfire:armor_silver_metal_helmet]] drops from 2 loot tables:
+[[item:iceandfire:armor_silver_metal_helmet]] drops from [[loot:iceandfire:armor_silver_metal_helmet]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `iceandfire:chest/ice_dragon_female_cave` (chest) | 2.86% per roll, 1–4 rolls | 1 |
 | `iceandfire:chest/ice_dragon_roost` (chest) | 2.86% per roll, 1–4 rolls | 1 |
 
-[[item:iceandfire:armor_silver_metal_chestplate]] drops from 2 loot tables:
+[[item:iceandfire:armor_silver_metal_chestplate]] drops from [[loot:iceandfire:armor_silver_metal_chestplate]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `iceandfire:chest/ice_dragon_female_cave` (chest) | 2.86% per roll, 1–4 rolls | 1 |
 | `iceandfire:chest/ice_dragon_roost` (chest) | 2.86% per roll, 1–4 rolls | 1 |
 
-[[item:iceandfire:armor_silver_metal_leggings]] drops from 2 loot tables:
+[[item:iceandfire:armor_silver_metal_leggings]] drops from [[loot:iceandfire:armor_silver_metal_leggings]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `iceandfire:chest/ice_dragon_female_cave` (chest) | 2.86% per roll, 1–4 rolls | 1 |
 | `iceandfire:chest/ice_dragon_roost` (chest) | 2.86% per roll, 1–4 rolls | 1 |
 
-[[item:iceandfire:armor_silver_metal_boots]] drops from 2 loot tables:
+[[item:iceandfire:armor_silver_metal_boots]] drops from [[loot:iceandfire:armor_silver_metal_boots]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

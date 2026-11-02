@@ -1,0 +1,84 @@
+{
+  "$schema": "./schemas/loot-sources.schema.json",
+  "labels": {
+    "iceandfire:entities/dragon/fire_dragon_female": {
+      "label": "Fire Dragon (Female)",
+      "icon": "iceandfire:dragon_skull_fire"
+    },
+    "iceandfire:entities/dragon/fire_dragon_male": {
+      "label": "Fire Dragon (Male)",
+      "icon": "iceandfire:dragon_skull_fire"
+    },
+    "iceandfire:entities/dragon/fire_dragon_skeleton": {
+      "label": "Fire Dragon Skeleton",
+      "icon": "iceandfire:dragon_skull_fire"
+    },
+    "iceandfire:entities/dragon/ice_dragon_female": {
+      "label": "Ice Dragon (Female)",
+      "icon": "iceandfire:dragon_skull_ice"
+    },
+    "iceandfire:entities/dragon/ice_dragon_male": {
+      "label": "Ice Dragon (Male)",
+      "icon": "iceandfire:dragon_skull_ice"
+    },
+    "iceandfire:entities/dragon/ice_dragon_skeleton": {
+      "label": "Ice Dragon Skeleton",
+      "icon": "iceandfire:dragon_skull_ice"
+    },
+    "iceandfire:entities/dragon/lightning_dragon_female": {
+      "label": "Lightning Dragon (Female)",
+      "icon": "iceandfire:dragon_skull_lightning"
+    },
+    "iceandfire:entities/dragon/lightning_dragon_male": {
+      "label": "Lightning Dragon (Male)",
+      "icon": "iceandfire:dragon_skull_lightning"
+    },
+    "iceandfire:entities/dragon/lightning_dragon_skeleton": {
+      "label": "Lightning Dragon Skeleton",
+      "icon": "iceandfire:dragon_skull_lightning"
+    },
+    "incendium:artifact/": {
+      "kind": "chest"
+    },
+    "incendium:castle/": {
+      "kind": "chest"
+    },
+    "incendium:hovering_inferno": {
+      "kind": "chest"
+    },
+    "incendium:hovering_inferno/": {
+      "kind": "chest"
+    },
+    "incendium:iron_nuggets": {
+      "kind": "chest"
+    },
+    "incendium:pipeline/": {
+      "kind": "chest"
+    },
+    "incendium:quartz_flats/": {
+      "kind": "chest"
+    },
+    "incendium:reactor/": {
+      "kind": "chest"
+    },
+    "incendium:sanctum/": {
+      "kind": "chest"
+    },
+    "kaisyn:village/": {
+      "kind": "chest"
+    },
+    "mvs:cathedral_common": {
+      "kind": "chest"
+    },
+    "mvs:cathedral_rare": {
+      "kind": "chest"
+    },
+    "mvs:houses_rare": {
+      "kind": "chest"
+    },
+    "mvs:large_carts_2": {
+      "kind": "chest"
+    }
+  },
+  "extra": {}
+}

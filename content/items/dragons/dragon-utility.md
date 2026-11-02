@@ -63,7 +63,7 @@ The [[progression/side-chapters/dragonslayer|Dragonslayer]] chapter has quests f
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
 | [[item:iceandfire:dragon_meal]] | Ice and Fire |  | crafting |
-| [[item:iceandfire:dragon_flute]] | Ice and Fire |  | crafting, 3 loot tables |
+| [[item:iceandfire:dragon_flute]] | Ice and Fire |  | crafting, [[loot:iceandfire:dragon_flute]] |
 | [[item:iceandfire:dragon_horn]] | Ice and Fire |  | crafting |
 | [[item:iceandfire:dragon_stick]] | Ice and Fire |  | crafting |
 | [[item:dragonradarmod:dormant_radar]] | Dragon Radar Mod | ⚙ ACTIVATION PROCESS Once merged, equip in offhand and slay Stage 4-5 dragons to purify.; Fire Radar: ✘; Ice Radar: ✘; Lightning Radar: ✘ | crafting |
@@ -94,7 +94,7 @@ It is crafted (see below).
 
 ### Obtaining
 
-3 loot tables drop it:
+Dropped by [[loot:iceandfire:dragon_flute]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

@@ -61,11 +61,11 @@ The [[progression/side-chapters/reforging|Reforging]] quest chapter introduces m
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:apotheosis:sigil_of_socketing]] | Apotheosis | Adds one socket to an item | crafting, 9 loot tables |
+| [[item:apotheosis:sigil_of_socketing]] | Apotheosis | Adds one socket to an item | crafting, [[loot:apotheosis:sigil_of_socketing]] |
 | [[item:apotheosis:sigil_of_withdrawal]] | Apotheosis | Removes all socketed gems from an item | crafting |
 | [[item:apotheosis:sigil_of_enhancement]] | Apotheosis | Used to fuel the Augmentation Table | crafting |
 | [[item:apotheosis:sigil_of_rebirth]] | Apotheosis | Used to fuel the Reforging Table | crafting |
-| [[item:apotheosis:sigil_of_unnaming]] | Apotheosis | Removes the affixed name from an item | crafting, 6 loot tables |
+| [[item:apotheosis:sigil_of_unnaming]] | Apotheosis | Removes the affixed name from an item | crafting, [[loot:apotheosis:sigil_of_unnaming]] |
 | [[item:apotheotic_additions:gemboundsigil]] | Apotheotic Additions | Used to craft boss jewels | crafting |
 | [[item:fallen_gems_affixes:sigil_of_ascension]] | Fallen Gems & Affixes | Converts a Socket slot into an Augment slot Only untiered sockets can get converted | crafting |
 | [[item:fallen_gems_affixes:sigil_of_confluence]] | Fallen Gems & Affixes | Combine two identical items in a Smithing Table: affixes and unique gems from the addition item are merged into the base item Shared affixes are combined into … | crafting |
@@ -85,7 +85,7 @@ Combine it with an item in a Smithing Table to add one socket. This works until 
 
 ### Obtaining
 
-9 loot tables drop it:
+Dropped by [[loot:apotheosis:sigil_of_socketing]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -179,7 +179,7 @@ Combine it with an affix item in a Smithing Table to remove the item's generated
 
 ### Obtaining
 
-6 loot tables drop it:
+Dropped by [[loot:apotheosis:sigil_of_unnaming]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

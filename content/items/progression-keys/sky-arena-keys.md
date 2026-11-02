@@ -52,13 +52,13 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:skyarena:ice_key]] | Sky Arena | Exchange them in Sky Arena Questline | 1 loot table |
-| [[item:skyarena:oak_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | 1 loot table |
-| [[item:skyarena:stone_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | 1 loot table |
-| [[item:skyarena:iron_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | 1 loot table |
-| [[item:skyarena:gold_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | 1 loot table |
-| [[item:skyarena:diamond_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | 1 loot table |
-| [[item:skyarena:netherite_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | 1 loot table |
+| [[item:skyarena:ice_key]] | Sky Arena | Exchange them in Sky Arena Questline | [[loot:skyarena:ice_key]] |
+| [[item:skyarena:oak_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | [[loot:skyarena:oak_trophy]] |
+| [[item:skyarena:stone_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | [[loot:skyarena:stone_trophy]] |
+| [[item:skyarena:iron_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | [[loot:skyarena:iron_trophy]] |
+| [[item:skyarena:gold_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | [[loot:skyarena:gold_trophy]] |
+| [[item:skyarena:diamond_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | [[loot:skyarena:diamond_trophy]] |
+| [[item:skyarena:netherite_trophy]] | Sky Arena | Right-Click on the trophy to receive a buff! | [[loot:skyarena:netherite_trophy]] |
 
 ## Ice Key
 

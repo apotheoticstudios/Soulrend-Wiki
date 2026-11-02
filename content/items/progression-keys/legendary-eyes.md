@@ -60,22 +60,22 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:endrem:black_eye]] | End Remastered | Pirates say it gave sight to the legendary Black pearl | crafting, 2 loot tables |
-| [[item:endrem:cold_eye]] | End Remastered | One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world | 1 loot table |
-| [[item:endrem:corrupted_eye]] | End Remastered | The eye of a greedy king that faded in solitude; legend says it will bring infinite fortune to its owner | 1 loot table |
+| [[item:endrem:black_eye]] | End Remastered | Pirates say it gave sight to the legendary Black pearl | crafting, [[loot:endrem:black_eye]] |
+| [[item:endrem:cold_eye]] | End Remastered | One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world | [[loot:endrem:cold_eye]] |
+| [[item:endrem:corrupted_eye]] | End Remastered | The eye of a greedy king that faded in solitude; legend says it will bring infinite fortune to its owner | [[loot:endrem:corrupted_eye]] |
 | [[item:endrem:cryptic_eye]] | End Remastered | https://www.youtube.com/watch?v=dQw4w9WgXcQ | crafting |
-| [[item:endrem:cursed_eye]] | End Remastered | A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives | 1 loot table |
+| [[item:endrem:cursed_eye]] | End Remastered | A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives | [[loot:endrem:cursed_eye]] |
 | [[item:endrem:evil_eye]] | End Remastered | A holy talisman said to protect its owner from bad luck |  |
 | [[item:endrem:exotic_eye]] | End Remastered | Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying | crafting |
-| [[item:endrem:guardian_eye]] | End Remastered | It has seen many warriors drown into the depths of the sea | crafting, 1 loot table |
-| [[item:endrem:lost_eye]] | End Remastered | It is told that it was forged by the first blacksmiths of time | 2 loot tables |
-| [[item:endrem:magical_eye]] | End Remastered | Without this eye, the Evoker has no power | 2 loot tables |
-| [[item:endrem:nether_eye]] | End Remastered | It was lost by a demon in the battle between the Aether and the Nether | 1 loot table |
-| [[item:endrem:old_eye]] | End Remastered | Legends say this eye once belonged to one of the great Sandworms | 2 loot tables |
-| [[item:endrem:rogue_eye]] | End Remastered | This eye is believed to have given our ancestors the knowledge of Redstone | 1 loot table |
+| [[item:endrem:guardian_eye]] | End Remastered | It has seen many warriors drown into the depths of the sea | crafting, [[loot:endrem:guardian_eye]] |
+| [[item:endrem:lost_eye]] | End Remastered | It is told that it was forged by the first blacksmiths of time | [[loot:endrem:lost_eye]] |
+| [[item:endrem:magical_eye]] | End Remastered | Without this eye, the Evoker has no power | [[loot:endrem:magical_eye]] |
+| [[item:endrem:nether_eye]] | End Remastered | It was lost by a demon in the battle between the Aether and the Nether | [[loot:endrem:nether_eye]] |
+| [[item:endrem:old_eye]] | End Remastered | Legends say this eye once belonged to one of the great Sandworms | [[loot:endrem:old_eye]] |
+| [[item:endrem:rogue_eye]] | End Remastered | This eye is believed to have given our ancestors the knowledge of Redstone | [[loot:endrem:rogue_eye]] |
 | [[item:endrem:undead_eye]] | End Remastered | Remembrance of the past lives of those who live in death | crafting |
 | [[item:endrem:witch_eye]] | End Remastered | This pupil is believed to have seen the ancient brewing recipes that were lost in time. | crafting |
-| [[item:endrem:wither_eye]] | End Remastered | Has witnessed destruction. Maybe it also witnessed your stuff disappear | 1 loot table |
+| [[item:endrem:wither_eye]] | End Remastered | Has witnessed destruction. Maybe it also witnessed your stuff disappear | [[loot:endrem:wither_eye]] |
 
 ## Black Eye
 
@@ -87,7 +87,7 @@ Its tooltip says:
 
 ### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:endrem:black_eye]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -220,7 +220,7 @@ Its tooltip says:
 
 ### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:endrem:lost_eye]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -237,7 +237,7 @@ Its tooltip says:
 
 ### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:endrem:magical_eye]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -270,7 +270,7 @@ Its tooltip says:
 
 ### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:endrem:old_eye]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

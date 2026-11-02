@@ -93,7 +93,7 @@ The rarity apples are plain food: an apple surrounded by eight rarity materials 
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:apotheotic_additions:apotheotic_coin]] | Apotheotic Additions |  | 9 loot tables |
+| [[item:apotheotic_additions:apotheotic_coin]] | Apotheotic Additions |  | [[loot:apotheotic_additions:apotheotic_coin]] |
 | [[item:apotheotic_additions:ascended_coin]] | Apotheotic Additions |  | crafting |
 | [[item:apotheotic_additions:infused_coin]] | Apotheotic Additions |  | crafting |
 | [[item:apotheotic_additions:commonapple]] | Apotheotic Additions | 6 hunger, 0.3 saturation | crafting |
@@ -110,7 +110,7 @@ The rarity apples are plain food: an apple surrounded by eight rarity materials 
 
 #### Obtaining
 
-9 loot tables drop it:
+Dropped by [[loot:apotheotic_additions:apotheotic_coin]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

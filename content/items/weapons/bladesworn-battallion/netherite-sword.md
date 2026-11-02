@@ -29,7 +29,7 @@
 
 ## Obtaining
 
-13 loot tables drop it (the 12 most likely are shown):
+Dropped by [[loot:minecraft:netherite_sword]] (the 12 most likely are shown):
 
 | Source | Chance | Count |
 | --- | --- | --- |

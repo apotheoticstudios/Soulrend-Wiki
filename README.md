@@ -83,6 +83,7 @@ The header between the `---` lines is strict JSON (no comments, no trailing comm
 | `[[guides/getting-started\|the guide]]` | Link by path, with custom text. |
 | `[[Getting Started#Learning magic]]`, `[[#Usage]]` | Link to a section. |
 | `[[item:minecraft:diamond]]` | Icon, name and tooltip, linked to the page that lists the item in `items`. |
+| `[[loot:minecraft:diamond]]` | "382 loot tables", counted at build time. Hovering previews the likeliest sources and clicking lists them all with their chances. Source names and icons are automatic; correct them, or add drops that aren't in loot tables, in `site/loot-sources.json`. A dev build lists the automatic names in `dist-dev/__dev/loot-labels.json`. |
 | `[link](/assets/maps/world.png)` | Paths starting with `/` are site-relative. |
 
 Broken links fail the production build.

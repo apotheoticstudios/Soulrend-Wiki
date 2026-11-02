@@ -83,7 +83,7 @@ The [[progression/side-chapters/reforging|Reforging]] quest chapter walks throug
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:apotheosis:simple_reforging_table]] | Apotheosis | Uses Sigils of Rebirth and Rarity Materials to reforge items Max Rarity: Rare | crafting, 1 loot table |
+| [[item:apotheosis:simple_reforging_table]] | Apotheosis | Uses Sigils of Rebirth and Rarity Materials to reforge items Max Rarity: Rare | crafting, [[loot:apotheosis:simple_reforging_table]] |
 | [[item:apotheosis:reforging_table]] | Apotheosis | Uses Sigils of Rebirth and Rarity Materials to reforge items Max Rarity: Mythic | crafting |
 | [[item:ancientreforging:ancient_reforging_table]] | Ancient Reforging | Uses Gem Dust and Rarity Materials to reroll affixes Max Rarity: Ancient | crafting |
 | [[item:esotericreforging:esoteric_reforging_table]] | Esoteric Reforging | Uses Gem Dust and Rarity Materials to reroll affixes Max Rarity: Esoteric |  |

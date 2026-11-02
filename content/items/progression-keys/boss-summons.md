@@ -41,8 +41,8 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:deeperdarker:sculk_transmitter]] | Deeper and Darker | Unlinked | 1 loot table |
-| [[item:aquamirae:shell_horn]] | Aquamirae | Can be used near water in an Ice Maze. | 1 loot table |
+| [[item:deeperdarker:sculk_transmitter]] | Deeper and Darker | Unlinked | [[loot:deeperdarker:sculk_transmitter]] |
+| [[item:aquamirae:shell_horn]] | Aquamirae | Can be used near water in an Ice Maze. | [[loot:aquamirae:shell_horn]] |
 | [[item:irons_spellbooks:cinderous_soulcaller]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:dungeons_and_combat:blessed_beetle]] | dungeons and combat | This will illuminate the light of Sunleia | crafting |
 

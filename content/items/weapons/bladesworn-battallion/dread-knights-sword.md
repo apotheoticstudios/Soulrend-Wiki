@@ -29,7 +29,7 @@
 
 ## Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:iceandfire:dread_knight_sword]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

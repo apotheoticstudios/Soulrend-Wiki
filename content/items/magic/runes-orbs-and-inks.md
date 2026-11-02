@@ -87,7 +87,7 @@
 
 These are Iron's Spells 'n Spellbooks' crafting materials and their addon versions.
 
-- **[[item:irons_spellbooks:arcane_essence]]** is the basic magic material, used in ink, runes and most magic recipes. It drops from 67 loot tables, and one lapis lazuli with an amethyst shard crafts two.
+- **[[item:irons_spellbooks:arcane_essence]]** is the basic magic material, used in ink, runes and most magic recipes. It drops from [[loot:irons_spellbooks:arcane_essence]], and one lapis lazuli with an amethyst shard crafts two.
 - **School runes** are a [[item:irons_spellbooks:blank_rune]] surrounded by eight of a school's focus items, such as Blaze Rods for the Fire Rune.
   - Fire, Ice and Lightning Runes can also use the matching Ice and Fire dragon scales.
   - The Arcane Rune uses Arcane Essence and the Recovery Rune phantom membranes.
@@ -118,7 +118,7 @@ These are Iron's Spells 'n Spellbooks' crafting materials and their addon versio
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:irons_spellbooks:arcane_essence]] | Iron's Spells 'n Spellbooks |  | crafting, 67 loot tables |
+| [[item:irons_spellbooks:arcane_essence]] | Iron's Spells 'n Spellbooks |  | crafting, [[loot:irons_spellbooks:arcane_essence]] |
 
 ## School runes
 
@@ -126,21 +126,21 @@ These are Iron's Spells 'n Spellbooks' crafting materials and their addon versio
 | --- | --- | --- | --- |
 | [[item:alshanex_familiars:sound_rune]] | Alshanex Familiars Mod |  | crafting |
 | [[item:dacxirons:wither_rune]] | dacxirons |  | crafting |
-| [[item:gtbcs_geomancy_plus:geo_rune]] | GTBC's Geomancy Plus |  | crafting, 2 loot tables |
+| [[item:gtbcs_geomancy_plus:geo_rune]] | GTBC's Geomancy Plus |  | crafting, [[loot:gtbcs_geomancy_plus:geo_rune]] |
 | [[item:irons_spellbooks:arcane_rune]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:irons_spellbooks:blood_rune]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:irons_spellbooks:cinderous_soul_rune]] | Iron's Spells 'n Spellbooks |  |  |
 | [[item:irons_spellbooks:cooldown_rune]] | Iron's Spells 'n Spellbooks |  | crafting |
-| [[item:irons_spellbooks:ender_rune]] | Iron's Spells 'n Spellbooks |  | crafting, 1 loot table |
-| [[item:irons_spellbooks:evocation_rune]] | Iron's Spells 'n Spellbooks |  | crafting, 1 loot table |
+| [[item:irons_spellbooks:ender_rune]] | Iron's Spells 'n Spellbooks |  | crafting, [[loot:irons_spellbooks:ender_rune]] |
+| [[item:irons_spellbooks:evocation_rune]] | Iron's Spells 'n Spellbooks |  | crafting, [[loot:irons_spellbooks:evocation_rune]] |
 | [[item:irons_spellbooks:fire_rune]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:irons_spellbooks:holy_rune]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:irons_spellbooks:ice_rune]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:irons_spellbooks:lightning_rune]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:irons_spellbooks:nature_rune]] | Iron's Spells 'n Spellbooks |  | crafting |
 | [[item:irons_spellbooks:protection_rune]] | Iron's Spells 'n Spellbooks |  |  |
-| [[item:traveloptics:aqua_rune]] | T.O Magic 'n Extras |  | crafting, 2 loot tables |
-| [[item:irons_spellbooks:blank_rune]] | Iron's Spells 'n Spellbooks |  | crafting, 29 loot tables |
+| [[item:traveloptics:aqua_rune]] | T.O Magic 'n Extras |  | crafting, [[loot:traveloptics:aqua_rune]] |
+| [[item:irons_spellbooks:blank_rune]] | Iron's Spells 'n Spellbooks |  | crafting, [[loot:irons_spellbooks:blank_rune]] |
 
 ## Upgrade orbs
 
@@ -159,19 +159,19 @@ These are Iron's Spells 'n Spellbooks' crafting materials and their addon versio
 | [[item:irons_spellbooks:mana_upgrade_orb]] | Iron's Spells 'n Spellbooks | +50 Max Mana | crafting |
 | [[item:irons_spellbooks:nature_upgrade_orb]] | Iron's Spells 'n Spellbooks | +5% Nature Spell Power | crafting |
 | [[item:irons_spellbooks:protection_upgrade_orb]] | Iron's Spells 'n Spellbooks | +5% Spell Resistance |  |
-| [[item:irons_spellbooks:upgrade_orb]] | Iron's Spells 'n Spellbooks |  | crafting, 1 loot table |
+| [[item:irons_spellbooks:upgrade_orb]] | Iron's Spells 'n Spellbooks |  | crafting, [[loot:irons_spellbooks:upgrade_orb]] |
 | [[item:traveloptics:aqua_upgrade_orb]] | T.O Magic 'n Extras | +5% Aqua Spell Power | crafting |
-| [[item:traveloptics:eldritch_upgrade_orb]] | T.O Magic 'n Extras | +5% Eldritch Spell Power | 1 loot table |
+| [[item:traveloptics:eldritch_upgrade_orb]] | T.O Magic 'n Extras | +5% Eldritch Spell Power | [[loot:traveloptics:eldritch_upgrade_orb]] |
 
 ## Inks
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:irons_spellbooks:common_ink]] | Iron's Spells 'n Spellbooks | Can Craft Common Scrolls | crafting, 3 loot tables |
-| [[item:irons_spellbooks:epic_ink]] | Iron's Spells 'n Spellbooks | Can Craft Epic Scrolls | crafting, 5 loot tables |
-| [[item:irons_spellbooks:legendary_ink]] | Iron's Spells 'n Spellbooks | Can Craft Legendary Scrolls | crafting, 4 loot tables |
-| [[item:irons_spellbooks:rare_ink]] | Iron's Spells 'n Spellbooks | Can Craft Rare Scrolls | crafting, 5 loot tables |
-| [[item:irons_spellbooks:uncommon_ink]] | Iron's Spells 'n Spellbooks | Can Craft Uncommon Scrolls | crafting, 4 loot tables |
+| [[item:irons_spellbooks:common_ink]] | Iron's Spells 'n Spellbooks | Can Craft Common Scrolls | crafting, [[loot:irons_spellbooks:common_ink]] |
+| [[item:irons_spellbooks:epic_ink]] | Iron's Spells 'n Spellbooks | Can Craft Epic Scrolls | crafting, [[loot:irons_spellbooks:epic_ink]] |
+| [[item:irons_spellbooks:legendary_ink]] | Iron's Spells 'n Spellbooks | Can Craft Legendary Scrolls | crafting, [[loot:irons_spellbooks:legendary_ink]] |
+| [[item:irons_spellbooks:rare_ink]] | Iron's Spells 'n Spellbooks | Can Craft Rare Scrolls | crafting, [[loot:irons_spellbooks:rare_ink]] |
+| [[item:irons_spellbooks:uncommon_ink]] | Iron's Spells 'n Spellbooks | Can Craft Uncommon Scrolls | crafting, [[loot:irons_spellbooks:uncommon_ink]] |
 
 ## Spell slot upgrades
 
@@ -179,29 +179,29 @@ These are Iron's Spells 'n Spellbooks' crafting materials and their addon versio
 | --- | --- | --- | --- |
 | [[item:irons_spellbooks:lesser_spell_slot_upgrade]] | Iron's Spells 'n Spellbooks | Improves Spell Book capacity, up to 12 Slots | crafting |
 | [[item:traveloptics:sanctified_spell_slot_upgrade]] | T.O Magic 'n Extras | Improves Spell Book capacity, up to 15 Slots | crafting |
-| [[item:traveloptics:spectral_spell_slot_upgrade]] | T.O Magic 'n Extras | Improves Spell Book capacity, up to 15 Slots | crafting, 2 loot tables |
+| [[item:traveloptics:spectral_spell_slot_upgrade]] | T.O Magic 'n Extras | Improves Spell Book capacity, up to 15 Slots | crafting, [[loot:traveloptics:spectral_spell_slot_upgrade]] |
 
 ## Traveloptics school echoes and spellweave ingots
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:traveloptics:abyssal_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | 2 loot tables |
-| [[item:traveloptics:aqua_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to absorb the power of an Aqua spell! Requires Experience Points!; +15% Aqua Spell Power | crafting, 3 loot tables |
-| [[item:traveloptics:blood_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Blood spell! Requires Experience Points!; +15% Blood Spell Power | crafting, 1 loot table |
+| [[item:traveloptics:abyssal_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | [[loot:traveloptics:abyssal_spellweave_ingot]] |
+| [[item:traveloptics:aqua_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to absorb the power of an Aqua spell! Requires Experience Points!; +15% Aqua Spell Power | crafting, [[loot:traveloptics:aqua_echo]] |
+| [[item:traveloptics:blood_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Blood spell! Requires Experience Points!; +15% Blood Spell Power | crafting, [[loot:traveloptics:blood_echo]] |
 | [[item:traveloptics:celestial_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item |  |
 | [[item:traveloptics:crimson_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item |  |
 | [[item:traveloptics:cryo_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item |  |
-| [[item:traveloptics:eldritch_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to awaken an Eldritch spell! Requires Experience Points!; +15% Eldritch Spell Power | crafting, 1 loot table |
+| [[item:traveloptics:eldritch_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to awaken an Eldritch spell! Requires Experience Points!; +15% Eldritch Spell Power | crafting, [[loot:traveloptics:eldritch_echo]] |
 | [[item:traveloptics:eldritch_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item |  |
-| [[item:traveloptics:ender_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Ender spell! Requires Experience Points!; +15% Ender Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:evocation_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to call forth an Evocation spell! Requires Experience Points!; +15% Evocation Spell Power | crafting, 1 loot table |
+| [[item:traveloptics:ender_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Ender spell! Requires Experience Points!; +15% Ender Spell Power | crafting, [[loot:traveloptics:ender_echo]] |
+| [[item:traveloptics:evocation_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to call forth an Evocation spell! Requires Experience Points!; +15% Evocation Spell Power | crafting, [[loot:traveloptics:evocation_echo]] |
 | [[item:traveloptics:evokated_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item |  |
-| [[item:traveloptics:fire_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Fire spell! Requires Experience Points!; +15% Fire Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:holy_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Holy spell! Requires Experience Points!; +15% Holy Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:ice_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with an Ice spell! Requires Experience Points!; +15% Ice Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:lightning_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to charge it with a Lightning spell! Requires Experience Points!; +15% Lightning Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:lightning_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | 1 loot table |
-| [[item:traveloptics:nature_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Nature spell! Requires Experience Points!; +15% Nature Spell Power | crafting, 1 loot table |
-| [[item:traveloptics:pyro_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | 2 loot tables |
-| [[item:traveloptics:verdant_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | 2 loot tables |
-| [[item:traveloptics:void_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | 2 loot tables |
+| [[item:traveloptics:fire_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Fire spell! Requires Experience Points!; +15% Fire Spell Power | crafting, [[loot:traveloptics:fire_echo]] |
+| [[item:traveloptics:holy_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Holy spell! Requires Experience Points!; +15% Holy Spell Power | crafting, [[loot:traveloptics:holy_echo]] |
+| [[item:traveloptics:ice_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with an Ice spell! Requires Experience Points!; +15% Ice Spell Power | crafting, [[loot:traveloptics:ice_echo]] |
+| [[item:traveloptics:lightning_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to charge it with a Lightning spell! Requires Experience Points!; +15% Lightning Spell Power | crafting, [[loot:traveloptics:lightning_echo]] |
+| [[item:traveloptics:lightning_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | [[loot:traveloptics:lightning_spellweave_ingot]] |
+| [[item:traveloptics:nature_echo]] | T.O Magic 'n Extras | Slot: Charm; Right-click to imbue with a Nature spell! Requires Experience Points!; +15% Nature Spell Power | crafting, [[loot:traveloptics:nature_echo]] |
+| [[item:traveloptics:pyro_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | [[loot:traveloptics:pyro_spellweave_ingot]] |
+| [[item:traveloptics:verdant_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | [[loot:traveloptics:verdant_spellweave_ingot]] |
+| [[item:traveloptics:void_spellweave_ingot]] | T.O Magic 'n Extras | Crafting Item | [[loot:traveloptics:void_spellweave_ingot]] |

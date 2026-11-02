@@ -45,19 +45,19 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:dungeons_and_combat:essence_of_kamath]] | dungeons and combat | Trade this soul with the essence forger | 1 loot table |
-| [[item:dungeons_and_combat:essence_of_sunleia]] | dungeons and combat | Trade this soul with the essence forger | 1 loot table |
+| [[item:dungeons_and_combat:essence_of_kamath]] | dungeons and combat | Trade this soul with the essence forger | [[loot:dungeons_and_combat:essence_of_kamath]] |
+| [[item:dungeons_and_combat:essence_of_sunleia]] | dungeons and combat | Trade this soul with the essence forger | [[loot:dungeons_and_combat:essence_of_sunleia]] |
 | [[item:dungeons_and_combat:sunleia_hand]] | dungeons and combat | Slot: Hands; Attacking will give you Haste II |  |
-| [[item:dungeons_and_combat:champion_belt]] | dungeons and combat | Slot: Belt; Increased maximum health, armor and knockback resistance | 1 loot table |
-| [[item:dungeons_and_combat:armor_plate]] | dungeons and combat |  | 5 loot tables |
+| [[item:dungeons_and_combat:champion_belt]] | dungeons and combat | Slot: Belt; Increased maximum health, armor and knockback resistance | [[loot:dungeons_and_combat:champion_belt]] |
+| [[item:dungeons_and_combat:armor_plate]] | dungeons and combat |  | [[loot:dungeons_and_combat:armor_plate]] |
 | [[item:dungeons_and_combat:steel_shoulder]] | dungeons and combat | Slot: Hands; Additional Armor Toughness | crafting |
-| [[item:dungeons_and_combat:cursed_silk]] | dungeons and combat |  | 2 loot tables |
+| [[item:dungeons_and_combat:cursed_silk]] | dungeons and combat |  | [[loot:dungeons_and_combat:cursed_silk]] |
 | [[item:dungeons_and_combat:cursed_lamp]] | dungeons and combat | Applies Weakness II on hit | crafting |
-| [[item:dungeons_and_combat:ernos_fang]] | dungeons and combat |  | 1 loot table |
+| [[item:dungeons_and_combat:ernos_fang]] | dungeons and combat |  | [[loot:dungeons_and_combat:ernos_fang]] |
 | [[item:dungeons_and_combat:ernos_fang_necklace]] | dungeons and combat | Slot: Necklace; Attack Damage Bonus |  |
-| [[item:dungeons_and_combat:ammit_fang]] | dungeons and combat |  | 1 loot table |
+| [[item:dungeons_and_combat:ammit_fang]] | dungeons and combat |  | [[loot:dungeons_and_combat:ammit_fang]] |
 | [[item:dungeons_and_combat:fang_necklace]] | dungeons and combat | Slot: Necklace; Attacks will leave the Broken Armor effect |  |
-| [[item:dungeons_and_combat:horuso_feather]] | dungeons and combat |  | 2 loot tables |
+| [[item:dungeons_and_combat:horuso_feather]] | dungeons and combat |  | [[loot:dungeons_and_combat:horuso_feather]] |
 | [[item:dungeons_and_combat:klauen_necklace]] | dungeons and combat | Slot: Necklace; Attack Speed Bonus |  |
 | [[item:dungeons_and_combat:blessed_beetle]] | dungeons and combat | This will illuminate the light of Sunleia | crafting |
 
@@ -109,7 +109,7 @@ One loot table drops it:
 
 ### Obtaining
 
-5 loot tables drop it:
+Dropped by [[loot:dungeons_and_combat:armor_plate]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -129,7 +129,7 @@ One loot table drops it:
 
 ### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:dungeons_and_combat:cursed_silk]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ One loot table drops it:
 
 ### Obtaining
 
-2 loot tables drop it:
+Dropped by [[loot:dungeons_and_combat:horuso_feather]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

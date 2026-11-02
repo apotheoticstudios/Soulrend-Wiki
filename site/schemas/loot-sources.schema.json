@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Soulrend Wiki: loot viewer names and extra sources (site/loot-sources.json)",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "labels": {
+      "type": "object",
+      "description": "Keys are a loot table id, or a prefix ending in / or : that covers many. The longest match wins. Anything left out keeps its automatic value.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "label": { "type": "string", "minLength": 1 },
+          "kind": { "$ref": "#/definitions/kind" },
+          "subtitle": { "type": "string", "description": "Short text under the label. Defaults to the mod's name." },
+          "icon": { "$ref": "#/definitions/itemId" },
+          "page": { "type": "string", "description": "Site path the row links to, e.g. bosses/act-ii/frostmaw/" }
+        }
+      }
+    },
+    "extra": {
+      "type": "object",
+      "description": "Item id -> sources that aren't loot tables (loot modifiers, code, configs). Keep a number here only if it has a source.",
+      "propertyNames": { "$ref": "#/definitions/itemId" },
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["label"],
+          "additionalProperties": false,
+          "properties": {
+            "label": { "type": "string", "minLength": 1 },
+            "kind": { "$ref": "#/definitions/kind" },
+            "text": { "type": "string", "description": "Short text under the label." },
+            "chance": { "type": "string", "description": "Display text, e.g. 10%. Leave out when it varies." },
+            "count": { "type": "string" },
+            "icon": { "$ref": "#/definitions/itemId" },
+            "page": { "type": "string" }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "kind": { "enum": ["chest", "mob", "block", "fishing", "archaeology", "barter", "gift", "other"] },
+    "itemId": { "type": "string", "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$" }
+  }
+}

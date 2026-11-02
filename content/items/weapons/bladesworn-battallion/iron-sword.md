@@ -29,7 +29,7 @@
 
 ## Obtaining
 
-121 loot tables drop it (the 12 most likely are shown):
+Dropped by [[loot:minecraft:iron_sword]] (the 12 most likely are shown):
 
 | Source | Chance | Count |
 | --- | --- | --- |

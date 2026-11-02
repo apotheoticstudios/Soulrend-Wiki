@@ -75,8 +75,8 @@ The **Neptunium Fishing Rod** has Neptune's Song: fish are more likely to bite.
 | [[item:aquaculture:diamond_fishing_rod]] | Aquaculture 2 | — | crafting |
 | [[item:aquaculture:gold_fishing_rod]] | Aquaculture 2 | — | crafting |
 | [[item:aquaculture:iron_fishing_rod]] | Aquaculture 2 | — | crafting |
-| [[item:aquaculture:neptunium_fishing_rod]] | Aquaculture 2 | Neptune's Song [SHIFT] | crafting, 1 loot table |
-| [[item:minecraft:fishing_rod]] | Minecraft | — | crafting, 30 loot tables |
+| [[item:aquaculture:neptunium_fishing_rod]] | Aquaculture 2 | Neptune's Song [SHIFT] | crafting, [[loot:aquaculture:neptunium_fishing_rod]] |
+| [[item:minecraft:fishing_rod]] | Minecraft | — | crafting, [[loot:minecraft:fishing_rod]] |
 | [[item:aquaculture:diamond_hook]] | Aquaculture 2 | Super Durable [SHIFT] | crafting |
 | [[item:aquaculture:double_hook]] | Aquaculture 2 | Double Barb [SHIFT] | crafting |
 | [[item:aquaculture:gold_hook]] | Aquaculture 2 | Lucky [SHIFT] | crafting |
@@ -167,7 +167,7 @@ It can also be crafted (see below).
 
 #### Obtaining
 
-30 loot tables drop it (the 12 most likely are shown):
+Dropped by [[loot:minecraft:fishing_rod]] (the 12 most likely are shown):
 
 | Source | Chance | Count |
 | --- | --- | --- |

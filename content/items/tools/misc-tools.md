@@ -22,8 +22,8 @@ Both work as in vanilla Minecraft: **shears** shear sheep and collect leaves, vi
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:minecraft:shears]] | Minecraft |  | crafting, 27 loot tables |
-| [[item:minecraft:flint_and_steel]] | Minecraft |  | crafting, 50 loot tables |
+| [[item:minecraft:shears]] | Minecraft |  | crafting, [[loot:minecraft:shears]] |
+| [[item:minecraft:flint_and_steel]] | Minecraft |  | crafting, [[loot:minecraft:flint_and_steel]] |
 
 ## Shears
 
@@ -31,7 +31,7 @@ Both work as in vanilla Minecraft: **shears** shear sheep and collect leaves, vi
 
 ### Obtaining
 
-27 loot tables drop it (the 12 most likely are shown):
+Dropped by [[loot:minecraft:shears]] (the 12 most likely are shown):
 
 | Source | Chance | Count |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ It can also be crafted (see below).
 
 ### Obtaining
 
-50 loot tables drop it (the 12 most likely are shown):
+Dropped by [[loot:minecraft:flint_and_steel]] (the 12 most likely are shown):
 
 | Source | Chance | Count |
 | --- | --- | --- |

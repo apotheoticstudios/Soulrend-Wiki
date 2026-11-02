@@ -59,25 +59,25 @@ Together, its 4 pieces add **44 Weight** and **6 Stun Armor** in Epic Fight (per
 
 Every piece is crafted (see [[#Crafting]]).
 
-[[item:dungeons_and_combat:bounty_hunter_helmet]] drops from 1 loot table:
+[[item:dungeons_and_combat:bounty_hunter_helmet]] drops from [[loot:dungeons_and_combat:bounty_hunter_helmet]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `dungeons_and_combat:blocks/field_of_fallen` (chest) | 9.09% | 0–1 |
 
-[[item:dungeons_and_combat:bounty_hunter_chestplate]] drops from 1 loot table:
+[[item:dungeons_and_combat:bounty_hunter_chestplate]] drops from [[loot:dungeons_and_combat:bounty_hunter_chestplate]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `dungeons_and_combat:blocks/field_of_fallen` (chest) | 9.09% | 0–1 |
 
-[[item:dungeons_and_combat:bounty_hunter_leggings]] drops from 1 loot table:
+[[item:dungeons_and_combat:bounty_hunter_leggings]] drops from [[loot:dungeons_and_combat:bounty_hunter_leggings]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |
 | `dungeons_and_combat:blocks/field_of_fallen` (chest) | 10% | 0–1 |
 
-[[item:dungeons_and_combat:bounty_hunter_boots]] drops from 1 loot table:
+[[item:dungeons_and_combat:bounty_hunter_boots]] drops from [[loot:dungeons_and_combat:bounty_hunter_boots]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

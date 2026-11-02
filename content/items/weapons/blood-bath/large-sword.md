@@ -29,7 +29,7 @@
 
 ## Obtaining
 
-3 loot tables drop it:
+Dropped by [[loot:block_factorys_bosses:large_sword]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

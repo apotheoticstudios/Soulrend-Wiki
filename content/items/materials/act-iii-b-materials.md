@@ -25,7 +25,7 @@
 
 | Item | Mod | Key stats | Obtained from |
 | --- | --- | --- | --- |
-| [[item:soulsweapons:soul_ingot]] | Marium's Soulslike Weaponry |  | crafting, 4 loot tables |
+| [[item:soulsweapons:soul_ingot]] | Marium's Soulslike Weaponry |  | crafting, [[loot:soulsweapons:soul_ingot]] |
 | [[item:astral_calamity_extras:moon_crystals]] | Astral Calamity Extras |  |  |
 
 ## Soul Infused Ingot
@@ -34,7 +34,7 @@
 
 ### Obtaining
 
-4 loot tables drop it:
+Dropped by [[loot:soulsweapons:soul_ingot]]:
 
 | Source | Chance | Count |
 | --- | --- | --- |

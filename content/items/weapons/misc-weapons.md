@@ -199,10 +199,10 @@
 
 | Weapon | Type | Damage | Speed | Obtained from | Overview |
 | --- | --- | --- | --- | --- | --- |
-| [[item:cataclysm:athame]] | Dagger | 5 | 2.20 | 2 loot tables | Epic Fight dagger, innate skill Eviscerate. |
+| [[item:cataclysm:athame]] | Dagger | 5 | 2.20 | [[loot:cataclysm:athame]] | Epic Fight dagger, innate skill Eviscerate. |
 | [[item:cataclysm:azure_sea_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
-| [[item:cataclysm:black_steel_axe]] | Axe | 9 | 0.90 | crafting, 1 loot table | Epic Fight axe, innate skill The Guillotine. |
-| [[item:cataclysm:black_steel_sword]] | Sword | 6 | 1.60 | crafting, 1 loot table | Epic Fight sword, innate skill Sweeping Edge. |
+| [[item:cataclysm:black_steel_axe]] | Axe | 9 | 0.90 | crafting, [[loot:cataclysm:black_steel_axe]] | Epic Fight axe, innate skill The Guillotine. |
+| [[item:cataclysm:black_steel_sword]] | Sword | 6 | 1.60 | crafting, [[loot:cataclysm:black_steel_sword]] | Epic Fight sword, innate skill Sweeping Edge. |
 
 ## Cataclysm Weaponery
 
@@ -234,11 +234,11 @@
 | [[item:dungeons_and_combat:blessed_gold_shield]] | Shield |  |  | crafting | Gives Resistance I while held; the tooltip says during the day. Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:blue_dragon_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:broken_shield]] | Shield |  |  |  | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
-| [[item:dungeons_and_combat:bronze_dagger]] | Dagger | 4.2 | 2.40 | 1 loot table | Epic Fight dagger, innate skill Eviscerate. |
+| [[item:dungeons_and_combat:bronze_dagger]] | Dagger | 4.2 | 2.40 | [[loot:dungeons_and_combat:bronze_dagger]] | Epic Fight dagger, innate skill Eviscerate. |
 | [[item:dungeons_and_combat:bronze_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
-| [[item:dungeons_and_combat:bronze_sword]] | Sword | 5.7 | 2.00 | crafting, 1 loot table | Epic Fight sword, innate skill Sweeping Edge. |
-| [[item:dungeons_and_combat:copper_axe]] | Axe | 9 | 1.00 | crafting, 1 loot table | Epic Fight axe, innate skill The Guillotine. |
-| [[item:dungeons_and_combat:copper_axe_war]] | Axe | 5.5 | 1.30 | crafting, 1 loot table | Epic Fight axe, innate skill Steel Whirlwind. |
+| [[item:dungeons_and_combat:bronze_sword]] | Sword | 5.7 | 2.00 | crafting, [[loot:dungeons_and_combat:bronze_sword]] | Epic Fight sword, innate skill Sweeping Edge. |
+| [[item:dungeons_and_combat:copper_axe]] | Axe | 9 | 1.00 | crafting, [[loot:dungeons_and_combat:copper_axe]] | Epic Fight axe, innate skill The Guillotine. |
+| [[item:dungeons_and_combat:copper_axe_war]] | Axe | 5.5 | 1.30 | crafting, [[loot:dungeons_and_combat:copper_axe_war]] | Epic Fight axe, innate skill Steel Whirlwind. |
 | [[item:dungeons_and_combat:copper_dagger]] | Dagger | 4 | 2.40 |  | Epic Fight dagger, innate skill Eviscerate. |
 | [[item:dungeons_and_combat:copper_dragon_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:copper_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
@@ -254,11 +254,11 @@
 | [[item:dungeons_and_combat:electric_dragon_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:executioner_axe]] | Axe | 7 | 0.90 |  | Epic Fight greatsword, innate skill Steel Whirlwind. |
 | [[item:dungeons_and_combat:golden_glaive]] | Glaive | 8 | 1.60 | crafting | Epic Fight longsword, innate skill Liechtenauer. |
-| [[item:dungeons_and_combat:golden_shield]] | Shield |  |  | crafting, 1 loot table | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
+| [[item:dungeons_and_combat:golden_shield]] | Shield |  |  | crafting, [[loot:dungeons_and_combat:golden_shield]] | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:gray_dragon_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:green_dragon_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:heavy_shield]] | Shield |  |  |  | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
-| [[item:dungeons_and_combat:iron_dagger]] | Dagger | 4.5 | 2.40 | 1 loot table | Epic Fight dagger, innate skill Eviscerate. |
+| [[item:dungeons_and_combat:iron_dagger]] | Dagger | 4.5 | 2.40 | [[loot:dungeons_and_combat:iron_dagger]] | Epic Fight dagger, innate skill Eviscerate. |
 | [[item:dungeons_and_combat:iron_greataxe]] | Greataxe | 9 | 1.30 | crafting | Epic Fight greatsword, innate skill Steel Whirlwind. |
 | [[item:dungeons_and_combat:iron_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:molten_blazing_sword]] | Sword | 8.5 | 1.70 | crafting | Hits set the target on fire for 8 s. Sneak and right-click: Flame Grant Me Strength (Resistance I and Strength II) for 40 s, 31 s cooldown. Epic Fight longsword, innate skill Liechtenauer. |
@@ -269,7 +269,7 @@
 | [[item:dungeons_and_combat:neptunium_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:netherite_dagger]] | Dagger | 6.5 | 3.90 | crafting | Epic Fight dagger, innate skill Eviscerate. |
 | [[item:dungeons_and_combat:netherite_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
-| [[item:dungeons_and_combat:old_axe]] | Axe | 6.4 | 1.30 | 1 loot table | Epic Fight axe, innate skill Steel Whirlwind. |
+| [[item:dungeons_and_combat:old_axe]] | Axe | 6.4 | 1.30 | [[loot:dungeons_and_combat:old_axe]] | Epic Fight axe, innate skill Steel Whirlwind. |
 | [[item:dungeons_and_combat:old_shield]] | Shield |  |  |  | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:red_dragon_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:sandstone_axe]] | Axe | 5.5 | 1.20 | crafting | Epic Fight axe, innate skill The Guillotine. |
@@ -282,9 +282,9 @@
 | [[item:dungeons_and_combat:silver_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:silver_spear]] | Spear | 9.8 | 1.20 | crafting | Hit effect: extra damage against undead. Epic Fight spear, innate skill Grasping Spire. |
 | [[item:dungeons_and_combat:silver_sword]] | Sword | 6.8 | 1.70 | crafting | Hit effect: extra damage against undead. Epic Fight longsword, innate skill Liechtenauer. |
-| [[item:dungeons_and_combat:steel_axe]] | Axe | 9 | 0.90 | crafting, 2 loot tables | Epic Fight axe, innate skill The Guillotine. |
-| [[item:dungeons_and_combat:steel_greataxe]] | Greataxe | 10 | 1.30 | crafting, 1 loot table | Epic Fight greatsword, innate skill Steel Whirlwind. |
-| [[item:dungeons_and_combat:steel_sword]] | Sword | 7 | 1.60 | crafting, 2 loot tables | Epic Fight sword, innate skill Sweeping Edge. |
+| [[item:dungeons_and_combat:steel_axe]] | Axe | 9 | 0.90 | crafting, [[loot:dungeons_and_combat:steel_axe]] | Epic Fight axe, innate skill The Guillotine. |
+| [[item:dungeons_and_combat:steel_greataxe]] | Greataxe | 10 | 1.30 | crafting, [[loot:dungeons_and_combat:steel_greataxe]] | Epic Fight greatsword, innate skill Steel Whirlwind. |
+| [[item:dungeons_and_combat:steel_sword]] | Sword | 7 | 1.60 | crafting, [[loot:dungeons_and_combat:steel_sword]] | Epic Fight sword, innate skill Sweeping Edge. |
 | [[item:dungeons_and_combat:stone_shield]] | Shield |  |  | crafting | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
 | [[item:dungeons_and_combat:titanium_axe]] | Axe | 9 | 1.00 | crafting | Epic Fight axe, innate skill The Guillotine. |
 | [[item:dungeons_and_combat:titanium_greatsword]] | Greatsword | 11 | 1.30 | crafting | Epic Fight greatsword, innate skill Steel Whirlwind. |
@@ -327,9 +327,9 @@
 
 | Weapon | Type | Damage | Speed | Obtained from | Overview |
 | --- | --- | --- | --- | --- | --- |
-| [[item:iceandfire:copper_sword]] | Sword | 4 | 1.60 | crafting, 3 loot tables | Epic Fight sword, innate skill Sweeping Edge. |
+| [[item:iceandfire:copper_sword]] | Sword | 4 | 1.60 | crafting, [[loot:iceandfire:copper_sword]] | Epic Fight sword, innate skill Sweeping Edge. |
 | [[item:iceandfire:hippogryph_sword]] | Sword | 6.5 | 1.60 | crafting | Legendary Weapon: always slashes for extra damage, and every swing is a sweeping attack. Epic Fight sword, innate skill Sweeping Edge. |
-| [[item:iceandfire:silver_sword]] | Sword | 5 | 1.60 | crafting, 3 loot tables | Extra damage against undead. Epic Fight sword, innate skill Sweeping Edge. |
+| [[item:iceandfire:silver_sword]] | Sword | 5 | 1.60 | crafting, [[loot:iceandfire:silver_sword]] | Extra damage against undead. Epic Fight sword, innate skill Sweeping Edge. |
 | [[item:iceandfire:stymphalian_bird_dagger]] | Dagger | 6 | 3.00 |  | Legendary Weapon with extremely fast attack speed. Epic Fight dagger, innate skill Eviscerate. |
 
 ## Knaves' Needs
@@ -366,11 +366,11 @@
 
 | Weapon | Type | Damage | Speed | Obtained from | Overview |
 | --- | --- | --- | --- | --- | --- |
-| [[item:minecraft:golden_axe]] | Axe | 7 | 1.00 | crafting, 14 loot tables | Has Fortune II built in. Epic Fight axe, innate skill The Guillotine. |
-| [[item:minecraft:golden_sword]] | Sword | 4 | 1.60 | crafting, 25 loot tables | Has Looting II built in. Epic Fight sword, innate skill Sweeping Edge. |
-| [[item:minecraft:shield]] | Shield |  |  | crafting, 11 loot tables | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
-| [[item:minecraft:stone_axe]] | Axe | 9 | 0.80 | crafting, 9 loot tables | Epic Fight axe, innate skill The Guillotine. |
-| [[item:minecraft:wooden_axe]] | Axe | 7 | 0.80 | crafting, 3 loot tables | Epic Fight axe, innate skill The Guillotine. |
+| [[item:minecraft:golden_axe]] | Axe | 7 | 1.00 | crafting, [[loot:minecraft:golden_axe]] | Has Fortune II built in. Epic Fight axe, innate skill The Guillotine. |
+| [[item:minecraft:golden_sword]] | Sword | 4 | 1.60 | crafting, [[loot:minecraft:golden_sword]] | Has Looting II built in. Epic Fight sword, innate skill Sweeping Edge. |
+| [[item:minecraft:shield]] | Shield |  |  | crafting, [[loot:minecraft:shield]] | Parries with Soulslike Weaponry's parry key (2 s cooldown). Epic Fight: shield, no combo. |
+| [[item:minecraft:stone_axe]] | Axe | 9 | 0.80 | crafting, [[loot:minecraft:stone_axe]] | Epic Fight axe, innate skill The Guillotine. |
+| [[item:minecraft:wooden_axe]] | Axe | 7 | 0.80 | crafting, [[loot:minecraft:wooden_axe]] | Epic Fight axe, innate skill The Guillotine. |
 
 ## Mowzie's Mobs
 

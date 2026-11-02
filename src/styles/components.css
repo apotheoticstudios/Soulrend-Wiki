@@ -335,6 +335,93 @@ span.item-ref { border-bottom: 1px dotted var(--muted); cursor: help; }
 .model-dialog figcaption { margin-top: 8px; }
 html:has(.model-dialog[open]) { overflow: hidden; }
 
+/* Loot viewer: "N loot tables" trigger, hover preview and dialog */
+.loot-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.loot-link:hover { text-decoration-style: solid; }
+html.no-js .loot-link { color: inherit; text-decoration: none; cursor: default; }
+.loot-preview-row { display: flex; align-items: center; gap: 6px; margin-top: 2px; color: #aaaaaa; }
+.loot-preview-row .mc-icon { flex: none; }
+.loot-preview-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.loot-preview-chance { flex: none; margin-left: 12px; color: #ffff55; }
+.loot-dialog {
+  width: min(680px, calc(100vw - 32px));
+  height: min(760px, calc(100dvh - 32px));
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--fg);
+  box-shadow: 0 24px 64px rgb(0 0 0 / 0.45);
+}
+.loot-dialog::backdrop { background: rgb(0 0 0 / 0.7); }
+html:has(.loot-dialog[open]) { overflow: hidden; }
+.loot-panel { display: flex; flex-direction: column; height: 100%; }
+.loot-head { display: flex; align-items: center; gap: 12px; padding: 14px 16px 10px; }
+.loot-head-icon .mc-icon { --size: 32px; display: block; }
+.loot-head-text { flex: 1; min-width: 0; }
+.loot-title { margin: 0; font-family: var(--font-heading); font-size: 24px; line-height: 1.2; }
+.loot-count { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.loot-close {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: none;
+  color: var(--fg);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.loot-close:hover { border-color: var(--accent); color: var(--accent); }
+.loot-tools { display: flex; flex-direction: column; gap: 8px; padding: 0 16px 10px; border-bottom: 1px solid var(--border); }
+.loot-filter {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  color: var(--fg);
+  font: inherit;
+}
+.loot-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.loot-chips:empty { display: none; }
+.loot-chip {
+  padding: 2px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: none;
+  color: var(--fg);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.loot-chip span { color: var(--muted); }
+.loot-chip:hover, .loot-chip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.loot-rows { flex: 1; min-height: 0; margin: 0; padding: 0; overflow-y: auto; list-style: none; }
+.loot-row { display: flex; align-items: flex-start; gap: 10px; padding: 8px 16px; border-bottom: 1px solid var(--border); }
+.loot-row > .mc-icon { --size: 32px; flex: none; }
+.loot-source { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.loot-sub { color: var(--muted); font-size: 13px; }
+.loot-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
+.loot-tag { padding: 0 5px; border-radius: var(--radius); background: var(--panel); color: var(--muted); font-size: 12px; }
+.loot-numbers { display: flex; flex: none; flex-direction: column; align-items: flex-end; }
+.loot-numbers span { color: var(--muted); font-size: 13px; }
+.loot-empty { flex: 1; margin: 0; padding: 24px 16px; color: var(--muted); text-align: center; }
+.loot-note { margin: 0; padding: 8px 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
+
 /* Recipe diagrams. --u is one Minecraft GUI pixel; slots are 18u, item icons 16u (= the 32px export). */
 .recipe-group { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; margin: 0 0 1.2em; }
 .recipe {

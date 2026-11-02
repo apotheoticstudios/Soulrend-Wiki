@@ -10,6 +10,8 @@ import { jsonErrorLine } from './diagnostics.mjs';
 //   skilltrees.json { trees, frames, screen } + skilltrees/   Passive Skill Tree layouts (tools/lib/skilltrees.mjs)
 //   mobs.json     { "ns:entity": { name, model, animated? } }   3D models (tools/make-models.mjs)
 //   attacks.json  { player, dummy, horse, animations, types, skills }   attack viewer (tools/make-attacks.mjs)
+//   loot-tables.json { "ns:table": raw loot table }   the loot viewer (tools/lib/loot-sources.mjs)
+//   entity-names.json { "ns:entity": name }
 //   icons/<ns>/<path>.png
 export function loadGameData(root, diag) {
   const dir = path.join(root, 'game-data');
@@ -34,6 +36,8 @@ export function loadGameData(root, diag) {
     skillTrees: read('skilltrees.json'),
     mobs: new Map(Object.entries(read('mobs.json') ?? {})),
     attacks: read('attacks.json'),
+    lootTables: read('loot-tables.json'),
+    entityNames: read('entity-names.json'),
     skillTreeDir: path.join(dir, 'skilltrees'),
     source: read('source.json'),
     glyphs: read('glyphs.json') ?? {},
