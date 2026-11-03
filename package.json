@@ -8,6 +8,8 @@
     "sync-game": "node tools/sync-game.mjs",
     "install-kubejs": "node tools/install-kubejs.mjs",
     "font": "node tools/make-font.mjs",
+    "textures": "node tools/make-texture-manifest.mjs",
+    "cem": "node tools/make-cem-manifest.mjs",
     "models": "node tools/make-models.mjs",
     "forge": "node tools/make-dragonforge.mjs",
     "attacks": "node tools/make-attacks.mjs",

@@ -1,27 +1,5 @@
 {
   "$comment": "Where each mob model comes from; see tools/make-models.mjs. Draft new entries with tools/models/discover.mjs.",
-  "$resourcePacks": [
-    {
-      "file": "Excalibur_V1.21.10.zip",
-      "namespaces": [
-        "minecraft"
-      ],
-      "prefix": "textures/",
-      "$why": "Soulrend loads Excalibur over vanilla (config/paxi/resourcepack_load_order.json); it only retextures"
-    },
-    {
-      "file": "Gs ReDraco_IaF_1.20.1_v7.zip",
-      "namespaces": [
-        "iceandfire"
-      ],
-      "prefix": [
-        "textures/models/firedragon/",
-        "textures/models/icedragon/",
-        "textures/models/lightningdragon/"
-      ],
-      "$why": "G's ReDraco is the last pack Soulrend loads over the dragons (after Excalibur's Ice and Fire pack); used on the dragons only"
-    }
-  ],
   "$attacks": {
     "$comment": "The Epic Fight attack viewer in {{moveset}} embeds: npm run attacks builds it, npm run skin -- <png> swaps the player's skin. See tools/make-attacks.mjs.",
     "skin": "assets/john_soulrend/skin.png",
@@ -2126,7 +2104,7 @@
   "mowziesmobs:ferrous_wroughtnaut": {
     "boxes": "com/bobmowzie/mowziesmobs/client/model/entity/ModelWroughtnaut",
     "texture": "mowziesmobs:textures/entity/wroughtnaut.png",
-    "setup": true
+    "pose": {"groin": [0, -45, 0], "thighLeftJoint2": [0, 0, 0], "calfLeftJoint": [0, -45, 0], "footLeft": [0, 0, 0], "kneeLeft": [0, -45, 0], "shoulderLeftJoint": [0, 0, -75], "upperArmLeft": [0, 0, 0], "lowerArmLeftJoint": [0, 0, 0], "lowerArmLeft": [0, 0, 0], "handLeftJoint": [0, 0, 0], "elbowLeftJoint": [0, 0, 0], "thighRightJoint2": [0, 0, 0], "calfRightJoint": [0, -45, 0], "footRight": [0, 0, 0], "kneeRight": [0, -45, 0], "shoulderRightJoint": [0, 0, 75], "upperArmRight": [0, 0, 0], "lowerArmRightJoint": [0, 0, 0], "lowerArmRight": [0, 0, 0], "handRightJoint": [0, 0, 90], "elbowRightJoint": [0, 0, 0], "stomachJoint": [0, -45, 0], "chest": [0, 0, 0], "neck": [0, 0, 0]}
   },
   "mowziesmobs:frostmaw": {
     "boxes": "com/bobmowzie/mowziesmobs/client/model/entity/ModelFrostmaw",

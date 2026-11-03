@@ -62,7 +62,7 @@ export class Gltf {
   }
 
   // A pixel-art material: nearest filtering, alpha cut-out (or blending), no lighting tricks.
-  material(png, { name = 'texture', blend = false } = {}) {
+  material(png, { name = 'texture', blend = false, extras } = {}) {
     const doc = this.doc;
     doc.images ??= []; doc.textures ??= []; doc.samplers ??= [{ magFilter: 9728, minFilter: 9728 }]; doc.materials ??= [];
     const image = doc.images.push({ bufferView: this.view(png), mimeType: 'image/png' }) - 1;
@@ -70,6 +70,7 @@ export class Gltf {
     return doc.materials.push({
       name,
       pbrMetallicRoughness: { baseColorTexture: { index: texture }, metallicFactor: 0, roughnessFactor: 1 },
+      ...(extras ? { extras } : {}),
       alphaMode: blend ? 'BLEND' : 'MASK', ...(blend ? {} : { alphaCutoff: 0.1 }), doubleSided: true,
     }) - 1;
   }

@@ -7,9 +7,10 @@
   "icon": "minecraft:crafting_table"
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+<!-- sources:
+  the child pages of this section; see their sources comments
+-->
+**Gear & Crafting** covers the Soulrend-specific rules for making, improving and losing equipment. Many weapons and armor pieces are made by upgrading a lower piece, affix gear can be rerolled and socketed, and a number of items are removed or kept out of loot.
 
 ## In this section
 

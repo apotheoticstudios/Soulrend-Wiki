@@ -56,7 +56,7 @@ export function itemGlb(inst, itemId, bind, code = {}, modelId = null, variant =
     sources = { main: source, off: source.off ? { ...source.off, display: model.display } : source };
   }
   const atlas = buildAtlas({ ...sources.main.textures, ...sources.off.textures });
-  const material = g.material(atlas.png, { name: itemId });
+  const material = g.material(atlas.png, { name: itemId, extras: atlas.anims.length ? { anims: atlas.anims } : undefined });
   // One mesh per distinct source in its own space (pixels, or the biped's space for Epic Fight meshes).
   // Corners with the same position and uv are one vertex.
   const meshes = new Map();
@@ -156,7 +156,7 @@ export function resolveModel(inst, id) {
   const load = ref => {
     const tex = resolve(ref);
     if (!tex) return null;
-    if (!(tex in pngs)) pngs[tex] = firstFrame(inst.resource(`${tex.split(':')[0]}:textures/${tex.split(':')[1]}.png`));
+    if (!(tex in pngs)) pngs[tex] = loadTexture(inst, `${tex.split(':')[0]}:textures/${tex.split(':')[1]}.png`);
     return pngs[tex] ? tex : null;
   };
   const quads = [];
@@ -180,14 +180,27 @@ function json(inst, res) {
   try { return JSON.parse(strFromU8(bytes).replace(/^﻿/, '')); } catch { return null; }
 }
 
-// Animated textures are vertical strips; the first frame is the square at the top.
-export function firstFrame(bytes) {
+// Frame 0 of a texture. An animated one (the manifest's mcmeta animation) also carries `anim`: the whole
+// sheet and its timing, which the viewer plays. Without a manifest entry, a tall strip is cut square.
+export function loadTexture(inst, id, opts) {
+  return firstFrame(inst.resource(id, opts), inst.textureInfo(id));
+}
+export function firstFrame(bytes, info) {
   if (!bytes) return null;
   let img;
   try { img = PNG.sync.read(Buffer.from(trimPng(bytes))); } catch { return null; }
-  if (img.height <= img.width) return img;
-  const out = new PNG({ width: img.width, height: img.width });
-  img.data.copy(out.data, 0, 0, img.width * img.width * 4);
+  const spec = info?.animation;
+  const fw = spec ? (info.frameSize?.[0] ?? img.width) : img.width;
+  const fh = spec ? (info.frameSize?.[1] ?? img.width) : img.width;
+  if (!spec && img.height <= img.width) return img;
+  if (spec && (fw > img.width || fh > img.height)) return img;
+  const out = new PNG({ width: fw, height: fh });
+  for (let r = 0; r < fh; r++) img.data.copy(out.data, r * fw * 4, r * img.width * 4, (r * img.width + fw) * 4);
+  const count = Math.floor(img.width / fw) * Math.floor(img.height / fh);
+  const frames = (spec?.frames ?? Array.from({ length: count }, (_, i) => i))
+    .map(f => (typeof f === 'number' ? [f, spec.frametime ?? 1] : [f.index, f.time ?? spec.frametime ?? 1]))
+    .filter(([i]) => i >= 0 && i < count);
+  if (count > 1 && frames.length > 1) out.anim = { sheet: img, fw, fh, frames, interpolate: !!spec.interpolate };
   return out;
 }
 function trimPng(bytes) {
@@ -277,7 +290,7 @@ function epicFightMesh(inst, meshId, texture, biped) {
   if (!texture) throw new Error(`item skin names no texture for ${meshId}`);
   const texId = texture.replace(/\.png$/, '');
   const [tns, tpath] = texId.split(':');
-  const png = firstFrame(inst.resource(`${tns}:${tpath.startsWith('textures/') ? tpath : `textures/${tpath}`}.png`));
+  const png = loadTexture(inst, `${tns}:${tpath.startsWith('textures/') ? tpath : `textures/${tpath}`}.png`);
   if (!png) throw new Error(`item skin texture not found: ${texture}`);
   const names = mesh.armature?.joints ?? biped;
   const parent = {};
@@ -327,7 +340,7 @@ function objModel(inst, m) {
     for (let k = 0; k < 8 && typeof ref === 'string' && ref.startsWith('#'); k++) ref = m.textures?.[ref.slice(1)];
     if (typeof ref !== 'string') return null;
     const tex = normal(ref.replace(/\.png$/, '').replace(/^([a-z0-9_.-]+:)?textures\//, '$1'));
-    if (!(tex in pngs)) pngs[tex] = firstFrame(inst.resource(`${tex.split(':')[0]}:textures/${tex.split(':')[1]}.png`));
+    if (!(tex in pngs)) pngs[tex] = loadTexture(inst, `${tex.split(':')[0]}:textures/${tex.split(':')[1]}.png`);
     return pngs[tex] ? tex : null;
   };
   const lines = strFromU8(text).split(/\r?\n/);
@@ -363,21 +376,33 @@ function objModel(inst, m) {
   return { quads, textures: pngs };
 }
 
-// Every texture an item uses, stacked into one image; uvs are remapped into it.
+// Every texture an item uses, stacked into one image; uvs are remapped into it. An animated texture shows
+// its first frame in its slot and keeps its whole sheet below all the slots, with `anims` saying where
+// (the viewer copies the current frame into the slot).
 function buildAtlas(textures) {
   const entries = Object.entries(textures).filter(([, img]) => img);
-  const width = Math.max(...entries.map(([, img]) => img.width));
-  const height = entries.reduce((n, [, img]) => n + img.height, 0);
+  const sheets = entries.filter(([, img]) => img.anim);
+  const width = Math.max(...entries.map(([, img]) => img.width), ...sheets.map(([, img]) => img.anim.sheet.width));
+  const slots = entries.reduce((n, [, img]) => n + img.height, 0);
+  const height = slots + sheets.reduce((n, [, img]) => n + img.anim.sheet.height, 0);
   const out = new PNG({ width, height });
-  const place = {};
-  let y = 0;
+  const copy = (img, y) => { for (let r = 0; r < img.height; r++) img.data.copy(out.data, ((y + r) * width) * 4, r * img.width * 4, (r + 1) * img.width * 4); };
+  const place = {}, anims = [];
+  let y = 0, sy = slots;
   for (const [key, img] of entries) {
-    for (let r = 0; r < img.height; r++) img.data.copy(out.data, ((y + r) * width) * 4, r * img.width * 4, (r + 1) * img.width * 4);
+    copy(img, y);
     place[key] = { y, w: img.width, h: img.height };
+    if (img.anim) {
+      const { sheet, fw, fh, frames, interpolate } = img.anim;
+      copy(sheet, sy);
+      anims.push({ y, sy, sw: sheet.width, fw, fh, frames, interpolate });
+      sy += sheet.height;
+    }
     y += img.height;
   }
   return {
     png: new Uint8Array(PNG.sync.write(out)),
+    anims,
     map: (key, [u, v]) => { const p = place[key]; return [u * p.w / width, (p.y + v * p.h) / height]; },
   };
 }

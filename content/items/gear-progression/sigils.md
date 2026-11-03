@@ -42,6 +42,7 @@
   game-data/loot-tables.json, game-data/recipes.json (apotheosis:add_sockets max_sockets 3; apotheosis:enchanting infusions; fallen_gems_affixes:* smithing recipe types)
   fallen_gems_affixes jar: AugmentRecipe and the sigil recipe classes; lang
   config/ftbquests/quests/chapters/affix_enchanting.snbt (what the quests say each sigil does)
+  config/soulrend_tweaks-common.toml (gemLossChance 0.5 for the Sigil of Withdrawal)
 -->
 
 **Sigils** lists 13 items.
@@ -115,7 +116,7 @@ It can also be crafted (see below).
 
 > Removes all socketed gems from an item
 
-Combine it with an item in a Smithing Table to take out every socketed gem.
+Combine it with an item in a Smithing Table to take out every socketed gem. Each gem has a 50% chance to be destroyed in the process (Soulrend Tweaks, `gemLossChance` in `config/soulrend_tweaks-common.toml`); see [[features/gear-and-crafting/gems-and-sigils|Gems & Sigils]].
 
 ### Obtaining
 

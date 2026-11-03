@@ -20,7 +20,7 @@ import { readClass } from '../classfile.mjs';
 import { readGeo } from '../models/bedrock.mjs';
 import { bakeParts } from '../models/glb.mjs';
 import { opaque } from '../models/jvm.mjs';
-import { firstFrame } from './item.mjs';
+import { loadTexture } from './item.mjs';
 import { identity, mul, translation, scaling, fromQuat, transformPoint } from './mat4.mjs';
 
 const RENDERERS = [
@@ -241,7 +241,7 @@ export function codeModels(inst, java) {
     for (const d of draws) {
       if (!modelParts.has(d.model)) { try { modelParts.set(d.model, java.boxes({ class: d.model })); } catch { modelParts.set(d.model, null); } }
       const model = modelParts.get(d.model);
-      const png = firstFrame(inst.resource(d.texture));
+      const png = loadTexture(inst, d.texture, { layout: true });
       if (!model || !png) continue;
       textures[d.texture] = png;
       const g = bakeParts(model.parts, { width: model.texWidth ?? png.width, height: model.texHeight ?? png.height });
@@ -310,7 +310,7 @@ export function codeModels(inst, java) {
 
 function build(inst, { geo, texture }) {
   const bytes = inst.resource(geo);
-  const png = firstFrame(inst.resource(texture));
+  const png = loadTexture(inst, texture);
   if (!bytes || !png) return null;
   const model = readGeo(JSON.parse(strFromU8(bytes).replace(/^﻿/, '')));
   const g = bakeParts(model.parts, { width: model.texWidth ?? png.width, height: model.texHeight ?? png.height });

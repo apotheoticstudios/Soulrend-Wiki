@@ -20,7 +20,7 @@
 
 ## Sockets
 
-- **Socketing.** Gems are put in at a Smithing Table, with the item on the left and the gem on the right. Removing them takes a [[items/gear-progression/sigils|Sigil of Withdrawal]], which takes out every gem at once.
+- **Socketing.** Gems are put in at a Smithing Table, with the item on the left and the gem on the right. Removing them takes a [[items/gear-progression/sigils|Sigil of Withdrawal]], which takes out every gem at once, but each gem has a 50% chance to be destroyed ([[features/gear-and-crafting/gems-and-sigils|Gems & Sigils]]).
 - **Getting sockets.** Affix gear rolls its own sockets, and Fallen Gems & Affixes gives every item that can take affixes one extra socket. A Sigil of Socketing adds one more at a Smithing Table, up to 3.
 - **Tiered sockets.** Some sockets have a rarity ("Empty Epic Socket"). A gem of that rarity or lower fits; plain sockets take any gem. The Sigil of Elevation raises tiered sockets one rarity.
 - **Unique gems** can be socketed only once per item. Each gem page's infobox says whether it is unique.

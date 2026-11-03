@@ -297,6 +297,11 @@
     "model": "models/cataclysm/aptrgangr.glb",
     "animated": true
   },
+  "cataclysm:aptrgangr_cem": {
+    "name": "Aptrgangr",
+    "model": "models/cataclysm/aptrgangr_cem.glb",
+    "cem": "Excalibur Cataclysm 1.0 (Forge).zip"
+  },
   "cataclysm:cindaria": {
     "name": "Cindaria",
     "model": "models/cataclysm/cindaria.glb",
@@ -341,6 +346,11 @@
     "model": "models/cataclysm/draugr.glb",
     "animated": true
   },
+  "cataclysm:draugr_cem": {
+    "name": "Draugr",
+    "model": "models/cataclysm/draugr_cem.glb",
+    "cem": "Excalibur Cataclysm 1.0 (Forge).zip"
+  },
   "cataclysm:drowned_host": {
     "name": "Drowned Host",
     "model": "models/cataclysm/drowned_host.glb"
@@ -349,6 +359,11 @@
     "name": "Elite Draugr",
     "model": "models/cataclysm/elite_draugr.glb",
     "animated": true
+  },
+  "cataclysm:elite_draugr_cem": {
+    "name": "Elite Draugr",
+    "model": "models/cataclysm/elite_draugr_cem.glb",
+    "cem": "Excalibur Cataclysm 1.0 (Forge).zip"
   },
   "cataclysm:ender_golem": {
     "name": "Ender Golem",
@@ -376,6 +391,11 @@
     "model": "models/cataclysm/ignited_berserker.glb",
     "animated": true
   },
+  "cataclysm:ignited_berserker_cem": {
+    "name": "Ignited Berserker",
+    "model": "models/cataclysm/ignited_berserker_cem.glb",
+    "cem": "Excalibur Cataclysm 1.0 (Forge).zip"
+  },
   "cataclysm:ignited_revenant": {
     "name": "Ignited Revenant",
     "model": "models/cataclysm/ignited_revenant.glb"
@@ -402,6 +422,11 @@
     "name": "Royal Draugr",
     "model": "models/cataclysm/royal_draugr.glb",
     "animated": true
+  },
+  "cataclysm:royal_draugr_cem": {
+    "name": "Royal Draugr",
+    "model": "models/cataclysm/royal_draugr_cem.glb",
+    "cem": "Excalibur Cataclysm 1.0 (Forge).zip"
   },
   "cataclysm:scylla": {
     "name": "Scylla",
@@ -654,6 +679,11 @@
     "name": "Iceologer",
     "model": "models/friendsandfoes/iceologer.glb"
   },
+  "friendsandfoes:iceologer_cem": {
+    "name": "Iceologer",
+    "model": "models/friendsandfoes/iceologer_cem.glb",
+    "cem": "freshly-modded-1-5-10.zip"
+  },
   "friendsandfoes:illusioner": {
     "name": "Illusioner",
     "model": "models/friendsandfoes/illusioner.glb"
@@ -667,6 +697,11 @@
     "name": "Wildfire",
     "model": "models/friendsandfoes/wildfire.glb",
     "animated": true
+  },
+  "friendsandfoes:wildfire_cem": {
+    "name": "Wildfire",
+    "model": "models/friendsandfoes/wildfire_cem.glb",
+    "cem": "Excalibur_FF2.1.zip"
   },
   "graveyard:acolyte": {
     "name": "Acolyte",
@@ -1442,17 +1477,37 @@
     "name": "Blaze",
     "model": "models/minecraft/blaze.glb"
   },
+  "minecraft:blaze_cem": {
+    "name": "Blaze",
+    "model": "models/minecraft/blaze_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
+  },
   "minecraft:cave_spider": {
     "name": "Cave Spider",
     "model": "models/minecraft/cave_spider.glb"
+  },
+  "minecraft:cave_spider_cem": {
+    "name": "Cave Spider",
+    "model": "models/minecraft/cave_spider_cem.glb",
+    "cem": "Excalibur_V1.21.10.zip"
   },
   "minecraft:creeper": {
     "name": "Creeper",
     "model": "models/minecraft/creeper.glb"
   },
+  "minecraft:creeper_cem": {
+    "name": "Creeper",
+    "model": "models/minecraft/creeper_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
+  },
   "minecraft:drowned": {
     "name": "Drowned",
     "model": "models/minecraft/drowned.glb"
+  },
+  "minecraft:drowned_cem": {
+    "name": "Drowned",
+    "model": "models/minecraft/drowned_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
   },
   "minecraft:ender_dragon": {
     "name": "Ender Dragon",
@@ -1462,29 +1517,64 @@
     "name": "Enderman",
     "model": "models/minecraft/enderman.glb"
   },
+  "minecraft:enderman_cem": {
+    "name": "Enderman",
+    "model": "models/minecraft/enderman_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
+  },
   "minecraft:evoker": {
     "name": "Evoker",
     "model": "models/minecraft/evoker.glb"
+  },
+  "minecraft:evoker_cem": {
+    "name": "Evoker",
+    "model": "models/minecraft/evoker_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
   },
   "minecraft:ghast": {
     "name": "Ghast",
     "model": "models/minecraft/ghast.glb"
   },
+  "minecraft:ghast_cem": {
+    "name": "Ghast",
+    "model": "models/minecraft/ghast_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
+  },
   "minecraft:hoglin": {
     "name": "Hoglin",
     "model": "models/minecraft/hoglin.glb"
+  },
+  "minecraft:hoglin_cem": {
+    "name": "Hoglin",
+    "model": "models/minecraft/hoglin_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
   },
   "minecraft:husk": {
     "name": "Husk",
     "model": "models/minecraft/husk.glb"
   },
+  "minecraft:husk_cem": {
+    "name": "Husk",
+    "model": "models/minecraft/husk_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
+  },
   "minecraft:magma_cube": {
     "name": "Magma Cube",
     "model": "models/minecraft/magma_cube.glb"
   },
+  "minecraft:magma_cube_cem": {
+    "name": "Magma Cube",
+    "model": "models/minecraft/magma_cube_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
+  },
   "minecraft:phantom": {
     "name": "Phantom",
     "model": "models/minecraft/phantom.glb"
+  },
+  "minecraft:phantom_cem": {
+    "name": "Phantom",
+    "model": "models/minecraft/phantom_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
   },
   "minecraft:piglin": {
     "name": "Piglin",
@@ -1494,37 +1584,87 @@
     "name": "Piglin Brute",
     "model": "models/minecraft/piglin_brute.glb"
   },
+  "minecraft:piglin_brute_cem": {
+    "name": "Piglin Brute",
+    "model": "models/minecraft/piglin_brute_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
+  },
+  "minecraft:piglin_cem": {
+    "name": "Piglin",
+    "model": "models/minecraft/piglin_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
+  },
   "minecraft:pillager": {
     "name": "Pillager",
     "model": "models/minecraft/pillager.glb"
+  },
+  "minecraft:pillager_cem": {
+    "name": "Pillager",
+    "model": "models/minecraft/pillager_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
   },
   "minecraft:shulker": {
     "name": "Shulker",
     "model": "models/minecraft/shulker.glb"
   },
+  "minecraft:shulker_cem": {
+    "name": "Shulker",
+    "model": "models/minecraft/shulker_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
+  },
   "minecraft:skeleton": {
     "name": "Skeleton",
     "model": "models/minecraft/skeleton.glb"
+  },
+  "minecraft:skeleton_cem": {
+    "name": "Skeleton",
+    "model": "models/minecraft/skeleton_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
   },
   "minecraft:slime": {
     "name": "Slime",
     "model": "models/minecraft/slime.glb"
   },
+  "minecraft:slime_cem": {
+    "name": "Slime",
+    "model": "models/minecraft/slime_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
+  },
   "minecraft:spider": {
     "name": "Spider",
     "model": "models/minecraft/spider.glb"
+  },
+  "minecraft:spider_cem": {
+    "name": "Spider",
+    "model": "models/minecraft/spider_cem.glb",
+    "cem": "Excalibur_V1.21.10.zip"
   },
   "minecraft:stray": {
     "name": "Stray",
     "model": "models/minecraft/stray.glb"
   },
+  "minecraft:stray_cem": {
+    "name": "Stray",
+    "model": "models/minecraft/stray_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
+  },
   "minecraft:vindicator": {
     "name": "Vindicator",
     "model": "models/minecraft/vindicator.glb"
   },
+  "minecraft:vindicator_cem": {
+    "name": "Vindicator",
+    "model": "models/minecraft/vindicator_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
+  },
   "minecraft:warden": {
     "name": "Warden",
     "model": "models/minecraft/warden.glb"
+  },
+  "minecraft:warden_cem": {
+    "name": "Warden",
+    "model": "models/minecraft/warden_cem.glb",
+    "cem": "Excalibur_V1.21.10.zip"
   },
   "minecraft:witch": {
     "name": "Witch",
@@ -1534,21 +1674,46 @@
     "name": "Wither",
     "model": "models/minecraft/wither.glb"
   },
+  "minecraft:wither_cem": {
+    "name": "Wither",
+    "model": "models/minecraft/wither_cem.glb",
+    "cem": "Excalibur_V1.21.10.zip"
+  },
   "minecraft:wither_skeleton": {
     "name": "Wither Skeleton",
     "model": "models/minecraft/wither_skeleton.glb"
+  },
+  "minecraft:wither_skeleton_cem": {
+    "name": "Wither Skeleton",
+    "model": "models/minecraft/wither_skeleton_cem.glb",
+    "cem": "EFA_1.10.3_SoulrendFix.zip"
   },
   "minecraft:zombie": {
     "name": "Zombie",
     "model": "models/minecraft/zombie.glb"
   },
+  "minecraft:zombie_cem": {
+    "name": "Zombie",
+    "model": "models/minecraft/zombie_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
+  },
   "minecraft:zombie_villager": {
     "name": "Zombie Villager",
     "model": "models/minecraft/zombie_villager.glb"
   },
+  "minecraft:zombie_villager_cem": {
+    "name": "Zombie Villager",
+    "model": "models/minecraft/zombie_villager_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
+  },
   "minecraft:zombified_piglin": {
     "name": "Zombified Piglin",
     "model": "models/minecraft/zombified_piglin.glb"
+  },
+  "minecraft:zombified_piglin_cem": {
+    "name": "Zombified Piglin",
+    "model": "models/minecraft/zombified_piglin_cem.glb",
+    "cem": "FreshAnimations_v1.10.3_SoulrendFix.zip"
   },
   "mowziesmobs:ferrous_wroughtnaut": {
     "name": "Ferrous Wroughtnaut",

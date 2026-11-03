@@ -7,12 +7,10 @@
   "icon": "irons_spellbooks:inscription_table"
 }
 ---
-<!-- outline-stub: generated from the wiki outline. Delete this line once the page is written. -->
-> [!NOTE]
-> Placeholder page from the wiki outline.
+Short answers about spells, Shriving Stones and familiars.
 
 ## In this section
 
-- [[faq/magic/how-do-i-learn-spells|How do I learn spells?]]
-- [[faq/magic/what-are-shriving-stones|What are Shriving Stones?]]
-- [[faq/magic/how-do-familiars-work|How do familiars work?]]
+- [[faq/magic/how-do-i-learn-spells|How do I learn spells?]] — Inscribe scrolls; Eldritch spells need a manuscript.
+- [[faq/magic/what-are-shriving-stones|What are Shriving Stones?]] — They strip imbued spells and unlock locked ones.
+- [[faq/magic/how-do-familiars-work|How do familiars work?]] — Shards summon them, trinkets strengthen them.

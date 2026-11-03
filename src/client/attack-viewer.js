@@ -11,7 +11,7 @@ const PAUSE = 0.8;
 const loader = new GLTFLoader();
 const cache = new Map();
 const load = url => {
-  if (!cache.has(url)) cache.set(url, loader.loadAsync(url).then(gltf => { pixelate(gltf.scene); return gltf; }));
+  if (!cache.has(url)) cache.set(url, loader.loadAsync(url).then(gltf => { pixelate(gltf.scene); animateTextures(gltf.scene); return gltf; }));
   return cache.get(url);
 };
 
@@ -40,6 +40,66 @@ function pixelate(root) {
       if (!material.transparent) material.alphaTest = Math.max(material.alphaTest, 0.1);
     }
   });
+}
+
+// Animated item textures (mcmeta animation): the glb keeps the whole sheet below the atlas slots and lists
+// each animation in the material's extras; a canvas copy of the atlas gets the current frame drawn into the
+// slot every tick (one second is 20 game ticks; "interpolate" blends the next frame in).
+const playing = new Set();
+function animateTextures(root) {
+  root.traverse(object => {
+    if (!object.isMesh) return;
+    for (const material of [object.material].flat()) {
+      const anims = material.userData.anims;
+      if (!anims || !material.map || playing.has(material)) continue;
+      const image = material.map.image;
+      const canvas = document.createElement('canvas');
+      canvas.width = image.width;
+      canvas.height = image.height;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(image, 0, 0);
+      const map = new THREE.CanvasTexture(canvas);
+      map.colorSpace = material.map.colorSpace;
+      map.flipY = false;
+      map.magFilter = map.minFilter = THREE.NearestFilter;
+      map.generateMipmaps = false;
+      material.map = map;
+      material.needsUpdate = true;
+      const items = anims.map(a => ({ ...a, total: a.frames.reduce((n, f) => n + f[1], 0), key: '' }));
+      material.userData.play = { ctx, map, image, items };
+      playing.add(material);
+    }
+  });
+}
+let lastTextureTick = 0;
+function tickTextures(now) {
+  if (now === lastTextureTick) return;
+  lastTextureTick = now;
+  const ticks = now / 50;
+  for (const material of playing) {
+    const { ctx, map, image, items } = material.userData.play;
+    let changed = false;
+    for (const a of items) {
+      let t = ticks % a.total, i = 0;
+      while (t >= a.frames[i][1]) t -= a.frames[i++][1];
+      const mix = a.interpolate ? Math.round(t / a.frames[i][1] * 8) / 8 : 0;
+      const key = `${i}:${mix}`;
+      if (key === a.key) continue;
+      a.key = key;
+      changed = true;
+      const cols = Math.floor(a.sw / a.fw);
+      const draw = index => ctx.drawImage(image, (index % cols) * a.fw, a.sy + Math.floor(index / cols) * a.fh, a.fw, a.fh, 0, a.y, a.fw, a.fh);
+      ctx.clearRect(0, a.y, a.fw, a.fh);
+      ctx.globalAlpha = 1;
+      draw(a.frames[i][0]);
+      if (mix) {
+        ctx.globalAlpha = mix;
+        draw(a.frames[(i + 1) % a.frames.length][0]);
+        ctx.globalAlpha = 1;
+      }
+    }
+    if (changed) map.needsUpdate = true;
+  }
 }
 
 async function mount(stage) {
@@ -256,6 +316,7 @@ async function mount(stage) {
       mixer.update(dt);
       for (const d of dummies) d.mixer.update(dt);
     }
+    tickTextures(now);
     controls.update();
     renderer.render(scene, camera);
   };

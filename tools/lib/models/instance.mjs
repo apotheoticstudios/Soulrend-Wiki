@@ -3,7 +3,9 @@
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { unzipSync } from 'fflate';
+import { PNG } from 'pngjs';
 import { classPath } from './classpath.mjs';
 import { readMappings } from './mappings.mjs';
 
@@ -41,9 +43,96 @@ export function openInstance(instance = path.join(CURSEFORGE, 'Instances/Soulren
     return { ...pack, zip, names };
   });
   const cache = new Map();
+  const instance_stats = {};
+
+  // Textures come from the source the game shows (game-data/texture-manifest.json, from npm run textures):
+  // the full resource stack, not just `packs`. Zip buffers are kept for a few files at a time.
+  const manifestFile = path.join(path.dirname(fileURLToPath(import.meta.url)), '../../../game-data/texture-manifest.json');
+  const manifest = fs.existsSync(manifestFile) ? JSON.parse(fs.readFileSync(manifestFile, 'utf8')) : null;
+  const zipBuffers = new Map();
+  const zipBuffer = file => {
+    if (!zipBuffers.has(file)) {
+      if (zipBuffers.size >= 6) zipBuffers.delete(zipBuffers.keys().next().value);
+      zipBuffers.set(file, fs.readFileSync(file));
+    }
+    return zipBuffers.get(file);
+  };
+  const readEntry = (srcIdx, jar, file) => {
+    const src = manifest.sources[srcIdx];
+    const key = `${src.id}:${jar ?? ''}!${file}`;
+    if (cache.has(key)) return cache.get(key);
+    let bytes = null;
+    if (src.kind === 'vanilla') bytes = unzipSync(zipBuffer(vanilla), { filter: e => e.name === file })[file];
+    else if (src.kind === 'mod_resources') bytes = unzipSync(zipBuffer(path.join(instance, 'mods', jar)), { filter: e => e.name === file })[file];
+    else if (src.kind === 'mod-pack') {
+      const [jarPath, inner] = src.where.split('!');
+      bytes = unzipSync(zipBuffer(path.join(instance, jarPath)), { filter: e => e.name === `${inner}/${file}` })[`${inner}/${file}`];
+    } else if (src.kind === 'zip') bytes = unzipSync(zipBuffer(path.join(instance, src.where)), { filter: e => e.name === file })[file];
+    else {
+      const dir = src.kind === 'kubejs' ? path.join(instance, 'kubejs') : path.join(instance, src.where);
+      const full = path.join(dir, file);
+      bytes = fs.existsSync(full) ? fs.readFileSync(full) : null;
+    }
+    if (bytes) cache.set(key, bytes);
+    return bytes;
+  };
+  const readFrom = (srcIdx, jar, ns, rel) => {
+    const bytes = readEntry(srcIdx, jar, `assets/${ns}/${rel}`);
+    if (!bytes) throw new Error(`texture manifest points ${ns}:${rel} at ${manifest.sources[srcIdx].id}, which doesn't have it`);
+    return bytes;
+  };
+  // The mod's own file, whichever jar has it.
+  const fromJars = (ns, file) => {
+    for (const jar of byNamespace.get(ns) ?? []) {
+      if (!entries.get(jar).has(file)) continue;
+      const key = `${jar}!${file}`;
+      if (!cache.has(key)) cache.set(key, unzipSync(fs.readFileSync(jar), { filter: e => e.name === file })[file]);
+      return cache.get(key);
+    }
+    return null;
+  };
+  // Does a pack texture use the same layout as the original one? Compares which pixels are drawn at all
+  // (nearest-neighbour onto the original's grid): a retexture matches, a texture drawn for a CEM model's
+  // different UV layout doesn't.
+  const layoutMatches = (a, b) => {
+    const A = PNG.sync.read(Buffer.from(a)), B = PNG.sync.read(Buffer.from(b));
+    let both = 0, either = 0;
+    for (let y = 0; y < B.height; y++) for (let x = 0; x < B.width; x++) {
+      const ax = Math.min(A.width - 1, Math.floor((x + 0.5) * A.width / B.width)), ay = Math.min(A.height - 1, Math.floor((y + 0.5) * A.height / B.height));
+      const pa = A.data[(ay * A.width + ax) * 4 + 3] > 0, pb = B.data[(y * B.width + x) * 4 + 3] > 0;
+      if (pa || pb) either++;
+      if (pa && pb) both++;
+    }
+    return either === 0 || both / either >= 0.9;
+  };
+  // A texture of a pack that also replaces the entity's model (cem) may be laid out for that model. The wiki
+  // builds the original geometry, so keep the pack's texture only when its layout matches the original's,
+  // else use the highest source that isn't bound to a replacement model.
+  const stackTexture = (ns, rel, { winner = false, layout = false } = {}) => {
+    const entry = manifest?.textures[`${ns}:${rel}`];
+    if (!entry) return undefined;
+    const win = readFrom(entry.s, entry.jar, ns, rel);
+    // `layout`: a Java model's cubes fix the UV layout, so a pack texture drawn for another layout (Excalibur's
+    // 128px Void Forge) must give way to the original.
+    if (layout && entry.under) {
+      const orig = fromJars(ns, `assets/${ns}/${rel}`);
+      if (orig && !layoutMatches(win, orig)) return orig;
+    }
+    if (!entry.cem || winner) return win;
+    const note = (use) => { (instance_stats.cem ??= []).push(`${ns}:${rel} -> ${use}`); };
+    if (entry.base !== entry.s && layoutMatches(win, readFrom(entry.base, entry.baseJar, ns, rel))) { note('kept'); return win; }
+    if (entry.compat === undefined) { note('kept (no compatible source)'); return win; }
+    note(`${manifest.sources[entry.compat].id}`);
+    return readFrom(entry.compat, entry.compatJar, ns, rel);
+  };
+
   // "ns:path" → bytes of assets/ns/path, from the first pack that covers it, else whichever jar has it.
-  const resource = id => {
+  const resource = (id, opts) => {
     const [ns, rel] = id.includes(':') ? id.split(':') : ['minecraft', id];
+    if (rel.startsWith('textures/') && rel.endsWith('.png')) {
+      const got = stackTexture(ns, rel, opts);
+      if (got) return got;
+    }
     const file = `assets/${ns}/${rel}`;
     for (const pack of overrides) {
       if (pack.namespaces && !pack.namespaces.includes(ns)) continue;
@@ -53,13 +142,7 @@ export function openInstance(instance = path.join(CURSEFORGE, 'Instances/Soulren
       if (!cache.has(key)) cache.set(key, unzipSync(fs.readFileSync(pack.zip), { filter: e => e.name === file })[file]);
       return cache.get(key);
     }
-    for (const jar of byNamespace.get(ns) ?? []) {
-      if (!entries.get(jar).has(file)) continue;
-      const key = `${jar}!${file}`;
-      if (!cache.has(key)) cache.set(key, unzipSync(fs.readFileSync(jar), { filter: e => e.name === file })[file]);
-      return cache.get(key);
-    }
-    return null;
+    return fromJars(ns, file);
   };
   // Reads many resources with one pass over each jar (resource() inflates a jar per file), into the
   // cache; evict() drops them again. Pack overrides are left to resource().
@@ -93,7 +176,12 @@ export function openInstance(instance = path.join(CURSEFORGE, 'Instances/Soulren
 
   let mappings, classes;
   return {
-    instance, mods, resource, list, listAll, prefetch, evict,
+    instance, mods, resource,
+    // A file of a texture-manifest source (zip pack or folder), by index into its sources: "assets/ns/…".
+    packFile: (sourceId, file) => { const i = manifest.sources.findIndex(s => s.id === sourceId); return i < 0 ? null : readEntry(i, null, file); }, cemDecisions: () => instance_stats.cem ?? [],
+    // The manifest entry (winning source, animation) for "ns:textures/x.png", if the manifest knows it.
+    textureInfo: id => manifest?.textures[id.includes(':') ? id : `minecraft:${id}`],
+    textureSource: id => { const e = manifest?.textures[id]; return e && manifest.sources[e.s].id; }, list, listAll, prefetch, evict,
     jarsFor: ns => [...(byNamespace.get(ns) ?? [])],
     get mappings() {
       mappings ??= readMappings(path.join(libraries, `net/minecraft/client/${MC}/client-${MC}-mappings.txt`),

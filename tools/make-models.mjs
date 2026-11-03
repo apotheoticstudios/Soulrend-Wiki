@@ -25,8 +25,8 @@
 //              render layer draws them; "translucent" blends instead of cutting out
 //   "variants" key → fields replacing the entry's, each built as its own model <id>_<key> (the dragons'
 //              colors and stages, which differ only in texture)
-// Resource ids are "ns:path" under assets/. "$resourcePacks" at the top lists resource packs whose files
-// replace the jars' (Excalibur for vanilla textures, Excalibur's Ice and Fire pack for the dragons). Other fields starting with "$" are notes. tools/models/discover.mjs
+// Resource ids are "ns:path" under assets/. Textures resolve through the in-game resource stack
+// (game-data/texture-manifest.json, npm run textures); other assets come from the jars. Fields starting with "$" are notes. tools/models/discover.mjs
 // drafts new entries. The output also goes into game-data/mobs.json (entity id → name and model path).
 import fs from 'node:fs';
 import path from 'node:path';
@@ -37,6 +37,7 @@ import { openInstance } from './lib/models/instance.mjs';
 import { javaModels } from './lib/models/java.mjs';
 import { readGeo, readAnimation } from './lib/models/bedrock.mjs';
 import { readTabula, poseAnimation } from './lib/models/tabula.mjs';
+import { readJem, parseLoose } from './lib/models/cem.mjs';
 import { readEpicFightMesh } from './lib/models/epicfight.mjs';
 import { readKeyframes } from './lib/models/keyframes.mjs';
 import { writeGlb } from './lib/models/glb.mjs';
@@ -49,6 +50,8 @@ const args = process.argv.slice(2);
 const arg = name => { const i = args.indexOf(`--${name}`); return i >= 0 ? args[i + 1] : undefined; };
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/models/mobs.json'), 'utf8'));
 const only = arg('only')?.split(',');
+const CEM_MANIFEST = path.join(ROOT, 'game-data/cem-models.json');
+const layers_cubes = {};
 
 // Textures come from the resource packs the modpack runs with, where the manifest says so.
 const inst = openInstance(arg('instance'), { packs: manifest.$resourcePacks ?? [] });
@@ -64,7 +67,7 @@ const entries = Object.fromEntries(Object.entries(manifest).flatMap(([id, { vari
   ...Object.entries(variants ?? {}).map(([key, over]) => [`${id}_${key}`, { ...entry, name: undefined, $why: undefined, ...over }]),
 ]));
 const index = fs.existsSync(INDEX) ? JSON.parse(fs.readFileSync(INDEX, 'utf8')) : {};
-for (const id of Object.keys(index)) if (!entries[id]) delete index[id];
+for (const id of Object.keys(index)) if (!entries[id] && !id.endsWith('_cem')) delete index[id];
 for (const [id, entry] of Object.entries(entries)) {
   if (id.startsWith('$') || (only && !only.includes(id))) continue;
   try {
@@ -100,14 +103,65 @@ for (const [id, entry] of Object.entries(entries)) {
     index[id] = { name: entry.name ?? entityName(id), model: `models/${ns}/${name}.glb`, ...(animations.length ? { animated: true } : {}) };
     built++;
     const cubes = layers.reduce((n, l) => n + countCubes(l.parts), 0);
+    layers_cubes[id] = cubes;
     if (args.includes('--verbose')) console.log(`${id}: ${cubes} cubes${animations.length ? `, animation ${animations[0].name}` : ''}, ${(glb.length / 1024).toFixed(0)} KB`);
   } catch (error) {
     failed.push(`${id}: ${error.message}`);
   }
 }
+// Custom entity models (CEM, from game-data/cem-models.json, npm run cem): the pack's model for a mob the
+// manifest already builds, as <id>_cem, drawn with the texture the game shows (the pack's own, laid out for it).
+const cemManifest = fs.existsSync(CEM_MANIFEST) ? JSON.parse(fs.readFileSync(CEM_MANIFEST, 'utf8')) : { models: {} };
+const cemReport = [];
+const cemSkipped = [];
+for (const [key, cem] of Object.entries(cemManifest.models)) {
+  if (!cem.mob || !entries[cem.mob] || (only && !only.includes(cem.mob))) continue;
+  const id = `${cem.mob}_cem`;
+  try {
+    if (cem.parseError) throw new Error(`.jem unreadable: ${cem.parseError}`);
+    // Expression animations (Fresh Animations, EFA) set the parts' positions every frame, so the .jem alone
+    // isn't a rest pose; those wait for an expression evaluator.
+    if (cem.animations) { cemSkipped.push(`${cem.mob} (${cem.source})`); continue; }
+    const read = file => {
+      const found = inst.packFile(cem.source, file);
+      return found && parseLoose(strFromU8(found));
+    };
+    const jem = read(cem.file);
+    const dir = cem.file.slice(0, cem.file.lastIndexOf('/') + 1);
+    const jpmSource = Object.fromEntries((cem.jpm ?? []).map(j => [j.file, j.source ?? cem.source]));
+    const model = readJem(jem, name => {
+      const found = inst.packFile(jpmSource[name] ?? cem.source, dir + name);
+      return found && parseLoose(strFromU8(found));
+    });
+    if (!model.parts.length) throw new Error('no geometry in the .jem (animation-only?)');
+    const entry = entries[cem.mob];
+    const layer = {
+      texture: { png: texture(entry.texture, id, { winner: true }), width: model.texWidth, height: model.texHeight },
+      emissive: entry.emissive ? { png: premultiply(texture(entry.emissive, id, { winner: true })) } : undefined,
+      translucent: entry.translucent,
+      parts: model.parts,
+    };
+    const glb = writeGlb({ layers: [layer], animations: [] });
+    const [ns, name] = id.split(':');
+    const file = path.join(OUT, ns, `${name}.glb`);
+    fs.writeFileSync(file, glb);
+    index[id] = { name: index[cem.mob]?.name ?? entityName(cem.mob), model: `models/${ns}/${name}.glb`, cem: cem.source };
+    const cubes = countCubes(model.parts);
+    const original = index[cem.mob] && layers_cubes[cem.mob];
+    cemReport.push(`${id}: ${cubes} cubes${original ? ` (original ${original})` : ''} from ${cem.source}${model.notes.attach ? `, ${model.notes.attach} attached entries` : ''}${model.notes.missingJpm.length ? `, missing ${model.notes.missingJpm.join(', ')}` : ''}${cem.animations ? ', animations not evaluated' : ''}`);
+    built++;
+  } catch (error) {
+    failed.push(`${id}: ${error.message}`);
+  }
+}
 fs.writeFileSync(INDEX, JSON.stringify(Object.fromEntries(Object.entries(index).sort()), null, 2) + '\n');
+if (cemReport.length) console.log(`Custom entity models:\n  ${cemReport.join('\n  ')}`);
+if (cemSkipped.length) console.log(`Custom models skipped, their parts are placed by expression animations: ${cemSkipped.length}\n  ${cemSkipped.join('\n  ')}`);
 if (java?.jvm.failures.length && args.includes('--verbose')) console.log(`Calls that threw and were skipped:\n  ${[...new Set(java.jvm.failures)].slice(0, 20).join('\n  ')}`);
 console.log(`Built ${built} models into assets/models/.`);
+const cem = inst.cemDecisions();
+const replaced = [...new Set(cem.filter(d => !d.endsWith('kept')))];
+if (cem.length) console.log(`Textures of packs that also ship a custom entity model: ${new Set(cem).size - replaced.length} kept (same layout), ${replaced.length} replaced:\n  ${replaced.join('\n  ')}`);
 if (failed.length) {
   console.error(`${failed.length} failed:\n  ${failed.join('\n  ')}`);
   process.exitCode = 1;
@@ -189,21 +243,21 @@ function entityName(id) {
   return name.split('_').map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
 }
 
-function need(res) {
-  const bytes = inst.resource(res);
+function need(res, opts) {
+  const bytes = inst.resource(res, opts);
   if (!bytes) throw new Error(`resource not found: ${res}`);
   return bytes;
 }
 function readJson(res) { return JSON.parse(strFromU8(need(res)).replace(/^﻿/, '')); }
 
 // A texture, or a base with overlays drawn over it (scaled to the base's size, nearest neighbour).
-function texture(spec, id) {
+function texture(spec, id, opts) {
   if (!spec) throw new Error(`${id} has no texture`);
   const [base, ...overlays] = [spec].flat();
-  if (!overlays.length) return need(base);
-  const out = PNG.sync.read(Buffer.from(need(base)));
+  if (!overlays.length) return need(base, opts);
+  const out = PNG.sync.read(Buffer.from(need(base, opts)));
   for (const res of overlays) {
-    const over = PNG.sync.read(Buffer.from(need(res)));
+    const over = PNG.sync.read(Buffer.from(need(res, opts)));
     for (let y = 0; y < out.height; y++) for (let x = 0; x < out.width; x++) {
       const sx = Math.floor(x * over.width / out.width), sy = Math.floor(y * over.height / out.height);
       const s = (sy * over.width + sx) * 4, d = (y * out.width + x) * 4;

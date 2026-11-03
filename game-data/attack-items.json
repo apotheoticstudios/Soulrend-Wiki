@@ -1403,7 +1403,7 @@
  "soulsweapons:translucent_glaive": "sprite",
  "soulsweapons:translucent_sword": "sprite",
  "soulsweapons:whirligig_sawblade": "elements",
- "soulsweapons:withered_wabbajack": "elements",
+ "soulsweapons:withered_wabbajack": "none: Cannot read properties of undefined (reading 'frametime')",
  "traveloptics:abyssal_tidecaller": "geckolib",
  "traveloptics:abyssal_tidecaller_level_one": "geckolib",
  "traveloptics:abyssal_tidecaller_level_three": "geckolib",
