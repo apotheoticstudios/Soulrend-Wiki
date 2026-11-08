@@ -624,8 +624,9 @@ a.recipe-slot:hover::after, span.recipe-slot:not(.empty):hover::after {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   text-align: center;
-  overflow-wrap: anywhere;
 }
+/* One line each; hall-of-fame.js shrinks the font of any that would overflow. */
+.prose .hof-list li > strong, .hof-meta { align-self: stretch; white-space: nowrap; overflow: hidden; }
 .hof-head {
   width: 48px;
   height: 48px;
