@@ -7,8 +7,9 @@
 //      en_us names), flat icons (the texture each item model points at), recipes and item tags.
 //      Needs no running game, but misses KubeJS changes, tooltips and 3D block icons.
 //      --packs applies resource-pack models and textures on top, in the order given.
-//   2. kubejs/exported/wiki/{items,recipes,tags}.json, written in game by tools/kubejs/*/wiki_export.js:
-//      exact names, rarities, tooltips, and recipes/tags after KubeJS changes. The same export's data
+//   2. wiki-export/{items,recipes,tags}.json in the instance, written in game by /soulrenddev wiki export (the
+//      Soulrend Dev Utils mod in the instance's mod-src/, installed with npm run install-exporter):
+//      exact names, rarities, tooltips, and recipes/tags as the running game has them. The same export's data
 //      files (EXPORT_DATA below) are copied as they are, plus loot-index.json built from loot tables.
 //   3. Rendered icons from an icon-export mod (a folder of <namespace>__<path>.png files).
 // movesets.json (Epic Fight weapon types, combos and skills) is read from mod bytecode and capability JSON;
@@ -36,7 +37,11 @@ const INSTANCE = path.resolve(arg('instance', path.join(CURSEFORGE, 'Instances/S
 const CLIENT_JAR = arg('jar', path.join(CURSEFORGE, 'Install/versions/1.20.1/1.20.1.jar'));
 const PACKS = (arg('packs', '') || '').split(',').map(s => s.trim()).filter(Boolean)
   .map(p => path.isAbsolute(p) ? p : path.join(INSTANCE, 'resourcepacks', p));
-const EXPORT_DIR = path.join(INSTANCE, 'kubejs/exported/wiki');
+// kubejs/exported/wiki/ is where the old KubeJS exporter wrote; still read when no new export exists.
+const LEGACY_EXPORT_DIR = path.join(INSTANCE, 'kubejs/exported/wiki');
+const EXPORT_DIR = fs.existsSync(path.join(INSTANCE, 'wiki-export')) || !fs.existsSync(LEGACY_EXPORT_DIR)
+  ? path.join(INSTANCE, 'wiki-export')
+  : LEGACY_EXPORT_DIR;
 // In-game export files copied to game-data/ unchanged: export name -> game-data name.
 const EXPORT_DATA = {
   'item_stats.json': 'item-stats.json',
@@ -265,7 +270,7 @@ function expandTags(itemIds) {
 }
 
 // soulrend_core's removals.toml runs on TagsUpdatedEvent, after the KubeJS recipe event, so an export made
-// before wiki_export.js filtered against the live recipe manager (and the jar scan) still has those recipes.
+// with the old KubeJS exporter before it filtered against the live recipe manager (and the jar scan) still has them.
 // Mirrors RecipeRules: protected ids are kept; byOutput tests the result item; byInput tests every
 // ingredient, with smithing slots only on vanilla smithing recipes. Ingredients are read from the JSON.
 const PROTECTED_RECIPE_NAMESPACES = new Set(['soulrend_core', 'soulrend', 'kubejs']);
@@ -346,6 +351,9 @@ if (!fs.existsSync(INSTANCE)) {
 }
 const started = performance.now();
 console.log(`Scanning ${INSTANCE}`);
+if (EXPORT_DIR === LEGACY_EXPORT_DIR) {
+  console.warn('  reading the old KubeJS export (kubejs/exported/wiki/); run npm run install-exporter and /soulrenddev wiki export for a fresh one');
+}
 
 const archives = [];
 if (fs.existsSync(CLIENT_JAR)) archives.push({ file: CLIENT_JAR });
@@ -529,10 +537,10 @@ const skillTreeResult = skillTrees.trees.size
   : null;
 const source = {
   syncedAt: new Date().toISOString(),
-  items: exported.items ? 'kubejs export' : 'jar scan',
-  recipes: exported.recipes ? 'kubejs export' : 'jar scan',
+  items: exported.items ? 'in-game export' : 'jar scan',
+  recipes: exported.recipes ? 'in-game export' : 'jar scan',
   recipesRemoved: removalRules ? removedRecipes.length : null,
-  tags: exported.tags ? 'kubejs export' : 'jar scan',
+  tags: exported.tags ? 'in-game export' : 'jar scan',
   data: exportedData,
   icons: { folder: rendered.size ? path.relative(INSTANCE, iconDir) : null, ...iconCounts },
 };

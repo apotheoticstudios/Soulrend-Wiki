@@ -7,6 +7,7 @@ npm install          # once
 npm run dev          # preview at http://localhost:4321, rebuilds and reloads on save
 npm run build        # production build into dist/ (fails on any error)
 npm run sync-game    # refresh game-data/ from the modpack instance
+npm run install-exporter     # build the in-game exporter (/soulrenddev wiki export) into the instance
 npm run font         # rebuild the pixel font from tools/font/glyphs.txt
 npm run models       # rebuild the mob 3D models in assets/models/ from the modpack instance
 npm run attacks      # rebuild the Epic Fight attack viewer (player, dummies, weapons, animations)
@@ -30,8 +31,8 @@ npm run mods         # refresh the Mod Planner's CurseForge data (needs CURSEFOR
 | `game-data/` | Item names, icons, recipes and tags from the modpack (written by `npm run sync-game`), and the list of mob models (`mobs.json`, written by `npm run models`). |
 | `dev-tools/` | Standalone tools served at `/dev-tools/`, copied into the build as they are, separate from the wiki. |
 | `src/` | The renderer (`render/`), browser scripts (`client/`), styles and the generated font. |
-| `tools/` | Build, dev server, game-data sync, font converter, and the in-game KubeJS export scripts. |
-| `docs/` | Notes for editors. [`docs/style-guide.md`](docs/style-guide.md) is how to write a page (voice, sources, templates). [`docs/instance-guide.md`](docs/instance-guide.md) says where to find quests, origins, skill trees, bosses and pack mechanics in the modpack instance. |
+| `tools/` | Build, dev server, game-data sync, font converter, and the in-game exporter's install script. |
+| `docs/` | Notes for editors. [`docs/style-guide.md`](docs/style-guide.md) is how to write a page (voice, sources, templates). [`docs/instance-guide.md`](docs/instance-guide.md) says where to find quests, origins, skill trees, bosses and pack mechanics in the modpack instance. [`docs/in-game-export.md`](docs/in-game-export.md) covers the in-game export. |
 
 ## Reporting bugs
 
@@ -176,11 +177,11 @@ Use `"flow": true` instead of `size`/`inputs`/`outputs` for an automatic row lay
 `npm run sync-game` reads the instance at `~/Documents/curseforge/minecraft/Instances/Soulrend-Development` (override with `--instance <dir>`) and writes `game-data/`. It combines three sources, later ones winning:
 
 1. **Jar scan** (automatic). Item names, flat icons, recipes and tags straight from the mod jars. This works without starting the game, but it misses KubeJS recipe changes, tooltips, rarities and 3D block icons.
-2. **In-game export** (exact data). To set it up:
-   1. Run `npm run install-kubejs`. It copies `tools/kubejs/server_scripts/wiki_export.js` and `tools/kubejs/client_scripts/wiki_export.js` into the instance's `kubejs/` folders, replacing the old copies (`--instance <dir>` for another instance). Run it again after changing either script.
-   2. Create `kubejs/exported/wiki/enabled.json` containing `{}`. Without this file the scripts do nothing, so they're harmless if they ever ship with the pack.
-   3. Start the game and open a single-player world **on a fresh character with nothing equipped and no origin bonuses**. Spell values and Epic Fight styles are read with your player as the caster, so gear or origin bonuses would leak into them. On load, the server script writes `recipes.json`, `tags.json` and `loot_tables.json`. When you join, it writes `item_stats.json`, and the client script writes `items.json`, `gems.json`, `skills.json`, `spells.json`, `attributes.json`, `effects.json` and `enchantments.json`. Each step reports in chat, and a step that fails doesn't stop the others.
-   4. Run `npm run sync-game`. Its `data:` line lists the extra files it copied.
+2. **In-game export** (exact data). The exporter is the `/soulrenddev wiki export` command of the modpack's dev-only Soulrend Dev Utils mod, in the [modpack repo](https://github.com/apotheoticstudios/Soulrend-Development) at `mod-src/soulrend_dev_utils/`. **[docs/in-game-export.md](docs/in-game-export.md)** has the full details: output files, how recipes are exported, what to check after an export, and troubleshooting. In short:
+   1. Run `npm run install-exporter`. The exporter is part of the modpack's dev-only **Soulrend Dev Utils** mod (`mod-src/soulrend_dev_utils/` in the instance, documented in the modpack repo's `docs/features/soulrend-dev-utils.md`). The script builds it with Gradle, which puts `soulrend_dev_utils-*.jar` in the instance's `mods/`, and removes the old KubeJS export scripts if they are still in `kubejs/`. Gradle needs JDK 17 or 21. On macOS the script finds one; elsewhere pass `--java-home <jdk>` or set `JAVA_HOME`. Use `--instance <dir>` for another instance. Run it again after pulling changes to the mod. The jar must never ship with the pack; `npm run uninstall-exporter` removes it.
+   2. Start the game and open a single-player world **on a fresh character with nothing equipped and no origin bonuses**. Spell values and Epic Fight styles are read with your player as the caster, so gear or origin bonuses would leak into them (the command warns if you have gear on). Run `/soulrenddev wiki export`. It writes `items.json`, `gems.json`, `skills.json`, `spells.json`, `attributes.json`, `effects.json`, `enchantments.json`, `recipes.json`, `tags.json`, `loot_tables.json`, `item_stats.json` and `attack_modifiers.json` to the instance's `wiki-export/` folder. Each step reports in chat, and a step that fails doesn't stop the others.
+   3. Run `npm run sync-game`. Its `data:` line lists the extra files it copied. Without a `wiki-export/` folder it falls back to an old KubeJS export in `kubejs/exported/wiki/`, with a warning. Don't run it with no export at all: it would replace `game-data/` with the jar scan and delete the export-only files.
+   4. Check `git diff --stat game-data/` before committing (see [Checking an export](docs/in-game-export.md#checking-an-export)).
 
    The extra files land in `game-data/` for writing pages; the build doesn't read them yet:
 
@@ -214,7 +215,7 @@ Use `"flow": true` instead of `size`/`inputs`/`outputs` for an automatic row lay
 
 **Skill trees** (`game-data/skilltrees.json` and `game-data/skilltrees/`, read by the `skilltree` embed) also need no export step. `sync-game` reads the trees from the Passive Skill Tree jar and the Paxi datapacks, builds each node's tooltip with a port of the mod's tooltip code (`tools/lib/skilltree-tooltips.mjs`), and takes textures from the jars and then the Paxi resource packs (Tabla's PST-I pack replaces the node frames and connections). Each tree's node textures are packed into one sheet. Untranslated lang keys stay raw, as they do in game, and `sync-game` lists them.
 
-Re-run the export (open a world with `enabled.json` present, then `npm run sync-game`) whenever recipes, items or tags change. If a script errors, the KubeJS log says where.
+Re-run the export (`/soulrenddev wiki export`, then `npm run sync-game`) whenever recipes, items or tags change. If a step fails, `logs/latest.log` in the instance has the details (lines start with `[wiki export]`).
 
 `game-data/` only covers items, recipes, tags, the export's data files, Epic Fight movesets and the skill tree maps. For everything else (quests, acts, origins, skill tree numbers, boss spawns), read the instance directly: [`docs/instance-guide.md`](docs/instance-guide.md) says where each thing lives and which files to skip.
 

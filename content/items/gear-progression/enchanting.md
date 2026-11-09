@@ -107,7 +107,7 @@ Infusion also makes the [[items/gear-progression/coins-and-apples|Infused and As
 
 The **Gilded Aerogel Skyshelf** and **Infused Skyshelf** need the Aether mod, which Soulrend doesn't include, so they can't be obtained.
 
-<!-- TODO: most shelf and tome crafting recipes are registered in Apotheosis's code (EnchModule via Placebo) and are missing from game-data/recipes.json until the next export with the updated wiki_export.js -->
+<!-- TODO: most shelf and tome crafting recipes are registered in Apotheosis's code (EnchModule via Placebo) and are missing from game-data/recipes.json until the next /soulrenddev wiki export is synced -->
 
 ## Enchanting shelves
 

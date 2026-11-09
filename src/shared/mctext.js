@@ -31,7 +31,7 @@ export function mcTextToHtml(text) {
       chunk = part.slice(1);
       const hex = /^#[0-9a-f]{6}/i.exec(part);
       if (hex) {
-        // §#rrggbb: hex colour, written by the KubeJS export for colours outside the 16 named ones.
+        // §#rrggbb: hex colour, written by the in-game export for colours outside the 16 named ones.
         style = { color: hex[0] };
         chunk = part.slice(7);
       } else if (/^(rainbow|fabled)/i.test(part)) {

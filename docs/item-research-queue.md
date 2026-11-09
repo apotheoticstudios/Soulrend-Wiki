@@ -65,7 +65,7 @@ Weapon pages now show each skill's name and tooltip through the `moveset` embed 
 
 ## No recipe or loot table in the dumps (KubeJS recipe, quest reward, trade or code drop?)
 
-Apotheosis's basic shelves and the slot tomes are crafted with recipes registered in code (Placebo's RecipeHelper), which exports made before 2026-10-25 missed. `wiki_export.js` now rebuilds them from the live recipe manager; re-export, sync and remove those entries.
+Apotheosis's basic shelves and the slot tomes are crafted with recipes registered in code (Placebo's RecipeHelper), which exports made before 2026-10-25 missed. `/soulrenddev wiki export` rebuilds them from the live recipe manager; re-export, sync and remove those entries.
 
 405 entries.
 

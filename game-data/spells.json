@@ -11532,8 +11532,8 @@
     "manaCost": 40,
     "castTime": 200,
     "info": [
-     "§aFlesh Fragments: 2",
-     "§aSelf Damage: 19"
+     "§aFlesh Fragments: §r§a2",
+     "§aSelf Damage: §r§a19"
     ]
    },
    {
@@ -11542,8 +11542,8 @@
     "manaCost": 340,
     "castTime": 200,
     "info": [
-     "§aFlesh Fragments: 4",
-     "§aSelf Damage: 19"
+     "§aFlesh Fragments: §r§a4",
+     "§aSelf Damage: §r§a19"
     ]
    },
    {
@@ -11552,8 +11552,8 @@
     "manaCost": 640,
     "castTime": 200,
     "info": [
-     "§aFlesh Fragments: 6",
-     "§aSelf Damage: 19"
+     "§aFlesh Fragments: §r§a6",
+     "§aSelf Damage: §r§a19"
     ]
    }
   ]

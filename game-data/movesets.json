@@ -17039,7 +17039,7 @@
   },
   "wom:blackstar": {
    "type": "womplus:blackstar",
-   "source": "pack:womplus-20.14.1.3.1.jar/wom_override",
+   "source": "pack:womplus-20.14.1.3.2.jar/wom_override",
    "style": "two_hand",
    "maxStrikes": {
     "common": 4
@@ -17047,7 +17047,7 @@
   },
   "wom:diamond_greataxe": {
    "type": "womplus:greataxe",
-   "source": "pack:womplus-20.14.1.3.1.jar/wom_override",
+   "source": "pack:womplus-20.14.1.3.2.jar/wom_override",
    "style": "two_hand",
    "maxStrikes": {
     "common": 3
@@ -17071,7 +17071,7 @@
   },
   "wom:evil_tachi": {
    "type": "womplus:evil_tachi_reift",
-   "source": "pack:womplus-20.14.1.3.1.jar/wom_override",
+   "source": "pack:womplus-20.14.1.3.2.jar/wom_override",
    "style": "two_hand",
    "maxStrikes": {
     "common": 6
@@ -17087,7 +17087,7 @@
   },
   "wom:golden_greataxe": {
    "type": "womplus:greataxe",
-   "source": "pack:womplus-20.14.1.3.1.jar/wom_override",
+   "source": "pack:womplus-20.14.1.3.2.jar/wom_override",
    "style": "two_hand",
    "maxStrikes": {
     "common": 3
@@ -17111,7 +17111,7 @@
   },
   "wom:hollow_longsword": {
    "type": "womplus:hollow_longsword",
-   "source": "pack:womplus-20.14.1.3.1.jar/wom_override",
+   "source": "pack:womplus-20.14.1.3.2.jar/wom_override",
    "style": "two_hand",
    "maxStrikes": {
     "common": 3
@@ -17119,7 +17119,7 @@
   },
   "wom:iron_greataxe": {
    "type": "womplus:greataxe",
-   "source": "pack:womplus-20.14.1.3.1.jar/wom_override",
+   "source": "pack:womplus-20.14.1.3.2.jar/wom_override",
    "style": "two_hand",
    "maxStrikes": {
     "common": 4
@@ -17159,7 +17159,7 @@
   },
   "wom:netherite_greataxe": {
    "type": "womplus:greataxe",
-   "source": "pack:womplus-20.14.1.3.1.jar/wom_override",
+   "source": "pack:womplus-20.14.1.3.2.jar/wom_override",
    "style": "two_hand",
    "maxStrikes": {
     "common": 3
@@ -17175,7 +17175,7 @@
   },
   "wom:nova": {
    "type": "womplus:nova",
-   "source": "pack:womplus-20.14.1.3.1.jar/wom_override",
+   "source": "pack:womplus-20.14.1.3.2.jar/wom_override",
    "style": "one_hand",
    "maxStrikes": {
     "common": 6

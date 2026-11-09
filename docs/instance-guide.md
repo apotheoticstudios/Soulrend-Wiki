@@ -19,7 +19,7 @@ Where the modpack keeps the information the wiki needs, and what to watch out fo
 | Two-handed weapons and `soulrend:` tags | `config/the_config_of_alexandria/` (has its own README, `ATTRIBUTES.md` and `SOULREND_TAGS.md`) |
 | Removed items | `config/item_obliterator.json5`, the `soulrend:deleted_items` tag, `global.deleted_items` in KubeJS |
 | Spells and attributes | `registry_dumps/spells.txt`, `registry_dumps/attributes.txt` |
-| Items, recipes and tags | the wiki's own `game-data/` (from the KubeJS export), not the instance |
+| Items, recipes and tags | the wiki's own `game-data/` (from the in-game export), not the instance |
 | Installed mods | the `mods/` folder (421 jars) |
 
 ## Quests: `config/ftbquests/quests/`
@@ -73,7 +73,7 @@ Things to watch for:
   - `magic/` and `recipes/` add recipes.
   - `global.js` defines the `/soulrend` commands and carries item data through crafting.
 - **`client_scripts/`** has tooltips (`tooltips.js`) and JEI hiding (`jei*.js`).
-- **`wiki_export.js`** (server and client) is the wiki's own exporter, which writes to `kubejs/exported/wiki/`. It only runs when `enabled.json` exists.
+- The wiki's exporter used to live here as `wiki_export.js`. It is now `/soulrenddev wiki export` in the dev-only Soulrend Dev Utils mod (`mod-src/soulrend_dev_utils/`), writing to `wiki-export/`.
 
 Recipes that KubeJS scripts **add** (`event.shaped`, `shapeless`, `smithing`, `custom`, and `replaceShaped` in `global.js`) sit in `event.addedRecipes`, not in `forEachRecipe` (which only visits datapack recipes). The exporter reads both, and the 2026-10-25 export has them under ids like `minecraft:kjs/<output>`.
 
@@ -82,7 +82,7 @@ Recipes that KubeJS scripts **add** (`event.shaped`, `shapeless`, `smithing`, `c
 - **`soulrend_core`'s `config/soulrend_core/recipes/removals.toml`** runs on `TagsUpdatedEvent` and edits the live recipe manager. It drops every recipe whose result is in `#soulrend:deleted_items` or `#soulrend:custom_recipes_only` (plus a few Too Many Bows bows and Create's Andesite Alloy), and every recipe with an ingredient in `#soulrend:deleted_items`. Ids in the `soulrend_core`, `soulrend` and `kubejs` namespaces, and `*:kjs/*`, are never removed. That is how the pack swaps about 680 mod recipes for its own `soulrend:` versions (most of them Mechanical Fusion Anvil or `soulrend_core:upgrade_*` recipes). The class is `net.apotheoticstudios.soulrend_core.recipe.RecipeRules`.
 - **Recipes that fail to parse** in game are skipped (the log says "Failed to parse recipe").
 
-`wiki_export.js` therefore collects the JSON in the recipe event and writes `recipes.json` on server start, keeping only ids the started server still has. Until an export made with that version is synced, `sync-game` applies `removals.toml` itself from the JSON.
+The exporter therefore walks the live recipe manager of the running game, so removed recipes are already gone. Until such an export is synced, `sync-game` applies `removals.toml` itself from the JSON.
 
 ## Paxi datapacks: `config/paxi/datapacks/`
 
@@ -315,7 +315,7 @@ Use `game-data/items.json` and `tags.json`, not registry dumps.
 - **Reforging costs** are `apotheosis:reforging` recipes. Ancient and Artifact each have two, and the Ancient and Esoteric tables take the first match (`getRecipeFor`).
 - **Universal bosses** (Fallen Gems) come from `universal_boss/universal_boss.json` in the rebalance pack (tier chances, dimension tiers, boss affixes). Their drops are in the jar's `universal_boss_loot.json`.
 - **Apotheotic Additions' wandering trader trades** are in its jar under `data/apotheotic_additions/wanderer_trades/`. Most are gated on mods Soulrend doesn't have, so evaluate the `forge:mod_loaded` conditions.
-- **Apotheosis crafts its basic shelves and slot tomes in code** (`EnchModule`, through Placebo's `RecipeHelper`). These recipes reach the recipe manager after the KubeJS recipe event; `wiki_export.js` now rebuilds them from the live recipes. Until that export has run, read them from `EnchModule.lambda$init$4` (`javap -c -p`, replay the stack, translate SRG names with `tools/lib/models/mappings.mjs`): Hellshelf, Seashelf, Blazing, Glowing, Crystalline, Heart-Forged, Pearlescent and Draconic Endshelf, Beeshelf, Melonshelf, the nine slot tomes and the Tome of Scrapping. The [Enchanting Guide](../content/guides/enchanting-guide.md) has them as hand-written `recipe` blocks.
+- **Apotheosis crafts its basic shelves and slot tomes in code** (`EnchModule`, through Placebo's `RecipeHelper`). These recipes reach the recipe manager after the KubeJS recipe event; `/soulrenddev wiki export` rebuilds them from the live recipes. Until that export has run, read them from `EnchModule.lambda$init$4` (`javap -c -p`, replay the stack, translate SRG names with `tools/lib/models/mappings.mjs`): Hellshelf, Seashelf, Blazing, Glowing, Crystalline, Heart-Forged, Pearlescent and Draconic Endshelf, Beeshelf, Melonshelf, the nine slot tomes and the Tome of Scrapping. The [Enchanting Guide](../content/guides/enchanting-guide.md) has them as hand-written `recipe` blocks.
 - **Enchanting table math** (Apotheosis 7.4.8; the guide has the worked numbers):
   - Stats come from `data/apotheosis/enchanting_stats/*.json` in the jar and every pack: `soulrend_apotheosis_rebalance` (shelves), `soulrend_apotheosis_additions` (Supplementaries' candle holders, sconces, goblet, Enderman head; Arcana 1–5%), Apotheotic Additions, Traveloptics (`obsidian_bookshelf`, Eterna +15 up to 50) and Amendments (skull candles and pile). A block with no entry uses Forge's enchant power bonus and a Max of 15 (`IEnchantingBlock.getMaxEnchantingPower`).
   - `ApothEnchantmentMenu$TableStats$Builder` sums Eterna per Max group, lowest Max first, `eterna = min(max, eterna + group)`; a Max of 0 is added uncapped. Quanta starts at 15, Arcana at the item's enchantability / 2, Clues at 1. The ring is vanilla's 32 `BOOKSHELF_OFFSETS`.

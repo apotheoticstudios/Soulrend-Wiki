@@ -1,6 +1,6 @@
 {
  "data": [
-  "item-stats (14144)",
+  "item-stats (14148)",
   "loot-tables (8411)",
   "gems (102)",
   "skills (302)",
@@ -10,15 +10,15 @@
   "enchantments (133)"
  ],
  "icons": {
-  "folder": "icon-exports-x32",
-  "rendered": 13283,
-  "flat": 725,
-  "entity": 74,
-  "none": 136
+  "folder": null,
+  "rendered": 0,
+  "flat": 11713,
+  "entity": 448,
+  "none": 2435
  },
- "items": "kubejs export",
- "recipes": "kubejs export",
+ "items": "in-game export",
+ "recipes": "in-game export",
  "recipesRemoved": 0,
- "syncedAt": "2026-11-02T21:44:10.929Z",
- "tags": "kubejs export"
+ "syncedAt": "2026-11-09T01:02:57.895Z",
+ "tags": "in-game export"
 }
