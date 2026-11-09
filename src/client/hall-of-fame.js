@@ -32,6 +32,17 @@ export async function initHallOfFame() {
     list.append(item);
   });
   box.append(list);
+  new ResizeObserver(() => fitText(list)).observe(list);
+}
+
+// Shrinks each name and date line that is wider than its card, so nothing wraps or clips.
+function fitText(list) {
+  for (const line of list.querySelectorAll('strong, .hof-meta')) {
+    line.style.fontSize = '';
+    if (line.scrollWidth <= line.clientWidth) continue;
+    const size = parseFloat(getComputedStyle(line).fontSize);
+    line.style.fontSize = `${Math.floor(size * line.clientWidth / line.scrollWidth)}px`;
+  }
 }
 
 // The face (8,8) with the hat layer (40,8) on top, as the game draws it.
