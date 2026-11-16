@@ -15,8 +15,7 @@
     "forge": "node tools/make-dragonforge.mjs",
     "attacks": "node tools/make-attacks.mjs",
     "dps": "node tools/make-dps.mjs",
-    "skin": "node tools/set-skin.mjs",
-    "mods": "node --env-file-if-exists=.env tools/curseforge-mods.mjs"
+    "skin": "node tools/set-skin.mjs"
   },
   "devDependencies": {
     "ajv": "^8.20.0",
