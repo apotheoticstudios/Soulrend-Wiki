@@ -10,7 +10,7 @@
 }
 ---
 <!-- sources:
-  content/items/skill-books/ (53 book pages: skill, slot, quest tier; sourced there from game-data/skills.json, kubejs/server_scripts/recipes/skillbook_recipes.js and config/ftbquests/quests/chapters/epicfight.snbt)
+  content/items/skill-books/ (53 book pages: skill, slot, quest tier; sourced there from game-data/skills.json, the soulrend:skills/skillbooks/* recipes and config/ftbquests/quests/chapters/epicfight.snbt)
   mods/epic-fight-20.14.17-mc1.20.1-forge.jar lang (epicfight.skill_slot.dodge, guard, mover "Mobility", identity, passive1-3; key.epicfight.skill_gui "Open Skill Editor"), EpicFightLootTables (vanilla chest skill books: guard, step, roll, berserker, stamina_pillager, technician, swordmaster, phantom_ascent), PlayerPatch (players start with only basic_attack and knockdown_wakeup)
   config/epicfight-common.toml (skill_book_mob_drop_chance_modifier -100, skill_book_chest_drop_chance_modifier 10; gamerules keepSkills true, skillReplaceCooldown 6000)
   config/ftbquests/quests/chapters/the_realms.snbt "Epic Combat" (rewards: skill books efn:efn_parry, epicfight:guard, efn:efn_dodge, epicfight:step)

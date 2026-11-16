@@ -18,7 +18,7 @@
 <!-- sources:
   config/ftbquests/quests/chapters/epicfight.snbt (62 quests; checkmark "EpicFight SkillBooks" depends on act_1 "SkillBooks", subtitle quoted below, 20 experience points; 61 item quests for epicfight:skillbook with a skill tag or an enchanted book; XP level rewards)
   mods/ lang files (skill display names); game-data/items.json (mod names)
-  kubejs/server_scripts/recipes/skillbook_recipes.js (52 Soulrend skill book recipes)
+  game-data/recipes.json (53 Soulrend skill book recipes, soulrend:skills/skillbooks/*, a Paxi datapack; KubeJS recipes before 2026-11-08)
 -->
 **Epic Fight** is the Legendary Armoury chapter for combat skills. Every quest asks for one Epic Fight [[item:epicfight:skillbook]] with a specific skill, or one of the enchanted books that teach the YAMATO's skills, and pays out XP levels. The chapter is a checklist: no quest depends on another except the opening checkmark.
 

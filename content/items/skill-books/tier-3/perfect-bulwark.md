@@ -36,7 +36,7 @@
 ---
 <!-- sources:
   game-data/skills.json (wom:perfect_bulwark: category guard, resource stamina, weapon categories, description)
-  game-data/recipes.json (minecraft:kjs/epicfight_skillbook_43, from kubejs/server_scripts/recipes/skillbook_recipes.js)
+  game-data/recipes.json (soulrend:skills/skillbooks/wom/perfect_bulwark_custom, a Paxi datapack recipe; it was a KubeJS recipe before 2026-11-08)
   config/ftbquests/quests/chapters/epicfight.snbt (quest 4F58D76DFEC16449: have the book; 5 XP levels)
   mods/epic-fight-20.14.17-mc1.20.1-forge.jar lang (Skill Book, Learn, Open Skill Editor, skill categories); config/defaultoptions/keybindings.txt (skill_gui K, dodge Left Alt, guard right mouse, mover Space)
 -->
@@ -55,7 +55,7 @@ Right-click the book and press **Learn**, then equip the skill in the **Guard** 
 
 ## Crafting
 
-{{recipe minecraft:kjs/epicfight_skillbook_43}}
+{{recipe soulrend:skills/skillbooks/wom/perfect_bulwark_custom}}
 
 ## Quests
 

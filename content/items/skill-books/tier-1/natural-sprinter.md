@@ -32,7 +32,7 @@
 ---
 <!-- sources:
   game-data/skills.json (wom:natural_sprinter: category mover, resource stamina, weapon categories, description)
-  game-data/recipes.json (minecraft:kjs/epicfight_skillbook, from kubejs/server_scripts/recipes/skillbook_recipes.js)
+  game-data/recipes.json (soulrend:skills/skillbooks/wom/natural_sprinter_custom, a Paxi datapack recipe; it was a KubeJS recipe before 2026-11-08)
   config/ftbquests/quests/chapters/epicfight.snbt (quest 32F53139C4B84DF0: have the book; 3 XP levels)
   mods/epic-fight-20.14.17-mc1.20.1-forge.jar lang (Skill Book, Learn, Open Skill Editor, skill categories); config/defaultoptions/keybindings.txt (skill_gui K, dodge Left Alt, guard right mouse, mover Space)
 -->
@@ -57,7 +57,7 @@ Right-click the book and press **Learn**, then equip the skill in the **Mover** 
 
 ## Crafting
 
-{{recipe minecraft:kjs/epicfight_skillbook}}
+{{recipe soulrend:skills/skillbooks/wom/natural_sprinter_custom}}
 
 ## Quests
 

@@ -28,7 +28,7 @@
 ---
 <!-- sources:
   game-data/skills.json (epicfight:adrenaline_fiend: category passive, resource none, weapon categories, description)
-  game-data/recipes.json (minecraft:kjs/epicfight_skillbook_25, from kubejs/server_scripts/recipes/skillbook_recipes.js)
+  game-data/recipes.json (soulrend:skills/skillbooks/epicfight/adrenaline_fiend_custom, a Paxi datapack recipe; it was a KubeJS recipe before 2026-11-08)
   config/ftbquests/quests/chapters/epicfight.snbt (quest 71530A0631A0F9D9: have the book; 5 XP levels)
   mods/epic-fight-20.14.17-mc1.20.1-forge.jar lang (Skill Book, Learn, Open Skill Editor, skill categories); config/defaultoptions/keybindings.txt (skill_gui K, dodge Left Alt, guard right mouse, mover Space)
 -->
@@ -44,7 +44,7 @@ Right-click the book and press **Learn**, then equip the skill in the **Passive*
 
 ## Crafting
 
-{{recipe minecraft:kjs/epicfight_skillbook_25}}
+{{recipe soulrend:skills/skillbooks/epicfight/adrenaline_fiend_custom}}
 
 ## Quests
 

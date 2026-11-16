@@ -28,7 +28,7 @@
 ---
 <!-- sources:
   game-data/skills.json (wom:shooting_style: category identity, resource none, weapon categories, description)
-  game-data/recipes.json (minecraft:kjs/epicfight_skillbook_11, from kubejs/server_scripts/recipes/skillbook_recipes.js)
+  game-data/recipes.json (soulrend:skills/skillbooks/wom/shooting_style_custom, a Paxi datapack recipe; it was a KubeJS recipe before 2026-11-08)
   config/ftbquests/quests/chapters/epicfight.snbt (quest 327C2DFC4EB70BB0: have the book; 3 XP levels)
   mods/epic-fight-20.14.17-mc1.20.1-forge.jar lang (Skill Book, Learn, Open Skill Editor, skill categories); config/defaultoptions/keybindings.txt (skill_gui K, dodge Left Alt, guard right mouse, mover Space)
 -->
@@ -46,7 +46,7 @@ Right-click the book and press **Learn**, then equip the skill in the **Identity
 
 ## Crafting
 
-{{recipe minecraft:kjs/epicfight_skillbook_11}}
+{{recipe soulrend:skills/skillbooks/wom/shooting_style_custom}}
 
 ## Quests
 
